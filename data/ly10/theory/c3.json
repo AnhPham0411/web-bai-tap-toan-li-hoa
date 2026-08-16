@@ -1,52 +1,98 @@
 {
   "chapterId": "c3",
-  "title": "Chuyển động biến đổi",
+  "title": "Chuyển động biến đổi & Động học nâng cao",
   "lessons": [
     {
       "id": "b5",
-      "title": "Bài 5. Gia tốc",
+      "title": "Bài 5. Rơi tự do & Chuyển động ném",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 5. Gia tốc"
+          "text": "1. Sự rơi tự do"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 5. Gia tốc theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Chuyển động rơi tự do",
+          "content": "Sự rơi tự do là sự rơi chỉ chịu tác dụng của trọng lực. Chuyển động rơi tự do là chuyển động thẳng nhanh dần đều theo phương thẳng đứng, hướng từ trên xuống dưới."
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Vận tốc rơi tự do",
+              "math": "v = g \\cdot t"
+            },
+            {
+              "label": "Quãng đường / Độ cao",
+              "math": "h = \\frac{1}{2} g \\cdot t^2"
+            },
+            {
+              "label": "Vận tốc theo độ cao",
+              "math": "v = \\sqrt{2g h}"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Chuyển động ném ngang"
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 5. Gia tốc."
+          "content": "Chuyển động ném ngang gồm 2 thành phần độc lập:\n- Theo phương nằm ngang Ox: Chuyển động thẳng đều với v_x = v_0, x = v_0 · t.\n- Theo phương thẳng đứng Oy: Chuyển động rơi tự do với v_y = g · t, y = 1/2 · g · t²."
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 5. Gia tốc.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "formula",
+          "items": [
+            {
+              "label": "Phương trình quỹ đạo",
+              "math": "y = \\frac{g}{2 v_0^2} x^2 \\text{ (dạng một nhánh Parabol)}"
+            },
+            {
+              "label": "Tầm xa ném ngang",
+              "math": "L = v_0 \\sqrt{\\frac{2h}{g}}"
+            }
+          ]
         }
       ]
     },
     {
       "id": "b6",
-      "title": "Bài 6. Rơi tự do",
+      "title": "Bài 6. Tổng hợp & Phân tích lực",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 6. Rơi tự do"
+          "text": "1. Lực và Hợp lực"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 6. Rơi tự do theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Tổng hợp lực",
+          "content": "Tổng hợp lực là thay thế nhiều lực tác dụng đồng thời vào một vật bằng một lực duy nhất có tác dụng giống hệt các lực đó. Lực thay thế gọi là hợp lực \\vec{F} = \\vec{F}_1 + \\vec{F}_2 + ..."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 6. Rơi tự do."
+          "type": "formula",
+          "items": [
+            {
+              "label": "Quy tắc hình bình hành",
+              "math": "F^2 = F_1^2 + F_2^2 + 2 F_1 F_2 \\cos \\alpha"
+            },
+            {
+              "label": "Hai lực cùng chiều (α = 0°)",
+              "math": "F = F_1 + F_2"
+            },
+            {
+              "label": "Hai lực ngược chiều (α = 180°)",
+              "math": "F = |F_1 - F_2|"
+            },
+            {
+              "label": "Hai lực vuông góc (α = 90°)",
+              "math": "F = \\sqrt{F_1^2 + F_2^2}"
+            }
+          ]
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 6. Rơi tự do.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "definition",
+          "title": "Điều kiện cân bằng của chất điểm",
+          "content": "Một chất điểm cân bằng khi hợp lực của tất cả các lực tác dụng lên nó bằng không: \\sum \\vec{F} = \\vec{0}."
         }
       ]
     }

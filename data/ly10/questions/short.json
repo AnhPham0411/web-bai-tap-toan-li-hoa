@@ -5,1350 +5,1350 @@
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 10 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 5 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "2.0",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 10) \\cdot 100\\% = 2.0\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 5) · 100% = 2.0%."
     },
     {
       "id": "sa-c1-002",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 20 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 10 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "1.0",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 20) \\cdot 100\\% = 1.0\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 10) · 100% = 1.0%."
     },
     {
       "id": "sa-c1-003",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 30 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 15 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.67",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 30) \\cdot 100\\% = 0.67\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 15) · 100% = 0.67%."
     },
     {
       "id": "sa-c1-004",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 40 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 20 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.5",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 40) \\cdot 100\\% = 0.5\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 20) · 100% = 0.5%."
     },
     {
       "id": "sa-c1-005",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 50 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 25 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.4",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 50) \\cdot 100\\% = 0.4\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 25) · 100% = 0.4%."
     },
     {
       "id": "sa-c1-006",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 60 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 30 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.33",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 60) \\cdot 100\\% = 0.33\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 30) · 100% = 0.33%."
     },
     {
       "id": "sa-c1-007",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 70 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 35 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.29",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 70) \\cdot 100\\% = 0.29\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 35) · 100% = 0.29%."
     },
     {
       "id": "sa-c1-008",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 80 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 40 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.25",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 80) \\cdot 100\\% = 0.25\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 40) · 100% = 0.25%."
     },
     {
       "id": "sa-c1-009",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 90 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 45 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.22",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 90) \\cdot 100\\% = 0.22\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 45) · 100% = 0.22%."
     },
     {
       "id": "sa-c1-010",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 100 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 50 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.2",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 100) \\cdot 100\\% = 0.2\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 50) · 100% = 0.2%."
     },
     {
       "id": "sa-c1-011",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 110 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 55 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.18",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 110) \\cdot 100\\% = 0.18\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 55) · 100% = 0.18%."
     },
     {
       "id": "sa-c1-012",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 120 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 60 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.17",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 120) \\cdot 100\\% = 0.17\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 60) · 100% = 0.17%."
     },
     {
       "id": "sa-c1-013",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 130 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 65 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.15",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 130) \\cdot 100\\% = 0.15\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 65) · 100% = 0.15%."
     },
     {
       "id": "sa-c1-014",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 140 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 70 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.14",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 140) \\cdot 100\\% = 0.14\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 70) · 100% = 0.14%."
     },
     {
       "id": "sa-c1-015",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Đo chiều dài đoạn đường được l = 150 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 75 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.13",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 150) \\cdot 100\\% = 0.13\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 75) · 100% = 0.13%."
     },
     {
       "id": "sa-c1-016",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 160 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 80 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.12",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 160) \\cdot 100\\% = 0.12\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 80) · 100% = 0.12%."
     },
     {
       "id": "sa-c1-017",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 170 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 85 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.12",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 170) \\cdot 100\\% = 0.12\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 85) · 100% = 0.12%."
     },
     {
       "id": "sa-c1-018",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 180 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 90 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.11",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 180) \\cdot 100\\% = 0.11\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 90) · 100% = 0.11%."
     },
     {
       "id": "sa-c1-019",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 190 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 95 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.11",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 190) \\cdot 100\\% = 0.11\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 95) · 100% = 0.11%."
     },
     {
       "id": "sa-c1-020",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 200 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 100 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.1",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 200) \\cdot 100\\% = 0.1\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 100) · 100% = 0.1%."
     },
     {
       "id": "sa-c1-021",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 210 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 105 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.1",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 210) \\cdot 100\\% = 0.1\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 105) · 100% = 0.1%."
     },
     {
       "id": "sa-c1-022",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 220 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 110 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.09",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 220) \\cdot 100\\% = 0.09\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 110) · 100% = 0.09%."
     },
     {
       "id": "sa-c1-023",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 230 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 115 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.09",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 230) \\cdot 100\\% = 0.09\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 115) · 100% = 0.09%."
     },
     {
       "id": "sa-c1-024",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 240 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 120 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.08",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 240) \\cdot 100\\% = 0.08\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 120) · 100% = 0.08%."
     },
     {
       "id": "sa-c1-025",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 250 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 125 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.08",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 250) \\cdot 100\\% = 0.08\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 125) · 100% = 0.08%."
     },
     {
       "id": "sa-c1-026",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 260 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 130 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.08",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 260) \\cdot 100\\% = 0.08\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 130) · 100% = 0.08%."
     },
     {
       "id": "sa-c1-027",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Đo chiều dài đoạn đường được l = 270 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 135 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.07",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 270) \\cdot 100\\% = 0.07\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 135) · 100% = 0.07%."
     },
     {
       "id": "sa-c1-028",
       "chapter": "c1",
       "lesson": "b2",
       "level": "vd",
-      "question": "Đo chiều dài đoạn đường được l = 280 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 140 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.07",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 280) \\cdot 100\\% = 0.07\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 140) · 100% = 0.07%."
     },
     {
       "id": "sa-c1-029",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "question": "Đo chiều dài đoạn đường được l = 290 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 145 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.07",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 290) \\cdot 100\\% = 0.07\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 145) · 100% = 0.07%."
     },
     {
       "id": "sa-c1-030",
       "chapter": "c1",
       "lesson": "b2",
       "level": "vd",
-      "question": "Đo chiều dài đoạn đường được l = 300 \\pm 0,2 m. Sai số tương đối của phép đo là bao nhiêu %?",
+      "question": "Phép đo chiều dài cho kết quả l = 150 ± 0,1 cm. Tính sai số tương đối δl (%).",
       "answer": "0.07",
-      "explanation": "Sai số tương đối \\delta = (\\Delta l / l) \\cdot 100\\% = (0,2 / 300) \\cdot 100\\% = 0.07\\%."
+      "explanation": "Sai số tương đối δl = (0,1 / 150) · 100% = 0.07%."
     },
     {
       "id": "sa-c2-001",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 1 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "10.0",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 1| = 10.0 m/s²."
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "40.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 6 · 4 + 0,5 · 2 · 16 = 40.0 m."
     },
     {
       "id": "sa-c2-002",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 2 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "5.0",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 2| = 5.0 m/s²."
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "44.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 7 · 4 + 0,5 · 2 · 16 = 44.0 m."
     },
     {
       "id": "sa-c2-003",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 3 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "3.33",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 3| = 3.33 m/s²."
+      "question": "Cho v_0 = 8 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "48.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 8 · 4 + 0,5 · 2 · 16 = 48.0 m."
     },
     {
       "id": "sa-c2-004",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 4 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "2.5",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 4| = 2.5 m/s²."
+      "question": "Cho v_0 = 9 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "52.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 9 · 4 + 0,5 · 2 · 16 = 52.0 m."
     },
     {
       "id": "sa-c2-005",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 5 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "2.0",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 5| = 2.0 m/s²."
+      "question": "Cho v_0 = 10 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "56.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 10 · 4 + 0,5 · 2 · 16 = 56.0 m."
     },
     {
       "id": "sa-c2-006",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 6 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "1.67",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 6| = 1.67 m/s²."
+      "question": "Cho v_0 = 11 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "60.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 11 · 4 + 0,5 · 2 · 16 = 60.0 m."
     },
     {
       "id": "sa-c2-007",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 7 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "1.43",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 7| = 1.43 m/s²."
+      "question": "Cho v_0 = 12 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "64.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 12 · 4 + 0,5 · 2 · 16 = 64.0 m."
     },
     {
       "id": "sa-c2-008",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 8 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "1.25",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 8| = 1.25 m/s²."
+      "question": "Cho v_0 = 13 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "68.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 13 · 4 + 0,5 · 2 · 16 = 68.0 m."
     },
     {
       "id": "sa-c2-009",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 9 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "1.11",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 9| = 1.11 m/s²."
+      "question": "Cho v_0 = 14 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "72.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 14 · 4 + 0,5 · 2 · 16 = 72.0 m."
     },
     {
       "id": "sa-c2-010",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 10 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "1.0",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 10| = 1.0 m/s²."
+      "question": "Cho v_0 = 15 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "76.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 15 · 4 + 0,5 · 2 · 16 = 76.0 m."
     },
     {
       "id": "sa-c2-011",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 11 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.91",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 11| = 0.91 m/s²."
+      "question": "Cho v_0 = 16 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "80.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 16 · 4 + 0,5 · 2 · 16 = 80.0 m."
     },
     {
       "id": "sa-c2-012",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 12 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.83",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 12| = 0.83 m/s²."
+      "question": "Cho v_0 = 17 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "84.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 17 · 4 + 0,5 · 2 · 16 = 84.0 m."
     },
     {
       "id": "sa-c2-013",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 13 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.77",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 13| = 0.77 m/s²."
+      "question": "Cho v_0 = 18 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "88.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 18 · 4 + 0,5 · 2 · 16 = 88.0 m."
     },
     {
       "id": "sa-c2-014",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 14 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.71",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 14| = 0.71 m/s²."
+      "question": "Cho v_0 = 19 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "92.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 19 · 4 + 0,5 · 2 · 16 = 92.0 m."
     },
     {
       "id": "sa-c2-015",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 15 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.67",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 15| = 0.67 m/s²."
+      "question": "Cho v_0 = 20 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "96.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 20 · 4 + 0,5 · 2 · 16 = 96.0 m."
     },
     {
       "id": "sa-c2-016",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 16 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.62",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 16| = 0.62 m/s²."
+      "question": "Cho v_0 = 21 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "100.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 21 · 4 + 0,5 · 2 · 16 = 100.0 m."
     },
     {
       "id": "sa-c2-017",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 17 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.59",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 17| = 0.59 m/s²."
+      "question": "Cho v_0 = 22 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "104.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 22 · 4 + 0,5 · 2 · 16 = 104.0 m."
     },
     {
       "id": "sa-c2-018",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 18 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.56",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 18| = 0.56 m/s²."
+      "question": "Cho v_0 = 23 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "108.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 23 · 4 + 0,5 · 2 · 16 = 108.0 m."
     },
     {
       "id": "sa-c2-019",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 19 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.53",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 19| = 0.53 m/s²."
+      "question": "Cho v_0 = 24 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "112.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 24 · 4 + 0,5 · 2 · 16 = 112.0 m."
     },
     {
       "id": "sa-c2-020",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 20 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.5",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 20| = 0.5 m/s²."
+      "question": "Cho v_0 = 25 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "116.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 25 · 4 + 0,5 · 2 · 16 = 116.0 m."
     },
     {
       "id": "sa-c2-021",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 21 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.48",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 21| = 0.48 m/s²."
+      "question": "Cho v_0 = 26 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "120.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 26 · 4 + 0,5 · 2 · 16 = 120.0 m."
     },
     {
       "id": "sa-c2-022",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 22 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.45",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 22| = 0.45 m/s²."
+      "question": "Cho v_0 = 27 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "124.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 27 · 4 + 0,5 · 2 · 16 = 124.0 m."
     },
     {
       "id": "sa-c2-023",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 23 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.43",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 23| = 0.43 m/s²."
+      "question": "Cho v_0 = 28 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "128.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 28 · 4 + 0,5 · 2 · 16 = 128.0 m."
     },
     {
       "id": "sa-c2-024",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 24 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.42",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 24| = 0.42 m/s²."
+      "question": "Cho v_0 = 29 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "132.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 29 · 4 + 0,5 · 2 · 16 = 132.0 m."
     },
     {
       "id": "sa-c2-025",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 25 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.4",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 25| = 0.4 m/s²."
+      "question": "Cho v_0 = 30 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "136.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 30 · 4 + 0,5 · 2 · 16 = 136.0 m."
     },
     {
       "id": "sa-c2-026",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 26 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.38",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 26| = 0.38 m/s²."
+      "question": "Cho v_0 = 31 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "140.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 31 · 4 + 0,5 · 2 · 16 = 140.0 m."
     },
     {
       "id": "sa-c2-027",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 27 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.37",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 27| = 0.37 m/s²."
+      "question": "Cho v_0 = 32 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "144.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 32 · 4 + 0,5 · 2 · 16 = 144.0 m."
     },
     {
       "id": "sa-c2-028",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 28 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.36",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 28| = 0.36 m/s²."
+      "question": "Cho v_0 = 33 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "148.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 33 · 4 + 0,5 · 2 · 16 = 148.0 m."
     },
     {
       "id": "sa-c2-029",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 29 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.34",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 29| = 0.34 m/s²."
+      "question": "Cho v_0 = 34 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "152.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 34 · 4 + 0,5 · 2 · 16 = 152.0 m."
     },
     {
       "id": "sa-c2-030",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "question": "Vận tốc của vật giảm từ 20 m/s xuống 10 m/s trong thời gian 30 s. Tính độ lớn gia tốc của vật (m/s²).",
-      "answer": "0.33",
-      "explanation": "Gia tốc a = |\\Delta v / \\Delta t| = |(10 - 20) / 30| = 0.33 m/s²."
+      "question": "Cho v_0 = 35 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
+      "answer": "156.0",
+      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 35 · 4 + 0,5 · 2 · 16 = 156.0 m."
     },
     {
       "id": "sa-c3-001",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 5 m là bao nhiêu m/s?",
-      "answer": "9.9",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 5} = 9.9 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 2 m (g = 9,8 m/s²).",
+      "answer": "6.26",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 2} = 6.26 m/s."
     },
     {
       "id": "sa-c3-002",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 10 m là bao nhiêu m/s?",
-      "answer": "14.0",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 10} = 14.0 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 4 m (g = 9,8 m/s²).",
+      "answer": "8.85",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 4} = 8.85 m/s."
     },
     {
       "id": "sa-c3-003",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 15 m là bao nhiêu m/s?",
-      "answer": "17.15",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 15} = 17.15 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 6 m (g = 9,8 m/s²).",
+      "answer": "10.84",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 6} = 10.84 m/s."
     },
     {
       "id": "sa-c3-004",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 20 m là bao nhiêu m/s?",
-      "answer": "19.8",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 20} = 19.8 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 8 m (g = 9,8 m/s²).",
+      "answer": "12.52",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 8} = 12.52 m/s."
     },
     {
       "id": "sa-c3-005",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 25 m là bao nhiêu m/s?",
-      "answer": "22.14",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 25} = 22.14 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 10 m (g = 9,8 m/s²).",
+      "answer": "14.0",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 10} = 14.0 m/s."
     },
     {
       "id": "sa-c3-006",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 30 m là bao nhiêu m/s?",
-      "answer": "24.25",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 30} = 24.25 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 12 m (g = 9,8 m/s²).",
+      "answer": "15.34",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 12} = 15.34 m/s."
     },
     {
       "id": "sa-c3-007",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 35 m là bao nhiêu m/s?",
-      "answer": "26.19",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 35} = 26.19 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 14 m (g = 9,8 m/s²).",
+      "answer": "16.57",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 14} = 16.57 m/s."
     },
     {
       "id": "sa-c3-008",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 40 m là bao nhiêu m/s?",
-      "answer": "28.0",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 40} = 28.0 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 16 m (g = 9,8 m/s²).",
+      "answer": "17.71",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 16} = 17.71 m/s."
     },
     {
       "id": "sa-c3-009",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 45 m là bao nhiêu m/s?",
-      "answer": "29.7",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 45} = 29.7 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 18 m (g = 9,8 m/s²).",
+      "answer": "18.78",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 18} = 18.78 m/s."
     },
     {
       "id": "sa-c3-010",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 50 m là bao nhiêu m/s?",
-      "answer": "31.3",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 50} = 31.3 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 20 m (g = 9,8 m/s²).",
+      "answer": "19.8",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 20} = 19.8 m/s."
     },
     {
       "id": "sa-c3-011",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 55 m là bao nhiêu m/s?",
-      "answer": "32.83",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 55} = 32.83 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 22 m (g = 9,8 m/s²).",
+      "answer": "20.77",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 22} = 20.77 m/s."
     },
     {
       "id": "sa-c3-012",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 60 m là bao nhiêu m/s?",
-      "answer": "34.29",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 60} = 34.29 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 24 m (g = 9,8 m/s²).",
+      "answer": "21.69",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 24} = 21.69 m/s."
     },
     {
       "id": "sa-c3-013",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 65 m là bao nhiêu m/s?",
-      "answer": "35.69",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 65} = 35.69 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 26 m (g = 9,8 m/s²).",
+      "answer": "22.57",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 26} = 22.57 m/s."
     },
     {
       "id": "sa-c3-014",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 70 m là bao nhiêu m/s?",
-      "answer": "37.04",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 70} = 37.04 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 28 m (g = 9,8 m/s²).",
+      "answer": "23.43",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 28} = 23.43 m/s."
     },
     {
       "id": "sa-c3-015",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 75 m là bao nhiêu m/s?",
-      "answer": "38.34",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 75} = 38.34 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 30 m (g = 9,8 m/s²).",
+      "answer": "24.25",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 30} = 24.25 m/s."
     },
     {
       "id": "sa-c3-016",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 80 m là bao nhiêu m/s?",
-      "answer": "39.6",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 80} = 39.6 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 32 m (g = 9,8 m/s²).",
+      "answer": "25.04",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 32} = 25.04 m/s."
     },
     {
       "id": "sa-c3-017",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 85 m là bao nhiêu m/s?",
-      "answer": "40.82",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 85} = 40.82 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 34 m (g = 9,8 m/s²).",
+      "answer": "25.81",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 34} = 25.81 m/s."
     },
     {
       "id": "sa-c3-018",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 90 m là bao nhiêu m/s?",
-      "answer": "42.0",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 90} = 42.0 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 36 m (g = 9,8 m/s²).",
+      "answer": "26.56",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 36} = 26.56 m/s."
     },
     {
       "id": "sa-c3-019",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 95 m là bao nhiêu m/s?",
-      "answer": "43.15",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 95} = 43.15 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 38 m (g = 9,8 m/s²).",
+      "answer": "27.29",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 38} = 27.29 m/s."
     },
     {
       "id": "sa-c3-020",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 100 m là bao nhiêu m/s?",
-      "answer": "44.27",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 100} = 44.27 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 40 m (g = 9,8 m/s²).",
+      "answer": "28.0",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 40} = 28.0 m/s."
     },
     {
       "id": "sa-c3-021",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 105 m là bao nhiêu m/s?",
-      "answer": "45.37",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 105} = 45.37 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 42 m (g = 9,8 m/s²).",
+      "answer": "28.69",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 42} = 28.69 m/s."
     },
     {
       "id": "sa-c3-022",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 110 m là bao nhiêu m/s?",
-      "answer": "46.43",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 110} = 46.43 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 44 m (g = 9,8 m/s²).",
+      "answer": "29.37",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 44} = 29.37 m/s."
     },
     {
       "id": "sa-c3-023",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 115 m là bao nhiêu m/s?",
-      "answer": "47.48",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 115} = 47.48 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 46 m (g = 9,8 m/s²).",
+      "answer": "30.03",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 46} = 30.03 m/s."
     },
     {
       "id": "sa-c3-024",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 120 m là bao nhiêu m/s?",
-      "answer": "48.5",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 120} = 48.5 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 48 m (g = 9,8 m/s²).",
+      "answer": "30.67",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 48} = 30.67 m/s."
     },
     {
       "id": "sa-c3-025",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 125 m là bao nhiêu m/s?",
-      "answer": "49.5",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 125} = 49.5 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 50 m (g = 9,8 m/s²).",
+      "answer": "31.3",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 50} = 31.3 m/s."
     },
     {
       "id": "sa-c3-026",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 130 m là bao nhiêu m/s?",
-      "answer": "50.48",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 130} = 50.48 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 52 m (g = 9,8 m/s²).",
+      "answer": "31.92",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 52} = 31.92 m/s."
     },
     {
       "id": "sa-c3-027",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 135 m là bao nhiêu m/s?",
-      "answer": "51.44",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 135} = 51.44 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 54 m (g = 9,8 m/s²).",
+      "answer": "32.53",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 54} = 32.53 m/s."
     },
     {
       "id": "sa-c3-028",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 140 m là bao nhiêu m/s?",
-      "answer": "52.38",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 140} = 52.38 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 56 m (g = 9,8 m/s²).",
+      "answer": "33.13",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 56} = 33.13 m/s."
     },
     {
       "id": "sa-c3-029",
       "chapter": "c3",
       "lesson": "b5",
       "level": "vd",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 145 m là bao nhiêu m/s?",
-      "answer": "53.31",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 145} = 53.31 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 58 m (g = 9,8 m/s²).",
+      "answer": "33.72",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 58} = 33.72 m/s."
     },
     {
       "id": "sa-c3-030",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "question": "Thả rơi tự do một vật từ độ cao h với g = 9,8 m/s². Vận tốc chạm đất của vật khi h = 150 m là bao nhiêu m/s?",
-      "answer": "54.22",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9,8 \\cdot 150} = 54.22 m/s."
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 60 m (g = 9,8 m/s²).",
+      "answer": "34.29",
+      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 60} = 34.29 m/s."
     },
     {
       "id": "sa-c4-001",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 1 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "2.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 1 \\cdot 10 = 2.0 N."
+      "question": "Một lực F làm vật m = 1 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "3",
+      "explanation": "F = m · a = 1 · 3 = 3 N."
     },
     {
       "id": "sa-c4-002",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 2 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "4.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 2 \\cdot 10 = 4.0 N."
+      "question": "Một lực F làm vật m = 2 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "6",
+      "explanation": "F = m · a = 2 · 3 = 6 N."
     },
     {
       "id": "sa-c4-003",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 3 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "6.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 3 \\cdot 10 = 6.0 N."
+      "question": "Một lực F làm vật m = 3 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "9",
+      "explanation": "F = m · a = 3 · 3 = 9 N."
     },
     {
       "id": "sa-c4-004",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 4 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "8.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 4 \\cdot 10 = 8.0 N."
+      "question": "Một lực F làm vật m = 4 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "12",
+      "explanation": "F = m · a = 4 · 3 = 12 N."
     },
     {
       "id": "sa-c4-005",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 5 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "10.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 5 \\cdot 10 = 10.0 N."
+      "question": "Một lực F làm vật m = 5 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "15",
+      "explanation": "F = m · a = 5 · 3 = 15 N."
     },
     {
       "id": "sa-c4-006",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 6 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "12.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 6 \\cdot 10 = 12.0 N."
+      "question": "Một lực F làm vật m = 6 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "18",
+      "explanation": "F = m · a = 6 · 3 = 18 N."
     },
     {
       "id": "sa-c4-007",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 7 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "14.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 7 \\cdot 10 = 14.0 N."
+      "question": "Một lực F làm vật m = 7 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "21",
+      "explanation": "F = m · a = 7 · 3 = 21 N."
     },
     {
       "id": "sa-c4-008",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 8 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "16.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 8 \\cdot 10 = 16.0 N."
+      "question": "Một lực F làm vật m = 8 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "24",
+      "explanation": "F = m · a = 8 · 3 = 24 N."
     },
     {
       "id": "sa-c4-009",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 9 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "18.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 9 \\cdot 10 = 18.0 N."
+      "question": "Một lực F làm vật m = 9 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "27",
+      "explanation": "F = m · a = 9 · 3 = 27 N."
     },
     {
       "id": "sa-c4-010",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 10 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "20.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 10 \\cdot 10 = 20.0 N."
+      "question": "Một lực F làm vật m = 10 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "30",
+      "explanation": "F = m · a = 10 · 3 = 30 N."
     },
     {
       "id": "sa-c4-011",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 11 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "22.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 11 \\cdot 10 = 22.0 N."
+      "question": "Một lực F làm vật m = 11 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "33",
+      "explanation": "F = m · a = 11 · 3 = 33 N."
     },
     {
       "id": "sa-c4-012",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 12 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "24.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 12 \\cdot 10 = 24.0 N."
+      "question": "Một lực F làm vật m = 12 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "36",
+      "explanation": "F = m · a = 12 · 3 = 36 N."
     },
     {
       "id": "sa-c4-013",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 13 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "26.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 13 \\cdot 10 = 26.0 N."
+      "question": "Một lực F làm vật m = 13 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "39",
+      "explanation": "F = m · a = 13 · 3 = 39 N."
     },
     {
       "id": "sa-c4-014",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Vật m = 14 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "28.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 14 \\cdot 10 = 28.0 N."
+      "question": "Một lực F làm vật m = 14 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "42",
+      "explanation": "F = m · a = 14 · 3 = 42 N."
     },
     {
       "id": "sa-c4-015",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Vật m = 15 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "30.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 15 \\cdot 10 = 30.0 N."
+      "question": "Một lực F làm vật m = 15 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "45",
+      "explanation": "F = m · a = 15 · 3 = 45 N."
     },
     {
       "id": "sa-c4-016",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 16 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "32.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 16 \\cdot 10 = 32.0 N."
+      "question": "Một lực F làm vật m = 16 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "48",
+      "explanation": "F = m · a = 16 · 3 = 48 N."
     },
     {
       "id": "sa-c4-017",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 17 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "34.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 17 \\cdot 10 = 34.0 N."
+      "question": "Một lực F làm vật m = 17 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "51",
+      "explanation": "F = m · a = 17 · 3 = 51 N."
     },
     {
       "id": "sa-c4-018",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 18 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "36.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 18 \\cdot 10 = 36.0 N."
+      "question": "Một lực F làm vật m = 18 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "54",
+      "explanation": "F = m · a = 18 · 3 = 54 N."
     },
     {
       "id": "sa-c4-019",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 19 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "38.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 19 \\cdot 10 = 38.0 N."
+      "question": "Một lực F làm vật m = 19 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "57",
+      "explanation": "F = m · a = 19 · 3 = 57 N."
     },
     {
       "id": "sa-c4-020",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 20 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "40.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 20 \\cdot 10 = 40.0 N."
+      "question": "Một lực F làm vật m = 20 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "60",
+      "explanation": "F = m · a = 20 · 3 = 60 N."
     },
     {
       "id": "sa-c4-021",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 21 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "42.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 21 \\cdot 10 = 42.0 N."
+      "question": "Một lực F làm vật m = 21 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "63",
+      "explanation": "F = m · a = 21 · 3 = 63 N."
     },
     {
       "id": "sa-c4-022",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 22 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "44.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 22 \\cdot 10 = 44.0 N."
+      "question": "Một lực F làm vật m = 22 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "66",
+      "explanation": "F = m · a = 22 · 3 = 66 N."
     },
     {
       "id": "sa-c4-023",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 23 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "46.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 23 \\cdot 10 = 46.0 N."
+      "question": "Một lực F làm vật m = 23 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "69",
+      "explanation": "F = m · a = 23 · 3 = 69 N."
     },
     {
       "id": "sa-c4-024",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 24 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "48.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 24 \\cdot 10 = 48.0 N."
+      "question": "Một lực F làm vật m = 24 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "72",
+      "explanation": "F = m · a = 24 · 3 = 72 N."
     },
     {
       "id": "sa-c4-025",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 25 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "50.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 25 \\cdot 10 = 50.0 N."
+      "question": "Một lực F làm vật m = 25 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "75",
+      "explanation": "F = m · a = 25 · 3 = 75 N."
     },
     {
       "id": "sa-c4-026",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Vật m = 26 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "52.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 26 \\cdot 10 = 52.0 N."
+      "question": "Một lực F làm vật m = 26 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "78",
+      "explanation": "F = m · a = 26 · 3 = 78 N."
     },
     {
       "id": "sa-c4-027",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Vật m = 27 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "54.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 27 \\cdot 10 = 54.0 N."
+      "question": "Một lực F làm vật m = 27 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "81",
+      "explanation": "F = m · a = 27 · 3 = 81 N."
     },
     {
       "id": "sa-c4-028",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "question": "Vật m = 28 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "56.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 28 \\cdot 10 = 56.0 N."
+      "question": "Một lực F làm vật m = 28 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "84",
+      "explanation": "F = m · a = 28 · 3 = 84 N."
     },
     {
       "id": "sa-c4-029",
       "chapter": "c4",
       "lesson": "b7",
       "level": "vd",
-      "question": "Vật m = 29 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "58.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 29 \\cdot 10 = 58.0 N."
+      "question": "Một lực F làm vật m = 29 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "87",
+      "explanation": "F = m · a = 29 · 3 = 87 N."
     },
     {
       "id": "sa-c4-030",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "question": "Vật m = 30 kg nằm trên mặt sàn nằm ngang. Hệ số ma sát trượt \\mu = 0,2, g = 10 m/s². Tính độ lớn lực ma sát trượt (N).",
-      "answer": "60.0",
-      "explanation": "Lực ma sát F_{mst} = \\mu \\cdot N = \\mu \\cdot m \\cdot g = 0,2 \\cdot 30 \\cdot 10 = 60.0 N."
+      "question": "Một lực F làm vật m = 30 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "answer": "90",
+      "explanation": "F = m · a = 30 · 3 = 90 N."
     },
     {
       "id": "sa-c5-001",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 100 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "2.0",
-      "explanation": "Công A = mgh = 100\\cdot 10 \\cdot 10 = 10000 J. Công suất P = A / t = 2.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "50.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 1 · 100 = 50.0 J."
     },
     {
       "id": "sa-c5-002",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 200 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "4.0",
-      "explanation": "Công A = mgh = 200\\cdot 10 \\cdot 10 = 20000 J. Công suất P = A / t = 4.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "100.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 2 · 100 = 100.0 J."
     },
     {
       "id": "sa-c5-003",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 300 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "6.0",
-      "explanation": "Công A = mgh = 300\\cdot 10 \\cdot 10 = 30000 J. Công suất P = A / t = 6.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "150.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 3 · 100 = 150.0 J."
     },
     {
       "id": "sa-c5-004",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 400 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "8.0",
-      "explanation": "Công A = mgh = 400\\cdot 10 \\cdot 10 = 40000 J. Công suất P = A / t = 8.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 4 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "200.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 4 · 100 = 200.0 J."
     },
     {
       "id": "sa-c5-005",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 500 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "10.0",
-      "explanation": "Công A = mgh = 500\\cdot 10 \\cdot 10 = 50000 J. Công suất P = A / t = 10.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 5 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "250.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 5 · 100 = 250.0 J."
     },
     {
       "id": "sa-c5-006",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 600 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "12.0",
-      "explanation": "Công A = mgh = 600\\cdot 10 \\cdot 10 = 60000 J. Công suất P = A / t = 12.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 6 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "300.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 6 · 100 = 300.0 J."
     },
     {
       "id": "sa-c5-007",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 700 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "14.0",
-      "explanation": "Công A = mgh = 700\\cdot 10 \\cdot 10 = 70000 J. Công suất P = A / t = 14.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 7 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "350.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 7 · 100 = 350.0 J."
     },
     {
       "id": "sa-c5-008",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 800 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "16.0",
-      "explanation": "Công A = mgh = 800\\cdot 10 \\cdot 10 = 80000 J. Công suất P = A / t = 16.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 8 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "400.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 8 · 100 = 400.0 J."
     },
     {
       "id": "sa-c5-009",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 900 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "18.0",
-      "explanation": "Công A = mgh = 900\\cdot 10 \\cdot 10 = 90000 J. Công suất P = A / t = 18.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 9 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "450.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 9 · 100 = 450.0 J."
     },
     {
       "id": "sa-c5-010",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1000 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "20.0",
-      "explanation": "Công A = mgh = 1000\\cdot 10 \\cdot 10 = 100000 J. Công suất P = A / t = 20.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 10 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "500.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 10 · 100 = 500.0 J."
     },
     {
       "id": "sa-c5-011",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1100 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "22.0",
-      "explanation": "Công A = mgh = 1100\\cdot 10 \\cdot 10 = 110000 J. Công suất P = A / t = 22.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 11 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "550.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 11 · 100 = 550.0 J."
     },
     {
       "id": "sa-c5-012",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1200 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "24.0",
-      "explanation": "Công A = mgh = 1200\\cdot 10 \\cdot 10 = 120000 J. Công suất P = A / t = 24.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 12 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "600.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 12 · 100 = 600.0 J."
     },
     {
       "id": "sa-c5-013",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1300 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "26.0",
-      "explanation": "Công A = mgh = 1300\\cdot 10 \\cdot 10 = 130000 J. Công suất P = A / t = 26.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 13 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "650.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 13 · 100 = 650.0 J."
     },
     {
       "id": "sa-c5-014",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1400 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "28.0",
-      "explanation": "Công A = mgh = 1400\\cdot 10 \\cdot 10 = 140000 J. Công suất P = A / t = 28.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 14 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "700.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 14 · 100 = 700.0 J."
     },
     {
       "id": "sa-c5-015",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1500 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "30.0",
-      "explanation": "Công A = mgh = 1500\\cdot 10 \\cdot 10 = 150000 J. Công suất P = A / t = 30.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 15 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "750.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 15 · 100 = 750.0 J."
     },
     {
       "id": "sa-c5-016",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1600 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "32.0",
-      "explanation": "Công A = mgh = 1600\\cdot 10 \\cdot 10 = 160000 J. Công suất P = A / t = 32.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 16 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "800.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 16 · 100 = 800.0 J."
     },
     {
       "id": "sa-c5-017",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1700 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "34.0",
-      "explanation": "Công A = mgh = 1700\\cdot 10 \\cdot 10 = 170000 J. Công suất P = A / t = 34.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 17 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "850.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 17 · 100 = 850.0 J."
     },
     {
       "id": "sa-c5-018",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1800 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "36.0",
-      "explanation": "Công A = mgh = 1800\\cdot 10 \\cdot 10 = 180000 J. Công suất P = A / t = 36.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 18 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "900.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 18 · 100 = 900.0 J."
     },
     {
       "id": "sa-c5-019",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 1900 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "38.0",
-      "explanation": "Công A = mgh = 1900\\cdot 10 \\cdot 10 = 190000 J. Công suất P = A / t = 38.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 19 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "950.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 19 · 100 = 950.0 J."
     },
     {
       "id": "sa-c5-020",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2000 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "40.0",
-      "explanation": "Công A = mgh = 2000\\cdot 10 \\cdot 10 = 200000 J. Công suất P = A / t = 40.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 20 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1000.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 20 · 100 = 1000.0 J."
     },
     {
       "id": "sa-c5-021",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2100 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "42.0",
-      "explanation": "Công A = mgh = 2100\\cdot 10 \\cdot 10 = 210000 J. Công suất P = A / t = 42.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 21 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1050.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 21 · 100 = 1050.0 J."
     },
     {
       "id": "sa-c5-022",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2200 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "44.0",
-      "explanation": "Công A = mgh = 2200\\cdot 10 \\cdot 10 = 220000 J. Công suất P = A / t = 44.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 22 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1100.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 22 · 100 = 1100.0 J."
     },
     {
       "id": "sa-c5-023",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2300 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "46.0",
-      "explanation": "Công A = mgh = 2300\\cdot 10 \\cdot 10 = 230000 J. Công suất P = A / t = 46.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 23 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1150.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 23 · 100 = 1150.0 J."
     },
     {
       "id": "sa-c5-024",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2400 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "48.0",
-      "explanation": "Công A = mgh = 2400\\cdot 10 \\cdot 10 = 240000 J. Công suất P = A / t = 48.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 24 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1200.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 24 · 100 = 1200.0 J."
     },
     {
       "id": "sa-c5-025",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2500 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "50.0",
-      "explanation": "Công A = mgh = 2500\\cdot 10 \\cdot 10 = 250000 J. Công suất P = A / t = 50.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 25 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1250.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 25 · 100 = 1250.0 J."
     },
     {
       "id": "sa-c5-026",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2600 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "52.0",
-      "explanation": "Công A = mgh = 2600\\cdot 10 \\cdot 10 = 260000 J. Công suất P = A / t = 52.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 26 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1300.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 26 · 100 = 1300.0 J."
     },
     {
       "id": "sa-c5-027",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2700 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "54.0",
-      "explanation": "Công A = mgh = 2700\\cdot 10 \\cdot 10 = 270000 J. Công suất P = A / t = 54.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 27 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1350.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 27 · 100 = 1350.0 J."
     },
     {
       "id": "sa-c5-028",
       "chapter": "c5",
       "lesson": "b10",
       "level": "vd",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2800 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "56.0",
-      "explanation": "Công A = mgh = 2800\\cdot 10 \\cdot 10 = 280000 J. Công suất P = A / t = 56.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 28 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1400.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 28 · 100 = 1400.0 J."
     },
     {
       "id": "sa-c5-029",
       "chapter": "c5",
       "lesson": "b9",
       "level": "vd",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 2900 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "58.0",
-      "explanation": "Công A = mgh = 2900\\cdot 10 \\cdot 10 = 290000 J. Công suất P = A / t = 58.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 29 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1450.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 29 · 100 = 1450.0 J."
     },
     {
       "id": "sa-c5-030",
       "chapter": "c5",
       "lesson": "b10",
       "level": "vd",
-      "question": "Cần trục nâng một vật nặng khối lượng m = 3000 kg lên cao 10 m trong 5 s. Tính công suất của cần trục (kW) với g = 10 m/s².",
-      "answer": "60.0",
-      "explanation": "Công A = mgh = 3000\\cdot 10 \\cdot 10 = 300000 J. Công suất P = A / t = 60.0 kW."
+      "question": "Tính động năng W_đ (J) của vật m = 30 kg đang bay với vận tốc v = 10 m/s.",
+      "answer": "1500.0",
+      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 30 · 100 = 1500.0 J."
     }
   ]
 }

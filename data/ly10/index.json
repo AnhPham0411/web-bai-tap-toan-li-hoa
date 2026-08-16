@@ -7,16 +7,16 @@
       "id": "c1",
       "roman": "I",
       "title": "Mở đầu & Sai số trong đo lường",
-      "summary": "Mở đầu môn Vật lí, quy tắc an toàn, sai số phép đo.",
+      "summary": "Đối tượng nghiên cứu vật lí, phương pháp thực nghiệm, an toàn phòng thực hành, sai số phép đo.",
       "theory": "theory/c1.json",
       "lessons": [
         {
           "id": "b1",
-          "title": "Bài 1. Mở đầu"
+          "title": "Bài 1. Mở đầu về Vật lí"
         },
         {
           "id": "b2",
-          "title": "Bài 2. Sai số phép đo"
+          "title": "Bài 2. Vấn đề an toàn & Sai số trong đo lường"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "id": "c2",
       "roman": "II",
       "title": "Mô tả chuyển động",
-      "summary": "Chuyển động thẳng đều, vận tốc, độ dịch chuyển, đồ thị d-t.",
+      "summary": "Độ dịch chuyển, vận tốc trung bình, tốc độ, chuyển động thẳng biến đổi đều.",
       "theory": "theory/c2.json",
       "lessons": [
         {
@@ -33,7 +33,7 @@
         },
         {
           "id": "b4",
-          "title": "Bài 4. Chuyển động thẳng đều"
+          "title": "Bài 4. Chuyển động thẳng biến đổi đều"
         }
       ]
     },
@@ -41,16 +41,16 @@
       "id": "c3",
       "roman": "III",
       "title": "Chuyển động biến đổi",
-      "summary": "Gia tốc, chuyển động thẳng biến đổi đều, rơi tự do.",
+      "summary": "Chuyển động rơi tự do, chuyển động ném ngang, quy tắc tổng hợp & phân tích lực.",
       "theory": "theory/c3.json",
       "lessons": [
         {
           "id": "b5",
-          "title": "Bài 5. Gia tốc"
+          "title": "Bài 5. Rơi tự do & Chuyển động ném"
         },
         {
           "id": "b6",
-          "title": "Bài 6. Rơi tự do"
+          "title": "Bài 6. Tổng hợp & Phân tích lực"
         }
       ]
     },
@@ -58,16 +58,16 @@
       "id": "c4",
       "roman": "IV",
       "title": "Động lực học",
-      "summary": "Ba định luật Newton, các lực cơ học cơ bản.",
+      "summary": "Ba định luật Newton, trọng lực, lực ma sát trượt, lực đàn hồi lò xo.",
       "theory": "theory/c4.json",
       "lessons": [
         {
           "id": "b7",
-          "title": "Bài 7. Định luật Newton"
+          "title": "Bài 7. Ba định luật Newton"
         },
         {
           "id": "b8",
-          "title": "Bài 8. Các lực cơ học"
+          "title": "Bài 8. Các lực cơ học cơ bản"
         }
       ]
     },
@@ -75,7 +75,7 @@
       "id": "c5",
       "roman": "V",
       "title": "Năng lượng & Công",
-      "summary": "Công cơ học, công suất, động năng, thế năng, bảo toàn năng lượng.",
+      "summary": "Công cơ học, công suất, động năng, thế năng, định luật bảo toàn cơ năng.",
       "theory": "theory/c5.json",
       "lessons": [
         {
@@ -84,7 +84,7 @@
         },
         {
           "id": "b10",
-          "title": "Bài 10. Cơ năng & Bảo toàn"
+          "title": "Bài 10. Cơ năng & Bảo toàn năng lượng"
         }
       ]
     }

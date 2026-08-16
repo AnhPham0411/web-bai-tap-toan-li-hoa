@@ -1,52 +1,55 @@
 {
   "chapterId": "c2",
-  "title": "Bảng tuần hoàn các nguyên tố",
+  "title": "Bảng tuần hoàn các nguyên tố hóa học",
   "lessons": [
     {
       "id": "b3",
-      "title": "Bài 3. Bảng tuần hoàn",
+      "title": "Bài 3. Bảng tuần hoàn các nguyên tố",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 3. Bảng tuần hoàn"
+          "text": "1. Nguyên tắc sắp xếp trong Bảng tuần hoàn"
         },
         {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 3. Bảng tuần hoàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "type": "list",
+          "title": "3 nguyên tắc cơ bản",
+          "items": [
+            "Các nguyên tố được sắp xếp theo chiều tăng dần của điện tích hạt nhân nguyên tử.",
+            "Các nguyên tố có cùng số lớp electron được xếp vào cùng một hàng (Chu kỳ).",
+            "Các nguyên tố có cùng số electron hóa trị được xếp vào cùng một cột (Nhóm)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Cấu tạo Bảng tuần hoàn"
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 3. Bảng tuần hoàn."
-        },
-        {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 3. Bảng tuần hoàn.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "content": "- Ô nguyên tố: Cho biết Z, kí hiệu, tên nguyên tố, khối lượng nguyên tử, độ âm điện...\n- Chu kỳ: Có 7 chu kỳ (chu kỳ 1, 2, 3 là chu kỳ nhỏ; 4, 5, 6, 7 là chu kỳ lớn).\n- Nhóm: Gồm nhóm A (nguyên tố s, p) và nhóm B (nguyên tố d, f)."
         }
       ]
     },
     {
       "id": "b4",
-      "title": "Bài 4. Định luật tuần hoàn",
+      "title": "Bài 4. Xu hướng biến đổi tính chất",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 4. Định luật tuần hoàn"
+          "text": "1. Bán kính nguyên tử và Độ âm điện"
+        },
+        {
+          "type": "theorem",
+          "title": "Quy luật biến đổi trong Bảng tuần hoàn",
+          "content": "- Trong 1 Chu kỳ (từ trái qua phải): Bán kính nguyên tử giảm dần, Độ âm điện tăng dần, Tính kim loại giảm dần, Tính phi kim tăng dần.\n- Trong 1 Nhóm A (từ trên xuống dưới): Bán kính nguyên tử tăng dần, Độ âm điện giảm dần, Tính kim loại tăng dần, Tính phi kim giảm dần."
+        },
+        {
+          "type": "heading",
+          "text": "2. Định luật tuần hoàn"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 4. Định luật tuần hoàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
-        },
-        {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 4. Định luật tuần hoàn."
-        },
-        {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 4. Định luật tuần hoàn.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "title": "Định luật tuần hoàn",
+          "content": "Tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ chúng biến đổi tuần hoàn theo chiều tăng của điện tích hạt nhân nguyên tử."
         }
       ]
     }

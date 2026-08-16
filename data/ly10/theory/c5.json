@@ -8,45 +8,79 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 9. Công & Công suất"
+          "text": "1. Công cơ học"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 9. Công & Công suất theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Công của lực không đổi",
+          "content": "Khi lực \\vec{F} không đổi tác dụng vào vật làm vật dịch chuyển quãng đường s theo hướng hợp với \\vec{F} một góc \\alpha thì công thực hiện là: A = F \\cdot s \\cdot \\cos \\alpha. Đơn vị: Joule (J)."
+        },
+        {
+          "type": "list",
+          "title": "Các trường hợp của góc α",
+          "items": [
+            "α < 90°: cos α > 0 => A > 0 (Công phát động).",
+            "α = 90°: cos α = 0 => A = 0 (Lực không sinh công).",
+            "α > 90°: cos α < 0 => A < 0 (Công cản)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Công suất"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Công suất trung bình",
+              "math": "P = \\frac{A}{t} = F \\cdot v"
+            }
+          ]
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 9. Công & Công suất."
-        },
-        {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 9. Công & Công suất.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "content": "Công suất là đại lượng đặc trưng cho tốc độ thực hiện công. Đơn vị: Watt (W), 1 kW = 1000 W, 1 HP (mã lực) ≈ 746 W."
         }
       ]
     },
     {
       "id": "b10",
-      "title": "Bài 10. Cơ năng & Bảo toàn",
+      "title": "Bài 10. Cơ năng & Bảo toàn năng lượng",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 10. Cơ năng & Bảo toàn"
+          "text": "1. Động năng và Thế năng"
         },
         {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 10. Cơ năng & Bảo toàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "type": "formula",
+          "items": [
+            {
+              "label": "Động năng",
+              "math": "W_d = \\frac{1}{2} m \\cdot v^2"
+            },
+            {
+              "label": "Thế năng trọng trường",
+              "math": "W_t = m \\cdot g \\cdot h"
+            },
+            {
+              "label": "Cơ năng",
+              "math": "W = W_d + W_t = \\frac{1}{2} m \\cdot v^2 + m \\cdot g \\cdot h"
+            }
+          ]
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 10. Cơ năng & Bảo toàn."
+          "type": "heading",
+          "text": "2. Định luật bảo toàn cơ năng"
+        },
+        {
+          "type": "theorem",
+          "title": "Định luật bảo toàn cơ năng",
+          "content": "Khi một vật chuyển động trong trọng trường chỉ chịu tác dụng của trọng lực (không có lực cản, lực ma sát) thì cơ năng của vật là một đại lượng bảo toàn: W = W_d + W_t = \\text{hằng số}."
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 10. Cơ năng & Bảo toàn.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Thả rơi một vật 1 kg từ độ cao h = 20 m xuống đất với g = 10 m/s². Tính vận tốc của vật ngay trước khi chạm đất.",
+          "solution": "Chọn gốc thế năng tại mặt đất. Bảo toàn cơ năng:\nW_đđầu + W_tđầu = W_đcuối + W_tcuối\n0 + mgh = 1/2 · m · v² + 0\n=> v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 20} = \\sqrt{400} = 20 m/s."
         }
       ]
     }

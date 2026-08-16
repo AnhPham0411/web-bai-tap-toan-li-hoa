@@ -7,7 +7,7 @@
       "id": "c1",
       "roman": "I",
       "title": "Cấu tạo nguyên tử",
-      "summary": "Hạt nhân, vỏ nguyên tử, orbital, cấu hình electron.",
+      "summary": "Hạt nhân, vỏ nguyên tử, số hiệu Z, số khối A, đồng vị, cấu hình electron.",
       "theory": "theory/c1.json",
       "lessons": [
         {
@@ -16,7 +16,7 @@
         },
         {
           "id": "b2",
-          "title": "Bài 2. Cấu hình electron"
+          "title": "Bài 2. Cấu hình electron nguyên tử"
         }
       ]
     },
@@ -24,16 +24,16 @@
       "id": "c2",
       "roman": "II",
       "title": "Bảng tuần hoàn các nguyên tố",
-      "summary": "Cấu tạo bảng tuần hoàn, định luật tuần hoàn, xu hướng biến đổi.",
+      "summary": "Ô nguyên tố, chu kỳ, nhóm, quy luật biến đổi bán kính, độ âm điện.",
       "theory": "theory/c2.json",
       "lessons": [
         {
           "id": "b3",
-          "title": "Bài 3. Bảng tuần hoàn"
+          "title": "Bài 3. Cấu tạo Bảng tuần hoàn"
         },
         {
           "id": "b4",
-          "title": "Bài 4. Định luật tuần hoàn"
+          "title": "Bài 4. Xu hướng biến đổi tính chất"
         }
       ]
     },
@@ -41,16 +41,16 @@
       "id": "c3",
       "roman": "III",
       "title": "Liên kết hóa học",
-      "summary": "Liên kết ion, liên kết cộng hóa trị, liên kết hydrogen.",
+      "summary": "Quy tắc Octet, liên kết ion, liên kết cộng hóa trị, liên kết hydrogen.",
       "theory": "theory/c3.json",
       "lessons": [
         {
           "id": "b5",
-          "title": "Bài 5. Liên kết ion & CHT"
+          "title": "Bài 5. Liên kết ion & Cộng hóa trị"
         },
         {
           "id": "b6",
-          "title": "Bài 6. Liên kết hydrogen"
+          "title": "Bài 6. Liên kết hydrogen & van der Waals"
         }
       ]
     },
@@ -58,16 +58,16 @@
       "id": "c4",
       "roman": "IV",
       "title": "Phản ứng oxi hóa - khử",
-      "summary": "Số oxi hóa, lập phương trình phản ứng oxi hóa - khử.",
+      "summary": "Quy tắc xác định số oxi hóa, chất khử, chất oxi hóa, cân bằng e.",
       "theory": "theory/c4.json",
       "lessons": [
         {
           "id": "b7",
-          "title": "Bài 7. Số oxi hóa"
+          "title": "Bài 7. Số oxi hóa & Phản ứng Oxi hóa - Khử"
         },
         {
           "id": "b8",
-          "title": "Bài 8. Phản ứng Oxi hóa - Khử"
+          "title": "Bài 8. Cân bằng phản ứng Oxi hóa - Khử"
         }
       ]
     },
@@ -75,16 +75,16 @@
       "id": "c5",
       "roman": "V",
       "title": "Năng lượng hóa học",
-      "summary": "Enthalpy tạo thành, biến thiên enthalpy của phản ứng.",
+      "summary": "Phản ứng tỏa nhiệt, thu nhiệt, biến thiên enthalpy chuẩn, cách tính Δ_r H.",
       "theory": "theory/c5.json",
       "lessons": [
         {
           "id": "b9",
-          "title": "Bài 9. Biến thiên Enthalpy"
+          "title": "Bài 9. Biến thiên Enthalpy trong phản ứng"
         },
         {
           "id": "b10",
-          "title": "Bài 10. Tính Enthalpy"
+          "title": "Bài 10. Tính biến thiên Enthalpy"
         }
       ]
     }

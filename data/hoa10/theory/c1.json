@@ -8,45 +8,112 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 1. Thành phần nguyên tử"
+          "text": "1. Thành phần cấu tạo nguyên tử"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 1. Thành phần nguyên tử theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Cấu tạo nguyên tử",
+          "content": "Nguyên tử gồm hạt nhân nằm ở tâm (chứa proton mang điện +1, neutron không mang điện) và vỏ nguyên tử chứa các electron (mang điện -1) chuyển động xung quanh hạt nhân."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 1. Thành phần nguyên tử."
+          "type": "table",
+          "title": "Đặc tính các hạt cấu tạo nguyên tử",
+          "headers": [
+            "Hạt",
+            "Kí hiệu",
+            "Điện tích tương đối",
+            "Khối lượng (amu)"
+          ],
+          "rows": [
+            [
+              "Proton",
+              "p",
+              "+1",
+              "1,00727 ≈ 1"
+            ],
+            [
+              "Neutron",
+              "n",
+              "0",
+              "1,00866 ≈ 1"
+            ],
+            [
+              "Electron",
+              "e",
+              "-1",
+              "0,00055 ≈ 0"
+            ]
+          ]
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 1. Thành phần nguyên tử.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "heading",
+          "text": "2. Điện tích hạt nhân và Số khối"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Số hiệu nguyên tử",
+              "math": "Z = p = e"
+            },
+            {
+              "label": "Số khối",
+              "math": "A = Z + N"
+            },
+            {
+              "label": "Kí hiệu nguyên tử",
+              "math": "_{Z}^{A}\\text{X}"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Đồng vị & Khối lượng nguyên tử trung bình"
+        },
+        {
+          "type": "definition",
+          "title": "Đồng vị",
+          "content": "Đồng vị là các nguyên tử của cùng một nguyên tố hóa học, có cùng số proton (Z) nhưng khác nhau về số neutron (N), dẫn đến số khối (A) khác nhau."
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Khối lượng nguyên tử trung bình",
+              "math": "\\bar{A} = \\frac{A_1 \\cdot x + A_2 \\cdot y + ...}{100}"
+            }
+          ]
         }
       ]
     },
     {
       "id": "b2",
-      "title": "Bài 2. Cấu hình electron",
+      "title": "Bài 2. Cấu hình electron nguyên tử",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 2. Cấu hình electron"
-        },
-        {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 2. Cấu hình electron theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "text": "1. Lớp và Phân lớp electron"
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 2. Cấu hình electron."
+          "content": "Các electron sắp xếp thành từng lớp từ gần hạt nhân ra xa: Lớp K (n=1), Lớp L (n=2), Lớp M (n=3), Lớp N (n=4).\nCác phân lớp kí hiệu s, p, d, f với số electron tối đa tương ứng là: s² (2e), p⁶ (6e), d¹⁰ (10e), f¹⁴ (14e)."
+        },
+        {
+          "type": "heading",
+          "text": "2. Quy tắc viết cấu hình electron"
+        },
+        {
+          "type": "list",
+          "title": "Trật tự mức năng lượng",
+          "items": [
+            "1s 2s 2p 3s 3p 4s 3d 4p 5s...",
+            "Lưu ý: Phân lớp 4s có mức năng lượng thấp hơn 3d nên e được điền vào 4s trước 3d."
+          ]
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 2. Cấu hình electron.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Viết cấu hình electron của nguyên tử Fe (Z = 26).",
+          "solution": "Trật tự năng lượng: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶.\nSắp xếp lại theo lớp từ trong ra ngoài: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s² (hoặc viết gọn [Ar] 3d⁶ 4s²)."
         }
       ]
     }

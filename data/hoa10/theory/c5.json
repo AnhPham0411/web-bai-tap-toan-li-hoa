@@ -1,52 +1,59 @@
 {
   "chapterId": "c5",
-  "title": "Năng lượng hóa học",
+  "title": "Năng lượng hóa học & Enthalpy",
   "lessons": [
     {
       "id": "b9",
-      "title": "Bài 9. Biến thiên Enthalpy",
+      "title": "Bài 9. Biến thiên Enthalpy trong phản ứng",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 9. Biến thiên Enthalpy"
+          "text": "1. Phản ứng tỏa nhiệt và Thu nhiệt"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 9. Biến thiên Enthalpy theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Phản ứng tỏa nhiệt và thu nhiệt",
+          "content": "Phản ứng tỏa nhiệt là phản ứng giải phóng năng lượng dưới dạng nhiệt ra môi trường (Δr H₂₉₈⁰ < 0).\nPhản ứng thu nhiệt là phản ứng hấp thụ năng lượng dưới dạng nhiệt từ môi trường (Δr H₂₉₈⁰ > 0)."
+        },
+        {
+          "type": "heading",
+          "text": "2. Biến thiên Enthalpy chuẩn"
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 9. Biến thiên Enthalpy."
-        },
-        {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 9. Biến thiên Enthalpy.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "content": "Biến thiên enthalpy chuẩn của phản ứng kí hiệu là Δr H₂₉₈⁰, tính ở điều kiện chuẩn: nhiệt độ 25 °C (298 K) và áp suất 1 bar."
         }
       ]
     },
     {
       "id": "b10",
-      "title": "Bài 10. Tính Enthalpy",
+      "title": "Bài 10. Tính biến thiên Enthalpy",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 10. Tính Enthalpy"
+          "text": "1. Tính theo Nhiệt tạo thành chuẩn Δf H₂₉₈⁰"
         },
         {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 10. Tính Enthalpy theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "type": "formula",
+          "items": [
+            {
+              "label": "Công thức tính theo Δf H",
+              "math": "\\Delta_r H_{298}^0 = \\sum \\Delta_f H_{298}^0 (SP) - \\sum \\Delta_f H_{298}^0 (CĐ)"
+            }
+          ]
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 10. Tính Enthalpy."
+          "type": "heading",
+          "text": "2. Tính theo Năng lượng liên kết E_b (cho phản ứng thể khí)"
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 10. Tính Enthalpy.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "formula",
+          "items": [
+            {
+              "label": "Công thức tính theo E_b",
+              "math": "\\Delta_r H_{298}^0 = \\sum E_b (CĐ) - \\sum E_b (SP)"
+            }
+          ]
         }
       ]
     }

@@ -8,45 +8,83 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 3. Vận tốc & Độ dịch chuyển"
+          "text": "1. Độ dịch chuyển và Quãng đường đi được"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 3. Vận tốc & Độ dịch chuyển theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Độ dịch chuyển",
+          "content": "Độ dịch chuyển \\vec{d} là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của chuyển động. Độ lớn của độ dịch chuyển d là khoảng cách giữa điểm đầu và điểm cuối."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 3. Vận tốc & Độ dịch chuyển."
+          "type": "note",
+          "content": "Khi vật chuyển động thẳng và không đổi chiều thì độ lớn độ dịch chuyển bằng quãng đường đi được (d = s). Nếu vật đổi chiều hoặc chuyển động cong thì d < s."
+        },
+        {
+          "type": "heading",
+          "text": "2. Vận tốc và Tốc độ"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Tốc độ trung bình",
+              "math": "v_{tb} = \\frac{s}{\\Delta t}"
+            },
+            {
+              "label": "Vận tốc trung bình",
+              "math": "\\vec{v}_{tb} = \\frac{\\Delta \\vec{d}}{\\Delta t}"
+            }
+          ]
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 3. Vận tốc & Độ dịch chuyển.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Một xe đi từ A đến B dài 60 km mất 1 giờ, rồi quay lại A mất 1,5 giờ. Tính tốc độ trung bình và vận tốc trung bình của xe trong cả chuyến đi.",
+          "solution": "Tổng quãng đường s = 60 + 60 = 120 km. Tổng thời gian t = 1 + 1,5 = 2,5 h.\nTốc độ trung bình v_tb = 120 / 2,5 = 48 km/h.\nVị trí đầu và cuối trùng nhau nên độ dịch chuyển d = 0 => Vận tốc trung bình = 0 km/h."
         }
       ]
     },
     {
       "id": "b4",
-      "title": "Bài 4. Chuyển động thẳng đều",
+      "title": "Bài 4. Chuyển động thẳng biến đổi đều",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 4. Chuyển động thẳng đều"
+          "text": "1. Gia tốc"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 4. Chuyển động thẳng đều theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Gia tốc",
+          "content": "Gia tốc \\vec{a} là đại lượng đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian: \\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t} = \\frac{\\vec{v} - \\vec{v}_0}{t - t_0}. Đơn vị: m/s²."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 4. Chuyển động thẳng đều."
+          "type": "heading",
+          "text": "2. Các phương trình của chuyển động thẳng biến đổi đều"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Vận tốc",
+              "math": "v = v_0 + a \\cdot t"
+            },
+            {
+              "label": "Độ dịch chuyển",
+              "math": "d = v_0 \\cdot t + \\frac{1}{2} a \\cdot t^2"
+            },
+            {
+              "label": "Công thức độc lập thời gian",
+              "math": "v^2 - v_0^2 = 2 \\cdot a \\cdot d"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Chuyển động nhanh dần đều: a và v_0 cùng dấu (a \\cdot v_0 > 0).\nChuyển động chậm dần đều: a và v_0 ngược dấu (a \\cdot v_0 < 0)."
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 4. Chuyển động thẳng đều.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Một ô tô hãm phanh với gia tốc a = −2 m/s² từ vận tốc v_0 = 20 m/s. Tính quãng đường ô tô đi được cho đến khi dừng lại.",
+          "solution": "Khi dừng lại v = 0 m/s. Áp dụng v² − v_0² = 2ad:\n0² − 20² = 2 · (−2) · d => −400 = −4d => d = 100 m."
         }
       ]
     }

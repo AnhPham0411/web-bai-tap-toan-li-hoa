@@ -4,49 +4,54 @@
   "lessons": [
     {
       "id": "b7",
-      "title": "Bài 7. Số oxi hóa",
+      "title": "Bài 7. Số oxi hóa & Phản ứng Oxi hóa - Khử",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 7. Số oxi hóa"
+          "text": "1. Số oxi hóa"
         },
         {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 7. Số oxi hóa theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "type": "list",
+          "title": "Quy tắc xác định số oxi hóa",
+          "items": [
+            "Số oxi hóa của nguyên tố trong đơn chất bằng 0 (ví dụ: Cu⁰, O₂⁰).",
+            "Trong hợp chất: H thường là +1, O thường là -2, Kim loại kiềm (nhóm IA) là +1, kiềm thổ (IIA) là +2, Al là +3.",
+            "Tổng số oxi hóa của các nguyên tử trong phân tử bằng 0, trong ion bằng điện tích của ion đó."
+          ]
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 7. Số oxi hóa."
+          "type": "heading",
+          "text": "2. Khái niệm Phản ứng Oxi hóa - Khử"
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 7. Số oxi hóa.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "theorem",
+          "title": "Khái niệm quan trọng",
+          "content": "- Chất khử (chất bị oxi hóa): Nhường electron, số oxi hóa TĂNG sau phản ứng.\n- Chất oxi hóa (chất bị khử): Nhận electron, số oxi hóa GIẢM sau phản ứng.\n- Quá trình oxi hóa: Sự nhường electron.\n- Quá trình khử: Sự nhận electron."
         }
       ]
     },
     {
       "id": "b8",
-      "title": "Bài 8. Phản ứng Oxi hóa - Khử",
+      "title": "Bài 8. Cân bằng phản ứng Oxi hóa - Khử",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 8. Phản ứng Oxi hóa - Khử"
+          "text": "1. Phương pháp thăng bằng electron"
         },
         {
-          "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 8. Phản ứng Oxi hóa - Khử theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
-        },
-        {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 8. Phản ứng Oxi hóa - Khử."
+          "type": "list",
+          "title": "4 bước cân bằng",
+          "items": [
+            "Bước 1: Xác định số oxi hóa của các nguyên tố thay đổi số oxi hóa.",
+            "Bước 2: Viết quá trình oxi hóa và quá trình khử.",
+            "Bước 3: Tìm hệ số thích hợp sao cho Tổng số electron nhường = Tổng số electron nhận.",
+            "Bước 4: Đặt hệ số vào phương trình và hoàn thành cân bằng."
+          ]
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 8. Phản ứng Oxi hóa - Khử.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Cân bằng phản ứng: Cu + HNO₃(đặc) -> Cu(NO₃)₂ + NO₂ + H₂O.",
+          "solution": "Cu⁰ -> Cu⁺² + 2e (Chất khử, nhường 2e)\nN⁺⁵ + 1e -> N⁺⁴ (Chất oxi hóa, nhận 1e)\nNhân hệ số: 1 × (nhường 2e) và 2 × (nhận 1e).\nPhương trình: Cu + 4HNO₃ -> Cu(NO₃)₂ + 2NO₂ + 2H₂O."
         }
       ]
     }

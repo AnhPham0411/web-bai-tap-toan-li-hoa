@@ -4,49 +4,90 @@
   "lessons": [
     {
       "id": "b1",
-      "title": "Bài 1. Mở đầu",
+      "title": "Bài 1. Mở đầu về Vật lí",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 1. Mở đầu"
+          "text": "1. Đối tượng nghiên cứu và mục tiêu của Vật lí"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 1. Mở đầu theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Đối tượng nghiên cứu của Vật lí",
+          "content": "Vật lí là ngành khoa học tự nhiên nghiên cứu về các dạng vận động của vật chất (cơ, nhiệt, điện, từ, quang, hạt nhân...) và năng lượng."
         },
         {
           "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 1. Mở đầu."
+          "content": "Mục tiêu chính của Vật lí là khám phá ra các quy luật tổng quát điều khiển sự vận động của thế giới tự nhiên, từ các hạt cận nguyên tử đến toàn bộ vũ trụ."
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 1. Mở đầu.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "heading",
+          "text": "2. Phương pháp nghiên cứu Vật lí"
+        },
+        {
+          "type": "list",
+          "title": "Hai phương pháp nghiên cứu chính",
+          "items": [
+            "Phương pháp thực nghiệm: Dựa trên quan sát, tiến hành thí nghiệm kiểm chứng để rút ra quy luật vật lí.",
+            "Phương pháp lý thuyết: Dựa trên lập luận toán học, suy luận logic từ các nguyên lý đã biết để dự đoán hiện tượng mới."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Quy tắc an toàn trong phòng thực hành"
+        },
+        {
+          "type": "note",
+          "content": "Tuyệt đối tuân thủ hướng dẫn của giáo viên: Kiểm tra thiết bị điện trước khi cắm, không chạm tay ướt vào nguồn điện, ngắt điện ngay khi xảy ra sự cố chập cháy."
         }
       ]
     },
     {
       "id": "b2",
-      "title": "Bài 2. Sai số phép đo",
+      "title": "Bài 2. Vấn đề an toàn & Sai số trong đo lường",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 2. Sai số phép đo"
+          "text": "1. Phép đo các đại lượng vật lí"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 2. Sai số phép đo theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Phép đo trực tiếp và gián tiếp",
+          "content": "Phép đo trực tiếp là so sánh đại lượng cần đo với đại lượng cùng loại bằng dụng cụ đo (dùng thước đo chiều dài, cân đo khối lượng).\nPhép đo gián tiếp là xác định đại lượng cần đo thông qua công thức liên hệ với các đại lượng đo trực tiếp (tính vận tốc v = s / t)."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 2. Sai số phép đo."
+          "type": "heading",
+          "text": "2. Sai số phép đo"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Giá trị trung bình",
+              "math": "\\bar{A} = \\frac{A_1 + A_2 + ... + A_n}{n}"
+            },
+            {
+              "label": "Sai số tuyệt đối trung bình",
+              "math": "\\bar{\\Delta A} = \\frac{|\\bar{A} - A_1| + |\\bar{A} - A_2| + ... + |\\bar{A} - A_n|}{n}"
+            },
+            {
+              "label": "Sai số tuyệt đối phép đo",
+              "math": "\\Delta A = \\bar{\\Delta A} + \\Delta A_{dc}"
+            },
+            {
+              "label": "Sai số tương đối",
+              "math": "\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%"
+            }
+          ]
+        },
+        {
+          "type": "theorem",
+          "title": "Cách ghi kết quả phép đo",
+          "content": "Kết quả đo đại lượng A được biểu diễn dưới dạng: A = \\bar{A} \\pm \\Delta A (trong đó \\Delta A thường lấy đến 1 hoặc 2 chữ số có nghĩa)."
         },
         {
           "type": "example",
-          "question": "Ví dụ minh họa cho Bài 2. Sai số phép đo.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "question": "Đo chiều dài một chiếc bàn n lần được giá trị trung bình \\bar{l} = 1,250 m và sai số tuyệt đối \\Delta l = 0,005 m. Tính sai số tương đối \\delta l và ghi kết quả phép đo.",
+          "solution": "\\delta l = (\\Delta l / \\bar{l}) \\cdot 100\\% = (0,005 / 1,250) \\cdot 100\\% = 0,4\\%.\nKết quả đo: l = 1,250 \\pm 0,005 m."
         }
       ]
     }

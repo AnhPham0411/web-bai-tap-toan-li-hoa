@@ -4,49 +4,65 @@
   "lessons": [
     {
       "id": "b5",
-      "title": "Bài 5. Liên kết ion & CHT",
+      "title": "Bài 5. Liên kết ion & Liên kết cộng hóa trị",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 5. Liên kết ion & CHT"
+          "text": "1. Quy tắc Octet (8 electron)"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 5. Liên kết ion & CHT theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Quy tắc Octet",
+          "content": "Trong quá trình hình thành liên kết hóa học, các nguyên tử có xu hướng nhường, nhận hoặc góp chung electron để đạt được cấu hình electron bền vững của khí hiếm với 8 electron lớp ngoài cùng (hoặc 2 electron với Helium)."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 5. Liên kết ion & CHT."
+          "type": "heading",
+          "text": "2. Phân loại liên kết dựa trên Độ âm điện (Δχ)"
         },
         {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 5. Liên kết ion & CHT.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "table",
+          "title": "Phân loại liên kết theo hiệu độ âm điện Δχ",
+          "headers": [
+            "Hiệu độ âm điện Δχ",
+            "Loại liên kết",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "0,0 ≤ Δχ < 0,4",
+              "Liên kết cộng hóa trị không cực",
+              "H₂, O₂, N₂"
+            ],
+            [
+              "0,4 ≤ Δχ < 1,7",
+              "Liên kết cộng hóa trị có cực",
+              "HCl, H₂O, NH₃"
+            ],
+            [
+              "Δχ ≥ 1,7",
+              "Liên kết ion",
+              "NaCl, CaO, KBr"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "b6",
-      "title": "Bài 6. Liên kết hydrogen",
+      "title": "Bài 6. Liên kết hydrogen & Tương tác van der Waals",
       "blocks": [
         {
           "type": "heading",
-          "text": "1. Khái niệm cơ bản — Bài 6. Liên kết hydrogen"
+          "text": "1. Liên kết hydrogen"
         },
         {
           "type": "definition",
-          "title": "Trọng tâm bài học",
-          "content": "Nội dung trọng tâm của Bài 6. Liên kết hydrogen theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+          "title": "Liên kết hydrogen",
+          "content": "Liên kết hydrogen là một loại liên kết yếu được hình thành giữa nguyên tử H (đã liên kết với nguyên tử có độ âm điện lớn như F, O, N) với một nguyên tử có độ âm điện lớn khác (F, O, N) còn cặp electron chưa liên kết."
         },
         {
-          "type": "text",
-          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 6. Liên kết hydrogen."
-        },
-        {
-          "type": "example",
-          "question": "Ví dụ minh họa cho Bài 6. Liên kết hydrogen.",
-          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+          "type": "note",
+          "content": "Liên kết hydrogen làm tăng nhiệt độ sôi và nhiệt độ nóng chảy của các chất như H₂O, HF, NH₃, C₂H₅OH so với các chất không có liên kết hydrogen."
         }
       ]
     }
