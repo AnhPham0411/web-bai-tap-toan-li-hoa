@@ -10,7 +10,7 @@
  *   ^{...} hoặc ^2   số mũ
  *   _{...} hoặc _1   chỉ số dưới
  *   \le \ge \ne ...  các ký hiệu thông dụng
- * Các ký hiệu Unicode (≤, ∈, ∪, ∩, ∅, ∀, ∃, ⇒, ⇔, °, √, α…) viết trực tiếp cũng được giữ nguyên.
+ * Ký hiệu đặc biệt: \{, \}, \%, \_, \$, \&, \\
  */
 
 const SYMBOLS = {
@@ -23,16 +23,22 @@ const SYMBOLS = {
   Rightarrow: '⇒', Leftrightarrow: '⇔', rightarrow: '→', to: '→', mapsto: '↦',
   perp: '⊥', parallel: '∥', angle: '∠', triangle: '△',
   alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ',
-  theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', sigma: 'σ', Sigma: 'Σ', omega: 'ω',
-  approx: '≈', equiv: '≡', propto: '∝', sum: 'Σ',
+  theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ',
+  sigma: 'σ', Sigma: 'Σ', tau: 'τ', phi: 'φ', omega: 'ω', Omega: 'Ω',
+  approx: '≈', equiv: '≡', propto: '∝', sum: 'Σ', prod: '∏',
   R: 'ℝ', Q: 'ℚ', Z: 'ℤ', N: 'ℕ'
 };
 
 const ONE_ARG = {
   sqrt: (inner) => `<span class="m-sqrt"><span class="m-rad">√</span><span class="m-radicand">${inner}</span></span>`,
   vec: (inner) => `<span class="m-vec">${inner}</span>`,
+  bar: (inner) => `<span class="m-obar">${inner}</span>`,
   overline: (inner) => `<span class="m-obar">${inner}</span>`,
+  hat: (inner) => `<span class="m-obar">${inner}</span>`,
   mathbb: (inner) => inner,
+  mathrm: (inner) => inner,
+  mathbf: (inner) => inner,
+  mathit: (inner) => inner,
   text: (inner) => inner
 };
 
@@ -67,6 +73,15 @@ function transform(src) {
     const ch = src[i];
 
     if (ch === '\\') {
+      const nextChar = src[i + 1];
+      if (nextChar === '{') { out += '{'; i += 2; continue; }
+      if (nextChar === '}') { out += '}'; i += 2; continue; }
+      if (nextChar === '%') { out += '%'; i += 2; continue; }
+      if (nextChar === '_') { out += '_'; i += 2; continue; }
+      if (nextChar === '$') { out += '$'; i += 2; continue; }
+      if (nextChar === '&') { out += '&amp;'; i += 2; continue; }
+      if (nextChar === '\\') { out += '<br>'; i += 2; continue; }
+
       const m = /^\\([A-Za-z]+)/.exec(src.slice(i));
       if (m) {
         const name = m[1];
@@ -94,7 +109,6 @@ function transform(src) {
           continue;
         }
       }
-      // Dấu gạch chéo đơn lẻ (ví dụ hiệu hai tập hợp "A \ B") giữ nguyên.
       out += '\\';
       i++;
       continue;
@@ -108,10 +122,10 @@ function transform(src) {
         i = g.next;
         continue;
       }
-      const next = src[i + 1];
-      if (next && /[0-9A-Za-z]/.test(next)) {
-        out += `<${tag}>${next}</${tag}>`;
-        i += 2;
+      const mSub = /^([0-9]+|[A-Za-z])/.exec(src.slice(i + 1));
+      if (mSub) {
+        out += `<${tag}>${mSub[1]}</${tag}>`;
+        i += 1 + mSub[1].length;
         continue;
       }
     }
