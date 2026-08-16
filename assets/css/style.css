@@ -76,18 +76,18 @@ code { font-family: var(--font-mono); font-size: .9em; background: var(--surface
 }
 .header-inner { display: flex; align-items: center; gap: 20px; height: 62px; }
 
-.brand { display: flex; align-items: center; gap: 10px; color: var(--text); }
+.brand { display: flex; align-items: center; gap: 8px; color: var(--text); }
 .brand:hover { text-decoration: none; }
 .brand-mark {
-  width: 34px; height: 34px; flex: none;
-  display: grid; place-items: center;
+  padding: 3px 7px; height: 28px; flex: none;
+  display: inline-flex; align-items: center; justify-content: center;
   background: var(--accent); color: #fff;
-  border-radius: 8px; font-weight: 700; font-size: 13px; letter-spacing: .02em;
+  border-radius: 6px; font-weight: 800; font-size: 12px; letter-spacing: .03em;
 }
 :root[data-theme="dark"] .brand-mark { color: #10171d; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-text strong { font-size: 15px; }
-.brand-text small { color: var(--text-muted); font-size: 12px; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-text strong { font-size: 14px; font-weight: 700; white-space: nowrap; }
+.brand-text small { color: var(--text-muted); font-size: 11px; font-weight: 500; }
 
 .subject-select {
   font: inherit;
