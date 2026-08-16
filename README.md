@@ -1,152 +1,61 @@
-# Toán 10 — Lý thuyết & bài tập
+# Web Bài Tập Toán - Lý - Hóa 10 (GDPT 2018)
 
-Web học Toán 10 theo chương trình GDPT 2018 (bộ Kết nối tri thức với cuộc sống), phần **học kì 1**.
-Toàn bộ nội dung nằm trong các file JSON ở thư mục `data/`, giao diện đọc trực tiếp từ đó.
+Ứng dụng web học lý thuyết và luyện bài tập cho 3 môn **Toán 10**, **Vật lí 10**, **Hóa học 10** theo chương trình GDPT 2018 (bộ sách Kết nối tri thức với cuộc sống, Học kì 1).
 
-Không dùng framework, không cần cài đặt, không phụ thuộc mạng (công thức toán được render bằng
-một bộ render nhỏ tự viết trong `assets/js/math.js`).
+Repository: [https://github.com/AnhPham0411/web-bai-tap-toan-li-hoa](https://github.com/AnhPham0411/web-bai-tap-toan-li-hoa)
 
-## Chạy
+## Quy mô Dữ liệu (2.250 câu hỏi)
 
-Trang dùng `fetch` để đọc JSON nên **phải chạy qua web server**; mở trực tiếp bằng `file://`
-sẽ bị trình duyệt chặn.
+- **Mỗi môn 5 chương**, mỗi chương bao gồm **150 câu hỏi** (120 Trắc nghiệm + 30 Trả lời ngắn).
+- **Phân bổ độ khó chuẩn:** 50% Nhận biết (`nb`), 40% Thông hiểu (`th`), 10% Vận dụng (`vd`).
+- **Tổng cộng toàn hệ thống:** **2.250 câu hỏi** (1.800 câu Trắc nghiệm + 450 câu Trả lời ngắn).
+- **100% câu hỏi** đều có đáp án chính xác và lời giải chi tiết (`explanation`).
 
-Cách nhanh nhất — nháy đúp `start.bat`. Hoặc chạy tay:
+| Môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tổng câu hỏi |
+|---|---|---|---|---|
+| **Toán 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **Vật lí 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **Hóa học 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **TỔNG** | **15 chương** | **1.800 câu** | **450 câu** | **2.250 câu** |
+
+---
+
+## Chạy dự án cục bộ
+
+Mở trực tiếp `index.html` qua trình duyệt sẽ bị chặn do giao diện đọc JSON bằng `fetch`. Vui lòng chạy qua web server:
 
 ```bash
-python -m http.server 8080      # rồi mở http://localhost:8080
-npx serve                       # nếu dùng Node.js
+# Cách 1: Chạy bằng Python (khuyên dùng)
+python -m http.server 8080
+
+# Cách 2: Chạy bằng Node.js (nếu có npx)
+npx serve
+
+# Cách 3: Nháy đúp file start.bat (trên Windows)
 ```
+Sau đó mở trình duyệt truy cập: `http://localhost:8080`
 
-Trong VS Code: cài extension **Live Server**, bấm chuột phải `index.html` → *Open with Live Server*.
+---
 
-## Nội dung hiện có
+## Tính năng nổi bật
 
-| Chương | Tên | Bài lý thuyết | Trắc nghiệm | Trả lời ngắn |
-|---|---|---|---|---|
-| I | Mệnh đề và tập hợp | 2 | 15 | 13 |
-| II | Bất phương trình và hệ bất phương trình bậc nhất hai ẩn | 2 | 11 | 10 |
-| III | Hệ thức lượng trong tam giác | 2 | 15 | 15 |
-| IV | Vectơ | 5 | 22 | 16 |
-| V | Các số đặc trưng của mẫu số liệu không ghép nhóm | 3 | 15 | 15 |
-| | **Tổng** | **14** | **78** | **69** |
+- **Chuyển đổi môn học linh hoạt:** Dropdown chọn nhanh giữa Toán 10, Vật lí 10, Hóa học 10 ngay trên thanh tiêu đề.
+- **Render công thức khoa học:** Tự động hiển thị công thức LaTeX, phân số, căn thức, vectơ, đơn vị đo vật lí và công thức hóa học qua engine `assets/js/math.js`.
+- **Luyện tập đa dạng:** Chọn bài theo môn, theo chương, chọn độ khó, lọc câu sai, làm lại đề.
+- **Lưu tiến độ tự động:** Lưu vết chế độ sáng/tối (Dark mode), môn học đang chọn, và lịch sử chấm điểm trong `localStorage`.
 
-Mỗi câu hỏi đều có lời giải và được gắn nhãn mức độ: nhận biết / thông hiểu / vận dụng.
+---
 
-## Chức năng
+## Sinh/Cập nhật dữ liệu tự động
 
-- **Lý thuyết** — đọc theo từng bài, có mục lục bên trái, chuyển bài trước/sau, ghi nhớ bài đang đọc.
-- **Luyện tập** — chọn dạng bài, chọn nhiều chương, chọn mức độ, số câu, trộn thứ tự.
-  - *Xem đáp án ngay*: chấm và hiện lời giải sau mỗi câu.
-  - *Làm hết rồi chấm*: chỉ chấm khi nộp bài.
-- **Chấm điểm** — trắc nghiệm so đáp án; trả lời ngắn nhận cả `7,5` và `7.5`, cả dấu trừ `−` và `-`,
-  cả dạng phân số `15/2`, và có sai số cho phép với các đáp số làm tròn.
-- **Kết quả** — điểm theo thang 10, lọc riêng câu sai để xem lại kèm lời giải.
-- Chế độ sáng/tối, lưu lịch sử làm bài trong `localStorage`.
-
-## Cấu trúc
-
+Để tái tạo hoặc cập nhật 2.250 câu hỏi:
+```bash
+python scripts/generate_all.py
 ```
-index.html
-start.bat                       mở server + trình duyệt (Windows)
-assets/
-  css/style.css
-  js/
-    app.js                      router theo hash, khởi tạo
-    data.js                     đọc & cache JSON
-    math.js                     render công thức toán
-    grade.js                    chấm bài, chuẩn hoá đáp số
-    store.js                    localStorage
-    views/{home,theory,practice}.js
-data/
-  manifest.json                 danh sách lớp/học kì
-  toan10/
-    index.json                  chương, bài, các bộ câu hỏi
-    theory/c1.json … c5.json    lý thuyết từng chương
-    questions/mc.json           trắc nghiệm
-    questions/short.json        trả lời ngắn
-```
+Script sẽ tự động kiểm tra cú pháp JSON, escape ký tự LaTeX chuẩn xác và ghi vào các thư mục `data/toan10`, `data/ly10`, `data/hoa10`.
 
-## Viết công thức toán trong JSON
+---
 
-Dùng một tập con của LaTeX, phần còn lại viết ký tự Unicode trực tiếp:
+## Deploy Vercel
 
-| Viết | Kết quả |
-|---|---|
-| `\frac{a}{b}` | phân số |
-| `\sqrt{2}` | căn bậc hai |
-| `\vec{AB}` | vectơ (mũi tên trên đầu) |
-| `\overline{x}` | gạch ngang trên đầu |
-| `x^{2}` hoặc `x^2` | số mũ |
-| `a_{1}` hoặc `a_1` | chỉ số dưới |
-| `\le \ge \ne \pm \cdot \in \cup \cap \Rightarrow` | ≤ ≥ ≠ ± · ∈ ∪ ∩ ⇒ |
-
-Các ký hiệu như `≤ ∈ ∪ ∩ ∅ ∀ ∃ ⇔ ° √ α β ℝ ℚ ℤ ℕ` gõ thẳng cũng được.
-Trong JSON nhớ escape dấu gạch chéo: `"\\frac{1}{2}"`.
-
-## Thêm câu hỏi
-
-Thêm phần tử vào mảng `questions` của `data/toan10/questions/mc.json` hoặc `short.json`.
-
-Trắc nghiệm — `answer` là **chỉ số** của phương án đúng (0 = A, 1 = B, 2 = C, 3 = D):
-
-```json
-{
-  "id": "mc-c1-16",
-  "chapter": "c1",
-  "lesson": "b2",
-  "level": "th",
-  "question": "Cho A = {1; 2; 3}. Số tập con của A là:",
-  "choices": ["6", "8", "9", "3"],
-  "answer": 1,
-  "explanation": "Tập có n phần tử thì có 2^{n} tập con."
-}
-```
-
-Trả lời ngắn — `answer` là một số, viết dấu chấm thập phân:
-
-```json
-{
-  "id": "sa-c1-14",
-  "chapter": "c1",
-  "level": "vd",
-  "question": "Tính tổng các phần tử của A = {x ∈ ℕ | x là ước của 12}.",
-  "answer": "28",
-  "explanation": "Các ước là 1; 2; 3; 4; 6; 12."
-}
-```
-
-Trường tuỳ chọn: `tolerance` (sai số cho phép, dùng cho đáp số làm tròn như `2.83`),
-`accept` (mảng đáp án khác cũng được tính đúng), `unit` (đơn vị hiển thị cạnh ô nhập).
-
-## Thêm bài lý thuyết
-
-Khai báo bài trong `data/toan10/index.json` (mảng `lessons` của chương), rồi thêm bài
-tương ứng vào `data/toan10/theory/c<N>.json`. Mỗi bài là một mảng `blocks`; các loại block:
-
-| `type` | Trường | Dùng cho |
-|---|---|---|
-| `heading` | `text` | tiêu đề mục |
-| `text` | `content` | đoạn văn (dòng trống = đoạn mới) |
-| `list` | `title?`, `items[]` | gạch đầu dòng |
-| `definition` | `title?`, `content` | định nghĩa |
-| `theorem` | `title?`, `content` | định lí, tính chất |
-| `example` | `question`, `solution` | ví dụ có lời giải |
-| `note` | `content` | chú ý, lưu ý |
-| `formula` | `items[{label?, math}]` | bảng công thức |
-| `table` | `title?`, `headers[]`, `rows[][]` | bảng |
-
-## Thêm lớp hoặc học kì khác
-
-1. Trong `data/manifest.json`, đổi `available` của mục tương ứng thành `true`
-   (hoặc thêm mục mới), đặt `path` là tên thư mục dữ liệu.
-2. Tạo thư mục `data/<path>/` với `index.json`, `theory/` và `questions/` theo đúng
-   cấu trúc như `toan10`.
-
-Không cần sửa code — ứng dụng lấy môn `available` đầu tiên trong manifest làm môn hiện hành.
-
-## Có thể mở rộng thêm
-
-Kiến trúc đã sẵn cho các dạng bài khác: thêm một mục vào `questionSets` của `index.json`
-với `type` mới, rồi bổ sung nhánh render/chấm tương ứng trong `views/practice.js` và `grade.js`
-(hai dạng hiện có là `multiple-choice` và `short-answer`).
+Dự án sử dụng cấu hình tĩnh với `vercel.json`. Khi push code lên nhánh `main` của kho chứa GitHub `AnhPham0411/web-bai-tap-toan-li-hoa`, Vercel sẽ tự động build & deploy lại trang web giữ nguyên domain/project hiện tại.
