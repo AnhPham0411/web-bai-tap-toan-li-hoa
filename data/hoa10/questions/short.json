@@ -1,0 +1,1354 @@
+{
+  "questions": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +2e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "2",
+      "explanation": "Số electron = số proton = Z = 2."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +3e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "3",
+      "explanation": "Số electron = số proton = Z = 3."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +4e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "4",
+      "explanation": "Số electron = số proton = Z = 4."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +5e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "5",
+      "explanation": "Số electron = số proton = Z = 5."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +6e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "6",
+      "explanation": "Số electron = số proton = Z = 6."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +7e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "7",
+      "explanation": "Số electron = số proton = Z = 7."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +8e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "8",
+      "explanation": "Số electron = số proton = Z = 8."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +9e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "9",
+      "explanation": "Số electron = số proton = Z = 9."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +10e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "10",
+      "explanation": "Số electron = số proton = Z = 10."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +11e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "11",
+      "explanation": "Số electron = số proton = Z = 11."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +12e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "12",
+      "explanation": "Số electron = số proton = Z = 12."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +13e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "13",
+      "explanation": "Số electron = số proton = Z = 13."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +14e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "14",
+      "explanation": "Số electron = số proton = Z = 14."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +15e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "15",
+      "explanation": "Số electron = số proton = Z = 15."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Nguyên tử X có điện tích hạt nhân là +16e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "16",
+      "explanation": "Số electron = số proton = Z = 16."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +17e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "17",
+      "explanation": "Số electron = số proton = Z = 17."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +18e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "18",
+      "explanation": "Số electron = số proton = Z = 18."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +1e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "1",
+      "explanation": "Số electron = số proton = Z = 1."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +2e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "2",
+      "explanation": "Số electron = số proton = Z = 2."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +3e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "3",
+      "explanation": "Số electron = số proton = Z = 3."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +4e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "4",
+      "explanation": "Số electron = số proton = Z = 4."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +5e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "5",
+      "explanation": "Số electron = số proton = Z = 5."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +6e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "6",
+      "explanation": "Số electron = số proton = Z = 6."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +7e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "7",
+      "explanation": "Số electron = số proton = Z = 7."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +8e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "8",
+      "explanation": "Số electron = số proton = Z = 8."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +9e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "9",
+      "explanation": "Số electron = số proton = Z = 9."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Nguyên tử X có điện tích hạt nhân là +10e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "10",
+      "explanation": "Số electron = số proton = Z = 10."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "question": "Nguyên tử X có điện tích hạt nhân là +11e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "11",
+      "explanation": "Số electron = số proton = Z = 11."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "question": "Nguyên tử X có điện tích hạt nhân là +12e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "12",
+      "explanation": "Số electron = số proton = Z = 12."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "question": "Nguyên tử X có điện tích hạt nhân là +13e. Tính tổng số electron ở vỏ nguyên tử X.",
+      "answer": "13",
+      "explanation": "Số electron = số proton = Z = 13."
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 11. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=11 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 12. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=12 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 13. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=13 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 14. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=14 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 15. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=15 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 16. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=16 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 17. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=17 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 18. Xác định số lớp electron của nguyên tử X.",
+      "answer": "3",
+      "explanation": "Nguyên tố Z=18 có cấu hình e thích hợp với 3 lớp electron."
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 19. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=19 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 20. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=20 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 21. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=21 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 22. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=22 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 23. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=23 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 24. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=24 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Nguyên tố X có Z = 25. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=25 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 26. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=26 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 27. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=27 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 28. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=28 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 29. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=29 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 30. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=30 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 31. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=31 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 32. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=32 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 33. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=33 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 34. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=34 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 35. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=35 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 36. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=36 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Nguyên tố X có Z = 37. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=37 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "vd",
+      "question": "Nguyên tố X có Z = 38. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=38 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "vd",
+      "question": "Nguyên tố X có Z = 39. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=39 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "vd",
+      "question": "Nguyên tố X có Z = 40. Xác định số lớp electron của nguyên tử X.",
+      "answer": "4",
+      "explanation": "Nguyên tố Z=40 có cấu hình e thích hợp với 4 lớp electron."
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "vd",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "vd",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "vd",
+      "question": "Tính tổng số liên kết \\sigma trong một phân tử CH_4.",
+      "answer": "4",
+      "explanation": "Phân tử CH4 có 4 liên kết đơn C-H, mỗi liên kết đơn là 1 liên kết \\sigma. Tổng = 4."
+    },
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "vd",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "vd",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "vd",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4.",
+      "answer": "6",
+      "explanation": "Trong H2SO4: 2*(+1) + S + 4*(-2) = 0 => S = +6."
+    },
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -20 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "20",
+      "explanation": "Vì \\Delta r H_{298}^0 = -20 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 20 kJ."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -40 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "40",
+      "explanation": "Vì \\Delta r H_{298}^0 = -40 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 40 kJ."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -60 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "60",
+      "explanation": "Vì \\Delta r H_{298}^0 = -60 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 60 kJ."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -80 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "80",
+      "explanation": "Vì \\Delta r H_{298}^0 = -80 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 80 kJ."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -100 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "100",
+      "explanation": "Vì \\Delta r H_{298}^0 = -100 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 100 kJ."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -120 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "120",
+      "explanation": "Vì \\Delta r H_{298}^0 = -120 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 120 kJ."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -140 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "140",
+      "explanation": "Vì \\Delta r H_{298}^0 = -140 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 140 kJ."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -160 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "160",
+      "explanation": "Vì \\Delta r H_{298}^0 = -160 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 160 kJ."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -180 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "180",
+      "explanation": "Vì \\Delta r H_{298}^0 = -180 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 180 kJ."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -200 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "200",
+      "explanation": "Vì \\Delta r H_{298}^0 = -200 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 200 kJ."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -220 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "220",
+      "explanation": "Vì \\Delta r H_{298}^0 = -220 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 220 kJ."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -240 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "240",
+      "explanation": "Vì \\Delta r H_{298}^0 = -240 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 240 kJ."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -260 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "260",
+      "explanation": "Vì \\Delta r H_{298}^0 = -260 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 260 kJ."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -280 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "280",
+      "explanation": "Vì \\Delta r H_{298}^0 = -280 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 280 kJ."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -300 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "300",
+      "explanation": "Vì \\Delta r H_{298}^0 = -300 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 300 kJ."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -320 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "320",
+      "explanation": "Vì \\Delta r H_{298}^0 = -320 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 320 kJ."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -340 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "340",
+      "explanation": "Vì \\Delta r H_{298}^0 = -340 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 340 kJ."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -360 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "360",
+      "explanation": "Vì \\Delta r H_{298}^0 = -360 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 360 kJ."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -380 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "380",
+      "explanation": "Vì \\Delta r H_{298}^0 = -380 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 380 kJ."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -400 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "400",
+      "explanation": "Vì \\Delta r H_{298}^0 = -400 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 400 kJ."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -420 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "420",
+      "explanation": "Vì \\Delta r H_{298}^0 = -420 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 420 kJ."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -440 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "440",
+      "explanation": "Vì \\Delta r H_{298}^0 = -440 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 440 kJ."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -460 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "460",
+      "explanation": "Vì \\Delta r H_{298}^0 = -460 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 460 kJ."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -480 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "480",
+      "explanation": "Vì \\Delta r H_{298}^0 = -480 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 480 kJ."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -500 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "500",
+      "explanation": "Vì \\Delta r H_{298}^0 = -500 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 500 kJ."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -520 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "520",
+      "explanation": "Vì \\Delta r H_{298}^0 = -520 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 520 kJ."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -540 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "540",
+      "explanation": "Vì \\Delta r H_{298}^0 = -540 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 540 kJ."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "vd",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -560 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "560",
+      "explanation": "Vì \\Delta r H_{298}^0 = -560 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 560 kJ."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "vd",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -580 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "580",
+      "explanation": "Vì \\Delta r H_{298}^0 = -580 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 580 kJ."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "vd",
+      "question": "Cho phản ứng có biến thiên enthalpy \\Delta r H_{298}^0 = -600 kJ. Tính nhiệt lượng tỏa ra (kJ) khi phản ứng xảy ra hoàn toàn theo đúng tỉ lệ mol.",
+      "answer": "600",
+      "explanation": "Vì \\Delta r H_{298}^0 = -600 kJ (âm), đây là phản ứng tỏa nhiệt với nhiệt lượng tỏa ra là 600 kJ."
+    }
+  ]
+}

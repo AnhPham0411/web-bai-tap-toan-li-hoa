@@ -1,0 +1,122 @@
+{
+  "id": "hoa10",
+  "title": "Hóa học 10 — Học kì 1",
+  "book": "Kết nối tri thức với cuộc sống",
+  "chapters": [
+    {
+      "id": "c1",
+      "roman": "I",
+      "title": "Cấu tạo nguyên tử",
+      "summary": "Hạt nhân, vỏ nguyên tử, orbital, cấu hình electron.",
+      "theory": "theory/c1.json",
+      "lessons": [
+        {
+          "id": "b1",
+          "title": "Bài 1. Thành phần nguyên tử"
+        },
+        {
+          "id": "b2",
+          "title": "Bài 2. Cấu hình electron"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "roman": "II",
+      "title": "Bảng tuần hoàn các nguyên tố",
+      "summary": "Cấu tạo bảng tuần hoàn, định luật tuần hoàn, xu hướng biến đổi.",
+      "theory": "theory/c2.json",
+      "lessons": [
+        {
+          "id": "b3",
+          "title": "Bài 3. Bảng tuần hoàn"
+        },
+        {
+          "id": "b4",
+          "title": "Bài 4. Định luật tuần hoàn"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "roman": "III",
+      "title": "Liên kết hóa học",
+      "summary": "Liên kết ion, liên kết cộng hóa trị, liên kết hydrogen.",
+      "theory": "theory/c3.json",
+      "lessons": [
+        {
+          "id": "b5",
+          "title": "Bài 5. Liên kết ion & CHT"
+        },
+        {
+          "id": "b6",
+          "title": "Bài 6. Liên kết hydrogen"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "roman": "IV",
+      "title": "Phản ứng oxi hóa - khử",
+      "summary": "Số oxi hóa, lập phương trình phản ứng oxi hóa - khử.",
+      "theory": "theory/c4.json",
+      "lessons": [
+        {
+          "id": "b7",
+          "title": "Bài 7. Số oxi hóa"
+        },
+        {
+          "id": "b8",
+          "title": "Bài 8. Phản ứng Oxi hóa - Khử"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "roman": "V",
+      "title": "Năng lượng hóa học",
+      "summary": "Enthalpy tạo thành, biến thiên enthalpy của phản ứng.",
+      "theory": "theory/c5.json",
+      "lessons": [
+        {
+          "id": "b9",
+          "title": "Bài 9. Biến thiên Enthalpy"
+        },
+        {
+          "id": "b10",
+          "title": "Bài 10. Tính Enthalpy"
+        }
+      ]
+    }
+  ],
+  "questionSets": [
+    {
+      "id": "mc",
+      "type": "multiple-choice",
+      "title": "Trắc nghiệm",
+      "description": "Chọn một đáp án đúng.",
+      "file": "questions/mc.json"
+    },
+    {
+      "id": "short",
+      "type": "short-answer",
+      "title": "Trả lời ngắn",
+      "description": "Điền đáp số tính toán.",
+      "file": "questions/short.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "nb",
+      "label": "Nhận biết"
+    },
+    {
+      "id": "th",
+      "label": "Thông hiểu"
+    },
+    {
+      "id": "vd",
+      "label": "Vận dụng"
+    }
+  ]
+}

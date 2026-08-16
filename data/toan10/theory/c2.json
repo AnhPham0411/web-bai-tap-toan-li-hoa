@@ -1,0 +1,99 @@
+{
+  "chapterId": "c2",
+  "title": "Bất phương trình và hệ bất phương trình bậc nhất hai ẩn",
+  "lessons": [
+    {
+      "id": "b3",
+      "title": "Bài 3. Bất phương trình bậc nhất hai ẩn",
+      "blocks": [
+        { "type": "heading", "text": "1. Bất phương trình bậc nhất hai ẩn" },
+        {
+          "type": "definition",
+          "title": "Định nghĩa",
+          "content": "Bất phương trình bậc nhất hai ẩn x, y có dạng ax + by + c < 0 (hoặc ax + by + c > 0, ax + by + c ≤ 0, ax + by + c ≥ 0), trong đó a, b, c là các số cho trước với a và b không đồng thời bằng 0."
+        },
+        {
+          "type": "note",
+          "content": "Điều kiện a^{2} + b^{2} ≠ 0 (tức a ≠ 0 hoặc b ≠ 0) là bắt buộc. Nếu a = b = 0 thì bất phương trình không còn bậc nhất hai ẩn."
+        },
+        {
+          "type": "definition",
+          "title": "Nghiệm",
+          "content": "Cặp số (x₀; y₀) là một nghiệm của bất phương trình ax + by + c < 0 nếu ax₀ + by₀ + c < 0. Mỗi nghiệm ứng với một điểm trong mặt phẳng toạ độ."
+        },
+        {
+          "type": "example",
+          "question": "Cặp (1; 2) có là nghiệm của 2x − y + 1 > 0 không?",
+          "solution": "Thay vào: 2·1 − 2 + 1 = 1 > 0 (đúng). Vậy (1; 2) là một nghiệm của bất phương trình."
+        },
+        { "type": "heading", "text": "2. Biểu diễn miền nghiệm trên mặt phẳng toạ độ" },
+        {
+          "type": "theorem",
+          "title": "Miền nghiệm",
+          "content": "Đường thẳng d: ax + by + c = 0 chia mặt phẳng thành hai nửa mặt phẳng. Một trong hai nửa mặt phẳng đó (không kể bờ d) là miền nghiệm của ax + by + c < 0, nửa còn lại là miền nghiệm của ax + by + c > 0."
+        },
+        {
+          "type": "list",
+          "title": "Các bước biểu diễn miền nghiệm của ax + by + c < 0",
+          "items": [
+            "Bước 1: Vẽ đường thẳng d: ax + by + c = 0.",
+            "Bước 2: Lấy một điểm M(x₀; y₀) không thuộc d (thường lấy O(0; 0) nếu c ≠ 0). Tính giá trị ax₀ + by₀ + c.",
+            "Bước 3: Nếu ax₀ + by₀ + c < 0 thì nửa mặt phẳng chứa M là miền nghiệm; ngược lại, nửa mặt phẳng không chứa M là miền nghiệm.",
+            "Bước 4: Gạch bỏ (hoặc tô) phần không thuộc miền nghiệm. Với dấu < hoặc > thì bờ d không thuộc miền nghiệm (vẽ nét đứt); với dấu ≤ hoặc ≥ thì bờ d thuộc miền nghiệm (vẽ nét liền)."
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Biểu diễn miền nghiệm của bất phương trình x + 2y ≤ 4.",
+          "solution": "Vẽ đường thẳng d: x + 2y = 4 (đi qua A(4; 0) và B(0; 2)).\nLấy O(0; 0): 0 + 2·0 = 0 ≤ 4 (đúng).\nVậy miền nghiệm là nửa mặt phẳng chứa gốc O, kể cả bờ d (nét liền)."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "title": "Bài 4. Hệ bất phương trình bậc nhất hai ẩn",
+      "blocks": [
+        { "type": "heading", "text": "1. Hệ bất phương trình bậc nhất hai ẩn" },
+        {
+          "type": "definition",
+          "title": "Định nghĩa",
+          "content": "Hệ bất phương trình bậc nhất hai ẩn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn x, y. Cặp số (x₀; y₀) là nghiệm của hệ nếu nó đồng thời là nghiệm của tất cả các bất phương trình trong hệ."
+        },
+        {
+          "type": "text",
+          "content": "Miền nghiệm của hệ là giao của các miền nghiệm của từng bất phương trình trong hệ. Miền nghiệm này thường là một miền đa giác (có thể bị chặn hoặc không bị chặn)."
+        },
+        {
+          "type": "example",
+          "question": "Xác định miền nghiệm của hệ: x ≥ 0; y ≥ 0; x + y ≤ 4.",
+          "solution": "x ≥ 0: nửa mặt phẳng bên phải trục Oy (kể cả trục).\ny ≥ 0: nửa mặt phẳng phía trên trục Ox (kể cả trục).\nx + y ≤ 4: nửa mặt phẳng chứa O có bờ là đường thẳng qua (4; 0) và (0; 4).\nGiao của ba miền là tam giác có ba đỉnh O(0; 0), A(4; 0), B(0; 4), kể cả biên."
+        },
+        { "type": "heading", "text": "2. Ứng dụng: tìm giá trị lớn nhất, nhỏ nhất của F = ax + by" },
+        {
+          "type": "theorem",
+          "title": "Nguyên lí cực trị trên miền đa giác",
+          "content": "Nếu miền nghiệm của hệ là miền đa giác lồi (bị chặn) thì giá trị lớn nhất và giá trị nhỏ nhất của biểu thức F = ax + by trên miền đó đạt được tại một trong các ĐỈNH của đa giác."
+        },
+        {
+          "type": "list",
+          "title": "Quy trình giải bài toán tối ưu",
+          "items": [
+            "Bước 1: Đặt ẩn và lập hệ bất phương trình từ các điều kiện của bài toán (kèm điều kiện x ≥ 0, y ≥ 0 nếu ẩn là số lượng).",
+            "Bước 2: Xác định miền nghiệm của hệ trên mặt phẳng toạ độ.",
+            "Bước 3: Tìm toạ độ tất cả các đỉnh của miền đa giác (giải hệ phương trình từng cặp đường thẳng cắt nhau).",
+            "Bước 4: Tính giá trị của F tại mỗi đỉnh rồi so sánh để kết luận giá trị lớn nhất / nhỏ nhất."
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Tìm giá trị lớn nhất của F = 2x + 3y trên miền nghiệm của hệ: x ≥ 0; y ≥ 0; x + y ≤ 5; x + 2y ≤ 8.",
+          "solution": "Các đỉnh của miền nghiệm:\nO(0; 0) → F = 0.\nA(5; 0) (giao x + y = 5 với Ox) → F = 10.\nB(2; 3) (giao x + y = 5 và x + 2y = 8) → F = 2·2 + 3·3 = 13.\nC(0; 4) (giao x + 2y = 8 với Oy) → F = 12.\nSo sánh: F lớn nhất bằng 13 tại điểm B(2; 3)."
+        },
+        {
+          "type": "note",
+          "content": "Nếu miền nghiệm không bị chặn thì F có thể không có giá trị lớn nhất (hoặc không có giá trị nhỏ nhất). Cần kiểm tra hướng \"mở\" của miền."
+        }
+      ]
+    }
+  ]
+}

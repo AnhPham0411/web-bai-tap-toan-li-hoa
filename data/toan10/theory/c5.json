@@ -1,0 +1,157 @@
+{
+  "chapterId": "c5",
+  "title": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+  "lessons": [
+    {
+      "id": "b12",
+      "title": "Bài 12. Số gần đúng và sai số",
+      "blocks": [
+        { "type": "heading", "text": "1. Số gần đúng" },
+        {
+          "type": "definition",
+          "title": "Số gần đúng",
+          "content": "Trong đo đạc và tính toán, ta thường chỉ nhận được số gần đúng a của một số đúng ā. Kí hiệu: a là số gần đúng của số đúng ā."
+        },
+        { "type": "heading", "text": "2. Sai số tuyệt đối và sai số tương đối" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Sai số tuyệt đối", "math": "Δ_{a} = |ā − a|" },
+            { "label": "Độ chính xác d", "math": "Δ_{a} ≤ d ⇔ a − d ≤ ā ≤ a + d,  viết ā = a ± d" },
+            { "label": "Sai số tương đối", "math": "δ_{a} = \\frac{Δ_{a}}{|a|} ≤ \\frac{d}{|a|}" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Sai số tương đối thường viết dưới dạng phần trăm; nó cho biết chất lượng của phép đo tốt hơn sai số tuyệt đối vì có so sánh với độ lớn của số đo."
+        },
+        {
+          "type": "example",
+          "question": "Một cây cầu dài a = 150 m với độ chính xác d = 0,2 m. Tính sai số tương đối.",
+          "solution": "δ_{a} ≤ \\frac{0,2}{150} ≈ 0,00133 = 0,133%."
+        },
+        { "type": "heading", "text": "3. Quy tròn số gần đúng" },
+        {
+          "type": "list",
+          "title": "Quy tắc làm tròn",
+          "items": [
+            "Nếu chữ số ngay sau hàng quy tròn nhỏ hơn 5 thì giữ nguyên chữ số hàng quy tròn.",
+            "Nếu chữ số ngay sau hàng quy tròn lớn hơn hoặc bằng 5 thì cộng thêm 1 vào chữ số hàng quy tròn.",
+            "Cho số gần đúng a với độ chính xác d: ta quy tròn a đến hàng lớn hơn hàng của chữ số khác 0 đầu tiên bên trái của d một đơn vị."
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Cho ā = 3,141592… và a = 3,1416 với d = 0,0001. Quy tròn số gần đúng.",
+          "solution": "d = 0,0001 có chữ số khác 0 đầu tiên ở hàng phần chục nghìn, nên quy tròn đến hàng phần nghìn: a ≈ 3,142."
+        },
+        { "type": "heading", "text": "4. Chữ số chắc và dạng chuẩn" },
+        {
+          "type": "definition",
+          "title": "Chữ số chắc (đáng tin)",
+          "content": "Cho số gần đúng a với độ chính xác d. Một chữ số của a gọi là chữ số chắc nếu d không vượt quá một nửa đơn vị của hàng có chữ số đó."
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "title": "Bài 13. Các số đặc trưng đo xu thế trung tâm",
+      "blocks": [
+        { "type": "heading", "text": "1. Số trung bình (trung bình cộng)" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Mẫu số liệu x₁, x₂, …, xₙ", "math": "\\overline{x} = \\frac{x_{1} + x_{2} + … + x_{n}}{n}" },
+            { "label": "Dạng bảng tần số", "math": "\\overline{x} = \\frac{m_{1}x_{1} + m_{2}x_{2} + … + m_{k}x_{k}}{n},  n = m_{1} + … + m_{k}" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Số trung bình dùng làm đại diện tốt khi mẫu số liệu không có giá trị quá lớn hoặc quá nhỏ bất thường (giá trị ngoại lệ)."
+        },
+        { "type": "heading", "text": "2. Trung vị" },
+        {
+          "type": "list",
+          "title": "Cách tìm trung vị Mₑ",
+          "items": [
+            "Bước 1: Sắp xếp mẫu số liệu theo thứ tự KHÔNG GIẢM.",
+            "Bước 2: Nếu n lẻ thì Mₑ là số ở chính giữa, tức số hạng thứ \\frac{n + 1}{2}.",
+            "Bước 3: Nếu n chẵn thì Mₑ là trung bình cộng của hai số ở giữa, tức số hạng thứ \\frac{n}{2} và \\frac{n}{2} + 1."
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Khi mẫu số liệu có giá trị ngoại lệ, trung vị đại diện tốt hơn số trung bình vì trung vị không bị ảnh hưởng bởi các giá trị quá lớn hoặc quá nhỏ."
+        },
+        { "type": "heading", "text": "3. Tứ phân vị" },
+        {
+          "type": "definition",
+          "title": "Tứ phân vị",
+          "content": "Sắp xếp mẫu theo thứ tự không giảm rồi chia thành bốn phần:\n• Q₂ chính là trung vị Mₑ của cả mẫu.\n• Q₁ là trung vị của nửa số liệu bên TRÁI Q₂ (không tính Q₂ nếu n lẻ).\n• Q₃ là trung vị của nửa số liệu bên PHẢI Q₂ (không tính Q₂ nếu n lẻ).\nQ₁, Q₂, Q₃ lần lượt gọi là tứ phân vị thứ nhất, thứ hai, thứ ba."
+        },
+        {
+          "type": "example",
+          "question": "Tìm Q₁, Q₂, Q₃ của mẫu: 4; 7; 9; 12; 15; 18; 20; 25.",
+          "solution": "Mẫu đã sắp thứ tự, n = 8 (chẵn).\nQ₂ = \\frac{12 + 15}{2} = 13,5.\nNửa trái: 4; 7; 9; 12 → Q₁ = \\frac{7 + 9}{2} = 8.\nNửa phải: 15; 18; 20; 25 → Q₃ = \\frac{18 + 20}{2} = 19."
+        },
+        { "type": "heading", "text": "4. Mốt" },
+        {
+          "type": "definition",
+          "title": "Mốt",
+          "content": "Mốt (Mₒ) của mẫu số liệu là giá trị có tần số lớn nhất (xuất hiện nhiều lần nhất). Một mẫu số liệu có thể có nhiều mốt hoặc không có mốt nào nổi bật."
+        },
+        {
+          "type": "note",
+          "content": "Mốt là số đặc trưng duy nhất dùng được cho cả dữ liệu định tính (màu sắc, thương hiệu, môn học yêu thích…)."
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "title": "Bài 14. Các số đặc trưng đo độ phân tán",
+      "blocks": [
+        { "type": "heading", "text": "1. Khoảng biến thiên và khoảng tứ phân vị" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Khoảng biến thiên", "math": "R = x_{max} − x_{min}" },
+            { "label": "Khoảng tứ phân vị", "math": "Δ_{Q} = Q_{3} − Q_{1}" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Khoảng biến thiên rất dễ tính nhưng phụ thuộc hoàn toàn vào hai giá trị đầu - cuối nên bị ảnh hưởng mạnh bởi giá trị ngoại lệ. Khoảng tứ phân vị đo độ phân tán của 50% số liệu ở giữa nên ổn định hơn."
+        },
+        { "type": "heading", "text": "2. Phương sai và độ lệch chuẩn" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Phương sai", "math": "S^{2} = \\frac{(x_{1} − \\overline{x})^{2} + … + (x_{n} − \\overline{x})^{2}}{n}" },
+            { "label": "Công thức tính nhanh", "math": "S^{2} = \\frac{x_{1}^{2} + … + x_{n}^{2}}{n} − (\\overline{x})^{2}" },
+            { "label": "Độ lệch chuẩn", "math": "S = \\sqrt{S^{2}}" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Phương sai và độ lệch chuẩn càng LỚN thì số liệu càng phân tán (không đồng đều); càng NHỎ thì số liệu càng tập trung quanh số trung bình. Độ lệch chuẩn có cùng đơn vị với số liệu ban đầu, còn phương sai thì không."
+        },
+        {
+          "type": "example",
+          "question": "Tính phương sai và độ lệch chuẩn của mẫu: 2; 4; 6; 8; 10.",
+          "solution": "\\overline{x} = \\frac{2 + 4 + 6 + 8 + 10}{5} = 6.\nTổng bình phương độ lệch: 16 + 4 + 0 + 4 + 16 = 40.\nS^{2} = \\frac{40}{5} = 8.\nS = \\sqrt{8} = 2\\sqrt{2} ≈ 2,83."
+        },
+        { "type": "heading", "text": "3. Giá trị ngoại lệ" },
+        {
+          "type": "theorem",
+          "title": "Quy tắc xác định giá trị ngoại lệ",
+          "content": "Giá trị x trong mẫu số liệu là giá trị ngoại lệ nếu:\nx > Q_{3} + 1,5·Δ_{Q}  hoặc  x < Q_{1} − 1,5·Δ_{Q},\ntrong đó Δ_{Q} = Q_{3} − Q_{1} là khoảng tứ phân vị."
+        },
+        {
+          "type": "example",
+          "question": "Mẫu số liệu có Q₁ = 8, Q₃ = 19. Giá trị 40 có là ngoại lệ không?",
+          "solution": "Δ_{Q} = 19 − 8 = 11.\nNgưỡng trên: Q_{3} + 1,5·Δ_{Q} = 19 + 16,5 = 35,5.\nVì 40 > 35,5 nên 40 LÀ giá trị ngoại lệ."
+        }
+      ]
+    }
+  ]
+}

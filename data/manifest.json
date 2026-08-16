@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "Toán - Lý - Hóa 10",
+    "tagline": "Luyện bài tập & Lý thuyết theo chương trình GDPT 2018 (Kết nối tri thức)",
+    "version": "2.0.0"
+  },
+  "subjects": [
+    {
+      "id": "toan10",
+      "name": "Toán 10",
+      "grade": 10,
+      "term": "Học kì 1",
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan10",
+      "available": true,
+      "note": "750 câu hỏi (120 Trắc nghiệm + 30 Trả lời ngắn / chương)."
+    },
+    {
+      "id": "ly10",
+      "name": "Vật lí 10",
+      "grade": 10,
+      "term": "Học kì 1",
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "ly10",
+      "available": true,
+      "note": "750 câu hỏi (120 Trắc nghiệm + 30 Trả lời ngắn / chương)."
+    },
+    {
+      "id": "hoa10",
+      "name": "Hóa học 10",
+      "grade": 10,
+      "term": "Học kì 1",
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "hoa10",
+      "available": true,
+      "note": "750 câu hỏi (120 Trắc nghiệm + 30 Trả lời ngắn / chương)."
+    }
+  ]
+}

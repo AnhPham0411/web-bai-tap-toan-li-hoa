@@ -1,0 +1,1354 @@
+{
+  "questions": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 5\\}.",
+      "answer": "10",
+      "explanation": "Số tập con 2 phần tử của tập 5 phần tử là C_{5}^2 = 10."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 8\\}.",
+      "answer": "28",
+      "explanation": "Số tập con 2 phần tử của tập 8 phần tử là C_{8}^2 = 28."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 11\\}.",
+      "answer": "55",
+      "explanation": "Số tập con 2 phần tử của tập 11 phần tử là C_{11}^2 = 55."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 14\\}.",
+      "answer": "91",
+      "explanation": "Số tập con 2 phần tử của tập 14 phần tử là C_{14}^2 = 91."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 17\\}.",
+      "answer": "136",
+      "explanation": "Số tập con 2 phần tử của tập 17 phần tử là C_{17}^2 = 136."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 20\\}.",
+      "answer": "190",
+      "explanation": "Số tập con 2 phần tử của tập 20 phần tử là C_{20}^2 = 190."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 23\\}.",
+      "answer": "253",
+      "explanation": "Số tập con 2 phần tử của tập 23 phần tử là C_{23}^2 = 253."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 26\\}.",
+      "answer": "325",
+      "explanation": "Số tập con 2 phần tử của tập 26 phần tử là C_{26}^2 = 325."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 29\\}.",
+      "answer": "406",
+      "explanation": "Số tập con 2 phần tử của tập 29 phần tử là C_{29}^2 = 406."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 32\\}.",
+      "answer": "496",
+      "explanation": "Số tập con 2 phần tử của tập 32 phần tử là C_{32}^2 = 496."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 35\\}.",
+      "answer": "595",
+      "explanation": "Số tập con 2 phần tử của tập 35 phần tử là C_{35}^2 = 595."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 38\\}.",
+      "answer": "703",
+      "explanation": "Số tập con 2 phần tử của tập 38 phần tử là C_{38}^2 = 703."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 41\\}.",
+      "answer": "820",
+      "explanation": "Số tập con 2 phần tử của tập 41 phần tử là C_{41}^2 = 820."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 44\\}.",
+      "answer": "946",
+      "explanation": "Số tập con 2 phần tử của tập 44 phần tử là C_{44}^2 = 946."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 47\\}.",
+      "answer": "1081",
+      "explanation": "Số tập con 2 phần tử của tập 47 phần tử là C_{47}^2 = 1081."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 50\\}.",
+      "answer": "1225",
+      "explanation": "Số tập con 2 phần tử của tập 50 phần tử là C_{50}^2 = 1225."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 53\\}.",
+      "answer": "1378",
+      "explanation": "Số tập con 2 phần tử của tập 53 phần tử là C_{53}^2 = 1378."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 56\\}.",
+      "answer": "1540",
+      "explanation": "Số tập con 2 phần tử của tập 56 phần tử là C_{56}^2 = 1540."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 59\\}.",
+      "answer": "1711",
+      "explanation": "Số tập con 2 phần tử của tập 59 phần tử là C_{59}^2 = 1711."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 62\\}.",
+      "answer": "1891",
+      "explanation": "Số tập con 2 phần tử của tập 62 phần tử là C_{62}^2 = 1891."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 65\\}.",
+      "answer": "2080",
+      "explanation": "Số tập con 2 phần tử của tập 65 phần tử là C_{65}^2 = 2080."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 68\\}.",
+      "answer": "2278",
+      "explanation": "Số tập con 2 phần tử của tập 68 phần tử là C_{68}^2 = 2278."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 71\\}.",
+      "answer": "2485",
+      "explanation": "Số tập con 2 phần tử của tập 71 phần tử là C_{71}^2 = 2485."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 74\\}.",
+      "answer": "2701",
+      "explanation": "Số tập con 2 phần tử của tập 74 phần tử là C_{74}^2 = 2701."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 77\\}.",
+      "answer": "2926",
+      "explanation": "Số tập con 2 phần tử của tập 77 phần tử là C_{77}^2 = 2926."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 80\\}.",
+      "answer": "3160",
+      "explanation": "Số tập con 2 phần tử của tập 80 phần tử là C_{80}^2 = 3160."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 83\\}.",
+      "answer": "3403",
+      "explanation": "Số tập con 2 phần tử của tập 83 phần tử là C_{83}^2 = 3403."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 86\\}.",
+      "answer": "3655",
+      "explanation": "Số tập con 2 phần tử của tập 86 phần tử là C_{86}^2 = 3655."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 89\\}.",
+      "answer": "3916",
+      "explanation": "Số tập con 2 phần tử của tập 89 phần tử là C_{89}^2 = 3916."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "question": "Tính số tập con gồm 2 phần tử của tập A = \\{1; 2; 3; ...; 92\\}.",
+      "answer": "4186",
+      "explanation": "Số tập con 2 phần tử của tập 92 phần tử là C_{92}^2 = 4186."
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "nb",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "th",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "vd",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b3",
+      "level": "vd",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "vd",
+      "question": "Tính giá trị nhỏ nhất của F(x, y) = x - 2y trên miền nghiệm là tam giác với các đỉnh (0,0), (4,0), (0,3).",
+      "answer": "-6",
+      "explanation": "Thay các đỉnh vào F: F(0,0)=0, F(4,0)=4, F(0,3)=-6. Giá trị nhỏ nhất là -6."
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "nb",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "th",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "vd",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b5",
+      "level": "vd",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b6",
+      "level": "vd",
+      "question": "Cho tam giác ABC có 3 cạnh a = 6, b = 8, c = 10. Tính bán kính đường tròn ngoại tiếp R của tam giác.",
+      "answer": "5",
+      "explanation": "Tam giác vuông tại A vì 6^2 + 8^2 = 10^2. Bán kính R = c / 2 = 10 / 2 = 5."
+    },
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (1, 3) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "-1",
+      "explanation": "Tích vô hướng = 1\\cdot 2 + (3)\\cdot(-1) = -1."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (2, 4) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "0",
+      "explanation": "Tích vô hướng = 2\\cdot 2 + (4)\\cdot(-1) = 0."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (3, 5) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "1",
+      "explanation": "Tích vô hướng = 3\\cdot 2 + (5)\\cdot(-1) = 1."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (4, 6) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "2",
+      "explanation": "Tích vô hướng = 4\\cdot 2 + (6)\\cdot(-1) = 2."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (5, 7) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "3",
+      "explanation": "Tích vô hướng = 5\\cdot 2 + (7)\\cdot(-1) = 3."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (6, 8) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "4",
+      "explanation": "Tích vô hướng = 6\\cdot 2 + (8)\\cdot(-1) = 4."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (7, 9) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "5",
+      "explanation": "Tích vô hướng = 7\\cdot 2 + (9)\\cdot(-1) = 5."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (8, 10) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "6",
+      "explanation": "Tích vô hướng = 8\\cdot 2 + (10)\\cdot(-1) = 6."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (9, 11) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "7",
+      "explanation": "Tích vô hướng = 9\\cdot 2 + (11)\\cdot(-1) = 7."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (10, 12) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "8",
+      "explanation": "Tích vô hướng = 10\\cdot 2 + (12)\\cdot(-1) = 8."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (11, 13) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "9",
+      "explanation": "Tích vô hướng = 11\\cdot 2 + (13)\\cdot(-1) = 9."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (12, 14) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "10",
+      "explanation": "Tích vô hướng = 12\\cdot 2 + (14)\\cdot(-1) = 10."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (13, 15) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "11",
+      "explanation": "Tích vô hướng = 13\\cdot 2 + (15)\\cdot(-1) = 11."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (14, 16) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "12",
+      "explanation": "Tích vô hướng = 14\\cdot 2 + (16)\\cdot(-1) = 12."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "nb",
+      "question": "Cho \\vec{a} = (15, 17) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "13",
+      "explanation": "Tích vô hướng = 15\\cdot 2 + (17)\\cdot(-1) = 13."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (16, 18) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "14",
+      "explanation": "Tích vô hướng = 16\\cdot 2 + (18)\\cdot(-1) = 14."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (17, 19) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "15",
+      "explanation": "Tích vô hướng = 17\\cdot 2 + (19)\\cdot(-1) = 15."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (18, 20) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "16",
+      "explanation": "Tích vô hướng = 18\\cdot 2 + (20)\\cdot(-1) = 16."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (19, 21) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "17",
+      "explanation": "Tích vô hướng = 19\\cdot 2 + (21)\\cdot(-1) = 17."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (20, 22) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "18",
+      "explanation": "Tích vô hướng = 20\\cdot 2 + (22)\\cdot(-1) = 18."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (21, 23) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "19",
+      "explanation": "Tích vô hướng = 21\\cdot 2 + (23)\\cdot(-1) = 19."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (22, 24) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "20",
+      "explanation": "Tích vô hướng = 22\\cdot 2 + (24)\\cdot(-1) = 20."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (23, 25) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "21",
+      "explanation": "Tích vô hướng = 23\\cdot 2 + (25)\\cdot(-1) = 21."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (24, 26) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "22",
+      "explanation": "Tích vô hướng = 24\\cdot 2 + (26)\\cdot(-1) = 22."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (25, 27) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "23",
+      "explanation": "Tích vô hướng = 25\\cdot 2 + (27)\\cdot(-1) = 23."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "th",
+      "question": "Cho \\vec{a} = (26, 28) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "24",
+      "explanation": "Tích vô hướng = 26\\cdot 2 + (28)\\cdot(-1) = 24."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "th",
+      "question": "Cho \\vec{a} = (27, 29) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "25",
+      "explanation": "Tích vô hướng = 27\\cdot 2 + (29)\\cdot(-1) = 25."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "vd",
+      "question": "Cho \\vec{a} = (28, 30) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "26",
+      "explanation": "Tích vô hướng = 28\\cdot 2 + (30)\\cdot(-1) = 26."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b7",
+      "level": "vd",
+      "question": "Cho \\vec{a} = (29, 31) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "27",
+      "explanation": "Tích vô hướng = 29\\cdot 2 + (31)\\cdot(-1) = 27."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b8",
+      "level": "vd",
+      "question": "Cho \\vec{a} = (30, 32) và \\vec{b} = (2, -1). Tính tích vô hướng \\vec{a} \\cdot \\vec{b}.",
+      "answer": "28",
+      "explanation": "Tích vô hướng = 30\\cdot 2 + (32)\\cdot(-1) = 28."
+    },
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 1, 3, 6, 10, 16.",
+      "answer": "6",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 6."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 2, 4, 7, 11, 17.",
+      "answer": "7",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 7."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 3, 5, 8, 12, 18.",
+      "answer": "8",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 8."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 4, 6, 9, 13, 19.",
+      "answer": "9",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 9."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 5, 7, 10, 14, 20.",
+      "answer": "10",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 10."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 6, 8, 11, 15, 21.",
+      "answer": "11",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 11."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 7, 9, 12, 16, 22.",
+      "answer": "12",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 12."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 8, 10, 13, 17, 23.",
+      "answer": "13",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 13."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 9, 11, 14, 18, 24.",
+      "answer": "14",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 14."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 10, 12, 15, 19, 25.",
+      "answer": "15",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 15."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 11, 13, 16, 20, 26.",
+      "answer": "16",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 16."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 12, 14, 17, 21, 27.",
+      "answer": "17",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 17."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 13, 15, 18, 22, 28.",
+      "answer": "18",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 18."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 14, 16, 19, 23, 29.",
+      "answer": "19",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 19."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "nb",
+      "question": "Tính trung vị của mẫu số liệu: 15, 17, 20, 24, 30.",
+      "answer": "20",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 20."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 16, 18, 21, 25, 31.",
+      "answer": "21",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 21."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 17, 19, 22, 26, 32.",
+      "answer": "22",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 22."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 18, 20, 23, 27, 33.",
+      "answer": "23",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 23."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 19, 21, 24, 28, 34.",
+      "answer": "24",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 24."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 20, 22, 25, 29, 35.",
+      "answer": "25",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 25."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 21, 23, 26, 30, 36.",
+      "answer": "26",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 26."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 22, 24, 27, 31, 37.",
+      "answer": "27",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 27."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 23, 25, 28, 32, 38.",
+      "answer": "28",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 28."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 24, 26, 29, 33, 39.",
+      "answer": "29",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 29."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 25, 27, 30, 34, 40.",
+      "answer": "30",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 30."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 26, 28, 31, 35, 41.",
+      "answer": "31",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 31."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "th",
+      "question": "Tính trung vị của mẫu số liệu: 27, 29, 32, 36, 42.",
+      "answer": "32",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 32."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "vd",
+      "question": "Tính trung vị của mẫu số liệu: 28, 30, 33, 37, 43.",
+      "answer": "33",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 33."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b9",
+      "level": "vd",
+      "question": "Tính trung vị của mẫu số liệu: 29, 31, 34, 38, 44.",
+      "answer": "34",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 34."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b10",
+      "level": "vd",
+      "question": "Tính trung vị của mẫu số liệu: 30, 32, 35, 39, 45.",
+      "answer": "35",
+      "explanation": "Mẫu có 5 số đã sắp xếp, trung vị là số ở giữa (số thứ 3) = 35."
+    }
+  ]
+}

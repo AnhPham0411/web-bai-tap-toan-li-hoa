@@ -1,0 +1,207 @@
+{
+  "chapterId": "c1",
+  "title": "Mệnh đề và tập hợp",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Mệnh đề",
+      "blocks": [
+        { "type": "heading", "text": "1. Mệnh đề, mệnh đề chứa biến" },
+        {
+          "type": "definition",
+          "title": "Mệnh đề",
+          "content": "Mệnh đề là một khẳng định đúng hoặc sai. Một mệnh đề không thể vừa đúng vừa sai. Mệnh đề đúng gọi là mệnh đề có giá trị chân lí Đ (đúng), mệnh đề sai có giá trị chân lí S (sai)."
+        },
+        {
+          "type": "text",
+          "content": "Những câu cảm thán, câu hỏi, câu cầu khiến (\"Trời đẹp quá!\", \"Bạn tên gì?\", \"Hãy làm bài tập!\") không phải là mệnh đề vì không xác định được tính đúng - sai."
+        },
+        {
+          "type": "example",
+          "question": "Xét các câu sau, câu nào là mệnh đề?\n(1) 7 là số nguyên tố.\n(2) x + 3 = 5.\n(3) Hôm nay trời mưa à?",
+          "solution": "(1) là mệnh đề đúng. (2) là mệnh đề chứa biến (chỉ trở thành mệnh đề khi thay giá trị cụ thể cho x). (3) là câu hỏi nên không phải mệnh đề."
+        },
+        {
+          "type": "note",
+          "content": "Mệnh đề chứa biến: câu khẳng định phụ thuộc vào biến, kí hiệu P(x), Q(x, y)… Với mỗi giá trị cụ thể của biến, ta được một mệnh đề."
+        },
+        { "type": "heading", "text": "2. Mệnh đề phủ định" },
+        {
+          "type": "definition",
+          "title": "Mệnh đề phủ định",
+          "content": "Mệnh đề phủ định của mệnh đề P, kí hiệu \\overline{P}, là mệnh đề \"không phải P\". Nếu P đúng thì \\overline{P} sai; nếu P sai thì \\overline{P} đúng."
+        },
+        {
+          "type": "example",
+          "question": "Phát biểu mệnh đề phủ định của P: \"5 là số chẵn\".",
+          "solution": "\\overline{P}: \"5 không là số chẵn\" (hoặc \"5 là số lẻ\"). P sai nên \\overline{P} đúng."
+        },
+        { "type": "heading", "text": "3. Mệnh đề kéo theo, mệnh đề đảo" },
+        {
+          "type": "definition",
+          "title": "Mệnh đề kéo theo",
+          "content": "Mệnh đề \"Nếu P thì Q\" gọi là mệnh đề kéo theo, kí hiệu P ⇒ Q. Mệnh đề P ⇒ Q chỉ sai khi P đúng và Q sai; trong mọi trường hợp còn lại nó đúng."
+        },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "P đúng, Q đúng", "math": "P ⇒ Q đúng" },
+            { "label": "P đúng, Q sai", "math": "P ⇒ Q sai" },
+            { "label": "P sai (Q tuỳ ý)", "math": "P ⇒ Q đúng" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Khi P ⇒ Q đúng, ta nói: P là điều kiện đủ để có Q, hoặc Q là điều kiện cần để có P."
+        },
+        {
+          "type": "definition",
+          "title": "Mệnh đề đảo",
+          "content": "Mệnh đề Q ⇒ P là mệnh đề đảo của mệnh đề P ⇒ Q. Mệnh đề đảo của một mệnh đề đúng không nhất thiết đúng."
+        },
+        {
+          "type": "example",
+          "question": "Cho P ⇒ Q: \"Nếu tam giác ABC đều thì tam giác ABC cân\". Xét mệnh đề đảo.",
+          "solution": "P ⇒ Q đúng. Mệnh đề đảo Q ⇒ P: \"Nếu tam giác ABC cân thì tam giác ABC đều\" — mệnh đề này SAI (ví dụ tam giác cân có góc ở đỉnh bằng 100°)."
+        },
+        { "type": "heading", "text": "4. Mệnh đề tương đương" },
+        {
+          "type": "definition",
+          "title": "Mệnh đề tương đương",
+          "content": "Mệnh đề \"P nếu và chỉ nếu Q\" gọi là mệnh đề tương đương, kí hiệu P ⇔ Q. Mệnh đề P ⇔ Q đúng khi cả P ⇒ Q và Q ⇒ P đều đúng, tức là khi P và Q cùng đúng hoặc cùng sai."
+        },
+        {
+          "type": "note",
+          "content": "Khi P ⇔ Q đúng, ta nói P là điều kiện cần và đủ để có Q. Có thể phát biểu bằng các cách: \"P khi và chỉ khi Q\", \"P tương đương Q\"."
+        },
+        { "type": "heading", "text": "5. Mệnh đề có chứa kí hiệu ∀, ∃" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Với mọi", "math": "∀x ∈ X, P(x)" },
+            { "label": "Tồn tại", "math": "∃x ∈ X, P(x)" }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Cách xét tính đúng - sai",
+          "items": [
+            "\"∀x ∈ X, P(x)\" đúng nếu P(x) đúng với MỌI phần tử x của X; sai nếu tìm được một x₀ ∈ X làm P(x₀) sai.",
+            "\"∃x ∈ X, P(x)\" đúng nếu tìm được MỘT x₀ ∈ X làm P(x₀) đúng; sai nếu P(x) sai với mọi x."
+          ]
+        },
+        {
+          "type": "theorem",
+          "title": "Phủ định mệnh đề chứa ∀, ∃",
+          "content": "Phủ định của \"∀x ∈ X, P(x)\" là \"∃x ∈ X, \\overline{P(x)}\".\nPhủ định của \"∃x ∈ X, P(x)\" là \"∀x ∈ X, \\overline{P(x)}\".\nNói cách khác: đổi ∀ thành ∃, đổi ∃ thành ∀ và phủ định kết luận."
+        },
+        {
+          "type": "example",
+          "question": "Phủ định mệnh đề: \"∀x ∈ ℝ, x^{2} + 1 > 0\".",
+          "solution": "Phủ định: \"∃x ∈ ℝ, x^{2} + 1 ≤ 0\". Mệnh đề gốc đúng nên mệnh đề phủ định sai."
+        },
+        {
+          "type": "note",
+          "content": "Khi phủ định, các dấu đổi như sau: = ↔ ≠ ; > ↔ ≤ ; < ↔ ≥ ; ⊂ ↔ ⊄."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Tập hợp và các phép toán trên tập hợp",
+      "blocks": [
+        { "type": "heading", "text": "1. Các khái niệm cơ bản về tập hợp" },
+        {
+          "type": "definition",
+          "title": "Tập hợp",
+          "content": "Tập hợp là một khái niệm cơ bản của toán học. Nếu a là phần tử của tập hợp A ta viết a ∈ A; nếu a không thuộc A ta viết a ∉ A."
+        },
+        {
+          "type": "list",
+          "title": "Hai cách xác định tập hợp",
+          "items": [
+            "Liệt kê các phần tử: A = {1; 2; 3; 6}.",
+            "Nêu tính chất đặc trưng: A = {x ∈ ℕ | x là ước của 6}."
+          ]
+        },
+        {
+          "type": "definition",
+          "title": "Tập rỗng",
+          "content": "Tập hợp không chứa phần tử nào gọi là tập rỗng, kí hiệu ∅. Chú ý: ∅ ≠ {∅} và ∅ ≠ {0}."
+        },
+        {
+          "type": "note",
+          "content": "Số phần tử của tập hợp A kí hiệu n(A). Nếu A có n phần tử thì A có 2^{n} tập con."
+        },
+        { "type": "heading", "text": "2. Tập con và hai tập hợp bằng nhau" },
+        {
+          "type": "definition",
+          "title": "Tập con",
+          "content": "A ⊂ B ⇔ (∀x, x ∈ A ⇒ x ∈ B). Khi đó ta nói A là tập con của B, hay A chứa trong B."
+        },
+        {
+          "type": "list",
+          "title": "Tính chất",
+          "items": [
+            "∅ ⊂ A với mọi tập hợp A.",
+            "A ⊂ A với mọi tập hợp A.",
+            "Nếu A ⊂ B và B ⊂ C thì A ⊂ C."
+          ]
+        },
+        {
+          "type": "definition",
+          "title": "Hai tập hợp bằng nhau",
+          "content": "A = B ⇔ (A ⊂ B và B ⊂ A), nghĩa là hai tập hợp có cùng các phần tử."
+        },
+        { "type": "heading", "text": "3. Các phép toán trên tập hợp" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Giao", "math": "A ∩ B = {x | x ∈ A và x ∈ B}" },
+            { "label": "Hợp", "math": "A ∪ B = {x | x ∈ A hoặc x ∈ B}" },
+            { "label": "Hiệu", "math": "A \\ B = {x | x ∈ A và x ∉ B}" },
+            { "label": "Phần bù (khi A ⊂ E)", "math": "C_{E}A = E \\ A" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Công thức số phần tử: n(A ∪ B) = n(A) + n(B) − n(A ∩ B)."
+        },
+        {
+          "type": "example",
+          "question": "Cho A = {1; 2; 3; 4; 5}, B = {2; 4; 6}. Tìm A ∩ B, A ∪ B, A \\ B, B \\ A.",
+          "solution": "A ∩ B = {2; 4}.\nA ∪ B = {1; 2; 3; 4; 5; 6}.\nA \\ B = {1; 3; 5}.\nB \\ A = {6}."
+        },
+        { "type": "heading", "text": "4. Các tập hợp số" },
+        {
+          "type": "text",
+          "content": "Quan hệ bao hàm giữa các tập hợp số: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ."
+        },
+        {
+          "type": "table",
+          "title": "Các tập con thường dùng của ℝ",
+          "headers": ["Kí hiệu", "Định nghĩa", "Biểu diễn"],
+          "rows": [
+            ["(a; b)", "{x ∈ ℝ | a < x < b}", "Khoảng"],
+            ["[a; b]", "{x ∈ ℝ | a ≤ x ≤ b}", "Đoạn"],
+            ["[a; b)", "{x ∈ ℝ | a ≤ x < b}", "Nửa khoảng"],
+            ["(a; b]", "{x ∈ ℝ | a < x ≤ b}", "Nửa khoảng"],
+            ["(a; +∞)", "{x ∈ ℝ | x > a}", "Khoảng"],
+            ["[a; +∞)", "{x ∈ ℝ | x ≥ a}", "Nửa khoảng"],
+            ["(−∞; b)", "{x ∈ ℝ | x < b}", "Khoảng"],
+            ["(−∞; b]", "{x ∈ ℝ | x ≤ b}", "Nửa khoảng"]
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Kí hiệu +∞ và −∞ không phải là số thực, nên luôn dùng dấu ngoặc tròn ở phía vô cực."
+        },
+        {
+          "type": "example",
+          "question": "Cho A = [−2; 5), B = (1; 7]. Tìm A ∩ B, A ∪ B, A \\ B.",
+          "solution": "Vẽ trục số và giữ phần chung / phần gộp:\nA ∩ B = (1; 5).\nA ∪ B = [−2; 7].\nA \\ B = [−2; 1]."
+        }
+      ]
+    }
+  ]
+}

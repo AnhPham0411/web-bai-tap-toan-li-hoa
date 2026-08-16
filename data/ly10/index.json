@@ -1,0 +1,122 @@
+{
+  "id": "ly10",
+  "title": "Vật lí 10 — Học kì 1",
+  "book": "Kết nối tri thức với cuộc sống",
+  "chapters": [
+    {
+      "id": "c1",
+      "roman": "I",
+      "title": "Mở đầu & Sai số trong đo lường",
+      "summary": "Mở đầu môn Vật lí, quy tắc an toàn, sai số phép đo.",
+      "theory": "theory/c1.json",
+      "lessons": [
+        {
+          "id": "b1",
+          "title": "Bài 1. Mở đầu"
+        },
+        {
+          "id": "b2",
+          "title": "Bài 2. Sai số phép đo"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "roman": "II",
+      "title": "Mô tả chuyển động",
+      "summary": "Chuyển động thẳng đều, vận tốc, độ dịch chuyển, đồ thị d-t.",
+      "theory": "theory/c2.json",
+      "lessons": [
+        {
+          "id": "b3",
+          "title": "Bài 3. Vận tốc & Độ dịch chuyển"
+        },
+        {
+          "id": "b4",
+          "title": "Bài 4. Chuyển động thẳng đều"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "roman": "III",
+      "title": "Chuyển động biến đổi",
+      "summary": "Gia tốc, chuyển động thẳng biến đổi đều, rơi tự do.",
+      "theory": "theory/c3.json",
+      "lessons": [
+        {
+          "id": "b5",
+          "title": "Bài 5. Gia tốc"
+        },
+        {
+          "id": "b6",
+          "title": "Bài 6. Rơi tự do"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "roman": "IV",
+      "title": "Động lực học",
+      "summary": "Ba định luật Newton, các lực cơ học cơ bản.",
+      "theory": "theory/c4.json",
+      "lessons": [
+        {
+          "id": "b7",
+          "title": "Bài 7. Định luật Newton"
+        },
+        {
+          "id": "b8",
+          "title": "Bài 8. Các lực cơ học"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "roman": "V",
+      "title": "Năng lượng & Công",
+      "summary": "Công cơ học, công suất, động năng, thế năng, bảo toàn năng lượng.",
+      "theory": "theory/c5.json",
+      "lessons": [
+        {
+          "id": "b9",
+          "title": "Bài 9. Công & Công suất"
+        },
+        {
+          "id": "b10",
+          "title": "Bài 10. Cơ năng & Bảo toàn"
+        }
+      ]
+    }
+  ],
+  "questionSets": [
+    {
+      "id": "mc",
+      "type": "multiple-choice",
+      "title": "Trắc nghiệm",
+      "description": "Chọn một đáp án đúng.",
+      "file": "questions/mc.json"
+    },
+    {
+      "id": "short",
+      "type": "short-answer",
+      "title": "Trả lời ngắn",
+      "description": "Điền đáp số tính toán.",
+      "file": "questions/short.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "nb",
+      "label": "Nhận biết"
+    },
+    {
+      "id": "th",
+      "label": "Thông hiểu"
+    },
+    {
+      "id": "vd",
+      "label": "Vận dụng"
+    }
+  ]
+}

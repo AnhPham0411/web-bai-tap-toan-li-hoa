@@ -1,0 +1,265 @@
+{
+  "chapterId": "c4",
+  "title": "Vectơ",
+  "lessons": [
+    {
+      "id": "b7",
+      "title": "Bài 7. Các khái niệm mở đầu",
+      "blocks": [
+        { "type": "heading", "text": "1. Khái niệm vectơ" },
+        {
+          "type": "definition",
+          "title": "Vectơ",
+          "content": "Vectơ là một đoạn thẳng có hướng. Vectơ có điểm đầu A, điểm cuối B được kí hiệu là \\vec{AB}. Vectơ còn được kí hiệu bởi một chữ cái in thường có mũi tên: \\vec{a}, \\vec{b}, \\vec{u}, \\vec{v}."
+        },
+        {
+          "type": "list",
+          "title": "Các yếu tố của vectơ",
+          "items": [
+            "Giá của vectơ \\vec{AB}: đường thẳng AB.",
+            "Hướng của vectơ: từ điểm đầu đến điểm cuối.",
+            "Độ dài (mô-đun) của vectơ \\vec{AB} là độ dài đoạn thẳng AB, kí hiệu |\\vec{AB}| = AB."
+          ]
+        },
+        { "type": "heading", "text": "2. Hai vectơ cùng phương, cùng hướng" },
+        {
+          "type": "definition",
+          "title": "Cùng phương",
+          "content": "Hai vectơ được gọi là cùng phương nếu giá của chúng song song hoặc trùng nhau. Hai vectơ cùng phương thì hoặc cùng hướng, hoặc ngược hướng."
+        },
+        {
+          "type": "note",
+          "content": "Cùng hướng ⇒ cùng phương, nhưng cùng phương KHÔNG suy ra cùng hướng. Đây là lỗi rất thường gặp."
+        },
+        { "type": "heading", "text": "3. Hai vectơ bằng nhau" },
+        {
+          "type": "definition",
+          "title": "Vectơ bằng nhau",
+          "content": "Hai vectơ \\vec{a} và \\vec{b} bằng nhau (viết \\vec{a} = \\vec{b}) nếu chúng CÙNG HƯỚNG và CÙNG ĐỘ DÀI."
+        },
+        {
+          "type": "theorem",
+          "title": "Tính chất hình bình hành",
+          "content": "Tứ giác ABCD là hình bình hành ⇔ \\vec{AB} = \\vec{DC} ⇔ \\vec{AD} = \\vec{BC}."
+        },
+        {
+          "type": "definition",
+          "title": "Vectơ - không",
+          "content": "Vectơ có điểm đầu và điểm cuối trùng nhau gọi là vectơ - không, kí hiệu \\vec{0}. Ta có \\vec{AA} = \\vec{0}, |\\vec{0}| = 0, và \\vec{0} cùng phương, cùng hướng với mọi vectơ."
+        },
+        {
+          "type": "example",
+          "question": "Cho hình bình hành ABCD. Chỉ ra các vectơ bằng \\vec{AB} (tạo bởi các đỉnh).",
+          "solution": "\\vec{DC} = \\vec{AB} (vì ABCD là hình bình hành nên AB ∥ DC, AB = DC và cùng hướng).\nLưu ý \\vec{CD} ngược hướng với \\vec{AB} nên \\vec{CD} ≠ \\vec{AB}."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "title": "Bài 8. Tổng và hiệu của hai vectơ",
+      "blocks": [
+        { "type": "heading", "text": "1. Tổng của hai vectơ" },
+        {
+          "type": "definition",
+          "title": "Quy tắc ba điểm",
+          "content": "Với ba điểm A, B, C bất kì: \\vec{AB} + \\vec{BC} = \\vec{AC}. (Điểm cuối của vectơ trước là điểm đầu của vectơ sau.)"
+        },
+        {
+          "type": "definition",
+          "title": "Quy tắc hình bình hành",
+          "content": "Nếu ABCD là hình bình hành thì \\vec{AB} + \\vec{AD} = \\vec{AC} (hai vectơ chung điểm đầu, tổng là đường chéo)."
+        },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Giao hoán", "math": "\\vec{a} + \\vec{b} = \\vec{b} + \\vec{a}" },
+            { "label": "Kết hợp", "math": "(\\vec{a} + \\vec{b}) + \\vec{c} = \\vec{a} + (\\vec{b} + \\vec{c})" },
+            { "label": "Cộng với vectơ - không", "math": "\\vec{a} + \\vec{0} = \\vec{a}" }
+          ]
+        },
+        { "type": "heading", "text": "2. Hiệu của hai vectơ" },
+        {
+          "type": "definition",
+          "title": "Vectơ đối",
+          "content": "Vectơ đối của \\vec{a} là vectơ ngược hướng và cùng độ dài với \\vec{a}, kí hiệu −\\vec{a}. Ta có \\vec{BA} = −\\vec{AB} và \\vec{a} + (−\\vec{a}) = \\vec{0}."
+        },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Định nghĩa hiệu", "math": "\\vec{a} − \\vec{b} = \\vec{a} + (−\\vec{b})" },
+            { "label": "Quy tắc trừ (chung điểm đầu O)", "math": "\\vec{OB} − \\vec{OA} = \\vec{AB}" }
+          ]
+        },
+        {
+          "type": "note",
+          "content": "Quy tắc trừ rất hữu ích: mọi vectơ \\vec{AB} đều viết được thành \\vec{OB} − \\vec{OA} với O là điểm tuỳ ý. Cách này gọi là \"chèn điểm\"."
+        },
+        { "type": "heading", "text": "3. Trung điểm và trọng tâm" },
+        {
+          "type": "theorem",
+          "title": "Các hệ thức quan trọng",
+          "content": "I là trung điểm của AB ⇔ \\vec{IA} + \\vec{IB} = \\vec{0} ⇔ \\vec{MA} + \\vec{MB} = 2\\vec{MI} với M bất kì.\nG là trọng tâm tam giác ABC ⇔ \\vec{GA} + \\vec{GB} + \\vec{GC} = \\vec{0} ⇔ \\vec{MA} + \\vec{MB} + \\vec{MC} = 3\\vec{MG} với M bất kì."
+        },
+        {
+          "type": "example",
+          "question": "Cho hình bình hành ABCD tâm O. Tính \\vec{AB} + \\vec{AD} và \\vec{OA} + \\vec{OC}.",
+          "solution": "\\vec{AB} + \\vec{AD} = \\vec{AC} (quy tắc hình bình hành).\nO là trung điểm của AC nên \\vec{OA} + \\vec{OC} = \\vec{0}."
+        },
+        {
+          "type": "note",
+          "content": "Cẩn thận: |\\vec{a} + \\vec{b}| ≠ |\\vec{a}| + |\\vec{b}| trong trường hợp tổng quát. Dấu bằng chỉ xảy ra khi \\vec{a} và \\vec{b} cùng hướng."
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "title": "Bài 9. Tích của một vectơ với một số",
+      "blocks": [
+        { "type": "heading", "text": "1. Định nghĩa" },
+        {
+          "type": "definition",
+          "title": "Tích của vectơ với một số",
+          "content": "Cho số k ≠ 0 và vectơ \\vec{a} ≠ \\vec{0}. Tích k\\vec{a} là một vectơ:\n• Cùng hướng với \\vec{a} nếu k > 0; ngược hướng với \\vec{a} nếu k < 0.\n• Có độ dài |k\\vec{a}| = |k|·|\\vec{a}|.\nQuy ước: 0·\\vec{a} = \\vec{0} và k·\\vec{0} = \\vec{0}."
+        },
+        { "type": "heading", "text": "2. Tính chất" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "", "math": "k(\\vec{a} + \\vec{b}) = k\\vec{a} + k\\vec{b}" },
+            { "label": "", "math": "(h + k)\\vec{a} = h\\vec{a} + k\\vec{a}" },
+            { "label": "", "math": "h(k\\vec{a}) = (hk)\\vec{a}" },
+            { "label": "", "math": "1·\\vec{a} = \\vec{a};  (−1)·\\vec{a} = −\\vec{a}" }
+          ]
+        },
+        { "type": "heading", "text": "3. Điều kiện cùng phương, thẳng hàng" },
+        {
+          "type": "theorem",
+          "title": "Điều kiện cùng phương",
+          "content": "Hai vectơ \\vec{a} và \\vec{b} (với \\vec{b} ≠ \\vec{0}) cùng phương ⇔ tồn tại số thực k sao cho \\vec{a} = k\\vec{b}."
+        },
+        {
+          "type": "theorem",
+          "title": "Điều kiện ba điểm thẳng hàng",
+          "content": "Ba điểm A, B, C phân biệt thẳng hàng ⇔ tồn tại k ≠ 0 sao cho \\vec{AB} = k\\vec{AC}."
+        },
+        {
+          "type": "note",
+          "content": "Ứng dụng thường gặp: chứng minh ba điểm thẳng hàng bằng cách biểu thị hai vectơ theo cùng một cặp vectơ cơ sở rồi so sánh."
+        },
+        {
+          "type": "example",
+          "question": "Cho tam giác ABC có M là trung điểm BC. Biểu thị \\vec{AM} theo \\vec{AB} và \\vec{AC}.",
+          "solution": "M là trung điểm BC nên \\vec{AB} + \\vec{AC} = 2\\vec{AM}.\nSuy ra \\vec{AM} = \\frac{1}{2}(\\vec{AB} + \\vec{AC})."
+        },
+        {
+          "type": "example",
+          "question": "Cho tam giác ABC có trọng tâm G. Biểu thị \\vec{AG} theo \\vec{AB} và \\vec{AC}.",
+          "solution": "Với M là trung điểm BC: \\vec{AG} = \\frac{2}{3}\\vec{AM} = \\frac{2}{3}·\\frac{1}{2}(\\vec{AB} + \\vec{AC}) = \\frac{1}{3}(\\vec{AB} + \\vec{AC})."
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "title": "Bài 10. Vectơ trong mặt phẳng toạ độ",
+      "blocks": [
+        { "type": "heading", "text": "1. Toạ độ của vectơ" },
+        {
+          "type": "definition",
+          "title": "Toạ độ",
+          "content": "Trong mặt phẳng Oxy với hai vectơ đơn vị \\vec{i}, \\vec{j}: nếu \\vec{a} = x\\vec{i} + y\\vec{j} thì cặp (x; y) là toạ độ của \\vec{a}, viết \\vec{a} = (x; y)."
+        },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Toạ độ vectơ theo hai điểm", "math": "\\vec{AB} = (x_{B} − x_{A};  y_{B} − y_{A})" },
+            { "label": "Độ dài vectơ", "math": "|\\vec{a}| = \\sqrt{x^{2} + y^{2}}" },
+            { "label": "Khoảng cách hai điểm", "math": "AB = \\sqrt{(x_{B} − x_{A})^{2} + (y_{B} − y_{A})^{2}}" }
+          ]
+        },
+        { "type": "heading", "text": "2. Các phép toán theo toạ độ" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Cho \\vec{a} = (x₁; y₁), \\vec{b} = (x₂; y₂)", "math": "\\vec{a} + \\vec{b} = (x_{1} + x_{2};  y_{1} + y_{2})" },
+            { "label": "", "math": "\\vec{a} − \\vec{b} = (x_{1} − x_{2};  y_{1} − y_{2})" },
+            { "label": "", "math": "k\\vec{a} = (kx_{1};  ky_{1})" },
+            { "label": "Bằng nhau", "math": "\\vec{a} = \\vec{b} ⇔ x_{1} = x_{2} và y_{1} = y_{2}" },
+            { "label": "Cùng phương", "math": "\\vec{a} cùng phương \\vec{b} ⇔ x_{1}y_{2} − x_{2}y_{1} = 0" }
+          ]
+        },
+        { "type": "heading", "text": "3. Trung điểm và trọng tâm theo toạ độ" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Trung điểm I của AB", "math": "x_{I} = \\frac{x_{A} + x_{B}}{2};  y_{I} = \\frac{y_{A} + y_{B}}{2}" },
+            { "label": "Trọng tâm G của tam giác ABC", "math": "x_{G} = \\frac{x_{A} + x_{B} + x_{C}}{3};  y_{G} = \\frac{y_{A} + y_{B} + y_{C}}{3}" }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Cho A(1; 2), B(5; 4). Tìm toạ độ \\vec{AB}, độ dài AB và trung điểm I của AB.",
+          "solution": "\\vec{AB} = (5 − 1; 4 − 2) = (4; 2).\nAB = \\sqrt{4^{2} + 2^{2}} = \\sqrt{20} = 2\\sqrt{5}.\nI(\\frac{1 + 5}{2}; \\frac{2 + 4}{2}) = I(3; 3)."
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "title": "Bài 11. Tích vô hướng của hai vectơ",
+      "blocks": [
+        { "type": "heading", "text": "1. Góc giữa hai vectơ" },
+        {
+          "type": "definition",
+          "title": "Góc giữa hai vectơ",
+          "content": "Cho \\vec{a}, \\vec{b} khác \\vec{0}. Từ một điểm O, vẽ \\vec{OA} = \\vec{a}, \\vec{OB} = \\vec{b}. Góc AOB (với 0° ≤ AOB ≤ 180°) là góc giữa hai vectơ, kí hiệu (\\vec{a}, \\vec{b})."
+        },
+        {
+          "type": "list",
+          "items": [
+            "(\\vec{a}, \\vec{b}) = 0° ⇔ \\vec{a} và \\vec{b} cùng hướng.",
+            "(\\vec{a}, \\vec{b}) = 180° ⇔ \\vec{a} và \\vec{b} ngược hướng.",
+            "(\\vec{a}, \\vec{b}) = 90° ⇔ \\vec{a} ⊥ \\vec{b}."
+          ]
+        },
+        { "type": "heading", "text": "2. Tích vô hướng" },
+        {
+          "type": "definition",
+          "title": "Định nghĩa",
+          "content": "Tích vô hướng của hai vectơ \\vec{a} và \\vec{b} là một SỐ THỰC, xác định bởi:\n\\vec{a}·\\vec{b} = |\\vec{a}|·|\\vec{b}|·cos(\\vec{a}, \\vec{b}).\nNếu \\vec{a} = \\vec{0} hoặc \\vec{b} = \\vec{0} thì quy ước \\vec{a}·\\vec{b} = 0."
+        },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Biểu thức toạ độ", "math": "\\vec{a}·\\vec{b} = x_{1}x_{2} + y_{1}y_{2}" },
+            { "label": "Bình phương vô hướng", "math": "\\vec{a}^{2} = |\\vec{a}|^{2}" },
+            { "label": "Điều kiện vuông góc", "math": "\\vec{a} ⊥ \\vec{b} ⇔ \\vec{a}·\\vec{b} = 0 ⇔ x_{1}x_{2} + y_{1}y_{2} = 0" },
+            { "label": "Công thức góc", "math": "cos(\\vec{a}, \\vec{b}) = \\frac{x_{1}x_{2} + y_{1}y_{2}}{\\sqrt{x_{1}^{2} + y_{1}^{2}} · \\sqrt{x_{2}^{2} + y_{2}^{2}}}" }
+          ]
+        },
+        { "type": "heading", "text": "3. Tính chất" },
+        {
+          "type": "formula",
+          "items": [
+            { "label": "Giao hoán", "math": "\\vec{a}·\\vec{b} = \\vec{b}·\\vec{a}" },
+            { "label": "Phân phối", "math": "\\vec{a}·(\\vec{b} + \\vec{c}) = \\vec{a}·\\vec{b} + \\vec{a}·\\vec{c}" },
+            { "label": "Với số thực k", "math": "(k\\vec{a})·\\vec{b} = k(\\vec{a}·\\vec{b})" },
+            { "label": "Hằng đẳng thức", "math": "(\\vec{a} ± \\vec{b})^{2} = \\vec{a}^{2} ± 2\\vec{a}·\\vec{b} + \\vec{b}^{2}" }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Cho \\vec{a} = (2; −1), \\vec{b} = (3; 6). Tính \\vec{a}·\\vec{b} và cho biết góc giữa hai vectơ.",
+          "solution": "\\vec{a}·\\vec{b} = 2·3 + (−1)·6 = 6 − 6 = 0.\nVậy \\vec{a} ⊥ \\vec{b}, góc giữa hai vectơ bằng 90°."
+        },
+        {
+          "type": "example",
+          "question": "Tam giác ABC có AB = 3, AC = 4, góc A = 60°. Tính \\vec{AB}·\\vec{AC}.",
+          "solution": "Góc giữa \\vec{AB} và \\vec{AC} chính là góc A = 60°.\n\\vec{AB}·\\vec{AC} = 3·4·cos 60° = 12·\\frac{1}{2} = 6."
+        },
+        {
+          "type": "note",
+          "content": "Lưu ý dấu: \\vec{a}·\\vec{b} > 0 khi góc nhọn, \\vec{a}·\\vec{b} < 0 khi góc tù, \\vec{a}·\\vec{b} = 0 khi vuông góc."
+        }
+      ]
+    }
+  ]
+}
