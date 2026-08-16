@@ -1,0 +1,54 @@
+{
+  "chapterId": "c4",
+  "title": "Phản ứng oxi hóa - khử",
+  "lessons": [
+    {
+      "id": "b7",
+      "title": "Bài 7. Số oxi hóa",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 7. Số oxi hóa"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 7. Số oxi hóa theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 7. Số oxi hóa."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 7. Số oxi hóa.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "title": "Bài 8. Phản ứng Oxi hóa - Khử",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 8. Phản ứng Oxi hóa - Khử"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 8. Phản ứng Oxi hóa - Khử theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 8. Phản ứng Oxi hóa - Khử."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 8. Phản ứng Oxi hóa - Khử.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,8 @@
 
 const SYMBOLS = {
   le: '≤', ge: '≥', ne: '≠', pm: '±', mp: '∓',
-  times: '×', div: '÷', cdot: '·', deg: '°',
+  times: '×', div: '÷', cdot: '·', deg: '°', circ: '°',
+  sin: 'sin', cos: 'cos', tan: 'tan', cot: 'cot', log: 'log',
   infty: '∞', in: '∈', notin: '∉', subset: '⊂', supset: '⊃',
   cup: '∪', cap: '∩', emptyset: '∅', setminus: '∖',
   forall: '∀', exists: '∃', neg: '¬',

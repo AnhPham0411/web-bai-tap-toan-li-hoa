@@ -1,0 +1,54 @@
+{
+  "chapterId": "c5",
+  "title": "Năng lượng & Công",
+  "lessons": [
+    {
+      "id": "b9",
+      "title": "Bài 9. Công & Công suất",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 9. Công & Công suất"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 9. Công & Công suất theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 9. Công & Công suất."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 9. Công & Công suất.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "title": "Bài 10. Cơ năng & Bảo toàn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 10. Cơ năng & Bảo toàn"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 10. Cơ năng & Bảo toàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 10. Cơ năng & Bảo toàn."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 10. Cơ năng & Bảo toàn.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

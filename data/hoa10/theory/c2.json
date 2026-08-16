@@ -1,0 +1,54 @@
+{
+  "chapterId": "c2",
+  "title": "Bảng tuần hoàn các nguyên tố",
+  "lessons": [
+    {
+      "id": "b3",
+      "title": "Bài 3. Bảng tuần hoàn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 3. Bảng tuần hoàn"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 3. Bảng tuần hoàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 3. Bảng tuần hoàn."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 3. Bảng tuần hoàn.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "title": "Bài 4. Định luật tuần hoàn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 4. Định luật tuần hoàn"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 4. Định luật tuần hoàn theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 4. Định luật tuần hoàn."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 4. Định luật tuần hoàn.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

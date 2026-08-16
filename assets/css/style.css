@@ -499,10 +499,10 @@ sup, sub { font-size: .72em; line-height: 0; }
 @media (max-width: 640px) {
   body { font-size: 16px; }
   h1 { font-size: 23px; }
-  .header-inner { height: 56px; gap: 10px; }
+  .header-inner { height: auto; padding: 8px 0; gap: 8px; flex-wrap: wrap; }
   .brand-text small { display: none; }
-  /* nowrap để tên mục không bị gãy giữa dòng khi header hẹp */
-  .site-nav a { padding: 6px 9px; font-size: 13.5px; white-space: nowrap; }
+  .subject-select { padding: 4px 6px; font-size: 13px; max-width: 110px; }
+  .site-nav a { padding: 5px 8px; font-size: 13px; white-space: nowrap; }
   main { padding: 22px 16px 48px; }
   .wrap { padding: 0 16px; }
   .card, .q-card, .hero { padding: 16px; }
@@ -510,8 +510,8 @@ sup, sub { font-size: .72em; line-height: 0; }
   .q-grid { grid-template-columns: repeat(6, 1fr); }
 }
 @media (max-width: 470px) {
-  /* nhường chỗ cho menu: chỉ giữ lại logo */
   .brand-text { display: none; }
+  .subject-select { font-size: 12.5px; padding: 3px 5px; }
   .site-nav { gap: 2px; }
-  .site-nav a { padding: 6px 8px; }
+  .site-nav a { padding: 4px 6px; font-size: 12.5px; }
 }

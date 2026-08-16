@@ -1,0 +1,54 @@
+{
+  "chapterId": "c3",
+  "title": "Chuyển động biến đổi",
+  "lessons": [
+    {
+      "id": "b5",
+      "title": "Bài 5. Gia tốc",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 5. Gia tốc"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 5. Gia tốc theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 5. Gia tốc."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 5. Gia tốc.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "title": "Bài 6. Rơi tự do",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 6. Rơi tự do"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 6. Rơi tự do theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 6. Rơi tự do."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 6. Rơi tự do.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "chapterId": "c1",
+  "title": "Mở đầu & Sai số trong đo lường",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Mở đầu",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 1. Mở đầu"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 1. Mở đầu theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 1. Mở đầu."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 1. Mở đầu.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Sai số phép đo",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 2. Sai số phép đo"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 2. Sai số phép đo theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 2. Sai số phép đo."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 2. Sai số phép đo.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

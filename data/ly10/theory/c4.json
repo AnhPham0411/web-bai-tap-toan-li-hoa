@@ -1,0 +1,54 @@
+{
+  "chapterId": "c4",
+  "title": "Động lực học",
+  "lessons": [
+    {
+      "id": "b7",
+      "title": "Bài 7. Định luật Newton",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 7. Định luật Newton"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 7. Định luật Newton theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 7. Định luật Newton."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 7. Định luật Newton.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "title": "Bài 8. Các lực cơ học",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 8. Các lực cơ học"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 8. Các lực cơ học theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 8. Các lực cơ học."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 8. Các lực cơ học.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}

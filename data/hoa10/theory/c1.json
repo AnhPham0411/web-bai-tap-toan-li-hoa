@@ -1,0 +1,54 @@
+{
+  "chapterId": "c1",
+  "title": "Cấu tạo nguyên tử",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Thành phần nguyên tử",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 1. Thành phần nguyên tử"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 1. Thành phần nguyên tử theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 1. Thành phần nguyên tử."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 1. Thành phần nguyên tử.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Cấu hình electron",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm cơ bản — Bài 2. Cấu hình electron"
+        },
+        {
+          "type": "definition",
+          "title": "Trọng tâm bài học",
+          "content": "Nội dung trọng tâm của Bài 2. Cấu hình electron theo chương trình GDPT 2018 bộ Kết nối tri thức với cuộc sống."
+        },
+        {
+          "type": "text",
+          "content": "Học sinh cần nắm vững các kiến thức, công thức và phương pháp giải bài tập liên quan đến Bài 2. Cấu hình electron."
+        },
+        {
+          "type": "example",
+          "question": "Ví dụ minh họa cho Bài 2. Cấu hình electron.",
+          "solution": "Áp dụng định nghĩa và công thức cơ bản để suy ra kết quả."
+        }
+      ]
+    }
+  ]
+}
