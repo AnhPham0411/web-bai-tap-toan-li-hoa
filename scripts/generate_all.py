@@ -8,10 +8,18 @@ Bổ sung sinh dữ liệu Lý thuyết CHUẨN SGK cho cả 3 môn.
 
 import json
 import os
+import random
 from generate_rich_data import generate_ly10_theory, generate_hoa10_theory
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
+
+def shuffle_choices(choices, ans_idx):
+    correct_choice = choices[ans_idx]
+    items = list(choices)
+    random.shuffle(items)
+    new_ans_idx = items.index(correct_choice)
+    return items, new_ans_idx
 
 def ensure_dir(path):
     if not os.path.exists(path):
@@ -37,37 +45,136 @@ def generate_toan10_questions():
         for i in range(1, 121):
             lvl = "nb" if i <= 60 else ("th" if i <= 108 else "vd")
             lesson = l1 if i % 2 != 0 else l2
+            mod = i % 4
             
             if c_id == "c1":
-                q = f"Mệnh đề nào sau đây là mệnh đề ĐÚNG? (Câu {i})"
-                c = [f"\\pi > 3.15", f"\\sqrt{{2}} < 1.4", f"2^3 = 8", f"5 \\le 3"]
-                ans = 2
-                exp = "Vì 2^3 = 8 là đẳng thức đúng."
+                if mod == 1:
+                    q = f"Mệnh đề nào sau đây là mệnh đề ĐÚNG? (Câu {i})"
+                    c = [f"\\pi > 3.15", f"\\sqrt{{2}} < 1.4", f"2^3 = 8", f"5 \\le 3"]
+                    ans = 2
+                    exp = "Vì 2^3 = 8 là đẳng thức đúng."
+                elif mod == 2:
+                    q = f"Mệnh đề phủ định của mệnh đề 'Mọi x \\in \\mathbb{{R}}, x^2 > 0' là:"
+                    c = [f"Tồn tại x \\in \\mathbb{{R}}, x^2 \\le 0", f"Mọi x \\in \\mathbb{{R}}, x^2 \\le 0", f"Tồn tại x \\in \\mathbb{{R}}, x^2 < 0", f"Mọi x \\in \\mathbb{{R}}, x^2 < 0"]
+                    ans = 0
+                    exp = "Phủ định của 'Mọi' là 'Tồn tại', phủ định của '>' là '\\le'."
+                elif mod == 3:
+                    n = (i % 10) + 3
+                    q = f"Cho tập hợp A = \\{{x \\in \\mathbb{{N}} | x < {n}\\}}. Số phần tử của tập A là:"
+                    c = [f"{n}", f"{n-1}", f"{n+1}", f"Vô số"]
+                    ans = 0
+                    exp = f"Các số tự nhiên nhỏ hơn {n} là 0, 1, ..., {n-1}. Có {n} phần tử."
+                else:
+                    a = (i % 5) + 2
+                    b = a + (i % 4) + 1
+                    q = f"Cho hai tập hợp A = (-{a}; {a}) và B = [0; {b}]. Tập hợp A \\cap B là:"
+                    c = [f"[0; {a})", f"(-{a}; {b}]", f"(0; {a})", f"[0; {b}]"]
+                    ans = 0
+                    exp = f"Phần chung của (-{a}; {a}) và [0; {b}] là [0; {a})."
             elif c_id == "c2":
-                q = f"Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây? (Câu {i})"
-                c = [f"{i}x + y - 5 < 0", f"2x + 3y + {i} < 0", f"-x - y + {i+1} < 0", f"x + y + 1 < 0"]
-                ans = 0
-                exp = f"Thay x=0, y=0 vào {i}x + y - 5 < 0 ta được -5 < 0 (đúng)."
+                if mod == 1:
+                    q = f"Điểm O(0; 0) thuộc miền nghiệm của bất phương trình nào sau đây? (Câu {i})"
+                    c = [f"{i}x + y - 5 < 0", f"2x + 3y + {i} < 0", f"-x - y + {i+1} < 0", f"x + y + 1 < 0"]
+                    ans = 0
+                    exp = f"Thay x=0, y=0 vào {i}x + y - 5 < 0 ta được -5 < 0 (đúng)."
+                elif mod == 2:
+                    k = (i % 5) + 1
+                    q = f"Cặp số (1; -1) là nghiệm của bất phương trình nào sau đây?"
+                    c = [f"{k}x - y > 0", f"-x + y > {k}", f"x + {k}y > 0", f"-{k}x - y > 0"]
+                    ans = 0
+                    exp = f"Thay x=1, y=-1 vào {k}x - y > 0 được {k}(1) - (-1) = {k+1} > 0 (đúng)."
+                elif mod == 3:
+                    q = f"Hệ bất phương trình nào sau đây là hệ bất phương trình bậc nhất hai ẩn?"
+                    c = [f"x + y > 0 và 2x - y < 3", f"x^2 + y > 1 và x - y < 0", f"x + y^2 > 0 và x - y < 0", f"x + y > 0 và xy < 1"]
+                    ans = 0
+                    exp = "Hệ chỉ chứa x và y bậc 1, không có các tích phân hay lũy thừa."
+                else:
+                    v = (i % 3) + 1
+                    q = f"Miền nghiệm của bất phương trình x - {v}y \\le 0 chứa điểm nào sau đây?"
+                    c = [f"({v}; 1)", f"(1; -1)", f"({v+1}; 1)", f"({v}; 0)"]
+                    ans = 0
+                    exp = f"Thay x={v}, y=1 vào x - {v}y \\le 0 ta được 0 \\le 0 (đúng)."
             elif c_id == "c3":
-                a = (i % 10) + 3
-                b = (i % 8) + 4
-                q = f"Cho tam giác ABC có a = {a}, b = {b}, góc C = 60°. Tính diện tích S của tam giác."
-                s_val = round(0.5 * a * b * (3**0.5 / 2), 2)
-                c = [f"{s_val}", f"{s_val + 2}", f"{s_val * 2}", f"{round(s_val / 2, 2)}"]
-                ans = 0
-                exp = f"Công thức diện tích: S = \\frac{{1}}{{2}} ab \\sin C = \\frac{{1}}{{2}} \\cdot {a} \\cdot {b} \\cdot \\sin 60^\\circ = {s_val}."
+                if mod == 1:
+                    a = (i % 10) + 3
+                    b = (i % 8) + 4
+                    s_val = round(0.5 * a * b * (3**0.5 / 2), 2)
+                    q = f"Cho tam giác ABC có a = {a}, b = {b}, góc C = 60°. Tính diện tích S của tam giác."
+                    c = [f"{s_val}", f"{s_val + 2}", f"{s_val * 2}", f"{round(s_val / 2, 2)}"]
+                    ans = 0
+                    exp = f"Công thức diện tích: S = \\frac{{1}}{{2}} ab \\sin C = \\frac{{1}}{{2}} \\cdot {a} \\cdot {b} \\cdot \\sin 60^\\circ = {s_val}."
+                elif mod == 2:
+                    a, b = 3, 5
+                    c_side = 7
+                    q = f"Cho tam giác ABC có a={a}, b={b}, c={c_side}. Khẳng định nào đúng về góc C?"
+                    c = [f"Góc C là góc tù", f"Góc C là góc nhọn", f"Góc C là góc vuông", f"Không xác định được"]
+                    ans = 0
+                    exp = f"cosC = (a^2 + b^2 - c^2)/(2ab) = ({a}^2 + {b}^2 - {c_side}^2)/(2\\cdot{a}\\cdot{b}) < 0 nên C là góc tù."
+                elif mod == 3:
+                    R = (i % 5) + 2
+                    a = round(2 * R * 0.5, 2)
+                    q = f"Cho tam giác ABC có bán kính đường tròn ngoại tiếp R = {R} và góc A = 30°. Độ dài cạnh a là:"
+                    c = [f"{a}", f"{a*2}", f"{round(a*1.732, 2)}", f"{round(a/2, 2)}"]
+                    ans = 0
+                    exp = f"Theo định lí sin: a = 2R\\sin A = 2 \\cdot {R} \\cdot 0.5 = {a}."
+                else:
+                    p = (i % 4) + 6
+                    r = (i % 3) + 2
+                    S = p * r
+                    q = f"Cho tam giác có nửa chu vi p = {p}, bán kính đường tròn nội tiếp r = {r}. Diện tích tam giác là:"
+                    c = [f"{S}", f"{S+2}", f"{S-1}", f"{S*2}"]
+                    ans = 0
+                    exp = f"Công thức: S = p \\cdot r = {p} \\cdot {r} = {S}."
             elif c_id == "c4":
-                q = f"Cho hai vectơ \\vec{{a}} và \\vec{{b}} vuông góc với nhau và khác \\vec{{0}}. Tích vô hướng \\vec{{a}} \\cdot \\vec{{b}} bằng:"
-                c = [f"0", f"1", f"|\\vec{{a}}||\\vec{{b}}|", f"-1"]
-                ans = 0
-                exp = "Hai vectơ vuông góc thì tích vô hướng bằng 0."
+                if mod == 1:
+                    q = f"Cho hai vectơ \\vec{{a}} và \\vec{{b}} vuông góc với nhau và khác \\vec{{0}}. Tích vô hướng \\vec{{a}} \\cdot \\vec{{b}} bằng:"
+                    c = [f"0", f"1", f"|\\vec{{a}}||\\vec{{b}}|", f"-1"]
+                    ans = 0
+                    exp = "Hai vectơ vuông góc thì tích vô hướng bằng 0."
+                elif mod == 2:
+                    x, y = (i % 5) + 1, (i % 4) + 2
+                    q = f"Cho điểm A({x}; {y}) và B({x+2}; {y-1}). Tọa độ vectơ \\overrightarrow{{AB}} là:"
+                    c = [f"(2; -1)", f"(-2; 1)", f"({2*x+2}; {2*y-1})", f"(1; 2)"]
+                    ans = 0
+                    exp = f"\\overrightarrow{{AB}} = (x_B - x_A; y_B - y_A) = ({x+2} - {x}; {y-1} - {y}) = (2; -1)."
+                elif mod == 3:
+                    q = f"Cho 3 điểm phân biệt A, B, C. Đẳng thức nào sau đây đúng?"
+                    c = [f"\\overrightarrow{{AB}} + \\overrightarrow{{BC}} = \\overrightarrow{{AC}}", f"\\overrightarrow{{AB}} - \\overrightarrow{{BC}} = \\overrightarrow{{AC}}", f"\\overrightarrow{{AB}} + \\overrightarrow{{CA}} = \\overrightarrow{{BC}}", f"\\overrightarrow{{AB}} - \\overrightarrow{{AC}} = \\overrightarrow{{BC}}"]
+                    ans = 0
+                    exp = "Theo quy tắc ba điểm: \\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}."
+                else:
+                    a = (i % 3) + 1
+                    q = f"Cho hình vuông ABCD cạnh {a}. Độ dài vectơ \\overrightarrow{{AC}} là:"
+                    c = [f"{a}\\sqrt{{2}}", f"{a}", f"2{a}", f"{a}\\sqrt{{3}}"]
+                    ans = 0
+                    exp = f"AC là đường chéo hình vuông cạnh {a}, nên AC = {a}\\sqrt{{2}}."
             else:
-                val_list = [i, i+2, i+4, i+6, i+8]
-                mean = sum(val_list) / len(val_list)
-                q = f"Cho mẫu số liệu: {val_list}. Số trung bình cộng của mẫu số liệu là:"
-                c = [f"{mean}", f"{mean+1}", f"{mean-1}", f"{mean+2}"]
-                ans = 0
-                exp = f"Số trung bình cộng = ({i} + {i+2} + {i+4} + {i+6} + {i+8}) / 5 = {mean}."
+                if mod == 1:
+                    val_list = [i, i+2, i+4, i+6, i+8]
+                    mean = sum(val_list) / len(val_list)
+                    q = f"Cho mẫu số liệu: {val_list}. Số trung bình cộng của mẫu số liệu là:"
+                    c = [f"{mean}", f"{mean+1}", f"{mean-1}", f"{mean+2}"]
+                    ans = 0
+                    exp = f"Số trung bình cộng = ({i} + {i+2} + {i+4} + {i+6} + {i+8}) / 5 = {mean}."
+                elif mod == 2:
+                    q = f"Khoảng biến thiên của mẫu số liệu 2, 5, 8, {10+i%5}, {15+i%5} là:"
+                    R = (15 + i%5) - 2
+                    c = [f"{R}", f"{15+i%5}", f"2", f"{R-2}"]
+                    ans = 0
+                    exp = f"Khoảng biến thiên R = Giá trị lớn nhất - Giá trị nhỏ nhất = {15+i%5} - 2 = {R}."
+                elif mod == 3:
+                    x = (i % 5) + 3
+                    q = f"Cho mẫu số liệu: 1, 2, 2, {x}, {x}, {x}, 8, 9. Mốt của mẫu số liệu là:"
+                    c = [f"{x}", "2", "8", "9"]
+                    ans = 0
+                    exp = f"Giá trị {x} xuất hiện nhiều lần nhất (3 lần) nên mốt là {x}."
+                else:
+                    q = f"Cho mẫu số liệu 1, 3, 5, 7, 9. Phương sai của mẫu số liệu này là:"
+                    c = ["8", "10", "4", "2.83"]
+                    ans = 0
+                    exp = "Trung bình cộng = 5. Phương sai S^2 = (16+4+0+4+16)/5 = 8."
+
+            c, ans = shuffle_choices(c, ans)
 
             mc_questions.append({
                 "id": f"mc-{c_id}-{i:03d}",
@@ -294,6 +401,8 @@ def generate_ly10_questions():
                     ans = 0
                     exp = f"Công A = P · t = ({P} · 1000 W) · 5 s = {A} J."
 
+            c, ans = shuffle_choices(c, ans)
+
             mc_questions.append({
                 "id": f"mc-{c_id}-{i:03d}",
                 "chapter": c_id,
@@ -483,6 +592,8 @@ def generate_hoa10_questions():
                     c = ["Δ_r H₂₉₈⁰ = ∑Δ_f H₂₉₈⁰ (sản phẩm) - ∑Δ_f H₂₉₈⁰ (chất đầu)", "Δ_r H₂₉₈⁰ = ∑Δ_f H₂₉₈⁰ (chất đầu) - ∑Δ_f H₂₉₈⁰ (sản phẩm)", "Δ_r H₂₉₈⁰ = ∑E_b (sản phẩm) - ∑E_b (chất đầu)", "Δ_r H₂₉₈⁰ = ∑Δ_f H₂₉₈⁰ (sản phẩm) + ∑Δ_f H₂₉₈⁰ (chất đầu)"]
                     ans = 0
                     exp = "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu."
+
+            c, ans = shuffle_choices(c, ans)
 
             mc_questions.append({
                 "id": f"mc-{c_id}-{i:03d}",
