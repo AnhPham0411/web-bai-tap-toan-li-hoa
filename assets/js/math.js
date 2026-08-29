@@ -32,6 +32,7 @@ const SYMBOLS = {
 const ONE_ARG = {
   sqrt: (inner) => `<span class="m-sqrt"><span class="m-rad">√</span><span class="m-radicand">${inner}</span></span>`,
   vec: (inner) => `<span class="m-vec">${inner}</span>`,
+  overrightarrow: (inner) => `<span class="m-vec">${inner}</span>`,
   bar: (inner) => `<span class="m-obar">${inner}</span>`,
   overline: (inner) => `<span class="m-obar">${inner}</span>`,
   hat: (inner) => `<span class="m-obar">${inner}</span>`,
