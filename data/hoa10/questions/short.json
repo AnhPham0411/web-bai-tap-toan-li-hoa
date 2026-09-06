@@ -5,817 +5,908 @@
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X.",
+      "dang": "Cấu tạo (Nhóm 1)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v0</span>",
       "answer": "3",
-      "explanation": "Số neutron N = A - Z = 4 - 1 = 3."
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-002",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X.",
+      "dang": "Cấu tạo (Nhóm 1)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v1</span>",
       "answer": "4",
-      "explanation": "Số neutron N = A - Z = 6 - 2 = 4."
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-003",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X.",
+      "dang": "Cấu tạo (Nhóm 1)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v2</span>",
       "answer": "5",
-      "explanation": "Số neutron N = A - Z = 8 - 3 = 5."
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-004",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 4 và số khối A = 10. Tính số neutron N trong hạt nhân X.",
-      "answer": "6",
-      "explanation": "Số neutron N = A - Z = 10 - 4 = 6."
+      "dang": "Cấu tạo (Nhóm 2)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v3</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-005",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 5 và số khối A = 12. Tính số neutron N trong hạt nhân X.",
-      "answer": "7",
-      "explanation": "Số neutron N = A - Z = 12 - 5 = 7."
+      "dang": "Cấu tạo (Nhóm 2)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v4</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-006",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 6 và số khối A = 14. Tính số neutron N trong hạt nhân X.",
-      "answer": "8",
-      "explanation": "Số neutron N = A - Z = 14 - 6 = 8."
+      "dang": "Cấu tạo (Nhóm 2)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v5</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-007",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 7 và số khối A = 16. Tính số neutron N trong hạt nhân X.",
-      "answer": "9",
-      "explanation": "Số neutron N = A - Z = 16 - 7 = 9."
+      "dang": "Cấu tạo (Nhóm 3)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v6</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-008",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 8 và số khối A = 18. Tính số neutron N trong hạt nhân X.",
-      "answer": "10",
-      "explanation": "Số neutron N = A - Z = 18 - 8 = 10."
+      "dang": "Cấu tạo (Nhóm 3)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v7</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-009",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 9 và số khối A = 20. Tính số neutron N trong hạt nhân X.",
-      "answer": "11",
-      "explanation": "Số neutron N = A - Z = 20 - 9 = 11."
+      "dang": "Cấu tạo (Nhóm 3)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v8</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-010",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 10 và số khối A = 22. Tính số neutron N trong hạt nhân X.",
-      "answer": "12",
-      "explanation": "Số neutron N = A - Z = 22 - 10 = 12."
+      "dang": "Cấu tạo (Nhóm 4)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v9</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-011",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 11 và số khối A = 24. Tính số neutron N trong hạt nhân X.",
-      "answer": "13",
-      "explanation": "Số neutron N = A - Z = 24 - 11 = 13."
+      "dang": "Cấu tạo (Nhóm 4)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v10</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-012",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 12 và số khối A = 26. Tính số neutron N trong hạt nhân X.",
-      "answer": "14",
-      "explanation": "Số neutron N = A - Z = 26 - 12 = 14."
+      "dang": "Cấu tạo (Nhóm 4)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v11</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-013",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 13 và số khối A = 28. Tính số neutron N trong hạt nhân X.",
-      "answer": "15",
-      "explanation": "Số neutron N = A - Z = 28 - 13 = 15."
+      "dang": "Cấu tạo (Nhóm 5)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v12</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-014",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 14 và số khối A = 30. Tính số neutron N trong hạt nhân X.",
-      "answer": "16",
-      "explanation": "Số neutron N = A - Z = 30 - 14 = 16."
+      "dang": "Cấu tạo (Nhóm 5)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v13</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-015",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Một nguyên tử X có Z = 15 và số khối A = 32. Tính số neutron N trong hạt nhân X.",
-      "answer": "17",
-      "explanation": "Số neutron N = A - Z = 32 - 15 = 17."
+      "dang": "Cấu tạo (Nhóm 5)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v14</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-016",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 16 và số khối A = 34. Tính số neutron N trong hạt nhân X.",
-      "answer": "18",
-      "explanation": "Số neutron N = A - Z = 34 - 16 = 18."
+      "dang": "Cấu tạo (Nhóm 6)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v15</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-017",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 17 và số khối A = 36. Tính số neutron N trong hạt nhân X.",
-      "answer": "19",
-      "explanation": "Số neutron N = A - Z = 36 - 17 = 19."
+      "dang": "Cấu tạo (Nhóm 6)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v16</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-018",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 18 và số khối A = 38. Tính số neutron N trong hạt nhân X.",
-      "answer": "20",
-      "explanation": "Số neutron N = A - Z = 38 - 18 = 20."
+      "dang": "Cấu tạo (Nhóm 6)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v17</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-019",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 19 và số khối A = 40. Tính số neutron N trong hạt nhân X.",
-      "answer": "21",
-      "explanation": "Số neutron N = A - Z = 40 - 19 = 21."
+      "dang": "Cấu tạo (Nhóm 7)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v18</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-020",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 20 và số khối A = 42. Tính số neutron N trong hạt nhân X.",
-      "answer": "22",
-      "explanation": "Số neutron N = A - Z = 42 - 20 = 22."
+      "dang": "Cấu tạo (Nhóm 7)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v19</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-021",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 21 và số khối A = 44. Tính số neutron N trong hạt nhân X.",
-      "answer": "23",
-      "explanation": "Số neutron N = A - Z = 44 - 21 = 23."
+      "dang": "Cấu tạo (Nhóm 7)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v20</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-022",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 22 và số khối A = 46. Tính số neutron N trong hạt nhân X.",
-      "answer": "24",
-      "explanation": "Số neutron N = A - Z = 46 - 22 = 24."
+      "dang": "Cấu tạo (Nhóm 8)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v21</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-023",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 23 và số khối A = 48. Tính số neutron N trong hạt nhân X.",
-      "answer": "25",
-      "explanation": "Số neutron N = A - Z = 48 - 23 = 25."
+      "dang": "Cấu tạo (Nhóm 8)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v22</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-024",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 24 và số khối A = 50. Tính số neutron N trong hạt nhân X.",
-      "answer": "26",
-      "explanation": "Số neutron N = A - Z = 50 - 24 = 26."
+      "dang": "Cấu tạo (Nhóm 8)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v23</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-025",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 25 và số khối A = 52. Tính số neutron N trong hạt nhân X.",
-      "answer": "27",
-      "explanation": "Số neutron N = A - Z = 52 - 25 = 27."
+      "dang": "Cấu tạo (Nhóm 9)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v24</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-026",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 26 và số khối A = 54. Tính số neutron N trong hạt nhân X.",
-      "answer": "28",
-      "explanation": "Số neutron N = A - Z = 54 - 26 = 28."
+      "dang": "Cấu tạo (Nhóm 9)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v25</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-027",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Một nguyên tử X có Z = 27 và số khối A = 56. Tính số neutron N trong hạt nhân X.",
-      "answer": "29",
-      "explanation": "Số neutron N = A - Z = 56 - 27 = 29."
+      "dang": "Cấu tạo (Nhóm 9)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v26</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c1-028",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "vd",
-      "question": "Một nguyên tử X có Z = 28 và số khối A = 58. Tính số neutron N trong hạt nhân X.",
-      "answer": "30",
-      "explanation": "Số neutron N = A - Z = 58 - 28 = 30."
+      "dang": "Cấu tạo (Nhóm 10)",
+      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v27</span>",
+      "answer": "3",
+      "explanation": "N = A - Z = 4 - 1 = 3."
     },
     {
       "id": "sa-c1-029",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "question": "Một nguyên tử X có Z = 29 và số khối A = 60. Tính số neutron N trong hạt nhân X.",
-      "answer": "31",
-      "explanation": "Số neutron N = A - Z = 60 - 29 = 31."
+      "dang": "Cấu tạo (Nhóm 10)",
+      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v28</span>",
+      "answer": "4",
+      "explanation": "N = A - Z = 6 - 2 = 4."
     },
     {
       "id": "sa-c1-030",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "vd",
-      "question": "Một nguyên tử X có Z = 30 và số khối A = 62. Tính số neutron N trong hạt nhân X.",
-      "answer": "32",
-      "explanation": "Số neutron N = A - Z = 62 - 30 = 32."
+      "dang": "Cấu tạo (Nhóm 10)",
+      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v29</span>",
+      "answer": "5",
+      "explanation": "N = A - Z = 8 - 3 = 5."
     },
     {
       "id": "sa-c2-001",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v0</span>",
       "answer": "3",
       "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-002",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v1</span>",
       "answer": "3",
       "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-003",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v2</span>",
       "answer": "3",
       "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-004",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 6. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v3</span>",
       "answer": "3",
-      "explanation": "Z = 6 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-005",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 7. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v4</span>",
       "answer": "3",
-      "explanation": "Z = 7 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-006",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 8. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v5</span>",
       "answer": "3",
-      "explanation": "Z = 8 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-007",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 9. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v6</span>",
       "answer": "3",
-      "explanation": "Z = 9 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-008",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 10. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v7</span>",
       "answer": "3",
-      "explanation": "Z = 10 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-009",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 11. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v8</span>",
       "answer": "3",
-      "explanation": "Z = 11 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-010",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 12. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v9</span>",
       "answer": "3",
-      "explanation": "Z = 12 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-011",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 13. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v10</span>",
       "answer": "3",
-      "explanation": "Z = 13 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-012",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 14. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v11</span>",
       "answer": "3",
-      "explanation": "Z = 14 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-013",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 15. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v12</span>",
       "answer": "3",
-      "explanation": "Z = 15 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-014",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 16. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v13</span>",
       "answer": "3",
-      "explanation": "Z = 16 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-015",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Nguyên tố X có Z = 17. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v14</span>",
       "answer": "3",
-      "explanation": "Z = 17 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-016",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 18. Nguyên tử X có bao nhiêu lớp electron?",
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v15</span>",
       "answer": "3",
-      "explanation": "Z = 18 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-017",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Nguyên tố X có Z = 19. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 19 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v16</span>",
+      "answer": "3",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-018",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 20. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 20 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v17</span>",
+      "answer": "3",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-019",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 21. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 21 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v18</span>",
+      "answer": "3",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-020",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Nguyên tố X có Z = 22. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 22 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v19</span>",
+      "answer": "3",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-021",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Nguyên tố X có Z = 23. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 23 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v20</span>",
+      "answer": "3",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-022",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 24. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 24 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v21</span>",
+      "answer": "3",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-023",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Nguyên tố X có Z = 25. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 25 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v22</span>",
+      "answer": "3",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-024",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Nguyên tố X có Z = 26. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 26 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v23</span>",
+      "answer": "3",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-025",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 27. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 27 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v24</span>",
+      "answer": "3",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-026",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 28. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 28 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v25</span>",
+      "answer": "3",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-027",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Nguyên tố X có Z = 29. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 29 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v26</span>",
+      "answer": "3",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-028",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "vd",
-      "question": "Nguyên tố X có Z = 30. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 30 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v27</span>",
+      "answer": "3",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-029",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "question": "Nguyên tố X có Z = 31. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 31 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v28</span>",
+      "answer": "3",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c2-030",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "question": "Nguyên tố X có Z = 32. Nguyên tử X có bao nhiêu lớp electron?",
-      "answer": "4",
-      "explanation": "Z = 32 có cấu hình e thích hợp với 4 lớp e."
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v29</span>",
+      "answer": "3",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
     },
     {
       "id": "sa-c3-001",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v0</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-002",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v1</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-003",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v2</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-004",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v3</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-005",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v4</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-006",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v5</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-007",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v6</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-008",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v7</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-009",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v8</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-010",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v9</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-011",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v10</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-012",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v11</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-013",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v12</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-014",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v13</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-015",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v14</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-016",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v15</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-017",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v16</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-018",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v17</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-019",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v18</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-020",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v19</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-021",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v20</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-022",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v21</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-023",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v22</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-024",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v23</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-025",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v24</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-026",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v25</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-027",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v26</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-028",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "vd",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v27</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-029",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "vd",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v28</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c3-030",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "question": "Một phân tử Mêtan (CH₄) có bao nhiêu liên kết cộng hóa trị đơn C-H?",
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v29</span>",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 nguyên tử H tạo 4 liên kết đơn C-H."
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
     },
     {
       "id": "sa-c4-001",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 1)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v0</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -824,7 +915,8 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 1)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v1</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -833,34 +925,38 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 1)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v2</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-004",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 2)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v3</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-005",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 2)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v4</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-006",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 2)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v5</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -869,34 +965,38 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 3)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v6</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-008",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 3)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v7</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-009",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 3)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v8</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-010",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 4)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v9</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -905,43 +1005,48 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 4)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v10</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-012",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 4)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v11</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-013",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 5)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v12</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-014",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 5)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v13</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-015",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 5)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v14</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -950,16 +1055,18 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 6)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v15</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-017",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 6)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v16</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -968,7 +1075,8 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 6)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v17</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -977,7 +1085,8 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 7)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v18</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -986,16 +1095,18 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 7)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v19</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-021",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 7)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v20</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1004,7 +1115,8 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 8)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v21</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1013,16 +1125,18 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 8)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v22</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-024",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 8)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v23</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1031,25 +1145,28 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 9)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v24</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-026",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 9)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v25</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-027",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 9)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v26</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1058,7 +1175,8 @@
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 10)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v27</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1067,16 +1185,18 @@
       "chapter": "c4",
       "lesson": "b7",
       "level": "vd",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 10)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v28</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
     {
       "id": "sa-c4-030",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "vd",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H₂SO₄.",
+      "dang": "Oxi hóa (Nhóm 10)",
+      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v29</span>",
       "answer": "6",
       "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
     },
@@ -1085,270 +1205,330 @@
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -25 kJ. Nhiệt lượng tỏa ra (kJ) là:",
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v0</span>",
       "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 25 kJ."
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-002",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -50 kJ. Nhiệt lượng tỏa ra (kJ) là:",
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v1</span>",
       "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 50 kJ."
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-003",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -75 kJ. Nhiệt lượng tỏa ra (kJ) là:",
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v2</span>",
       "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 75 kJ."
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-004",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -100 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "100",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 100 kJ."
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v3</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-005",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -125 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "125",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 125 kJ."
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v4</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-006",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -150 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "150",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 150 kJ."
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v5</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-007",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -175 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "175",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 175 kJ."
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v6</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-008",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -200 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "200",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 200 kJ."
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v7</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-009",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -225 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "225",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 225 kJ."
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v8</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-010",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -250 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "250",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 250 kJ."
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v9</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-011",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -275 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "275",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 275 kJ."
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v10</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-012",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -300 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "300",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 300 kJ."
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v11</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-013",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -325 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "325",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 325 kJ."
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v12</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-014",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -350 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "350",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 350 kJ."
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v13</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-015",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -375 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "375",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 375 kJ."
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v14</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-016",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -400 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "400",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 400 kJ."
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v15</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-017",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -425 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "425",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 425 kJ."
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v16</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-018",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -450 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "450",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 450 kJ."
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v17</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-019",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -475 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "475",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 475 kJ."
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v18</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-020",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -500 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "500",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 500 kJ."
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v19</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-021",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -525 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "525",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 525 kJ."
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v20</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-022",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -550 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "550",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 550 kJ."
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v21</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-023",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -575 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "575",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 575 kJ."
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v22</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-024",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -600 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "600",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 600 kJ."
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v23</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-025",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -625 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "625",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 625 kJ."
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v24</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-026",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -650 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "650",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 650 kJ."
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v25</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-027",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -675 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "675",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 675 kJ."
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v26</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-028",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "vd",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -700 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "700",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 700 kJ."
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v27</span>",
+      "answer": "25",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-029",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "vd",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -725 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "725",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 725 kJ."
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v28</span>",
+      "answer": "50",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "unit": "kJ"
     },
     {
       "id": "sa-c5-030",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "vd",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H₂₉₈⁰ = -750 kJ. Nhiệt lượng tỏa ra (kJ) là:",
-      "answer": "750",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H₂₉₈⁰| = 750 kJ."
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v29</span>",
+      "answer": "75",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "unit": "kJ"
     }
   ]
 }

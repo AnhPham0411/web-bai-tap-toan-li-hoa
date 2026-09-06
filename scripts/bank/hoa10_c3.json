@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Liên kết hóa học",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b5",
+      "sgk_title": "Bài 5. Liên kết ion & Cộng hóa trị"
+    },
+    {
+      "lesson_id": "b6",
+      "sgk_title": "Bài 6. Liên kết hydrogen & van der Waals"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v0</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v1</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v2</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v3</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v4</span>",
+      "choices": [
+        "HCl",
+        "NH_3",
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v5</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v6</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "HCl",
+        "NH_3"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v7</span>",
+      "choices": [
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3",
+        "HCl"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v8</span>",
+      "choices": [
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v9</span>",
+      "choices": [
+        "C, Si, P",
+        "Na, K, Ba",
+        "F, O, N",
+        "Cl, Br, I"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v10</span>",
+      "choices": [
+        "C, Si, P",
+        "Cl, Br, I",
+        "F, O, N",
+        "Na, K, Ba"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v11</span>",
+      "choices": [
+        "C, Si, P",
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "F, O, N"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v16</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v17</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v18</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v19</span>",
+      "choices": [
+        "Liên kết ion",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v20</span>",
+      "choices": [
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "HCl"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v21</span>",
+      "choices": [
+        "HCl",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v22</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "NH_3",
+        "HCl"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v23</span>",
+      "choices": [
+        "NH_3",
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v24</span>",
+      "choices": [
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v25</span>",
+      "choices": [
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v26</span>",
+      "choices": [
+        "F, O, N",
+        "Cl, Br, I",
+        "Na, K, Ba",
+        "C, Si, P"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v27</span>",
+      "choices": [
+        "Na, K, Ba",
+        "F, O, N",
+        "Cl, Br, I",
+        "C, Si, P"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v28</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v29</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v30</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v31</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v32</span>",
+      "choices": [
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v33</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v34</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v35</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v36</span>",
+      "choices": [
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "NH_3"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v37</span>",
+      "choices": [
+        "NH_3",
+        "H_2O",
+        "HCl",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v38</span>",
+      "choices": [
+        "HCl",
+        "H_2O",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v39</span>",
+      "choices": [
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v40</span>",
+      "choices": [
+        "Cl, Br, I",
+        "Na, K, Ba",
+        "F, O, N",
+        "C, Si, P"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v41</span>",
+      "choices": [
+        "Na, K, Ba",
+        "C, Si, P",
+        "F, O, N",
+        "Cl, Br, I"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v42</span>",
+      "choices": [
+        "Na, K, Ba",
+        "F, O, N",
+        "Cl, Br, I",
+        "C, Si, P"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v43</span>",
+      "choices": [
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P",
+        "Na, K, Ba"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v44</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v45</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v46</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v47</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v48</span>",
+      "choices": [
+        "Liên kết ion",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v49</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v50</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v51</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v52</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "HCl",
+        "NH_3"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v53</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "H_2O",
+        "NH_3"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v54</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "H_2O",
+        "NH_3"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v55</span>",
+      "choices": [
+        "NH_3",
+        "HCl",
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v56</span>",
+      "choices": [
+        "Na, K, Ba",
+        "F, O, N",
+        "C, Si, P",
+        "Cl, Br, I"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v57</span>",
+      "choices": [
+        "C, Si, P",
+        "F, O, N",
+        "Cl, Br, I",
+        "Na, K, Ba"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v58</span>",
+      "choices": [
+        "F, O, N",
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "C, Si, P"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v59</span>",
+      "choices": [
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v60</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v61</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v62</span>",
+      "choices": [
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v63</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v64</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v65</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v66</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v67</span>",
+      "choices": [
+        "Liên kết ion",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v68</span>",
+      "choices": [
+        "HCl",
+        "NH_3",
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v69</span>",
+      "choices": [
+        "HCl",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v70</span>",
+      "choices": [
+        "HCl",
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v71</span>",
+      "choices": [
+        "H_2O",
+        "HCl",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v72</span>",
+      "choices": [
+        "Cl, Br, I",
+        "F, O, N",
+        "C, Si, P",
+        "Na, K, Ba"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v73</span>",
+      "choices": [
+        "F, O, N",
+        "Na, K, Ba",
+        "C, Si, P",
+        "Cl, Br, I"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v74</span>",
+      "choices": [
+        "Na, K, Ba",
+        "C, Si, P",
+        "F, O, N",
+        "Cl, Br, I"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v75</span>",
+      "choices": [
+        "Na, K, Ba",
+        "Cl, Br, I",
+        "C, Si, P",
+        "F, O, N"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v76</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v77</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v78</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v79</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v80</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v81</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v82</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v83</span>",
+      "choices": [
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v84</span>",
+      "choices": [
+        "H_2O",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)",
+        "HCl"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v85</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v86</span>",
+      "choices": [
+        "HCl",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v87</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "HCl",
+        "NH_3"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v88</span>",
+      "choices": [
+        "F, O, N",
+        "Cl, Br, I",
+        "Na, K, Ba",
+        "C, Si, P"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v89</span>",
+      "choices": [
+        "Cl, Br, I",
+        "C, Si, P",
+        "Na, K, Ba",
+        "F, O, N"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v90</span>",
+      "choices": [
+        "C, Si, P",
+        "F, O, N",
+        "Na, K, Ba",
+        "Cl, Br, I"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v91</span>",
+      "choices": [
+        "C, Si, P",
+        "F, O, N",
+        "Na, K, Ba",
+        "Cl, Br, I"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v92</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v93</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v94</span>",
+      "choices": [
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do H_2O là khí hiếm"
+      ],
+      "answer": 0,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v95</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v96</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v97</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v98</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v99</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion"
+      ],
+      "answer": 3,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v100</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v101</span>",
+      "choices": [
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v102</span>",
+      "choices": [
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "H_2O",
+        "NH_3"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v103</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3",
+        "HCl",
+        "H_2O"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 0): <span style=\"display:none\">v104</span>",
+      "choices": [
+        "C, Si, P",
+        "F, O, N",
+        "Cl, Br, I",
+        "Na, K, Ba"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 1): <span style=\"display:none\">v105</span>",
+      "choices": [
+        "Cl, Br, I",
+        "F, O, N",
+        "Na, K, Ba",
+        "C, Si, P"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 2): <span style=\"display:none\">v106</span>",
+      "choices": [
+        "Cl, Br, I",
+        "F, O, N",
+        "Na, K, Ba",
+        "C, Si, P"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Liên kết hydrogen được hình thành giữa nguyên tử H linh động với nguyên tử có độ âm điện lớn như (BT 3): <span style=\"display:none\">v107</span>",
+      "choices": [
+        "C, Si, P",
+        "F, O, N",
+        "Cl, Br, I",
+        "Na, K, Ba"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen chỉ xuất hiện với các nguyên tử có độ âm điện rất lớn F, O, N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 0): <span style=\"display:none\">v108</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 1): <span style=\"display:none\">v109</span>",
+      "choices": [
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 2): <span style=\"display:none\">v110</span>",
+      "choices": [
+        "Do H_2O là hợp chất ion",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Giải thích tại sao nước (H_2O) có nhiệt độ sôi cao bất thường (100 °C) so với H_2S (-60 °C) (BT 3): <span style=\"display:none\">v111</span>",
+      "choices": [
+        "Do H_2O là khí hiếm",
+        "Do H_2O có khối lượng phân tử lớn hơn H_2S",
+        "Do các phân tử H_2O tạo được liên kết hydrogen liên phân tử",
+        "Do H_2O là hợp chất ion"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết hydrogen giữa các phân tử H2O làm tăng mạnh nhiệt độ sôi của nước.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 0): <span style=\"display:none\">v112</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết hydrogen",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị không cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 1): <span style=\"display:none\">v113</span>",
+      "choices": [
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 2): <span style=\"display:none\">v114</span>",
+      "choices": [
+        "Liên kết cộng hóa trị có cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Liên kết được hình thành do lực hút tĩnh điện giữa các ion trái dấu gọi là (BT 3): <span style=\"display:none\">v115</span>",
+      "choices": [
+        "Liên kết hydrogen",
+        "Liên kết cộng hóa trị không cực",
+        "Liên kết ion",
+        "Liên kết cộng hóa trị có cực"
+      ],
+      "answer": 2,
+      "explanation": "Liên kết ion được tạo thành do lực hút tĩnh điện giữa cation (+) và anion (-).",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 0)? <span style=\"display:none\">v116</span>",
+      "choices": [
+        "NH_3",
+        "H_2O",
+        "N_2 (hoặc O_2, H_2)",
+        "HCl"
+      ],
+      "answer": 2,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 1)? <span style=\"display:none\">v117</span>",
+      "choices": [
+        "H_2O",
+        "HCl",
+        "NH_3",
+        "N_2 (hoặc O_2, H_2)"
+      ],
+      "answer": 3,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 2)? <span style=\"display:none\">v118</span>",
+      "choices": [
+        "HCl",
+        "N_2 (hoặc O_2, H_2)",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 1,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phân tử nào sau đây chứa liên kết cộng hóa trị KHÔNG CỰC (BT 3)? <span style=\"display:none\">v119</span>",
+      "choices": [
+        "N_2 (hoặc O_2, H_2)",
+        "HCl",
+        "NH_3",
+        "H_2O"
+      ],
+      "answer": 0,
+      "explanation": "Các phân tử đơn chất 2 nguyên tử giống nhau như N2, O2, H2 có Δχ = 0 nên liên kết không cực.",
+      "level": "vd",
+      "lesson": "b5"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v0</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v1</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 1)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v2</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v3</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v4</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 2)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v5</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v6</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v7</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 3)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v8</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v9</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v10</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 4)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v11</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v12</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v13</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 5)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v14</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v15</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v16</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 6)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v17</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v18</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v19</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 7)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v20</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v21</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v22</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 8)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v23</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v24</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v25</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 9)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v26</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v27</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v28</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Liên kết (Nhóm 10)",
+      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v29</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn.",
+      "level": "vd",
+      "lesson": "b6"
+    }
+  ]
+}

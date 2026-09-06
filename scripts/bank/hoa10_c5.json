@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Năng lượng hóa học",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b9",
+      "sgk_title": "Bài 9. Biến thiên Enthalpy trong phản ứng"
+    },
+    {
+      "lesson_id": "b10",
+      "sgk_title": "Bài 10. Tính biến thiên Enthalpy"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v0</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v1</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Thu nhiệt"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v2</span>",
+      "choices": [
+        "Cân bằng",
+        "Thu nhiệt",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v3</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Cân bằng",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt"
+      ],
+      "answer": 3,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v4</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v5</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v6</span>",
+      "choices": [
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 0,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v7</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Tỏa ra nhiệt lượng 393,5 kJ",
+        "Tỏa ra 787,0 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 1,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "Tỏa ra 789,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Thu vào nhiệt lượng 394,5 kJ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 395,5 kJ",
+        "Tỏa ra nhiệt lượng 395,5 kJ",
+        "Tỏa ra 791,0 kJ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 793,0 kJ",
+        "Tỏa ra nhiệt lượng 396,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 1,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v16</span>",
+      "choices": [
+        "Cân bằng",
+        "Thu nhiệt",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt"
+      ],
+      "answer": 3,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v17</span>",
+      "choices": [
+        "Cân bằng",
+        "Thu nhiệt",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v18</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v19</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v20</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v21</span>",
+      "choices": [
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v22</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v23</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 787,0 kJ",
+        "Tỏa ra nhiệt lượng 393,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "Tỏa ra 789,0 kJ",
+        "Thu vào nhiệt lượng 394,5 kJ",
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 395,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 791,0 kJ",
+        "Tỏa ra nhiệt lượng 395,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 793,0 kJ",
+        "Tỏa ra nhiệt lượng 396,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v28</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v29</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v30</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 1,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v31</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v32</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Thu nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v33</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Thu nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v34</span>",
+      "choices": [
+        "Cân bằng",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v35</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Cân bằng",
+        "Thu nhiệt"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v36</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v37</span>",
+      "choices": [
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v38</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v39</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Tỏa ra 787,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 393,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 394,5 kJ",
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Tỏa ra 789,0 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 1,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 395,5 kJ",
+        "Thu vào nhiệt lượng 395,5 kJ",
+        "Tỏa ra 791,0 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 396,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 793,0 kJ",
+        "Thu vào nhiệt lượng 396,5 kJ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v44</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v45</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v46</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v47</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v48</span>",
+      "choices": [
+        "Cân bằng",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v49</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Thu nhiệt",
+        "Cân bằng",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v50</span>",
+      "choices": [
+        "Cân bằng",
+        "Thu nhiệt",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v51</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Thu nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v52</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v53</span>",
+      "choices": [
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v54</span>",
+      "choices": [
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v55</span>",
+      "choices": [
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 0,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 393,5 kJ",
+        "Tỏa ra 787,0 kJ",
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "Tỏa ra 789,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Thu vào nhiệt lượng 394,5 kJ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 395,5 kJ",
+        "Tỏa ra 791,0 kJ",
+        "Thu vào nhiệt lượng 395,5 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 396,5 kJ",
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Tỏa ra 793,0 kJ"
+      ],
+      "answer": 1,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v60</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v61</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v62</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v63</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v64</span>",
+      "choices": [
+        "Cân bằng",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v65</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Thu nhiệt"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v66</span>",
+      "choices": [
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Thu nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v67</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Thu nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v68</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v69</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v70</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v71</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 393,5 kJ",
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Tỏa ra 787,0 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 789,0 kJ",
+        "Thu vào nhiệt lượng 394,5 kJ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "Tỏa ra 791,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 395,5 kJ",
+        "Tỏa ra nhiệt lượng 395,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Tỏa ra nhiệt lượng 396,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 793,0 kJ"
+      ],
+      "answer": 1,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v76</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v77</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v78</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v79</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v80</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Thu nhiệt",
+        "Không trao đổi nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v81</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Thu nhiệt",
+        "Tỏa nhiệt"
+      ],
+      "answer": 3,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v82</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v83</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Thu nhiệt",
+        "Tỏa nhiệt"
+      ],
+      "answer": 3,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v84</span>",
+      "choices": [
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C"
+      ],
+      "answer": 0,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v85</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v86</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v87</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Tỏa ra 787,0 kJ",
+        "Tỏa ra nhiệt lượng 393,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Tỏa ra 789,0 kJ",
+        "Thu vào nhiệt lượng 394,5 kJ"
+      ],
+      "answer": 1,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 395,5 kJ",
+        "Tỏa ra 791,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 395,5 kJ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "Tỏa ra 793,0 kJ",
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Tỏa ra nhiệt lượng 396,5 kJ",
+        "Không thay đổi nhiệt độ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v92</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)"
+      ],
+      "answer": 0,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v93</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v94</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)"
+      ],
+      "answer": 1,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v95</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 3,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v96</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v97</span>",
+      "choices": [
+        "Cân bằng",
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v98</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Thu nhiệt",
+        "Cân bằng",
+        "Tỏa nhiệt"
+      ],
+      "answer": 3,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v99</span>",
+      "choices": [
+        "Không trao đổi nhiệt",
+        "Tỏa nhiệt",
+        "Cân bằng",
+        "Thu nhiệt"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v100</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v101</span>",
+      "choices": [
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v102</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v103</span>",
+      "choices": [
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -393,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "Tỏa ra 787,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 393,5 kJ",
+        "Tỏa ra nhiệt lượng 393,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -393,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -394,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "Tỏa ra nhiệt lượng 394,5 kJ",
+        "Không thay đổi nhiệt độ",
+        "Thu vào nhiệt lượng 394,5 kJ",
+        "Tỏa ra 789,0 kJ"
+      ],
+      "answer": 0,
+      "explanation": "Δr H° = -394,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -395,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "Tỏa ra 791,0 kJ",
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra nhiệt lượng 395,5 kJ",
+        "Thu vào nhiệt lượng 395,5 kJ"
+      ],
+      "answer": 2,
+      "explanation": "Δr H° = -395,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Cho phản ứng C(s) + O_2(g) -> CO_2(g) có Δ_r H_2_9_8^0 = -396,5 kJ. Khi đốt cháy 1 mol C thì: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "Không thay đổi nhiệt độ",
+        "Tỏa ra 793,0 kJ",
+        "Thu vào nhiệt lượng 396,5 kJ",
+        "Tỏa ra nhiệt lượng 396,5 kJ"
+      ],
+      "answer": 3,
+      "explanation": "Δr H° = -396,5 kJ (âm) cho biết phản ứng tỏa nhiệt.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 0): <span style=\"display:none\">v108</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 1): <span style=\"display:none\">v109</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 1,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 2): <span style=\"display:none\">v110</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 2,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Công thức tính biến thiên enthalpy theo Nhiệt tạo thành chuẩn là (BT 3): <span style=\"display:none\">v111</span>",
+      "choices": [
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (chất đầu) - ∑Δ_f H_2_9_8^0 (sản phẩm)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) - ∑Δ_f H_2_9_8^0 (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑E_b (sản phẩm) - ∑E_b (chất đầu)",
+        "Δ_r H_2_9_8^0 = ∑Δ_f H_2_9_8^0 (sản phẩm) + ∑Δ_f H_2_9_8^0 (chất đầu)"
+      ],
+      "answer": 1,
+      "explanation": "Tính theo nhiệt tạo thành: lấy tổng Δf H của Sản phẩm trừ tổng Δf H của Chất đầu.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 0): <span style=\"display:none\">v112</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 2,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 1): <span style=\"display:none\">v113</span>",
+      "choices": [
+        "Cân bằng",
+        "Tỏa nhiệt",
+        "Không trao đổi nhiệt",
+        "Thu nhiệt"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 2): <span style=\"display:none\">v114</span>",
+      "choices": [
+        "Tỏa nhiệt",
+        "Thu nhiệt",
+        "Không trao đổi nhiệt",
+        "Cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Phản ứng có biến thiên enthalpy chuẩn Δ_r H_2_9_8^0 < 0 là phản ứng (BT 3): <span style=\"display:none\">v115</span>",
+      "choices": [
+        "Thu nhiệt",
+        "Tỏa nhiệt",
+        "Cân bằng",
+        "Không trao đổi nhiệt"
+      ],
+      "answer": 1,
+      "explanation": "Δr H298° < 0 giải phóng nhiệt năng ra môi trường (phản ứng tỏa nhiệt).",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 0): <span style=\"display:none\">v116</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 1): <span style=\"display:none\">v117</span>",
+      "choices": [
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 10 bar và 100 °C",
+        "Mọi nhiệt độ và áp suất bất kỳ"
+      ],
+      "answer": 0,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 2): <span style=\"display:none\">v118</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 10 bar và 100 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 1 atm và nhiệt độ 0 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Điều kiện chuẩn đối với chất khí và dung dịch khi đo biến thiên enthalpy là (BT 3): <span style=\"display:none\">v119</span>",
+      "choices": [
+        "Mọi nhiệt độ và áp suất bất kỳ",
+        "Áp suất 1 atm và nhiệt độ 0 °C",
+        "Áp suất 1 bar và nhiệt độ 25 °C (298 K)",
+        "Áp suất 10 bar và 100 °C"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện chuẩn: 1 bar và 25 °C (298 K).",
+      "level": "vd",
+      "lesson": "b10"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v0</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v1</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 1)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v2</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v3</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v4</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 2)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v5</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v6</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v7</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 3)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v8</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v9</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v10</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 4)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v11</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v12</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v13</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 5)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v14</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v15</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v16</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 6)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v17</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v18</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v19</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 7)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v20</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v21</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v22</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 8)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v23</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v24</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v25</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 9)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v26</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v27</span>",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v28</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Nhiệt học (Nhóm 10)",
+      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v29</span>",
+      "answer": "75",
+      "tolerance": 0,
+      "unit": "kJ",
+      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "level": "vd",
+      "lesson": "b9"
+    }
+  ]
+}

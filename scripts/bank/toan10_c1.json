@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Mệnh đề và tập hợp",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b1",
+      "sgk_title": "Bài 1. Mệnh đề"
+    },
+    {
+      "lesson_id": "b2",
+      "sgk_title": "Bài 2. Tập hợp và các phép toán trên tập hợp"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Nhận biết mệnh đề (Nhóm 1)",
+      "question": "Câu nào sau đây là một mệnh đề? <span style=\"display:none\">v0</span>",
+      "choices": [
+        "Trời hôm nay đẹp quá!",
+        "Bạn ăn cơm chưa?",
+        "Số 2 là số lẻ.",
+        "Hãy làm bài tập đi!"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề là câu khẳng định.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Nhận biết mệnh đề (Nhóm 1)",
+      "question": "Câu nào sau đây là một mệnh đề? <span style=\"display:none\">v1</span>",
+      "choices": [
+        "Bạn ăn cơm chưa?",
+        "Số 3 là số lẻ.",
+        "Trời hôm nay đẹp quá!",
+        "Hãy làm bài tập đi!"
+      ],
+      "answer": 1,
+      "explanation": "Mệnh đề là câu khẳng định.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Nhận biết mệnh đề (Nhóm 1)",
+      "question": "Câu nào sau đây là một mệnh đề? <span style=\"display:none\">v2</span>",
+      "choices": [
+        "Bạn ăn cơm chưa?",
+        "Số 4 là số lẻ.",
+        "Trời hôm nay đẹp quá!",
+        "Hãy làm bài tập đi!"
+      ],
+      "answer": 1,
+      "explanation": "Mệnh đề là câu khẳng định.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Nhận biết mệnh đề (Nhóm 1)",
+      "question": "Câu nào sau đây là một mệnh đề? <span style=\"display:none\">v3</span>",
+      "choices": [
+        "Bạn ăn cơm chưa?",
+        "Trời hôm nay đẹp quá!",
+        "Số 5 là số lẻ.",
+        "Hãy làm bài tập đi!"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề là câu khẳng định.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Xét tính đúng sai mệnh đề (Nhóm 2)",
+      "question": "Mệnh đề nào sau đây là ĐÚNG? <span style=\"display:none\">v4</span>",
+      "choices": [
+        "3 < 0",
+        "3 + 1 = 3",
+        "3^2 = 9",
+        "3 > 4"
+      ],
+      "answer": 2,
+      "explanation": "Tính bình phương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Xét tính đúng sai mệnh đề (Nhóm 2)",
+      "question": "Mệnh đề nào sau đây là ĐÚNG? <span style=\"display:none\">v5</span>",
+      "choices": [
+        "4 + 1 = 4",
+        "4^2 = 16",
+        "4 > 5",
+        "4 < 0"
+      ],
+      "answer": 1,
+      "explanation": "Tính bình phương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Xét tính đúng sai mệnh đề (Nhóm 2)",
+      "question": "Mệnh đề nào sau đây là ĐÚNG? <span style=\"display:none\">v6</span>",
+      "choices": [
+        "5^2 = 25",
+        "5 < 0",
+        "5 + 1 = 5",
+        "5 > 6"
+      ],
+      "answer": 0,
+      "explanation": "Tính bình phương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Xét tính đúng sai mệnh đề (Nhóm 2)",
+      "question": "Mệnh đề nào sau đây là ĐÚNG? <span style=\"display:none\">v7</span>",
+      "choices": [
+        "6 < 0",
+        "6 + 1 = 6",
+        "6 > 7",
+        "6^2 = 36"
+      ],
+      "answer": 3,
+      "explanation": "Tính bình phương.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa mọi (Nhóm 3)",
+      "question": "Phủ định của mệnh đề '$\\forall x \\in \\mathbb{R}, x^2 + 1 > 0$' là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "$\\forall x \\in \\mathbb{R}, x^2 + 1 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 1 < 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 1 = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Phủ định của mọi là tồn tại, của > là <=.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa mọi (Nhóm 3)",
+      "question": "Phủ định của mệnh đề '$\\forall x \\in \\mathbb{R}, x^2 + 2 > 0$' là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "$\\exists x \\in \\mathbb{R}, x^2 + 2 = 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 2 < 0$",
+        "$\\forall x \\in \\mathbb{R}, x^2 + 2 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 2 \\le 0$"
+      ],
+      "answer": 3,
+      "explanation": "Phủ định của mọi là tồn tại, của > là <=.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa mọi (Nhóm 3)",
+      "question": "Phủ định của mệnh đề '$\\forall x \\in \\mathbb{R}, x^2 + 3 > 0$' là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "$\\exists x \\in \\mathbb{R}, x^2 + 3 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 3 < 0$",
+        "$\\forall x \\in \\mathbb{R}, x^2 + 3 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 3 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định của mọi là tồn tại, của > là <=.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa mọi (Nhóm 3)",
+      "question": "Phủ định của mệnh đề '$\\forall x \\in \\mathbb{R}, x^2 + 4 > 0$' là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "$\\forall x \\in \\mathbb{R}, x^2 + 4 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 4 \\le 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 4 < 0$",
+        "$\\exists x \\in \\mathbb{R}, x^2 + 4 = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Phủ định của mọi là tồn tại, của > là <=.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo (Nhóm 4)",
+      "question": "Phát biểu mệnh đề $P \\Rightarrow Q$ với $P$: 'Tam giác vuông', $Q$: 'Tam giác có 1 góc $90^\\circ$'? <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Tam giác vuông khi và chỉ khi nó có 1 góc bằng $90^\\circ$.",
+        "Tam giác vuông và có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác vuông thì nó có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác có 1 góc bằng $90^\\circ$ thì nó vuông."
+      ],
+      "answer": 2,
+      "explanation": "Dạng nếu P thì Q.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo (Nhóm 4)",
+      "question": "Phát biểu mệnh đề $P \\Rightarrow Q$ với $P$: 'Tam giác vuông', $Q$: 'Tam giác có 1 góc $90^\\circ$'? <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Tam giác vuông và có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác có 1 góc bằng $90^\\circ$ thì nó vuông.",
+        "Nếu tam giác vuông thì nó có 1 góc bằng $90^\\circ$.",
+        "Tam giác vuông khi và chỉ khi nó có 1 góc bằng $90^\\circ$."
+      ],
+      "answer": 2,
+      "explanation": "Dạng nếu P thì Q.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo (Nhóm 4)",
+      "question": "Phát biểu mệnh đề $P \\Rightarrow Q$ với $P$: 'Tam giác vuông', $Q$: 'Tam giác có 1 góc $90^\\circ$'? <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Tam giác vuông khi và chỉ khi nó có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác vuông thì nó có 1 góc bằng $90^\\circ$.",
+        "Tam giác vuông và có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác có 1 góc bằng $90^\\circ$ thì nó vuông."
+      ],
+      "answer": 1,
+      "explanation": "Dạng nếu P thì Q.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo (Nhóm 4)",
+      "question": "Phát biểu mệnh đề $P \\Rightarrow Q$ với $P$: 'Tam giác vuông', $Q$: 'Tam giác có 1 góc $90^\\circ$'? <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Tam giác vuông khi và chỉ khi nó có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác có 1 góc bằng $90^\\circ$ thì nó vuông.",
+        "Tam giác vuông và có 1 góc bằng $90^\\circ$.",
+        "Nếu tam giác vuông thì nó có 1 góc bằng $90^\\circ$."
+      ],
+      "answer": 3,
+      "explanation": "Dạng nếu P thì Q.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Điều kiện cần và đủ (Nhóm 5)",
+      "question": "Ví dụ 2 về điều kiện cần và đủ. Chọn câu đúng: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "Tứ giác có 4 cạnh bằng nhau là hình vuông.",
+        "Nếu tứ giác là hình vuông thì nó là hình thoi.",
+        "Hình thoi có 1 góc vuông là hình bình hành.",
+        "Tứ giác là hình vuông khi và chỉ khi nó là hình thoi có 1 góc vuông."
+      ],
+      "answer": 3,
+      "explanation": "'Khi và chỉ khi' là mệnh đề tương đương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Điều kiện cần và đủ (Nhóm 5)",
+      "question": "Ví dụ 3 về điều kiện cần và đủ. Chọn câu đúng: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "Nếu tứ giác là hình vuông thì nó là hình thoi.",
+        "Tứ giác là hình vuông khi và chỉ khi nó là hình thoi có 1 góc vuông.",
+        "Tứ giác có 4 cạnh bằng nhau là hình vuông.",
+        "Hình thoi có 1 góc vuông là hình bình hành."
+      ],
+      "answer": 1,
+      "explanation": "'Khi và chỉ khi' là mệnh đề tương đương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Điều kiện cần và đủ (Nhóm 5)",
+      "question": "Ví dụ 4 về điều kiện cần và đủ. Chọn câu đúng: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "Nếu tứ giác là hình vuông thì nó là hình thoi.",
+        "Tứ giác có 4 cạnh bằng nhau là hình vuông.",
+        "Tứ giác là hình vuông khi và chỉ khi nó là hình thoi có 1 góc vuông.",
+        "Hình thoi có 1 góc vuông là hình bình hành."
+      ],
+      "answer": 2,
+      "explanation": "'Khi và chỉ khi' là mệnh đề tương đương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Điều kiện cần và đủ (Nhóm 5)",
+      "question": "Ví dụ 5 về điều kiện cần và đủ. Chọn câu đúng: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "Tứ giác có 4 cạnh bằng nhau là hình vuông.",
+        "Tứ giác là hình vuông khi và chỉ khi nó là hình thoi có 1 góc vuông.",
+        "Nếu tứ giác là hình vuông thì nó là hình thoi.",
+        "Hình thoi có 1 góc vuông là hình bình hành."
+      ],
+      "answer": 1,
+      "explanation": "'Khi và chỉ khi' là mệnh đề tương đương.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa tồn tại (Nhóm 6)",
+      "question": "Phủ định của mệnh đề '$\\exists x \\in \\mathbb{R}, x^2 = 1$' là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "$\\exists x \\in \\mathbb{R}, x^2 \\ne 1$",
+        "$\\forall x \\in \\mathbb{R}, x^2 \\ne 1$",
+        "$\\exists x \\in \\mathbb{R}, x^2 < 1$",
+        "$\\forall x \\in \\mathbb{R}, x^2 = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Phủ định của tồn tại là mọi, của = là khác.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa tồn tại (Nhóm 6)",
+      "question": "Phủ định của mệnh đề '$\\exists x \\in \\mathbb{R}, x^2 = 2$' là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "$\\exists x \\in \\mathbb{R}, x^2 \\ne 2$",
+        "$\\forall x \\in \\mathbb{R}, x^2 = 2$",
+        "$\\forall x \\in \\mathbb{R}, x^2 \\ne 2$",
+        "$\\exists x \\in \\mathbb{R}, x^2 < 2$"
+      ],
+      "answer": 2,
+      "explanation": "Phủ định của tồn tại là mọi, của = là khác.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa tồn tại (Nhóm 6)",
+      "question": "Phủ định của mệnh đề '$\\exists x \\in \\mathbb{R}, x^2 = 3$' là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "$\\exists x \\in \\mathbb{R}, x^2 < 3$",
+        "$\\forall x \\in \\mathbb{R}, x^2 = 3$",
+        "$\\forall x \\in \\mathbb{R}, x^2 \\ne 3$",
+        "$\\exists x \\in \\mathbb{R}, x^2 \\ne 3$"
+      ],
+      "answer": 2,
+      "explanation": "Phủ định của tồn tại là mọi, của = là khác.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phủ định mệnh đề chứa tồn tại (Nhóm 6)",
+      "question": "Phủ định của mệnh đề '$\\exists x \\in \\mathbb{R}, x^2 = 4$' là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "$\\forall x \\in \\mathbb{R}, x^2 \\ne 4$",
+        "$\\exists x \\in \\mathbb{R}, x^2 < 4$",
+        "$\\forall x \\in \\mathbb{R}, x^2 = 4$",
+        "$\\exists x \\in \\mathbb{R}, x^2 \\ne 4$"
+      ],
+      "answer": 0,
+      "explanation": "Phủ định của tồn tại là mọi, của = là khác.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Viết tập hợp dạng liệt kê (Nhóm 7)",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} : x < 3\\}$. Liệt kê các phần tử của A. <span style=\"display:none\">v24</span>",
+      "choices": [
+        "A = \\{0, 1, ..., 3\\}",
+        "A = \\{1, 2, ..., 2\\}",
+        "A = \\{0, 1, 2\\}",
+        "A = \\{0, 1, 2, 3\\}"
+      ],
+      "answer": 2,
+      "explanation": "Các số tự nhiên nhỏ hơn 3.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Viết tập hợp dạng liệt kê (Nhóm 7)",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} : x < 4\\}$. Liệt kê các phần tử của A. <span style=\"display:none\">v25</span>",
+      "choices": [
+        "A = \\{0, 1, ..., 4\\}",
+        "A = \\{0, 1, 2, 3, 4\\}",
+        "A = \\{1, 2, ..., 3\\}",
+        "A = \\{0, 1, 2, 3\\}"
+      ],
+      "answer": 3,
+      "explanation": "Các số tự nhiên nhỏ hơn 4.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Viết tập hợp dạng liệt kê (Nhóm 7)",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} : x < 5\\}$. Liệt kê các phần tử của A. <span style=\"display:none\">v26</span>",
+      "choices": [
+        "A = \\{0, 1, 2, 3, 4\\}",
+        "A = \\{0, 1, 2, 3, 4, 5\\}",
+        "A = \\{0, 1, ..., 5\\}",
+        "A = \\{1, 2, ..., 4\\}"
+      ],
+      "answer": 0,
+      "explanation": "Các số tự nhiên nhỏ hơn 5.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Viết tập hợp dạng liệt kê (Nhóm 7)",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} : x < 6\\}$. Liệt kê các phần tử của A. <span style=\"display:none\">v27</span>",
+      "choices": [
+        "A = \\{0, 1, ..., 6\\}",
+        "A = \\{0, 1, 2, 3, 4, 5, 6\\}",
+        "A = \\{1, 2, ..., 5\\}",
+        "A = \\{0, 1, 2, 3, 4, 5\\}"
+      ],
+      "answer": 3,
+      "explanation": "Các số tự nhiên nhỏ hơn 6.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phương trình bậc 2 tập hợp (Nhóm 8)",
+      "question": "Tập hợp $A = \\{x \\in \\mathbb{R} : x^2 - 1 = 0\\}$ có các phần tử là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "A = \\{-1\\}",
+        "A = \\{1\\}",
+        "A = \\emptyset",
+        "A = \\{1, -1\\}"
+      ],
+      "answer": 3,
+      "explanation": "Giải phương trình $x^2 - 1 = 0$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Phương trình bậc 2 tập hợp (Nhóm 8)",
+      "question": "Tập hợp $A = \\{x \\in \\mathbb{R} : x^2 - 4 = 0\\}$ có các phần tử là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "A = \\{2\\}",
+        "A = \\{-2\\}",
+        "A = \\{2, -2\\}",
+        "A = \\emptyset"
+      ],
+      "answer": 2,
+      "explanation": "Giải phương trình $x^2 - 4 = 0$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Phương trình bậc 2 tập hợp (Nhóm 8)",
+      "question": "Tập hợp $A = \\{x \\in \\mathbb{R} : x^2 - 9 = 0\\}$ có các phần tử là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "A = \\{3, -3\\}",
+        "A = \\emptyset",
+        "A = \\{-3\\}",
+        "A = \\{3\\}"
+      ],
+      "answer": 0,
+      "explanation": "Giải phương trình $x^2 - 9 = 0$.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Phương trình bậc 2 tập hợp (Nhóm 8)",
+      "question": "Tập hợp $A = \\{x \\in \\mathbb{R} : x^2 - 16 = 0\\}$ có các phần tử là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "A = \\{4\\}",
+        "A = \\{4, -4\\}",
+        "A = \\{-4\\}",
+        "A = \\emptyset"
+      ],
+      "answer": 1,
+      "explanation": "Giải phương trình $x^2 - 16 = 0$.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Số tập con (Nhóm 9)",
+      "question": "Tập hợp $A = \\{1, 2, ..., 2\\}$ có bao nhiêu tập hợp con? <span style=\"display:none\">v32</span>",
+      "choices": [
+        "4​",
+        "3",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số tập con là $2^n = 2^2$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Số tập con (Nhóm 9)",
+      "question": "Tập hợp $A = \\{1, 2, ..., 3\\}$ có bao nhiêu tập hợp con? <span style=\"display:none\">v33</span>",
+      "choices": [
+        "9",
+        "8",
+        "7",
+        "9​"
+      ],
+      "answer": 1,
+      "explanation": "Số tập con là $2^n = 2^3$.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Số tập con (Nhóm 9)",
+      "question": "Tập hợp $A = \\{1, 2, ..., 4\\}$ có bao nhiêu tập hợp con? <span style=\"display:none\">v34</span>",
+      "choices": [
+        "15",
+        "17",
+        "16",
+        "16​"
+      ],
+      "answer": 2,
+      "explanation": "Số tập con là $2^n = 2^4$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Số tập con (Nhóm 9)",
+      "question": "Tập hợp $A = \\{1, 2, ..., 5\\}$ có bao nhiêu tập hợp con? <span style=\"display:none\">v35</span>",
+      "choices": [
+        "31",
+        "33",
+        "32",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "Số tập con là $2^n = 2^5$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập con (Nhóm 10)",
+      "question": "Tập hợp nào sau đây là tập con của $A = \\{1, 2, 3, 4, 5, 6, 7\\}$? <span style=\"display:none\">v36</span>",
+      "choices": [
+        "\\{0, 2\\}",
+        "\\{1, 2, 8\\}",
+        "\\{1, 2\\}",
+        "\\{2, 8\\}"
+      ],
+      "answer": 2,
+      "explanation": "Mọi phần tử đều thuộc A.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập con (Nhóm 10)",
+      "question": "Tập hợp nào sau đây là tập con của $A = \\{1, 2, 3, 4, 5, 6, 7\\}$? <span style=\"display:none\">v37</span>",
+      "choices": [
+        "\\{3, 8\\}",
+        "\\{1, 2, 8\\}",
+        "\\{1, 3\\}",
+        "\\{0, 3\\}"
+      ],
+      "answer": 2,
+      "explanation": "Mọi phần tử đều thuộc A.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập con (Nhóm 10)",
+      "question": "Tập hợp nào sau đây là tập con của $A = \\{1, 2, 3, 4, 5, 6, 7\\}$? <span style=\"display:none\">v38</span>",
+      "choices": [
+        "\\{1, 4\\}",
+        "\\{0, 4\\}",
+        "\\{4, 8\\}",
+        "\\{1, 2, 8\\}"
+      ],
+      "answer": 0,
+      "explanation": "Mọi phần tử đều thuộc A.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập con (Nhóm 10)",
+      "question": "Tập hợp nào sau đây là tập con của $A = \\{1, 2, 3, 4, 5, 6, 7\\}$? <span style=\"display:none\">v39</span>",
+      "choices": [
+        "\\{1, 5\\}",
+        "\\{0, 5\\}",
+        "\\{1, 2, 8\\}",
+        "\\{5, 8\\}"
+      ],
+      "answer": 0,
+      "explanation": "Mọi phần tử đều thuộc A.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Kí hiệu tập hợp (Nhóm 11)",
+      "question": "Khẳng định nào đúng về tập $A = \\{1, 2, 3, 4, 5\\}$? <span style=\"display:none\">v40</span>",
+      "choices": [
+        "$1 \\in A$",
+        "$1 \\subset A$",
+        "$\\{1\\} \\in A$",
+        "$A \\in \\{1, 2\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Phần tử thuộc tập hợp dùng kí hiệu $\\in$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Kí hiệu tập hợp (Nhóm 11)",
+      "question": "Khẳng định nào đúng về tập $A = \\{1, 2, 3, 4, 5\\}$? <span style=\"display:none\">v41</span>",
+      "choices": [
+        "$\\{2\\} \\in A$",
+        "$2 \\subset A$",
+        "$2 \\in A$",
+        "$A \\in \\{1, 2\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Phần tử thuộc tập hợp dùng kí hiệu $\\in$.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Kí hiệu tập hợp (Nhóm 11)",
+      "question": "Khẳng định nào đúng về tập $A = \\{1, 2, 3, 4, 5\\}$? <span style=\"display:none\">v42</span>",
+      "choices": [
+        "$\\{3\\} \\in A$",
+        "$3 \\subset A$",
+        "$3 \\in A$",
+        "$A \\in \\{1, 2\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Phần tử thuộc tập hợp dùng kí hiệu $\\in$.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Kí hiệu tập hợp (Nhóm 11)",
+      "question": "Khẳng định nào đúng về tập $A = \\{1, 2, 3, 4, 5\\}$? <span style=\"display:none\">v43</span>",
+      "choices": [
+        "$\\{4\\} \\in A$",
+        "$4 \\subset A$",
+        "$A \\in \\{1, 2\\}$",
+        "$4 \\in A$"
+      ],
+      "answer": 3,
+      "explanation": "Phần tử thuộc tập hợp dùng kí hiệu $\\in$.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Giao 2 tập hợp rời rạc (Nhóm 12)",
+      "question": "Cho $A = \\{1, 10, 3\\}, B = \\{10, 3, 4\\}$. Tập $A \\cap B$ là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "$\\{1, 10, 3, 4\\}$",
+        "$\\{1\\}$",
+        "$\\{10, 3\\}$",
+        "$\\{4\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Giao là phần chung của 2 tập hợp.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Giao 2 tập hợp rời rạc (Nhóm 12)",
+      "question": "Cho $A = \\{1, 20, 3\\}, B = \\{20, 3, 4\\}$. Tập $A \\cap B$ là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "$\\{20, 3\\}$",
+        "$\\{1\\}$",
+        "$\\{4\\}$",
+        "$\\{1, 20, 3, 4\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Giao là phần chung của 2 tập hợp.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Giao 2 tập hợp rời rạc (Nhóm 12)",
+      "question": "Cho $A = \\{1, 30, 3\\}, B = \\{30, 3, 4\\}$. Tập $A \\cap B$ là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "$\\{1\\}$",
+        "$\\{1, 30, 3, 4\\}$",
+        "$\\{30, 3\\}$",
+        "$\\{4\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Giao là phần chung của 2 tập hợp.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Giao 2 tập hợp rời rạc (Nhóm 12)",
+      "question": "Cho $A = \\{1, 40, 3\\}, B = \\{40, 3, 4\\}$. Tập $A \\cap B$ là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "$\\{40, 3\\}$",
+        "$\\{4\\}$",
+        "$\\{1, 40, 3, 4\\}$",
+        "$\\{1\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Giao là phần chung của 2 tập hợp.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hợp 2 tập hợp rời rạc (Nhóm 13)",
+      "question": "Cho $A = \\{1, 2\\}, B = \\{2, 3\\}$. Tập $A \\cup B$ là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "$\\{1, 2, 3\\}$",
+        "$\\{3\\}$",
+        "$\\{1\\}$",
+        "$\\{2\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Hợp là gộp tất cả phần tử.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hợp 2 tập hợp rời rạc (Nhóm 13)",
+      "question": "Cho $A = \\{1, 3\\}, B = \\{3, 3\\}$. Tập $A \\cup B$ là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "$\\{3\\}$​",
+        "$\\{1\\}$",
+        "$\\{1, 3, 3\\}$",
+        "$\\{3\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Hợp là gộp tất cả phần tử.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hợp 2 tập hợp rời rạc (Nhóm 13)",
+      "question": "Cho $A = \\{1, 4\\}, B = \\{4, 3\\}$. Tập $A \\cup B$ là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "$\\{1\\}$",
+        "$\\{3\\}$",
+        "$\\{4\\}$",
+        "$\\{1, 4, 3\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Hợp là gộp tất cả phần tử.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hợp 2 tập hợp rời rạc (Nhóm 13)",
+      "question": "Cho $A = \\{1, 5\\}, B = \\{5, 3\\}$. Tập $A \\cup B$ là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "$\\{1\\}$",
+        "$\\{1, 5, 3\\}$",
+        "$\\{5\\}$",
+        "$\\{3\\}$"
+      ],
+      "answer": 1,
+      "explanation": "Hợp là gộp tất cả phần tử.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hiệu 2 tập hợp rời rạc (Nhóm 14)",
+      "question": "Cho $A = \\{1, 2, 20\\}, B = \\{2, 20, 4\\}$. Tập $A \\setminus B$ là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "$\\{2, 20\\}$",
+        "$\\{4\\}$",
+        "$\\{1, 2, 20, 4\\}$",
+        "$\\{1\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Hiệu $A \\setminus B$ gồm phần tử thuộc A nhưng không thuộc B.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hiệu 2 tập hợp rời rạc (Nhóm 14)",
+      "question": "Cho $A = \\{1, 2, 30\\}, B = \\{2, 30, 4\\}$. Tập $A \\setminus B$ là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "$\\{1\\}$",
+        "$\\{4\\}$",
+        "$\\{1, 2, 30, 4\\}$",
+        "$\\{2, 30\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Hiệu $A \\setminus B$ gồm phần tử thuộc A nhưng không thuộc B.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hiệu 2 tập hợp rời rạc (Nhóm 14)",
+      "question": "Cho $A = \\{1, 2, 40\\}, B = \\{2, 40, 4\\}$. Tập $A \\setminus B$ là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "$\\{1, 2, 40, 4\\}$",
+        "$\\{2, 40\\}$",
+        "$\\{4\\}$",
+        "$\\{1\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Hiệu $A \\setminus B$ gồm phần tử thuộc A nhưng không thuộc B.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hiệu 2 tập hợp rời rạc (Nhóm 14)",
+      "question": "Cho $A = \\{1, 2, 50\\}, B = \\{2, 50, 4\\}$. Tập $A \\setminus B$ là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "$\\{2, 50\\}$",
+        "$\\{1\\}$",
+        "$\\{1, 2, 50, 4\\}$",
+        "$\\{4\\}$"
+      ],
+      "answer": 1,
+      "explanation": "Hiệu $A \\setminus B$ gồm phần tử thuộc A nhưng không thuộc B.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Giao 2 khoảng (Nhóm 15)",
+      "question": "Cho $A = (-1; 4]$ và $B = [0; 6)$. Tập $A \\cap B$ là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "$[0; 4]$",
+        "$[0; 4)$",
+        "$(0; 4]$",
+        "$(-1; 6)$"
+      ],
+      "answer": 0,
+      "explanation": "Vẽ trục số lấy phần chung.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Giao 2 khoảng (Nhóm 15)",
+      "question": "Cho $A = (-2; 5]$ và $B = [0; 7)$. Tập $A \\cap B$ là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "$(-2; 7)$",
+        "$[0; 5)$",
+        "$[0; 5]$",
+        "$(0; 5]$"
+      ],
+      "answer": 2,
+      "explanation": "Vẽ trục số lấy phần chung.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Giao 2 khoảng (Nhóm 15)",
+      "question": "Cho $A = (-3; 6]$ và $B = [0; 8)$. Tập $A \\cap B$ là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "$[0; 6]$",
+        "$(0; 6]$",
+        "$(-3; 8)$",
+        "$[0; 6)$"
+      ],
+      "answer": 0,
+      "explanation": "Vẽ trục số lấy phần chung.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Giao 2 khoảng (Nhóm 15)",
+      "question": "Cho $A = (-4; 7]$ và $B = [0; 9)$. Tập $A \\cap B$ là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "$[0; 7]$",
+        "$(-4; 9)$",
+        "$(0; 7]$",
+        "$[0; 7)$"
+      ],
+      "answer": 0,
+      "explanation": "Vẽ trục số lấy phần chung.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hợp 2 khoảng (Nhóm 16)",
+      "question": "Cho $A = (-2; 3]$ và $B = (1; 6]$. Tập $A \\cup B$ là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "$[-2; 6]$",
+        "$(1; 3]$",
+        "$(-2; 1)$",
+        "$(-2; 6]$"
+      ],
+      "answer": 3,
+      "explanation": "Vẽ trục số gộp phần tử.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hợp 2 khoảng (Nhóm 16)",
+      "question": "Cho $A = (-3; 3]$ và $B = (1; 7]$. Tập $A \\cup B$ là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "$(1; 3]$",
+        "$[-3; 7]$",
+        "$(-3; 1)$",
+        "$(-3; 7]$"
+      ],
+      "answer": 3,
+      "explanation": "Vẽ trục số gộp phần tử.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hợp 2 khoảng (Nhóm 16)",
+      "question": "Cho $A = (-4; 3]$ và $B = (1; 8]$. Tập $A \\cup B$ là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "$(-4; 1)$",
+        "$(1; 3]$",
+        "$[-4; 8]$",
+        "$(-4; 8]$"
+      ],
+      "answer": 3,
+      "explanation": "Vẽ trục số gộp phần tử.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hợp 2 khoảng (Nhóm 16)",
+      "question": "Cho $A = (-5; 3]$ và $B = (1; 9]$. Tập $A \\cup B$ là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "$[-5; 9]$",
+        "$(-5; 1)$",
+        "$(1; 3]$",
+        "$(-5; 9]$"
+      ],
+      "answer": 3,
+      "explanation": "Vẽ trục số gộp phần tử.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hiệu của R (Nhóm 17)",
+      "question": "Cho $A = \\mathbb{R}$ và $B = (-1; 1]$. Tập $A \\setminus B$ là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "$(-\\infty; -1) \\cup (1; +\\infty)$",
+        "$(-\\infty; -1] \\cup [1; +\\infty)$",
+        "$(-\\infty; -1) \\cup [1; +\\infty)$",
+        "$(-\\infty; -1] \\cup (1; +\\infty)$"
+      ],
+      "answer": 3,
+      "explanation": "Phần bù của $(-a; a]$ trên R.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Hiệu của R (Nhóm 17)",
+      "question": "Cho $A = \\mathbb{R}$ và $B = (-2; 2]$. Tập $A \\setminus B$ là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "$(-\\infty; -2] \\cup [2; +\\infty)$",
+        "$(-\\infty; -2) \\cup [2; +\\infty)$",
+        "$(-\\infty; -2] \\cup (2; +\\infty)$",
+        "$(-\\infty; -2) \\cup (2; +\\infty)$"
+      ],
+      "answer": 2,
+      "explanation": "Phần bù của $(-a; a]$ trên R.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hiệu của R (Nhóm 17)",
+      "question": "Cho $A = \\mathbb{R}$ và $B = (-3; 3]$. Tập $A \\setminus B$ là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "$(-\\infty; -3) \\cup (3; +\\infty)$",
+        "$(-\\infty; -3] \\cup [3; +\\infty)$",
+        "$(-\\infty; -3) \\cup [3; +\\infty)$",
+        "$(-\\infty; -3] \\cup (3; +\\infty)$"
+      ],
+      "answer": 3,
+      "explanation": "Phần bù của $(-a; a]$ trên R.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Hiệu của R (Nhóm 17)",
+      "question": "Cho $A = \\mathbb{R}$ và $B = (-4; 4]$. Tập $A \\setminus B$ là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "$(-\\infty; -4) \\cup [4; +\\infty)$",
+        "$(-\\infty; -4] \\cup (4; +\\infty)$",
+        "$(-\\infty; -4) \\cup (4; +\\infty)$",
+        "$(-\\infty; -4] \\cup [4; +\\infty)$"
+      ],
+      "answer": 1,
+      "explanation": "Phần bù của $(-a; a]$ trên R.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tính chất các tập số (Nhóm 18)",
+      "question": "Khẳng định nào đúng về tập số ở biến thể 1? <span style=\"display:none\">v68</span>",
+      "choices": [
+        "$\\mathbb{R} \\subset \\mathbb{Q}$",
+        "$\\mathbb{Z} \\subset \\mathbb{N}$",
+        "$\\mathbb{N} \\subset \\mathbb{Z}$",
+        "$\\mathbb{Q} \\subset \\mathbb{Z}$"
+      ],
+      "answer": 2,
+      "explanation": "Tập số tự nhiên là tập con của tập số nguyên.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tính chất các tập số (Nhóm 18)",
+      "question": "Khẳng định nào đúng về tập số ở biến thể 2? <span style=\"display:none\">v69</span>",
+      "choices": [
+        "$\\mathbb{Z} \\subset \\mathbb{N}$",
+        "$\\mathbb{N} \\subset \\mathbb{Z}$",
+        "$\\mathbb{Q} \\subset \\mathbb{Z}$",
+        "$\\mathbb{R} \\subset \\mathbb{Q}$"
+      ],
+      "answer": 1,
+      "explanation": "Tập số tự nhiên là tập con của tập số nguyên.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tính chất các tập số (Nhóm 18)",
+      "question": "Khẳng định nào đúng về tập số ở biến thể 3? <span style=\"display:none\">v70</span>",
+      "choices": [
+        "$\\mathbb{N} \\subset \\mathbb{Z}$",
+        "$\\mathbb{Q} \\subset \\mathbb{Z}$",
+        "$\\mathbb{R} \\subset \\mathbb{Q}$",
+        "$\\mathbb{Z} \\subset \\mathbb{N}$"
+      ],
+      "answer": 0,
+      "explanation": "Tập số tự nhiên là tập con của tập số nguyên.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tính chất các tập số (Nhóm 18)",
+      "question": "Khẳng định nào đúng về tập số ở biến thể 4? <span style=\"display:none\">v71</span>",
+      "choices": [
+        "$\\mathbb{Q} \\subset \\mathbb{Z}$",
+        "$\\mathbb{Z} \\subset \\mathbb{N}$",
+        "$\\mathbb{R} \\subset \\mathbb{Q}$",
+        "$\\mathbb{N} \\subset \\mathbb{Z}$"
+      ],
+      "answer": 3,
+      "explanation": "Tập số tự nhiên là tập con của tập số nguyên.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 19)",
+      "question": "Lớp có 20 bạn thích Toán, 15 bạn thích Văn, 5 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "40",
+        "30",
+        "15",
+        "35"
+      ],
+      "answer": 1,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 19)",
+      "question": "Lớp có 21 bạn thích Toán, 16 bạn thích Văn, 6 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "37",
+        "31",
+        "43",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 19)",
+      "question": "Lớp có 22 bạn thích Toán, 17 bạn thích Văn, 7 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "39",
+        "32",
+        "15",
+        "46"
+      ],
+      "answer": 1,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 19)",
+      "question": "Lớp có 23 bạn thích Toán, 18 bạn thích Văn, 8 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "49",
+        "33",
+        "41",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 20)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v76</span>",
+      "choices": [
+        "$-5 \\le m < 8$",
+        "$-5 < m \\le 8$",
+        "$-5 \\le m \\le 8$",
+        "$-5 < m < 8$"
+      ],
+      "answer": 1,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 20)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v77</span>",
+      "choices": [
+        "$-5 < m < 8$",
+        "$-5 \\le m < 8$",
+        "$-5 < m \\le 8$",
+        "$-5 \\le m \\le 8$"
+      ],
+      "answer": 2,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 20)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v78</span>",
+      "choices": [
+        "$-5 < m \\le 8$",
+        "$-5 \\le m < 8$",
+        "$-5 < m < 8$",
+        "$-5 \\le m \\le 8$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 20)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v79</span>",
+      "choices": [
+        "$-5 \\le m < 8$",
+        "$-5 \\le m \\le 8$",
+        "$-5 < m < 8$",
+        "$-5 < m \\le 8$"
+      ],
+      "answer": 3,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 21)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [4; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v80</span>",
+      "choices": [
+        "$m \\le 4$",
+        "$m \\ge 4$",
+        "$m > 4$",
+        "$m < 4$"
+      ],
+      "answer": 0,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 21)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [5; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v81</span>",
+      "choices": [
+        "$m \\ge 5$",
+        "$m \\le 5$",
+        "$m < 5$",
+        "$m > 5$"
+      ],
+      "answer": 1,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 21)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [6; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v82</span>",
+      "choices": [
+        "$m \\ge 6$",
+        "$m < 6$",
+        "$m \\le 6$",
+        "$m > 6$"
+      ],
+      "answer": 2,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 21)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [7; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v83</span>",
+      "choices": [
+        "$m < 7$",
+        "$m \\ge 7$",
+        "$m \\le 7$",
+        "$m > 7$"
+      ],
+      "answer": 2,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 22)",
+      "question": "Tập hợp nghiệm của $(x^2 - 4)(x^2 + 1) = 0$ là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "\\{2, -2\\}",
+        "\\{2\\}",
+        "\\emptyset",
+        "\\{-2\\}"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 22)",
+      "question": "Tập hợp nghiệm của $(x^2 - 9)(x^2 + 1) = 0$ là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "\\{3, -3\\}",
+        "\\{-3\\}",
+        "\\emptyset",
+        "\\{3\\}"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 22)",
+      "question": "Tập hợp nghiệm của $(x^2 - 16)(x^2 + 1) = 0$ là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "\\{4\\}",
+        "\\{-4\\}",
+        "\\emptyset",
+        "\\{4, -4\\}"
+      ],
+      "answer": 3,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 22)",
+      "question": "Tập hợp nghiệm của $(x^2 - 25)(x^2 + 1) = 0$ là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "\\emptyset",
+        "\\{5, -5\\}",
+        "\\{-5\\}",
+        "\\{5\\}"
+      ],
+      "answer": 1,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 23)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 1; 4)$? <span style=\"display:none\">v88</span>",
+      "choices": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Các số từ -1 đến 3.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 23)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 2; 5)$? <span style=\"display:none\">v89</span>",
+      "choices": [
+        "8",
+        "3",
+        "7",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Các số từ -2 đến 4.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 23)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 3; 6)$? <span style=\"display:none\">v90</span>",
+      "choices": [
+        "3",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "Các số từ -3 đến 5.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 23)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 4; 7)$? <span style=\"display:none\">v91</span>",
+      "choices": [
+        "10",
+        "12",
+        "11",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Các số từ -4 đến 6.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 24)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 1. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v92</span>",
+      "choices": [
+        "P sai, Q sai",
+        "P đúng, Q đúng",
+        "P sai, Q đúng",
+        "P đúng, Q sai"
+      ],
+      "answer": 3,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 24)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 2. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v93</span>",
+      "choices": [
+        "P đúng, Q đúng",
+        "P đúng, Q sai",
+        "P sai, Q đúng",
+        "P sai, Q sai"
+      ],
+      "answer": 1,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 24)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 3. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v94</span>",
+      "choices": [
+        "P đúng, Q sai",
+        "P sai, Q sai",
+        "P sai, Q đúng",
+        "P đúng, Q đúng"
+      ],
+      "answer": 0,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 24)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 4. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v95</span>",
+      "choices": [
+        "P đúng, Q sai",
+        "P sai, Q sai",
+        "P sai, Q đúng",
+        "P đúng, Q đúng"
+      ],
+      "answer": 0,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 25)",
+      "question": "Lớp có 20 bạn thích Toán, 15 bạn thích Văn, 5 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "40",
+        "35",
+        "15",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 25)",
+      "question": "Lớp có 21 bạn thích Toán, 16 bạn thích Văn, 6 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "31",
+        "43",
+        "37",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 25)",
+      "question": "Lớp có 22 bạn thích Toán, 17 bạn thích Văn, 7 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "15",
+        "46",
+        "32",
+        "39"
+      ],
+      "answer": 2,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Toán thực tế tập hợp (Nhóm 25)",
+      "question": "Lớp có 23 bạn thích Toán, 18 bạn thích Văn, 8 bạn thích cả 2. Số bạn thích ít nhất 1 môn là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "41",
+        "49",
+        "33",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Sử dụng $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 26)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v100</span>",
+      "choices": [
+        "$-5 < m \\le 8$",
+        "$-5 < m < 8$",
+        "$-5 \\le m < 8$",
+        "$-5 \\le m \\le 8$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 26)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v101</span>",
+      "choices": [
+        "$-5 < m < 8$",
+        "$-5 < m \\le 8$",
+        "$-5 \\le m < 8$",
+        "$-5 \\le m \\le 8$"
+      ],
+      "answer": 1,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 26)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v102</span>",
+      "choices": [
+        "$-5 \\le m < 8$",
+        "$-5 < m \\le 8$",
+        "$-5 \\le m \\le 8$",
+        "$-5 < m < 8$"
+      ],
+      "answer": 1,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m tập con (Nhóm 26)",
+      "question": "Cho $A = [m; m+2]$ và $B = (-5; 10]$. Tìm $m$ để $A \\subset B$. <span style=\"display:none\">v103</span>",
+      "choices": [
+        "$-5 < m < 8$",
+        "$-5 \\le m \\le 8$",
+        "$-5 < m \\le 8$",
+        "$-5 \\le m < 8$"
+      ],
+      "answer": 2,
+      "explanation": "Giải hệ $m > -5$ và $m+2 \\le 10$.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 27)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [4; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v104</span>",
+      "choices": [
+        "$m < 4$",
+        "$m > 4$",
+        "$m \\ge 4$",
+        "$m \\le 4$"
+      ],
+      "answer": 3,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 27)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [5; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v105</span>",
+      "choices": [
+        "$m < 5$",
+        "$m \\ge 5$",
+        "$m > 5$",
+        "$m \\le 5$"
+      ],
+      "answer": 3,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 27)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [6; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v106</span>",
+      "choices": [
+        "$m \\le 6$",
+        "$m > 6$",
+        "$m < 6$",
+        "$m \\ge 6$"
+      ],
+      "answer": 0,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m giao rỗng (Nhóm 27)",
+      "question": "Cho $A = (-\\infty; m)$ và $B = [7; +\\infty)$. Tìm m để $A \\cap B = \\emptyset$. <span style=\"display:none\">v107</span>",
+      "choices": [
+        "$m \\le 7$",
+        "$m < 7$",
+        "$m > 7$",
+        "$m \\ge 7$"
+      ],
+      "answer": 0,
+      "explanation": "Để không giao nhau thì phần tử nhỏ nhất của B phải lớn hơn hoặc bằng m.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 28)",
+      "question": "Tập hợp nghiệm của $(x^2 - 4)(x^2 + 1) = 0$ là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "\\{2, -2\\}",
+        "\\{-2\\}",
+        "\\{2\\}",
+        "\\emptyset"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 28)",
+      "question": "Tập hợp nghiệm của $(x^2 - 9)(x^2 + 1) = 0$ là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "\\{-3\\}",
+        "\\{3\\}",
+        "\\{3, -3\\}",
+        "\\emptyset"
+      ],
+      "answer": 2,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 28)",
+      "question": "Tập hợp nghiệm của $(x^2 - 16)(x^2 + 1) = 0$ là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "\\{4, -4\\}",
+        "\\{4\\}",
+        "\\{-4\\}",
+        "\\emptyset"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tập hợp nghiệm pt (Nhóm 28)",
+      "question": "Tập hợp nghiệm của $(x^2 - 25)(x^2 + 1) = 0$ là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "\\emptyset",
+        "\\{5, -5\\}",
+        "\\{5\\}",
+        "\\{-5\\}"
+      ],
+      "answer": 1,
+      "explanation": "Chỉ có $x^2 - val^2 = 0$ có nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 29)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 1; 4)$? <span style=\"display:none\">v112</span>",
+      "choices": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Các số từ -1 đến 3.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 29)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 2; 5)$? <span style=\"display:none\">v113</span>",
+      "choices": [
+        "3",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Các số từ -2 đến 4.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 29)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 3; 6)$? <span style=\"display:none\">v114</span>",
+      "choices": [
+        "9",
+        "8",
+        "10",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Các số từ -3 đến 5.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Đếm số phần tử Z (Nhóm 29)",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $[- 4; 7)$? <span style=\"display:none\">v115</span>",
+      "choices": [
+        "3",
+        "12",
+        "10",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "Các số từ -4 đến 6.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 30)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 1. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v116</span>",
+      "choices": [
+        "P sai, Q đúng",
+        "P sai, Q sai",
+        "P đúng, Q sai",
+        "P đúng, Q đúng"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 30)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 2. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v117</span>",
+      "choices": [
+        "P sai, Q sai",
+        "P sai, Q đúng",
+        "P đúng, Q sai",
+        "P đúng, Q đúng"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 30)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 3. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v118</span>",
+      "choices": [
+        "P sai, Q sai",
+        "P đúng, Q sai",
+        "P sai, Q đúng",
+        "P đúng, Q đúng"
+      ],
+      "answer": 1,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Mệnh đề kéo theo sai (Nhóm 30)",
+      "question": "Phân tích mệnh đề kéo theo biến thể 4. Mệnh đề $P \\Rightarrow Q$ SAI khi nào? <span style=\"display:none\">v119</span>",
+      "choices": [
+        "P sai, Q sai",
+        "P sai, Q đúng",
+        "P đúng, Q sai",
+        "P đúng, Q đúng"
+      ],
+      "answer": 2,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi giả thiết đúng nhưng kết luận sai.",
+      "level": "vd",
+      "lesson": "b2"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 3 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v0</span>",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "2^3 = 8",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 4 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v1</span>",
+      "answer": "16",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "2^4 = 16",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 5 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v2</span>",
+      "answer": "32",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "2^5 = 32",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-1; 1]$? <span style=\"display:none\">v3</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "số",
+      "explanation": "Đếm số nguyên",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-2; 2]$? <span style=\"display:none\">v4</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "số",
+      "explanation": "Đếm số nguyên",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-3; 3]$? <span style=\"display:none\">v5</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "số",
+      "explanation": "Đếm số nguyên",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v6</span>",
+      "answer": "30",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v7</span>",
+      "answer": "31",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v8</span>",
+      "answer": "32",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v9</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v10</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v11</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v12</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v13</span>",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v14</span>",
+      "answer": "15",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v15</span>",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v16</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v17</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v18</span>",
+      "answer": "30",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v19</span>",
+      "answer": "31",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v20</span>",
+      "answer": "32",
+      "tolerance": 0,
+      "unit": "bạn",
+      "explanation": "A + B - C",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v21</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v22</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v23</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hiệu 2 đầu mút",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v24</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v25</span>",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v26</span>",
+      "answer": "15",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Cộng lại",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v27</span>",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v28</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v29</span>",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "m <= val",
+      "level": "vd",
+      "lesson": "b1"
+    }
+  ]
+}

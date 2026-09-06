@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Bất phương trình và hệ bất phương trình bậc nhất hai ẩn",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Bất phương trình bậc nhất hai ẩn"
+    },
+    {
+      "lesson_id": "b4",
+      "sgk_title": "Bài 4. Hệ bất phương trình bậc nhất hai ẩn"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Nhận biết bpt (Nhóm 1)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 1)? <span style=\"display:none\">v0</span>",
+      "choices": [
+        "x + 2y^2 > 5",
+        "1x + 2y > 5",
+        "1xy > 5",
+        "1x^2 + y > 5"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 1)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 1)? <span style=\"display:none\">v1</span>",
+      "choices": [
+        "2xy > 6",
+        "2x^2 + y > 6",
+        "x + 3y^2 > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 1)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 1)? <span style=\"display:none\">v2</span>",
+      "choices": [
+        "x + 4y^2 > 7",
+        "3x + 4y > 7",
+        "3x^2 + y > 7",
+        "3xy > 7"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 1)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 1)? <span style=\"display:none\">v3</span>",
+      "choices": [
+        "4xy > 8",
+        "4x + 5y > 8",
+        "x + 5y^2 > 8",
+        "4x^2 + y > 8"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 2)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 2)? <span style=\"display:none\">v4</span>",
+      "choices": [
+        "1xy > 5",
+        "x + 2y^2 > 5",
+        "1x + 2y > 5",
+        "1x^2 + y > 5"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 2)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 2)? <span style=\"display:none\">v5</span>",
+      "choices": [
+        "2x^2 + y > 6",
+        "x + 3y^2 > 6",
+        "2xy > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 2)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 2)? <span style=\"display:none\">v6</span>",
+      "choices": [
+        "3x + 4y > 7",
+        "x + 4y^2 > 7",
+        "3x^2 + y > 7",
+        "3xy > 7"
+      ],
+      "answer": 0,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 2)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 2)? <span style=\"display:none\">v7</span>",
+      "choices": [
+        "x + 5y^2 > 8",
+        "4x + 5y > 8",
+        "4xy > 8",
+        "4x^2 + y > 8"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 3)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 3)? <span style=\"display:none\">v8</span>",
+      "choices": [
+        "1xy > 5",
+        "x + 2y^2 > 5",
+        "1x + 2y > 5",
+        "1x^2 + y > 5"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 3)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 3)? <span style=\"display:none\">v9</span>",
+      "choices": [
+        "2xy > 6",
+        "2x^2 + y > 6",
+        "x + 3y^2 > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 3)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 3)? <span style=\"display:none\">v10</span>",
+      "choices": [
+        "3xy > 7",
+        "3x + 4y > 7",
+        "3x^2 + y > 7",
+        "x + 4y^2 > 7"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 3)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 3)? <span style=\"display:none\">v11</span>",
+      "choices": [
+        "4xy > 8",
+        "4x + 5y > 8",
+        "4x^2 + y > 8",
+        "x + 5y^2 > 8"
+      ],
+      "answer": 1,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 4)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 4)? <span style=\"display:none\">v12</span>",
+      "choices": [
+        "1x^2 + y > 5",
+        "x + 2y^2 > 5",
+        "1x + 2y > 5",
+        "1xy > 5"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 4)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 4)? <span style=\"display:none\">v13</span>",
+      "choices": [
+        "x + 3y^2 > 6",
+        "2xy > 6",
+        "2x^2 + y > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 4)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 4)? <span style=\"display:none\">v14</span>",
+      "choices": [
+        "x + 4y^2 > 7",
+        "3x^2 + y > 7",
+        "3xy > 7",
+        "3x + 4y > 7"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 4)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 4)? <span style=\"display:none\">v15</span>",
+      "choices": [
+        "4xy > 8",
+        "4x^2 + y > 8",
+        "4x + 5y > 8",
+        "x + 5y^2 > 8"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 5)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 5)? <span style=\"display:none\">v16</span>",
+      "choices": [
+        "1xy > 5",
+        "1x^2 + y > 5",
+        "1x + 2y > 5",
+        "x + 2y^2 > 5"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 5)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 5)? <span style=\"display:none\">v17</span>",
+      "choices": [
+        "x + 3y^2 > 6",
+        "2xy > 6",
+        "2x^2 + y > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 5)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 5)? <span style=\"display:none\">v18</span>",
+      "choices": [
+        "3x^2 + y > 7",
+        "x + 4y^2 > 7",
+        "3x + 4y > 7",
+        "3xy > 7"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 5)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 5)? <span style=\"display:none\">v19</span>",
+      "choices": [
+        "4x + 5y > 8",
+        "4x^2 + y > 8",
+        "4xy > 8",
+        "x + 5y^2 > 8"
+      ],
+      "answer": 0,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 6)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 6)? <span style=\"display:none\">v20</span>",
+      "choices": [
+        "1x + 2y > 5",
+        "1x^2 + y > 5",
+        "x + 2y^2 > 5",
+        "1xy > 5"
+      ],
+      "answer": 0,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 6)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 6)? <span style=\"display:none\">v21</span>",
+      "choices": [
+        "2xy > 6",
+        "2x^2 + y > 6",
+        "x + 3y^2 > 6",
+        "2x + 3y > 6"
+      ],
+      "answer": 3,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 6)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 6)? <span style=\"display:none\">v22</span>",
+      "choices": [
+        "3xy > 7",
+        "x + 4y^2 > 7",
+        "3x + 4y > 7",
+        "3x^2 + y > 7"
+      ],
+      "answer": 2,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Nhận biết bpt (Nhóm 6)",
+      "question": "Bất phương trình nào là bpt bậc nhất 2 ẩn (BT 6)? <span style=\"display:none\">v23</span>",
+      "choices": [
+        "4x + 5y > 8",
+        "4xy > 8",
+        "4x^2 + y > 8",
+        "x + 5y^2 > 8"
+      ],
+      "answer": 0,
+      "explanation": "Bậc cao nhất của x và y là 1.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 7)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 7)? <span style=\"display:none\">v24</span>",
+      "choices": [
+        "-1x - y > 0",
+        "1x + y > 0",
+        "-x - 2y > 0",
+        "-1x - 2y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 7)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 7)? <span style=\"display:none\">v25</span>",
+      "choices": [
+        "2x + y > 0",
+        "-x - 3y > 0",
+        "-2x - 3y > 1",
+        "-2x - y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 7)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 7)? <span style=\"display:none\">v26</span>",
+      "choices": [
+        "3x + y > 0",
+        "-3x - y > 0",
+        "-3x - 4y > 1",
+        "-x - 4y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 7)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 7)? <span style=\"display:none\">v27</span>",
+      "choices": [
+        "-x - 5y > 0",
+        "4x + y > 0",
+        "-4x - 5y > 1",
+        "-4x - y > 0"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 8)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 8)? <span style=\"display:none\">v28</span>",
+      "choices": [
+        "-x - 2y > 0",
+        "-1x - 2y > 1",
+        "-1x - y > 0",
+        "1x + y > 0"
+      ],
+      "answer": 3,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 8)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 8)? <span style=\"display:none\">v29</span>",
+      "choices": [
+        "-x - 3y > 0",
+        "2x + y > 0",
+        "-2x - y > 0",
+        "-2x - 3y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 8)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 8)? <span style=\"display:none\">v30</span>",
+      "choices": [
+        "3x + y > 0",
+        "-3x - 4y > 1",
+        "-x - 4y > 0",
+        "-3x - y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 8)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 8)? <span style=\"display:none\">v31</span>",
+      "choices": [
+        "4x + y > 0",
+        "-4x - y > 0",
+        "-4x - 5y > 1",
+        "-x - 5y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 9)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 9)? <span style=\"display:none\">v32</span>",
+      "choices": [
+        "1x + y > 0",
+        "-1x - 2y > 1",
+        "-1x - y > 0",
+        "-x - 2y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 9)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 9)? <span style=\"display:none\">v33</span>",
+      "choices": [
+        "-2x - 3y > 1",
+        "2x + y > 0",
+        "-x - 3y > 0",
+        "-2x - y > 0"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 9)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 9)? <span style=\"display:none\">v34</span>",
+      "choices": [
+        "-x - 4y > 0",
+        "-3x - y > 0",
+        "-3x - 4y > 1",
+        "3x + y > 0"
+      ],
+      "answer": 3,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 9)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 9)? <span style=\"display:none\">v35</span>",
+      "choices": [
+        "-4x - y > 0",
+        "-x - 5y > 0",
+        "4x + y > 0",
+        "-4x - 5y > 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 10)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 10)? <span style=\"display:none\">v36</span>",
+      "choices": [
+        "-1x - 2y > 1",
+        "-1x - y > 0",
+        "-x - 2y > 0",
+        "1x + y > 0"
+      ],
+      "answer": 3,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 10)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 10)? <span style=\"display:none\">v37</span>",
+      "choices": [
+        "-2x - y > 0",
+        "-2x - 3y > 1",
+        "2x + y > 0",
+        "-x - 3y > 0"
+      ],
+      "answer": 2,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 10)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 10)? <span style=\"display:none\">v38</span>",
+      "choices": [
+        "3x + y > 0",
+        "-x - 4y > 0",
+        "-3x - y > 0",
+        "-3x - 4y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 10)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 10)? <span style=\"display:none\">v39</span>",
+      "choices": [
+        "4x + y > 0",
+        "-4x - y > 0",
+        "-4x - 5y > 1",
+        "-x - 5y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 11)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 11)? <span style=\"display:none\">v40</span>",
+      "choices": [
+        "-x - 2y > 0",
+        "1x + y > 0",
+        "-1x - y > 0",
+        "-1x - 2y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 11)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 11)? <span style=\"display:none\">v41</span>",
+      "choices": [
+        "-x - 3y > 0",
+        "2x + y > 0",
+        "-2x - y > 0",
+        "-2x - 3y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 11)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 11)? <span style=\"display:none\">v42</span>",
+      "choices": [
+        "-3x - 4y > 1",
+        "-3x - y > 0",
+        "-x - 4y > 0",
+        "3x + y > 0"
+      ],
+      "answer": 3,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 11)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 11)? <span style=\"display:none\">v43</span>",
+      "choices": [
+        "-x - 5y > 0",
+        "-4x - 5y > 1",
+        "-4x - y > 0",
+        "4x + y > 0"
+      ],
+      "answer": 3,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 12)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 12)? <span style=\"display:none\">v44</span>",
+      "choices": [
+        "1x + y > 0",
+        "-x - 2y > 0",
+        "-1x - y > 0",
+        "-1x - 2y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 12)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 12)? <span style=\"display:none\">v45</span>",
+      "choices": [
+        "-x - 3y > 0",
+        "-2x - 3y > 1",
+        "2x + y > 0",
+        "-2x - y > 0"
+      ],
+      "answer": 2,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 12)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 12)? <span style=\"display:none\">v46</span>",
+      "choices": [
+        "-3x - 4y > 1",
+        "3x + y > 0",
+        "-x - 4y > 0",
+        "-3x - y > 0"
+      ],
+      "answer": 1,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Điểm thuộc miền nghiệm (Nhóm 12)",
+      "question": "Cặp số (1; 1) là nghiệm của bpt nào (BT 12)? <span style=\"display:none\">v47</span>",
+      "choices": [
+        "4x + y > 0",
+        "-4x - y > 0",
+        "-4x - 5y > 1",
+        "-x - 5y > 0"
+      ],
+      "answer": 0,
+      "explanation": "Thay x=1, y=1 vào kiểm tra.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 13)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 13)? <span style=\"display:none\">v48</span>",
+      "choices": [
+        "x^2 > 0 và y < 1",
+        "x > 0 và x + y < 1",
+        "x > 0 và xy < 1",
+        "x + y > 0 và y^2 < 1"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 13)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 13)? <span style=\"display:none\">v49</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 2",
+        "x > 0 và xy < 2",
+        "x > 0 và x + y < 2",
+        "x^2 > 0 và y < 2"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 13)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 13)? <span style=\"display:none\">v50</span>",
+      "choices": [
+        "x > 0 và x + y < 3",
+        "x > 0 và xy < 3",
+        "x^2 > 0 và y < 3",
+        "x + y > 0 và y^2 < 3"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 13)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 13)? <span style=\"display:none\">v51</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 4",
+        "x^2 > 0 và y < 4",
+        "x > 0 và x + y < 4",
+        "x > 0 và xy < 4"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 14)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 14)? <span style=\"display:none\">v52</span>",
+      "choices": [
+        "x > 0 và x + y < 1",
+        "x > 0 và xy < 1",
+        "x + y > 0 và y^2 < 1",
+        "x^2 > 0 và y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 14)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 14)? <span style=\"display:none\">v53</span>",
+      "choices": [
+        "x > 0 và x + y < 2",
+        "x^2 > 0 và y < 2",
+        "x + y > 0 và y^2 < 2",
+        "x > 0 và xy < 2"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 14)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 14)? <span style=\"display:none\">v54</span>",
+      "choices": [
+        "x > 0 và x + y < 3",
+        "x^2 > 0 và y < 3",
+        "x + y > 0 và y^2 < 3",
+        "x > 0 và xy < 3"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 14)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 14)? <span style=\"display:none\">v55</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 4",
+        "x^2 > 0 và y < 4",
+        "x > 0 và x + y < 4",
+        "x > 0 và xy < 4"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 15)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 15)? <span style=\"display:none\">v56</span>",
+      "choices": [
+        "x > 0 và xy < 1",
+        "x^2 > 0 và y < 1",
+        "x > 0 và x + y < 1",
+        "x + y > 0 và y^2 < 1"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 15)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 15)? <span style=\"display:none\">v57</span>",
+      "choices": [
+        "x^2 > 0 và y < 2",
+        "x + y > 0 và y^2 < 2",
+        "x > 0 và x + y < 2",
+        "x > 0 và xy < 2"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 15)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 15)? <span style=\"display:none\">v58</span>",
+      "choices": [
+        "x > 0 và x + y < 3",
+        "x^2 > 0 và y < 3",
+        "x > 0 và xy < 3",
+        "x + y > 0 và y^2 < 3"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 15)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 15)? <span style=\"display:none\">v59</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 4",
+        "x > 0 và x + y < 4",
+        "x^2 > 0 và y < 4",
+        "x > 0 và xy < 4"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 16)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 16)? <span style=\"display:none\">v60</span>",
+      "choices": [
+        "x > 0 và xy < 1",
+        "x^2 > 0 và y < 1",
+        "x + y > 0 và y^2 < 1",
+        "x > 0 và x + y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 16)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 16)? <span style=\"display:none\">v61</span>",
+      "choices": [
+        "x > 0 và x + y < 2",
+        "x^2 > 0 và y < 2",
+        "x + y > 0 và y^2 < 2",
+        "x > 0 và xy < 2"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 16)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 16)? <span style=\"display:none\">v62</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 3",
+        "x > 0 và xy < 3",
+        "x > 0 và x + y < 3",
+        "x^2 > 0 và y < 3"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 16)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 16)? <span style=\"display:none\">v63</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 4",
+        "x > 0 và xy < 4",
+        "x^2 > 0 và y < 4",
+        "x > 0 và x + y < 4"
+      ],
+      "answer": 3,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 17)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 17)? <span style=\"display:none\">v64</span>",
+      "choices": [
+        "x > 0 và xy < 1",
+        "x + y > 0 và y^2 < 1",
+        "x > 0 và x + y < 1",
+        "x^2 > 0 và y < 1"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 17)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 17)? <span style=\"display:none\">v65</span>",
+      "choices": [
+        "x > 0 và x + y < 2",
+        "x^2 > 0 và y < 2",
+        "x + y > 0 và y^2 < 2",
+        "x > 0 và xy < 2"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 17)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 17)? <span style=\"display:none\">v66</span>",
+      "choices": [
+        "x > 0 và xy < 3",
+        "x^2 > 0 và y < 3",
+        "x > 0 và x + y < 3",
+        "x + y > 0 và y^2 < 3"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 17)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 17)? <span style=\"display:none\">v67</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 4",
+        "x > 0 và x + y < 4",
+        "x > 0 và xy < 4",
+        "x^2 > 0 và y < 4"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 18)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 18)? <span style=\"display:none\">v68</span>",
+      "choices": [
+        "x > 0 và x + y < 1",
+        "x > 0 và xy < 1",
+        "x + y > 0 và y^2 < 1",
+        "x^2 > 0 và y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 18)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 18)? <span style=\"display:none\">v69</span>",
+      "choices": [
+        "x^2 > 0 và y < 2",
+        "x > 0 và x + y < 2",
+        "x > 0 và xy < 2",
+        "x + y > 0 và y^2 < 2"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 18)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 18)? <span style=\"display:none\">v70</span>",
+      "choices": [
+        "x + y > 0 và y^2 < 3",
+        "x^2 > 0 và y < 3",
+        "x > 0 và x + y < 3",
+        "x > 0 và xy < 3"
+      ],
+      "answer": 2,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Hệ bpt (Nhóm 18)",
+      "question": "Hệ nào sau đây là hệ bpt bậc nhất 2 ẩn (BT 18)? <span style=\"display:none\">v71</span>",
+      "choices": [
+        "x^2 > 0 và y < 4",
+        "x > 0 và x + y < 4",
+        "x + y > 0 và y^2 < 4",
+        "x > 0 và xy < 4"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai bpt đều phải là bậc nhất 2 ẩn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 19)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v72</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 19)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v73</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 19)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v74</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 19)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v75</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 20)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v76</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 20)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v77</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 20)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v78</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 20)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v79</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 21)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v80</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 21)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v81</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 21)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v82</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 21)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v83</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 22)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v84</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 22)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v85</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 22)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v86</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 22)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v87</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 23)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v88</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 23)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v89</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 23)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v90</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 23)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v91</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 24)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v92</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 24)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v93</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 24)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v94</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 24)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v95</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 25)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v96</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 25)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v97</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 25)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v98</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 25)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 19)? <span style=\"display:none\">v99</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 26)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v100</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 26)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v101</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 26)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v102</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 26)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 20)? <span style=\"display:none\">v103</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 27)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v104</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 27)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v105</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 27)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v106</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 27)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 21)? <span style=\"display:none\">v107</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 28)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v108</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 28)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v109</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 28)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v110</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 28)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 22)? <span style=\"display:none\">v111</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1"
+      ],
+      "answer": 3,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 29)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v112</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 29)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v113</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 2,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 29)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v114</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 29)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 23)? <span style=\"display:none\">v115</span>",
+      "choices": [
+        "x + y > -1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 30)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v116</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 30)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v117</span>",
+      "choices": [
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y > 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 30)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v118</span>",
+      "choices": [
+        "x + y > -1 và x - y < 1",
+        "x + y > 1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y > 1"
+      ],
+      "answer": 0,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Toán thực tế hệ (Nhóm 30)",
+      "question": "Điểm (0; 0) thuộc miền nghiệm của hệ nào (BT 24)? <span style=\"display:none\">v119</span>",
+      "choices": [
+        "x + y > 1 và x - y > 1",
+        "x + y > -1 và x - y < 1",
+        "x + y > -1 và x - y > 1",
+        "x + y > 1 và x - y < 1"
+      ],
+      "answer": 1,
+      "explanation": "Thay (0; 0) vào thỏa mãn.",
+      "level": "vd",
+      "lesson": "b3"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v0</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v1</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v2</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v3</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v4</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v5</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v6</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v7</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v8</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v9</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v10</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v11</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v12</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v13</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v14</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v15</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v16</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v17</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v18</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v19</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v20</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v21</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v22</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v23</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v24</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v25</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v26</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v27</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v28</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v29</span>",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay số",
+      "level": "vd",
+      "lesson": "b4"
+    }
+  ]
+}

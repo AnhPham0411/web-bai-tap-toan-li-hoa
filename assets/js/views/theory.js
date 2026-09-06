@@ -94,7 +94,7 @@ function renderNav(index, chapterId, lessonId) {
 
 export async function renderTheory(ctx, params) {
   const { subject, index } = ctx;
-  const saved = getTheoryPosition();
+  const saved = getTheoryPosition(subject.id);
 
   let chapterId = params.chapterId || saved?.chapterId || index.chapters[0].id;
   let chapter = index.chapters.find((c) => c.id === chapterId) || index.chapters[0];
@@ -108,8 +108,9 @@ export async function renderTheory(ctx, params) {
   const theory = await getChapterTheory(subject, chapter);
   const lesson = theory.lessons.find((l) => l.id === lessonId) || theory.lessons[0];
 
-  saveTheoryPosition(chapterId, lesson.id);
+  saveTheoryPosition(subject.id, chapterId, lesson.id);
 
+  const indexLesson = chapter.lessons.find((l) => l.id === lesson.id);
   const all = flatLessons(index);
   const pos = all.findIndex((l) => l.chapterId === chapterId && l.lessonId === lesson.id);
   const prev = pos > 0 ? all[pos - 1] : null;
@@ -121,7 +122,7 @@ export async function renderTheory(ctx, params) {
 
       <article class="theory-body">
         <div class="eyebrow">Chương ${chapter.roman} · ${mathHtml(chapter.title)}</div>
-        <h1>${mathHtml(lesson.title)}</h1>
+        <h1>${mathHtml(indexLesson ? indexLesson.title : lesson.title)}</h1>
         <p class="lesson-meta">${subject.name} — ${subject.term} · ${subject.book}</p>
 
         ${lesson.blocks.map(renderBlock).join('')}

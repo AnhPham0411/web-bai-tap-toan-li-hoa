@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Bảng tuần hoàn các nguyên tố",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Cấu tạo Bảng tuần hoàn"
+    },
+    {
+      "lesson_id": "b4",
+      "sgk_title": "Bài 4. Xu hướng biến đổi tính chất"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v0</span>",
+      "choices": [
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử",
+        "Số electron hóa trị"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v1</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số proton",
+        "Số lớp electron trong nguyên tử"
+      ],
+      "answer": 3,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v2</span>",
+      "choices": [
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v3</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v4</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Không đổi",
+        "Tăng dần",
+        "Giảm dần"
+      ],
+      "answer": 2,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v5</span>",
+      "choices": [
+        "Giảm dần",
+        "Không đổi",
+        "Biến đổi không quy luật",
+        "Tăng dần"
+      ],
+      "answer": 3,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v6</span>",
+      "choices": [
+        "Tăng dần",
+        "Không đổi",
+        "Giảm dần",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v7</span>",
+      "choices": [
+        "Không đổi",
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Giảm dần"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v8</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử"
+      ],
+      "answer": 2,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v9</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v10</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v11</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng 0",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng với Natri"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Bằng 0",
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v16</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử",
+        "Số proton"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v17</span>",
+      "choices": [
+        "Số proton",
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử"
+      ],
+      "answer": 3,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v18</span>",
+      "choices": [
+        "Số electron hóa trị",
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v19</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử",
+        "Số proton"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v20</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Không đổi",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v21</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Không đổi",
+        "Tăng dần"
+      ],
+      "answer": 3,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v22</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Không đổi",
+        "Tăng dần",
+        "Giảm dần"
+      ],
+      "answer": 2,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v23</span>",
+      "choices": [
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v24</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v25</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v26</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v27</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v28</span>",
+      "choices": [
+        "Bằng 0",
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v29</span>",
+      "choices": [
+        "Bằng 0",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri"
+      ],
+      "answer": 1,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v30</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng với Natri",
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v31</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v32</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số proton"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v33</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v34</span>",
+      "choices": [
+        "Số proton",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử"
+      ],
+      "answer": 3,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v35</span>",
+      "choices": [
+        "Số electron hóa trị",
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v36</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Không đổi",
+        "Tăng dần"
+      ],
+      "answer": 3,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v37</span>",
+      "choices": [
+        "Giảm dần",
+        "Biến đổi không quy luật",
+        "Tăng dần",
+        "Không đổi"
+      ],
+      "answer": 2,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v38</span>",
+      "choices": [
+        "Tăng dần",
+        "Không đổi",
+        "Giảm dần",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v39</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v40</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v41</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v42</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v43</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v44</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v45</span>",
+      "choices": [
+        "Bằng 0",
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v46</span>",
+      "choices": [
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 1,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v47</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v48</span>",
+      "choices": [
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v49</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v50</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v51</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử",
+        "Số proton"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v52</span>",
+      "choices": [
+        "Tăng dần",
+        "Không đổi",
+        "Biến đổi không quy luật",
+        "Giảm dần"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v53</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v54</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v55</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Tăng dần",
+        "Không đổi"
+      ],
+      "answer": 2,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v56</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 2,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v57</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 2,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v58</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v59</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v60</span>",
+      "choices": [
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v61</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v62</span>",
+      "choices": [
+        "Bằng với Natri",
+        "Bằng 0",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v63</span>",
+      "choices": [
+        "Bằng với Natri",
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v64</span>",
+      "choices": [
+        "Số proton",
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v65</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử",
+        "Số proton"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v66</span>",
+      "choices": [
+        "Số proton",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v67</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v68</span>",
+      "choices": [
+        "Tăng dần",
+        "Không đổi",
+        "Biến đổi không quy luật",
+        "Giảm dần"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v69</span>",
+      "choices": [
+        "Giảm dần",
+        "Tăng dần",
+        "Không đổi",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v70</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Tăng dần",
+        "Không đổi"
+      ],
+      "answer": 2,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v71</span>",
+      "choices": [
+        "Giảm dần",
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v72</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v73</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Nhường electron của nguyên tử",
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v74</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v75</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân",
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v76</span>",
+      "choices": [
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng với Natri"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v77</span>",
+      "choices": [
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 1,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v78</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng 0",
+        "Bằng với Natri"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v79</span>",
+      "choices": [
+        "Bằng 0",
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v80</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v81</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v82</span>",
+      "choices": [
+        "Số proton",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử"
+      ],
+      "answer": 3,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v83</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Số proton"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v84</span>",
+      "choices": [
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Giảm dần",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v85</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Không đổi",
+        "Giảm dần",
+        "Tăng dần"
+      ],
+      "answer": 3,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v86</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v87</span>",
+      "choices": [
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Không đổi",
+        "Giảm dần"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v88</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v89</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v90</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học"
+      ],
+      "answer": 3,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v91</span>",
+      "choices": [
+        "Hút proton trong hạt nhân",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v92</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v93</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v94</span>",
+      "choices": [
+        "Bằng 0",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng với Natri"
+      ],
+      "answer": 2,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v95</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0",
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v96</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số proton",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử"
+      ],
+      "answer": 3,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v97</span>",
+      "choices": [
+        "Số proton",
+        "Số electron hóa trị",
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v98</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Số proton"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v99</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử",
+        "Số proton",
+        "Số electron hóa trị"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v100</span>",
+      "choices": [
+        "Không đổi",
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v101</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Không đổi",
+        "Giảm dần",
+        "Tăng dần"
+      ],
+      "answer": 3,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v102</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Không đổi",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v103</span>",
+      "choices": [
+        "Không đổi",
+        "Tăng dần",
+        "Giảm dần",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 0): <span style=\"display:none\">v104</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 1): <span style=\"display:none\">v105</span>",
+      "choices": [
+        "Thu nhiệt của phản ứng",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Nhường electron của nguyên tử"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 2): <span style=\"display:none\">v106</span>",
+      "choices": [
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Nhường electron của nguyên tử",
+        "Thu nhiệt của phản ứng",
+        "Hút proton trong hạt nhân"
+      ],
+      "answer": 0,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Độ âm điện đặc trưng cho khả năng (BT 3): <span style=\"display:none\">v107</span>",
+      "choices": [
+        "Nhường electron của nguyên tử",
+        "Hút electron của nguyên tử khi hình thành liên kết hóa học",
+        "Hút proton trong hạt nhân",
+        "Thu nhiệt của phản ứng"
+      ],
+      "answer": 1,
+      "explanation": "Độ âm điện đo khả năng hút e của nguyên tử trong liên kết hóa học.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 0): <span style=\"display:none\">v108</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng với Natri",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 1): <span style=\"display:none\">v109</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng 0",
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 2): <span style=\"display:none\">v110</span>",
+      "choices": [
+        "Lớn nhất trong Bảng tuần hoàn (3,98)",
+        "Bằng với Natri",
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Nguyên tố F (Fluorine, Z = 9) là nguyên tố có độ âm điện (BT 3): <span style=\"display:none\">v111</span>",
+      "choices": [
+        "Nhỏ nhất trong Bảng tuần hoàn",
+        "Bằng 0",
+        "Bằng với Natri",
+        "Lớn nhất trong Bảng tuần hoàn (3,98)"
+      ],
+      "answer": 3,
+      "explanation": "Fluorine (F) có độ âm điện lớn nhất (3,98).",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 0): <span style=\"display:none\">v112</span>",
+      "choices": [
+        "Số lớp electron trong nguyên tử",
+        "Bán kính nguyên tử",
+        "Số electron hóa trị",
+        "Số proton"
+      ],
+      "answer": 0,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 1): <span style=\"display:none\">v113</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị"
+      ],
+      "answer": 2,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 2): <span style=\"display:none\">v114</span>",
+      "choices": [
+        "Bán kính nguyên tử",
+        "Số lớp electron trong nguyên tử",
+        "Số proton",
+        "Số electron hóa trị"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Trong Bảng tuần hoàn, các nguyên tố trong cùng một Chu kỳ có cùng (BT 3): <span style=\"display:none\">v115</span>",
+      "choices": [
+        "Số proton",
+        "Số lớp electron trong nguyên tử",
+        "Số electron hóa trị",
+        "Bán kính nguyên tử"
+      ],
+      "answer": 1,
+      "explanation": "Số thứ tự chu kỳ = số lớp electron của nguyên tử.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 0): <span style=\"display:none\">v116</span>",
+      "choices": [
+        "Tăng dần",
+        "Không đổi",
+        "Biến đổi không quy luật",
+        "Giảm dần"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 1): <span style=\"display:none\">v117</span>",
+      "choices": [
+        "Giảm dần",
+        "Tăng dần",
+        "Biến đổi không quy luật",
+        "Không đổi"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 2): <span style=\"display:none\">v118</span>",
+      "choices": [
+        "Tăng dần",
+        "Giảm dần",
+        "Không đổi",
+        "Biến đổi không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Trong một nhóm A (từ trên xuống dưới), bán kính nguyên tử của các nguyên tố (BT 3): <span style=\"display:none\">v119</span>",
+      "choices": [
+        "Biến đổi không quy luật",
+        "Tăng dần",
+        "Không đổi",
+        "Giảm dần"
+      ],
+      "answer": 1,
+      "explanation": "Từ trên xuống trong nhóm A, số lớp e tăng nên bán kính nguyên tử tăng dần.",
+      "level": "vd",
+      "lesson": "b3"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v0</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v1</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 1)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v2</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v3</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v4</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 2)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v5</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v6</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v7</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 3)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v8</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v9</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v10</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 4)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v11</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v12</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v13</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 5)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v14</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v15</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v16</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 6)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v17</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v18</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v19</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 7)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v20</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v21</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v22</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 8)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v23</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v24</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v25</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 9)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v26</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v27</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v28</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bảng TH (Nhóm 10)",
+      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v29</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e.",
+      "level": "vd",
+      "lesson": "b4"
+    }
+  ]
+}

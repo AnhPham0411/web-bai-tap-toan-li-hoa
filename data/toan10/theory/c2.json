@@ -6,7 +6,10 @@
       "id": "b3",
       "title": "Bài 3. Bất phương trình bậc nhất hai ẩn",
       "blocks": [
-        { "type": "heading", "text": "1. Bất phương trình bậc nhất hai ẩn" },
+        {
+          "type": "heading",
+          "text": "1. Bất phương trình bậc nhất hai ẩn"
+        },
         {
           "type": "definition",
           "title": "Định nghĩa",
@@ -26,7 +29,10 @@
           "question": "Cặp (1; 2) có là nghiệm của 2x − y + 1 > 0 không?",
           "solution": "Thay vào: 2·1 − 2 + 1 = 1 > 0 (đúng). Vậy (1; 2) là một nghiệm của bất phương trình."
         },
-        { "type": "heading", "text": "2. Biểu diễn miền nghiệm trên mặt phẳng toạ độ" },
+        {
+          "type": "heading",
+          "text": "2. Biểu diễn miền nghiệm trên mặt phẳng toạ độ"
+        },
         {
           "type": "theorem",
           "title": "Miền nghiệm",
@@ -53,7 +59,10 @@
       "id": "b4",
       "title": "Bài 4. Hệ bất phương trình bậc nhất hai ẩn",
       "blocks": [
-        { "type": "heading", "text": "1. Hệ bất phương trình bậc nhất hai ẩn" },
+        {
+          "type": "heading",
+          "text": "1. Hệ bất phương trình bậc nhất hai ẩn"
+        },
         {
           "type": "definition",
           "title": "Định nghĩa",
@@ -68,7 +77,10 @@
           "question": "Xác định miền nghiệm của hệ: x ≥ 0; y ≥ 0; x + y ≤ 4.",
           "solution": "x ≥ 0: nửa mặt phẳng bên phải trục Oy (kể cả trục).\ny ≥ 0: nửa mặt phẳng phía trên trục Ox (kể cả trục).\nx + y ≤ 4: nửa mặt phẳng chứa O có bờ là đường thẳng qua (4; 0) và (0; 4).\nGiao của ba miền là tam giác có ba đỉnh O(0; 0), A(4; 0), B(0; 4), kể cả biên."
         },
-        { "type": "heading", "text": "2. Ứng dụng: tìm giá trị lớn nhất, nhỏ nhất của F = ax + by" },
+        {
+          "type": "heading",
+          "text": "2. Ứng dụng: tìm giá trị lớn nhất, nhỏ nhất của F = ax + by"
+        },
         {
           "type": "theorem",
           "title": "Nguyên lí cực trị trên miền đa giác",

@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Năng lượng & Công",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b9",
+      "sgk_title": "Bài 9. Công & Công suất"
+    },
+    {
+      "lesson_id": "b10",
+      "sgk_title": "Bài 10. Cơ năng & Bảo toàn năng lượng"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "40 J",
+        "10 J",
+        "20 J",
+        "40 J​"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 20 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "60 J",
+        "50 J",
+        "120 J",
+        "80 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 60 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "240 J",
+        "140 J",
+        "120 J",
+        "110 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 120 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "220 J",
+        "400 J",
+        "190 J",
+        "200 J"
+      ],
+      "answer": 3,
+      "explanation": "A = F*s = 200 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "1,0 J",
+        "7,0 J",
+        "2,0 J",
+        "4,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "14,0 J",
+        "9,0 J",
+        "18,0 J",
+        "4,5 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "24,0 J",
+        "12,0 J",
+        "29,0 J",
+        "48,0 J"
+      ],
+      "answer": 0,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "55,0 J",
+        "100,0 J",
+        "25,0 J",
+        "50,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v8</span>",
+      "choices": [
+        "100 J",
+        "50 J",
+        "30 J",
+        "100 J​"
+      ],
+      "answer": 1,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v9</span>",
+      "choices": [
+        "100 J",
+        "240 J",
+        "120 J",
+        "170 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v10</span>",
+      "choices": [
+        "420 J",
+        "260 J",
+        "210 J",
+        "190 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v11</span>",
+      "choices": [
+        "370 J",
+        "640 J",
+        "300 J",
+        "320 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "20000 J",
+        "1000,0 J",
+        "10 J",
+        "10000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "30000 J",
+        "15 J",
+        "1500,0 J",
+        "15000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "2000,0 J",
+        "20000 J",
+        "20 J",
+        "40000 J"
+      ],
+      "answer": 1,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "25000 J",
+        "2500,0 J",
+        "50000 J",
+        "25 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "40 J​",
+        "40 J",
+        "10 J",
+        "20 J"
+      ],
+      "answer": 3,
+      "explanation": "A = F*s = 20 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "120 J",
+        "80 J",
+        "60 J",
+        "50 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 60 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "110 J",
+        "240 J",
+        "120 J",
+        "140 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 120 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "220 J",
+        "200 J",
+        "190 J",
+        "400 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 200 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "7,0 J",
+        "2,0 J",
+        "4,0 J",
+        "1,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "18,0 J",
+        "14,0 J",
+        "4,5 J",
+        "9,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "29,0 J",
+        "24,0 J",
+        "12,0 J",
+        "48,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "55,0 J",
+        "50,0 J",
+        "100,0 J",
+        "25,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v24</span>",
+      "choices": [
+        "100 J",
+        "100 J​",
+        "30 J",
+        "50 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v25</span>",
+      "choices": [
+        "100 J",
+        "170 J",
+        "120 J",
+        "240 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v26</span>",
+      "choices": [
+        "260 J",
+        "420 J",
+        "190 J",
+        "210 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v27</span>",
+      "choices": [
+        "370 J",
+        "640 J",
+        "300 J",
+        "320 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "10000 J",
+        "20000 J",
+        "10 J",
+        "1000,0 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "15 J",
+        "30000 J",
+        "1500,0 J",
+        "15000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "2000,0 J",
+        "20000 J",
+        "20 J",
+        "40000 J"
+      ],
+      "answer": 1,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "25000 J",
+        "2500,0 J",
+        "25 J",
+        "50000 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "10 J",
+        "20 J",
+        "40 J",
+        "40 J​"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 20 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "60 J",
+        "50 J",
+        "80 J",
+        "120 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 60 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "240 J",
+        "110 J",
+        "120 J",
+        "140 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 120 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "190 J",
+        "200 J",
+        "400 J",
+        "220 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 200 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "1,0 J",
+        "7,0 J",
+        "2,0 J",
+        "4,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "18,0 J",
+        "14,0 J",
+        "9,0 J",
+        "4,5 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "29,0 J",
+        "24,0 J",
+        "48,0 J",
+        "12,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "55,0 J",
+        "25,0 J",
+        "50,0 J",
+        "100,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v40</span>",
+      "choices": [
+        "100 J",
+        "30 J",
+        "100 J​",
+        "50 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v41</span>",
+      "choices": [
+        "170 J",
+        "120 J",
+        "100 J",
+        "240 J"
+      ],
+      "answer": 1,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v42</span>",
+      "choices": [
+        "210 J",
+        "260 J",
+        "190 J",
+        "420 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v43</span>",
+      "choices": [
+        "320 J",
+        "640 J",
+        "300 J",
+        "370 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "10000 J",
+        "1000,0 J",
+        "10 J",
+        "20000 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "15000 J",
+        "15 J",
+        "1500,0 J",
+        "30000 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "20000 J",
+        "20 J",
+        "40000 J",
+        "2000,0 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "2500,0 J",
+        "25 J",
+        "50000 J",
+        "25000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "40 J​",
+        "10 J",
+        "20 J",
+        "40 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 20 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "60 J",
+        "80 J",
+        "120 J",
+        "50 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 60 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "240 J",
+        "140 J",
+        "120 J",
+        "110 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 120 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "200 J",
+        "190 J",
+        "220 J",
+        "400 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 200 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "1,0 J",
+        "4,0 J",
+        "7,0 J",
+        "2,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "18,0 J",
+        "14,0 J",
+        "9,0 J",
+        "4,5 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "48,0 J",
+        "29,0 J",
+        "12,0 J",
+        "24,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "50,0 J",
+        "100,0 J",
+        "55,0 J",
+        "25,0 J"
+      ],
+      "answer": 0,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v56</span>",
+      "choices": [
+        "50 J",
+        "30 J",
+        "100 J",
+        "100 J​"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v57</span>",
+      "choices": [
+        "100 J",
+        "240 J",
+        "120 J",
+        "170 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v58</span>",
+      "choices": [
+        "210 J",
+        "190 J",
+        "260 J",
+        "420 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v59</span>",
+      "choices": [
+        "640 J",
+        "320 J",
+        "370 J",
+        "300 J"
+      ],
+      "answer": 1,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "10000 J",
+        "1000,0 J",
+        "20000 J",
+        "10 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "1500,0 J",
+        "15 J",
+        "15000 J",
+        "30000 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "2000,0 J",
+        "20 J",
+        "40000 J",
+        "20000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "25 J",
+        "2500,0 J",
+        "50000 J",
+        "25000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "40 J​",
+        "10 J",
+        "20 J",
+        "40 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 20 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "60 J",
+        "50 J",
+        "120 J",
+        "80 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 60 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "240 J",
+        "120 J",
+        "140 J",
+        "110 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 120 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "200 J",
+        "190 J",
+        "220 J",
+        "400 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 200 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "7,0 J",
+        "2,0 J",
+        "1,0 J",
+        "4,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "14,0 J",
+        "18,0 J",
+        "4,5 J",
+        "9,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "29,0 J",
+        "48,0 J",
+        "12,0 J",
+        "24,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "25,0 J",
+        "100,0 J",
+        "55,0 J",
+        "50,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v72</span>",
+      "choices": [
+        "50 J",
+        "100 J",
+        "30 J",
+        "100 J​"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v73</span>",
+      "choices": [
+        "120 J",
+        "240 J",
+        "100 J",
+        "170 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v74</span>",
+      "choices": [
+        "190 J",
+        "420 J",
+        "260 J",
+        "210 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v75</span>",
+      "choices": [
+        "370 J",
+        "320 J",
+        "640 J",
+        "300 J"
+      ],
+      "answer": 1,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "10 J",
+        "20000 J",
+        "1000,0 J",
+        "10000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "15 J",
+        "1500,0 J",
+        "30000 J",
+        "15000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "40000 J",
+        "2000,0 J",
+        "20000 J",
+        "20 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "25 J",
+        "50000 J",
+        "25000 J",
+        "2500,0 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "20 J",
+        "40 J",
+        "10 J",
+        "40 J​"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 20 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "50 J",
+        "120 J",
+        "80 J",
+        "60 J"
+      ],
+      "answer": 3,
+      "explanation": "A = F*s = 60 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "140 J",
+        "240 J",
+        "120 J",
+        "110 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 120 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "190 J",
+        "400 J",
+        "220 J",
+        "200 J"
+      ],
+      "answer": 3,
+      "explanation": "A = F*s = 200 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "2,0 J",
+        "4,0 J",
+        "1,0 J",
+        "7,0 J"
+      ],
+      "answer": 0,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "4,5 J",
+        "14,0 J",
+        "9,0 J",
+        "18,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "29,0 J",
+        "12,0 J",
+        "48,0 J",
+        "24,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "25,0 J",
+        "55,0 J",
+        "50,0 J",
+        "100,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v88</span>",
+      "choices": [
+        "100 J​",
+        "100 J",
+        "30 J",
+        "50 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v89</span>",
+      "choices": [
+        "240 J",
+        "120 J",
+        "100 J",
+        "170 J"
+      ],
+      "answer": 1,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v90</span>",
+      "choices": [
+        "210 J",
+        "190 J",
+        "420 J",
+        "260 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v91</span>",
+      "choices": [
+        "300 J",
+        "370 J",
+        "320 J",
+        "640 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "10000 J",
+        "1000,0 J",
+        "20000 J",
+        "10 J"
+      ],
+      "answer": 0,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "30000 J",
+        "15 J",
+        "15000 J",
+        "1500,0 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "20 J",
+        "20000 J",
+        "40000 J",
+        "2000,0 J"
+      ],
+      "answer": 1,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "50000 J",
+        "2500,0 J",
+        "25 J",
+        "25000 J"
+      ],
+      "answer": 3,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "10 J",
+        "40 J​",
+        "20 J",
+        "40 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 20 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "120 J",
+        "50 J",
+        "60 J",
+        "80 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 60 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "110 J",
+        "140 J",
+        "240 J",
+        "120 J"
+      ],
+      "answer": 3,
+      "explanation": "A = F*s = 120 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "190 J",
+        "200 J",
+        "400 J",
+        "220 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 200 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "1,0 J",
+        "7,0 J",
+        "4,0 J",
+        "2,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "14,0 J",
+        "18,0 J",
+        "4,5 J",
+        "9,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "12,0 J",
+        "29,0 J",
+        "48,0 J",
+        "24,0 J"
+      ],
+      "answer": 3,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "100,0 J",
+        "50,0 J",
+        "25,0 J",
+        "55,0 J"
+      ],
+      "answer": 1,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Thế năng trọng trường của vật m = 1 kg ở độ cao h = 5 m là (g=10): <span style=\"display:none\">v104</span>",
+      "choices": [
+        "30 J",
+        "100 J​",
+        "100 J",
+        "50 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 50 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Thế năng trọng trường của vật m = 2 kg ở độ cao h = 6 m là (g=10): <span style=\"display:none\">v105</span>",
+      "choices": [
+        "120 J",
+        "240 J",
+        "170 J",
+        "100 J"
+      ],
+      "answer": 0,
+      "explanation": "Wt = m*g*h = 120 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Thế năng trọng trường của vật m = 3 kg ở độ cao h = 7 m là (g=10): <span style=\"display:none\">v106</span>",
+      "choices": [
+        "190 J",
+        "420 J",
+        "210 J",
+        "260 J"
+      ],
+      "answer": 2,
+      "explanation": "Wt = m*g*h = 210 J.",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Thế năng trọng trường của vật m = 4 kg ở độ cao h = 8 m là (g=10): <span style=\"display:none\">v107</span>",
+      "choices": [
+        "640 J",
+        "300 J",
+        "370 J",
+        "320 J"
+      ],
+      "answer": 3,
+      "explanation": "Wt = m*g*h = 320 J.",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Động cơ công suất P = 2 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "1000,0 J",
+        "20000 J",
+        "10000 J",
+        "10 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 2*1000*5 = 10000 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Động cơ công suất P = 3 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "15 J",
+        "15000 J",
+        "1500,0 J",
+        "30000 J"
+      ],
+      "answer": 1,
+      "explanation": "A = P*t = 3*1000*5 = 15000 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Động cơ công suất P = 4 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "2000,0 J",
+        "20 J",
+        "20000 J",
+        "40000 J"
+      ],
+      "answer": 2,
+      "explanation": "A = P*t = 4*1000*5 = 20000 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Động cơ công suất P = 5 kW hoạt động trong 5 s. Công thực hiện là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "25 J",
+        "25000 J",
+        "2500,0 J",
+        "50000 J"
+      ],
+      "answer": 1,
+      "explanation": "A = P*t = 5*1000*5 = 25000 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Lực F = 10 N kéo vật dịch chuyển s = 2 m theo hướng của lực. Công A là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "40 J",
+        "40 J​",
+        "20 J",
+        "10 J"
+      ],
+      "answer": 2,
+      "explanation": "A = F*s = 20 J.",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Lực F = 20 N kéo vật dịch chuyển s = 3 m theo hướng của lực. Công A là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "120 J",
+        "60 J",
+        "50 J",
+        "80 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 60 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Lực F = 30 N kéo vật dịch chuyển s = 4 m theo hướng của lực. Công A là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "120 J",
+        "140 J",
+        "110 J",
+        "240 J"
+      ],
+      "answer": 0,
+      "explanation": "A = F*s = 120 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Lực F = 40 N kéo vật dịch chuyển s = 5 m theo hướng của lực. Công A là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "220 J",
+        "200 J",
+        "400 J",
+        "190 J"
+      ],
+      "answer": 1,
+      "explanation": "A = F*s = 200 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Động năng của vật m = 1 kg đang chuyển động với vận tốc v = 2 m/s là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "1,0 J",
+        "7,0 J",
+        "2,0 J",
+        "4,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 2,0 J.",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Động năng của vật m = 2 kg đang chuyển động với vận tốc v = 3 m/s là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "9,0 J",
+        "14,0 J",
+        "18,0 J",
+        "4,5 J"
+      ],
+      "answer": 0,
+      "explanation": "Wd = 1/2*m*v^2 = 9,0 J.",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Động năng của vật m = 3 kg đang chuyển động với vận tốc v = 4 m/s là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "12,0 J",
+        "48,0 J",
+        "24,0 J",
+        "29,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 24,0 J.",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Động năng của vật m = 4 kg đang chuyển động với vận tốc v = 5 m/s là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "25,0 J",
+        "55,0 J",
+        "50,0 J",
+        "100,0 J"
+      ],
+      "answer": 2,
+      "explanation": "Wd = 1/2*m*v^2 = 50,0 J.",
+      "level": "vd",
+      "lesson": "b10"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v0</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v1</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v2</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v3</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v4</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v5</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v6</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v7</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v8</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v9</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v10</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v11</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v12</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v13</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v14</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v15</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v16</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v17</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v18</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v19</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v20</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v21</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v22</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v23</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v24</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v25</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v26</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v27</span>",
+      "answer": "50",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b9"
+    },
+    {
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v28</span>",
+      "answer": "100",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b10"
+    },
+    {
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v29</span>",
+      "answer": "150",
+      "tolerance": 0,
+      "unit": "J",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b9"
+    }
+  ]
+}

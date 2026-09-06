@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Mô tả chuyển động",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Vận tốc & Độ dịch chuyển"
+    },
+    {
+      "lesson_id": "b4",
+      "sgk_title": "Bài 4. Chuyển động thẳng biến đổi đều"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "15 m",
+        "20 m",
+        "40 m",
+        "30 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 20 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "66 m",
+        "43 m",
+        "28 m",
+        "33 m"
+      ],
+      "answer": 3,
+      "explanation": "s = v*t = 33 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "43 m",
+        "48 m",
+        "58 m",
+        "96 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 48 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "130 m",
+        "65 m",
+        "60 m",
+        "75 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 65 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "14 m/s",
+        "5 m/s",
+        "7 m/s",
+        "11 m/s"
+      ],
+      "answer": 2,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "14 m/s",
+        "8 m/s",
+        "20 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "13 m/s",
+        "11 m/s",
+        "17 m/s",
+        "26 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "14 m/s",
+        "16 m/s",
+        "32 m/s",
+        "20 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "16,0 m​",
+        "4,0 m",
+        "8,0 m",
+        "16,0 m"
+      ],
+      "answer": 2,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "36,0 m",
+        "26,0 m",
+        "9,0 m",
+        "18,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "64,0 m",
+        "32,0 m",
+        "40,0 m",
+        "16,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "100,0 m",
+        "50,0 m",
+        "58,0 m",
+        "25,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "90,0 m",
+        "65,0 m",
+        "75,0 m",
+        "150,0 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "121,25 m",
+        "262,5 m",
+        "146,25 m",
+        "131,25 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "190,0 m",
+        "215,0 m",
+        "400,0 m",
+        "200,0 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "562,5 m",
+        "296,25 m",
+        "281,25 m",
+        "271,25 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "40 m",
+        "30 m",
+        "20 m",
+        "15 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 20 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "28 m",
+        "66 m",
+        "43 m",
+        "33 m"
+      ],
+      "answer": 3,
+      "explanation": "s = v*t = 33 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "58 m",
+        "43 m",
+        "48 m",
+        "96 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 48 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "65 m",
+        "75 m",
+        "130 m",
+        "60 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 65 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "7 m/s",
+        "11 m/s",
+        "5 m/s",
+        "14 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "20 m/s",
+        "14 m/s",
+        "8 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "26 m/s",
+        "11 m/s",
+        "13 m/s",
+        "17 m/s"
+      ],
+      "answer": 2,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "16 m/s",
+        "32 m/s",
+        "20 m/s",
+        "14 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "16,0 m",
+        "8,0 m",
+        "4,0 m",
+        "16,0 m​"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "18,0 m",
+        "9,0 m",
+        "36,0 m",
+        "26,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "32,0 m",
+        "40,0 m",
+        "64,0 m",
+        "16,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "25,0 m",
+        "50,0 m",
+        "100,0 m",
+        "58,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "65,0 m",
+        "150,0 m",
+        "90,0 m",
+        "75,0 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "121,25 m",
+        "131,25 m",
+        "146,25 m",
+        "262,5 m"
+      ],
+      "answer": 1,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "200,0 m",
+        "400,0 m",
+        "190,0 m",
+        "215,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "281,25 m",
+        "296,25 m",
+        "562,5 m",
+        "271,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "20 m",
+        "40 m",
+        "30 m",
+        "15 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 20 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "66 m",
+        "33 m",
+        "28 m",
+        "43 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 33 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "43 m",
+        "58 m",
+        "96 m",
+        "48 m"
+      ],
+      "answer": 3,
+      "explanation": "s = v*t = 48 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "75 m",
+        "60 m",
+        "65 m",
+        "130 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 65 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "14 m/s",
+        "11 m/s",
+        "5 m/s",
+        "7 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "14 m/s",
+        "20 m/s",
+        "10 m/s",
+        "8 m/s"
+      ],
+      "answer": 2,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "13 m/s",
+        "11 m/s",
+        "17 m/s",
+        "26 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "16 m/s",
+        "20 m/s",
+        "32 m/s",
+        "14 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "4,0 m",
+        "8,0 m",
+        "16,0 m",
+        "16,0 m​"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "9,0 m",
+        "18,0 m",
+        "26,0 m",
+        "36,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "64,0 m",
+        "40,0 m",
+        "16,0 m",
+        "32,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "25,0 m",
+        "100,0 m",
+        "58,0 m",
+        "50,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "75,0 m",
+        "65,0 m",
+        "90,0 m",
+        "150,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "121,25 m",
+        "262,5 m",
+        "131,25 m",
+        "146,25 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "400,0 m",
+        "200,0 m",
+        "190,0 m",
+        "215,0 m"
+      ],
+      "answer": 1,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "281,25 m",
+        "296,25 m",
+        "562,5 m",
+        "271,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "30 m",
+        "20 m",
+        "15 m",
+        "40 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 20 m.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "66 m",
+        "28 m",
+        "33 m",
+        "43 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 33 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "48 m",
+        "43 m",
+        "58 m",
+        "96 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 48 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "130 m",
+        "75 m",
+        "65 m",
+        "60 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 65 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "7 m/s",
+        "5 m/s",
+        "14 m/s",
+        "11 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "10 m/s",
+        "14 m/s",
+        "20 m/s",
+        "8 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "13 m/s",
+        "17 m/s",
+        "26 m/s",
+        "11 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "32 m/s",
+        "20 m/s",
+        "16 m/s",
+        "14 m/s"
+      ],
+      "answer": 2,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "4,0 m",
+        "16,0 m",
+        "8,0 m",
+        "16,0 m​"
+      ],
+      "answer": 2,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "26,0 m",
+        "36,0 m",
+        "18,0 m",
+        "9,0 m"
+      ],
+      "answer": 2,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "32,0 m",
+        "40,0 m",
+        "16,0 m",
+        "64,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "100,0 m",
+        "50,0 m",
+        "58,0 m",
+        "25,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "65,0 m",
+        "90,0 m",
+        "150,0 m",
+        "75,0 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "131,25 m",
+        "146,25 m",
+        "262,5 m",
+        "121,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "400,0 m",
+        "190,0 m",
+        "200,0 m",
+        "215,0 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "562,5 m",
+        "271,25 m",
+        "296,25 m",
+        "281,25 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "15 m",
+        "40 m",
+        "20 m",
+        "30 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 20 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "33 m",
+        "43 m",
+        "66 m",
+        "28 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 33 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "43 m",
+        "58 m",
+        "48 m",
+        "96 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 48 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "130 m",
+        "65 m",
+        "60 m",
+        "75 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 65 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "7 m/s",
+        "5 m/s",
+        "14 m/s",
+        "11 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "14 m/s",
+        "10 m/s",
+        "8 m/s",
+        "20 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "26 m/s",
+        "17 m/s",
+        "13 m/s",
+        "11 m/s"
+      ],
+      "answer": 2,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "20 m/s",
+        "16 m/s",
+        "32 m/s",
+        "14 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "8,0 m",
+        "16,0 m​",
+        "16,0 m",
+        "4,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "36,0 m",
+        "26,0 m",
+        "9,0 m",
+        "18,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "32,0 m",
+        "40,0 m",
+        "64,0 m",
+        "16,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "100,0 m",
+        "25,0 m",
+        "58,0 m",
+        "50,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "65,0 m",
+        "90,0 m",
+        "75,0 m",
+        "150,0 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "262,5 m",
+        "131,25 m",
+        "121,25 m",
+        "146,25 m"
+      ],
+      "answer": 1,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "200,0 m",
+        "215,0 m",
+        "190,0 m",
+        "400,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "271,25 m",
+        "562,5 m",
+        "281,25 m",
+        "296,25 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "20 m",
+        "15 m",
+        "30 m",
+        "40 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 20 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "66 m",
+        "28 m",
+        "33 m",
+        "43 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 33 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "43 m",
+        "58 m",
+        "96 m",
+        "48 m"
+      ],
+      "answer": 3,
+      "explanation": "s = v*t = 48 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "130 m",
+        "65 m",
+        "75 m",
+        "60 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 65 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "7 m/s",
+        "14 m/s",
+        "11 m/s",
+        "5 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "20 m/s",
+        "8 m/s",
+        "14 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "13 m/s",
+        "17 m/s",
+        "26 m/s",
+        "11 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "16 m/s",
+        "32 m/s",
+        "14 m/s",
+        "20 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "16,0 m",
+        "8,0 m",
+        "4,0 m",
+        "16,0 m​"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "26,0 m",
+        "18,0 m",
+        "36,0 m",
+        "9,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "40,0 m",
+        "64,0 m",
+        "16,0 m",
+        "32,0 m"
+      ],
+      "answer": 3,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "25,0 m",
+        "50,0 m",
+        "58,0 m",
+        "100,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "75,0 m",
+        "90,0 m",
+        "150,0 m",
+        "65,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "131,25 m",
+        "146,25 m",
+        "262,5 m",
+        "121,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "190,0 m",
+        "215,0 m",
+        "200,0 m",
+        "400,0 m"
+      ],
+      "answer": 2,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "281,25 m",
+        "271,25 m",
+        "562,5 m",
+        "296,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "40 m",
+        "15 m",
+        "30 m",
+        "20 m"
+      ],
+      "answer": 3,
+      "explanation": "s = v*t = 20 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "28 m",
+        "43 m",
+        "33 m",
+        "66 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 33 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "96 m",
+        "48 m",
+        "58 m",
+        "43 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 48 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "65 m",
+        "130 m",
+        "60 m",
+        "75 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 65 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "5 m/s",
+        "7 m/s",
+        "11 m/s",
+        "14 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "20 m/s",
+        "8 m/s",
+        "14 m/s",
+        "10 m/s"
+      ],
+      "answer": 3,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "13 m/s",
+        "17 m/s",
+        "11 m/s",
+        "26 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "14 m/s",
+        "16 m/s",
+        "20 m/s",
+        "32 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 2 s là: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "8,0 m",
+        "4,0 m",
+        "16,0 m",
+        "16,0 m​"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 8,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 3 s là: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "36,0 m",
+        "18,0 m",
+        "9,0 m",
+        "26,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 18,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 4 s là: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "32,0 m",
+        "40,0 m",
+        "64,0 m",
+        "16,0 m"
+      ],
+      "answer": 0,
+      "explanation": "d = 1/2*a*t^2 = 32,0 m.",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Một vật bắt đầu chuyển động nhanh dần đều từ trạng thái nghỉ với gia tốc a = 4 m/s^2. Độ dịch chuyển d sau 5 s là: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "58,0 m",
+        "50,0 m",
+        "25,0 m",
+        "100,0 m"
+      ],
+      "answer": 1,
+      "explanation": "d = 1/2*a*t^2 = 50,0 m.",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 20 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "75,0 m",
+        "90,0 m",
+        "150,0 m",
+        "65,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 20^2) / (2*-2) = 75,0 m.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 25 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "131,25 m",
+        "121,25 m",
+        "262,5 m",
+        "146,25 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 25^2) / (2*-2) = 131,25 m.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 30 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "200,0 m",
+        "400,0 m",
+        "215,0 m",
+        "190,0 m"
+      ],
+      "answer": 0,
+      "explanation": "(10^2 - 30^2) / (2*-2) = 200,0 m.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Một ô tô hãm phanh chậm dần đều từ v_0 = 35 m/s xuống v = 10 m/s với a = -2 m/s^2. Quãng đường đi được là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "296,25 m",
+        "271,25 m",
+        "562,5 m",
+        "281,25 m"
+      ],
+      "answer": 3,
+      "explanation": "(10^2 - 35^2) / (2*-2) = 281,25 m.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 10 m/s. Quãng đường ô tô đi được trong 2 s là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "20 m",
+        "40 m",
+        "30 m",
+        "15 m"
+      ],
+      "answer": 0,
+      "explanation": "s = v*t = 20 m.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 11 m/s. Quãng đường ô tô đi được trong 3 s là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "66 m",
+        "28 m",
+        "33 m",
+        "43 m"
+      ],
+      "answer": 2,
+      "explanation": "s = v*t = 33 m.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 12 m/s. Quãng đường ô tô đi được trong 4 s là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "96 m",
+        "48 m",
+        "43 m",
+        "58 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 48 m.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một ô tô chuyển động thẳng đều với vận tốc v = 13 m/s. Quãng đường ô tô đi được trong 5 s là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "60 m",
+        "65 m",
+        "75 m",
+        "130 m"
+      ],
+      "answer": 1,
+      "explanation": "s = v*t = 65 m.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Một xe máy đang chạy với vận tốc 5 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 1 s là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "7 m/s",
+        "5 m/s",
+        "14 m/s",
+        "11 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 7 m/s.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Một xe máy đang chạy với vận tốc 6 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 2 s là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "14 m/s",
+        "10 m/s",
+        "20 m/s",
+        "8 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 10 m/s.",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Một xe máy đang chạy với vận tốc 7 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 3 s là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "13 m/s",
+        "17 m/s",
+        "11 m/s",
+        "26 m/s"
+      ],
+      "answer": 0,
+      "explanation": "v = v_0 + a*t = 13 m/s.",
+      "level": "vd",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Một xe máy đang chạy với vận tốc 8 m/s thì tăng tốc với gia tốc a = 2 m/s^2. Vận tốc xe sau 4 s là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "32 m/s",
+        "16 m/s",
+        "14 m/s",
+        "20 m/s"
+      ],
+      "answer": 1,
+      "explanation": "v = v_0 + a*t = 16 m/s.",
+      "level": "vd",
+      "lesson": "b3"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v0</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v1</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v2</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v3</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v4</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v5</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v6</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v7</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v8</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v9</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v10</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v11</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v12</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v13</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v14</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v15</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v16</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v17</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v18</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v19</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v20</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v21</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v22</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v23</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b4"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v24</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v25</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v26</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v27</span>",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v28</span>",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b3"
+    },
+    {
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v29</span>",
+      "answer": "44",
+      "tolerance": 0,
+      "unit": "m",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b4"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "chapterId": "c2",
-  "title": "Bảng tuần hoàn các nguyên tố hóa học",
+  "title": "Bảng tuần hoàn các nguyên tố",
   "lessons": [
     {
       "id": "b3",
-      "title": "Bài 3. Bảng tuần hoàn các nguyên tố",
+      "title": "Bài 3. Cấu tạo Bảng tuần hoàn",
       "blocks": [
         {
           "type": "heading",

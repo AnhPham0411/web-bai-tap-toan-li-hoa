@@ -1,0 +1,2004 @@
+{
+  "sgk_chapter_title": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b12",
+      "sgk_title": "Bài 12. Số gần đúng và sai số"
+    },
+    {
+      "lesson_id": "b13",
+      "sgk_title": "Bài 13. Các số đặc trưng đo xu thế trung tâm"
+    },
+    {
+      "lesson_id": "b14",
+      "sgk_title": "Bài 14. Các số đặc trưng đo độ phân tán"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Số trung bình (Nhóm 1)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "0",
+        "2",
+        "1",
+        "0​"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 1)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "2",
+        "3",
+        "3​",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 1)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 1)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "3",
+        "9",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 2)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "0​",
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 2)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "3​"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 2)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "3",
+        "6",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 2)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "3",
+        "5",
+        "9",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 3)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "0​"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 3)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "3",
+        "3​",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 3)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 3)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "3",
+        "9",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 4)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "0​",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 4)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "3​",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 4)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "4",
+        "3",
+        "2",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 4)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "4",
+        "5",
+        "9",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 5)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "0​",
+        "0",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 5)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "3​",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 5)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "4",
+        "6",
+        "3",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 5)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 6)",
+      "question": "Số trung bình cộng của 0, 1, 2 là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "0​"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 6)",
+      "question": "Số trung bình cộng của 1, 2, 3 là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "3",
+        "1",
+        "3​",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 6)",
+      "question": "Số trung bình cộng của 2, 3, 4 là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Số trung bình (Nhóm 6)",
+      "question": "Số trung bình cộng của 3, 4, 5 là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Số ở giữa trong cấp số cộng.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Trung vị (Nhóm 7)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "2",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 7)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "7",
+        "3",
+        "5",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 7)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "4",
+        "10",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 7)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "5",
+        "11",
+        "9",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 8)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 8)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "3",
+        "9",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 8)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "8",
+        "6",
+        "4",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 8)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "7",
+        "9",
+        "5",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 9)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "6",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Trung vị (Nhóm 9)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "5",
+        "7",
+        "3",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 9)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "10",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 9)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "9",
+        "7",
+        "11",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 10)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "8",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 10)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "7",
+        "3",
+        "5",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 10)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 10)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "5",
+        "11",
+        "7",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 11)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "2",
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 11)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 11)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Trung vị (Nhóm 11)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "7",
+        "11",
+        "9",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 12)",
+      "question": "Trung vị của mẫu 0, 2, 4, 6, 8 là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "4",
+        "6",
+        "2",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Trung vị (Nhóm 12)",
+      "question": "Trung vị của mẫu 1, 3, 5, 7, 9 là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "5",
+        "3",
+        "7",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 12)",
+      "question": "Trung vị của mẫu 2, 4, 6, 8, 10 là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "6",
+        "4",
+        "10",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Trung vị (Nhóm 12)",
+      "question": "Trung vị của mẫu 3, 5, 7, 9, 11 là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "9",
+        "5",
+        "11",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Số ở chính giữa.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 13)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "Không có",
+        "2",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 13)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "2",
+        "1",
+        "Không có",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 13)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "Không có",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 13)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "Không có"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Mốt (Nhóm 14)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "Không có",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Mốt (Nhóm 14)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "3",
+        "1",
+        "2",
+        "Không có"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 14)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "4",
+        "2",
+        "Không có",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 14)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "Không có"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 15)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "1",
+        "2",
+        "0",
+        "Không có"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Mốt (Nhóm 15)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "3",
+        "Không có",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 15)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "Không có"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 15)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "Không có",
+        "4",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 16)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "1",
+        "2",
+        "Không có",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 16)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "3",
+        "1",
+        "2",
+        "Không có"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 16)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "4",
+        "2",
+        "Không có",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 16)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "3",
+        "5",
+        "Không có",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 17)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "Không có",
+        "2",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 17)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "2",
+        "3",
+        "Không có",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 17)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "Không có",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 17)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "Không có"
+      ],
+      "answer": 0,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 18)",
+      "question": "Mốt của mẫu 0, 1, 1, 2 là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "0",
+        "1",
+        "Không có",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Mốt (Nhóm 18)",
+      "question": "Mốt của mẫu 1, 2, 2, 3 là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "1",
+        "3",
+        "Không có",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Mốt (Nhóm 18)",
+      "question": "Mốt của mẫu 2, 3, 3, 4 là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "2",
+        "4",
+        "Không có",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Mốt (Nhóm 18)",
+      "question": "Mốt của mẫu 3, 4, 4, 5 là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "Không có",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Xuất hiện nhiều nhất.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 19)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "6",
+        "3",
+        "9",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 19)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "6",
+        "2",
+        "9",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 19)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "9",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 19)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "3",
+        "6",
+        "2",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 20)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "3",
+        "2",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 20)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "3",
+        "9",
+        "2",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 20)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "2",
+        "9",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 20)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "3",
+        "2",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 21)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "6",
+        "3",
+        "9",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 21)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "9",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 21)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "3",
+        "2",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 21)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "9",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 22)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "6",
+        "9",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 22)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 22)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "3",
+        "2",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 22)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 23)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "2",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 23)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "2",
+        "6",
+        "9",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 23)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "6",
+        "9",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 23)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "9",
+        "3",
+        "6",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 24)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "6",
+        "9",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 24)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 24)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "3",
+        "6",
+        "2",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 24)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "2",
+        "9",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 25)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "9",
+        "2",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 25)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "2",
+        "9",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 25)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "9",
+        "3",
+        "2",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 25)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "9",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 26)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "2",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 26)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "3",
+        "9",
+        "2",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 26)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "2",
+        "3",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 26)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "9",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 27)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "9",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 27)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 27)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "9",
+        "2",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 27)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "2",
+        "9",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Max - Min = 6.",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 28)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "9",
+        "2",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 28)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "3",
+        "6",
+        "9",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 28)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "9",
+        "3",
+        "6",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 28)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "3",
+        "6",
+        "9",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 29)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "3",
+        "2",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 29)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "2",
+        "6",
+        "9",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 29)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "6",
+        "3",
+        "9",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 29)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "3",
+        "6",
+        "2",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 30)",
+      "question": "Khoảng biến thiên của mẫu 0, 3, 6 là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 30)",
+      "question": "Khoảng biến thiên của mẫu 1, 4, 7 là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "6",
+        "3",
+        "9",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 30)",
+      "question": "Khoảng biến thiên của mẫu 2, 5, 8 là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "2",
+        "9",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Khoảng biến thiên (Nhóm 30)",
+      "question": "Khoảng biến thiên của mẫu 3, 6, 9 là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Max - Min = 6.",
+      "level": "vd",
+      "lesson": "b14"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v0</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v1</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v2</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v3</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v4</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v5</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v6</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v7</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v8</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v9</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v10</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v11</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v12</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v13</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v14</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "nb",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v15</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v16</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v17</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v18</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v19</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v20</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v21</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v22</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v23</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b13"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v24</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v25</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v26</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "th",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v27</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "vd",
+      "lesson": "b12"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v28</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "vd",
+      "lesson": "b14"
+    },
+    {
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v29</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Max - Min",
+      "level": "vd",
+      "lesson": "b14"
+    }
+  ]
+}

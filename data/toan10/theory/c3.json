@@ -6,7 +6,10 @@
       "id": "b5",
       "title": "Bài 5. Giá trị lượng giác của một góc từ 0° đến 180°",
       "blocks": [
-        { "type": "heading", "text": "1. Giá trị lượng giác của một góc" },
+        {
+          "type": "heading",
+          "text": "1. Giá trị lượng giác của một góc"
+        },
         {
           "type": "definition",
           "title": "Định nghĩa",
@@ -15,10 +18,22 @@
         {
           "type": "formula",
           "items": [
-            { "label": "sin α", "math": "sin α = y_{0}" },
-            { "label": "cos α", "math": "cos α = x_{0}" },
-            { "label": "tan α (x₀ ≠ 0)", "math": "tan α = \\frac{y_{0}}{x_{0}} = \\frac{sin α}{cos α}" },
-            { "label": "cot α (y₀ ≠ 0)", "math": "cot α = \\frac{x_{0}}{y_{0}} = \\frac{cos α}{sin α}" }
+            {
+              "label": "sin α",
+              "math": "sin α = y_{0}"
+            },
+            {
+              "label": "cos α",
+              "math": "cos α = x_{0}"
+            },
+            {
+              "label": "tan α (x₀ ≠ 0)",
+              "math": "tan α = \\frac{y_{0}}{x_{0}} = \\frac{sin α}{cos α}"
+            },
+            {
+              "label": "cot α (y₀ ≠ 0)",
+              "math": "cot α = \\frac{x_{0}}{y_{0}} = \\frac{cos α}{sin α}"
+            }
           ]
         },
         {
@@ -31,20 +46,84 @@
             "α = 90°: cos 90° = 0, tan 90° không xác định, cot 90° = 0."
           ]
         },
-        { "type": "heading", "text": "2. Giá trị lượng giác của các góc đặc biệt" },
+        {
+          "type": "heading",
+          "text": "2. Giá trị lượng giác của các góc đặc biệt"
+        },
         {
           "type": "table",
           "title": "Bảng giá trị lượng giác cần ghi nhớ",
-          "headers": ["α", "0°", "30°", "45°", "60°", "90°", "120°", "135°", "150°", "180°"],
+          "headers": [
+            "α",
+            "0°",
+            "30°",
+            "45°",
+            "60°",
+            "90°",
+            "120°",
+            "135°",
+            "150°",
+            "180°"
+          ],
           "rows": [
-            ["sin α", "0", "1/2", "√2/2", "√3/2", "1", "√3/2", "√2/2", "1/2", "0"],
-            ["cos α", "1", "√3/2", "√2/2", "1/2", "0", "−1/2", "−√2/2", "−√3/2", "−1"],
-            ["tan α", "0", "√3/3", "1", "√3", "‖", "−√3", "−1", "−√3/3", "0"],
-            ["cot α", "‖", "√3", "1", "√3/3", "0", "−√3/3", "−1", "−√3", "‖"]
+            [
+              "sin α",
+              "0",
+              "1/2",
+              "√2/2",
+              "√3/2",
+              "1",
+              "√3/2",
+              "√2/2",
+              "1/2",
+              "0"
+            ],
+            [
+              "cos α",
+              "1",
+              "√3/2",
+              "√2/2",
+              "1/2",
+              "0",
+              "−1/2",
+              "−√2/2",
+              "−√3/2",
+              "−1"
+            ],
+            [
+              "tan α",
+              "0",
+              "√3/3",
+              "1",
+              "√3",
+              "‖",
+              "−√3",
+              "−1",
+              "−√3/3",
+              "0"
+            ],
+            [
+              "cot α",
+              "‖",
+              "√3",
+              "1",
+              "√3/3",
+              "0",
+              "−√3/3",
+              "−1",
+              "−√3",
+              "‖"
+            ]
           ]
         },
-        { "type": "note", "content": "Kí hiệu ‖ nghĩa là giá trị không xác định." },
-        { "type": "heading", "text": "3. Quan hệ giữa hai góc bù nhau" },
+        {
+          "type": "note",
+          "content": "Kí hiệu ‖ nghĩa là giá trị không xác định."
+        },
+        {
+          "type": "heading",
+          "text": "3. Quan hệ giữa hai góc bù nhau"
+        },
         {
           "type": "theorem",
           "title": "Hai góc bù nhau",
@@ -55,14 +134,29 @@
           "question": "Tính sin 135°, cos 135°, tan 150°.",
           "solution": "sin 135° = sin(180° − 45°) = sin 45° = \\frac{\\sqrt{2}}{2}.\ncos 135° = −cos 45° = −\\frac{\\sqrt{2}}{2}.\ntan 150° = −tan 30° = −\\frac{\\sqrt{3}}{3}."
         },
-        { "type": "heading", "text": "4. Các hệ thức lượng giác cơ bản" },
+        {
+          "type": "heading",
+          "text": "4. Các hệ thức lượng giác cơ bản"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "Hệ thức Pythagore", "math": "sin^{2} α + cos^{2} α = 1" },
-            { "label": "Quan hệ tan · cot", "math": "tan α · cot α = 1" },
-            { "label": "", "math": "1 + tan^{2} α = \\frac{1}{cos^{2} α}" },
-            { "label": "", "math": "1 + cot^{2} α = \\frac{1}{sin^{2} α}" }
+            {
+              "label": "Hệ thức Pythagore",
+              "math": "sin^{2} α + cos^{2} α = 1"
+            },
+            {
+              "label": "Quan hệ tan · cot",
+              "math": "tan α · cot α = 1"
+            },
+            {
+              "label": "",
+              "math": "1 + tan^{2} α = \\frac{1}{cos^{2} α}"
+            },
+            {
+              "label": "",
+              "math": "1 + cot^{2} α = \\frac{1}{sin^{2} α}"
+            }
           ]
         },
         {
@@ -80,7 +174,10 @@
           "type": "note",
           "content": "Quy ước với tam giác ABC: BC = a, CA = b, AB = c; R là bán kính đường tròn ngoại tiếp, r là bán kính đường tròn nội tiếp, p = \\frac{a + b + c}{2} là nửa chu vi, S là diện tích, h_{a} là đường cao ứng với cạnh a."
         },
-        { "type": "heading", "text": "1. Định lí côsin" },
+        {
+          "type": "heading",
+          "text": "1. Định lí côsin"
+        },
         {
           "type": "theorem",
           "title": "Định lí côsin",
@@ -89,9 +186,18 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Hệ quả", "math": "cos A = \\frac{b^{2} + c^{2} − a^{2}}{2bc}" },
-            { "label": "", "math": "cos B = \\frac{a^{2} + c^{2} − b^{2}}{2ac}" },
-            { "label": "", "math": "cos C = \\frac{a^{2} + b^{2} − c^{2}}{2ab}" }
+            {
+              "label": "Hệ quả",
+              "math": "cos A = \\frac{b^{2} + c^{2} − a^{2}}{2bc}"
+            },
+            {
+              "label": "",
+              "math": "cos B = \\frac{a^{2} + c^{2} − b^{2}}{2ac}"
+            },
+            {
+              "label": "",
+              "math": "cos C = \\frac{a^{2} + b^{2} − c^{2}}{2ab}"
+            }
           ]
         },
         {
@@ -103,7 +209,10 @@
           "question": "Tam giác ABC có b = 5, c = 8, A = 60°. Tính a.",
           "solution": "a^{2} = b^{2} + c^{2} − 2bc·cos A = 25 + 64 − 2·5·8·\\frac{1}{2} = 89 − 40 = 49.\nVậy a = 7."
         },
-        { "type": "heading", "text": "2. Định lí sin" },
+        {
+          "type": "heading",
+          "text": "2. Định lí sin"
+        },
         {
           "type": "theorem",
           "title": "Định lí sin",
@@ -112,8 +221,14 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Hệ quả", "math": "a = 2R·sin A;  b = 2R·sin B;  c = 2R·sin C" },
-            { "label": "", "math": "sin A = \\frac{a}{2R};  R = \\frac{a}{2 sin A}" }
+            {
+              "label": "Hệ quả",
+              "math": "a = 2R·sin A;  b = 2R·sin B;  c = 2R·sin C"
+            },
+            {
+              "label": "",
+              "math": "sin A = \\frac{a}{2R};  R = \\frac{a}{2 sin A}"
+            }
           ]
         },
         {
@@ -125,15 +240,33 @@
           "question": "Tam giác ABC có a = 6, A = 30°. Tính bán kính R của đường tròn ngoại tiếp.",
           "solution": "2R = \\frac{a}{sin A} = \\frac{6}{1/2} = 12, suy ra R = 6."
         },
-        { "type": "heading", "text": "3. Các công thức tính diện tích tam giác" },
+        {
+          "type": "heading",
+          "text": "3. Các công thức tính diện tích tam giác"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "Theo đường cao", "math": "S = \\frac{1}{2} a·h_{a} = \\frac{1}{2} b·h_{b} = \\frac{1}{2} c·h_{c}" },
-            { "label": "Hai cạnh và góc xen giữa", "math": "S = \\frac{1}{2} bc·sin A = \\frac{1}{2} ac·sin B = \\frac{1}{2} ab·sin C" },
-            { "label": "Theo bán kính ngoại tiếp", "math": "S = \\frac{abc}{4R}" },
-            { "label": "Theo bán kính nội tiếp", "math": "S = p·r" },
-            { "label": "Công thức Heron", "math": "S = \\sqrt{p(p−a)(p−b)(p−c)}" }
+            {
+              "label": "Theo đường cao",
+              "math": "S = \\frac{1}{2} a·h_{a} = \\frac{1}{2} b·h_{b} = \\frac{1}{2} c·h_{c}"
+            },
+            {
+              "label": "Hai cạnh và góc xen giữa",
+              "math": "S = \\frac{1}{2} bc·sin A = \\frac{1}{2} ac·sin B = \\frac{1}{2} ab·sin C"
+            },
+            {
+              "label": "Theo bán kính ngoại tiếp",
+              "math": "S = \\frac{abc}{4R}"
+            },
+            {
+              "label": "Theo bán kính nội tiếp",
+              "math": "S = p·r"
+            },
+            {
+              "label": "Công thức Heron",
+              "math": "S = \\sqrt{p(p−a)(p−b)(p−c)}"
+            }
           ]
         },
         {
@@ -141,7 +274,10 @@
           "question": "Tam giác ABC có a = 13, b = 14, c = 15. Tính diện tích S và bán kính r.",
           "solution": "p = \\frac{13 + 14 + 15}{2} = 21.\nS = \\sqrt{21(21−13)(21−14)(21−15)} = \\sqrt{21·8·7·6} = \\sqrt{7056} = 84.\nr = \\frac{S}{p} = \\frac{84}{21} = 4."
         },
-        { "type": "heading", "text": "4. Giải tam giác và ứng dụng thực tế" },
+        {
+          "type": "heading",
+          "text": "4. Giải tam giác và ứng dụng thực tế"
+        },
         {
           "type": "text",
           "content": "Giải tam giác là tìm các cạnh và góc chưa biết khi đã biết một số yếu tố của tam giác. Ta chọn định lí phù hợp với dữ kiện:"
@@ -149,12 +285,27 @@
         {
           "type": "table",
           "title": "Chọn công cụ theo dữ kiện",
-          "headers": ["Biết trước", "Công cụ sử dụng"],
+          "headers": [
+            "Biết trước",
+            "Công cụ sử dụng"
+          ],
           "rows": [
-            ["Ba cạnh (c-c-c)", "Định lí côsin (hệ quả) để tính các góc"],
-            ["Hai cạnh và góc xen giữa (c-g-c)", "Định lí côsin tính cạnh thứ ba, rồi định lí sin"],
-            ["Một cạnh và hai góc (g-c-g)", "Tổng ba góc bằng 180°, rồi định lí sin"],
-            ["Hai cạnh và góc đối một cạnh", "Định lí sin"]
+            [
+              "Ba cạnh (c-c-c)",
+              "Định lí côsin (hệ quả) để tính các góc"
+            ],
+            [
+              "Hai cạnh và góc xen giữa (c-g-c)",
+              "Định lí côsin tính cạnh thứ ba, rồi định lí sin"
+            ],
+            [
+              "Một cạnh và hai góc (g-c-g)",
+              "Tổng ba góc bằng 180°, rồi định lí sin"
+            ],
+            [
+              "Hai cạnh và góc đối một cạnh",
+              "Định lí sin"
+            ]
           ]
         },
         {

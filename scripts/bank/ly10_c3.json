@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Chuyển động biến đổi",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b5",
+      "sgk_title": "Bài 5. Rơi tự do & Chuyển động ném"
+    },
+    {
+      "lesson_id": "b6",
+      "sgk_title": "Bài 6. Tổng hợp & Phân tích lực"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "9,8 m",
+        "4,9 m",
+        "2,45 m",
+        "9,9 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "24,6 m",
+        "19,6 m",
+        "9,8 m",
+        "39,2 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "22,05 m",
+        "44,1 m",
+        "88,2 m",
+        "49,1 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "156,8 m",
+        "39,2 m",
+        "83,4 m",
+        "78,4 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "30,0 m",
+        "40,0 m",
+        "15,0 m",
+        "20,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "22,0 m",
+        "32,0 m",
+        "44,0 m",
+        "17,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "24,0 m",
+        "19,0 m",
+        "34,0 m",
+        "48,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "21,0 m",
+        "26,0 m",
+        "52,0 m",
+        "36,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "70 N",
+        "10 N",
+        "50 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "500 N",
+        "90 N",
+        "64 N",
+        "10 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "500 N",
+        "10 N",
+        "78 N",
+        "110 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "500 N",
+        "130 N",
+        "10 N",
+        "92 N"
+      ],
+      "answer": 3,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Các lực bằng nhau",
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "2,45 m",
+        "9,9 m",
+        "4,9 m",
+        "9,8 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "9,8 m",
+        "19,6 m",
+        "39,2 m",
+        "24,6 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "88,2 m",
+        "49,1 m",
+        "44,1 m",
+        "22,05 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "78,4 m",
+        "83,4 m",
+        "156,8 m",
+        "39,2 m"
+      ],
+      "answer": 0,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "40,0 m",
+        "20,0 m",
+        "15,0 m",
+        "30,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "32,0 m",
+        "44,0 m",
+        "22,0 m",
+        "17,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "24,0 m",
+        "19,0 m",
+        "48,0 m",
+        "34,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "52,0 m",
+        "36,0 m",
+        "26,0 m",
+        "21,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "70 N",
+        "10 N",
+        "50 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "90 N",
+        "10 N",
+        "64 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "78 N",
+        "10 N",
+        "110 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "130 N",
+        "92 N",
+        "10 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "4,9 m",
+        "2,45 m",
+        "9,8 m",
+        "9,9 m"
+      ],
+      "answer": 0,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "24,6 m",
+        "39,2 m",
+        "9,8 m",
+        "19,6 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "22,05 m",
+        "44,1 m",
+        "49,1 m",
+        "88,2 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "83,4 m",
+        "78,4 m",
+        "156,8 m",
+        "39,2 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "30,0 m",
+        "20,0 m",
+        "15,0 m",
+        "40,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "44,0 m",
+        "17,0 m",
+        "32,0 m",
+        "22,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "34,0 m",
+        "19,0 m",
+        "48,0 m",
+        "24,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "36,0 m",
+        "26,0 m",
+        "52,0 m",
+        "21,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "10 N",
+        "70 N",
+        "50 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "90 N",
+        "500 N",
+        "64 N",
+        "10 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "110 N",
+        "78 N",
+        "10 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "10 N",
+        "92 N",
+        "500 N",
+        "130 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "4,9 m",
+        "9,8 m",
+        "9,9 m",
+        "2,45 m"
+      ],
+      "answer": 0,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "9,8 m",
+        "24,6 m",
+        "39,2 m",
+        "19,6 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "88,2 m",
+        "22,05 m",
+        "49,1 m",
+        "44,1 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "83,4 m",
+        "78,4 m",
+        "39,2 m",
+        "156,8 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "20,0 m",
+        "15,0 m",
+        "30,0 m",
+        "40,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "22,0 m",
+        "32,0 m",
+        "17,0 m",
+        "44,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "24,0 m",
+        "34,0 m",
+        "19,0 m",
+        "48,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "52,0 m",
+        "36,0 m",
+        "21,0 m",
+        "26,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "70 N",
+        "50 N",
+        "500 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "500 N",
+        "64 N",
+        "10 N",
+        "90 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "78 N",
+        "110 N",
+        "10 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "130 N",
+        "10 N",
+        "92 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không"
+      ],
+      "answer": 3,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "9,8 m",
+        "2,45 m",
+        "4,9 m",
+        "9,9 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "24,6 m",
+        "19,6 m",
+        "9,8 m",
+        "39,2 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "22,05 m",
+        "49,1 m",
+        "44,1 m",
+        "88,2 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "78,4 m",
+        "156,8 m",
+        "83,4 m",
+        "39,2 m"
+      ],
+      "answer": 0,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "30,0 m",
+        "40,0 m",
+        "15,0 m",
+        "20,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "32,0 m",
+        "44,0 m",
+        "22,0 m",
+        "17,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "34,0 m",
+        "19,0 m",
+        "24,0 m",
+        "48,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "21,0 m",
+        "36,0 m",
+        "52,0 m",
+        "26,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "10 N",
+        "50 N",
+        "500 N",
+        "70 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "64 N",
+        "90 N",
+        "500 N",
+        "10 N"
+      ],
+      "answer": 0,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "110 N",
+        "500 N",
+        "78 N",
+        "10 N"
+      ],
+      "answer": 2,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "130 N",
+        "10 N",
+        "500 N",
+        "92 N"
+      ],
+      "answer": 3,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Tổng các độ lớn bằng 0",
+        "Các lực bằng nhau"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "9,9 m",
+        "9,8 m",
+        "4,9 m",
+        "2,45 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "24,6 m",
+        "9,8 m",
+        "39,2 m",
+        "19,6 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "22,05 m",
+        "49,1 m",
+        "88,2 m",
+        "44,1 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "78,4 m",
+        "39,2 m",
+        "83,4 m",
+        "156,8 m"
+      ],
+      "answer": 0,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "15,0 m",
+        "40,0 m",
+        "20,0 m",
+        "30,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "22,0 m",
+        "32,0 m",
+        "44,0 m",
+        "17,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "34,0 m",
+        "48,0 m",
+        "24,0 m",
+        "19,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "26,0 m",
+        "21,0 m",
+        "36,0 m",
+        "52,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "50 N",
+        "10 N",
+        "70 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "10 N",
+        "500 N",
+        "90 N",
+        "64 N"
+      ],
+      "answer": 3,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "500 N",
+        "78 N",
+        "110 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "500 N",
+        "92 N",
+        "130 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0",
+        "Lực ma sát bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "9,9 m",
+        "2,45 m",
+        "9,8 m",
+        "4,9 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "24,6 m",
+        "39,2 m",
+        "19,6 m",
+        "9,8 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "22,05 m",
+        "88,2 m",
+        "49,1 m",
+        "44,1 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "83,4 m",
+        "156,8 m",
+        "39,2 m",
+        "78,4 m"
+      ],
+      "answer": 3,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "20,0 m",
+        "30,0 m",
+        "40,0 m",
+        "15,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "32,0 m",
+        "22,0 m",
+        "44,0 m",
+        "17,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "34,0 m",
+        "24,0 m",
+        "19,0 m",
+        "48,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "26,0 m",
+        "52,0 m",
+        "36,0 m",
+        "21,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Hai lực vuông góc F_1 = 30 N và F_2 = 40 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "500 N",
+        "50 N",
+        "10 N",
+        "70 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 50 N.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Hai lực vuông góc F_1 = 40 N và F_2 = 50 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "10 N",
+        "64 N",
+        "90 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 64 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Hai lực vuông góc F_1 = 50 N và F_2 = 60 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "10 N",
+        "78 N",
+        "110 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 78 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Hai lực vuông góc F_1 = 60 N và F_2 = 70 N cùng tác dụng vào chất điểm. Độ lớn hợp lực F là: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "500 N",
+        "92 N",
+        "10 N",
+        "130 N"
+      ],
+      "answer": 1,
+      "explanation": "F = sqrt(F1^2 + F2^2) = 92 N.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 0) là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 1) là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Các lực bằng nhau"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 2) là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "Các lực bằng nhau",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Điều kiện cân bằng của chất điểm chịu tác dụng lực (BT 3) là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "Lực ma sát bằng 0",
+        "Tổng các độ lớn bằng 0",
+        "Tổng đại số các vectơ lực bằng vectơ không",
+        "Các lực bằng nhau"
+      ],
+      "answer": 2,
+      "explanation": "Tổng các vectơ lực phải bằng vectơ không.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 1 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "2,45 m",
+        "9,8 m",
+        "4,9 m",
+        "9,9 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 4,9 m.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 2 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "24,6 m",
+        "9,8 m",
+        "19,6 m",
+        "39,2 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 19,6 m.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 3 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "22,05 m",
+        "44,1 m",
+        "49,1 m",
+        "88,2 m"
+      ],
+      "answer": 1,
+      "explanation": "h = 1/2*g*t^2 = 44,1 m.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Một vật rơi tự do từ độ cao h xuống đất trong t = 4 s với g = 9,8 m/s^2. Độ cao h là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "156,8 m",
+        "83,4 m",
+        "78,4 m",
+        "39,2 m"
+      ],
+      "answer": 2,
+      "explanation": "h = 1/2*g*t^2 = 78,4 m.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 10 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "40,0 m",
+        "15,0 m",
+        "20,0 m",
+        "30,0 m"
+      ],
+      "answer": 2,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 20,0 m.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 11 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "17,0 m",
+        "32,0 m",
+        "44,0 m",
+        "22,0 m"
+      ],
+      "answer": 3,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 22,0 m.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 12 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "34,0 m",
+        "24,0 m",
+        "48,0 m",
+        "19,0 m"
+      ],
+      "answer": 1,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 24,0 m.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Ném ngang một vật từ h = 20 m với v_0 = 13 m/s (g = 10 m/s^2). Tầm xa L của vật là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "26,0 m",
+        "36,0 m",
+        "52,0 m",
+        "21,0 m"
+      ],
+      "answer": 0,
+      "explanation": "t = sqrt(2h/g) = 2 s. L = v_0*t = 26,0 m.",
+      "level": "vd",
+      "lesson": "b5"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v0</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v1</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v2</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v3</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v4</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v5</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v6</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v7</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v8</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v9</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v10</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v11</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v12</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v13</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v14</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v15</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v16</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v17</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v18</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v19</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v20</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v21</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v22</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v23</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v24</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v25</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v26</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v27</span>",
+      "answer": "6.26",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v28</span>",
+      "answer": "8.85",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v29</span>",
+      "answer": "10.84",
+      "tolerance": 0.1,
+      "unit": "m/s",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b6"
+    }
+  ]
+}

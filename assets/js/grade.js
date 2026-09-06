@@ -15,11 +15,15 @@ export function parseNumber(input) {
     .replace(/\s+/g, '')
     .replace(/%$/, '');
 
-  // "1.234,56" → "1234.56"  |  "1,5" → "1.5"
+  // "1.234,56" → "1234.56"  |  "1,5" → "1.5"  |  "1.234.567" → "1234567"
   if (s.includes(',') && s.includes('.')) {
     s = s.lastIndexOf(',') > s.lastIndexOf('.')
-      ? s.replace(/\./g, '').replace(',', '.')
+      ? s.replace(/\./g, '').replace(/,/g, '.')
       : s.replace(/,/g, '');
+  } else if ((s.match(/,/g) || []).length > 1) {
+    s = s.replace(/,/g, '');            // "1,234,567" → dấu phân cách nghìn
+  } else if ((s.match(/\./g) || []).length > 1) {
+    s = s.replace(/\./g, '');           // "1.234.567" → dấu phân cách nghìn
   } else {
     s = s.replace(',', '.');
   }
@@ -33,9 +37,14 @@ export function parseNumber(input) {
   return /^-?\d+(\.\d+)?$/.test(s) ? Number(s) : NaN;
 }
 
-/** Sai số cho phép: lấy theo câu hỏi, mặc định rất nhỏ để chấp nhận sai số dấu phẩy động. */
+/**
+ * Sai số cho phép của một câu.
+ * Câu nào khai báo "tolerance" thì dùng đúng giá trị đó (cho phép học sinh nộp
+ * đáp số chưa làm tròn). Câu không khai báo thì chỉ nới đúng bằng sai số dấu phẩy động.
+ */
 function toleranceOf(question) {
-  return typeof question.tolerance === 'number' ? question.tolerance : 1e-9;
+  const t = Number(question.tolerance);
+  return Number.isFinite(t) && t > 0 ? t : 1e-9;
 }
 
 /** Kiểm tra một câu trả lời ngắn. */
@@ -64,12 +73,23 @@ export function isCorrect(question, type, response) {
     : checkShortAnswer(question, response);
 }
 
-/** Định dạng đáp án đúng để hiển thị (dùng dấu phẩy thập phân kiểu Việt Nam). */
+/** Đổi dấu chấm thập phân sang dấu phẩy kiểu Việt Nam và dùng dấu trừ toán học. */
+export function formatNumberVi(value) {
+  return String(value).replace('.', ',').replace(/^-/, '−');
+}
+
+/** Định dạng đáp án đúng để hiển thị. */
 export function formatAnswer(question, type) {
   if (type === 'multiple-choice') {
-    return `${'ABCD'[question.answer] || '?'}. ${question.choices[question.answer]}`;
+    const i = question.answer;
+    const label = 'ABCD'[i];
+    if (!Number.isInteger(i) || !label || !question.choices || question.choices[i] === undefined) {
+      return 'Dữ liệu đáp án bị lỗi';
+    }
+    return `${label}. ${question.choices[i]}`;
   }
-  return String(question.answer).replace('.', ',').replace(/^-/, '−');
+  const unit = question.unit ? ` ${question.unit}` : '';
+  return `${formatNumberVi(question.answer)}${unit}`;
 }
 
 /** Trộn mảng (Fisher-Yates) — trả về mảng mới. */

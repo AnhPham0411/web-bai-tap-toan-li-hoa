@@ -48,7 +48,8 @@ export function escapeHtml(str) {
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 /** Đọc một nhóm {...} bắt đầu tại vị trí i (str[i] phải là '{'). */
@@ -122,6 +123,22 @@ function transform(src) {
         out += `<${tag}>${transform(g.body)}</${tag}>`;
         i = g.next;
         continue;
+      }
+      // Một lệnh LaTeX ngay sau ^ hoặc _ , ví dụ 60^\circ hay x_\alpha.
+      // Không xử lý ở đây thì dấu ^ sẽ lọt nguyên ra màn hình: "60^°".
+      const mCmd = /^\\([A-Za-z]+)/.exec(src.slice(i + 1));
+      if (mCmd) {
+        const name = mCmd[1];
+        let end = i + 1 + mCmd[0].length;
+        if (ONE_ARG[name]) {
+          const arg = readGroup(src, end);
+          if (arg) end = arg.next;
+        }
+        if (SYMBOLS[name] || ONE_ARG[name]) {
+          out += `<${tag}>${transform(src.slice(i + 1, end))}</${tag}>`;
+          i = end;
+          continue;
+        }
       }
       const mSub = /^([0-9]+|[A-Za-z])/.exec(src.slice(i + 1));
       if (mSub) {

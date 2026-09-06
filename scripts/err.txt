@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+  File "C:\Program Files\Python310\lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 6
+    new_qs = [
+             
+SyntaxError: '[' was never closed

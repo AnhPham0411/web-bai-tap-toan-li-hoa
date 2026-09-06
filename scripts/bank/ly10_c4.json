@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Động lực học",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b7",
+      "sgk_title": "Bài 7. Ba định luật Newton"
+    },
+    {
+      "lesson_id": "b8",
+      "sgk_title": "Bài 8. Các lực cơ học cơ bản"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "4 N",
+        "6 N",
+        "0 N",
+        "2 N"
+      ],
+      "answer": 3,
+      "explanation": "F = m*a = 2 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "4 N",
+        "10 N",
+        "6 N",
+        "12 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 6 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "10 N",
+        "24 N",
+        "16 N",
+        "12 N"
+      ],
+      "answer": 3,
+      "explanation": "F = m*a = 12 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 1)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "20 N",
+        "18 N",
+        "24 N",
+        "40 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 20 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "4,0 N",
+        "4,0 N​",
+        "2,0 N",
+        "1,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "2,0 N",
+        "8,0 N",
+        "6,0 N",
+        "4,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "12,0 N",
+        "3,0 N",
+        "6,0 N",
+        "8,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 2)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "10,0 N",
+        "8,0 N",
+        "16,0 N",
+        "4,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "500 N",
+        "5,0 N",
+        "20 N",
+        "0,5 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "0,5 N",
+        "6,0 N",
+        "500 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "500 N",
+        "20 N",
+        "0,5 N",
+        "7,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 3)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "20 N",
+        "500 N",
+        "8,0 N",
+        "0,5 N"
+      ],
+      "answer": 2,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v12</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v13</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v14</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 4)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v15</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau"
+      ],
+      "answer": 3,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "0 N",
+        "2 N",
+        "4 N",
+        "6 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 2 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "12 N",
+        "6 N",
+        "4 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 6 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "12 N",
+        "24 N",
+        "10 N",
+        "16 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 12 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 5)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "40 N",
+        "18 N",
+        "20 N",
+        "24 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 20 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "4,0 N​",
+        "1,0 N",
+        "2,0 N",
+        "4,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "2,0 N",
+        "8,0 N",
+        "6,0 N",
+        "4,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "8,0 N",
+        "6,0 N",
+        "12,0 N",
+        "3,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 6)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "10,0 N",
+        "4,0 N",
+        "16,0 N",
+        "8,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "500 N",
+        "20 N",
+        "0,5 N",
+        "5,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "500 N",
+        "6,0 N",
+        "20 N",
+        "0,5 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "20 N",
+        "7,0 N",
+        "500 N",
+        "0,5 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 7)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "500 N",
+        "0,5 N",
+        "20 N",
+        "8,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v28</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v29</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v30</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 8)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v31</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "2 N",
+        "0 N",
+        "6 N",
+        "4 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 2 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "10 N",
+        "6 N",
+        "12 N",
+        "4 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 6 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "24 N",
+        "10 N",
+        "12 N",
+        "16 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 12 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 9)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "18 N",
+        "20 N",
+        "40 N",
+        "24 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 20 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "4,0 N​",
+        "4,0 N",
+        "1,0 N",
+        "2,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "2,0 N",
+        "8,0 N",
+        "4,0 N",
+        "6,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "6,0 N",
+        "3,0 N",
+        "8,0 N",
+        "12,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 10)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "16,0 N",
+        "4,0 N",
+        "10,0 N",
+        "8,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "5,0 N",
+        "500 N",
+        "20 N",
+        "0,5 N"
+      ],
+      "answer": 0,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "6,0 N",
+        "500 N",
+        "0,5 N",
+        "20 N"
+      ],
+      "answer": 0,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "20 N",
+        "0,5 N",
+        "7,0 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 11)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "8,0 N",
+        "0,5 N",
+        "20 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v44</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v45</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v46</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 12)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v47</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "2 N",
+        "6 N",
+        "0 N",
+        "4 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 2 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "12 N",
+        "4 N",
+        "6 N",
+        "10 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 6 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "24 N",
+        "12 N",
+        "10 N",
+        "16 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 12 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 13)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "20 N",
+        "24 N",
+        "40 N",
+        "18 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 20 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "2,0 N",
+        "1,0 N",
+        "4,0 N​",
+        "4,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "4,0 N",
+        "6,0 N",
+        "2,0 N",
+        "8,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "12,0 N",
+        "3,0 N",
+        "6,0 N",
+        "8,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 14)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "10,0 N",
+        "4,0 N",
+        "16,0 N",
+        "8,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "0,5 N",
+        "5,0 N",
+        "20 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "20 N",
+        "6,0 N",
+        "500 N",
+        "0,5 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "0,5 N",
+        "7,0 N",
+        "500 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 15)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "0,5 N",
+        "8,0 N",
+        "500 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v60</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v61</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Không đồng thời"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v62</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 16)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v63</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "4 N",
+        "2 N",
+        "0 N",
+        "6 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 2 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "10 N",
+        "12 N",
+        "6 N",
+        "4 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 6 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "12 N",
+        "16 N",
+        "10 N",
+        "24 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 12 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 17)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "18 N",
+        "24 N",
+        "20 N",
+        "40 N"
+      ],
+      "answer": 2,
+      "explanation": "F = m*a = 20 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "4,0 N​",
+        "2,0 N",
+        "4,0 N",
+        "1,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "2,0 N",
+        "8,0 N",
+        "6,0 N",
+        "4,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "3,0 N",
+        "12,0 N",
+        "8,0 N",
+        "6,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 18)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "16,0 N",
+        "10,0 N",
+        "8,0 N",
+        "4,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "500 N",
+        "20 N",
+        "0,5 N",
+        "5,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "20 N",
+        "6,0 N",
+        "0,5 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "20 N",
+        "500 N",
+        "7,0 N",
+        "0,5 N"
+      ],
+      "answer": 2,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 19)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "0,5 N",
+        "8,0 N",
+        "20 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v76</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều",
+        "Không đồng thời"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v77</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v78</span>",
+      "choices": [
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Không đồng thời"
+      ],
+      "answer": 0,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 20)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v79</span>",
+      "choices": [
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau"
+      ],
+      "answer": 3,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "2 N",
+        "4 N",
+        "0 N",
+        "6 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 2 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "6 N",
+        "4 N",
+        "12 N",
+        "10 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 6 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "24 N",
+        "10 N",
+        "16 N",
+        "12 N"
+      ],
+      "answer": 3,
+      "explanation": "F = m*a = 12 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 21)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "24 N",
+        "18 N",
+        "40 N",
+        "20 N"
+      ],
+      "answer": 3,
+      "explanation": "F = m*a = 20 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "4,0 N",
+        "2,0 N",
+        "4,0 N​",
+        "1,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "6,0 N",
+        "4,0 N",
+        "2,0 N",
+        "8,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "12,0 N",
+        "6,0 N",
+        "8,0 N",
+        "3,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 22)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "8,0 N",
+        "4,0 N",
+        "16,0 N",
+        "10,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "20 N",
+        "0,5 N",
+        "5,0 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "20 N",
+        "0,5 N",
+        "6,0 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "500 N",
+        "7,0 N",
+        "0,5 N",
+        "20 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 23)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "0,5 N",
+        "20 N",
+        "500 N",
+        "8,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v92</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v93</span>",
+      "choices": [
+        "Không đồng thời",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v94</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Không đồng thời",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 24)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v95</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "6 N",
+        "2 N",
+        "0 N",
+        "4 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 2 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "4 N",
+        "6 N",
+        "10 N",
+        "12 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 6 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "12 N",
+        "24 N",
+        "16 N",
+        "10 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 12 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 25)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "20 N",
+        "18 N",
+        "40 N",
+        "24 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 20 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "4,0 N​",
+        "4,0 N",
+        "2,0 N",
+        "1,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "2,0 N",
+        "6,0 N",
+        "8,0 N",
+        "4,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "6,0 N",
+        "12,0 N",
+        "8,0 N",
+        "3,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 26)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "10,0 N",
+        "8,0 N",
+        "16,0 N",
+        "4,0 N"
+      ],
+      "answer": 1,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,05 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "5,0 N",
+        "20 N",
+        "0,5 N",
+        "500 N"
+      ],
+      "answer": 0,
+      "explanation": "Fdh = k*dl = 5,0 N.",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,060000000000000005 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "0,5 N",
+        "6,0 N",
+        "20 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 6,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,07 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "0,5 N",
+        "7,0 N",
+        "20 N",
+        "500 N"
+      ],
+      "answer": 1,
+      "explanation": "Fdh = k*dl = 7,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 27)",
+      "question": "Lò xo độ cứng 100 N/m bị dãn đoạn 0,08 m. Độ lớn lực đàn hồi là: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "8,0 N",
+        "0,5 N",
+        "500 N",
+        "20 N"
+      ],
+      "answer": 0,
+      "explanation": "Fdh = k*dl = 8,0 N.",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 0): <span style=\"display:none\">v108</span>",
+      "choices": [
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng",
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau"
+      ],
+      "answer": 3,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 1): <span style=\"display:none\">v109</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, cùng chiều",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 2,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 2): <span style=\"display:none\">v110</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Cùng độ lớn, cùng chiều",
+        "Là hai lực cân bằng"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 28)",
+      "question": "Định luật III Newton khẳng định lực và phản lực (BT 3): <span style=\"display:none\">v111</span>",
+      "choices": [
+        "Không đồng thời",
+        "Cùng độ lớn, ngược chiều, đặt vào 2 vật khác nhau",
+        "Là hai lực cân bằng",
+        "Cùng độ lớn, cùng chiều"
+      ],
+      "answer": 1,
+      "explanation": "Lực và phản lực là lực trực đối, đặt vào 2 vật khác nhau.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Tác dụng lực F vào vật m = 2 kg làm vật thu gia tốc a = 1 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "6 N",
+        "0 N",
+        "4 N",
+        "2 N"
+      ],
+      "answer": 3,
+      "explanation": "F = m*a = 2 N.",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Tác dụng lực F vào vật m = 3 kg làm vật thu gia tốc a = 2 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "6 N",
+        "10 N",
+        "12 N",
+        "4 N"
+      ],
+      "answer": 0,
+      "explanation": "F = m*a = 6 N.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Tác dụng lực F vào vật m = 4 kg làm vật thu gia tốc a = 3 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "16 N",
+        "12 N",
+        "10 N",
+        "24 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 12 N.",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 29)",
+      "question": "Tác dụng lực F vào vật m = 5 kg làm vật thu gia tốc a = 4 m/s^2. Độ lớn lực F là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "40 N",
+        "20 N",
+        "24 N",
+        "18 N"
+      ],
+      "answer": 1,
+      "explanation": "F = m*a = 20 N.",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Kéo khối gỗ m = 1 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "4,0 N",
+        "1,0 N",
+        "4,0 N​",
+        "2,0 N"
+      ],
+      "answer": 3,
+      "explanation": "Fmst = μ*m*g = 2,0 N.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Kéo khối gỗ m = 2 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "2,0 N",
+        "6,0 N",
+        "4,0 N",
+        "8,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 4,0 N.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Kéo khối gỗ m = 3 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "12,0 N",
+        "8,0 N",
+        "6,0 N",
+        "3,0 N"
+      ],
+      "answer": 2,
+      "explanation": "Fmst = μ*m*g = 6,0 N.",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Bài tập (Nhóm 30)",
+      "question": "Kéo khối gỗ m = 4 kg trượt đều trên sàn ngang (g=10, μ=0,2). Độ lớn lực ma sát trượt là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "8,0 N",
+        "16,0 N",
+        "4,0 N",
+        "10,0 N"
+      ],
+      "answer": 0,
+      "explanation": "Fmst = μ*m*g = 8,0 N.",
+      "level": "vd",
+      "lesson": "b7"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v0</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v1</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v2</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v3</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v4</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v5</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v6</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v7</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v8</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v9</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v10</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v11</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v12</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v13</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v14</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v15</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v16</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v17</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v18</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v19</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v20</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v21</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v22</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v23</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v24</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v25</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v26</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v27</span>",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b8"
+    },
+    {
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v28</span>",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b7"
+    },
+    {
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v29</span>",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "N",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b7"
+    }
+  ]
+}

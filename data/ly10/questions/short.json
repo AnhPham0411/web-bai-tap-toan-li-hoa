@@ -5,1350 +5,1710 @@
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 5 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "2.0",
-      "explanation": "Sai số tương đối δl = (0,1 / 5) · 100% = 2.0%."
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v0</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-002",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 10 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "1.0",
-      "explanation": "Sai số tương đối δl = (0,1 / 10) · 100% = 1.0%."
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v1</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-003",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 15 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.67",
-      "explanation": "Sai số tương đối δl = (0,1 / 15) · 100% = 0.67%."
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v2</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-004",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 20 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.5",
-      "explanation": "Sai số tương đối δl = (0,1 / 20) · 100% = 0.5%."
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v3</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-005",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 25 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.4",
-      "explanation": "Sai số tương đối δl = (0,1 / 25) · 100% = 0.4%."
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v4</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-006",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 30 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.33",
-      "explanation": "Sai số tương đối δl = (0,1 / 30) · 100% = 0.33%."
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v5</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-007",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 35 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.29",
-      "explanation": "Sai số tương đối δl = (0,1 / 35) · 100% = 0.29%."
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v6</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-008",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 40 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.25",
-      "explanation": "Sai số tương đối δl = (0,1 / 40) · 100% = 0.25%."
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v7</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-009",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 45 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.22",
-      "explanation": "Sai số tương đối δl = (0,1 / 45) · 100% = 0.22%."
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v8</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-010",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 50 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.2",
-      "explanation": "Sai số tương đối δl = (0,1 / 50) · 100% = 0.2%."
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v9</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-011",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 55 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.18",
-      "explanation": "Sai số tương đối δl = (0,1 / 55) · 100% = 0.18%."
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v10</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-012",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 60 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.17",
-      "explanation": "Sai số tương đối δl = (0,1 / 60) · 100% = 0.17%."
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v11</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-013",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 65 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.15",
-      "explanation": "Sai số tương đối δl = (0,1 / 65) · 100% = 0.15%."
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v12</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-014",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 70 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.14",
-      "explanation": "Sai số tương đối δl = (0,1 / 70) · 100% = 0.14%."
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v13</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-015",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "question": "Phép đo chiều dài cho kết quả l = 75 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.13",
-      "explanation": "Sai số tương đối δl = (0,1 / 75) · 100% = 0.13%."
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v14</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-016",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 80 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.12",
-      "explanation": "Sai số tương đối δl = (0,1 / 80) · 100% = 0.12%."
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v15</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-017",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 85 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.12",
-      "explanation": "Sai số tương đối δl = (0,1 / 85) · 100% = 0.12%."
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v16</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-018",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 90 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.11",
-      "explanation": "Sai số tương đối δl = (0,1 / 90) · 100% = 0.11%."
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v17</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-019",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 95 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.11",
-      "explanation": "Sai số tương đối δl = (0,1 / 95) · 100% = 0.11%."
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v18</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-020",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 100 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.1",
-      "explanation": "Sai số tương đối δl = (0,1 / 100) · 100% = 0.1%."
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v19</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-021",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 105 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.1",
-      "explanation": "Sai số tương đối δl = (0,1 / 105) · 100% = 0.1%."
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v20</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-022",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 110 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.09",
-      "explanation": "Sai số tương đối δl = (0,1 / 110) · 100% = 0.09%."
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v21</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-023",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 115 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.09",
-      "explanation": "Sai số tương đối δl = (0,1 / 115) · 100% = 0.09%."
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v22</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-024",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 120 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.08",
-      "explanation": "Sai số tương đối δl = (0,1 / 120) · 100% = 0.08%."
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v23</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-025",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 125 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.08",
-      "explanation": "Sai số tương đối δl = (0,1 / 125) · 100% = 0.08%."
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v24</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-026",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 130 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.08",
-      "explanation": "Sai số tương đối δl = (0,1 / 130) · 100% = 0.08%."
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v25</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-027",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "question": "Phép đo chiều dài cho kết quả l = 135 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.07",
-      "explanation": "Sai số tương đối δl = (0,1 / 135) · 100% = 0.07%."
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v26</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-028",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "vd",
-      "question": "Phép đo chiều dài cho kết quả l = 140 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.07",
-      "explanation": "Sai số tương đối δl = (0,1 / 140) · 100% = 0.07%."
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v27</span>",
+      "answer": "2",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-029",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "question": "Phép đo chiều dài cho kết quả l = 145 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.07",
-      "explanation": "Sai số tương đối δl = (0,1 / 145) · 100% = 0.07%."
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v28</span>",
+      "answer": "1.67",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c1-030",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "vd",
-      "question": "Phép đo chiều dài cho kết quả l = 150 ± 0,1 cm. Tính sai số tương đối δl (%).",
-      "answer": "0.07",
-      "explanation": "Sai số tương đối δl = (0,1 / 150) · 100% = 0.07%."
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v29</span>",
+      "answer": "1.43",
+      "explanation": "Tính toán",
+      "tolerance": 0.05,
+      "unit": "%"
     },
     {
       "id": "sa-c2-001",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "40.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 6 · 4 + 0,5 · 2 · 16 = 40.0 m."
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v0</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-002",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "44.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 7 · 4 + 0,5 · 2 · 16 = 44.0 m."
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v1</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-003",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 8 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "48.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 8 · 4 + 0,5 · 2 · 16 = 48.0 m."
+      "dang": "Chuyển động (Nhóm 1)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v2</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-004",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 9 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "52.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 9 · 4 + 0,5 · 2 · 16 = 52.0 m."
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v3</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-005",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 10 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "56.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 10 · 4 + 0,5 · 2 · 16 = 56.0 m."
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v4</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-006",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 11 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "60.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 11 · 4 + 0,5 · 2 · 16 = 60.0 m."
+      "dang": "Chuyển động (Nhóm 2)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v5</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-007",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 12 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "64.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 12 · 4 + 0,5 · 2 · 16 = 64.0 m."
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v6</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-008",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 13 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "68.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 13 · 4 + 0,5 · 2 · 16 = 68.0 m."
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v7</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-009",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 14 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "72.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 14 · 4 + 0,5 · 2 · 16 = 72.0 m."
+      "dang": "Chuyển động (Nhóm 3)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v8</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-010",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 15 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "76.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 15 · 4 + 0,5 · 2 · 16 = 76.0 m."
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v9</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-011",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 16 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "80.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 16 · 4 + 0,5 · 2 · 16 = 80.0 m."
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v10</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-012",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 17 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "84.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 17 · 4 + 0,5 · 2 · 16 = 84.0 m."
+      "dang": "Chuyển động (Nhóm 4)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v11</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-013",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 18 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "88.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 18 · 4 + 0,5 · 2 · 16 = 88.0 m."
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v12</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-014",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "question": "Cho v_0 = 19 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "92.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 19 · 4 + 0,5 · 2 · 16 = 92.0 m."
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v13</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-015",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "question": "Cho v_0 = 20 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "96.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 20 · 4 + 0,5 · 2 · 16 = 96.0 m."
+      "dang": "Chuyển động (Nhóm 5)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v14</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-016",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 21 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "100.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 21 · 4 + 0,5 · 2 · 16 = 100.0 m."
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v15</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-017",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Cho v_0 = 22 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "104.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 22 · 4 + 0,5 · 2 · 16 = 104.0 m."
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v16</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-018",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 23 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "108.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 23 · 4 + 0,5 · 2 · 16 = 108.0 m."
+      "dang": "Chuyển động (Nhóm 6)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v17</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-019",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 24 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "112.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 24 · 4 + 0,5 · 2 · 16 = 112.0 m."
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v18</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-020",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Cho v_0 = 25 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "116.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 25 · 4 + 0,5 · 2 · 16 = 116.0 m."
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v19</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-021",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Cho v_0 = 26 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "120.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 26 · 4 + 0,5 · 2 · 16 = 120.0 m."
+      "dang": "Chuyển động (Nhóm 7)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v20</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-022",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 27 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "124.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 27 · 4 + 0,5 · 2 · 16 = 124.0 m."
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v21</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-023",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "question": "Cho v_0 = 28 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "128.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 28 · 4 + 0,5 · 2 · 16 = 128.0 m."
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v22</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-024",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "question": "Cho v_0 = 29 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "132.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 29 · 4 + 0,5 · 2 · 16 = 132.0 m."
+      "dang": "Chuyển động (Nhóm 8)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v23</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-025",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 30 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "136.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 30 · 4 + 0,5 · 2 · 16 = 136.0 m."
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v24</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-026",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 31 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "140.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 31 · 4 + 0,5 · 2 · 16 = 140.0 m."
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v25</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-027",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "question": "Cho v_0 = 32 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "144.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 32 · 4 + 0,5 · 2 · 16 = 144.0 m."
+      "dang": "Chuyển động (Nhóm 9)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v26</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-028",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "vd",
-      "question": "Cho v_0 = 33 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "148.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 33 · 4 + 0,5 · 2 · 16 = 148.0 m."
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 5 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v27</span>",
+      "answer": "36",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-029",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "question": "Cho v_0 = 34 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "152.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 34 · 4 + 0,5 · 2 · 16 = 152.0 m."
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 6 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v28</span>",
+      "answer": "40",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c2-030",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "question": "Cho v_0 = 35 m/s, gia tốc a = 2 m/s², t = 4 s. Tính độ dịch chuyển d (m).",
-      "answer": "156.0",
-      "explanation": "Công thức d = v_0 · t + 1/2 · a · t² = 35 · 4 + 0,5 · 2 · 16 = 156.0 m."
+      "dang": "Chuyển động (Nhóm 10)",
+      "question": "Cho v_0 = 7 m/s, gia tốc a = 2 m/s^2, t = 4 s. Tính độ dịch chuyển d (m). <span style=\"display:none\">v29</span>",
+      "answer": "44",
+      "explanation": "Tính toán",
+      "unit": "m"
     },
     {
       "id": "sa-c3-001",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 2 m (g = 9,8 m/s²).",
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v0</span>",
       "answer": "6.26",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 2} = 6.26 m/s."
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-002",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 4 m (g = 9,8 m/s²).",
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v1</span>",
       "answer": "8.85",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 4} = 8.85 m/s."
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-003",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 6 m (g = 9,8 m/s²).",
+      "dang": "Rơi tự do (Nhóm 1)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v2</span>",
       "answer": "10.84",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 6} = 10.84 m/s."
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-004",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 8 m (g = 9,8 m/s²).",
-      "answer": "12.52",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 8} = 12.52 m/s."
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v3</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-005",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 10 m (g = 9,8 m/s²).",
-      "answer": "14.0",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 10} = 14.0 m/s."
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v4</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-006",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 12 m (g = 9,8 m/s²).",
-      "answer": "15.34",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 12} = 15.34 m/s."
+      "dang": "Rơi tự do (Nhóm 2)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v5</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-007",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 14 m (g = 9,8 m/s²).",
-      "answer": "16.57",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 14} = 16.57 m/s."
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v6</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-008",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 16 m (g = 9,8 m/s²).",
-      "answer": "17.71",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 16} = 17.71 m/s."
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v7</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-009",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 18 m (g = 9,8 m/s²).",
-      "answer": "18.78",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 18} = 18.78 m/s."
+      "dang": "Rơi tự do (Nhóm 3)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v8</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-010",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 20 m (g = 9,8 m/s²).",
-      "answer": "19.8",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 20} = 19.8 m/s."
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v9</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-011",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 22 m (g = 9,8 m/s²).",
-      "answer": "20.77",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 22} = 20.77 m/s."
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v10</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-012",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 24 m (g = 9,8 m/s²).",
-      "answer": "21.69",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 24} = 21.69 m/s."
+      "dang": "Rơi tự do (Nhóm 4)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v11</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-013",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 26 m (g = 9,8 m/s²).",
-      "answer": "22.57",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 26} = 22.57 m/s."
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v12</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-014",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 28 m (g = 9,8 m/s²).",
-      "answer": "23.43",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 28} = 23.43 m/s."
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v13</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-015",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 30 m (g = 9,8 m/s²).",
-      "answer": "24.25",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 30} = 24.25 m/s."
+      "dang": "Rơi tự do (Nhóm 5)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v14</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-016",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 32 m (g = 9,8 m/s²).",
-      "answer": "25.04",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 32} = 25.04 m/s."
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v15</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-017",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 34 m (g = 9,8 m/s²).",
-      "answer": "25.81",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 34} = 25.81 m/s."
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v16</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-018",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 36 m (g = 9,8 m/s²).",
-      "answer": "26.56",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 36} = 26.56 m/s."
+      "dang": "Rơi tự do (Nhóm 6)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v17</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-019",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 38 m (g = 9,8 m/s²).",
-      "answer": "27.29",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 38} = 27.29 m/s."
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v18</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-020",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 40 m (g = 9,8 m/s²).",
-      "answer": "28.0",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 40} = 28.0 m/s."
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v19</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-021",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 42 m (g = 9,8 m/s²).",
-      "answer": "28.69",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 42} = 28.69 m/s."
+      "dang": "Rơi tự do (Nhóm 7)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v20</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-022",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 44 m (g = 9,8 m/s²).",
-      "answer": "29.37",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 44} = 29.37 m/s."
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v21</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-023",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 46 m (g = 9,8 m/s²).",
-      "answer": "30.03",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 46} = 30.03 m/s."
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v22</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-024",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 48 m (g = 9,8 m/s²).",
-      "answer": "30.67",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 48} = 30.67 m/s."
+      "dang": "Rơi tự do (Nhóm 8)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v23</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-025",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 50 m (g = 9,8 m/s²).",
-      "answer": "31.3",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 50} = 31.3 m/s."
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v24</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-026",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 52 m (g = 9,8 m/s²).",
-      "answer": "31.92",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 52} = 31.92 m/s."
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v25</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-027",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 54 m (g = 9,8 m/s²).",
-      "answer": "32.53",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 54} = 32.53 m/s."
+      "dang": "Rơi tự do (Nhóm 9)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v26</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-028",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "vd",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 56 m (g = 9,8 m/s²).",
-      "answer": "33.13",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 56} = 33.13 m/s."
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 2 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v27</span>",
+      "answer": "6.26",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-029",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "vd",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 58 m (g = 9,8 m/s²).",
-      "answer": "33.72",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 58} = 33.72 m/s."
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 4 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v28</span>",
+      "answer": "8.85",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c3-030",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "question": "Tính vận tốc v (m/s) của vật rơi tự do khi đi được quãng đường h = 60 m (g = 9,8 m/s²).",
-      "answer": "34.29",
-      "explanation": "Công thức v = \\sqrt{2gh} = \\sqrt{2 · 9,8 · 60} = 34.29 m/s."
+      "dang": "Rơi tự do (Nhóm 10)",
+      "question": "Tính vận tốc v (m/s) của vật rơi tự do quãng đường h = 6 m (g = 9,8). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v29</span>",
+      "answer": "10.84",
+      "explanation": "Tính toán",
+      "tolerance": 0.1,
+      "unit": "m/s"
     },
     {
       "id": "sa-c4-001",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 1 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v0</span>",
       "answer": "3",
-      "explanation": "F = m · a = 1 · 3 = 3 N."
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-002",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 2 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v1</span>",
       "answer": "6",
-      "explanation": "F = m · a = 2 · 3 = 6 N."
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-003",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 3 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
+      "dang": "Lực (Nhóm 1)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v2</span>",
       "answer": "9",
-      "explanation": "F = m · a = 3 · 3 = 9 N."
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-004",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 4 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "12",
-      "explanation": "F = m · a = 4 · 3 = 12 N."
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v3</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-005",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 5 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "15",
-      "explanation": "F = m · a = 5 · 3 = 15 N."
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v4</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-006",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 6 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "18",
-      "explanation": "F = m · a = 6 · 3 = 18 N."
+      "dang": "Lực (Nhóm 2)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v5</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-007",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 7 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "21",
-      "explanation": "F = m · a = 7 · 3 = 21 N."
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v6</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-008",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 8 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "24",
-      "explanation": "F = m · a = 8 · 3 = 24 N."
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v7</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-009",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 9 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "27",
-      "explanation": "F = m · a = 9 · 3 = 27 N."
+      "dang": "Lực (Nhóm 3)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v8</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-010",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 10 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "30",
-      "explanation": "F = m · a = 10 · 3 = 30 N."
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v9</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-011",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 11 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "33",
-      "explanation": "F = m · a = 11 · 3 = 33 N."
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v10</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-012",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 12 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "36",
-      "explanation": "F = m · a = 12 · 3 = 36 N."
+      "dang": "Lực (Nhóm 4)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v11</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-013",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 13 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "39",
-      "explanation": "F = m · a = 13 · 3 = 39 N."
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v12</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-014",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "question": "Một lực F làm vật m = 14 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "42",
-      "explanation": "F = m · a = 14 · 3 = 42 N."
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v13</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-015",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "nb",
-      "question": "Một lực F làm vật m = 15 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "45",
-      "explanation": "F = m · a = 15 · 3 = 45 N."
+      "dang": "Lực (Nhóm 5)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v14</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-016",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 16 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "48",
-      "explanation": "F = m · a = 16 · 3 = 48 N."
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v15</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-017",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 17 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "51",
-      "explanation": "F = m · a = 17 · 3 = 51 N."
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v16</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-018",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 18 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "54",
-      "explanation": "F = m · a = 18 · 3 = 54 N."
+      "dang": "Lực (Nhóm 6)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v17</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-019",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Một lực F làm vật m = 19 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "57",
-      "explanation": "F = m · a = 19 · 3 = 57 N."
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v18</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-020",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 20 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "60",
-      "explanation": "F = m · a = 20 · 3 = 60 N."
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v19</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-021",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 21 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "63",
-      "explanation": "F = m · a = 21 · 3 = 63 N."
+      "dang": "Lực (Nhóm 7)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v20</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-022",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 22 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "66",
-      "explanation": "F = m · a = 22 · 3 = 66 N."
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v21</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-023",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Một lực F làm vật m = 23 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "69",
-      "explanation": "F = m · a = 23 · 3 = 69 N."
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v22</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-024",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "question": "Một lực F làm vật m = 24 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "72",
-      "explanation": "F = m · a = 24 · 3 = 72 N."
+      "dang": "Lực (Nhóm 8)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v23</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-025",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "question": "Một lực F làm vật m = 25 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "75",
-      "explanation": "F = m · a = 25 · 3 = 75 N."
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v24</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-026",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "question": "Một lực F làm vật m = 26 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "78",
-      "explanation": "F = m · a = 26 · 3 = 78 N."
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v25</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-027",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "question": "Một lực F làm vật m = 27 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "81",
-      "explanation": "F = m · a = 27 · 3 = 81 N."
+      "dang": "Lực (Nhóm 9)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v26</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-028",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "question": "Một lực F làm vật m = 28 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "84",
-      "explanation": "F = m · a = 28 · 3 = 84 N."
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 1 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v27</span>",
+      "answer": "3",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-029",
       "chapter": "c4",
       "lesson": "b7",
       "level": "vd",
-      "question": "Một lực F làm vật m = 29 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "87",
-      "explanation": "F = m · a = 29 · 3 = 87 N."
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 2 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v28</span>",
+      "answer": "6",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c4-030",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "vd",
-      "question": "Một lực F làm vật m = 30 kg tăng tốc với gia tốc a = 3 m/s². Tính độ lớn lực F (N).",
-      "answer": "90",
-      "explanation": "F = m · a = 30 · 3 = 90 N."
+      "dang": "Lực (Nhóm 10)",
+      "question": "Lực F làm vật m = 3 kg tăng tốc với a = 3 m/s^2. Tính lực F (N). <span style=\"display:none\">v29</span>",
+      "answer": "9",
+      "explanation": "Tính toán",
+      "unit": "N"
     },
     {
       "id": "sa-c5-001",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 1 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "50.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 1 · 100 = 50.0 J."
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v0</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-002",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 2 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "100.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 2 · 100 = 100.0 J."
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v1</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-003",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 3 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "150.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 3 · 100 = 150.0 J."
+      "dang": "Động năng (Nhóm 1)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v2</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-004",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 4 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "200.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 4 · 100 = 200.0 J."
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v3</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-005",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 5 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "250.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 5 · 100 = 250.0 J."
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v4</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-006",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 6 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "300.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 6 · 100 = 300.0 J."
+      "dang": "Động năng (Nhóm 2)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v5</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-007",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 7 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "350.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 7 · 100 = 350.0 J."
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v6</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-008",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 8 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "400.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 8 · 100 = 400.0 J."
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v7</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-009",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 9 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "450.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 9 · 100 = 450.0 J."
+      "dang": "Động năng (Nhóm 3)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v8</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-010",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 10 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "500.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 10 · 100 = 500.0 J."
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v9</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-011",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 11 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "550.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 11 · 100 = 550.0 J."
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v10</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-012",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 12 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "600.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 12 · 100 = 600.0 J."
+      "dang": "Động năng (Nhóm 4)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v11</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-013",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 13 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "650.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 13 · 100 = 650.0 J."
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v12</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-014",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 14 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "700.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 14 · 100 = 700.0 J."
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v13</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-015",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "question": "Tính động năng W_đ (J) của vật m = 15 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "750.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 15 · 100 = 750.0 J."
+      "dang": "Động năng (Nhóm 5)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v14</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-016",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 16 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "800.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 16 · 100 = 800.0 J."
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v15</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-017",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 17 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "850.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 17 · 100 = 850.0 J."
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v16</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-018",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 18 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "900.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 18 · 100 = 900.0 J."
+      "dang": "Động năng (Nhóm 6)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v17</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-019",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 19 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "950.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 19 · 100 = 950.0 J."
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v18</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-020",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 20 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1000.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 20 · 100 = 1000.0 J."
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v19</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-021",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 21 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1050.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 21 · 100 = 1050.0 J."
+      "dang": "Động năng (Nhóm 7)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v20</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-022",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 22 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1100.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 22 · 100 = 1100.0 J."
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v21</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-023",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 23 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1150.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 23 · 100 = 1150.0 J."
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v22</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-024",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 24 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1200.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 24 · 100 = 1200.0 J."
+      "dang": "Động năng (Nhóm 8)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v23</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-025",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 25 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1250.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 25 · 100 = 1250.0 J."
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v24</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-026",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 26 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1300.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 26 · 100 = 1300.0 J."
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v25</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-027",
       "chapter": "c5",
       "lesson": "b9",
       "level": "th",
-      "question": "Tính động năng W_đ (J) của vật m = 27 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1350.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 27 · 100 = 1350.0 J."
+      "dang": "Động năng (Nhóm 9)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v26</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-028",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "vd",
-      "question": "Tính động năng W_đ (J) của vật m = 28 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1400.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 28 · 100 = 1400.0 J."
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 1 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v27</span>",
+      "answer": "50",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-029",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "vd",
-      "question": "Tính động năng W_đ (J) của vật m = 29 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1450.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 29 · 100 = 1450.0 J."
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 2 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v28</span>",
+      "answer": "100",
+      "explanation": "Tính toán",
+      "unit": "J"
     },
     {
       "id": "sa-c5-030",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "vd",
-      "question": "Tính động năng W_đ (J) của vật m = 30 kg đang bay với vận tốc v = 10 m/s.",
-      "answer": "1500.0",
-      "explanation": "W_đ = 1/2 · m · v² = 0,5 · 30 · 100 = 1500.0 J."
+      "dang": "Động năng (Nhóm 10)",
+      "question": "Tính động năng W_đ (J) của vật m = 3 kg bay với vận tốc 10 m/s. <span style=\"display:none\">v29</span>",
+      "answer": "150",
+      "explanation": "Tính toán",
+      "unit": "J"
     }
   ]
 }

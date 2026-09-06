@@ -1,6 +1,6 @@
 import { bootstrap } from './data.js';
 import { getTheme, setTheme, getActiveSubjectId } from './store.js';
-import { renderHome } from './views/home.js';
+import { renderHome, bindHome } from './views/home.js';
 import { renderTheory } from './views/theory.js';
 import * as practice from './views/practice.js';
 
@@ -33,9 +33,17 @@ function initSubjectSelect() {
   selectEl.addEventListener('change', async (e) => {
     const newSubId = e.target.value;
     app.innerHTML = '<div class="loading">Đang nạp môn học mới…</div>';
-    ctx = await bootstrap(newSubId);
-    location.hash = '#/';
-    await route();
+    try {
+      ctx = await bootstrap(newSubId);
+    } catch (err) {
+      showError(err);
+      return;
+    }
+    // Nếu manifest không có môn này, bootstrap đã lùi về môn khác — đồng bộ lại ô chọn.
+    selectEl.value = ctx.subject.id;
+    // Đổi hash sẽ tự kích hoạt route() qua sự kiện hashchange; chỉ gọi tay khi hash không đổi.
+    if (location.hash === '#/' || location.hash === '') await route();
+    else location.hash = '#/';
   });
 }
 
@@ -74,13 +82,17 @@ async function route() {
     if (!first) {
       setActiveNav('home');
       app.innerHTML = renderHome(ctx);
+      bindHome(app);
       return;
     }
 
     if (first === 'ly-thuyet') {
       setActiveNav('theory');
       app.innerHTML = '<div class="loading">Đang tải bài học…</div>';
-      app.innerHTML = await renderTheory(ctx, { chapterId: rest[0], lessonId: rest[1] });
+      const html = await renderTheory(ctx, { chapterId: rest[0], lessonId: rest[1] });
+      // Người dùng có thể đã bấm sang trang khác trong lúc chờ — bỏ qua kết quả cũ.
+      if (location.hash.replace(/^#/, '').split('?')[0].split('/').filter(Boolean)[0] !== 'ly-thuyet') return;
+      app.innerHTML = html;
       return;
     }
 
@@ -125,6 +137,8 @@ async function route() {
   try {
     ctx = await bootstrap();
     initSubjectSelect();
+    const selectEl = document.getElementById('subject-select');
+    if (selectEl) selectEl.value = ctx.subject.id;
   } catch (err) {
     showError(err);
     return;

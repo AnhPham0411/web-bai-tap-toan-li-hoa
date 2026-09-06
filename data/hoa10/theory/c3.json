@@ -4,7 +4,7 @@
   "lessons": [
     {
       "id": "b5",
-      "title": "Bài 5. Liên kết ion & Liên kết cộng hóa trị",
+      "title": "Bài 5. Liên kết ion & Cộng hóa trị",
       "blocks": [
         {
           "type": "heading",
@@ -49,7 +49,7 @@
     },
     {
       "id": "b6",
-      "title": "Bài 6. Liên kết hydrogen & Tương tác van der Waals",
+      "title": "Bài 6. Liên kết hydrogen & van der Waals",
       "blocks": [
         {
           "type": "heading",

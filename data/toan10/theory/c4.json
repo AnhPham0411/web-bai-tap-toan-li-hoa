@@ -6,7 +6,10 @@
       "id": "b7",
       "title": "Bài 7. Các khái niệm mở đầu",
       "blocks": [
-        { "type": "heading", "text": "1. Khái niệm vectơ" },
+        {
+          "type": "heading",
+          "text": "1. Khái niệm vectơ"
+        },
         {
           "type": "definition",
           "title": "Vectơ",
@@ -21,7 +24,10 @@
             "Độ dài (mô-đun) của vectơ \\vec{AB} là độ dài đoạn thẳng AB, kí hiệu |\\vec{AB}| = AB."
           ]
         },
-        { "type": "heading", "text": "2. Hai vectơ cùng phương, cùng hướng" },
+        {
+          "type": "heading",
+          "text": "2. Hai vectơ cùng phương, cùng hướng"
+        },
         {
           "type": "definition",
           "title": "Cùng phương",
@@ -31,7 +37,10 @@
           "type": "note",
           "content": "Cùng hướng ⇒ cùng phương, nhưng cùng phương KHÔNG suy ra cùng hướng. Đây là lỗi rất thường gặp."
         },
-        { "type": "heading", "text": "3. Hai vectơ bằng nhau" },
+        {
+          "type": "heading",
+          "text": "3. Hai vectơ bằng nhau"
+        },
         {
           "type": "definition",
           "title": "Vectơ bằng nhau",
@@ -58,7 +67,10 @@
       "id": "b8",
       "title": "Bài 8. Tổng và hiệu của hai vectơ",
       "blocks": [
-        { "type": "heading", "text": "1. Tổng của hai vectơ" },
+        {
+          "type": "heading",
+          "text": "1. Tổng của hai vectơ"
+        },
         {
           "type": "definition",
           "title": "Quy tắc ba điểm",
@@ -72,12 +84,24 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Giao hoán", "math": "\\vec{a} + \\vec{b} = \\vec{b} + \\vec{a}" },
-            { "label": "Kết hợp", "math": "(\\vec{a} + \\vec{b}) + \\vec{c} = \\vec{a} + (\\vec{b} + \\vec{c})" },
-            { "label": "Cộng với vectơ - không", "math": "\\vec{a} + \\vec{0} = \\vec{a}" }
+            {
+              "label": "Giao hoán",
+              "math": "\\vec{a} + \\vec{b} = \\vec{b} + \\vec{a}"
+            },
+            {
+              "label": "Kết hợp",
+              "math": "(\\vec{a} + \\vec{b}) + \\vec{c} = \\vec{a} + (\\vec{b} + \\vec{c})"
+            },
+            {
+              "label": "Cộng với vectơ - không",
+              "math": "\\vec{a} + \\vec{0} = \\vec{a}"
+            }
           ]
         },
-        { "type": "heading", "text": "2. Hiệu của hai vectơ" },
+        {
+          "type": "heading",
+          "text": "2. Hiệu của hai vectơ"
+        },
         {
           "type": "definition",
           "title": "Vectơ đối",
@@ -86,15 +110,24 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Định nghĩa hiệu", "math": "\\vec{a} − \\vec{b} = \\vec{a} + (−\\vec{b})" },
-            { "label": "Quy tắc trừ (chung điểm đầu O)", "math": "\\vec{OB} − \\vec{OA} = \\vec{AB}" }
+            {
+              "label": "Định nghĩa hiệu",
+              "math": "\\vec{a} − \\vec{b} = \\vec{a} + (−\\vec{b})"
+            },
+            {
+              "label": "Quy tắc trừ (chung điểm đầu O)",
+              "math": "\\vec{OB} − \\vec{OA} = \\vec{AB}"
+            }
           ]
         },
         {
           "type": "note",
           "content": "Quy tắc trừ rất hữu ích: mọi vectơ \\vec{AB} đều viết được thành \\vec{OB} − \\vec{OA} với O là điểm tuỳ ý. Cách này gọi là \"chèn điểm\"."
         },
-        { "type": "heading", "text": "3. Trung điểm và trọng tâm" },
+        {
+          "type": "heading",
+          "text": "3. Trung điểm và trọng tâm"
+        },
         {
           "type": "theorem",
           "title": "Các hệ thức quan trọng",
@@ -115,23 +148,44 @@
       "id": "b9",
       "title": "Bài 9. Tích của một vectơ với một số",
       "blocks": [
-        { "type": "heading", "text": "1. Định nghĩa" },
+        {
+          "type": "heading",
+          "text": "1. Định nghĩa"
+        },
         {
           "type": "definition",
           "title": "Tích của vectơ với một số",
           "content": "Cho số k ≠ 0 và vectơ \\vec{a} ≠ \\vec{0}. Tích k\\vec{a} là một vectơ:\n• Cùng hướng với \\vec{a} nếu k > 0; ngược hướng với \\vec{a} nếu k < 0.\n• Có độ dài |k\\vec{a}| = |k|·|\\vec{a}|.\nQuy ước: 0·\\vec{a} = \\vec{0} và k·\\vec{0} = \\vec{0}."
         },
-        { "type": "heading", "text": "2. Tính chất" },
+        {
+          "type": "heading",
+          "text": "2. Tính chất"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "", "math": "k(\\vec{a} + \\vec{b}) = k\\vec{a} + k\\vec{b}" },
-            { "label": "", "math": "(h + k)\\vec{a} = h\\vec{a} + k\\vec{a}" },
-            { "label": "", "math": "h(k\\vec{a}) = (hk)\\vec{a}" },
-            { "label": "", "math": "1·\\vec{a} = \\vec{a};  (−1)·\\vec{a} = −\\vec{a}" }
+            {
+              "label": "",
+              "math": "k(\\vec{a} + \\vec{b}) = k\\vec{a} + k\\vec{b}"
+            },
+            {
+              "label": "",
+              "math": "(h + k)\\vec{a} = h\\vec{a} + k\\vec{a}"
+            },
+            {
+              "label": "",
+              "math": "h(k\\vec{a}) = (hk)\\vec{a}"
+            },
+            {
+              "label": "",
+              "math": "1·\\vec{a} = \\vec{a};  (−1)·\\vec{a} = −\\vec{a}"
+            }
           ]
         },
-        { "type": "heading", "text": "3. Điều kiện cùng phương, thẳng hàng" },
+        {
+          "type": "heading",
+          "text": "3. Điều kiện cùng phương, thẳng hàng"
+        },
         {
           "type": "theorem",
           "title": "Điều kiện cùng phương",
@@ -162,7 +216,10 @@
       "id": "b10",
       "title": "Bài 10. Vectơ trong mặt phẳng toạ độ",
       "blocks": [
-        { "type": "heading", "text": "1. Toạ độ của vectơ" },
+        {
+          "type": "heading",
+          "text": "1. Toạ độ của vectơ"
+        },
         {
           "type": "definition",
           "title": "Toạ độ",
@@ -171,28 +228,64 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Toạ độ vectơ theo hai điểm", "math": "\\vec{AB} = (x_{B} − x_{A};  y_{B} − y_{A})" },
-            { "label": "Độ dài vectơ", "math": "|\\vec{a}| = \\sqrt{x^{2} + y^{2}}" },
-            { "label": "Khoảng cách hai điểm", "math": "AB = \\sqrt{(x_{B} − x_{A})^{2} + (y_{B} − y_{A})^{2}}" }
+            {
+              "label": "Toạ độ vectơ theo hai điểm",
+              "math": "\\vec{AB} = (x_{B} − x_{A};  y_{B} − y_{A})"
+            },
+            {
+              "label": "Độ dài vectơ",
+              "math": "|\\vec{a}| = \\sqrt{x^{2} + y^{2}}"
+            },
+            {
+              "label": "Khoảng cách hai điểm",
+              "math": "AB = \\sqrt{(x_{B} − x_{A})^{2} + (y_{B} − y_{A})^{2}}"
+            }
           ]
         },
-        { "type": "heading", "text": "2. Các phép toán theo toạ độ" },
+        {
+          "type": "heading",
+          "text": "2. Các phép toán theo toạ độ"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "Cho \\vec{a} = (x₁; y₁), \\vec{b} = (x₂; y₂)", "math": "\\vec{a} + \\vec{b} = (x_{1} + x_{2};  y_{1} + y_{2})" },
-            { "label": "", "math": "\\vec{a} − \\vec{b} = (x_{1} − x_{2};  y_{1} − y_{2})" },
-            { "label": "", "math": "k\\vec{a} = (kx_{1};  ky_{1})" },
-            { "label": "Bằng nhau", "math": "\\vec{a} = \\vec{b} ⇔ x_{1} = x_{2} và y_{1} = y_{2}" },
-            { "label": "Cùng phương", "math": "\\vec{a} cùng phương \\vec{b} ⇔ x_{1}y_{2} − x_{2}y_{1} = 0" }
+            {
+              "label": "Cho \\vec{a} = (x₁; y₁), \\vec{b} = (x₂; y₂)",
+              "math": "\\vec{a} + \\vec{b} = (x_{1} + x_{2};  y_{1} + y_{2})"
+            },
+            {
+              "label": "",
+              "math": "\\vec{a} − \\vec{b} = (x_{1} − x_{2};  y_{1} − y_{2})"
+            },
+            {
+              "label": "",
+              "math": "k\\vec{a} = (kx_{1};  ky_{1})"
+            },
+            {
+              "label": "Bằng nhau",
+              "math": "\\vec{a} = \\vec{b} ⇔ x_{1} = x_{2} và y_{1} = y_{2}"
+            },
+            {
+              "label": "Cùng phương",
+              "math": "\\vec{a} cùng phương \\vec{b} ⇔ x_{1}y_{2} − x_{2}y_{1} = 0"
+            }
           ]
         },
-        { "type": "heading", "text": "3. Trung điểm và trọng tâm theo toạ độ" },
+        {
+          "type": "heading",
+          "text": "3. Trung điểm và trọng tâm theo toạ độ"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "Trung điểm I của AB", "math": "x_{I} = \\frac{x_{A} + x_{B}}{2};  y_{I} = \\frac{y_{A} + y_{B}}{2}" },
-            { "label": "Trọng tâm G của tam giác ABC", "math": "x_{G} = \\frac{x_{A} + x_{B} + x_{C}}{3};  y_{G} = \\frac{y_{A} + y_{B} + y_{C}}{3}" }
+            {
+              "label": "Trung điểm I của AB",
+              "math": "x_{I} = \\frac{x_{A} + x_{B}}{2};  y_{I} = \\frac{y_{A} + y_{B}}{2}"
+            },
+            {
+              "label": "Trọng tâm G của tam giác ABC",
+              "math": "x_{G} = \\frac{x_{A} + x_{B} + x_{C}}{3};  y_{G} = \\frac{y_{A} + y_{B} + y_{C}}{3}"
+            }
           ]
         },
         {
@@ -206,7 +299,10 @@
       "id": "b11",
       "title": "Bài 11. Tích vô hướng của hai vectơ",
       "blocks": [
-        { "type": "heading", "text": "1. Góc giữa hai vectơ" },
+        {
+          "type": "heading",
+          "text": "1. Góc giữa hai vectơ"
+        },
         {
           "type": "definition",
           "title": "Góc giữa hai vectơ",
@@ -220,7 +316,10 @@
             "(\\vec{a}, \\vec{b}) = 90° ⇔ \\vec{a} ⊥ \\vec{b}."
           ]
         },
-        { "type": "heading", "text": "2. Tích vô hướng" },
+        {
+          "type": "heading",
+          "text": "2. Tích vô hướng"
+        },
         {
           "type": "definition",
           "title": "Định nghĩa",
@@ -229,20 +328,47 @@
         {
           "type": "formula",
           "items": [
-            { "label": "Biểu thức toạ độ", "math": "\\vec{a}·\\vec{b} = x_{1}x_{2} + y_{1}y_{2}" },
-            { "label": "Bình phương vô hướng", "math": "\\vec{a}^{2} = |\\vec{a}|^{2}" },
-            { "label": "Điều kiện vuông góc", "math": "\\vec{a} ⊥ \\vec{b} ⇔ \\vec{a}·\\vec{b} = 0 ⇔ x_{1}x_{2} + y_{1}y_{2} = 0" },
-            { "label": "Công thức góc", "math": "cos(\\vec{a}, \\vec{b}) = \\frac{x_{1}x_{2} + y_{1}y_{2}}{\\sqrt{x_{1}^{2} + y_{1}^{2}} · \\sqrt{x_{2}^{2} + y_{2}^{2}}}" }
+            {
+              "label": "Biểu thức toạ độ",
+              "math": "\\vec{a}·\\vec{b} = x_{1}x_{2} + y_{1}y_{2}"
+            },
+            {
+              "label": "Bình phương vô hướng",
+              "math": "\\vec{a}^{2} = |\\vec{a}|^{2}"
+            },
+            {
+              "label": "Điều kiện vuông góc",
+              "math": "\\vec{a} ⊥ \\vec{b} ⇔ \\vec{a}·\\vec{b} = 0 ⇔ x_{1}x_{2} + y_{1}y_{2} = 0"
+            },
+            {
+              "label": "Công thức góc",
+              "math": "cos(\\vec{a}, \\vec{b}) = \\frac{x_{1}x_{2} + y_{1}y_{2}}{\\sqrt{x_{1}^{2} + y_{1}^{2}} · \\sqrt{x_{2}^{2} + y_{2}^{2}}}"
+            }
           ]
         },
-        { "type": "heading", "text": "3. Tính chất" },
+        {
+          "type": "heading",
+          "text": "3. Tính chất"
+        },
         {
           "type": "formula",
           "items": [
-            { "label": "Giao hoán", "math": "\\vec{a}·\\vec{b} = \\vec{b}·\\vec{a}" },
-            { "label": "Phân phối", "math": "\\vec{a}·(\\vec{b} + \\vec{c}) = \\vec{a}·\\vec{b} + \\vec{a}·\\vec{c}" },
-            { "label": "Với số thực k", "math": "(k\\vec{a})·\\vec{b} = k(\\vec{a}·\\vec{b})" },
-            { "label": "Hằng đẳng thức", "math": "(\\vec{a} ± \\vec{b})^{2} = \\vec{a}^{2} ± 2\\vec{a}·\\vec{b} + \\vec{b}^{2}" }
+            {
+              "label": "Giao hoán",
+              "math": "\\vec{a}·\\vec{b} = \\vec{b}·\\vec{a}"
+            },
+            {
+              "label": "Phân phối",
+              "math": "\\vec{a}·(\\vec{b} + \\vec{c}) = \\vec{a}·\\vec{b} + \\vec{a}·\\vec{c}"
+            },
+            {
+              "label": "Với số thực k",
+              "math": "(k\\vec{a})·\\vec{b} = k(\\vec{a}·\\vec{b})"
+            },
+            {
+              "label": "Hằng đẳng thức",
+              "math": "(\\vec{a} ± \\vec{b})^{2} = \\vec{a}^{2} ± 2\\vec{a}·\\vec{b} + \\vec{b}^{2}"
+            }
           ]
         },
         {

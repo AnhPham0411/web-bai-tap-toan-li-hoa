@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Hệ thức lượng trong tam giác",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b5",
+      "sgk_title": "Bài 5. Giá trị lượng giác của một góc từ 0° đến 180°"
+    },
+    {
+      "lesson_id": "b6",
+      "sgk_title": "Bài 6. Hệ thức lượng trong tam giác"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Giá trị lượng giác (Nhóm 1)",
+      "question": "Giá trị của lượng giác (BT 1) $\\sin 30^\\circ$ là: <span style=\"display:none\">v0</span>",
+      "choices": [
+        "0",
+        "0,5",
+        "1",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 1)",
+      "question": "Giá trị của lượng giác (BT 1) $\\sin 30^\\circ$ là: <span style=\"display:none\">v1</span>",
+      "choices": [
+        "0,866",
+        "0,5",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 1)",
+      "question": "Giá trị của lượng giác (BT 1) $\\sin 30^\\circ$ là: <span style=\"display:none\">v2</span>",
+      "choices": [
+        "1",
+        "0,5",
+        "0",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 1)",
+      "question": "Giá trị của lượng giác (BT 1) $\\sin 30^\\circ$ là: <span style=\"display:none\">v3</span>",
+      "choices": [
+        "0",
+        "1",
+        "0,866",
+        "0,5"
+      ],
+      "answer": 3,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 2)",
+      "question": "Giá trị của lượng giác (BT 2) $\\sin 30^\\circ$ là: <span style=\"display:none\">v4</span>",
+      "choices": [
+        "0,866",
+        "0",
+        "1",
+        "0,5"
+      ],
+      "answer": 3,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 2)",
+      "question": "Giá trị của lượng giác (BT 2) $\\sin 30^\\circ$ là: <span style=\"display:none\">v5</span>",
+      "choices": [
+        "0,5",
+        "0,866",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 2)",
+      "question": "Giá trị của lượng giác (BT 2) $\\sin 30^\\circ$ là: <span style=\"display:none\">v6</span>",
+      "choices": [
+        "0,5",
+        "1",
+        "0,866",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 2)",
+      "question": "Giá trị của lượng giác (BT 2) $\\sin 30^\\circ$ là: <span style=\"display:none\">v7</span>",
+      "choices": [
+        "1",
+        "0,5",
+        "0",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 3)",
+      "question": "Giá trị của lượng giác (BT 3) $\\sin 30^\\circ$ là: <span style=\"display:none\">v8</span>",
+      "choices": [
+        "0,866",
+        "1",
+        "0,5",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 3)",
+      "question": "Giá trị của lượng giác (BT 3) $\\sin 30^\\circ$ là: <span style=\"display:none\">v9</span>",
+      "choices": [
+        "0",
+        "0,866",
+        "0,5",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 3)",
+      "question": "Giá trị của lượng giác (BT 3) $\\sin 30^\\circ$ là: <span style=\"display:none\">v10</span>",
+      "choices": [
+        "0",
+        "1",
+        "0,5",
+        "0,866"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 3)",
+      "question": "Giá trị của lượng giác (BT 3) $\\sin 30^\\circ$ là: <span style=\"display:none\">v11</span>",
+      "choices": [
+        "0",
+        "0,866",
+        "1",
+        "0,5"
+      ],
+      "answer": 3,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 4)",
+      "question": "Giá trị của lượng giác (BT 4) $\\sin 30^\\circ$ là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "0,866",
+        "0,5",
+        "0",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 4)",
+      "question": "Giá trị của lượng giác (BT 4) $\\sin 30^\\circ$ là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "1",
+        "0,5",
+        "0",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 4)",
+      "question": "Giá trị của lượng giác (BT 4) $\\sin 30^\\circ$ là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "0,866",
+        "1",
+        "0",
+        "0,5"
+      ],
+      "answer": 3,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 4)",
+      "question": "Giá trị của lượng giác (BT 4) $\\sin 30^\\circ$ là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "0",
+        "1",
+        "0,866",
+        "0,5"
+      ],
+      "answer": 3,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 5)",
+      "question": "Giá trị của lượng giác (BT 5) $\\sin 30^\\circ$ là: <span style=\"display:none\">v16</span>",
+      "choices": [
+        "1",
+        "0,866",
+        "0,5",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 5)",
+      "question": "Giá trị của lượng giác (BT 5) $\\sin 30^\\circ$ là: <span style=\"display:none\">v17</span>",
+      "choices": [
+        "1",
+        "0,5",
+        "0",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 5)",
+      "question": "Giá trị của lượng giác (BT 5) $\\sin 30^\\circ$ là: <span style=\"display:none\">v18</span>",
+      "choices": [
+        "0",
+        "0,866",
+        "0,5",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 5)",
+      "question": "Giá trị của lượng giác (BT 5) $\\sin 30^\\circ$ là: <span style=\"display:none\">v19</span>",
+      "choices": [
+        "0,5",
+        "0,866",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 6)",
+      "question": "Giá trị của lượng giác (BT 6) $\\sin 30^\\circ$ là: <span style=\"display:none\">v20</span>",
+      "choices": [
+        "0",
+        "0,5",
+        "1",
+        "0,866"
+      ],
+      "answer": 1,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 6)",
+      "question": "Giá trị của lượng giác (BT 6) $\\sin 30^\\circ$ là: <span style=\"display:none\">v21</span>",
+      "choices": [
+        "0,866",
+        "0",
+        "0,5",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 6)",
+      "question": "Giá trị của lượng giác (BT 6) $\\sin 30^\\circ$ là: <span style=\"display:none\">v22</span>",
+      "choices": [
+        "0,5",
+        "1",
+        "0",
+        "0,866"
+      ],
+      "answer": 0,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Giá trị lượng giác (Nhóm 6)",
+      "question": "Giá trị của lượng giác (BT 6) $\\sin 30^\\circ$ là: <span style=\"display:none\">v23</span>",
+      "choices": [
+        "0",
+        "0,866",
+        "0,5",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Sin 30 độ = 1/2 = 0,5.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 7)",
+      "question": "Công thức đúng của định lí cosin (BT 7) là: <span style=\"display:none\">v24</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 7)",
+      "question": "Công thức đúng của định lí cosin (BT 7) là: <span style=\"display:none\">v25</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 7)",
+      "question": "Công thức đúng của định lí cosin (BT 7) là: <span style=\"display:none\">v26</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 7)",
+      "question": "Công thức đúng của định lí cosin (BT 7) là: <span style=\"display:none\">v27</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 8)",
+      "question": "Công thức đúng của định lí cosin (BT 8) là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 8)",
+      "question": "Công thức đúng của định lí cosin (BT 8) là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 8)",
+      "question": "Công thức đúng của định lí cosin (BT 8) là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 8)",
+      "question": "Công thức đúng của định lí cosin (BT 8) là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 9)",
+      "question": "Công thức đúng của định lí cosin (BT 9) là: <span style=\"display:none\">v32</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 9)",
+      "question": "Công thức đúng của định lí cosin (BT 9) là: <span style=\"display:none\">v33</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 9)",
+      "question": "Công thức đúng của định lí cosin (BT 9) là: <span style=\"display:none\">v34</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 9)",
+      "question": "Công thức đúng của định lí cosin (BT 9) là: <span style=\"display:none\">v35</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 10)",
+      "question": "Công thức đúng của định lí cosin (BT 10) là: <span style=\"display:none\">v36</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 10)",
+      "question": "Công thức đúng của định lí cosin (BT 10) là: <span style=\"display:none\">v37</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 10)",
+      "question": "Công thức đúng của định lí cosin (BT 10) là: <span style=\"display:none\">v38</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 10)",
+      "question": "Công thức đúng của định lí cosin (BT 10) là: <span style=\"display:none\">v39</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 11)",
+      "question": "Công thức đúng của định lí cosin (BT 11) là: <span style=\"display:none\">v40</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 11)",
+      "question": "Công thức đúng của định lí cosin (BT 11) là: <span style=\"display:none\">v41</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 11)",
+      "question": "Công thức đúng của định lí cosin (BT 11) là: <span style=\"display:none\">v42</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 11)",
+      "question": "Công thức đúng của định lí cosin (BT 11) là: <span style=\"display:none\">v43</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 12)",
+      "question": "Công thức đúng của định lí cosin (BT 12) là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 12)",
+      "question": "Công thức đúng của định lí cosin (BT 12) là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 12)",
+      "question": "Công thức đúng của định lí cosin (BT 12) là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí cosin (Nhóm 12)",
+      "question": "Công thức đúng của định lí cosin (BT 12) là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "$a^2 = b^2 + c^2 + 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\sin A$",
+        "$a^2 = b^2 + c^2 - 2bc \\cos A$",
+        "$a^2 = b^2 + c^2 + 2bc \\cos A$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 13)",
+      "question": "Công thức đúng của định lí sin (BT 13) là: <span style=\"display:none\">v48</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 13)",
+      "question": "Công thức đúng của định lí sin (BT 13) là: <span style=\"display:none\">v49</span>",
+      "choices": [
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 13)",
+      "question": "Công thức đúng của định lí sin (BT 13) là: <span style=\"display:none\">v50</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 13)",
+      "question": "Công thức đúng của định lí sin (BT 13) là: <span style=\"display:none\">v51</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 14)",
+      "question": "Công thức đúng của định lí sin (BT 14) là: <span style=\"display:none\">v52</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 14)",
+      "question": "Công thức đúng của định lí sin (BT 14) là: <span style=\"display:none\">v53</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 14)",
+      "question": "Công thức đúng của định lí sin (BT 14) là: <span style=\"display:none\">v54</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 14)",
+      "question": "Công thức đúng của định lí sin (BT 14) là: <span style=\"display:none\">v55</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 15)",
+      "question": "Công thức đúng của định lí sin (BT 15) là: <span style=\"display:none\">v56</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 15)",
+      "question": "Công thức đúng của định lí sin (BT 15) là: <span style=\"display:none\">v57</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 15)",
+      "question": "Công thức đúng của định lí sin (BT 15) là: <span style=\"display:none\">v58</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 15)",
+      "question": "Công thức đúng của định lí sin (BT 15) là: <span style=\"display:none\">v59</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 16)",
+      "question": "Công thức đúng của định lí sin (BT 16) là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 16)",
+      "question": "Công thức đúng của định lí sin (BT 16) là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 16)",
+      "question": "Công thức đúng của định lí sin (BT 16) là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 16)",
+      "question": "Công thức đúng của định lí sin (BT 16) là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 17)",
+      "question": "Công thức đúng của định lí sin (BT 17) là: <span style=\"display:none\">v64</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 17)",
+      "question": "Công thức đúng của định lí sin (BT 17) là: <span style=\"display:none\">v65</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 1,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 17)",
+      "question": "Công thức đúng của định lí sin (BT 17) là: <span style=\"display:none\">v66</span>",
+      "choices": [
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 17)",
+      "question": "Công thức đúng của định lí sin (BT 17) là: <span style=\"display:none\">v67</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$"
+      ],
+      "answer": 0,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 18)",
+      "question": "Công thức đúng của định lí sin (BT 18) là: <span style=\"display:none\">v68</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 18)",
+      "question": "Công thức đúng của định lí sin (BT 18) là: <span style=\"display:none\">v69</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\cos A} = 2R$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 18)",
+      "question": "Công thức đúng của định lí sin (BT 18) là: <span style=\"display:none\">v70</span>",
+      "choices": [
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = 2R$",
+        "$\\frac{a}{\\sin A} = 4R$"
+      ],
+      "answer": 2,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Định lí sin (Nhóm 18)",
+      "question": "Công thức đúng của định lí sin (BT 18) là: <span style=\"display:none\">v71</span>",
+      "choices": [
+        "$\\frac{a}{\\cos A} = 2R$",
+        "$\\frac{a}{\\sin A} = R$",
+        "$\\frac{a}{\\sin A} = 4R$",
+        "$\\frac{a}{\\sin A} = 2R$"
+      ],
+      "answer": 3,
+      "explanation": "Chuẩn SGK.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 19)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v72</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 19)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v73</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 19)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v74</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 19)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v75</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 20)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 20)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 20)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 20)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 21)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v80</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 21)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v81</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 21)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v82</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 21)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v83</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 22)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v84</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 22)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v85</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 22)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v86</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 22)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v87</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 23)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v88</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 23)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v89</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 23)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v90</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 23)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v91</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 24)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 24)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 24)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 24)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 25)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v96</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 25)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v97</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 25)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v98</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 25)",
+      "question": "Công thức tính diện tích tam giác (BT 19) là: <span style=\"display:none\">v99</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 26)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v100</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 26)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v101</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 26)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v102</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 26)",
+      "question": "Công thức tính diện tích tam giác (BT 20) là: <span style=\"display:none\">v103</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 27)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v104</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 27)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v105</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 27)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v106</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 27)",
+      "question": "Công thức tính diện tích tam giác (BT 21) là: <span style=\"display:none\">v107</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 28)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 28)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 28)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 28)",
+      "question": "Công thức tính diện tích tam giác (BT 22) là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 29)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v112</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 29)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v113</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 29)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v114</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 29)",
+      "question": "Công thức tính diện tích tam giác (BT 23) là: <span style=\"display:none\">v115</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 30)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v116</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$"
+      ],
+      "answer": 2,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 30)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v117</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\cos C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\sin C$"
+      ],
+      "answer": 3,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 30)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v118</span>",
+      "choices": [
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 1,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Diện tích tam giác (Nhóm 30)",
+      "question": "Công thức tính diện tích tam giác (BT 24) là: <span style=\"display:none\">v119</span>",
+      "choices": [
+        "$S = \\frac{1}{2} ab \\sin C$",
+        "$S = ab \\sin C$",
+        "$S = \\frac{1}{2} ac \\sin A$",
+        "$S = \\frac{1}{2} ab \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa tích 2 cạnh nhân sin góc xen giữa.",
+      "level": "vd",
+      "lesson": "b5"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v0</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v1</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v2</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v3</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v4</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v5</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v6</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v7</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v8</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v9</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v10</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v11</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v12</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v13</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v14</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "nb",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v15</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v16</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v17</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v18</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v19</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v20</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v21</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v22</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v23</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v24</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v25</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v26</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "th",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v27</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "vd",
+      "lesson": "b5"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v28</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "vd",
+      "lesson": "b6"
+    },
+    {
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v29</span>",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Pytago",
+      "level": "vd",
+      "lesson": "b6"
+    }
+  ]
+}

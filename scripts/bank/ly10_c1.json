@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Mở đầu & Sai số trong đo lường",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b1",
+      "sgk_title": "Bài 1. Mở đầu về Vật lí"
+    },
+    {
+      "lesson_id": "b2",
+      "sgk_title": "Bài 2. Vấn đề an toàn & Sai số trong đo lường"
+    }
+  ],
+  "sources": [
+    "Sinh tự động bám sát SGK"
+  ],
+  "mc": [
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v0</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v1</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v2</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 1)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v3</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v4</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v5</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v6</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 2)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v7</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng"
+      ],
+      "answer": 3,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v8</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v9</span>",
+      "choices": [
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v10</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 3)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v11</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v12</span>",
+      "choices": [
+        "3,22%",
+        "4,5%",
+        "2,22%",
+        "1%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v13</span>",
+      "choices": [
+        "4,5%",
+        "1%",
+        "4,44%",
+        "5,44%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v14</span>",
+      "choices": [
+        "7,67%",
+        "6,67%",
+        "4,5%",
+        "1%"
+      ],
+      "answer": 1,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 4)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v15</span>",
+      "choices": [
+        "9,89%",
+        "1%",
+        "4,5%",
+        "8,89%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v16</span>",
+      "choices": [
+        "Joule (J)",
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v17</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Mét (m)",
+        "Joule (J)",
+        "Niu-tơn (N)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v18</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Joule (J)",
+        "Mét (m)",
+        "Niu-tơn (N)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 5)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v19</span>",
+      "choices": [
+        "Joule (J)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v20</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v21</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v22</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 6)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v23</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v24</span>",
+      "choices": [
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v25</span>",
+      "choices": [
+        "Một phần trăm giá trị trung bình",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v26</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 7)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v27</span>",
+      "choices": [
+        "Một phần trăm giá trị trung bình",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v28</span>",
+      "choices": [
+        "1%",
+        "3,22%",
+        "4,5%",
+        "2,22%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v29</span>",
+      "choices": [
+        "5,44%",
+        "1%",
+        "4,44%",
+        "4,5%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v30</span>",
+      "choices": [
+        "6,67%",
+        "4,5%",
+        "1%",
+        "7,67%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 8)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v31</span>",
+      "choices": [
+        "9,89%",
+        "8,89%",
+        "1%",
+        "4,5%"
+      ],
+      "answer": 1,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v32</span>",
+      "choices": [
+        "Joule (J)",
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v33</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v34</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 9)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v35</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v36</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v37</span>",
+      "choices": [
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v38</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 10)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v39</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v40</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v41</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v42</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 11)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v43</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v44</span>",
+      "choices": [
+        "3,22%",
+        "1%",
+        "2,22%",
+        "4,5%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v45</span>",
+      "choices": [
+        "4,44%",
+        "1%",
+        "4,5%",
+        "5,44%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v46</span>",
+      "choices": [
+        "1%",
+        "7,67%",
+        "6,67%",
+        "4,5%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 12)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v47</span>",
+      "choices": [
+        "8,89%",
+        "4,5%",
+        "9,89%",
+        "1%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v48</span>",
+      "choices": [
+        "Mét (m)",
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)"
+      ],
+      "answer": 0,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v49</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v50</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Joule (J)",
+        "Mét trên giây (m/s)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 13)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v51</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v52</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng"
+      ],
+      "answer": 3,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v53</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v54</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng"
+      ],
+      "answer": 3,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 14)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v55</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v56</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v57</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v58</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 15)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v59</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v60</span>",
+      "choices": [
+        "3,22%",
+        "1%",
+        "4,5%",
+        "2,22%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v61</span>",
+      "choices": [
+        "1%",
+        "5,44%",
+        "4,5%",
+        "4,44%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v62</span>",
+      "choices": [
+        "4,5%",
+        "1%",
+        "7,67%",
+        "6,67%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 16)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v63</span>",
+      "choices": [
+        "9,89%",
+        "4,5%",
+        "1%",
+        "8,89%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v64</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v65</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v66</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 17)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v67</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Mét (m)",
+        "Joule (J)",
+        "Niu-tơn (N)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v68</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v69</span>",
+      "choices": [
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v70</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 18)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v71</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng"
+      ],
+      "answer": 3,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v72</span>",
+      "choices": [
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình",
+        "Gấp 10 lần độ chia nhỏ nhất"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v73</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v74</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 19)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v75</span>",
+      "choices": [
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 1,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v76</span>",
+      "choices": [
+        "4,5%",
+        "2,22%",
+        "3,22%",
+        "1%"
+      ],
+      "answer": 1,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v77</span>",
+      "choices": [
+        "1%",
+        "4,5%",
+        "4,44%",
+        "5,44%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v78</span>",
+      "choices": [
+        "6,67%",
+        "4,5%",
+        "1%",
+        "7,67%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 20)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v79</span>",
+      "choices": [
+        "4,5%",
+        "9,89%",
+        "1%",
+        "8,89%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v80</span>",
+      "choices": [
+        "Mét (m)",
+        "Niu-tơn (N)",
+        "Joule (J)",
+        "Mét trên giây (m/s)"
+      ],
+      "answer": 0,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v81</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v82</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 21)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v83</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v84</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v85</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v86</span>",
+      "choices": [
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng"
+      ],
+      "answer": 3,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 22)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v87</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v88</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v89</span>",
+      "choices": [
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v90</span>",
+      "choices": [
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 23)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v91</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình"
+      ],
+      "answer": 2,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v92</span>",
+      "choices": [
+        "4,5%",
+        "3,22%",
+        "1%",
+        "2,22%"
+      ],
+      "answer": 3,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v93</span>",
+      "choices": [
+        "5,44%",
+        "4,44%",
+        "1%",
+        "4,5%"
+      ],
+      "answer": 1,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v94</span>",
+      "choices": [
+        "6,67%",
+        "4,5%",
+        "1%",
+        "7,67%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 24)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v95</span>",
+      "choices": [
+        "8,89%",
+        "4,5%",
+        "1%",
+        "9,89%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v96</span>",
+      "choices": [
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Joule (J)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v97</span>",
+      "choices": [
+        "Mét (m)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 0,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v98</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Mét trên giây (m/s)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 25)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v99</span>",
+      "choices": [
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Mét (m)",
+        "Joule (J)"
+      ],
+      "answer": 2,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v100</span>",
+      "choices": [
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v101</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v102</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Dự đoán lý thuyết không qua đo đạc"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 26)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v103</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Suy diễn triết học"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 0)? <span style=\"display:none\">v104</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 1)? <span style=\"display:none\">v105</span>",
+      "choices": [
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0",
+        "Một phần trăm giá trị trung bình",
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ"
+      ],
+      "answer": 3,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 2)? <span style=\"display:none\">v106</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Một phần trăm giá trị trung bình",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 27)",
+      "question": "Sai số do dụng cụ đo gây ra thường lấy bằng gì (BT 3)? <span style=\"display:none\">v107</span>",
+      "choices": [
+        "Một nửa hoặc một độ chia nhỏ nhất trên dụng cụ",
+        "Gấp 10 lần độ chia nhỏ nhất",
+        "Một phần trăm giá trị trung bình",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Sai số dụng cụ thường lấy bằng 1/2 hoặc 1 độ chia nhỏ nhất.",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,01) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v108</span>",
+      "choices": [
+        "2,22%",
+        "4,5%",
+        "3,22%",
+        "1%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,01 / 0,45) * 100% ≈ 2,22%.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,02) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v109</span>",
+      "choices": [
+        "4,5%",
+        "5,44%",
+        "4,44%",
+        "1%"
+      ],
+      "answer": 2,
+      "explanation": "Sai số tương đối = (0,02 / 0,45) * 100% ≈ 4,44%.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,03) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v110</span>",
+      "choices": [
+        "6,67%",
+        "7,67%",
+        "4,5%",
+        "1%"
+      ],
+      "answer": 0,
+      "explanation": "Sai số tương đối = (0,03 / 0,45) * 100% ≈ 6,67%.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Bài tập (Nhóm 28)",
+      "question": "Kết quả đo thời gian rơi t = (0,45 ± 0,04) s. Sai số tương đối của phép đo là: <span style=\"display:none\">v111</span>",
+      "choices": [
+        "1%",
+        "8,89%",
+        "9,89%",
+        "4,5%"
+      ],
+      "answer": 1,
+      "explanation": "Sai số tương đối = (0,04 / 0,45) * 100% ≈ 8,89%.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 0)? <span style=\"display:none\">v112</span>",
+      "choices": [
+        "Mét (m)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Joule (J)"
+      ],
+      "answer": 0,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 1)? <span style=\"display:none\">v113</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 2)? <span style=\"display:none\">v114</span>",
+      "choices": [
+        "Mét (m)",
+        "Mét trên giây (m/s)",
+        "Niu-tơn (N)",
+        "Joule (J)"
+      ],
+      "answer": 0,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 29)",
+      "question": "Đơn vị nào sau đây là đơn vị cơ bản trong hệ đơn vị SI (BT 3)? <span style=\"display:none\">v115</span>",
+      "choices": [
+        "Joule (J)",
+        "Niu-tơn (N)",
+        "Mét trên giây (m/s)",
+        "Mét (m)"
+      ],
+      "answer": 3,
+      "explanation": "7 đơn vị cơ bản SI gồm: m, kg, s, A, K, mol, cd.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 0)? <span style=\"display:none\">v116</span>",
+      "choices": [
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 1)? <span style=\"display:none\">v117</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 2)? <span style=\"display:none\">v118</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 1,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Lý thuyết (Nhóm 30)",
+      "question": "Phương pháp nghiên cứu nào sau đây thuộc về phương pháp thực nghiệm Vật lí (BT 3)? <span style=\"display:none\">v119</span>",
+      "choices": [
+        "Suy diễn triết học",
+        "Dự đoán lý thuyết không qua đo đạc",
+        "Quan sát hiện tượng và tiến hành thí nghiệm kiểm chứng",
+        "Sử dụng công thức toán học lập luận thuần túy"
+      ],
+      "answer": 2,
+      "explanation": "Phương pháp thực nghiệm dựa trên quan sát, thu thập dữ liệu và thí nghiệm.",
+      "level": "vd",
+      "lesson": "b2"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v0</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v1</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 1)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v2</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v3</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v4</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 2)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v5</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v6</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v7</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 3)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v8</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v9</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v10</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 4)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v11</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v12</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v13</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 5)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v14</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "nb",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v15</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v16</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 6)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v17</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v18</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v19</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 7)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v20</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v21</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v22</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 8)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v23</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v24</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v25</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 9)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v26</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "th",
+      "lesson": "b2"
+    },
+    {
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 5 ± 0,1 cm. Tính sai số tương đối δl (%). <span style=\"display:none\">v27</span>",
+      "answer": "2",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 6 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v28</span>",
+      "answer": "1.67",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b1"
+    },
+    {
+      "dang": "Sai số (Nhóm 10)",
+      "question": "Phép đo chiều dài l = 7 ± 0,1 cm. Tính sai số tương đối δl (%). (làm tròn đến 2 chữ số thập phân) <span style=\"display:none\">v29</span>",
+      "answer": "1.43",
+      "tolerance": 0.05,
+      "unit": "%",
+      "explanation": "Tính toán",
+      "level": "vd",
+      "lesson": "b1"
+    }
+  ]
+}

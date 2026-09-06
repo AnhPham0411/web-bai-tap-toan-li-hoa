@@ -1,4 +1,4 @@
-import { mathHtml, mathBlock } from '../math.js';
+import { mathHtml, mathBlock, escapeHtml } from '../math.js';
 import { isCorrect, formatAnswer, shuffle } from '../grade.js';
 import { saveResult, saveLastSetup, getLastSetup } from '../store.js';
 
@@ -22,7 +22,7 @@ export function clearSession() {
 
 export function renderSetup(ctx, query) {
   const { index, sets } = ctx;
-  const saved = getLastSetup() || {};
+  const saved = getLastSetup(ctx.subject.id) || {};
   const preChapter = query.get('chuong');
 
   const activeSetId = saved.setId && sets[saved.setId] ? saved.setId : index.questionSets[0].id;
@@ -208,9 +208,10 @@ export function bindSetup(ctx, root) {
         .map((id) => `Chương ${index.chapters.find((c) => c.id === id).roman}`)
         .join(', ');
 
-    saveLastSetup(sel);
+    saveLastSetup(ctx.subject.id, sel);
 
     session = {
+      subjectId: ctx.subject.id,
       setId: sel.setId,
       setTitle: setMeta.title,
       type: setMeta.type,
@@ -281,12 +282,13 @@ function renderChoices(q, response, revealed) {
 function renderShortInput(q, response, revealed) {
   return `<div class="answer-input">
     <input type="text" data-answer inputmode="decimal" autocomplete="off"
-           placeholder="Nhập đáp số…" value="${response ?? ''}" ${revealed ? 'disabled' : ''}>
+           placeholder="Nhập đáp số…" value="${escapeHtml(response ?? '')}" ${revealed ? 'disabled' : ''}>
     ${q.unit ? `<span class="unit">${mathHtml(q.unit)}</span>` : ''}
     ${revealed ? '' : '<button type="button" class="btn" data-check>Kiểm tra</button>'}
   </div>
   <p class="hint" style="margin:10px 0 0;color:var(--text-muted);font-size:13.5px">
-    Đáp án là một số. Có thể nhập 7,5 hoặc 7.5 — cả hai đều được chấp nhận.
+    Đáp án là một số. Có thể nhập 7,5 hoặc 7.5 — cả hai đều được chấp nhận.${
+      q.tolerance ? ` Đáp số được chấp nhận trong khoảng ±${String(q.tolerance).replace('.', ',')}.` : ''}
   </p>`;
 }
 
@@ -415,7 +417,7 @@ export function bindQuiz(ctx, root) {
     s.checked = s.checked.map(() => true);
 
     const correct = s.questions.filter((q, i) => isCorrect(q, s.type, s.responses[i])).length;
-    saveResult({
+    saveResult(s.subjectId, {
       setId: s.setId,
       setTitle: s.setTitle,
       chapters: s.chapterLabel,
@@ -435,6 +437,9 @@ export function bindQuiz(ctx, root) {
 
 export function renderResult() {
   const s = session;
+  if (!s || !s.questions.length) {
+    return '<div class="empty"><h2>Chưa có bài làm</h2><p><a href="#/luyen-tap">Tạo đề mới</a></p></div>';
+  }
   const results = s.questions.map((q, i) => ({
     q,
     i,

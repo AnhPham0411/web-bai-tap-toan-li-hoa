@@ -58,7 +58,7 @@ export function renderHome(ctx) {
       <span class="badge">Sắp có</span>
     </div>`).join('');
 
-  const recent = getResults().slice(0, 3);
+  const recent = getResults(subject.id).slice(0, 3);
   const recentHtml = recent.length ? `
     <section style="margin-top:44px">
       <h2>Lượt luyện tập gần đây</h2>
@@ -76,25 +76,12 @@ export function renderHome(ctx) {
       </div>
     </section>` : '';
 
-  setTimeout(() => {
-    document.querySelectorAll('.switch-subj-btn').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        const targetId = e.currentTarget.dataset.subj;
-        const selectEl = document.getElementById('subject-select');
-        if (selectEl) {
-          selectEl.value = targetId;
-          selectEl.dispatchEvent(new Event('change'));
-        }
-      });
-    });
-  }, 0);
-
   return `
     <section class="hero">
       <div class="eyebrow">${subject.book} · ${subject.term}</div>
       <h1>Học và luyện tập ${subject.name}</h1>
       <p>Lý thuyết đầy đủ theo từng bài, kèm hai dạng bài tập: trắc nghiệm bốn phương án và
-         trả lời ngắn điền đáp số. 750 câu hỏi luyện tập cho ${subject.name}.</p>
+         trả lời ngắn điền đáp số. ${totalQuestions.toLocaleString('vi-VN')} câu hỏi luyện tập cho ${subject.name}.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="#/luyen-tap">Bắt đầu luyện tập</a>
         <a class="btn" href="#/ly-thuyet">Xem lý thuyết</a>
@@ -126,4 +113,17 @@ export function renderHome(ctx) {
       <p style="color:var(--text-muted);margin-top:0">Cấu trúc dữ liệu đã sẵn sàng cho các lớp và học kì khác.</p>
       <div class="subject-list">${futureSubjects}</div>
     </section>`;
+}
+
+/** Gắn sự kiện cho trang chủ. Router gọi ngay sau khi đã chèn HTML vào DOM. */
+export function bindHome(root) {
+  root.querySelectorAll('.switch-subj-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      const targetId = e.currentTarget.dataset.subj;
+      const selectEl = document.getElementById('subject-select');
+      if (!selectEl) return;
+      selectEl.value = targetId;
+      selectEl.dispatchEvent(new Event('change'));
+    });
+  });
 }
