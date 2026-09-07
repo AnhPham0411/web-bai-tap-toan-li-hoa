@@ -457,6 +457,8 @@ select:focus, input:focus { outline: 2px solid var(--accent); outline-offset: -1
 .filter-tabs button.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
 
 /* ---------- Ký hiệu toán ---------- */
+.m-math { display: inline; font-style: normal; }
+.m-display { display: block; text-align: center; margin: .5em 0; font-style: normal; }
 .m-frac {
   display: inline-flex; flex-direction: column; vertical-align: middle;
   text-align: center; margin: 0 .18em; line-height: 1.2; font-size: .95em;

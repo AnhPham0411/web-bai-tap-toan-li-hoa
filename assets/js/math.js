@@ -14,19 +14,28 @@
  */
 
 const SYMBOLS = {
-  le: '≤', ge: '≥', ne: '≠', pm: '±', mp: '∓',
+  le: '≤', ge: '≥', ne: '≠', neq: '≠', pm: '±', mp: '∓',
   times: '×', div: '÷', cdot: '·', deg: '°', circ: '°',
-  sin: 'sin', cos: 'cos', tan: 'tan', cot: 'cot', log: 'log',
+  sin: 'sin', cos: 'cos', tan: 'tan', cot: 'cot', log: 'log', ln: 'ln',
+  max: 'max', min: 'min',
   infty: '∞', in: '∈', notin: '∉', subset: '⊂', supset: '⊃',
   cup: '∪', cap: '∩', emptyset: '∅', setminus: '∖',
   forall: '∀', exists: '∃', neg: '¬',
   Rightarrow: '⇒', Leftrightarrow: '⇔', rightarrow: '→', to: '→', mapsto: '↦',
+  rightleftharpoons: '⇌', downarrow: '↓', uparrow: '↑',
   perp: '⊥', parallel: '∥', angle: '∠', triangle: '△',
-  alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ',
-  theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ',
+  alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ', epsilon: 'ε',
+  theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ', chi: 'χ',
   sigma: 'σ', Sigma: 'Σ', tau: 'τ', phi: 'φ', omega: 'ω', Omega: 'Ω',
-  approx: '≈', equiv: '≡', propto: '∝', sum: 'Σ', prod: '∏',
+  approx: '≈', sim: '~', equiv: '≡', propto: '∝', sum: 'Σ', prod: '∏', int: '∫',
+  ll: '≪', gg: '≫', dots: '…', ldots: '…', cdots: '…',
+  quad: '&emsp;', qquad: '&emsp;&emsp;',
+  left: '', right: '',
   R: 'ℝ', Q: 'ℚ', Z: 'ℤ', N: 'ℕ'
+};
+
+const BB_MAP = {
+  R: 'ℝ', Q: 'ℚ', Z: 'ℤ', N: 'ℕ', C: 'ℂ'
 };
 
 const ONE_ARG = {
@@ -36,11 +45,14 @@ const ONE_ARG = {
   bar: (inner) => `<span class="m-obar">${inner}</span>`,
   overline: (inner) => `<span class="m-obar">${inner}</span>`,
   hat: (inner) => `<span class="m-obar">${inner}</span>`,
-  mathbb: (inner) => inner,
+  mathbb: (inner) => BB_MAP[inner.trim()] || inner,
+  mathring: (inner) => (inner.trim() === 'A' ? 'Å' : inner),
+  mathcal: (inner) => inner,
   mathrm: (inner) => inner,
   mathbf: (inner) => inner,
   mathit: (inner) => inner,
-  text: (inner) => inner
+  text: (inner) => inner,
+  xrightarrow: (inner) => `→ (${inner})`
 };
 
 export function escapeHtml(str) {
@@ -66,13 +78,58 @@ function readGroup(str, i) {
   return null;
 }
 
+/**
+ * Đọc một đối số của lệnh LaTeX bắt đầu tại vị trí i:
+ * - Nếu có cặp {...} thì lấy toàn bộ nội dung bên trong.
+ * - Nếu không có {...} thì lấy một token: bỏ qua khoảng trắng đầu, sau đó lấy
+ *   1 lệnh LaTeX khác (ví dụ \alpha) hoặc 1 ký tự đơn lẻ.
+ */
+function readArg(str, i) {
+  while (i < str.length && /\s/.test(str[i])) i++;
+  if (i >= str.length) return null;
+
+  if (str[i] === '{') {
+    return readGroup(str, i);
+  }
+
+  if (str[i] === '\\') {
+    const m = /^\\([A-Za-z]+)/.exec(str.slice(i));
+    if (m) {
+      const cmdName = m[1];
+      let next = i + m[0].length;
+      if (ONE_ARG[cmdName]) {
+        const sub = readArg(str, next);
+        if (sub) next = sub.next;
+      }
+      return { body: str.slice(i, next), next };
+    }
+  }
+
+  return { body: str[i], next: i + 1 };
+}
+
 /** Chuyển chuỗi đã escape HTML thành HTML có công thức. */
 function transform(src) {
   let out = '';
   let i = 0;
+  let inInlineMath = false;
+  let inDisplayMath = false;
 
   while (i < src.length) {
     const ch = src[i];
+
+    if (ch === '$') {
+      if (src[i + 1] === '$') {
+        inDisplayMath = !inDisplayMath;
+        out += inDisplayMath ? '<span class="m-display">' : '</span>';
+        i += 2;
+        continue;
+      }
+      inInlineMath = !inInlineMath;
+      out += inInlineMath ? '<span class="m-math">' : '</span>';
+      i++;
+      continue;
+    }
 
     if (ch === '\\') {
       const nextChar = src[i + 1];
@@ -90,8 +147,8 @@ function transform(src) {
         const afterName = i + m[0].length;
 
         if (name === 'frac') {
-          const g1 = readGroup(src, afterName);
-          const g2 = g1 && readGroup(src, g1.next);
+          const g1 = readArg(src, afterName);
+          const g2 = g1 && readArg(src, g1.next);
           if (g1 && g2) {
             out += `<span class="m-frac"><span class="m-num">${transform(g1.body)}</span>`
                  + `<span class="m-den">${transform(g2.body)}</span></span>`;
@@ -99,13 +156,13 @@ function transform(src) {
             continue;
           }
         } else if (ONE_ARG[name]) {
-          const g = readGroup(src, afterName);
+          const g = readArg(src, afterName);
           if (g) {
             out += ONE_ARG[name](transform(g.body));
             i = g.next;
             continue;
           }
-        } else if (SYMBOLS[name]) {
+        } else if (SYMBOLS[name] !== undefined) {
           out += SYMBOLS[name];
           i = afterName;
           continue;
@@ -131,10 +188,10 @@ function transform(src) {
         const name = mCmd[1];
         let end = i + 1 + mCmd[0].length;
         if (ONE_ARG[name]) {
-          const arg = readGroup(src, end);
+          const arg = readArg(src, end);
           if (arg) end = arg.next;
         }
-        if (SYMBOLS[name] || ONE_ARG[name]) {
+        if (SYMBOLS[name] !== undefined || ONE_ARG[name]) {
           out += `<${tag}>${transform(src.slice(i + 1, end))}</${tag}>`;
           i = end;
           continue;
@@ -150,6 +207,13 @@ function transform(src) {
 
     out += ch;
     i++;
+  }
+
+  if (inInlineMath) {
+    out += '</span>';
+  }
+  if (inDisplayMath) {
+    out += '</span>';
   }
 
   return out;

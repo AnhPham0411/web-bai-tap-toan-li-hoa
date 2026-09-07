@@ -622,7 +622,7 @@
         "$B \\cap C = \\emptyset$"
       ],
       "answer": 0,
-      "explanation": "Liệt kê $B = \\{1;2;4;8\\}$. Mọi phần tử của $B$ đều thuộc $C$ nên $B \\subset C$. Nhưng $3 \\in C$ mà $3 \\notin B$ nên $C \\not\\subset B$, do đó $B \\ne C$."
+      "explanation": "Liệt kê $B = \\{1;2;4;8\\}$. Mọi phần tử của $B$ đều thuộc $C$ nên $B \\subset C$. Nhưng $3 \\in C$ mà $3 \\notin B$ nên C ⊄ B, do đó $B \\ne C$."
     },
     {
       "id": "mc-c1-040",
@@ -734,7 +734,7 @@
         "$\\{1; 2; 3; 4; 6; 9\\}$"
       ],
       "answer": 0,
-      "explanation": "$A = \\{1;2;3;4;6;12\\}$, $B=\\{1;2;3;6;9;18\\}$. Các ước chung của cả $12$ và $18$ (tức ước của $\\gcd(12,18)=6$) là $1,2,3,6$."
+      "explanation": "$A = \\{1;2;3;4;6;12\\}$, $B=\\{1;2;3;6;9;18\\}$. Các ước chung của cả $12$ và $18$ (tức ước của ƯCLN$(12,18)=6$) là $1,2,3,6$."
     },
     {
       "id": "mc-c1-047",
@@ -1078,7 +1078,7 @@
       "lesson": "b2",
       "level": "vd",
       "dang": "Phần bù trong R",
-      "question": "Tập $\\mathbb{R} \\setminus \\big((-\\infty; -1) \\cup (2; +\\infty)\\big)$ là:",
+      "question": "Tập $\\mathbb{R} \\setminus [(-\\infty; -1) \\cup (2; +\\infty)]$ là:",
       "choices": [
         "$[-1; 2]$",
         "$(-1; 2)$",
@@ -1246,7 +1246,7 @@
         "$m \\ge 5$"
       ],
       "answer": 0,
-      "explanation": "Nếu $m=5$ thì $5 \\in A$ nhưng $5 \\notin B$ (vì $B$ không lấy $5$), nên $A \\not\\subset B$. Cần $m < 5$ để mọi $x \\le m$ đều thoả $x < 5$."
+      "explanation": "Nếu $m=5$ thì $5 \\in A$ nhưng $5 \\notin B$ (vì $B$ không lấy $5$), nên A ⊄ B. Cần $m < 5$ để mọi $x \\le m$ đều thoả $x < 5$."
     },
     {
       "id": "mc-c1-079",
@@ -1798,7 +1798,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Đếm số phần tử nguyên trong một tập hợp (nâng cao)",
-      "question": "Có bao nhiêu số nguyên thuộc khoảng $\\left(-\\frac{7}{2}; \\frac{5}{2}\\right)$?",
+      "question": "Có bao nhiêu số nguyên thuộc khoảng $(-\\frac{7}{2}; \\frac{5}{2})$?",
       "choices": [
         "6",
         "7",
@@ -1806,7 +1806,7 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "$-\\frac{7}{2}=-3{,}5$ và $\\frac{5}{2}=2{,}5$. Các số nguyên nằm strictly giữa hai giá trị này: $-3,-2,-1,0,1,2$, tổng cộng $6$ số."
+      "explanation": "$-\\frac{7}{2}=-3,5$ và $\\frac{5}{2}=2,5$. Các số nguyên nằm strictly giữa hai giá trị này: $-3,-2,-1,0,1,2$, tổng cộng $6$ số."
     },
     {
       "id": "mc-c1-114",
@@ -1990,15 +1990,15 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Lập bất phương trình từ tình huống thực tế",
-      "question": "Một người có $x$ tờ tiền mệnh giá $10\\,000$ đồng và $y$ tờ mệnh giá $20\\,000$ đồng, tổng số tiền không vượt quá $500\\,000$ đồng. Bất phương trình biểu diễn điều kiện này là:",
+      "question": "Một người có $x$ tờ tiền mệnh giá $10.000$ đồng và $y$ tờ mệnh giá $20.000$ đồng, tổng số tiền không vượt quá $500.000$ đồng. Bất phương trình biểu diễn điều kiện này là:",
       "choices": [
-        "$10\\,000x + 20\\,000y \\le 500\\,000$",
-        "$10\\,000x + 20\\,000y \\ge 500\\,000$",
-        "$10\\,000x + 20\\,000y = 500\\,000$",
-        "$20\\,000x + 10\\,000y \\le 500\\,000$"
+        "$10.000x + 20.000y \\le 500.000$",
+        "$10.000x + 20.000y \\ge 500.000$",
+        "$10.000x + 20.000y = 500.000$",
+        "$20.000x + 10.000y \\le 500.000$"
       ],
       "answer": 0,
-      "explanation": "\"Không vượt quá\" nghĩa là $\\le$. Tổng tiền là $10\\,000x + 20\\,000y$ (đúng mệnh giá ứng với đúng biến), nên bất phương trình là $10\\,000x+20\\,000y\\le500\\,000$."
+      "explanation": "\"Không vượt quá\" nghĩa là $\\le$. Tổng tiền là $10.000x + 20.000y$ (đúng mệnh giá ứng với đúng biến), nên bất phương trình là $10.000x+20.000y\\le500.000$."
     },
     {
       "id": "mc-c2-006",
@@ -2006,12 +2006,12 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Lập bất phương trình từ tình huống thực tế",
-      "question": "Giá vé xem phim là $50\\,000$ đồng/người lớn và $30\\,000$ đồng/trẻ em. Một nhóm có $x$ người lớn, $y$ trẻ em, tổng tiền vé nhiều hơn $800\\,000$ đồng. Bất phương trình phù hợp là:",
+      "question": "Giá vé xem phim là $50.000$ đồng/người lớn và $30.000$ đồng/trẻ em. Một nhóm có $x$ người lớn, $y$ trẻ em, tổng tiền vé nhiều hơn $800.000$ đồng. Bất phương trình phù hợp là:",
       "choices": [
-        "$50\\,000x + 30\\,000y > 800\\,000$",
-        "$50\\,000x + 30\\,000y < 800\\,000$",
-        "$50\\,000x + 30\\,000y \\ge 800\\,000$",
-        "$30\\,000x + 50\\,000y > 800\\,000$"
+        "$50.000x + 30.000y > 800.000$",
+        "$50.000x + 30.000y < 800.000$",
+        "$50.000x + 30.000y \\ge 800.000$",
+        "$30.000x + 50.000y > 800.000$"
       ],
       "answer": 0,
       "explanation": "\"Nhiều hơn\" là bất đẳng thức nghiêm ngặt $>$ (không lấy dấu bằng), khác với \"không vượt quá\" ($\\le$) ở câu trước. Vé người lớn ứng với $x$, vé trẻ em ứng với $y$."
@@ -2358,7 +2358,7 @@
       "lesson": "b3",
       "level": "vd",
       "dang": "Kiểm tra điểm thuộc miền nghiệm",
-      "question": "Cặp số $\\left(\\frac{1}{2}; -3\\right)$ là nghiệm của bất phương trình nào sau đây?",
+      "question": "Cặp số $(\\frac{1}{2}; -3)$ là nghiệm của bất phương trình nào sau đây?",
       "choices": [
         "$4x + y < 0$",
         "$2x - y > 10$",
@@ -2366,7 +2366,7 @@
         "$6x - 2y < 0$"
       ],
       "answer": 0,
-      "explanation": "Thay $x=\\frac12,y=-3$: $4x+y = 2-3=-1<0$ đúng. Ba bất phương trình còn lại: $2x-y=4$ (không $>10$), $x+y=-2{,}5$ (không $\\ge0$), $6x-2y=9$ (không $<0$)."
+      "explanation": "Thay $x=\\frac{1}{2},y=-3$: $4x+y = 2-3=-1<0$ đúng. Ba bất phương trình còn lại: $2x-y=4$ (không $>10$), $x+y=-2,5$ (không $\\ge0$), $6x-2y=9$ (không $<0$)."
     },
     {
       "id": "mc-c2-029",
@@ -2846,7 +2846,7 @@
         "Vô số đỉnh"
       ],
       "answer": 0,
-      "explanation": "Các đỉnh là $(0;0)$, $(4;0)$ (từ $2x+y=8$ cắt trục hoành), $(0;4)$ (từ $x+2y=8$ cắt trục tung), và giao điểm hai đường xiên $\\left(\\frac{8}{3};\\frac{8}{3}\\right)$: tổng cộng $4$ đỉnh, tạo thành một tứ giác."
+      "explanation": "Các đỉnh là $(0;0)$, $(4;0)$ (từ $2x+y=8$ cắt trục hoành), $(0;4)$ (từ $x+2y=8$ cắt trục tung), và giao điểm hai đường xiên $(\\frac{8}{3};\\frac{8}{3})$: tổng cộng $4$ đỉnh, tạo thành một tứ giác."
     },
     {
       "id": "mc-c2-059",
@@ -3112,13 +3112,13 @@
       "dang": "Toán thực tế: tối ưu sản xuất",
       "question": "Biết lợi nhuận $P=100x+80y$ (nghìn đồng), phương án sản xuất cho lợi nhuận LỚN NHẤT là:",
       "choices": [
-        "$x=15, y=10$, lợi nhuận $2\\,300$ nghìn đồng",
-        "$x=20, y=0$, lợi nhuận $2\\,000$ nghìn đồng",
-        "$x=0, y=15$, lợi nhuận $1\\,200$ nghìn đồng",
+        "$x=15, y=10$, lợi nhuận $2.300$ nghìn đồng",
+        "$x=20, y=0$, lợi nhuận $2.000$ nghìn đồng",
+        "$x=0, y=15$, lợi nhuận $1.200$ nghìn đồng",
         "$x=0, y=0$, lợi nhuận $0$ đồng"
       ],
       "answer": 0,
-      "explanation": "Tính $P$ tại bốn đỉnh: $0$; $2\\,000$; $100(15)+80(10)=1\\,500+800=2\\,300$; $1\\,200$. Lớn nhất là $2\\,300$ tại $(15;10)$."
+      "explanation": "Tính $P$ tại bốn đỉnh: $0$; $2.000$; $100(15)+80(10)=1.500+800=2.300$; $1.200$. Lớn nhất là $2.300$ tại $(15;10)$."
     },
     {
       "id": "mc-c2-076",
@@ -3366,7 +3366,7 @@
       "lesson": "b4",
       "level": "vd",
       "dang": "Toán thực tế: phân bổ đầu tư",
-      "question": "Lợi nhuận hàng năm $L=0{,}08x+0{,}12y$ (triệu đồng). Phương án cho lợi nhuận LỚN NHẤT là:",
+      "question": "Lợi nhuận hàng năm $L=0,08x+0,12y$ (triệu đồng). Phương án cho lợi nhuận LỚN NHẤT là:",
       "choices": [
         "$x=300, y=200$, lợi nhuận $48$ triệu đồng",
         "$x=500, y=0$, lợi nhuận $40$ triệu đồng",
@@ -3374,7 +3374,7 @@
         "$x=0, y=0$, lợi nhuận $0$ đồng"
       ],
       "answer": 0,
-      "explanation": "Tính $L$ tại các đỉnh $(0;0),(500;0),(300;200),(0;200)$: $0$, $40$, $0{,}08(300)+0{,}12(200)=24+24=48$, $24$. Lớn nhất là $48$ tại $(300;200)$."
+      "explanation": "Tính $L$ tại các đỉnh $(0;0),(500;0),(300;200),(0;200)$: $0$, $40$, $0,08(300)+0,12(200)=24+24=48$, $24$. Lớn nhất là $48$ tại $(300;200)$."
     },
     {
       "id": "mc-c2-092",
@@ -3390,7 +3390,7 @@
         "Không giới hạn số tiền đầu tư"
       ],
       "answer": 0,
-      "explanation": "Với $y=0$, ràng buộc còn lại là $x\\le500$, nên tối đa $500$ triệu, lợi nhuận $0{,}08(500)=40$ triệu đồng."
+      "explanation": "Với $y=0$, ràng buộc còn lại là $x\\le500$, nên tối đa $500$ triệu, lợi nhuận $0,08(500)=40$ triệu đồng."
     },
     {
       "id": "mc-c2-093",
@@ -3400,13 +3400,13 @@
       "dang": "Toán thực tế: pha trộn phân bón",
       "question": "Trộn $x$ kg phân A ($20\\%$ đạm) và $y$ kg phân B ($30\\%$ đạm) để có ít nhất $12$ kg đạm nguyên chất, tổng khối lượng không quá $50$ kg. Hệ bất phương trình đúng là:",
       "choices": [
-        "$0{,}2x+0{,}3y\\ge12$ và $x+y\\le50$",
-        "$0{,}2x+0{,}3y\\le12$ và $x+y\\ge50$",
-        "$0{,}3x+0{,}2y\\ge12$ và $x+y\\le50$",
-        "$0{,}2x+0{,}3y\\ge12$ và $x+y\\ge50$"
+        "$0,2x+0,3y\\ge12$ và $x+y\\le50$",
+        "$0,2x+0,3y\\le12$ và $x+y\\ge50$",
+        "$0,3x+0,2y\\ge12$ và $x+y\\le50$",
+        "$0,2x+0,3y\\ge12$ và $x+y\\ge50$"
       ],
       "answer": 0,
-      "explanation": "Lượng đạm nguyên chất tối thiểu $12$ kg: $0{,}2x+0{,}3y\\ge12$; tổng khối lượng không quá $50$ kg: $x+y\\le50$."
+      "explanation": "Lượng đạm nguyên chất tối thiểu $12$ kg: $0,2x+0,3y\\ge12$; tổng khối lượng không quá $50$ kg: $x+y\\le50$."
     },
     {
       "id": "mc-c2-094",
@@ -3422,7 +3422,7 @@
         "Không khả thi vì cả hai điều kiện đều sai"
       ],
       "answer": 0,
-      "explanation": "$0{,}2(30)+0{,}3(20)=6+6=12\\ge12$ đúng, $30+20=50\\le50$ đúng — thoả mãn cả hai (đúng bằng cả hai giới hạn)."
+      "explanation": "$0,2(30)+0,3(20)=6+6=12\\ge12$ đúng, $30+20=50\\le50$ đúng — thoả mãn cả hai (đúng bằng cả hai giới hạn)."
     },
     {
       "id": "mc-c2-095",
@@ -3454,7 +3454,7 @@
         "60 kg"
       ],
       "answer": 0,
-      "explanation": "Với $x=0$: $0{,}3y\\ge12 \\Leftrightarrow y\\ge40$."
+      "explanation": "Với $x=0$: $0,3y\\ge12 \\Leftrightarrow y\\ge40$."
     },
     {
       "id": "mc-c2-097",
@@ -3496,13 +3496,13 @@
       "dang": "Toán thực tế: bán vé tối ưu doanh thu",
       "question": "Doanh thu $D=80x+150y$ (nghìn đồng). Phương án cho doanh thu LỚN NHẤT là:",
       "choices": [
-        "$x=150, y=50$, doanh thu $19\\,500$ nghìn đồng",
-        "$x=200, y=0$, doanh thu $16\\,000$ nghìn đồng",
-        "$x=0, y=50$, doanh thu $7\\,500$ nghìn đồng",
+        "$x=150, y=50$, doanh thu $19.500$ nghìn đồng",
+        "$x=200, y=0$, doanh thu $16.000$ nghìn đồng",
+        "$x=0, y=50$, doanh thu $7.500$ nghìn đồng",
         "$x=0, y=0$, doanh thu $0$ đồng"
       ],
       "answer": 0,
-      "explanation": "Tính $D$ tại các đỉnh $(0;0),(200;0),(150;50),(0;50)$: $0$, $16\\,000$, $80(150)+150(50)=12\\,000+7\\,500=19\\,500$, $7\\,500$. Lớn nhất là $19\\,500$."
+      "explanation": "Tính $D$ tại các đỉnh $(0;0),(200;0),(150;50),(0;50)$: $0$, $16.000$, $80(150)+150(50)=12.000+7.500=19.500$, $7.500$. Lớn nhất là $19.500$."
     },
     {
       "id": "mc-c2-100",
@@ -3518,7 +3518,7 @@
         "30 000 nghìn đồng"
       ],
       "answer": 0,
-      "explanation": "$D=80(200)=16\\,000$ nghìn đồng — thấp hơn phương án tối ưu ở câu trên, cho thấy bán toàn vé thường không phải lựa chọn tốt nhất."
+      "explanation": "$D=80(200)=16.000$ nghìn đồng — thấp hơn phương án tối ưu ở câu trên, cho thấy bán toàn vé thường không phải lựa chọn tốt nhất."
     },
     {
       "id": "mc-c2-101",
@@ -3566,7 +3566,7 @@
         "1 800 nghìn đồng"
       ],
       "answer": 0,
-      "explanation": "Chi phí $=300(3)+150(4)=900+600=1\\,500$ nghìn đồng."
+      "explanation": "Chi phí $=300(3)+150(4)=900+600=1.500$ nghìn đồng."
     },
     {
       "id": "mc-c2-104",
@@ -3590,7 +3590,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: sản xuất bánh",
-      "question": "Tiệm bánh làm $x$ bánh ngọt ($200$g bột, $100$g đường/cái) và $y$ bánh mặn ($150$g bột, $50$g đường/cái), có $6\\,000$g bột và $2\\,500$g đường. Hệ bất phương trình (đã rút gọn) đúng là:",
+      "question": "Tiệm bánh làm $x$ bánh ngọt ($200$g bột, $100$g đường/cái) và $y$ bánh mặn ($150$g bột, $50$g đường/cái), có $6.000$g bột và $2.500$g đường. Hệ bất phương trình (đã rút gọn) đúng là:",
       "choices": [
         "$4x+3y\\le120$ và $2x+y\\le50$",
         "$4x+3y\\ge120$ và $2x+y\\ge50$",
@@ -3598,7 +3598,7 @@
         "$4x+3y\\le120$ và $2x+y\\ge50$"
       ],
       "answer": 0,
-      "explanation": "Chia cả hai vế cho $50$: $200x+150y\\le6\\,000 \\Rightarrow 4x+3y\\le120$; $100x+50y\\le2\\,500 \\Rightarrow 2x+y\\le50$."
+      "explanation": "Chia cả hai vế cho $50$: $200x+150y\\le6.000 \\Rightarrow 4x+3y\\le120$; $100x+50y\\le2.500 \\Rightarrow 2x+y\\le50$."
     },
     {
       "id": "mc-c2-106",
@@ -3686,7 +3686,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: vận tải hành khách",
-      "question": "Nếu chi phí thuê là $1{,}5$ triệu đồng/xe nhỏ và $3$ triệu đồng/xe lớn, chi phí của phương án $(2;6)$ là:",
+      "question": "Nếu chi phí thuê là $1,5$ triệu đồng/xe nhỏ và $3$ triệu đồng/xe lớn, chi phí của phương án $(2;6)$ là:",
       "choices": [
         "21 triệu đồng",
         "18 triệu đồng",
@@ -3694,7 +3694,7 @@
         "24 triệu đồng"
       ],
       "answer": 0,
-      "explanation": "Chi phí $=1{,}5(2)+3(6)=3+18=21$ triệu đồng."
+      "explanation": "Chi phí $=1,5(2)+3(6)=3+18=21$ triệu đồng."
     },
     {
       "id": "mc-c2-112",
@@ -3710,7 +3710,7 @@
         "8 xe"
       ],
       "answer": 0,
-      "explanation": "$45y\\ge300 \\Leftrightarrow y\\ge6{,}67$. Vì số xe phải nguyên nên làm tròn LÊN thành $7$ xe (chỉ $6$ xe sẽ không đủ chở $300$ khách)."
+      "explanation": "$45y\\ge300 \\Leftrightarrow y\\ge6,67$. Vì số xe phải nguyên nên làm tròn LÊN thành $7$ xe (chỉ $6$ xe sẽ không đủ chở $300$ khách)."
     },
     {
       "id": "mc-c2-113",
@@ -3750,15 +3750,15 @@
       "lesson": "b4",
       "level": "vd",
       "dang": "Toán thực tế: tối ưu quảng cáo",
-      "question": "Lượt tiếp cận $R=12\\,000x+4\\,000y$ (TV tiếp cận nhiều hơn mỗi lần). Phương án cho lượt tiếp cận LỚN NHẤT là:",
+      "question": "Lượt tiếp cận $R=12.000x+4.000y$ (TV tiếp cận nhiều hơn mỗi lần). Phương án cho lượt tiếp cận LỚN NHẤT là:",
       "choices": [
-        "$x=8, y=10$, đạt $136\\,000$ lượt",
-        "$x=8, y=0$, đạt $96\\,000$ lượt",
-        "$x=0, y=30$, đạt $120\\,000$ lượt",
+        "$x=8, y=10$, đạt $136.000$ lượt",
+        "$x=8, y=0$, đạt $96.000$ lượt",
+        "$x=0, y=30$, đạt $120.000$ lượt",
         "$x=0, y=0$, đạt $0$ lượt"
       ],
       "answer": 0,
-      "explanation": "Các đỉnh miền nghiệm: $(0;0),(8;0),(8;10),(0;30)$. Tính $R$: $0$, $96\\,000$, $12\\,000(8)+4\\,000(10)=96\\,000+40\\,000=136\\,000$, $120\\,000$. Lớn nhất là $136\\,000$."
+      "explanation": "Các đỉnh miền nghiệm: $(0;0),(8;0),(8;10),(0;30)$. Tính $R$: $0$, $96.000$, $12.000(8)+4.000(10)=96.000+40.000=136.000$, $120.000$. Lớn nhất là $136.000$."
     },
     {
       "id": "mc-c2-116",
@@ -3966,7 +3966,7 @@
         "$1$"
       ],
       "answer": 0,
-      "explanation": "$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{1/2}{\\sqrt3/2}=\\frac{1}{\\sqrt3}=\\frac{\\sqrt3}{3}$."
+      "explanation": "$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{1/2}{\\sqrt{3}/2}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$."
     },
     {
       "id": "mc-c3-009",
@@ -3982,7 +3982,7 @@
         "$\\frac{\\sqrt{2}}{2}$"
       ],
       "answer": 0,
-      "explanation": "$\\cot60^\\circ = \\frac{1}{\\tan60^\\circ} = \\frac{1}{\\sqrt3} = \\frac{\\sqrt3}{3}$."
+      "explanation": "$\\cot60^\\circ = \\frac{1}{\\tan60^\\circ} = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$."
     },
     {
       "id": "mc-c3-010",
@@ -4030,7 +4030,7 @@
         "$1$"
       ],
       "answer": 0,
-      "explanation": "$\\tan\\alpha=\\sqrt3$ ứng với $\\alpha=60^\\circ$ (góc nhọn), do đó $\\sin\\alpha=\\sin60^\\circ=\\frac{\\sqrt3}{2}$."
+      "explanation": "$\\tan\\alpha=\\sqrt{3}$ ứng với $\\alpha=60^\\circ$ (góc nhọn), do đó $\\sin\\alpha=\\sin60^\\circ=\\frac{\\sqrt{3}}{2}$."
     },
     {
       "id": "mc-c3-013",
@@ -4110,7 +4110,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "$45^\\circ$ nằm chính giữa $0^\\circ$ và $90^\\circ$, tại đó $\\sin$ và $\\cos$ bằng nhau: cả hai đều bằng $\\frac{\\sqrt2}{2}$."
+      "explanation": "$45^\\circ$ nằm chính giữa $0^\\circ$ và $90^\\circ$, tại đó $\\sin$ và $\\cos$ bằng nhau: cả hai đều bằng $\\frac{\\sqrt{2}}{2}$."
     },
     {
       "id": "mc-c3-018",
@@ -4120,13 +4120,13 @@
       "dang": "Tính giá trị biểu thức lượng giác",
       "question": "Giá trị nào sau đây KHÔNG THỂ là giá trị của $\\cos\\alpha$ với $\\alpha$ bất kì?",
       "choices": [
-        "$1{,}5$",
+        "$1,5$",
         "$0$",
         "$-1$",
-        "$0{,}5$"
+        "$0,5$"
       ],
       "answer": 0,
-      "explanation": "$\\cos\\alpha$ luôn thoả $-1 \\le \\cos\\alpha \\le 1$; giá trị $1{,}5$ vượt quá miền này nên không thể xảy ra."
+      "explanation": "$\\cos\\alpha$ luôn thoả $-1 \\le \\cos\\alpha \\le 1$; giá trị $1,5$ vượt quá miền này nên không thể xảy ra."
     },
     {
       "id": "mc-c3-019",
@@ -4142,7 +4142,7 @@
         "$\\frac{1}{4}$"
       ],
       "answer": 0,
-      "explanation": "$\\sin30^\\circ=\\frac12 \\Rightarrow 2\\sin^2 30^\\circ = 2 \\cdot \\frac14 = \\frac12$. $\\cos60^\\circ=\\frac12 \\Rightarrow \\cos^2 60^\\circ = \\frac14$. Vậy $P = \\frac12+\\frac14=\\frac34$."
+      "explanation": "$\\sin30^\\circ=\\frac{1}{2} \\Rightarrow 2\\sin^2 30^\\circ = 2 \\cdot \\frac{1}{4} = \\frac{1}{2}$. $\\cos60^\\circ=\\frac{1}{2} \\Rightarrow \\cos^2 60^\\circ = \\frac{1}{4}$. Vậy $P = \\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}$."
     },
     {
       "id": "mc-c3-020",
@@ -4206,7 +4206,7 @@
         "$\\frac{\\sqrt{3}}{2}$"
       ],
       "answer": 0,
-      "explanation": "$\\cos120^\\circ = -\\cos60^\\circ = -\\frac12$ — giá trị âm này chính là lí do định lí côsin cần trừ đi $2bc\\cos A$ khi $A$ là góc tù."
+      "explanation": "$\\cos120^\\circ = -\\cos60^\\circ = -\\frac{1}{2}$ — giá trị âm này chính là lí do định lí côsin cần trừ đi $2bc\\cos A$ khi $A$ là góc tù."
     },
     {
       "id": "mc-c3-024",
@@ -4264,13 +4264,13 @@
       "dang": "Định lí côsin",
       "question": "Tam giác $ABC$ có $a=7$, $b=5$, $c=8$. Tính $\\cos A$ theo hệ quả định lí côsin.",
       "choices": [
-        "$0{,}5$",
-        "$0{,}4$",
-        "$-0{,}5$",
+        "$0,5$",
+        "$0,4$",
+        "$-0,5$",
         "$1$"
       ],
       "answer": 0,
-      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{25+64-49}{2(5)(8)}=\\frac{40}{80}=0{,}5$."
+      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{25+64-49}{2(5)(8)}=\\frac{40}{80}=0,5$."
     },
     {
       "id": "mc-c3-028",
@@ -4302,7 +4302,7 @@
         "$a=12\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$a^{2}=36+36-2(6)(6)\\cos120^\\circ=72-72(-0{,}5)=72+36=108$, suy ra $a=\\sqrt{108}=6\\sqrt{3}$."
+      "explanation": "$a^{2}=36+36-2(6)(6)\\cos120^\\circ=72-72(-0,5)=72+36=108$, suy ra $a=\\sqrt{108}=6\\sqrt{3}$."
     },
     {
       "id": "mc-c3-030",
@@ -4318,7 +4318,7 @@
         "Không xác định được nếu thiếu góc đo trực tiếp"
       ],
       "answer": 0,
-      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{36+49-25}{84}=\\frac{60}{84}=\\frac57>0$, mà $\\cos$ dương ứng với góc nhọn."
+      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{36+49-25}{84}=\\frac{60}{84}=\\frac{5}{7}>0$, mà $\\cos$ dương ứng với góc nhọn."
     },
     {
       "id": "mc-c3-031",
@@ -4366,7 +4366,7 @@
         "$10$"
       ],
       "answer": 0,
-      "explanation": "$b^{2}=a^{2}+c^{2}-2ac\\cos B=36+64-2(6)(8)(0{,}5)=100-48=52$, suy ra $b=\\sqrt{52}=2\\sqrt{13}$."
+      "explanation": "$b^{2}=a^{2}+c^{2}-2ac\\cos B=36+64-2(6)(8)(0,5)=100-48=52$, suy ra $b=\\sqrt{52}=2\\sqrt{13}$."
     },
     {
       "id": "mc-c3-034",
@@ -4376,7 +4376,7 @@
       "dang": "Định lí côsin — ứng dụng",
       "question": "Hai người xuất phát từ điểm $O$: người thứ nhất đi $5$ km theo một hướng, người thứ hai đi $7$ km theo hướng khác, góc giữa hai hướng đi là $60^\\circ$. Khoảng cách giữa hai người là:",
       "choices": [
-        "$\\sqrt{39}$ km ($\\approx 6{,}2$ km)",
+        "$\\sqrt{39}$ km ($\\approx 6,2$ km)",
         "$12$ km",
         "$2$ km",
         "$\\sqrt{74}$ km"
@@ -4408,13 +4408,13 @@
       "dang": "Định lí côsin — ứng dụng",
       "question": "Tam giác đều $ABC$ có $a=b=c=10$. Tính $\\cos A$.",
       "choices": [
-        "$0{,}5$ (ứng với góc $60^\\circ$, đúng như tam giác đều)",
+        "$0,5$ (ứng với góc $60^\\circ$, đúng như tam giác đều)",
         "$1$",
         "$0$",
-        "$-0{,}5$"
+        "$-0,5$"
       ],
       "answer": 0,
-      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{100+100-100}{200}=0{,}5$, khớp với $A=60^\\circ$ của tam giác đều."
+      "explanation": "$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{100+100-100}{200}=0,5$, khớp với $A=60^\\circ$ của tam giác đều."
     },
     {
       "id": "mc-c3-037",
@@ -4430,7 +4430,7 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=100+36-2(10)(6)\\cos120^\\circ=136-120(-0{,}5)=136+60=196$, suy ra $c=\\sqrt{196}=14$."
+      "explanation": "$c^{2}=100+36-2(10)(6)\\cos120^\\circ=136-120(-0,5)=136+60=196$, suy ra $c=\\sqrt{196}=14$."
     },
     {
       "id": "mc-c3-038",
@@ -4446,7 +4446,7 @@
         "10 000 km"
       ],
       "answer": 0,
-      "explanation": "Góc giữa hai hướng là $90^\\circ$ nên $\\cos90^\\circ=0$: $d^{2}=80^{2}+60^{2}-0=10\\,000$, suy ra $d=100$ km (đúng bộ ba Pythagore $60$–$80$–$100$)."
+      "explanation": "Góc giữa hai hướng là $90^\\circ$ nên $\\cos90^\\circ=0$: $d^{2}=80^{2}+60^{2}-0=10.000$, suy ra $d=100$ km (đúng bộ ba Pythagore $60$–$80$–$100$)."
     },
     {
       "id": "mc-c3-039",
@@ -4494,7 +4494,7 @@
         "11"
       ],
       "answer": 0,
-      "explanation": "$a^{2}=64+9-2(8)(3)(0{,}5)=73-24=49$, suy ra $a=7$."
+      "explanation": "$a^{2}=64+9-2(8)(3)(0,5)=73-24=49$, suy ra $a=7$."
     },
     {
       "id": "mc-c3-042",
@@ -4510,7 +4510,7 @@
         "10 m"
       ],
       "answer": 0,
-      "explanation": "Vì góc xen giữa là $90^\\circ$ nên $\\cos90^\\circ=0$, định lí côsin trở thành Pythagore: cạnh$^2=30^{2}+40^{2}=2\\,500$, suy ra cạnh $=50$m."
+      "explanation": "Vì góc xen giữa là $90^\\circ$ nên $\\cos90^\\circ=0$, định lí côsin trở thành Pythagore: cạnh$^2=30^{2}+40^{2}=2.500$, suy ra cạnh $=50$m."
     },
     {
       "id": "mc-c3-043",
@@ -4590,7 +4590,7 @@
         "28"
       ],
       "answer": 0,
-      "explanation": "$\\sin90^\\circ=1$, nên $S=\\frac12(8)(6)(1)=24$."
+      "explanation": "$\\sin90^\\circ=1$, nên $S=\\frac{1}{2}(8)(6)(1)=24$."
     },
     {
       "id": "mc-c3-048",
@@ -4606,7 +4606,7 @@
         "Góc $C$, là góc nhọn"
       ],
       "answer": 0,
-      "explanation": "Cạnh lớn nhất là $c=12$ nên góc lớn nhất là $C$. $\\cos C=\\frac{49+81-144}{2(7)(9)}=\\frac{-14}{126}=-\\frac19<0$, vậy $C$ là góc tù."
+      "explanation": "Cạnh lớn nhất là $c=12$ nên góc lớn nhất là $C$. $\\cos C=\\frac{49+81-144}{2(7)(9)}=\\frac{-14}{126}=-\\frac{1}{9}<0$, vậy $C$ là góc tù."
     },
     {
       "id": "mc-c3-049",
@@ -4654,7 +4654,7 @@
         "$5\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$2R=\\frac{a}{\\sin A}=\\frac{10}{\\sqrt3/2}=\\frac{20}{\\sqrt3}=\\frac{20\\sqrt3}{3}$."
+      "explanation": "$2R=\\frac{a}{\\sin A}=\\frac{10}{\\sqrt{3}/2}=\\frac{20}{\\sqrt{3}}=\\frac{20\\sqrt{3}}{3}$."
     },
     {
       "id": "mc-c3-052",
@@ -4670,7 +4670,7 @@
         "$6\\sqrt{2}$"
       ],
       "answer": 0,
-      "explanation": "$\\frac{b}{\\sin B}=\\frac{a}{\\sin A} \\Rightarrow b=\\frac{a\\sin B}{\\sin A}=\\frac{8\\cdot(\\sqrt3/2)}{\\sqrt2/2}=\\frac{8\\sqrt3}{\\sqrt2}=4\\sqrt6$."
+      "explanation": "$\\frac{b}{\\sin B}=\\frac{a}{\\sin A} \\Rightarrow b=\\frac{a\\sin B}{\\sin A}=\\frac{8\\cdot(\\sqrt{3}/2)}{\\sqrt{2}/2}=\\frac{8\\sqrt{3}}{\\sqrt{2}}=4\\sqrt{6}$."
     },
     {
       "id": "mc-c3-053",
@@ -4686,7 +4686,7 @@
         "$4\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$c=\\frac{a\\sin C}{\\sin A}=\\frac{4\\cdot(\\sqrt3/2)}{\\sqrt2/2}=\\frac{4\\sqrt3}{\\sqrt2}=2\\sqrt6$."
+      "explanation": "$c=\\frac{a\\sin C}{\\sin A}=\\frac{4\\cdot(\\sqrt{3}/2)}{\\sqrt{2}/2}=\\frac{4\\sqrt{3}}{\\sqrt{2}}=2\\sqrt{6}$."
     },
     {
       "id": "mc-c3-054",
@@ -4702,7 +4702,7 @@
         "$1$"
       ],
       "answer": 0,
-      "explanation": "$\\sin A=\\frac{a}{2R}=\\frac{12}{16}=\\frac34$."
+      "explanation": "$\\sin A=\\frac{a}{2R}=\\frac{12}{16}=\\frac{3}{4}$."
     },
     {
       "id": "mc-c3-055",
@@ -4750,7 +4750,7 @@
         "20"
       ],
       "answer": 0,
-      "explanation": "$a=2R\\sin A=2(5)(0{,}5)=5$."
+      "explanation": "$a=2R\\sin A=2(5)(0,5)=5$."
     },
     {
       "id": "mc-c3-058",
@@ -4760,13 +4760,13 @@
       "dang": "Định lí sin — ứng dụng",
       "question": "Đo khoảng cách từ bờ đến đảo $C$: chọn $A,B$ trên bờ với $AB=100$m, góc $CAB=45^\\circ$, góc $CBA=60^\\circ$ (suy ra góc $ACB=75^\\circ$). Khoảng cách $AC$ là:",
       "choices": [
-        "$\\approx 89{,}7$ m",
+        "$\\approx 89,7$ m",
         "$100$ m",
         "$75$ m",
         "$60$ m"
       ],
       "answer": 0,
-      "explanation": "Theo định lí sin trong tam giác $ABC$: $\\frac{AC}{\\sin B}=\\frac{AB}{\\sin C} \\Rightarrow AC=\\frac{100\\sin60^\\circ}{\\sin75^\\circ}\\approx\\frac{86{,}6}{96{,}6}\\times100\\approx89{,}7$ m."
+      "explanation": "Theo định lí sin trong tam giác $ABC$: $\\frac{AC}{\\sin B}=\\frac{AB}{\\sin C} \\Rightarrow AC=\\frac{100\\sin60^\\circ}{\\sin75^\\circ}\\approx\\frac{86,6}{96,6}\\times100\\approx89,7$ m."
     },
     {
       "id": "mc-c3-059",
@@ -4790,7 +4790,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Định lí sin — ứng dụng",
-      "question": "Tam giác $ABC$ có $a=5$, $b=8$, $\\sin A=0{,}3$. Tính $\\sin B$.",
+      "question": "Tam giác $ABC$ có $a=5$, $b=8$, $\\sin A=0,3$. Tính $\\sin B$.",
       "choices": [
         "0,48",
         "0,3",
@@ -4798,7 +4798,7 @@
         "0,6"
       ],
       "answer": 0,
-      "explanation": "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B} \\Rightarrow \\sin B=\\frac{b\\sin A}{a}=\\frac{8(0{,}3)}{5}=0{,}48$."
+      "explanation": "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B} \\Rightarrow \\sin B=\\frac{b\\sin A}{a}=\\frac{8(0,3)}{5}=0,48$."
     },
     {
       "id": "mc-c3-061",
@@ -4824,13 +4824,13 @@
       "dang": "Định lí sin — trường hợp hai nghiệm",
       "question": "Tam giác $ABC$ có $a=4$, $b=6$, $A=30^\\circ$. Tính $\\sin B$ và số tam giác có thể xảy ra.",
       "choices": [
-        "$\\sin B=0{,}75$; có thể có $2$ tam giác (góc $B$ nhọn hoặc tù)",
-        "$\\sin B=0{,}75$; chỉ có $1$ tam giác",
-        "$\\sin B=1{,}5$; vô nghiệm",
-        "$\\sin B=0{,}5$; có $1$ tam giác"
+        "$\\sin B=0,75$; có thể có $2$ tam giác (góc $B$ nhọn hoặc tù)",
+        "$\\sin B=0,75$; chỉ có $1$ tam giác",
+        "$\\sin B=1,5$; vô nghiệm",
+        "$\\sin B=0,5$; có $1$ tam giác"
       ],
       "answer": 0,
-      "explanation": "$\\sin B=\\frac{b\\sin A}{a}=\\frac{6(0{,}5)}{4}=0{,}75$. Vì $b>a$ nên góc $B$ có thể nhọn hoặc tù (cả hai đều cho $\\sin B=0{,}75$ hợp lệ), dẫn đến hai tam giác khác nhau."
+      "explanation": "$\\sin B=\\frac{b\\sin A}{a}=\\frac{6(0,5)}{4}=0,75$. Vì $b>a$ nên góc $B$ có thể nhọn hoặc tù (cả hai đều cho $\\sin B=0,75$ hợp lệ), dẫn đến hai tam giác khác nhau."
     },
     {
       "id": "mc-c3-063",
@@ -4840,13 +4840,13 @@
       "dang": "Định lí sin — trường hợp hai nghiệm",
       "question": "Tam giác $ABC$ có $a=10$, $b=6$, $A=30^\\circ$. Tính $\\sin B$ và số tam giác có thể xảy ra.",
       "choices": [
-        "$\\sin B=0{,}3$; chỉ có $1$ tam giác vì $a>b$",
-        "$\\sin B=0{,}3$; có $2$ tam giác",
+        "$\\sin B=0,3$; chỉ có $1$ tam giác vì $a>b$",
+        "$\\sin B=0,3$; có $2$ tam giác",
         "$\\sin B=3$; vô nghiệm",
-        "$\\sin B=0{,}6$; có $1$ tam giác"
+        "$\\sin B=0,6$; có $1$ tam giác"
       ],
       "answer": 0,
-      "explanation": "$\\sin B=\\frac{6(0{,}5)}{10}=0{,}3$. Vì $a>b$ nên góc $A$ đối diện cạnh lớn hơn phải lớn hơn góc $B$, loại trừ khả năng $B$ tù — chỉ còn đúng một tam giác."
+      "explanation": "$\\sin B=\\frac{6(0,5)}{10}=0,3$. Vì $a>b$ nên góc $A$ đối diện cạnh lớn hơn phải lớn hơn góc $B$, loại trừ khả năng $B$ tù — chỉ còn đúng một tam giác."
     },
     {
       "id": "mc-c3-064",
@@ -4862,7 +4862,7 @@
         "$S=\\frac{a+b+c}{2R}$"
       ],
       "answer": 0,
-      "explanation": "Đây là một trong các công thức diện tích tam giác học ở bài này: $S=\\frac{abc}{4R}$, suy ra từ định lí sin kết hợp công thức $S=\\frac12 ab\\sin C$."
+      "explanation": "Đây là một trong các công thức diện tích tam giác học ở bài này: $S=\\frac{abc}{4R}$, suy ra từ định lí sin kết hợp công thức $S=\\frac{1}{2} ab\\sin C$."
     },
     {
       "id": "mc-c3-065",
@@ -4878,7 +4878,7 @@
         "$10$"
       ],
       "answer": 0,
-      "explanation": "$b=2(10)\\sin45^\\circ=20\\cdot\\frac{\\sqrt2}{2}=10\\sqrt2$."
+      "explanation": "$b=2(10)\\sin45^\\circ=20\\cdot\\frac{\\sqrt{2}}{2}=10\\sqrt{2}$."
     },
     {
       "id": "mc-c3-066",
@@ -4894,7 +4894,7 @@
         "$30\\sqrt{3}$ m"
       ],
       "answer": 0,
-      "explanation": "Trong tam giác tạo bởi $A$, $B$ và đỉnh tháp: góc tại $A$ là $30^\\circ$, góc kề bù tại $B$ là $180^\\circ-60^\\circ=120^\\circ$, nên góc tại đỉnh tháp là $180-30-120=30^\\circ$. Vì góc này bằng góc tại $A$, tam giác cân nên cạnh (từ $B$ đến đỉnh) $=AB=30$. Chiều cao $=30\\sin60^\\circ=15\\sqrt3\\approx26$m."
+      "explanation": "Trong tam giác tạo bởi $A$, $B$ và đỉnh tháp: góc tại $A$ là $30^\\circ$, góc kề bù tại $B$ là $180^\\circ-60^\\circ=120^\\circ$, nên góc tại đỉnh tháp là $180-30-120=30^\\circ$. Vì góc này bằng góc tại $A$, tam giác cân nên cạnh (từ $B$ đến đỉnh) $=AB=30$. Chiều cao $=30\\sin60^\\circ=15\\sqrt{3}\\approx26$m."
     },
     {
       "id": "mc-c3-067",
@@ -5022,7 +5022,7 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12 ab\\sin C=\\frac12(6)(8)(0{,}5)=12$."
+      "explanation": "$S=\\frac{1}{2} ab\\sin C=\\frac{1}{2}(6)(8)(0,5)=12$."
     },
     {
       "id": "mc-c3-075",
@@ -5038,7 +5038,7 @@
         "15"
       ],
       "answer": 0,
-      "explanation": "$\\sin150^\\circ=\\sin30^\\circ=0{,}5$, nên $S=\\frac12(10)(12)(0{,}5)=30$."
+      "explanation": "$\\sin150^\\circ=\\sin30^\\circ=0,5$, nên $S=\\frac{1}{2}(10)(12)(0,5)=30$."
     },
     {
       "id": "mc-c3-076",
@@ -5054,7 +5054,7 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "$\\sin90^\\circ=1$, nên $S=\\frac12(6)(8)(1)=24$ — khớp với công thức quen thuộc $S=\\frac12$(hai cạnh góc vuông) khi $C=90^\\circ$."
+      "explanation": "$\\sin90^\\circ=1$, nên $S=\\frac{1}{2}(6)(8)(1)=24$ — khớp với công thức quen thuộc $S=\\frac{1}{2}$(hai cạnh góc vuông) khi $C=90^\\circ$."
     },
     {
       "id": "mc-c3-077",
@@ -5086,7 +5086,7 @@
         "$15\\sqrt{2}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\sqrt{p(p-a)(p-b)(p-c)}=\\sqrt{15\\cdot6\\cdot5\\cdot4}=\\sqrt{1800}=\\sqrt{900\\cdot2}=30\\sqrt2$."
+      "explanation": "$S=\\sqrt{p(p-a)(p-b)(p-c)}=\\sqrt{15\\cdot6\\cdot5\\cdot4}=\\sqrt{1800}=\\sqrt{900\\cdot2}=30\\sqrt{2}$."
     },
     {
       "id": "mc-c3-079",
@@ -5102,7 +5102,7 @@
         "$\\frac{a\\sqrt{3}}{4}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\sqrt{p(p-a)^{3}}=\\sqrt{\\frac{3a}{2}\\cdot\\left(\\frac{a}{2}\\right)^{3}}=\\sqrt{\\frac{3a^{4}}{16}}=\\frac{a^{2}\\sqrt3}{4}$ — đúng công thức diện tích tam giác đều quen thuộc."
+      "explanation": "$S=\\sqrt{p(p-a)^{3}}=\\sqrt{\\frac{3a}{2}\\cdot(\\frac{a}{2})^{3}}=\\sqrt{\\frac{3a^{4}}{16}}=\\frac{a^{2}\\sqrt{3}}{4}$ — đúng công thức diện tích tam giác đều quen thuộc."
     },
     {
       "id": "mc-c3-080",
@@ -5134,7 +5134,7 @@
         "168"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac{13\\cdot14\\cdot15}{4\\cdot(65/8)}=\\frac{2730}{32{,}5}=84$ — khớp với diện tích tính bằng Heron của cùng tam giác này."
+      "explanation": "$S=\\frac{13\\cdot14\\cdot15}{4\\cdot(65/8)}=\\frac{2730}{32,5}=84$ — khớp với diện tích tính bằng Heron của cùng tam giác này."
     },
     {
       "id": "mc-c3-082",
@@ -5166,7 +5166,7 @@
         "$2\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$p=\\frac{3\\cdot6}{2}=9$. $r=\\frac{S}{p}=\\frac{9\\sqrt3}{9}=\\sqrt3$."
+      "explanation": "$p=\\frac{3\\cdot6}{2}=9$. $r=\\frac{S}{p}=\\frac{9\\sqrt{3}}{9}=\\sqrt{3}$."
     },
     {
       "id": "mc-c3-084",
@@ -5182,7 +5182,7 @@
         "240"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac{abc}{4R} \\Rightarrow R=\\frac{abc}{4S}=\\frac{240}{96}=2{,}5$."
+      "explanation": "$S=\\frac{abc}{4R} \\Rightarrow R=\\frac{abc}{4S}=\\frac{240}{96}=2,5$."
     },
     {
       "id": "mc-c3-085",
@@ -5198,7 +5198,7 @@
         "0,4"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12 ab\\sin C \\Rightarrow 12=\\frac12(5)(6)\\sin C=15\\sin C \\Rightarrow \\sin C=0{,}8$."
+      "explanation": "$S=\\frac{1}{2} ab\\sin C \\Rightarrow 12=\\frac{1}{2}(5)(6)\\sin C=15\\sin C \\Rightarrow \\sin C=0,8$."
     },
     {
       "id": "mc-c3-086",
@@ -5214,7 +5214,7 @@
         "Vô số giá trị"
       ],
       "answer": 0,
-      "explanation": "$20=\\frac12(8)(10)\\sin A=40\\sin A \\Rightarrow \\sin A=0{,}5$. Trong $(0^\\circ;180^\\circ)$, $\\sin A=0{,}5$ ứng với HAI góc bù nhau: $30^\\circ$ và $150^\\circ$."
+      "explanation": "$20=\\frac{1}{2}(8)(10)\\sin A=40\\sin A \\Rightarrow \\sin A=0,5$. Trong $(0^\\circ;180^\\circ)$, $\\sin A=0,5$ ứng với HAI góc bù nhau: $30^\\circ$ và $150^\\circ$."
     },
     {
       "id": "mc-c3-087",
@@ -5230,7 +5230,7 @@
         "2"
       ],
       "answer": 0,
-      "explanation": "$150=\\frac12(20)(30)\\sin C=300\\sin C \\Rightarrow \\sin C=0{,}5$."
+      "explanation": "$150=\\frac{1}{2}(20)(30)\\sin C=300\\sin C \\Rightarrow \\sin C=0,5$."
     },
     {
       "id": "mc-c3-088",
@@ -5246,7 +5246,7 @@
         "20"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(6)(x)=30 \\Rightarrow x=10$."
+      "explanation": "$S=\\frac{1}{2}(6)(x)=30 \\Rightarrow x=10$."
     },
     {
       "id": "mc-c3-089",
@@ -5256,13 +5256,13 @@
       "dang": "Toán thực tế: diện tích đất đai",
       "question": "Một khu đất hình tam giác có hai cạnh $50$m, $70$m, góc xen giữa $60^\\circ$. Tính diện tích khu đất.",
       "choices": [
-        "$875\\sqrt{3} \\, m^{2} \\approx 1515 \\, m^{2}$",
-        "$1750 \\, m^{2}$",
-        "$3500 \\, m^{2}$",
-        "$875 \\, m^{2}$"
+        "$875\\sqrt{3} . m^{2} \\approx 1515 . m^{2}$",
+        "$1750 . m^{2}$",
+        "$3500 . m^{2}$",
+        "$875 . m^{2}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(50)(70)\\sin60^\\circ=1750\\cdot\\frac{\\sqrt3}{2}=875\\sqrt3\\approx1515\\,m^2$."
+      "explanation": "$S=\\frac{1}{2}(50)(70)\\sin60^\\circ=1750\\cdot\\frac{\\sqrt{3}}{2}=875\\sqrt{3}\\approx1515.m^2$."
     },
     {
       "id": "mc-c3-090",
@@ -5278,7 +5278,7 @@
         "3500 m²"
       ],
       "answer": 0,
-      "explanation": "$30$–$40$–$50$ là bộ ba Pythagore ($30^2+40^2=50^2$) nên đây là tam giác vuông với hai cạnh góc vuông $30,40$: $S=\\frac12(30)(40)=600\\,m^2$ — không cần dùng Heron."
+      "explanation": "$30$–$40$–$50$ là bộ ba Pythagore ($30^2+40^2=50^2$) nên đây là tam giác vuông với hai cạnh góc vuông $30,40$: $S=\\frac{1}{2}(30)(40)=600.m^2$ — không cần dùng Heron."
     },
     {
       "id": "mc-c3-091",
@@ -5294,7 +5294,7 @@
         "168 m²"
       ],
       "answer": 0,
-      "explanation": "Đây chính là tam giác $13$-$14$-$15$ quen thuộc, có diện tích Heron $S=84\\,m^2$ (đã tính ở phần trước)."
+      "explanation": "Đây chính là tam giác $13$-$14$-$15$ quen thuộc, có diện tích Heron $S=84.m^2$ (đã tính ở phần trước)."
     },
     {
       "id": "mc-c3-092",
@@ -5302,7 +5302,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Toán thực tế: diện tích đất đai",
-      "question": "Chi phí trồng cỏ là $50\\,000$ đồng/m². Một khu vườn tam giác có hai cạnh $20$m, $25$m, góc xen giữa $150^\\circ$. Tổng chi phí trồng cỏ là:",
+      "question": "Chi phí trồng cỏ là $50.000$ đồng/m². Một khu vườn tam giác có hai cạnh $20$m, $25$m, góc xen giữa $150^\\circ$. Tổng chi phí trồng cỏ là:",
       "choices": [
         "6 250 000 đồng",
         "12 500 000 đồng",
@@ -5310,7 +5310,7 @@
         "625 000 đồng"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(20)(25)\\sin150^\\circ=250(0{,}5)=125\\,m^2$. Chi phí $=125\\times50\\,000=6\\,250\\,000$ đồng."
+      "explanation": "$S=\\frac{1}{2}(20)(25)\\sin150^\\circ=250(0,5)=125.m^2$. Chi phí $=125\\times50.000=6.250.000$ đồng."
     },
     {
       "id": "mc-c3-093",
@@ -5326,7 +5326,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(6)(8)\\sin C=24\\sin C$ đạt lớn nhất khi $\\sin C=1$, tức $C=90^\\circ$, cho $S_{max}=24$."
+      "explanation": "$S=\\frac{1}{2}(6)(8)\\sin C=24\\sin C$ đạt lớn nhất khi $\\sin C=1$, tức $C=90^\\circ$, cho $S_{max}=24$."
     },
     {
       "id": "mc-c3-094",
@@ -5352,13 +5352,13 @@
       "dang": "Diện tích lớn nhất, so sánh diện tích",
       "question": "Tam giác cân có hai cạnh bên bằng $5$, góc ở đỉnh $\\alpha$ thay đổi được. Diện tích lớn nhất đạt được khi:",
       "choices": [
-        "$\\alpha=90^\\circ$, khi đó $S_{max}=12{,}5$",
+        "$\\alpha=90^\\circ$, khi đó $S_{max}=12,5$",
         "$\\alpha=60^\\circ$",
         "$\\alpha=180^\\circ$",
         "$\\alpha=0^\\circ$"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(5)(5)\\sin\\alpha=12{,}5\\sin\\alpha$ đạt lớn nhất khi $\\sin\\alpha=1$, tức $\\alpha=90^\\circ$."
+      "explanation": "$S=\\frac{1}{2}(5)(5)\\sin\\alpha=12,5\\sin\\alpha$ đạt lớn nhất khi $\\sin\\alpha=1$, tức $\\alpha=90^\\circ$."
     },
     {
       "id": "mc-c3-096",
@@ -5366,7 +5366,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Diện tích lớn nhất, so sánh diện tích",
-      "question": "Với hai cạnh $a,b$ cố định và góc xen giữa $C$ thay đổi từ $0^\\circ$ đến $180^\\circ$, diện tích $S=\\frac12 ab\\sin C$ biến thiên như thế nào?",
+      "question": "Với hai cạnh $a,b$ cố định và góc xen giữa $C$ thay đổi từ $0^\\circ$ đến $180^\\circ$, diện tích $S=\\frac{1}{2} ab\\sin C$ biến thiên như thế nào?",
       "choices": [
         "Tăng dần từ $0$ đến giá trị lớn nhất tại $C=90^\\circ$, rồi giảm dần về $0$ tại $C=180^\\circ$",
         "Luôn tăng dần đến $180^\\circ$",
@@ -5390,7 +5390,7 @@
         "80"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12 a h_a \\Rightarrow h_a=\\frac{2S}{a}=\\frac{80}{10}=8$."
+      "explanation": "$S=\\frac{1}{2} a h_a \\Rightarrow h_a=\\frac{2S}{a}=\\frac{80}{10}=8$."
     },
     {
       "id": "mc-c3-098",
@@ -5398,7 +5398,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Diện tích và đường cao",
-      "question": "Tam giác đều cạnh $6$ có diện tích $S=\\frac{a^{2}\\sqrt3}{4}$. Tính đường cao $h$.",
+      "question": "Tam giác đều cạnh $6$ có diện tích $S=\\frac{a^{2}\\sqrt{3}}{4}$. Tính đường cao $h$.",
       "choices": [
         "$3\\sqrt{3}$",
         "$6\\sqrt{3}$",
@@ -5406,7 +5406,7 @@
         "$\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac{36\\sqrt3}{4}=9\\sqrt3$. $h=\\frac{2S}{a}=\\frac{18\\sqrt3}{6}=3\\sqrt3$."
+      "explanation": "$S=\\frac{36\\sqrt{3}}{4}=9\\sqrt{3}$. $h=\\frac{2S}{a}=\\frac{18\\sqrt{3}}{6}=3\\sqrt{3}$."
     },
     {
       "id": "mc-c3-099",
@@ -5416,13 +5416,13 @@
       "dang": "Diện tích và đường cao",
       "question": "Tam giác $ABC$ có ba đường cao $h_a, h_b, h_c$ ứng với ba cạnh $a,b,c$. Khẳng định nào ĐÚNG?",
       "choices": [
-        "$a\\,h_a = b\\,h_b = c\\,h_c = 2S$",
-        "$a\\,h_a \\ne b\\,h_b$ luôn luôn đúng",
+        "$a.h_a = b.h_b = c.h_c = 2S$",
+        "$a.h_a \\ne b.h_b$ luôn luôn đúng",
         "$h_a=h_b=h_c$ với mọi tam giác",
-        "$a\\,h_a = S$"
+        "$a.h_a = S$"
       ],
       "answer": 0,
-      "explanation": "Vì $S=\\frac12 a h_a=\\frac12 b h_b=\\frac12 c h_c$, nên $a h_a=b h_b=c h_c=2S$ với mọi tam giác."
+      "explanation": "Vì $S=\\frac{1}{2} a h_a=\\frac{1}{2} b h_b=\\frac{1}{2} c h_c$, nên $a h_a=b h_b=c h_c=2S$ với mọi tam giác."
     },
     {
       "id": "mc-c3-100",
@@ -5438,7 +5438,7 @@
         "$S=17$; $h_a=4$"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(12)(5)=30$. Từ $S=\\frac12 a h_a$: $h_a=\\frac{2(30)}{15}=4$."
+      "explanation": "$S=\\frac{1}{2}(12)(5)=30$. Từ $S=\\frac{1}{2} a h_a$: $h_a=\\frac{2(30)}{15}=4$."
     },
     {
       "id": "mc-c3-101",
@@ -5446,7 +5446,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Tổng hợp côsin, sin và diện tích",
-      "question": "Tam giác $ABC$ có $a=5$, $b=6$, $C=60^\\circ$. Tính $c$ (bằng côsin) rồi tính $S$ (bằng $\\frac12 ab\\sin C$).",
+      "question": "Tam giác $ABC$ có $a=5$, $b=6$, $C=60^\\circ$. Tính $c$ (bằng côsin) rồi tính $S$ (bằng $\\frac{1}{2} ab\\sin C$).",
       "choices": [
         "$c=\\sqrt{31}$; $S=\\frac{15\\sqrt{3}}{2}$",
         "$c=31$; $S=15\\sqrt{3}$",
@@ -5454,7 +5454,7 @@
         "$c=\\sqrt{31}$; $S=15$"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=25+36-2(5)(6)(0{,}5)=61-30=31 \\Rightarrow c=\\sqrt{31}$. $S=\\frac12(5)(6)\\left(\\frac{\\sqrt3}{2}\\right)=\\frac{15\\sqrt3}{2}$."
+      "explanation": "$c^{2}=25+36-2(5)(6)(0,5)=61-30=31 \\Rightarrow c=\\sqrt{31}$. $S=\\frac{1}{2}(5)(6)(\\frac{\\sqrt{3}}{2})=\\frac{15\\sqrt{3}}{2}$."
     },
     {
       "id": "mc-c3-102",
@@ -5464,7 +5464,7 @@
       "dang": "Tổng hợp côsin, sin và diện tích",
       "question": "Tam giác $ABC$ có $a=8$, $b=15$, $c=17$. Nhận xét gì về tam giác này và cách tính diện tích nhanh nhất?",
       "choices": [
-        "Tam giác vuông (vì $8^{2}+15^{2}=17^{2}$), diện tích $=\\frac12(8)(15)=60$",
+        "Tam giác vuông (vì $8^{2}+15^{2}=17^{2}$), diện tích $=\\frac{1}{2}(8)(15)=60$",
         "Tam giác thường, phải dùng Heron, kết quả cũng $S=60$",
         "Tam giác cân",
         "Tam giác đều"
@@ -5486,7 +5486,7 @@
         "$\\frac{49}{4}$"
       ],
       "answer": 0,
-      "explanation": "$R=\\frac{7^{3}}{4\\cdot\\frac{49\\sqrt3}{4}}=\\frac{343}{49\\sqrt3}=\\frac{7}{\\sqrt3}=\\frac{7\\sqrt3}{3}$."
+      "explanation": "$R=\\frac{7^{3}}{4\\cdot\\frac{49\\sqrt{3}}{4}}=\\frac{343}{49\\sqrt{3}}=\\frac{7}{\\sqrt{3}}=\\frac{7\\sqrt{3}}{3}$."
     },
     {
       "id": "mc-c3-104",
@@ -5496,13 +5496,13 @@
       "dang": "Tổng hợp côsin, sin và diện tích",
       "question": "Tam giác có $a=3$, $b=4$, $c=5$ (tam giác vuông). Mối liên hệ giữa bán kính ngoại tiếp $R$ và cạnh huyền $c$ là gì?",
       "choices": [
-        "$R=\\frac{c}{2}=2{,}5$ (vì cạnh huyền chính là đường kính đường tròn ngoại tiếp)",
+        "$R=\\frac{c}{2}=2,5$ (vì cạnh huyền chính là đường kính đường tròn ngoại tiếp)",
         "$R=c=5$",
         "$R=\\frac{c}{4}$",
         "Không tính được nếu thiếu góc"
       ],
       "answer": 0,
-      "explanation": "Trong tam giác vuông, tâm đường tròn ngoại tiếp là trung điểm cạnh huyền, nên cạnh huyền chính là đường kính: $R=\\frac{c}{2}=\\frac{5}{2}=2{,}5$."
+      "explanation": "Trong tam giác vuông, tâm đường tròn ngoại tiếp là trung điểm cạnh huyền, nên cạnh huyền chính là đường kính: $R=\\frac{c}{2}=\\frac{5}{2}=2,5$."
     },
     {
       "id": "mc-c3-105",
@@ -5518,7 +5518,7 @@
         "3"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12(3)(4)=6$, $p=\\frac{3+4+5}{2}=6$. $r=\\frac{S}{p}=\\frac{6}{6}=1$."
+      "explanation": "$S=\\frac{1}{2}(3)(4)=6$, $p=\\frac{3+4+5}{2}=6$. $r=\\frac{S}{p}=\\frac{6}{6}=1$."
     },
     {
       "id": "mc-c3-106",
@@ -5550,7 +5550,7 @@
         "$\\sqrt{3}$"
       ],
       "answer": 0,
-      "explanation": "$r=\\frac{12\\sqrt3}{6}=2\\sqrt3$."
+      "explanation": "$r=\\frac{12\\sqrt{3}}{6}=2\\sqrt{3}$."
     },
     {
       "id": "mc-c3-108",
@@ -5582,7 +5582,7 @@
         "672 m²"
       ],
       "answer": 0,
-      "explanation": "$p=\\frac{26+28+30}{2}=42$. $S=\\sqrt{42\\cdot16\\cdot14\\cdot12}=\\sqrt{112\\,896}=336\\,m^2$."
+      "explanation": "$p=\\frac{26+28+30}{2}=42$. $S=\\sqrt{42\\cdot16\\cdot14\\cdot12}=\\sqrt{112.896}=336.m^2$."
     },
     {
       "id": "mc-c3-110",
@@ -5598,7 +5598,7 @@
         "13 440 triệu đồng"
       ],
       "answer": 0,
-      "explanation": "$336 \\times 20 = 6\\,720$ triệu đồng."
+      "explanation": "$336 \\times 20 = 6.720$ triệu đồng."
     },
     {
       "id": "mc-c3-111",
@@ -5630,7 +5630,7 @@
         "16 m"
       ],
       "answer": 0,
-      "explanation": "$h=\\frac{2S}{30}=\\frac{672}{30}=22{,}4$m."
+      "explanation": "$h=\\frac{2S}{30}=\\frac{672}{30}=22,4$m."
     },
     {
       "id": "mc-c3-113",
@@ -5646,7 +5646,7 @@
         "$2a^{2}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\frac12 \\cdot a \\cdot a=\\frac{a^2}{2}$ (hai cạnh góc vuông bằng nhau và vuông góc, đóng vai trò cạnh đáy và đường cao)."
+      "explanation": "$S=\\frac{1}{2} \\cdot a \\cdot a=\\frac{a^2}{2}$ (hai cạnh góc vuông bằng nhau và vuông góc, đóng vai trò cạnh đáy và đường cao)."
     },
     {
       "id": "mc-c3-114",
@@ -5662,7 +5662,7 @@
         "$\\frac{c^{2}\\sqrt{2}}{4}$"
       ],
       "answer": 0,
-      "explanation": "Cạnh góc vuông $=\\frac{c}{\\sqrt2}$, nên $S=\\frac12\\left(\\frac{c}{\\sqrt2}\\right)^2=\\frac{c^2}{4}$."
+      "explanation": "Cạnh góc vuông $=\\frac{c}{\\sqrt{2}}$, nên $S=\\frac{1}{2}(\\frac{c}{\\sqrt{2}})^2=\\frac{c^2}{4}$."
     },
     {
       "id": "mc-c3-115",
@@ -5678,7 +5678,7 @@
         "30"
       ],
       "answer": 0,
-      "explanation": "Đường cao chia đáy thành hai nửa $5$: $h=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$. $S=\\frac12(10)(12)=60$."
+      "explanation": "Đường cao chia đáy thành hai nửa $5$: $h=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$. $S=\\frac{1}{2}(10)(12)=60$."
     },
     {
       "id": "mc-c3-116",
@@ -5706,7 +5706,7 @@
       "choices": [
         "Hệ quả của định lí côsin",
         "Định lí sin",
-        "Công thức diện tích $\\frac12 ab\\sin C$ trực tiếp",
+        "Công thức diện tích $\\frac{1}{2} ab\\sin C$ trực tiếp",
         "Không thể giải được nếu thiếu góc"
       ],
       "answer": 0,
@@ -5742,7 +5742,7 @@
         "$C=90^\\circ$, $S=24$, $R=10$"
       ],
       "answer": 0,
-      "explanation": "$6^2+8^2=10^2$ nên $C=90^\\circ$. $S=\\frac12(6)(8)=24$. Vì vuông tại $C$, cạnh huyền $c=10$ là đường kính, nên $R=\\frac{c}{2}=5$."
+      "explanation": "$6^2+8^2=10^2$ nên $C=90^\\circ$. $S=\\frac{1}{2}(6)(8)=24$. Vì vuông tại $C$, cạnh huyền $c=10$ là đường kính, nên $R=\\frac{c}{2}=5$."
     },
     {
       "id": "mc-c3-120",
@@ -5838,7 +5838,7 @@
         "Vô cùng"
       ],
       "answer": 0,
-      "explanation": "Vectơ-không có điểm đầu trùng điểm cuối nên $|\\vec0|=0$."
+      "explanation": "Vectơ-không có điểm đầu trùng điểm cuối nên $|\\vec{0}|=0$."
     },
     {
       "id": "mc-c4-006",
@@ -5854,7 +5854,7 @@
         "$\\vec{0}$ cùng hướng với mọi vectơ"
       ],
       "answer": 0,
-      "explanation": "Theo quy ước, $\\vec0$ được coi là CÙNG PHƯƠNG và CÙNG HƯỚNG với MỌI vectơ (chứ không phải \"không cùng phương với vectơ nào\"), nên khẳng định A sai."
+      "explanation": "Theo quy ước, $\\vec{0}$ được coi là CÙNG PHƯƠNG và CÙNG HƯỚNG với MỌI vectơ (chứ không phải \"không cùng phương với vectơ nào\"), nên khẳng định A sai."
     },
     {
       "id": "mc-c4-007",
@@ -5998,7 +5998,7 @@
         "$\\frac{a\\sqrt{3}}{2}$"
       ],
       "answer": 0,
-      "explanation": "Với $M$ là trung điểm $BC$: $\\vec{AB}+\\vec{AC}=2\\vec{AM}$. Trong tam giác đều, $AM$ là đường cao $=\\frac{a\\sqrt3}{2}$, nên $|\\vec{AB}+\\vec{AC}|=2\\cdot\\frac{a\\sqrt3}{2}=a\\sqrt3$."
+      "explanation": "Với $M$ là trung điểm $BC$: $\\vec{AB}+\\vec{AC}=2\\vec{AM}$. Trong tam giác đều, $AM$ là đường cao $=\\frac{a\\sqrt{3}}{2}$, nên $|\\vec{AB}+\\vec{AC}|=2\\cdot\\frac{a\\sqrt{3}}{2}=a\\sqrt{3}$."
     },
     {
       "id": "mc-c4-016",
@@ -6008,13 +6008,13 @@
       "dang": "Vectơ, giá và độ dài",
       "question": "Cho hình vuông $ABCD$ cạnh $a$. Tính $|\\vec{AB}| + |\\vec{AD}|$ (tổng ĐỘ DÀI, khác với độ dài của tổng vectơ).",
       "choices": [
-        "$2a$ (khác với $|\\vec{AB}+\\vec{AD}|=a\\sqrt2$)",
+        "$2a$ (khác với $|\\vec{AB}+\\vec{AD}|=a\\sqrt{2}$)",
         "$a\\sqrt{2}$",
         "$a$",
         "$4a$"
       ],
       "answer": 0,
-      "explanation": "$|\\vec{AB}|+|\\vec{AD}|=a+a=2a$ — đây chỉ là tổng hai số thực (độ dài), khác hẳn với $|\\vec{AB}+\\vec{AD}|$ (độ dài đường chéo $=a\\sqrt2$), minh hoạ đúng lưu ý $|\\vec a+\\vec b|\\ne|\\vec a|+|\\vec b|$ nói chung."
+      "explanation": "$|\\vec{AB}|+|\\vec{AD}|=a+a=2a$ — đây chỉ là tổng hai số thực (độ dài), khác hẳn với $|\\vec{AB}+\\vec{AD}|$ (độ dài đường chéo $=a\\sqrt{2}$), minh hoạ đúng lưu ý $|\\vec{a}+\\vec{b}|\\ne|\\vec{a}|+|\\vec{b}|$ nói chung."
     },
     {
       "id": "mc-c4-017",
@@ -6054,7 +6054,7 @@
       "lesson": "b8",
       "level": "vd",
       "dang": "Vectơ và ứng dụng thực tế",
-      "question": "Hai lực cùng độ lớn $10\\,N$ tác dụng vào một vật theo hai hướng ngược nhau. Hợp lực (tổng vectơ) có độ lớn là:",
+      "question": "Hai lực cùng độ lớn $10.N$ tác dụng vào một vật theo hai hướng ngược nhau. Hợp lực (tổng vectơ) có độ lớn là:",
       "choices": [
         "0 N (hai lực triệt tiêu nhau)",
         "20 N",
@@ -6094,7 +6094,7 @@
         "Không thể xác định phương của $\\vec{a}$"
       ],
       "answer": 0,
-      "explanation": "Theo định nghĩa, cùng phương nghĩa là có giá song song hoặc trùng nhau — mọi vectơ có giá song song hoặc trùng $d$ đều cùng phương với $\\vec a$."
+      "explanation": "Theo định nghĩa, cùng phương nghĩa là có giá song song hoặc trùng nhau — mọi vectơ có giá song song hoặc trùng $d$ đều cùng phương với $\\vec{a}$."
     },
     {
       "id": "mc-c4-022",
@@ -6206,7 +6206,7 @@
         "$\\vec{AB}$"
       ],
       "answer": 0,
-      "explanation": "$\\vec{AB}+\\vec{BC}=\\vec{AC}$, rồi $\\vec{AC}+\\vec{CA}=\\vec{0}$ (vì $\\vec{CA}$ là vectơ đối của $\\vec{AC}$). Tổng vectơ theo một chu trình khép kín luôn bằng $\\vec0$."
+      "explanation": "$\\vec{AB}+\\vec{BC}=\\vec{AC}$, rồi $\\vec{AC}+\\vec{CA}=\\vec{0}$ (vì $\\vec{CA}$ là vectơ đối của $\\vec{AC}$). Tổng vectơ theo một chu trình khép kín luôn bằng $\\vec{0}$."
     },
     {
       "id": "mc-c4-029",
@@ -6222,7 +6222,7 @@
         "$\\vec{IA} - \\vec{IB} = \\vec{0}$"
       ],
       "answer": 0,
-      "explanation": "$I$ là trung điểm nên $\\vec{IA}$ và $\\vec{IB}$ đối nhau (cùng độ dài, ngược hướng), tổng của chúng là $\\vec0$."
+      "explanation": "$I$ là trung điểm nên $\\vec{IA}$ và $\\vec{IB}$ đối nhau (cùng độ dài, ngược hướng), tổng của chúng là $\\vec{0}$."
     },
     {
       "id": "mc-c4-030",
@@ -6232,13 +6232,13 @@
       "dang": "Trung điểm và trọng tâm",
       "question": "Với $M$ bất kì và $I$ là trung điểm $AB$, ta có $\\vec{MA}+\\vec{MB}=2\\vec{MI}$. Nếu chọn $M=A$, công thức trở thành:",
       "choices": [
-        "$\\vec{AB}=2\\vec{AI}$ (đúng, vì $I$ là trung điểm nên $AI=\\frac12 AB$)",
+        "$\\vec{AB}=2\\vec{AI}$ (đúng, vì $I$ là trung điểm nên $AI=\\frac{1}{2} AB$)",
         "$\\vec{AB}=\\vec{AI}$",
         "$\\vec{0}=2\\vec{AI}$",
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Thay $M=A$: $\\vec{AA}+\\vec{AB}=2\\vec{AI} \\Rightarrow \\vec0+\\vec{AB}=2\\vec{AI} \\Rightarrow \\vec{AB}=2\\vec{AI}$ — khớp đúng với việc $I$ là trung điểm."
+      "explanation": "Thay $M=A$: $\\vec{AA}+\\vec{AB}=2\\vec{AI} \\Rightarrow \\vec{0}+\\vec{AB}=2\\vec{AI} \\Rightarrow \\vec{AB}=2\\vec{AI}$ — khớp đúng với việc $I$ là trung điểm."
     },
     {
       "id": "mc-c4-031",
@@ -6254,7 +6254,7 @@
         "$|\\vec{GA}| = |\\vec{GB}| = |\\vec{GC}|$"
       ],
       "answer": 0,
-      "explanation": "Đây chính là định nghĩa/tính chất đặc trưng của trọng tâm bằng vectơ: $\\vec{GA}+\\vec{GB}+\\vec{GC}=\\vec0$."
+      "explanation": "Đây chính là định nghĩa/tính chất đặc trưng của trọng tâm bằng vectơ: $\\vec{GA}+\\vec{GB}+\\vec{GC}=\\vec{0}$."
     },
     {
       "id": "mc-c4-032",
@@ -6270,7 +6270,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Thay $M=G$: vế phải $=3\\vec{GG}=3\\vec0=\\vec0$, nên vế trái $\\vec{GA}+\\vec{GB}+\\vec{GC}$ cũng phải bằng $\\vec0$ — đúng với tính chất trọng tâm đã biết."
+      "explanation": "Thay $M=G$: vế phải $=3\\vec{GG}=3\\vec{0}=\\vec{0}$, nên vế trái $\\vec{GA}+\\vec{GB}+\\vec{GC}$ cũng phải bằng $\\vec{0}$ — đúng với tính chất trọng tâm đã biết."
     },
     {
       "id": "mc-c4-033",
@@ -6286,7 +6286,7 @@
         "Vuông góc với $\\vec{a}$"
       ],
       "answer": 0,
-      "explanation": "Với $k<0$, $k\\vec a$ ngược hướng với $\\vec a$; độ dài luôn là $|k|\\cdot|\\vec a|$ (giá trị tuyệt đối của $k$)."
+      "explanation": "Với $k<0$, $k\\vec{a}$ ngược hướng với $\\vec{a}$; độ dài luôn là $|k|\\cdot|\\vec{a}|$ (giá trị tuyệt đối của $k$)."
     },
     {
       "id": "mc-c4-034",
@@ -6302,7 +6302,7 @@
         "$\\vec{AM}=\\vec{AB}-\\vec{AC}$"
       ],
       "answer": 0,
-      "explanation": "Từ $\\vec{AB}+\\vec{AC}=2\\vec{AM}$ (do $M$ trung điểm $BC$), suy ra $\\vec{AM}=\\frac12(\\vec{AB}+\\vec{AC})$."
+      "explanation": "Từ $\\vec{AB}+\\vec{AC}=2\\vec{AM}$ (do $M$ trung điểm $BC$), suy ra $\\vec{AM}=\\frac{1}{2}(\\vec{AB}+\\vec{AC})$."
     },
     {
       "id": "mc-c4-035",
@@ -6318,7 +6318,7 @@
         "$\\vec{AG}=\\vec{AB}+\\vec{AC}$"
       ],
       "answer": 0,
-      "explanation": "Với $M$ trung điểm $BC$: $\\vec{AG}=\\frac23\\vec{AM}=\\frac23\\cdot\\frac12(\\vec{AB}+\\vec{AC})=\\frac13(\\vec{AB}+\\vec{AC})$."
+      "explanation": "Với $M$ trung điểm $BC$: $\\vec{AG}=\\frac{2}{3}\\vec{AM}=\\frac{2}{3}\\cdot\\frac{1}{2}(\\vec{AB}+\\vec{AC})=\\frac{1}{3}(\\vec{AB}+\\vec{AC})$."
     },
     {
       "id": "mc-c4-036",
@@ -6334,7 +6334,7 @@
         "Không vectơ nào trong hai vectơ trên"
       ],
       "answer": 0,
-      "explanation": "Với mọi số thực $k\\ne0$, $k\\vec a$ luôn cùng phương với $\\vec a$ (dù $k$ dương hay âm) — đây chính là điều kiện cùng phương."
+      "explanation": "Với mọi số thực $k\\ne0$, $k\\vec{a}$ luôn cùng phương với $\\vec{a}$ (dù $k$ dương hay âm) — đây chính là điều kiện cùng phương."
     },
     {
       "id": "mc-c4-037",
@@ -6344,13 +6344,13 @@
       "dang": "Điều kiện cùng phương, thẳng hàng",
       "question": "Cho tam giác $ABC$, $D$ là điểm sao cho $\\vec{AD}=\\frac{1}{3}\\vec{AB}$. Điểm $D$ nằm ở đâu?",
       "choices": [
-        "Trên đoạn $AB$, cách $A$ một khoảng bằng $\\frac13 AB$",
+        "Trên đoạn $AB$, cách $A$ một khoảng bằng $\\frac{1}{3} AB$",
         "Là trung điểm $AB$",
         "Trùng với $B$",
         "Nằm ngoài đoạn $AB$"
       ],
       "answer": 0,
-      "explanation": "Vì $\\vec{AD}=\\frac13\\vec{AB}$ cùng hướng với $\\vec{AB}$ và có độ dài bằng $\\frac13$ độ dài $AB$, điểm $D$ nằm trên đoạn $AB$, gần $A$ hơn, cách $A$ đúng $\\frac13$ quãng đường tới $B$."
+      "explanation": "Vì $\\vec{AD}=\\frac{1}{3}\\vec{AB}$ cùng hướng với $\\vec{AB}$ và có độ dài bằng $\\frac{1}{3}$ độ dài $AB$, điểm $D$ nằm trên đoạn $AB$, gần $A$ hơn, cách $A$ đúng $\\frac{1}{3}$ quãng đường tới $B$."
     },
     {
       "id": "mc-c4-038",
@@ -6366,7 +6366,7 @@
         "$\\vec{a}$ và $\\vec{b}$ không cùng phương"
       ],
       "answer": 0,
-      "explanation": "Hệ số $k=2>0$ nên $\\vec a=2\\vec b$ cùng hướng với $\\vec b$, và độ dài gấp đôi: $|\\vec a|=2|\\vec b|$."
+      "explanation": "Hệ số $k=2>0$ nên $\\vec{a}=2\\vec{b}$ cùng hướng với $\\vec{b}$, và độ dài gấp đôi: $|\\vec{a}|=2|\\vec{b}|$."
     },
     {
       "id": "mc-c4-039",
@@ -6376,13 +6376,13 @@
       "dang": "Điều kiện cùng phương, thẳng hàng",
       "question": "Ba điểm $A, B, C$ thẳng hàng với $\\vec{AB}=3\\vec{AC}$. Vị trí của $C$ so với đoạn $AB$ là:",
       "choices": [
-        "$C$ nằm giữa $A$ và $B$, với $AC=\\frac13 AB$",
+        "$C$ nằm giữa $A$ và $B$, với $AC=\\frac{1}{3} AB$",
         "$C$ nằm ngoài đoạn $AB$, phía sau $A$",
         "$C$ trùng với $B$",
         "$C$ là trung điểm $AB$"
       ],
       "answer": 0,
-      "explanation": "Từ $\\vec{AB}=3\\vec{AC}$ suy ra $\\vec{AC}=\\frac13\\vec{AB}$, cùng hướng với $\\vec{AB}$ và bằng $\\frac13$ độ dài — nên $C$ nằm giữa $A,B$, cách $A$ một phần ba đoạn $AB$."
+      "explanation": "Từ $\\vec{AB}=3\\vec{AC}$ suy ra $\\vec{AC}=\\frac{1}{3}\\vec{AB}$, cùng hướng với $\\vec{AB}$ và bằng $\\frac{1}{3}$ độ dài — nên $C$ nằm giữa $A,B$, cách $A$ một phần ba đoạn $AB$."
     },
     {
       "id": "mc-c4-040",
@@ -6398,7 +6398,7 @@
         "$x,y$ tuỳ ý miễn $x+y=0$"
       ],
       "answer": 0,
-      "explanation": "Nếu $x\\ne0$ thì $\\vec a=-\\frac{y}{x}\\vec b$, tức $\\vec a$ cùng phương $\\vec b$ — mâu thuẫn giả thiết. Vậy bắt buộc $x=0$, và khi đó $y\\vec b=\\vec0$ với $\\vec b\\ne\\vec0$ nên $y=0$."
+      "explanation": "Nếu $x\\ne0$ thì $\\vec{a}=-\\frac{y}{x}\\vec{b}$, tức $\\vec{a}$ cùng phương $\\vec{b}$ — mâu thuẫn giả thiết. Vậy bắt buộc $x=0$, và khi đó $y\\vec{b}=\\vec{0}$ với $\\vec{b}\\ne\\vec{0}$ nên $y=0$."
     },
     {
       "id": "mc-c4-041",
@@ -6414,7 +6414,7 @@
         "Không thể chứng minh bằng vectơ"
       ],
       "answer": 0,
-      "explanation": "$MN$ là đường trung bình của tam giác $ABC$ (nối trung điểm hai cạnh), nên song song và bằng nửa cạnh còn lại — thể hiện bằng vectơ là $\\vec{MN}=\\frac12\\vec{BC}$."
+      "explanation": "$MN$ là đường trung bình của tam giác $ABC$ (nối trung điểm hai cạnh), nên song song và bằng nửa cạnh còn lại — thể hiện bằng vectơ là $\\vec{MN}=\\frac{1}{2}\\vec{BC}$."
     },
     {
       "id": "mc-c4-042",
@@ -6430,7 +6430,7 @@
         "$1$"
       ],
       "answer": 0,
-      "explanation": "Trọng tâm chia trung tuyến theo tỉ lệ $\\vec{AG}=\\frac23\\vec{AM}$, nên $\\frac{AG}{AM}=\\frac23$."
+      "explanation": "Trọng tâm chia trung tuyến theo tỉ lệ $\\vec{AG}=\\frac{2}{3}\\vec{AM}$, nên $\\frac{AG}{AM}=\\frac{2}{3}$."
     },
     {
       "id": "mc-c4-043",
@@ -6462,7 +6462,7 @@
         "$\\vec{AD}=\\vec{AB}+\\vec{AC}$"
       ],
       "answer": 0,
-      "explanation": "$D$ chia $BC$ theo tỉ lệ $BD:DC=2:1$: $\\vec{AD}=\\vec{AB}+\\vec{BD}=\\vec{AB}+\\frac23\\vec{BC}=\\vec{AB}+\\frac23(\\vec{AC}-\\vec{AB})=\\frac13\\vec{AB}+\\frac23\\vec{AC}$."
+      "explanation": "$D$ chia $BC$ theo tỉ lệ $BD:DC=2:1$: $\\vec{AD}=\\vec{AB}+\\vec{BD}=\\vec{AB}+\\frac{2}{3}\\vec{BC}=\\vec{AB}+\\frac{2}{3}(\\vec{AC}-\\vec{AB})=\\frac{1}{3}\\vec{AB}+\\frac{2}{3}\\vec{AC}$."
     },
     {
       "id": "mc-c4-045",
@@ -6494,7 +6494,7 @@
         "$\\vec{EF}=\\vec{AD}-\\vec{BC}$"
       ],
       "answer": 0,
-      "explanation": "Đi theo hai đường khác nhau từ $E$ đến $F$ (qua $A,D$ và qua $B,C$) rồi cộng lại, các số hạng theo $\\vec{AB}$ triệt tiêu, còn lại $2\\vec{EF}=\\vec{AD}+\\vec{BC}$, tức $\\vec{EF}=\\frac12(\\vec{AD}+\\vec{BC})$."
+      "explanation": "Đi theo hai đường khác nhau từ $E$ đến $F$ (qua $A,D$ và qua $B,C$) rồi cộng lại, các số hạng theo $\\vec{AB}$ triệt tiêu, còn lại $2\\vec{EF}=\\vec{AD}+\\vec{BC}$, tức $\\vec{EF}=\\frac{1}{2}(\\vec{AD}+\\vec{BC})$."
     },
     {
       "id": "mc-c4-047",
@@ -6502,7 +6502,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Biểu diễn vectơ tổng hợp",
-      "question": "Cho $\\vec{u}=\\vec{a}+2\\vec{b}$ và $\\vec{v}=3\\vec{a}-\\vec{b}$ (với $\\vec a,\\vec b$ không cùng phương). Tính $\\vec{u}+\\vec{v}$ theo $\\vec a,\\vec b$.",
+      "question": "Cho $\\vec{u}=\\vec{a}+2\\vec{b}$ và $\\vec{v}=3\\vec{a}-\\vec{b}$ (với $\\vec{a},\\vec{b}$ không cùng phương). Tính $\\vec{u}+\\vec{v}$ theo $\\vec{a},\\vec{b}$.",
       "choices": [
         "$4\\vec{a}+\\vec{b}$",
         "$4\\vec{a}+2\\vec{b}$",
@@ -6510,7 +6510,7 @@
         "$2\\vec{a}+\\vec{b}$"
       ],
       "answer": 0,
-      "explanation": "$\\vec u+\\vec v=(\\vec a+2\\vec b)+(3\\vec a-\\vec b)=4\\vec a+\\vec b$."
+      "explanation": "$\\vec{u}+\\vec{v}=(\\vec{a}+2\\vec{b})+(3\\vec{a}-\\vec{b})=4\\vec{a}+\\vec{b}$."
     },
     {
       "id": "mc-c4-048",
@@ -6518,7 +6518,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Biểu diễn vectơ tổng hợp",
-      "question": "Với $\\vec{u}, \\vec{v}$ như câu trên, tính $\\vec{u}-\\vec{v}$ theo $\\vec a,\\vec b$.",
+      "question": "Với $\\vec{u}, \\vec{v}$ như câu trên, tính $\\vec{u}-\\vec{v}$ theo $\\vec{a},\\vec{b}$.",
       "choices": [
         "$-2\\vec{a}+3\\vec{b}$",
         "$2\\vec{a}-3\\vec{b}$",
@@ -6526,7 +6526,7 @@
         "$4\\vec{a}+3\\vec{b}$"
       ],
       "answer": 0,
-      "explanation": "$\\vec u-\\vec v=(\\vec a+2\\vec b)-(3\\vec a-\\vec b)=-2\\vec a+3\\vec b$."
+      "explanation": "$\\vec{u}-\\vec{v}=(\\vec{a}+2\\vec{b})-(3\\vec{a}-\\vec{b})=-2\\vec{a}+3\\vec{b}$."
     },
     {
       "id": "mc-c4-049",
@@ -6558,7 +6558,7 @@
         "-1"
       ],
       "answer": 0,
-      "explanation": "$|\\vec a|=\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$."
+      "explanation": "$|\\vec{a}|=\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$."
     },
     {
       "id": "mc-c4-051",
@@ -6574,7 +6574,7 @@
         "(-2; 15)"
       ],
       "answer": 0,
-      "explanation": "$\\vec a+\\vec b=(2+(-1);3+5)=(1;8)$."
+      "explanation": "$\\vec{a}+\\vec{b}=(2+(-1);3+5)=(1;8)$."
     },
     {
       "id": "mc-c4-052",
@@ -6590,7 +6590,7 @@
         "(3; 1)"
       ],
       "answer": 0,
-      "explanation": "$2\\vec a=(4;6)$. $2\\vec a-\\vec b=(4-(-1);6-5)=(5;1)$."
+      "explanation": "$2\\vec{a}=(4;6)$. $2\\vec{a}-\\vec{b}=(4-(-1);6-5)=(5;1)$."
     },
     {
       "id": "mc-c4-053",
@@ -6606,7 +6606,7 @@
         "$(6;4)$"
       ],
       "answer": 0,
-      "explanation": "Cùng phương $\\Leftrightarrow x_1y_2-x_2y_1=0$. Với $(2;3)$: $4(3)-2(6)=12-12=0$ — cùng phương (thực chất $(2;3)=\\frac12(4;6)$)."
+      "explanation": "Cùng phương $\\Leftrightarrow x_1y_2-x_2y_1=0$. Với $(2;3)$: $4(3)-2(6)=12-12=0$ — cùng phương (thực chất $(2;3)=\\frac{1}{2}(4;6)$)."
     },
     {
       "id": "mc-c4-054",
@@ -6638,7 +6638,7 @@
         "(1; 2)"
       ],
       "answer": 0,
-      "explanation": "$I=\\left(\\frac{2+4}{2};\\frac{1+5}{2}\\right)=(3;3)$."
+      "explanation": "$I=(\\frac{2+4}{2};\\frac{1+5}{2})=(3;3)$."
     },
     {
       "id": "mc-c4-056",
@@ -6648,13 +6648,13 @@
       "dang": "Toạ độ trung điểm, trọng tâm",
       "question": "Cho $A(0;0)$, $B(4;0)$, $C(0;3)$. Tìm toạ độ trọng tâm $G$ của tam giác $ABC$.",
       "choices": [
-        "$\\left(\\frac{4}{3}; 1\\right)$",
+        "$(\\frac{4}{3}; 1)$",
         "$(4; 3)$",
-        "$(2; 1{,}5)$",
-        "$\\left(\\frac{4}{3}; \\frac{1}{3}\\right)$"
+        "$(2; 1,5)$",
+        "$(\\frac{4}{3}; \\frac{1}{3})$"
       ],
       "answer": 0,
-      "explanation": "$x_G=\\frac{0+4+0}{3}=\\frac43$, $y_G=\\frac{0+0+3}{3}=1$."
+      "explanation": "$x_G=\\frac{0+4+0}{3}=\\frac{4}{3}$, $y_G=\\frac{0+0+3}{3}=1$."
     },
     {
       "id": "mc-c4-057",
@@ -6744,13 +6744,13 @@
       "dang": "Toạ độ vectơ — bài toán tổng hợp",
       "question": "Cho $A(2;3)$, $B(6;3)$. Tìm toạ độ điểm $M$ trên đoạn $AB$ sao cho $AM=\\frac{1}{3}AB$.",
       "choices": [
-        "$\\left(\\frac{10}{3};3\\right)$",
+        "$(\\frac{10}{3};3)$",
         "$(4;3)$",
         "$(3;3)$",
-        "$\\left(\\frac{8}{3};3\\right)$"
+        "$(\\frac{8}{3};3)$"
       ],
       "answer": 0,
-      "explanation": "$\\vec{AM}=\\frac13\\vec{AB}=\\frac13(4;0)=\\left(\\frac43;0\\right)$. $M=A+\\vec{AM}=\\left(2+\\frac43;3\\right)=\\left(\\frac{10}{3};3\\right)$."
+      "explanation": "$\\vec{AM}=\\frac{1}{3}\\vec{AB}=\\frac{1}{3}(4;0)=(\\frac{4}{3};0)$. $M=A+\\vec{AM}=(2+\\frac{4}{3};3)=(\\frac{10}{3};3)$."
     },
     {
       "id": "mc-c4-063",
@@ -6776,13 +6776,13 @@
       "dang": "Toạ độ vectơ — bài toán tổng hợp",
       "question": "Cho $\\vec{u}=(3;4)$. Tìm vectơ đơn vị (độ dài $1$) cùng hướng với $\\vec{u}$.",
       "choices": [
-        "$\\left(\\frac{3}{5};\\frac{4}{5}\\right)$",
+        "$(\\frac{3}{5};\\frac{4}{5})$",
         "$(3;4)$",
-        "$\\left(\\frac{1}{3};\\frac{1}{4}\\right)$",
+        "$(\\frac{1}{3};\\frac{1}{4})$",
         "$(1;1)$"
       ],
       "answer": 0,
-      "explanation": "$|\\vec u|=\\sqrt{9+16}=5$. Vectơ đơn vị cùng hướng $=\\frac{1}{|\\vec u|}\\vec u=\\left(\\frac35;\\frac45\\right)$."
+      "explanation": "$|\\vec{u}|=\\sqrt{9+16}=5$. Vectơ đơn vị cùng hướng $=\\frac{1}{|\\vec{u}|}\\vec{u}=(\\frac{3}{5};\\frac{4}{5})$."
     },
     {
       "id": "mc-c4-065",
@@ -6798,7 +6798,7 @@
         "$(-3;-2)$"
       ],
       "answer": 0,
-      "explanation": "Hệ số của $\\vec i$ là hoành độ, hệ số của $\\vec j$ là tung độ: $\\vec a=(3;-2)$."
+      "explanation": "Hệ số của $\\vec{i}$ là hoành độ, hệ số của $\\vec{j}$ là tung độ: $\\vec{a}=(3;-2)$."
     },
     {
       "id": "mc-c4-066",
@@ -6862,7 +6862,7 @@
         "$(2;-1)$"
       ],
       "answer": 0,
-      "explanation": "$2\\vec a=(2;4)$, $3\\vec b=(0;3)$. $\\vec u=(2-0;4-3)=(2;1)$."
+      "explanation": "$2\\vec{a}=(2;4)$, $3\\vec{b}=(0;3)$. $\\vec{u}=(2-0;4-3)=(2;1)$."
     },
     {
       "id": "mc-c4-070",
@@ -6926,7 +6926,7 @@
         "Phụ thuộc vào độ dài của chúng"
       ],
       "answer": 0,
-      "explanation": "Khi $(\\vec a,\\vec b)=90°$, $\\cos90°=0$ nên $\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos90°=0$ bất kể độ dài hai vectơ."
+      "explanation": "Khi $(\\vec{a},\\vec{b})=90°$, $\\cos90°=0$ nên $\\vec{a}\\cdot\\vec{b}=|\\vec{a}||\\vec{b}|\\cos90°=0$ bất kể độ dài hai vectơ."
     },
     {
       "id": "mc-c4-074",
@@ -6942,7 +6942,7 @@
         "3"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos60^\\circ=3(4)(0{,}5)=6$."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=|\\vec{a}||\\vec{b}|\\cos60^\\circ=3(4)(0,5)=6$."
     },
     {
       "id": "mc-c4-075",
@@ -6958,7 +6958,7 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=2(5)\\cos120^\\circ=10(-0{,}5)=-5$."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=2(5)\\cos120^\\circ=10(-0,5)=-5$."
     },
     {
       "id": "mc-c4-076",
@@ -6974,7 +6974,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Với góc tù, $\\cos$ âm, mà độ dài luôn không âm, nên tích $|\\vec a||\\vec b|\\cos(\\vec a,\\vec b)$ âm."
+      "explanation": "Với góc tù, $\\cos$ âm, mà độ dài luôn không âm, nên tích $|\\vec{a}||\\vec{b}|\\cos(\\vec{a},\\vec{b})$ âm."
     },
     {
       "id": "mc-c4-077",
@@ -6990,7 +6990,7 @@
         "-3"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=2(3)+(-1)(6)=6-6=0$."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=2(3)+(-1)(6)=6-6=0$."
     },
     {
       "id": "mc-c4-078",
@@ -6998,7 +6998,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Tích vô hướng theo toạ độ",
-      "question": "Với $\\vec{a}, \\vec{b}$ ở câu trên ($\\vec a\\cdot\\vec b=0$), góc giữa hai vectơ là:",
+      "question": "Với $\\vec{a}, \\vec{b}$ ở câu trên ($\\vec{a}\\cdot\\vec{b}=0$), góc giữa hai vectơ là:",
       "choices": [
         "$90^\\circ$",
         "$0^\\circ$",
@@ -7006,7 +7006,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Tích vô hướng bằng $0$ (và cả hai vectơ khác $\\vec0$) chính là dấu hiệu hai vectơ vuông góc: góc giữa chúng là $90^\\circ$."
+      "explanation": "Tích vô hướng bằng $0$ (và cả hai vectơ khác $\\vec{0}$) chính là dấu hiệu hai vectơ vuông góc: góc giữa chúng là $90^\\circ$."
     },
     {
       "id": "mc-c4-079",
@@ -7022,7 +7022,7 @@
         "3,5"
       ],
       "answer": 0,
-      "explanation": "Góc giữa $\\vec{AB}$ và $\\vec{AC}$ chính là góc $A=60^\\circ$: $\\vec{AB}\\cdot\\vec{AC}=3(4)\\cos60^\\circ=12(0{,}5)=6$."
+      "explanation": "Góc giữa $\\vec{AB}$ và $\\vec{AC}$ chính là góc $A=60^\\circ$: $\\vec{AB}\\cdot\\vec{AC}=3(4)\\cos60^\\circ=12(0,5)=6$."
     },
     {
       "id": "mc-c4-080",
@@ -7038,7 +7038,7 @@
         "Có, nhưng chỉ gần đúng"
       ],
       "answer": 0,
-      "explanation": "$\\vec u\\cdot\\vec v=4-4=0$, nên hai vectơ vuông góc — kiểm tra vuông góc bằng toạ độ chỉ cần tính tích vô hướng, không cần tính độ dài hay góc."
+      "explanation": "$\\vec{u}\\cdot\\vec{v}=4-4=0$, nên hai vectơ vuông góc — kiểm tra vuông góc bằng toạ độ chỉ cần tính tích vô hướng, không cần tính độ dài hay góc."
     },
     {
       "id": "mc-c4-081",
@@ -7054,7 +7054,7 @@
         "$0$"
       ],
       "answer": 0,
-      "explanation": "$\\vec a^2=\\vec a\\cdot\\vec a=|\\vec a||\\vec a|\\cos0^\\circ=|\\vec a|^2$."
+      "explanation": "$\\vec{a}^2=\\vec{a}\\cdot\\vec{a}=|\\vec{a}||\\vec{a}|\\cos0^\\circ=|\\vec{a}|^2$."
     },
     {
       "id": "mc-c4-082",
@@ -7070,7 +7070,7 @@
         "$2\\vec{a}\\cdot\\vec{b}$"
       ],
       "answer": 0,
-      "explanation": "Hằng đẳng thức vectơ tương tự đại số: $(\\vec a+\\vec b)^2=\\vec a^2+2\\vec a\\cdot\\vec b+\\vec b^2$."
+      "explanation": "Hằng đẳng thức vectơ tương tự đại số: $(\\vec{a}+\\vec{b})^2=\\vec{a}^2+2\\vec{a}\\cdot\\vec{b}+\\vec{b}^2$."
     },
     {
       "id": "mc-c4-083",
@@ -7086,7 +7086,7 @@
         "13"
       ],
       "answer": 0,
-      "explanation": "$|\\vec a+\\vec b|^2=\\vec a^2+2\\vec a\\cdot\\vec b+\\vec b^2=9+2(2)+16=29$."
+      "explanation": "$|\\vec{a}+\\vec{b}|^2=\\vec{a}^2+2\\vec{a}\\cdot\\vec{b}+\\vec{b}^2=9+2(2)+16=29$."
     },
     {
       "id": "mc-c4-084",
@@ -7102,7 +7102,7 @@
         "25"
       ],
       "answer": 0,
-      "explanation": "Vì $\\vec a\\perp\\vec b$ nên $\\vec a\\cdot\\vec b=0$: $|\\vec a+\\vec b|^2=9+0+16=25 \\Rightarrow |\\vec a+\\vec b|=5$ — chính là định lí Pythagore thể hiện qua vectơ."
+      "explanation": "Vì $\\vec{a}\\perp\\vec{b}$ nên $\\vec{a}\\cdot\\vec{b}=0$: $|\\vec{a}+\\vec{b}|^2=9+0+16=25 \\Rightarrow |\\vec{a}+\\vec{b}|=5$ — chính là định lí Pythagore thể hiện qua vectơ."
     },
     {
       "id": "mc-c4-085",
@@ -7118,7 +7118,7 @@
         "$2$"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=3x-2=0 \\Leftrightarrow x=\\frac23$."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=3x-2=0 \\Leftrightarrow x=\\frac{2}{3}$."
     },
     {
       "id": "mc-c4-086",
@@ -7134,7 +7134,7 @@
         "$0$"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=3(4)+4(3)=24$. $|\\vec a|=|\\vec b|=5$. $\\cos(\\vec a,\\vec b)=\\frac{24}{5\\times5}=\\frac{24}{25}$."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=3(4)+4(3)=24$. $|\\vec{a}|=|\\vec{b}|=5$. $\\cos(\\vec{a},\\vec{b})=\\frac{24}{5\\times5}=\\frac{24}{25}$."
     },
     {
       "id": "mc-c4-087",
@@ -7150,7 +7150,7 @@
         "$45^\\circ$"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec b=0$, nên góc giữa chúng là $90^\\circ$ — đúng như trực giác vì đây là hai vectơ đơn vị $\\vec i, \\vec j$ vuông góc nhau."
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=0$, nên góc giữa chúng là $90^\\circ$ — đúng như trực giác vì đây là hai vectơ đơn vị $\\vec{i}, \\vec{j}$ vuông góc nhau."
     },
     {
       "id": "mc-c4-088",
@@ -7182,7 +7182,7 @@
         "$A = |\\vec{F}|\\cdot|\\vec{d}|\\cdot\\tan\\theta$"
       ],
       "answer": 0,
-      "explanation": "Công cơ học là một ứng dụng vật lí trực tiếp của tích vô hướng: $A=\\vec F\\cdot\\vec d=|\\vec F||\\vec d|\\cos\\theta$."
+      "explanation": "Công cơ học là một ứng dụng vật lí trực tiếp của tích vô hướng: $A=\\vec{F}\\cdot\\vec{d}=|\\vec{F}||\\vec{d}|\\cos\\theta$."
     },
     {
       "id": "mc-c4-090",
@@ -7190,7 +7190,7 @@
       "lesson": "b11",
       "level": "vd",
       "dang": "Tích vô hướng — ứng dụng thực tế",
-      "question": "Một lực có độ lớn $10\\,N$ hợp với hướng di chuyển một góc $60^\\circ$, quãng đường đi được là $5$m. Tính công của lực.",
+      "question": "Một lực có độ lớn $10.N$ hợp với hướng di chuyển một góc $60^\\circ$, quãng đường đi được là $5$m. Tính công của lực.",
       "choices": [
         "25 J",
         "50 J",
@@ -7198,7 +7198,7 @@
         "43,3 J"
       ],
       "answer": 0,
-      "explanation": "$A=|\\vec F||\\vec d|\\cos60^\\circ=10(5)(0{,}5)=25$J."
+      "explanation": "$A=|\\vec{F}||\\vec{d}|\\cos60^\\circ=10(5)(0,5)=25$J."
     },
     {
       "id": "mc-c4-091",
@@ -7214,7 +7214,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Khi góc giữa lực và hướng di chuyển là $90^\\circ$, $\\cos90^\\circ=0$ nên công $A=|\\vec F||\\vec d|\\cos90^\\circ=0$."
+      "explanation": "Khi góc giữa lực và hướng di chuyển là $90^\\circ$, $\\cos90^\\circ=0$ nên công $A=|\\vec{F}||\\vec{d}|\\cos90^\\circ=0$."
     },
     {
       "id": "mc-c4-092",
@@ -7286,7 +7286,7 @@
       "lesson": "b11",
       "level": "vd",
       "dang": "Chứng minh vuông góc bằng toạ độ",
-      "question": "Cho $\\vec{u}=(a;b)$ (khác $\\vec0$). Vectơ nào sau đây LUÔN vuông góc với $\\vec{u}$?",
+      "question": "Cho $\\vec{u}=(a;b)$ (khác $\\vec{0}$). Vectơ nào sau đây LUÔN vuông góc với $\\vec{u}$?",
       "choices": [
         "$(-b;a)$",
         "$(a;b)$",
@@ -7294,7 +7294,7 @@
         "$(-a;-b)$"
       ],
       "answer": 0,
-      "explanation": "$\\vec u\\cdot(-b;a)=a(-b)+b(a)=-ab+ab=0$ với MỌI $a,b$ — đây là mẹo \"xoay $90°$\" hay dùng để tạo nhanh một vectơ vuông góc."
+      "explanation": "$\\vec{u}\\cdot(-b;a)=a(-b)+b(a)=-ab+ab=0$ với MỌI $a,b$ — đây là mẹo \"xoay $90°$\" hay dùng để tạo nhanh một vectơ vuông góc."
     },
     {
       "id": "mc-c4-097",
@@ -7304,13 +7304,13 @@
       "dang": "Tính góc tam giác bằng tích vô hướng",
       "question": "Cho tam giác $ABC$ với $A(0;0)$, $B(2;0)$, $C(1;\\sqrt{3})$. Tính $\\cos A$.",
       "choices": [
-        "$0{,}5$ (ứng với góc $A=60^\\circ$)",
+        "$0,5$ (ứng với góc $A=60^\\circ$)",
         "$1$",
         "$0$",
-        "$-0{,}5$"
+        "$-0,5$"
       ],
       "answer": 0,
-      "explanation": "$\\vec{AB}=(2;0)$, $\\vec{AC}=(1;\\sqrt3)$. $\\vec{AB}\\cdot\\vec{AC}=2$, $|\\vec{AB}|=2$, $|\\vec{AC}|=2$. $\\cos A=\\frac{2}{2\\times2}=0{,}5$."
+      "explanation": "$\\vec{AB}=(2;0)$, $\\vec{AC}=(1;\\sqrt{3})$. $\\vec{AB}\\cdot\\vec{AC}=2$, $|\\vec{AB}|=2$, $|\\vec{AC}|=2$. $\\cos A=\\frac{2}{2\\times2}=0,5$."
     },
     {
       "id": "mc-c4-098",
@@ -7326,7 +7326,7 @@
         "Tam giác thường, không có gì đặc biệt"
       ],
       "answer": 0,
-      "explanation": "$AB=2$; $AC=\\sqrt{1+3}=2$; $BC=\\sqrt{(2-1)^2+3}=2$. Ba cạnh bằng nhau nên đây là tam giác đều, khớp với $\\cos A=0{,}5$ (tức $A=60°$) tính được ở câu trên."
+      "explanation": "$AB=2$; $AC=\\sqrt{1+3}=2$; $BC=\\sqrt{(2-1)^2+3}=2$. Ba cạnh bằng nhau nên đây là tam giác đều, khớp với $\\cos A=0,5$ (tức $A=60°$) tính được ở câu trên."
     },
     {
       "id": "mc-c4-099",
@@ -7390,7 +7390,7 @@
         "Chỉ đúng khi tam giác đã biết là vuông"
       ],
       "answer": 0,
-      "explanation": "Đây là ứng dụng quan trọng: chỉ cần xét DẤU của tích vô hướng là biết ngay góc nhọn ($>0$), tù ($<0$) hay vuông ($=0$), không cần tính $\\arccos$."
+      "explanation": "Đây là ứng dụng quan trọng: chỉ cần xét DẤU của tích vô hướng là biết ngay góc nhọn ($>0$), tù ($<0$) hay vuông ($=0$), không cần tính hàm arccos."
     },
     {
       "id": "mc-c4-103",
@@ -7422,7 +7422,7 @@
         "Không có công cụ nào khác ngoài đo trực tiếp"
       ],
       "answer": 0,
-      "explanation": "Xét dấu tích vô hướng của hai vectơ tạo nên góc là cách nhanh và chính xác để phân loại góc mà không cần đo hay tính $\\arccos$."
+      "explanation": "Xét dấu tích vô hướng của hai vectơ tạo nên góc là cách nhanh và chính xác để phân loại góc mà không cần đo hay tính hàm arccos."
     },
     {
       "id": "mc-c4-105",
@@ -7454,7 +7454,7 @@
         "4"
       ],
       "answer": 0,
-      "explanation": "$\\vec a+\\vec b=(3;1)$. $(\\vec a+\\vec b)\\cdot\\vec c=3(3)+1(1)=10$."
+      "explanation": "$\\vec{a}+\\vec{b}=(3;1)$. $(\\vec{a}+\\vec{b})\\cdot\\vec{c}=3(3)+1(1)=10$."
     },
     {
       "id": "mc-c4-107",
@@ -7470,7 +7470,7 @@
         "Không kết luận được gì"
       ],
       "answer": 0,
-      "explanation": "Trong mặt phẳng (2 chiều), chỉ có DUY NHẤT một phương vuông góc với $\\vec a$, nên nếu cả $\\vec b$ và $\\vec c$ đều vuông góc với $\\vec a$ thì chúng phải cùng phương với nhau."
+      "explanation": "Trong mặt phẳng (2 chiều), chỉ có DUY NHẤT một phương vuông góc với $\\vec{a}$, nên nếu cả $\\vec{b}$ và $\\vec{c}$ đều vuông góc với $\\vec{a}$ thì chúng phải cùng phương với nhau."
     },
     {
       "id": "mc-c4-108",
@@ -7486,7 +7486,7 @@
         "2"
       ],
       "answer": 0,
-      "explanation": "Theo tính chất phân phối: $\\vec a\\cdot(\\vec b+\\vec c)=\\vec a\\cdot\\vec b+\\vec a\\cdot\\vec c=3+(-5)=-2$."
+      "explanation": "Theo tính chất phân phối: $\\vec{a}\\cdot(\\vec{b}+\\vec{c})=\\vec{a}\\cdot\\vec{b}+\\vec{a}\\cdot\\vec{c}=3+(-5)=-2$."
     },
     {
       "id": "mc-c4-109",
@@ -7534,7 +7534,7 @@
         "$a^{2}\\sqrt{2}$"
       ],
       "answer": 0,
-      "explanation": "$\\vec{AC}=\\vec{AB}+\\vec{AD}$: $|\\vec{AC}|^2=|\\vec{AB}|^2+2\\vec{AB}\\cdot\\vec{AD}+|\\vec{AD}|^2=a^2+0+a^2=2a^2$, suy ra $|\\vec{AC}|=a\\sqrt2$."
+      "explanation": "$\\vec{AC}=\\vec{AB}+\\vec{AD}$: $|\\vec{AC}|^2=|\\vec{AB}|^2+2\\vec{AB}\\cdot\\vec{AD}+|\\vec{AD}|^2=a^2+0+a^2=2a^2$, suy ra $|\\vec{AC}|=a\\sqrt{2}$."
     },
     {
       "id": "mc-c4-112",
@@ -7550,7 +7550,7 @@
         "0"
       ],
       "answer": 0,
-      "explanation": "$\\vec{AB}\\cdot\\vec{AD}=|\\vec{AB}||\\vec{AD}|\\cos A=a\\cdot a\\cdot\\cos60^\\circ=a^2\\cdot0{,}5=\\frac{a^2}{2}$."
+      "explanation": "$\\vec{AB}\\cdot\\vec{AD}=|\\vec{AB}||\\vec{AD}|\\cos A=a\\cdot a\\cdot\\cos60^\\circ=a^2\\cdot0,5=\\frac{a^2}{2}$."
     },
     {
       "id": "mc-c4-113",
@@ -7582,7 +7582,7 @@
         "Không có liên hệ cố định nào"
       ],
       "answer": 0,
-      "explanation": "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=\\vec u^2-\\vec v^2=|\\vec u|^2-|\\vec v|^2=0$ (vì $|\\vec u|=|\\vec v|$), nên chúng luôn vuông góc — đây chính là lí do hai đường chéo hình thoi (các cạnh bằng nhau) luôn vuông góc."
+      "explanation": "$(\\vec{u}+\\vec{v})\\cdot(\\vec{u}-\\vec{v})=\\vec{u}^2-\\vec{v}^2=|\\vec{u}|^2-|\\vec{v}|^2=0$ (vì $|\\vec{u}|=|\\vec{v}|$), nên chúng luôn vuông góc — đây chính là lí do hai đường chéo hình thoi (các cạnh bằng nhau) luôn vuông góc."
     },
     {
       "id": "mc-c4-115",
@@ -7598,7 +7598,7 @@
         "$|\\vec{a}|^{2}=0$"
       ],
       "answer": 0,
-      "explanation": "$\\vec a\\cdot\\vec a=3(3)+(-4)(-4)=9+16=25$. $|\\vec a|^2=(\\sqrt{25})^2=25$. Hai giá trị bằng nhau, minh hoạ cụ thể công thức $\\vec a^2=|\\vec a|^2$."
+      "explanation": "$\\vec{a}\\cdot\\vec{a}=3(3)+(-4)(-4)=9+16=25$. $|\\vec{a}|^2=(\\sqrt{25})^2=25$. Hai giá trị bằng nhau, minh hoạ cụ thể công thức $\\vec{a}^2=|\\vec{a}|^2$."
     },
     {
       "id": "mc-c4-116",
@@ -7694,7 +7694,7 @@
         "7"
       ],
       "answer": 0,
-      "explanation": "$\\overline{x}=\\frac{6+7+8+8+9}{5}=\\frac{38}{5}=7{,}6$."
+      "explanation": "$\\overline{x}=\\frac{6+7+8+8+9}{5}=\\frac{38}{5}=7,6$."
     },
     {
       "id": "mc-c5-002",
@@ -7704,13 +7704,13 @@
       "dang": "Số trung bình",
       "question": "Một cửa hàng bán được số bánh mỗi ngày trong tuần: $20; 22; 18; 25; 20; 30; 15$. Tính trung bình số bánh bán ra mỗi ngày.",
       "choices": [
-        "$\\approx 21{,}43$",
+        "$\\approx 21,43$",
         "21",
         "150",
         "25"
       ],
       "answer": 0,
-      "explanation": "Tổng $=20+22+18+25+20+30+15=150$. Trung bình $=\\frac{150}{7}\\approx21{,}43$."
+      "explanation": "Tổng $=20+22+18+25+20+30+15=150$. Trung bình $=\\frac{150}{7}\\approx21,43$."
     },
     {
       "id": "mc-c5-003",
@@ -7726,7 +7726,7 @@
         "21"
       ],
       "answer": 0,
-      "explanation": "$n=3+5+2=10$. Tổng điểm $=5(3)+7(5)+9(2)=15+35+18=68$. $\\overline{x}=\\frac{68}{10}=6{,}8$."
+      "explanation": "$n=3+5+2=10$. Tổng điểm $=5(3)+7(5)+9(2)=15+35+18=68$. $\\overline{x}=\\frac{68}{10}=6,8$."
     },
     {
       "id": "mc-c5-004",
@@ -7734,7 +7734,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Số trung bình",
-      "question": "Thêm một học sinh đạt điểm $10$ vào mẫu $6;7;8;8;9$ (trung bình cũ $7{,}6$). Điểm trung bình mới là:",
+      "question": "Thêm một học sinh đạt điểm $10$ vào mẫu $6;7;8;8;9$ (trung bình cũ $7,6$). Điểm trung bình mới là:",
       "choices": [
         "8",
         "7,6",
@@ -7752,13 +7752,13 @@
       "dang": "Số trung bình",
       "question": "Mẫu số liệu $2; 3; 4; 5; 100$ có điểm trung bình bao nhiêu, và số trung bình này có đại diện tốt cho mẫu không?",
       "choices": [
-        "$22{,}8$; KHÔNG đại diện tốt vì bị ảnh hưởng mạnh bởi giá trị ngoại lệ $100$",
-        "$22{,}8$; đại diện tốt",
-        "$3{,}5$; đại diện tốt",
+        "$22,8$; KHÔNG đại diện tốt vì bị ảnh hưởng mạnh bởi giá trị ngoại lệ $100$",
+        "$22,8$; đại diện tốt",
+        "$3,5$; đại diện tốt",
         "$114$; không đại diện tốt"
       ],
       "answer": 0,
-      "explanation": "$\\overline x=\\frac{2+3+4+5+100}{5}=\\frac{114}{5}=22{,}8$. Giá trị này cao hơn hẳn $4$ trong $5$ số liệu, cho thấy trung bình bị kéo lệch bởi giá trị ngoại lệ $100$, không đại diện tốt cho phần lớn dữ liệu."
+      "explanation": "$\\overline{x}=\\frac{2+3+4+5+100}{5}=\\frac{114}{5}=22,8$. Giá trị này cao hơn hẳn $4$ trong $5$ số liệu, cho thấy trung bình bị kéo lệch bởi giá trị ngoại lệ $100$, không đại diện tốt cho phần lớn dữ liệu."
     },
     {
       "id": "mc-c5-006",
@@ -7766,7 +7766,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Số trung bình",
-      "question": "Lớp A có điểm trung bình môn Toán là $7{,}5$ với $40$ học sinh. Tổng điểm của cả lớp là bao nhiêu?",
+      "question": "Lớp A có điểm trung bình môn Toán là $7,5$ với $40$ học sinh. Tổng điểm của cả lớp là bao nhiêu?",
       "choices": [
         "300",
         "320",
@@ -7774,7 +7774,7 @@
         "350"
       ],
       "answer": 0,
-      "explanation": "Tổng điểm $=\\overline x\\times n=7{,}5\\times40=300$."
+      "explanation": "Tổng điểm $=\\overline{x}\\times n=7,5\\times40=300$."
     },
     {
       "id": "mc-c5-007",
@@ -7790,7 +7790,7 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "Tổng điểm hai tổ $=7(10)+8(15)=70+120=190$. Tổng số học sinh $=25$. Trung bình chung $=\\frac{190}{25}=7{,}6$ (không phải trung bình cộng đơn giản của $7$ và $8$ vì số học sinh hai tổ khác nhau)."
+      "explanation": "Tổng điểm hai tổ $=7(10)+8(15)=70+120=190$. Tổng số học sinh $=25$. Trung bình chung $=\\frac{190}{25}=7,6$ (không phải trung bình cộng đơn giản của $7$ và $8$ vì số học sinh hai tổ khác nhau)."
     },
     {
       "id": "mc-c5-008",
@@ -7814,15 +7814,15 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Số gần đúng và sai số",
-      "question": "Một cây cầu dài $a=150$m với độ chính xác $d=0{,}2$m. Tính sai số tương đối.",
+      "question": "Một cây cầu dài $a=150$m với độ chính xác $d=0,2$m. Tính sai số tương đối.",
       "choices": [
-        "$\\approx 0{,}133\\%$",
-        "$1{,}33\\%$",
-        "$0{,}2\\%$",
+        "$\\approx 0,133\\%$",
+        "$1,33\\%$",
+        "$0,2\\%$",
         "$75\\%$"
       ],
       "answer": 0,
-      "explanation": "$\\delta_a \\le \\frac{d}{|a|}=\\frac{0{,}2}{150}\\approx0{,}00133=0{,}133\\%$."
+      "explanation": "$\\delta_a \\le \\frac{d}{|a|}=\\frac{0,2}{150}\\approx0,00133=0,133\\%$."
     },
     {
       "id": "mc-c5-010",
@@ -7830,15 +7830,15 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Số gần đúng và sai số",
-      "question": "Số gần đúng $a=3{,}1416$ của $\\pi$ với độ chính xác $d=0{,}0001$. Viết dưới dạng $\\bar a=a\\pm d$.",
+      "question": "Số gần đúng $a=3,1416$ của $\\pi$ với độ chính xác $d=0,0001$. Viết dưới dạng $\\bar{a}=a\\pm d$.",
       "choices": [
-        "$\\pi = 3{,}1416 \\pm 0{,}0001$",
-        "$\\pi = 3{,}14 \\pm 0{,}0001$",
-        "$\\pi = 3{,}1416 \\pm 1$",
-        "$\\pi = 3{,}1416$ (không cần viết sai số)"
+        "$\\pi = 3,1416 \\pm 0,0001$",
+        "$\\pi = 3,14 \\pm 0,0001$",
+        "$\\pi = 3,1416 \\pm 1$",
+        "$\\pi = 3,1416$ (không cần viết sai số)"
       ],
       "answer": 0,
-      "explanation": "Cách viết chuẩn $\\bar a=a\\pm d$ nghĩa là $a-d\\le\\bar a\\le a+d$: $\\pi=3{,}1416\\pm0{,}0001$."
+      "explanation": "Cách viết chuẩn $\\bar{a}=a\\pm d$ nghĩa là $a-d\\le\\bar{a}\\le a+d$: $\\pi=3,1416\\pm0,0001$."
     },
     {
       "id": "mc-c5-011",
@@ -7846,15 +7846,15 @@
       "lesson": "b12",
       "level": "vd",
       "dang": "Số gần đúng và sai số",
-      "question": "Đo một vật được $a=25{,}3$cm với sai số tuyệt đối không vượt quá $0{,}1$cm. Chiều dài đúng $\\bar a$ nằm trong khoảng nào?",
+      "question": "Đo một vật được $a=25,3$cm với sai số tuyệt đối không vượt quá $0,1$cm. Chiều dài đúng $\\bar{a}$ nằm trong khoảng nào?",
       "choices": [
-        "$[25{,}2; 25{,}4]$",
-        "$[25{,}3; 25{,}4]$",
-        "$[25{,}2; 25{,}3]$",
-        "$[25{,}0; 25{,}5]$"
+        "$[25,2; 25,4]$",
+        "$[25,3; 25,4]$",
+        "$[25,2; 25,3]$",
+        "$[25,0; 25,5]$"
       ],
       "answer": 0,
-      "explanation": "$\\Delta_a\\le d \\Leftrightarrow a-d\\le\\bar a\\le a+d$: $25{,}3-0{,}1\\le\\bar a\\le25{,}3+0{,}1$, tức $[25{,}2;25{,}4]$."
+      "explanation": "$\\Delta_a\\le d \\Leftrightarrow a-d\\le\\bar{a}\\le a+d$: $25,3-0,1\\le\\bar{a}\\le25,3+0,1$, tức $[25,2;25,4]$."
     },
     {
       "id": "mc-c5-012",
@@ -7878,7 +7878,7 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Quy tròn số gần đúng",
-      "question": "Quy tròn số $a=7{,}2649$ đến hàng phần trăm.",
+      "question": "Quy tròn số $a=7,2649$ đến hàng phần trăm.",
       "choices": [
         "7,26",
         "7,27",
@@ -7886,7 +7886,7 @@
         "7,2"
       ],
       "answer": 0,
-      "explanation": "Chữ số hàng phần trăm là $6$; chữ số liền sau là $4<5$ nên giữ nguyên: $a\\approx7{,}26$."
+      "explanation": "Chữ số hàng phần trăm là $6$; chữ số liền sau là $4<5$ nên giữ nguyên: $a\\approx7,26$."
     },
     {
       "id": "mc-c5-014",
@@ -7894,7 +7894,7 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Quy tròn số gần đúng",
-      "question": "Quy tròn số $a=12{,}385$ đến hàng phần chục.",
+      "question": "Quy tròn số $a=12,385$ đến hàng phần chục.",
       "choices": [
         "12,4",
         "12,3",
@@ -7902,7 +7902,7 @@
         "12"
       ],
       "answer": 0,
-      "explanation": "Chữ số hàng phần chục là $3$; chữ số liền sau là $8\\ge5$ nên cộng thêm $1$: $a\\approx12{,}4$."
+      "explanation": "Chữ số hàng phần chục là $3$; chữ số liền sau là $8\\ge5$ nên cộng thêm $1$: $a\\approx12,4$."
     },
     {
       "id": "mc-c5-015",
@@ -7910,7 +7910,7 @@
       "lesson": "b12",
       "level": "vd",
       "dang": "Quy tròn số gần đúng",
-      "question": "Số $e\\approx2{,}71828...$ có số gần đúng $a=2{,}718$ với độ chính xác $d=0{,}001$. Quy tròn $a$ theo đúng quy tắc.",
+      "question": "Số $e\\approx2,71828...$ có số gần đúng $a=2,718$ với độ chính xác $d=0,001$. Quy tròn $a$ theo đúng quy tắc.",
       "choices": [
         "2,72",
         "2,718",
@@ -7918,7 +7918,7 @@
         "2,71"
       ],
       "answer": 0,
-      "explanation": "$d=0{,}001$ có chữ số khác $0$ đầu tiên ở hàng phần nghìn, nên quy tròn $a$ đến hàng LỚN HƠN kế tiếp, tức hàng phần trăm: $a\\approx2{,}72$."
+      "explanation": "$d=0,001$ có chữ số khác $0$ đầu tiên ở hàng phần nghìn, nên quy tròn $a$ đến hàng LỚN HƠN kế tiếp, tức hàng phần trăm: $a\\approx2,72$."
     },
     {
       "id": "mc-c5-016",
@@ -7950,7 +7950,7 @@
         "30"
       ],
       "answer": 0,
-      "explanation": "Tổng $=5+7+9+35+37+40+65+70=268$. Trung bình $=\\frac{268}{8}=33{,}5$."
+      "explanation": "Tổng $=5+7+9+35+37+40+65+70=268$. Trung bình $=\\frac{268}{8}=33,5$."
     },
     {
       "id": "mc-c5-018",
@@ -7960,13 +7960,13 @@
       "dang": "Số trung bình — dữ liệu lệch, ngoại lệ",
       "question": "Một công ty có $5$ nhân viên với lương (triệu đồng): $8; 9; 10; 10; 200$ (giám đốc). Số trung bình có phản ánh đúng mức lương phổ biến không?",
       "choices": [
-        "Không, vì lương giám đốc quá cao khiến trung bình ($47{,}4$ triệu) không phản ánh đúng đa số nhân viên",
+        "Không, vì lương giám đốc quá cao khiến trung bình ($47,4$ triệu) không phản ánh đúng đa số nhân viên",
         "Có, phản ánh đúng mức lương phổ biến",
         "Không đủ dữ liệu để kết luận",
         "Chỉ đúng nếu tính theo giờ làm việc"
       ],
       "answer": 0,
-      "explanation": "Trung bình $=\\frac{8+9+10+10+200}{5}=\\frac{237}{5}=47{,}4$ triệu — cao hơn nhiều so với lương của $4$ trong $5$ nhân viên, cho thấy giá trị ngoại lệ đã kéo lệch số trung bình."
+      "explanation": "Trung bình $=\\frac{8+9+10+10+200}{5}=\\frac{237}{5}=47,4$ triệu — cao hơn nhiều so với lương của $4$ trong $5$ nhân viên, cho thấy giá trị ngoại lệ đã kéo lệch số trung bình."
     },
     {
       "id": "mc-c5-019",
@@ -7990,7 +7990,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Số trung bình — dữ liệu lệch, ngoại lệ",
-      "question": "Hai lớp cùng sĩ số $30$: điểm trung bình lớp A là $7$, lớp B là $7{,}5$. Tổng điểm chênh lệch giữa hai lớp là bao nhiêu?",
+      "question": "Hai lớp cùng sĩ số $30$: điểm trung bình lớp A là $7$, lớp B là $7,5$. Tổng điểm chênh lệch giữa hai lớp là bao nhiêu?",
       "choices": [
         "15",
         "0,5",
@@ -7998,7 +7998,7 @@
         "22,5"
       ],
       "answer": 0,
-      "explanation": "Chênh lệch trung bình $0{,}5$ điểm, nhân với $30$ học sinh: $0{,}5\\times30=15$."
+      "explanation": "Chênh lệch trung bình $0,5$ điểm, nhân với $30$ học sinh: $0,5\\times30=15$."
     },
     {
       "id": "mc-c5-021",
@@ -8030,7 +8030,7 @@
         "43"
       ],
       "answer": 0,
-      "explanation": "Tổng $=40(4)+45(10)+50(6)=160+450+300=910$. Trung bình $=\\frac{910}{20}=45{,}5$kg."
+      "explanation": "Tổng $=40(4)+45(10)+50(6)=160+450+300=910$. Trung bình $=\\frac{910}{20}=45,5$kg."
     },
     {
       "id": "mc-c5-023",
@@ -8094,7 +8094,7 @@
         "23"
       ],
       "answer": 0,
-      "explanation": "$n=6$ chẵn, trung vị là trung bình cộng hai số hạng thứ $3$ và $4$: $\\frac{15+16}{2}=15{,}5$."
+      "explanation": "$n=6$ chẵn, trung vị là trung bình cộng hai số hạng thứ $3$ và $4$: $\\frac{15+16}{2}=15,5$."
     },
     {
       "id": "mc-c5-027",
@@ -8118,11 +8118,11 @@
       "lesson": "b13",
       "level": "vd",
       "dang": "Trung vị",
-      "question": "Lương (triệu đồng) của $5$ nhân viên: $8; 9; 10; 10; 200$. Tìm trung vị và so sánh với số trung bình ($47{,}4$).",
+      "question": "Lương (triệu đồng) của $5$ nhân viên: $8; 9; 10; 10; 200$. Tìm trung vị và so sánh với số trung bình ($47,4$).",
       "choices": [
-        "Trung vị $=10$, đại diện tốt hơn trung bình $47{,}4$ (không bị ảnh hưởng bởi lương giám đốc)",
+        "Trung vị $=10$, đại diện tốt hơn trung bình $47,4$ (không bị ảnh hưởng bởi lương giám đốc)",
         "Trung vị $=200$",
-        "Trung vị $=47{,}4$, bằng số trung bình",
+        "Trung vị $=47,4$, bằng số trung bình",
         "Trung vị không xác định được"
       ],
       "answer": 0,
@@ -8200,13 +8200,13 @@
       "dang": "Tứ phân vị",
       "question": "Tìm $Q_1, Q_2, Q_3$ của mẫu: $4; 7; 9; 12; 15; 18; 20; 25$.",
       "choices": [
-        "$Q_1=8, Q_2=13{,}5, Q_3=19$",
-        "$Q_1=9, Q_2=13{,}5, Q_3=18$",
+        "$Q_1=8, Q_2=13,5, Q_3=19$",
+        "$Q_1=9, Q_2=13,5, Q_3=18$",
         "$Q_1=7, Q_2=12, Q_3=18$",
         "$Q_1=8, Q_2=12, Q_3=19$"
       ],
       "answer": 0,
-      "explanation": "$n=8$: $Q_2=\\frac{12+15}{2}=13{,}5$. Nửa trái $4;7;9;12 \\Rightarrow Q_1=\\frac{7+9}{2}=8$. Nửa phải $15;18;20;25 \\Rightarrow Q_3=\\frac{18+20}{2}=19$."
+      "explanation": "$n=8$: $Q_2=\\frac{12+15}{2}=13,5$. Nửa trái $4;7;9;12 \\Rightarrow Q_1=\\frac{7+9}{2}=8$. Nửa phải $15;18;20;25 \\Rightarrow Q_3=\\frac{18+20}{2}=19$."
     },
     {
       "id": "mc-c5-034",
@@ -8296,13 +8296,13 @@
       "dang": "Khoảng tứ phân vị và giá trị ngoại lệ",
       "question": "Mẫu số liệu có $Q_1=8$, $Q_3=19$. Giá trị $40$ có là giá trị ngoại lệ không?",
       "choices": [
-        "Có, vì $40 > 35{,}5$ (ngưỡng trên $Q_3+1{,}5\\Delta_Q$)",
+        "Có, vì $40 > 35,5$ (ngưỡng trên $Q_3+1,5\\Delta_Q$)",
         "Không, vì $40 < 50$",
         "Có, vì $40 > Q_3$ (chỉ cần lớn hơn $Q_3$ là đủ)",
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "$\\Delta_Q=19-8=11$. Ngưỡng trên $=Q_3+1{,}5\\Delta_Q=19+16{,}5=35{,}5$. Vì $40>35{,}5$ nên $40$ LÀ giá trị ngoại lệ (chỉ lớn hơn $Q_3$ thôi thì CHƯA đủ để coi là ngoại lệ)."
+      "explanation": "$\\Delta_Q=19-8=11$. Ngưỡng trên $=Q_3+1,5\\Delta_Q=19+16,5=35,5$. Vì $40>35,5$ nên $40$ LÀ giá trị ngoại lệ (chỉ lớn hơn $Q_3$ thôi thì CHƯA đủ để coi là ngoại lệ)."
     },
     {
       "id": "mc-c5-040",
@@ -8312,13 +8312,13 @@
       "dang": "Khoảng tứ phân vị và giá trị ngoại lệ",
       "question": "Với $Q_1=8$, $Q_3=19$ ($\\Delta_Q=11$), giá trị nào sau đây được xem là ngoại lệ PHÍA DƯỚI?",
       "choices": [
-        "$-10$ (vì nhỏ hơn ngưỡng dưới $-8{,}5$)",
+        "$-10$ (vì nhỏ hơn ngưỡng dưới $-8,5$)",
         "$0$",
         "$5$",
         "$8$"
       ],
       "answer": 0,
-      "explanation": "Ngưỡng dưới $=Q_1-1{,}5\\Delta_Q=8-16{,}5=-8{,}5$. Chỉ giá trị nhỏ hơn $-8{,}5$ mới là ngoại lệ phía dưới; trong các lựa chọn, chỉ $-10$ thoả."
+      "explanation": "Ngưỡng dưới $=Q_1-1,5\\Delta_Q=8-16,5=-8,5$. Chỉ giá trị nhỏ hơn $-8,5$ mới là ngoại lệ phía dưới; trong các lựa chọn, chỉ $-10$ thoả."
     },
     {
       "id": "mc-c5-041",
@@ -8328,13 +8328,13 @@
       "dang": "Tứ phân vị — ứng dụng thực tế",
       "question": "Thời gian làm bài (phút) của $9$ học sinh: $20;22;25;28;30;32;35;38;60$ (em cuối làm rất chậm). Tìm $Q_1, Q_2, Q_3$.",
       "choices": [
-        "$Q_1=23{,}5, Q_2=30, Q_3=36{,}5$",
+        "$Q_1=23,5, Q_2=30, Q_3=36,5$",
         "$Q_1=22, Q_2=30, Q_3=38$",
         "$Q_1=25, Q_2=30, Q_3=35$",
         "$Q_1=20, Q_2=30, Q_3=60$"
       ],
       "answer": 0,
-      "explanation": "$n=9$: $Q_2$ là số thứ $5$: $30$. Nửa trái $20;22;25;28 \\Rightarrow Q_1=\\frac{22+25}{2}=23{,}5$. Nửa phải $32;35;38;60 \\Rightarrow Q_3=\\frac{35+38}{2}=36{,}5$."
+      "explanation": "$n=9$: $Q_2$ là số thứ $5$: $30$. Nửa trái $20;22;25;28 \\Rightarrow Q_1=\\frac{22+25}{2}=23,5$. Nửa phải $32;35;38;60 \\Rightarrow Q_3=\\frac{35+38}{2}=36,5$."
     },
     {
       "id": "mc-c5-042",
@@ -8342,7 +8342,7 @@
       "lesson": "b14",
       "level": "vd",
       "dang": "Tứ phân vị — ứng dụng thực tế",
-      "question": "Với dữ liệu trên ($Q_1=23{,}5, Q_3=36{,}5$), tính $\\Delta_Q$ và kiểm tra giá trị $60$ có là ngoại lệ không.",
+      "question": "Với dữ liệu trên ($Q_1=23,5, Q_3=36,5$), tính $\\Delta_Q$ và kiểm tra giá trị $60$ có là ngoại lệ không.",
       "choices": [
         "$\\Delta_Q=13$; $60$ LÀ ngoại lệ vì $60>56$",
         "$\\Delta_Q=13$; $60$ không là ngoại lệ",
@@ -8350,7 +8350,7 @@
         "$\\Delta_Q=13$; không xác định được"
       ],
       "answer": 0,
-      "explanation": "$\\Delta_Q=36{,}5-23{,}5=13$. Ngưỡng trên $=36{,}5+1{,}5(13)=36{,}5+19{,}5=56$. Vì $60>56$ nên $60$ là giá trị ngoại lệ."
+      "explanation": "$\\Delta_Q=36,5-23,5=13$. Ngưỡng trên $=36,5+1,5(13)=36,5+19,5=56$. Vì $60>56$ nên $60$ là giá trị ngoại lệ."
     },
     {
       "id": "mc-c5-043",
@@ -8446,7 +8446,7 @@
         "Dữ liệu chắc chắn có sai số đo lường"
       ],
       "answer": 0,
-      "explanation": "$\\Delta_Q$ chỉ phản ánh độ trải của $50\\%$ dữ liệu giữa, còn $R$ phụ thuộc vào hai giá trị cực trị; khi $\\Delta_Q \\ll R$, phần lớn dữ liệu tập trung gần nhau còn $R$ lớn là do vài giá trị cực đoan ở hai đầu."
+      "explanation": "$\\Delta_Q$ chỉ phản ánh độ trải của $50\\%$ dữ liệu giữa, còn $R$ phụ thuộc vào hai giá trị cực trị; khi $\\Delta_Q$ nhỏ hơn nhiều so với $R$, phần lớn dữ liệu tập trung gần nhau còn $R$ lớn là do vài giá trị cực đoan ở hai đầu."
     },
     {
       "id": "mc-c5-049",
@@ -8568,13 +8568,13 @@
       "dang": "Mốt",
       "question": "So sánh mốt, trung vị, trung bình của mẫu $1; 2; 2; 2; 3; 100$.",
       "choices": [
-        "Mốt $=2$, trung vị $=2$, trung bình $\\approx18{,}33$ — mốt và trung vị đại diện tốt hơn vì không bị kéo bởi $100$",
+        "Mốt $=2$, trung vị $=2$, trung bình $\\approx18,33$ — mốt và trung vị đại diện tốt hơn vì không bị kéo bởi $100$",
         "Cả ba số đặc trưng đều bằng nhau",
         "Mốt $=100$",
         "Trung bình đại diện tốt nhất cho mẫu này"
       ],
       "answer": 0,
-      "explanation": "Mốt $=2$ (tần số $3$, cao nhất). Trung vị (mẫu đã sắp xếp, $n=6$): $\\frac{2+2}{2}=2$. Trung bình $=\\frac{1+2+2+2+3+100}{6}=\\frac{110}{6}\\approx18{,}33$ — bị kéo lệch mạnh bởi giá trị $100$."
+      "explanation": "Mốt $=2$ (tần số $3$, cao nhất). Trung vị (mẫu đã sắp xếp, $n=6$): $\\frac{2+2}{2}=2$. Trung bình $=\\frac{1+2+2+2+3+100}{6}=\\frac{110}{6}\\approx18,33$ — bị kéo lệch mạnh bởi giá trị $100$."
     },
     {
       "id": "mc-c5-057",
@@ -8718,7 +8718,7 @@
         "Phương sai"
       ],
       "answer": 0,
-      "explanation": "Với dữ liệu rời rạc muốn biết \"trường hợp phổ biến nhất\", mốt (ở đây là $2$ con, có tần số cao nhất $25$) trực quan và dễ hiểu hơn số trung bình (thường ra số thập phân vô nghĩa như $1{,}7$ con)."
+      "explanation": "Với dữ liệu rời rạc muốn biết \"trường hợp phổ biến nhất\", mốt (ở đây là $2$ con, có tần số cao nhất $25$) trực quan và dễ hiểu hơn số trung bình (thường ra số thập phân vô nghĩa như $1,7$ con)."
     },
     {
       "id": "mc-c5-066",
@@ -8760,13 +8760,13 @@
       "dang": "So sánh trung bình, trung vị, mốt",
       "question": "Với mẫu $10;20;20;20;30;100$ ở câu trên, số trung bình là bao nhiêu, và nó có gần với mốt/trung vị ($=20$) không?",
       "choices": [
-        "$\\approx33{,}33$; khá xa mốt và trung vị do ảnh hưởng của giá trị $100$",
+        "$\\approx33,33$; khá xa mốt và trung vị do ảnh hưởng của giá trị $100$",
         "$=20$, giống hệt mốt và trung vị",
         "$=100$",
         "$=15$"
       ],
       "answer": 0,
-      "explanation": "$\\overline x=\\frac{10+20+20+20+30+100}{6}=\\frac{200}{6}\\approx33{,}33$ — cao hơn hẳn mốt và trung vị ($20$) do giá trị ngoại lệ $100$ kéo trung bình lên."
+      "explanation": "$\\overline{x}=\\frac{10+20+20+20+30+100}{6}=\\frac{200}{6}\\approx33,33$ — cao hơn hẳn mốt và trung vị ($20$) do giá trị ngoại lệ $100$ kéo trung bình lên."
     },
     {
       "id": "mc-c5-069",
@@ -8974,7 +8974,7 @@
         "2,83"
       ],
       "answer": 0,
-      "explanation": "$\\overline x=6$. Tổng bình phương độ lệch: $16+4+0+4+16=40$. $S^2=\\frac{40}{5}=8$."
+      "explanation": "$\\overline{x}=6$. Tổng bình phương độ lệch: $16+4+0+4+16=40$. $S^2=\\frac{40}{5}=8$."
     },
     {
       "id": "mc-c5-082",
@@ -8984,13 +8984,13 @@
       "dang": "Phương sai",
       "question": "Với mẫu $2;4;6;8;10$ ở câu trên ($S^2=8$), tính độ lệch chuẩn $S$.",
       "choices": [
-        "$2\\sqrt{2} \\approx 2{,}83$",
+        "$2\\sqrt{2} \\approx 2,83$",
         "8",
         "4",
         "$\\sqrt{2}$"
       ],
       "answer": 0,
-      "explanation": "$S=\\sqrt{S^2}=\\sqrt8=2\\sqrt2\\approx2{,}83$."
+      "explanation": "$S=\\sqrt{S^2}=\\sqrt{8}=2\\sqrt{2}\\approx2,83$."
     },
     {
       "id": "mc-c5-083",
@@ -9006,7 +9006,7 @@
         "1,41"
       ],
       "answer": 0,
-      "explanation": "$\\overline x=3$. Tổng bình phương độ lệch: $4+1+0+1+4=10$. $S^2=\\frac{10}{5}=2$."
+      "explanation": "$\\overline{x}=3$. Tổng bình phương độ lệch: $4+1+0+1+4=10$. $S^2=\\frac{10}{5}=2$."
     },
     {
       "id": "mc-c5-084",
@@ -9102,7 +9102,7 @@
         "Mật độ tập trung của các giá trị ở chính giữa mẫu"
       ],
       "answer": 0,
-      "explanation": "Định nghĩa cơ bản: Khoảng biến thiên $R = x_{\\max} - x_{\\min}$ phản ánh khoảng cách giữa giá trị lớn nhất và nhỏ nhất."
+      "explanation": "Định nghĩa cơ bản: Khoảng biến thiên $R = x_{max} - x_{min}$ phản ánh khoảng cách giữa giá trị lớn nhất và nhỏ nhất."
     },
     {
       "id": "mc-c5-090",
@@ -9118,7 +9118,7 @@
         "42"
       ],
       "answer": 0,
-      "explanation": "Giá trị lớn nhất $x_{\\max} = 60$, nhỏ nhất $x_{\\min} = 42$. Khoảng biến thiên $R = 60 - 42 = 18$."
+      "explanation": "Giá trị lớn nhất $x_{max} = 60$, nhỏ nhất $x_{min} = 42$. Khoảng biến thiên $R = 60 - 42 = 18$."
     },
     {
       "id": "mc-c5-091",
@@ -9347,7 +9347,7 @@
     {
       "id": "mc-c5-105",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "nb",
       "dang": "Số gần đúng",
       "question": "Số $\\pi \\approx 3.14159265...$ được làm tròn tới hàng phần trăm là:",
@@ -9363,7 +9363,7 @@
     {
       "id": "mc-c5-106",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "th",
       "dang": "Số gần đúng",
       "question": "Một tấm gỗ đo được chiều dài $a = 125 \\pm 0.5$ (cm). Sai số tuyệt đối của phép đo này không vượt quá:",
@@ -9379,7 +9379,7 @@
     {
       "id": "mc-c5-107",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "th",
       "dang": "Số gần đúng",
       "question": "Sai số tương đối $\\delta_a$ trong phép đo $a = 125 \\pm 0.5$ (cm) xấp xỉ bằng:",
@@ -9395,7 +9395,7 @@
     {
       "id": "mc-c5-108",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "vd",
       "dang": "Số gần đúng",
       "question": "Đo bán kính $R = 10 \\pm 0.1$ m. Sai số tương đối của phép đo DIỆN TÍCH xấp xỉ là:",
@@ -9411,7 +9411,7 @@
     {
       "id": "mc-c5-109",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "nb",
       "dang": "Số quy tròn",
       "question": "Quy tròn số $a = 1234.567$ đến hàng phần mười được:",
@@ -9427,7 +9427,7 @@
     {
       "id": "mc-c5-110",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "th",
       "dang": "Số quy tròn",
       "question": "Số quy tròn của số gần đúng $174567 \\pm 200$ là:",
@@ -9443,7 +9443,7 @@
     {
       "id": "mc-c5-111",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "vd",
       "dang": "Số quy tròn",
       "question": "Biết $\\sqrt{2} \\approx 1.4142135$. Số gần đúng của $\\sqrt{2}$ với độ chính xác $d = 0.005$ là:",
@@ -9459,7 +9459,7 @@
     {
       "id": "mc-c5-112",
       "chapter": "c5",
-      "lesson": "b11",
+      "lesson": "b12",
       "level": "vd",
       "dang": "Số quy tròn",
       "question": "Chiều dài $l = 1500 \\pm 2$ m. Số chữ số chắc (đáng tin) của 1500 là:",

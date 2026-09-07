@@ -84,6 +84,20 @@ ok('math: nhiệt độ Celsius', math.mathHtml('30^\\circ C') === '30<sup>°</s
 ok('math: mũ 2 sau vectơ', math.mathHtml('\\vec{a}^2').includes('m-vec'), math.mathHtml('\\vec{a}^2'));
 ok('math: m/s^2', math.mathHtml('m/s^2') === 'm/s<sup>2</sup>');
 
+ok('math: bọc công thức $...$', math.mathHtml('$x + 1 = 0$') === '<span class="m-math">x + 1 = 0</span>', math.mathHtml('$x + 1 = 0$'));
+ok('math: khối $$...$$', math.mathHtml('$$y = ax + b$$') === '<span class="m-display">y = ax + b</span>', math.mathHtml('$$y = ax + b$$'));
+ok('math: thoát ký tự \\$', math.mathHtml('Giá \\$10') === 'Giá $10', math.mathHtml('Giá \\$10'));
+ok('math: phân số không ngoặc \\frac12', math.mathHtml('\\frac12').includes('m-frac'), math.mathHtml('\\frac12'));
+ok('math: căn không ngoặc \\sqrt3', math.mathHtml('\\sqrt3').includes('m-sqrt'), math.mathHtml('\\sqrt3'));
+ok('math: vectơ không ngoặc \\vec a', math.mathHtml('\\vec a') === '<span class="m-vec">a</span>', math.mathHtml('\\vec a'));
+ok('math: vectơ không \\vec0', math.mathHtml('\\vec0') === '<span class="m-vec">0</span>', math.mathHtml('\\vec0'));
+ok('math: gạch trên \\bar a', math.mathHtml('\\bar a') === '<span class="m-obar">a</span>', math.mathHtml('\\bar a'));
+ok('math: trung bình \\overline x', math.mathHtml('\\overline x') === '<span class="m-obar">x</span>', math.mathHtml('\\overline x'));
+ok('math: tập số \\mathbb{R}', math.mathHtml('\\mathbb{R}') === 'ℝ', math.mathHtml('\\mathbb{R}'));
+ok('math: tập số \\mathbb R', math.mathHtml('\\mathbb R') === 'ℝ', math.mathHtml('\\mathbb R'));
+ok('math: chỉ số tiếng Việt', math.mathHtml('\\overline{x}_{mới}') === '<span class="m-obar">x</span><sub>mới</sub>', math.mathHtml('\\overline{x}_{mới}'));
+
+
 // ---------------------------------------------------------------- grade.js
 const grade = await import('../assets/js/grade.js');
 ok('grade: chọn A (chỉ số 0) được tính là đã trả lời',
