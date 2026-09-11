@@ -3030,7 +3030,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán tối ưu với hệ bất phương trình",
-      "question": "Với cùng ràng buộc và $L=40x+30y$ ở câu trên, giá trị NHỎ NHẤT của $L$ trên miền nghiệm là:",
+      "question": "Một xưởng sản xuất $x$ sản phẩm A và $y$ sản phẩm B với $x\\ge0$, $y\\ge0$, $x+y\\le10$, $2x+y\\le16$. Với lợi nhuận $L=40x+30y$ (nghìn đồng), giá trị NHỎ NHẤT của $L$ trên miền nghiệm là:",
       "choices": [
         "0, đạt tại $(0;0)$",
         "320, đạt tại $(8;0)$",
@@ -3126,7 +3126,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: tối ưu sản xuất",
-      "question": "Nếu xưởng chỉ sản xuất bàn (không làm ghế), với cùng ràng buộc trên, số bàn tối đa có thể làm là:",
+      "question": "Một xưởng sản xuất $x$ bàn và $y$ ghế với ràng buộc $2x+y\\le40$ (giờ cắt gỗ), $x+3y\\le45$ (giờ lắp ráp), $x,y\\ge0$. Nếu xưởng chỉ sản xuất bàn (không làm ghế), số bàn tối đa có thể làm là:",
       "choices": [
         "20 bàn (giới hạn bởi giờ cắt gỗ)",
         "40 bàn",
@@ -3158,7 +3158,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: khẩu phần dinh dưỡng",
-      "question": "Khẩu phần $(x;y)=(2;2)$ có đáp ứng đủ yêu cầu dinh dưỡng ở trên không?",
+      "question": "Cần dùng $x$ phần thực phẩm A ($2$ đơn vị đạm, $3$ đơn vị vitamin mỗi phần) và $y$ phần thực phẩm B ($4$ đơn vị đạm, $2$ đơn vị vitamin mỗi phần) sao cho đạt ÍT NHẤT $8$ đơn vị đạm và $12$ đơn vị vitamin. Khẩu phần $(x;y)=(2;2)$ có đáp ứng đủ yêu cầu dinh dưỡng không?",
       "choices": [
         "Không, vì thiếu vitamin (chỉ đạt $10<12$ đơn vị)",
         "Có, vì đủ cả đạm lẫn vitamin",
@@ -3222,7 +3222,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: tối ưu diện tích canh tác",
-      "question": "Phương án $(x;y)=(2;5)$ (ha lúa; ha rau) có khả thi với ràng buộc trên không?",
+      "question": "Nông dân có tổng $8$ ha đất, trồng $x$ ha lúa và $y$ ha rau, với $x\\ge2$ và $y\\le5$ (do hệ thống tưới chỉ đủ cho $5$ ha rau). Phương án $(x;y)=(2;5)$ (ha lúa; ha rau) có khả thi không?",
       "choices": [
         "Khả thi, vì thoả mãn cả ba ràng buộc",
         "Không khả thi vì thiếu diện tích lúa tối thiểu",
@@ -3286,7 +3286,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: vận chuyển hàng hoá",
-      "question": "Phương án $(x;y)=(2;5)$ (2 xe nhỏ, 5 xe lớn) có khả thi với ràng buộc trên không?",
+      "question": "Dùng $x$ xe tải nhỏ (chở $3$ tấn/xe) và $y$ xe tải lớn (chở $8$ tấn/xe) để chở ít nhất $40$ tấn hàng; bãi đỗ chỉ chứa tối đa $10$ xe. Phương án $(x;y)=(2;5)$ (2 xe nhỏ, 5 xe lớn) có khả thi không?",
       "choices": [
         "Khả thi, chở được $46$ tấn với $7$ xe",
         "Không khả thi vì thiếu tải trọng",
@@ -3350,7 +3350,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: phân bổ đầu tư",
-      "question": "Phương án $(x;y)=(300;200)$ có khả thi với ràng buộc trên không?",
+      "question": "Nhà đầu tư có $500$ triệu đồng, chia vào quỹ A (lãi $8\\%$/năm) số tiền $x$ và quỹ B (lãi $12\\%$/năm, rủi ro cao hơn) số tiền $y$, biết quy định không đầu tư quá $200$ triệu vào quỹ B. Phương án $(x;y)=(300;200)$ có khả thi không?",
       "choices": [
         "Khả thi, thoả cả hai ràng buộc (đúng bằng cả hai giới hạn)",
         "Không khả thi vì vượt tổng vốn",
@@ -3414,7 +3414,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: pha trộn phân bón",
-      "question": "Phương án $(x;y)=(30;20)$ có khả thi với ràng buộc trên không?",
+      "question": "Trộn $x$ kg phân A ($20\\%$ đạm) và $y$ kg phân B ($30\\%$ đạm) để có ít nhất $12$ kg đạm nguyên chất, tổng khối lượng không quá $50$ kg. Phương án $(x;y)=(30;20)$ có khả thi không?",
       "choices": [
         "Khả thi, đạt đúng $12$ kg đạm với đúng $50$ kg hỗn hợp",
         "Không khả thi vì thiếu đạm",
@@ -3478,7 +3478,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: bán vé tối ưu doanh thu",
-      "question": "Phương án $(x;y)=(150;50)$ có khả thi với ràng buộc trên không?",
+      "question": "Rạp chiếu phim bán $x$ vé thường ($80$ nghìn đồng) và $y$ vé VIP ($150$ nghìn đồng). Rạp có $200$ ghế, số vé VIP không quá $50$. Phương án $(x;y)=(150;50)$ có khả thi không?",
       "choices": [
         "Khả thi, đúng bằng cả hai giới hạn",
         "Không khả thi vì vượt tổng số ghế",
@@ -3542,7 +3542,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: thuê nhân công",
-      "question": "Phương án $(x;y)=(3;4)$ (3 full-time, 4 part-time) có khả thi với ràng buộc trên không?",
+      "question": "Công ty cần ít nhất $40$ giờ công/ngày, thuê $x$ nhân viên full-time ($8$ giờ/ngày) và $y$ nhân viên part-time ($4$ giờ/ngày), tổng số nhân viên không quá $8$ người. Phương án $(x;y)=(3;4)$ (3 full-time, 4 part-time) có khả thi không?",
       "choices": [
         "Khả thi, đủ đúng $40$ giờ công với $7$ nhân viên",
         "Không khả thi vì thiếu giờ công",
@@ -3606,7 +3606,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: sản xuất bánh",
-      "question": "Phương án $(x;y)=(15;20)$ có khả thi với ràng buộc trên không?",
+      "question": "Tiệm bánh làm $x$ bánh ngọt ($200$g bột, $100$g đường/cái) và $y$ bánh mặn ($150$g bột, $50$g đường/cái), có $6.000$g bột và $2.500$g đường. Phương án $(x;y)=(15;20)$ có khả thi không?",
       "choices": [
         "Khả thi, đúng bằng cả hai giới hạn nguyên liệu",
         "Không khả thi vì thiếu bột",
@@ -3670,7 +3670,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: vận tải hành khách",
-      "question": "Phương án $(x;y)=(2;6)$ (2 xe nhỏ, 6 xe lớn) có khả thi với ràng buộc trên không?",
+      "question": "Công ty vận tải cần chở ít nhất $300$ khách bằng $x$ xe $16$ chỗ và $y$ xe $45$ chỗ, tổng số xe không quá $10$. Phương án $(x;y)=(2;6)$ (2 xe nhỏ, 6 xe lớn) có khả thi không?",
       "choices": [
         "Khả thi, chở được $302$ khách với $8$ xe",
         "Không khả thi vì thiếu chỗ ngồi",
@@ -3734,7 +3734,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: tối ưu quảng cáo",
-      "question": "Phương án $(x;y)=(8;10)$ có khả thi với ràng buộc trên không?",
+      "question": "Công ty có $60$ triệu đồng để quảng cáo trên TV ($x$ lần, $5$ triệu đồng/lần) và mạng xã hội ($y$ lần, $2$ triệu đồng/lần), số lần trên TV không quá $8$. Phương án $(x;y)=(8;10)$ có khả thi không?",
       "choices": [
         "Khả thi, đúng bằng cả hai giới hạn",
         "Không khả thi vì vượt ngân sách",
@@ -3766,7 +3766,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: tối ưu quảng cáo",
-      "question": "Nếu chỉ quảng cáo trên mạng xã hội (không dùng TV), số lần tối đa có thể thực hiện với ngân sách trên là:",
+      "question": "Với ngân sách $60$ triệu đồng cho quảng cáo TV ($5$ triệu đồng/lần) và mạng xã hội ($2$ triệu đồng/lần), nếu chỉ quảng cáo trên mạng xã hội (không dùng TV), số lần tối đa có thể thực hiện là:",
       "choices": [
         "30 lần",
         "60 lần",
@@ -3798,7 +3798,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: pha chế đồ uống",
-      "question": "Phương án $(x;y)=(30;20)$ có khả thi với ràng buộc trên không?",
+      "question": "Quán pha chế $x$ ly loại A và $y$ ly loại B mỗi ngày, tổng số ly không quá $50$; do loại A tốn nước gấp đôi nên có thêm ràng buộc $2x+y\\le80$. Phương án $(x;y)=(30;20)$ có khả thi không?",
       "choices": [
         "Khả thi, đúng bằng cả hai giới hạn",
         "Không khả thi vì vượt tổng số ly",
@@ -3830,7 +3830,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: pha chế đồ uống",
-      "question": "Nếu chỉ pha loại A (không pha loại B), số ly tối đa có thể pha là bao nhiêu?",
+      "question": "Quán pha chế $x$ ly loại A và $y$ ly loại B mỗi ngày với ràng buộc $x+y\\le50$ (năng lực pha chế) và $2x+y\\le80$ (do loại A tốn nước gấp đôi). Nếu chỉ pha loại A (không pha loại B), số ly tối đa có thể pha là bao nhiêu?",
       "choices": [
         "40 ly (giới hạn bởi ràng buộc nước)",
         "50 ly (giới hạn bởi năng lực pha chế)",
@@ -5622,7 +5622,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Toán thực tế: diện tích và giá trị đất",
-      "question": "Với cùng miếng đất trên, tính đường cao ứng với cạnh dài nhất ($30$m).",
+      "question": "Một miếng đất tam giác có ba cạnh $26$m, $28$m, $30$m (diện tích $S=336$m²). Tính đường cao ứng với cạnh dài nhất ($30$m).",
       "choices": [
         "22,4 m",
         "11,2 m",
@@ -6518,7 +6518,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Biểu diễn vectơ tổng hợp",
-      "question": "Với $\\vec{u}, \\vec{v}$ như câu trên, tính $\\vec{u}-\\vec{v}$ theo $\\vec{a},\\vec{b}$.",
+      "question": "Cho $\\vec{u}=\\vec{a}+2\\vec{b}$ và $\\vec{v}=3\\vec{a}-\\vec{b}$ (với $\\vec{a},\\vec{b}$ không cùng phương). Tính $\\vec{u}-\\vec{v}$ theo $\\vec{a},\\vec{b}$.",
       "choices": [
         "$-2\\vec{a}+3\\vec{b}$",
         "$2\\vec{a}-3\\vec{b}$",
@@ -7974,7 +7974,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Số trung bình — dữ liệu lệch, ngoại lệ",
-      "question": "Với dữ liệu bị lệch (có giá trị ngoại lệ) như lương công ty ở câu trên, số đặc trưng nào nên dùng thay số trung bình để mô tả xu thế trung tâm?",
+      "question": "Với dữ liệu bị lệch (có giá trị ngoại lệ) như lương công ty $8;9;10;10;200$ (triệu đồng), số đặc trưng nào nên dùng thay số trung bình để mô tả xu thế trung tâm?",
       "choices": [
         "Trung vị (không bị ảnh hưởng bởi giá trị ngoại lệ)",
         "Vẫn dùng số trung bình như bình thường",

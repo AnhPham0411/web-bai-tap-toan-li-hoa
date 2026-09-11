@@ -574,7 +574,7 @@
         "$2n+2$"
       ],
       "answer": 0,
-      "explanation": "Lớp thứ n có n phân lớp, tổng số AO là $n^2$. Mỗi AO chứa tối đa 2e. Tổng số e tối đa của lớp n là $2n^2$. Ví dụ lớp 3 (n=3) chứa tối đa $2 \times 3^2 = 18$ e."
+      "explanation": "Lớp thứ n có n phân lớp, tổng số AO là $n^2$. Mỗi AO chứa tối đa 2e. Tổng số e tối đa của lớp n là $2n^2$. Ví dụ lớp 3 (n=3) chứa tối đa $2 \\times 3^2 = 18$ e."
     },
     {
       "id": "mc-c1-037",
@@ -1406,7 +1406,7 @@
         "Carbon (C = 12)"
       ],
       "answer": 0,
-      "explanation": "Công thức với H là $RH_3 \\Rightarrow$ R có hóa trị III với H $\\Rightarrow$ R thuộc nhóm VA (8-3=5). Oxit cao nhất là $R_2O_5$. %O $= \frac{16 \\times 5}{2R + 16 \\times 5} \times 100 = 74,07\\%$. Giải ra: $80 / (2R + 80) = 0,7407 \\Rightarrow 80 = 1,4814 R + 59,256 \\Rightarrow 1,4814 R = 20,744 \\Rightarrow R \u0007pprox 14$. Đó là Nitrogen (N)."
+      "explanation": "Công thức với H là $RH_3 \\Rightarrow$ R có hóa trị III với H $\\Rightarrow$ R thuộc nhóm VA (8-3=5). Oxit cao nhất là $R_2O_5$. %O $= \\frac{16 \\times 5}{2R + 16 \\times 5} \\times 100 = 74,07\\%$. Giải ra: $80 / (2R + 80) = 0,7407 \\Rightarrow 80 = 1,4814 R + 59,256 \\Rightarrow 1,4814 R = 20,744 \\Rightarrow R \\approx 14$. Đó là Nitrogen (N)."
     },
     {
       "id": "mc-c1-089",
@@ -1470,7 +1470,7 @@
         "Carbon (C=12)"
       ],
       "answer": 0,
-      "explanation": "Oxit cao nhất $RO_3 \\Rightarrow$ Hóa trị cao nhất với O là VI $\\Rightarrow$ Thuộc nhóm VIA. Hợp chất khí với H là $RH_2$ (hoặc $H_2R$). %R $= \frac{R}{R + 2} \times 100 = 94,12\\% \\Rightarrow \frac{R}{R+2} = 0,9412 \\Rightarrow R = 0,9412 R + 1,8824 \\Rightarrow 0,0588 R = 1,8824 \\Rightarrow R = 32$. Lưu huỳnh (S)."
+      "explanation": "Oxit cao nhất $RO_3 \\Rightarrow$ Hóa trị cao nhất với O là VI $\\Rightarrow$ Thuộc nhóm VIA. Hợp chất khí với H là $RH_2$ (hoặc $H_2R$). %R $= \\frac{R}{R + 2} \\times 100 = 94,12\\% \\Rightarrow \\frac{R}{R+2} = 0,9412 \\Rightarrow R = 0,9412 R + 1,8824 \\Rightarrow 0,0588 R = 1,8824 \\Rightarrow R = 32$. Lưu huỳnh (S)."
     },
     {
       "id": "mc-c1-093",
@@ -1502,7 +1502,7 @@
         "$6,022\\cdot 10^{23}$ nguyên tử"
       ],
       "answer": 0,
-      "explanation": "Trong 1 mol H2O có 2 mol nguyên tử H. Số lượng nguyên tử H tổng cộng là $2 \times N_A = 12,044\\cdot 10^{23}$. Số nguyên tử $^2H$ (chiếm 1%) = $0.01 \times 12,044\\cdot 10^{23} = 0,12044\\cdot 10^{23} = 1,2044\\cdot 10^{22}$ nguyên tử."
+      "explanation": "Trong 1 mol H2O có 2 mol nguyên tử H. Số lượng nguyên tử H tổng cộng là $2 \\times N_A = 12,044\\cdot 10^{23}$. Số nguyên tử $^2H$ (chiếm 1%) = $0.01 \\times 12,044\\cdot 10^{23} = 0,12044\\cdot 10^{23} = 1,2044\\cdot 10^{22}$ nguyên tử."
     },
     {
       "id": "mc-c1-095",
@@ -1598,7 +1598,7 @@
         "$8\\cdot 10^{-24}\\text{ g}$"
       ],
       "answer": 0,
-      "explanation": "Khối lượng nguyên tử $\\approx$ Số khối A $\times 1$ amu. $16 \\times 1,6605\\cdot 10^{-24} = 26,568\\cdot 10^{-24}\\text{ g}$."
+      "explanation": "Khối lượng nguyên tử $\\approx$ Số khối A $\\times 1$ amu. $16 \\times 1,6605\\cdot 10^{-24} = 26,568\\cdot 10^{-24}\\text{ g}$."
     },
     {
       "id": "mc-c1-101",
@@ -1646,7 +1646,7 @@
         "15"
       ],
       "answer": 0,
-      "explanation": "Gọi x là % $^{15}N$. $15x + 14(100-x) = 1400.67 \\Rightarrow x = 0.67\\%$. Trong 10,000 nguyên tử thì số hạt $^{15}N$ = $10000 \times 0.67 / 100 = 67$ nguyên tử."
+      "explanation": "Gọi x là % $^{15}N$. $15x + 14(100-x) = 1400.67 \\Rightarrow x = 0.67\\%$. Trong 10,000 nguyên tử thì số hạt $^{15}N$ = $10000 \\times 0.67 / 100 = 67$ nguyên tử."
     },
     {
       "id": "mc-c1-104",
@@ -1742,7 +1742,7 @@
         "Rb (85)"
       ],
       "answer": 0,
-      "explanation": "Phương trình: $2M + 2H_2O \\rightarrow 2MOH + H_2$. Số mol $H_2 = 2,479 / 24,79 = 0,1\\text{ mol}$. Số mol M = $2 \times 0,1 = 0,2\\text{ mol}$. Phân tử khối $M = m / n = 4,6 / 0,2 = 23$. Kim loại Natri (Na)."
+      "explanation": "Phương trình: $2M + 2H_2O \\rightarrow 2MOH + H_2$. Số mol $H_2 = 2,479 / 24,79 = 0,1\\text{ mol}$. Số mol M = $2 \\times 0,1 = 0,2\\text{ mol}$. Phân tử khối $M = m / n = 4,6 / 0,2 = 23$. Kim loại Natri (Na)."
     },
     {
       "id": "mc-c1-110",
@@ -1902,7 +1902,7 @@
         "29 C"
       ],
       "answer": 0,
-      "explanation": "Điện tích hạt nhân $= Z \\cdot (+e) = 29 \times 1,602\\cdot 10^{-19} = 46,458\\cdot 10^{-19} = +4,646\\cdot 10^{-18}\\text{ C}$."
+      "explanation": "Điện tích hạt nhân $= Z \\cdot (+e) = 29 \\times 1,602\\cdot 10^{-19} = 46,458\\cdot 10^{-19} = +4,646\\cdot 10^{-18}\\text{ C}$."
     },
     {
       "id": "mc-c1-120",
@@ -2942,7 +2942,7 @@
         "+864 kJ"
       ],
       "answer": 0,
-      "explanation": "Tổng NL cần phá vỡ: $E(H-H) + E(Cl-Cl) = 436 + 242 = 678\\text{ kJ/mol}$. NL tỏa ra khi tạo 2 mol HCl: $2 \times E(H-Cl) = 2 \times 432 = 864\\text{ kJ/mol}$. $\\Delta H = \\text{Thu} - \\text{Tỏa} = 678 - 864 = -186\\text{ kJ}$."
+      "explanation": "Tổng NL cần phá vỡ: $E(H-H) + E(Cl-Cl) = 436 + 242 = 678\\text{ kJ/mol}$. NL tỏa ra khi tạo 2 mol HCl: $2 \\times E(H-Cl) = 2 \\times 432 = 864\\text{ kJ/mol}$. $\\Delta H = \\text{Thu} - \\text{Tỏa} = 678 - 864 = -186\\text{ kJ}$."
     },
     {
       "id": "mc-c2-065",
@@ -4126,7 +4126,7 @@
         "2, 1, 1"
       ],
       "answer": 0,
-      "explanation": "Nhường: $Al \\rightarrow Al^{3+} + 3e$. Nhận: $O_2 + 4e \\rightarrow 2O^{2-}$. Bội chung nhỏ nhất của 3 và 4 là 12. Nhân chéo: $4 \times (Al)$ và $3 \times (O_2)$. Phương trình: $4Al + 3O_2 \\rightarrow 2Al_2O_3$."
+      "explanation": "Nhường: $Al \\rightarrow Al^{3+} + 3e$. Nhận: $O_2 + 4e \\rightarrow 2O^{2-}$. Bội chung nhỏ nhất của 3 và 4 là 12. Nhân chéo: $4 \\times (Al)$ và $3 \\times (O_2)$. Phương trình: $4Al + 3O_2 \\rightarrow 2Al_2O_3$."
     },
     {
       "id": "mc-c3-019",
@@ -4142,7 +4142,7 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "Nhường: $Cu \\rightarrow Cu^{+2} + 2e$. Nhận: $N^{+5} + 3e \\rightarrow N^{+2}$ (trong NO). Bội chung của 2 và 3 là 6. Hệ số: 3 Cu và 2 NO. Phương trình: $3Cu + x HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO + H_2O$. Bảo toàn N: vế phải có $3 \times 2 + 2 = 8$ Nitơ. Vậy hệ số $HNO_3$ là 8. (Và 4 $H_2O$)."
+      "explanation": "Nhường: $Cu \\rightarrow Cu^{+2} + 2e$. Nhận: $N^{+5} + 3e \\rightarrow N^{+2}$ (trong NO). Bội chung của 2 và 3 là 6. Hệ số: 3 Cu và 2 NO. Phương trình: $3Cu + x HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO + H_2O$. Bảo toàn N: vế phải có $3 \\times 2 + 2 = 8$ Nitơ. Vậy hệ số $HNO_3$ là 8. (Và 4 $H_2O$)."
     },
     {
       "id": "mc-c3-020",
@@ -4174,7 +4174,7 @@
         "14"
       ],
       "answer": 0,
-      "explanation": "Trong $Fe_3O_4$, coi trung bình Fe là $+8/3$. Nhường: $3Fe^{+8/3} \\rightarrow 3Fe^{+3} + 1e$. Nhận: $N^{+5} + 1e \\rightarrow N^{+4}$ (NO2). Hệ số 1 $Fe_3O_4$ và 1 $NO_2$. PT: $1 Fe_3O_4 + 10 HNO_3 \\rightarrow 3 Fe(NO_3)_3 + 1 NO_2 + 5 H_2O$. Bảo toàn N: $3 \times 3 + 1 = 10$. Hệ số HNO3 là 10."
+      "explanation": "Trong $Fe_3O_4$, coi trung bình Fe là $+8/3$. Nhường: $3Fe^{+8/3} \\rightarrow 3Fe^{+3} + 1e$. Nhận: $N^{+5} + 1e \\rightarrow N^{+4}$ (NO2). Hệ số 1 $Fe_3O_4$ và 1 $NO_2$. PT: $1 Fe_3O_4 + 10 HNO_3 \\rightarrow 3 Fe(NO_3)_3 + 1 NO_2 + 5 H_2O$. Bảo toàn N: $3 \\times 3 + 1 = 10$. Hệ số HNO3 là 10."
     },
     {
       "id": "mc-c3-022",
@@ -4222,7 +4222,7 @@
         "Chỉ 1 nửa"
       ],
       "answer": 0,
-      "explanation": "Mn(+7) + 5e $\\rightarrow$ Mn(+2). 2Cl(-1) $\\rightarrow$ Cl2(0) + 2e. Hệ số: 2 KMnO4 và 5 Cl2. PT: $2KMnO_4 + 16HCl \\rightarrow 2KCl + 2MnCl_2 + 5Cl_2 + 8H_2O$. Tổng 16 phân tử HCl tham gia, nhưng chỉ có $5 \times 2 = 10$ phân tử HCl (tạo 5 Cl2) là đóng vai trò chất khử. Tỉ lệ: 10/16 (hoặc 5/8). 6 HCl còn lại tạo muối KCl, MnCl2 đóng vai trò môi trường."
+      "explanation": "Mn(+7) + 5e $\\rightarrow$ Mn(+2). 2Cl(-1) $\\rightarrow$ Cl2(0) + 2e. Hệ số: 2 KMnO4 và 5 Cl2. PT: $2KMnO_4 + 16HCl \\rightarrow 2KCl + 2MnCl_2 + 5Cl_2 + 8H_2O$. Tổng 16 phân tử HCl tham gia, nhưng chỉ có $5 \\times 2 = 10$ phân tử HCl (tạo 5 Cl2) là đóng vai trò chất khử. Tỉ lệ: 10/16 (hoặc 5/8). 6 HCl còn lại tạo muối KCl, MnCl2 đóng vai trò môi trường."
     },
     {
       "id": "mc-c3-025",
@@ -4238,7 +4238,7 @@
         "11,2 gam"
       ],
       "answer": 0,
-      "explanation": "$n_{H_2} = 3,7185 / 24,79 = 0,15$ mol. Fe tác dụng acid loãng tạo $Fe^{2+}$ và $H_2$. Bảo toàn electron: $n_{Fe} \times 2 = n_{H_2} \times 2 \\Rightarrow n_{Fe} = 0,15$ mol. Khối lượng m = $0,15 \times 56 = 8,4$ gam."
+      "explanation": "$n_{H_2} = 3,7185 / 24,79 = 0,15$ mol. Fe tác dụng acid loãng tạo $Fe^{2+}$ và $H_2$. Bảo toàn electron: $n_{Fe} \\times 2 = n_{H_2} \\times 2 \\Rightarrow n_{Fe} = 0,15$ mol. Khối lượng m = $0,15 \\times 56 = 8,4$ gam."
     },
     {
       "id": "mc-c3-026",
@@ -4254,7 +4254,7 @@
         "1,2395 lít"
       ],
       "answer": 0,
-      "explanation": "$n_{Al} = 2,7 / 27 = 0,1$ mol. Al nhường 3e $\\Rightarrow n_e$ nhường = 0,3 mol. NO là sản phẩm khử: $N^{+5} + 3e \\rightarrow N^{+2}$. $n_{NO} = n_e / 3 = 0,3 / 3 = 0,1$ mol. Thể tích $V = 0,1 \times 24,79 = 2,479$ lít."
+      "explanation": "$n_{Al} = 2,7 / 27 = 0,1$ mol. Al nhường 3e $\\Rightarrow n_e$ nhường = 0,3 mol. NO là sản phẩm khử: $N^{+5} + 3e \\rightarrow N^{+2}$. $n_{NO} = n_e / 3 = 0,3 / 3 = 0,1$ mol. Thể tích $V = 0,1 \\times 24,79 = 2,479$ lít."
     },
     {
       "id": "mc-c3-027",
@@ -4286,7 +4286,7 @@
         "14,25 gam"
       ],
       "answer": 0,
-      "explanation": "$n_{Mg} = 2,4 / 24 = 0,1$ mol. $Mg \\rightarrow MgO \\rightarrow MgCl_2$. Bảo toàn nguyên tố Mg: $n_{MgCl_2} = n_{Mg} = 0,1$ mol. Khối lượng muối = $0,1 \times (24 + 71) = 9,5$ gam."
+      "explanation": "$n_{Mg} = 2,4 / 24 = 0,1$ mol. $Mg \\rightarrow MgO \\rightarrow MgCl_2$. Bảo toàn nguyên tố Mg: $n_{MgCl_2} = n_{Mg} = 0,1$ mol. Khối lượng muối = $0,1 \\times (24 + 71) = 9,5$ gam."
     },
     {
       "id": "mc-c3-029",
@@ -4462,7 +4462,7 @@
         "7,62 gam"
       ],
       "answer": 0,
-      "explanation": "Mol $Cl_2 = 1,2395 / 24,79 = 0,05$ mol. Mol $NaI = 15 / 150 = 0,1$ mol. Phản ứng: $Cl_2 + 2NaI \\rightarrow 2NaCl + I_2$. Tỉ lệ $1:2 \\Rightarrow$ Phản ứng vừa đủ. $n_{I_2} = n_{Cl_2} = 0,05$ mol. Khối lượng $I_2 = 0,05 \times (127 \times 2) = 12,7$ gam."
+      "explanation": "Mol $Cl_2 = 1,2395 / 24,79 = 0,05$ mol. Mol $NaI = 15 / 150 = 0,1$ mol. Phản ứng: $Cl_2 + 2NaI \\rightarrow 2NaCl + I_2$. Tỉ lệ $1:2 \\Rightarrow$ Phản ứng vừa đủ. $n_{I_2} = n_{Cl_2} = 0,05$ mol. Khối lượng $I_2 = 0,05 \\times (127 \\times 2) = 12,7$ gam."
     },
     {
       "id": "mc-c3-040",
@@ -4478,7 +4478,7 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "$Fe^{+2} \\rightarrow Fe^{+3} + 1e$. (Vì sản phẩm là $Fe_2(SO_4)_3$ nên viết $2Fe^{+2} \\rightarrow 2Fe^{+3} + 2e$). $Mn^{+7} + 5e \\rightarrow Mn^{+2}$. Nhân chéo: $5 \times (2Fe)$ và $2 \times (Mn)$. Tức là 10 $FeSO_4$ và 2 $KMnO_4$. Sản phẩm: 5 $Fe_2(SO_4)_3$ + 2 $MnSO_4$ + 1 $K_2SO_4$. Tổng gốc $SO_4$ vế phải = $5 \times 3 + 2 \times 1 + 1 \times 1 = 18$ gốc. Trừ đi 10 gốc ở FeSO4 bên trái, còn lại 8 gốc $SO_4$ phải do $H_2SO_4$ cung cấp. Vậy hệ số $H_2SO_4$ là 8."
+      "explanation": "$Fe^{+2} \\rightarrow Fe^{+3} + 1e$. (Vì sản phẩm là $Fe_2(SO_4)_3$ nên viết $2Fe^{+2} \\rightarrow 2Fe^{+3} + 2e$). $Mn^{+7} + 5e \\rightarrow Mn^{+2}$. Nhân chéo: $5 \\times (2Fe)$ và $2 \\times (Mn)$. Tức là 10 $FeSO_4$ và 2 $KMnO_4$. Sản phẩm: 5 $Fe_2(SO_4)_3$ + 2 $MnSO_4$ + 1 $K_2SO_4$. Tổng gốc $SO_4$ vế phải = $5 \\times 3 + 2 \\times 1 + 1 \\times 1 = 18$ gốc. Trừ đi 10 gốc ở FeSO4 bên trái, còn lại 8 gốc $SO_4$ phải do $H_2SO_4$ cung cấp. Vậy hệ số $H_2SO_4$ là 8."
     },
     {
       "id": "mc-c3-041",
@@ -4510,7 +4510,7 @@
         "0,15 mol"
       ],
       "answer": 0,
-      "explanation": "Tổng e nhường: $n_e = 0,1 \times 2 (Mg) + 0,1 \times 3 (Al) = 0,5$ mol. Quá trình nhận e: $N^{+5} + 3e \\rightarrow N^{+2} (NO)$. Bảo toàn e: $3 \\cdot n_{NO} = 0,5 \\Rightarrow n_{NO} = 0,5 / 3 \u0007pprox 0,167$ mol."
+      "explanation": "Tổng e nhường: $n_e = 0,1 \\times 2 (Mg) + 0,1 \\times 3 (Al) = 0,5$ mol. Quá trình nhận e: $N^{+5} + 3e \\rightarrow N^{+2} (NO)$. Bảo toàn e: $3 \\cdot n_{NO} = 0,5 \\Rightarrow n_{NO} = 0,5 / 3 \\approx 0,167$ mol."
     },
     {
       "id": "mc-c3-043",
@@ -4526,7 +4526,7 @@
         "17 : 60"
       ],
       "answer": 0,
-      "explanation": "Hỗn hợp khí tỉ lệ 1:3 $\\Rightarrow$ Coi hỗn hợp có $1 N_2O$ (nhận 8e) và $3 NO$ (mỗi NO nhận 3e, tổng 9e). Tổng e nhận là $8 + 9 = 17e$. Nhường: $Al \\rightarrow Al^{3+} + 3e$. Nhân chéo: 17 Al và 3(Cụm khí). Cụm khí gồm $3 N_2O$ và $9 NO$. Phương trình: $17 Al + x HNO_3 \\rightarrow 17 Al(NO_3)_3 + 3 N_2O + 9 NO + y H_2O$. Bảo toàn N: $N = 17 \times 3 + 3 \times 2 + 9 \times 1 = 51 + 6 + 9 = 66$. Tỉ lệ $Al : HNO_3 = 17 : 66$."
+      "explanation": "Hỗn hợp khí tỉ lệ 1:3 $\\Rightarrow$ Coi hỗn hợp có $1 N_2O$ (nhận 8e) và $3 NO$ (mỗi NO nhận 3e, tổng 9e). Tổng e nhận là $8 + 9 = 17e$. Nhường: $Al \\rightarrow Al^{3+} + 3e$. Nhân chéo: 17 Al và 3(Cụm khí). Cụm khí gồm $3 N_2O$ và $9 NO$. Phương trình: $17 Al + x HNO_3 \\rightarrow 17 Al(NO_3)_3 + 3 N_2O + 9 NO + y H_2O$. Bảo toàn N: $N = 17 \\times 3 + 3 \\times 2 + 9 \\times 1 = 51 + 6 + 9 = 66$. Tỉ lệ $Al : HNO_3 = 17 : 66$."
     },
     {
       "id": "mc-c3-044",
@@ -4734,7 +4734,7 @@
         "16,0 gam"
       ],
       "answer": 0,
-      "explanation": "Mol Cu = 6,4 / 64 = 0,1 mol. Bảo toàn nguyên tố Cu (Cu chuyển hết thành muối): $n_{Cu(NO_3)_2} = 0,1$ mol. Phân tử khối của $Cu(NO_3)_2 = 64 + (14 + 16 \times 3) \times 2 = 64 + 124 = 188$. Khối lượng = $0,1 \times 188 = 18,8$ gam."
+      "explanation": "Mol Cu = 6,4 / 64 = 0,1 mol. Bảo toàn nguyên tố Cu (Cu chuyển hết thành muối): $n_{Cu(NO_3)_2} = 0,1$ mol. Phân tử khối của $Cu(NO_3)_2 = 64 + (14 + 16 \\times 3) \\times 2 = 64 + 124 = 188$. Khối lượng = $0,1 \\times 188 = 18,8$ gam."
     },
     {
       "id": "mc-c3-057",
@@ -6254,7 +6254,7 @@
         "$\\sim 2500 \\text{ lít}$"
       ],
       "answer": 0,
-      "explanation": "Nhiệt lượng HỮU ÍCH cung cấp cho nước là $Q_{ich} = 594000 \\times 60\\% = 356400 \\text{ kJ}$. Số lít nước đun được $= 356400 / 315 \u0007pprox 1131,4$ lít (Hơn 1 mét khối nước)."
+      "explanation": "Nhiệt lượng HỮU ÍCH cung cấp cho nước là $Q_{ich} = 594000 \\times 60\\% = 356400 \\text{ kJ}$. Số lít nước đun được $= 356400 / 315 \\approx 1131,4$ lít (Hơn 1 mét khối nước)."
     },
     {
       "id": "mc-c4-032",

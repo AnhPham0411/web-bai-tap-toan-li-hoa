@@ -830,7 +830,7 @@
         "100 km/h"
       ],
       "answer": 0,
-      "explanation": "Bẫy kinh điển: Không được cộng lại chia đôi ($50$). Thời gian đi nửa đầu $t_1 = (S/2)/40$. Nửa sau $t_2 = (S/2)/60$. $v_{\\text{tb}} = S / (t_1 + t_2) = 1 / (1/80 + 1/120) = 48\\text{ km/h}."
+      "explanation": "Bẫy kinh điển: Không được cộng lại chia đôi ($50$). Thời gian đi nửa đầu $t_1 = (S/2)/40$. Nửa sau $t_2 = (S/2)/60$. $v_{\\text{tb}} = S / (t_1 + t_2) = 1 / (1/80 + 1/120) = 48\\text{ km/h}$."
     },
     {
       "id": "mc-c1-053",
@@ -878,7 +878,7 @@
         "100 km/h"
       ],
       "answer": 0,
-      "explanation": "Khác với bài 'nửa quãng đường'. Ở đây là 'nửa thời gian'. $S_1 = 60 \\cdot (t/2)$, $S_2 = 40 \\cdot (t/2)$. $v_{\\text{tb}} = (S_1 + S_2)/t = (60+40)/2 = 50\\text{ km/h}."
+      "explanation": "Khác với bài 'nửa quãng đường'. Ở đây là 'nửa thời gian'. $S_1 = 60 \\cdot (t/2)$, $S_2 = 40 \\cdot (t/2)$. $v_{\\text{tb}} = (S_1 + S_2)/t = (60+40)/2 = 50\\text{ km/h}$."
     },
     {
       "id": "mc-c1-056",
@@ -1182,7 +1182,7 @@
         "4 m"
       ],
       "answer": 0,
-      "explanation": "Dùng công thức $s = v_0t + \\frac{1}{2}at^2 = 0 + 0.5 \\cdot 2 \\cdot 4^2 = 16\\text{ m}."
+      "explanation": "Dùng công thức $s = v_0t + \\frac{1}{2}at^2 = 0 + 0.5 \\cdot 2 \\cdot 4^2 = 16\\text{ m}$."
     },
     {
       "id": "mc-c1-075",
@@ -1198,7 +1198,7 @@
         "10 m"
       ],
       "answer": 0,
-      "explanation": "Dùng $v^2 - v_0^2 = 2as \\Rightarrow 7^2 - 5^2 = 2 \\cdot 1 \\cdot s \\Rightarrow 49 - 25 = 2s \\Rightarrow 24 = 2s \\Rightarrow s = 12\\text{ m}."
+      "explanation": "Dùng $v^2 - v_0^2 = 2as \\Rightarrow 7^2 - 5^2 = 2 \\cdot 1 \\cdot s \\Rightarrow 49 - 25 = 2s \\Rightarrow 24 = 2s \\Rightarrow s = 12\\text{ m}$."
     },
     {
       "id": "mc-c1-076",
@@ -1294,7 +1294,7 @@
         "20 s"
       ],
       "answer": 0,
-      "explanation": "$h = \\frac{1}{2}gt^2 \\Rightarrow 20 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\Rightarrow 5t^2 = 20 \\Rightarrow t^2 = 4 \\Rightarrow t = 2\\text{ s}."
+      "explanation": "$h = \\frac{1}{2}gt^2 \\Rightarrow 20 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\Rightarrow 5t^2 = 20 \\Rightarrow t^2 = 4 \\Rightarrow t = 2\\text{ s}$."
     },
     {
       "id": "mc-c1-082",
@@ -1310,7 +1310,7 @@
         "30 s"
       ],
       "answer": 0,
-      "explanation": "$v = gt \\Rightarrow 30 = 10t \\Rightarrow t = 3\\text{ s}."
+      "explanation": "$v = gt \\Rightarrow 30 = 10t \\Rightarrow t = 3\\text{ s}$."
     },
     {
       "id": "mc-c1-083",
@@ -1326,7 +1326,7 @@
         "15 m"
       ],
       "answer": 0,
-      "explanation": "Quãng đường rơi sau 3s: $h_3 = 0.5 \\cdot 10 \\cdot 3^2 = 45\\text{ m}$. Quãng đường rơi sau 2s: $h_2 = 0.5 \\cdot 10 \\cdot 2^2 = 20\\text{ m}$. Quãng đường rơi TRONG giây thứ 3 = $h_3 - h_2 = 45 - 20 = 25\\text{ m}."
+      "explanation": "Quãng đường rơi sau 3s: $h_3 = 0.5 \\cdot 10 \\cdot 3^2 = 45\\text{ m}$. Quãng đường rơi sau 2s: $h_2 = 0.5 \\cdot 10 \\cdot 2^2 = 20\\text{ m}$. Quãng đường rơi TRONG giây thứ 3 = $h_3 - h_2 = 45 - 20 = 25\\text{ m}$."
     },
     {
       "id": "mc-c1-084",
@@ -1422,7 +1422,7 @@
         "20 m"
       ],
       "answer": 0,
-      "explanation": "Thời gian rơi $t = \\sqrt{2h/g} = \\sqrt{2\\cdot 5/10} = 1\\text{s}$. Tầm xa $L = v_0t = 10 \\cdot 1 = 10\\text{ m}."
+      "explanation": "Thời gian rơi $t = \\sqrt{2h/g} = \\sqrt{2\\cdot 5/10} = 1\\text{s}$. Tầm xa $L = v_0t = 10 \\cdot 1 = 10\\text{ m}$."
     },
     {
       "id": "mc-c1-090",
@@ -1438,7 +1438,7 @@
         "50 m/s"
       ],
       "answer": 0,
-      "explanation": "Thời gian rơi $t = \\sqrt{2 \\cdot 1,25 / 10} = \\sqrt{0,25} = 0,5\\text{s}$. Tầm xa $L = 200\\text{m} = v_0 \\cdot 0,5 \\Rightarrow v_0 = 400\\text{ m/s}."
+      "explanation": "Thời gian rơi $t = \\sqrt{2 \\cdot 1,25 / 10} = \\sqrt{0,25} = 0,5\\text{s}$. Tầm xa $L = 200\\text{m} = v_0 \\cdot 0,5 \\Rightarrow v_0 = 400\\text{ m/s}$."
     },
     {
       "id": "mc-c1-091",
@@ -1454,7 +1454,7 @@
         "$30\\sqrt{2}\\text{ m/s}$"
       ],
       "answer": 0,
-      "explanation": "Góc 45 độ chứng tỏ thành phần ngang $v_x$ và thành phần đứng $v_y$ bằng nhau. $v_x = v_0 = 15\\text{ m/s} \\Rightarrow v_y = 15\\text{ m/s}$. Vận tốc tổng hợp $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{15^2 + 15^2} = 15\\sqrt{2}\\text{ m/s}."
+      "explanation": "Góc 45 độ chứng tỏ thành phần ngang $v_x$ và thành phần đứng $v_y$ bằng nhau. $v_x = v_0 = 15\\text{ m/s} \\Rightarrow v_y = 15\\text{ m/s}$. Vận tốc tổng hợp $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{15^2 + 15^2} = 15\\sqrt{2}\\text{ m/s}$."
     },
     {
       "id": "mc-c1-092",
@@ -1646,7 +1646,7 @@
         "10 m"
       ],
       "answer": 0,
-      "explanation": "Thời gian trôi $t = 10\\text{s}$. Vận tốc trôi dọc bờ chính là vận tốc dòng nước $v_x = 3\\text{ m/s}$. Quãng đường trôi $x = v_x \\cdot t = 3 \\cdot 10 = 30\\text{ m}."
+      "explanation": "Thời gian trôi $t = 10\\text{s}$. Vận tốc trôi dọc bờ chính là vận tốc dòng nước $v_x = 3\\text{ m/s}$. Quãng đường trôi $x = v_x \\cdot t = 3 \\cdot 10 = 30\\text{ m}$."
     },
     {
       "id": "mc-c1-104",
@@ -1742,7 +1742,7 @@
         "4 s"
       ],
       "answer": 0,
-      "explanation": "Thời gian chạm đất (ném từ đất) $t = \\frac{2v_0\\sin\\alpha}{g} = \\frac{2 \\cdot 20 \\cdot 0.5}{10} = 2\\text{ s}."
+      "explanation": "Thời gian chạm đất (ném từ đất) $t = \\frac{2v_0\\sin\\alpha}{g} = \\frac{2 \\cdot 20 \\cdot 0.5}{10} = 2\\text{ s}$."
     },
     {
       "id": "mc-c1-110",
@@ -1758,7 +1758,7 @@
         "20 m"
       ],
       "answer": 0,
-      "explanation": "$H_{\\max} = \\frac{(v_0\\sin\\alpha)^2}{2g} = \\frac{(20 \\cdot 0.5)^2}{2 \\cdot 10} = \\frac{10^2}{20} = \\frac{100}{20} = 5\\text{ m}."
+      "explanation": "$H_{\\max} = \\frac{(v_0\\sin\\alpha)^2}{2g} = \\frac{(20 \\cdot 0.5)^2}{2 \\cdot 10} = \\frac{10^2}{20} = \\frac{100}{20} = 5\\text{ m}$."
     },
     {
       "id": "mc-c1-111",
@@ -1774,7 +1774,7 @@
         "20 m"
       ],
       "answer": 0,
-      "explanation": "$L = v_0\\cos\\alpha \\cdot t_{\\text{bay}} = 20 \\cdot \\frac{\\sqrt{3}}{2} \\cdot 2 = 20\\sqrt{3} \\approx 34,6\\text{ m}."
+      "explanation": "$L = v_0\\cos\\alpha \\cdot t_{\\text{bay}} = 20 \\cdot \\frac{\\sqrt{3}}{2} \\cdot 2 = 20\\sqrt{3} \\approx 34,6\\text{ m}$."
     },
     {
       "id": "mc-c1-112",
@@ -1806,7 +1806,7 @@
         "28 m"
       ],
       "answer": 0,
-      "explanation": "Quãng đường bằng diện tích hình thang dưới đồ thị v-t. Đáy lớn = 10, đáy bé = 8-2 = 6, chiều cao = 4. Diện tích $S = (10+6) \\cdot 4 / 2 = 32\\text{ m}."
+      "explanation": "Quãng đường bằng diện tích hình thang dưới đồ thị v-t. Đáy lớn = 10, đáy bé = 8-2 = 6, chiều cao = 4. Diện tích $S = (10+6) \\cdot 4 / 2 = 32\\text{ m}$."
     },
     {
       "id": "mc-c1-114",
@@ -1902,7 +1902,7 @@
         "Xe không thể dừng lại"
       ],
       "answer": 0,
-      "explanation": "Vận tốc ban đầu theo chiều tiến là $v_0 = -5\\text{ m/s}$. Gia tốc $a = 2\\text{ m/s}^2$. Lúc xe dừng lại (chuyển trạng thái) là lúc $v = 0$. Áp dụng $v = v_0 + at \\Rightarrow 0 = -5 + 2t \\Rightarrow t = 2,5\\text{ s}."
+      "explanation": "Vận tốc ban đầu theo chiều tiến là $v_0 = -5\\text{ m/s}$. Gia tốc $a = 2\\text{ m/s}^2$. Lúc xe dừng lại (chuyển trạng thái) là lúc $v = 0$. Áp dụng $v = v_0 + at \\Rightarrow 0 = -5 + 2t \\Rightarrow t = 2,5\\text{ s}$."
     },
     {
       "id": "mc-c1-120",
@@ -1998,7 +1998,7 @@
         "25\\text{ N}"
       ],
       "answer": 0,
-      "explanation": "Khi vuông góc, $\\alpha = 90^\\circ \\Rightarrow F = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5\\text{ N}."
+      "explanation": "Khi vuông góc, $\\alpha = 90^\\circ \\Rightarrow F = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5\\text{ N}$."
     },
     {
       "id": "mc-c2-006",
@@ -2046,7 +2046,7 @@
         "0\\text{ N}"
       ],
       "answer": 0,
-      "explanation": "Thành phần hướng lên $T_y = T\\sin\\alpha = 20\\sin(30^\\circ) = 20 \\cdot 0.5 = 10\\text{ N}."
+      "explanation": "Thành phần hướng lên $T_y = T\\sin\\alpha = 20\\sin(30^\\circ) = 20 \\cdot 0.5 = 10\\text{ N}$."
     },
     {
       "id": "mc-c2-009",
@@ -2734,7 +2734,7 @@
         "Khối lượng 10 kg, Trọng lượng 600 N"
       ],
       "answer": 0,
-      "explanation": "Khối lượng không đổi = 60 kg. Trọng lượng $P = mg = 60 \\cdot (10/6) = 100\\text{ N}."
+      "explanation": "Khối lượng không đổi = 60 kg. Trọng lượng $P = mg = 60 \\cdot (10/6) = 100\\text{ N}$."
     },
     {
       "id": "mc-c2-052",
@@ -3070,7 +3070,7 @@
         "100 N"
       ],
       "answer": 0,
-      "explanation": "Vì đang \"rơi đều\" (chuyển động thẳng đều) nên hợp lực bằng 0. Lực cản không khí phải cân bằng với trọng lượng: $F_c = P = mg = 800\\text{ N}."
+      "explanation": "Vì đang \"rơi đều\" (chuyển động thẳng đều) nên hợp lực bằng 0. Lực cản không khí phải cân bằng với trọng lượng: $F_c = P = mg = 800\\text{ N}$."
     },
     {
       "id": "mc-c2-073",
@@ -3118,7 +3118,7 @@
         "1000 N"
       ],
       "answer": 0,
-      "explanation": "$V = 100\\text{ cm}^3 = 100 \\cdot 10^{-6}\\text{ m}^3 = 10^{-4}\\text{ m}^3$. $F_A = \\rho \\cdot g \\cdot V = 1000 \\cdot 10 \\cdot 10^{-4} = 1\\text{ N}."
+      "explanation": "$V = 100\\text{ cm}^3 = 100 \\cdot 10^{-6}\\text{ m}^3 = 10^{-4}\\text{ m}^3$. $F_A = \\rho \\cdot g \\cdot V = 1000 \\cdot 10 \\cdot 10^{-4} = 1\\text{ N}$."
     },
     {
       "id": "mc-c2-076",
@@ -3198,7 +3198,7 @@
         "1,5 kg.m/s"
       ],
       "answer": 0,
-      "explanation": "Chọn chiều dương là chiều bật lại. $v_2 = 30$, $v_1 = -20$. $\\Delta p = m(v_2 - v_1) = 0.05(30 - (-20)) = 0.05 \\times 50 = 2,5\\text{ kg.m/s}."
+      "explanation": "Chọn chiều dương là chiều bật lại. $v_2 = 30$, $v_1 = -20$. $\\Delta p = m(v_2 - v_1) = 0.05(30 - (-20)) = 0.05 \\times 50 = 2,5\\text{ kg.m/s}$."
     },
     {
       "id": "mc-c2-081",
@@ -3246,7 +3246,7 @@
         "10,5 m/s"
       ],
       "answer": 0,
-      "explanation": "Bảo toàn động lượng: $m\\cdot v + M\\cdot 0 = (m+M)V \\Rightarrow 0,1 \\cdot 210 = (2+0,1) \\cdot V \\Rightarrow 21 = 2,1V \\Rightarrow V = 10\\text{ m/s}."
+      "explanation": "Bảo toàn động lượng: $m\\cdot v + M\\cdot 0 = (m+M)V \\Rightarrow 0,1 \\cdot 210 = (2+0,1) \\cdot V \\Rightarrow 21 = 2,1V \\Rightarrow V = 10\\text{ m/s}$."
     },
     {
       "id": "mc-c2-084",
@@ -3294,7 +3294,7 @@
         "20 N"
       ],
       "answer": 0,
-      "explanation": "Đổi $\\Delta l = 5\\text{cm} = 0,05\\text{m}$. $F = 100 \\cdot 0,05 = 5\\text{ N}."
+      "explanation": "Đổi $\\Delta l = 5\\text{cm} = 0,05\\text{m}$. $F = 100 \\cdot 0,05 = 5\\text{ N}$."
     },
     {
       "id": "mc-c2-087",
@@ -3310,7 +3310,7 @@
         "5 N/m"
       ],
       "answer": 0,
-      "explanation": "Ở vị trí cân bằng, $F_{\\text{đh}} = P \\Rightarrow k\\Delta l = mg \\Rightarrow k \\cdot 0,04 = 0,2 \\cdot 10 = 2 \\Rightarrow k = 2 / 0,04 = 50\\text{ N/m}."
+      "explanation": "Ở vị trí cân bằng, $F_{\\text{đh}} = P \\Rightarrow k\\Delta l = mg \\Rightarrow k \\cdot 0,04 = 0,2 \\cdot 10 = 2 \\Rightarrow k = 2 / 0,04 = 50\\text{ N/m}$."
     },
     {
       "id": "mc-c2-088",
@@ -3534,7 +3534,7 @@
         "250 N.m"
       ],
       "answer": 0,
-      "explanation": "Đổi $d = 20\\text{ cm} = 0,2\\text{ m}$. Lực vuông góc nên cánh tay đòn chính là độ dài cờ lê. $M = F\\cdot d = 50 \\cdot 0,2 = 10\\text{ N.m}."
+      "explanation": "Đổi $d = 20\\text{ cm} = 0,2\\text{ m}$. Lực vuông góc nên cánh tay đòn chính là độ dài cờ lê. $M = F\\cdot d = 50 \\cdot 0,2 = 10\\text{ N.m}$."
     },
     {
       "id": "mc-c2-102",
@@ -3550,7 +3550,7 @@
         "15 kg"
       ],
       "answer": 0,
-      "explanation": "Momen bên trái bằng bên phải: $P_A \\cdot OA = P_B \\cdot OB \\Rightarrow m_A \\cdot OA = m_B \\cdot OB \\Rightarrow 30 \\cdot 0,5 = m_B \\cdot 1,5 \\Rightarrow 15 = 1,5 m_B \\Rightarrow m_B = 10\\text{ kg}."
+      "explanation": "Momen bên trái bằng bên phải: $P_A \\cdot OA = P_B \\cdot OB \\Rightarrow m_A \\cdot OA = m_B \\cdot OB \\Rightarrow 30 \\cdot 0,5 = m_B \\cdot 1,5 \\Rightarrow 15 = 1,5 m_B \\Rightarrow m_B = 10\\text{ kg}$."
     },
     {
       "id": "mc-c2-103",
@@ -3566,7 +3566,7 @@
         "0 N.m"
       ],
       "answer": 0,
-      "explanation": "Cánh tay đòn $d = l\\cdot\\sin\\alpha = 0,2 \\cdot \\sin 30^\\circ = 0,2 \\cdot 0,5 = 0,1\\text{m}$. Momen $M = F\\cdot d = 50 \\cdot 0,1 = 5\\text{ N.m}."
+      "explanation": "Cánh tay đòn $d = l\\cdot\\sin\\alpha = 0,2 \\cdot \\sin 30^\\circ = 0,2 \\cdot 0,5 = 0,1\\text{m}$. Momen $M = F\\cdot d = 50 \\cdot 0,1 = 5\\text{ N.m}$."
     },
     {
       "id": "mc-c2-104",
@@ -3726,7 +3726,7 @@
         "$20\\sqrt{3}\\text{ N}$"
       ],
       "answer": 0,
-      "explanation": "Vẽ hình: Phân tích T thành 2 thành phần dọc và ngang. Thành phần dọc $T_y = T\\cos 30^\\circ$ phải cân bằng với trọng lượng P. $T\\cos 30^\\circ = P \\Rightarrow T \\cdot \\frac{\\sqrt{3}}{2} = 20 \\Rightarrow T = 40/\\sqrt{3}\\text{ N}."
+      "explanation": "Vẽ hình: Phân tích T thành 2 thành phần dọc và ngang. Thành phần dọc $T_y = T\\cos 30^\\circ$ phải cân bằng với trọng lượng P. $T\\cos 30^\\circ = P \\Rightarrow T \\cdot \\frac{\\sqrt{3}}{2} = 20 \\Rightarrow T = 40/\\sqrt{3}\\text{ N}$."
     },
     {
       "id": "mc-c2-114",
@@ -3742,7 +3742,7 @@
         "$10\\sqrt{3}\\text{ N}$"
       ],
       "answer": 0,
-      "explanation": "Thành phần ngang của dây $T_x = T\\sin 30^\\circ$ ép quả cầu vào tường. Tường đẩy ra 1 phản lực $N = T_x = (40/\\sqrt{3}) \\cdot 0.5 = 20/\\sqrt{3}\\text{ N}."
+      "explanation": "Thành phần ngang của dây $T_x = T\\sin 30^\\circ$ ép quả cầu vào tường. Tường đẩy ra 1 phản lực $N = T_x = (40/\\sqrt{3}) \\cdot 0.5 = 20/\\sqrt{3}\\text{ N}$."
     },
     {
       "id": "mc-c2-115",
@@ -3950,7 +3950,7 @@
         "0 J"
       ],
       "answer": 0,
-      "explanation": "$A = F \\cdot s \\cdot \\cos\\alpha = 200 \\cdot 10 \\cdot \\cos(60^\\circ) = 2000 \\cdot 0.5 = 1000\\text{ J}."
+      "explanation": "$A = F \\cdot s \\cdot \\cos\\alpha = 200 \\cdot 10 \\cdot \\cos(60^\\circ) = 2000 \\cdot 0.5 = 1000\\text{ J}$."
     },
     {
       "id": "mc-c3-008",
@@ -3966,7 +3966,7 @@
         "-10 J"
       ],
       "answer": 0,
-      "explanation": "Lực ma sát luôn ngược chiều chuyển động nên $\\alpha = 180^\\circ$. $A_{ms} = F_{ms} \\cdot s \\cdot \\cos(180^\\circ) = 500 \\cdot 50 \\cdot (-1) = -25000\\text{ J}."
+      "explanation": "Lực ma sát luôn ngược chiều chuyển động nên $\\alpha = 180^\\circ$. $A_{ms} = F_{ms} \\cdot s \\cdot \\cos(180^\\circ) = 500 \\cdot 50 \\cdot (-1) = -25000\\text{ J}$."
     },
     {
       "id": "mc-c3-009",
@@ -3982,7 +3982,7 @@
         "10 J"
       ],
       "answer": 0,
-      "explanation": "Vật rơi xuống nên trọng lực cùng chiều dịch chuyển ($\\alpha = 0^\\circ$). $A = P \\cdot h \\cdot \\cos(0^\\circ) = (mg) \\cdot h = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}."
+      "explanation": "Vật rơi xuống nên trọng lực cùng chiều dịch chuyển ($\\alpha = 0^\\circ$). $A = P \\cdot h \\cdot \\cos(0^\\circ) = (mg) \\cdot h = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}$."
     },
     {
       "id": "mc-c3-010",
@@ -4030,7 +4030,7 @@
         "0 J"
       ],
       "answer": 0,
-      "explanation": "Do công trọng lực chỉ phụ thuộc chênh lệch độ cao $h=6\\text{m}$, bỏ qua hình dạng dốc. $A_P = P \\cdot h_{\\text{chênh}} = mg \\cdot h = 5 \\cdot 10 \\cdot 6 = 300\\text{ J}."
+      "explanation": "Do công trọng lực chỉ phụ thuộc chênh lệch độ cao $h=6\\text{m}$, bỏ qua hình dạng dốc. $A_P = P \\cdot h_{\\text{chênh}} = mg \\cdot h = 5 \\cdot 10 \\cdot 6 = 300\\text{ J}$."
     },
     {
       "id": "mc-c3-013",
@@ -4126,7 +4126,7 @@
         "7200 N"
       ],
       "answer": 0,
-      "explanation": "Đổi $72\\text{ km/h} = 20\\text{ m/s}$. Công suất $\\mathcal{P} = 50\\text{ kW} = 50000\\text{ W}$. Lực kéo $F = \\mathcal{P} / v = 50000 / 20 = 2500\\text{ N}."
+      "explanation": "Đổi $72\\text{ km/h} = 20\\text{ m/s}$. Công suất $\\mathcal{P} = 50\\text{ kW} = 50000\\text{ W}$. Lực kéo $F = \\mathcal{P} / v = 50000 / 20 = 2500\\text{ N}$."
     },
     {
       "id": "mc-c3-019",
@@ -4158,7 +4158,7 @@
         "100 s"
       ],
       "answer": 0,
-      "explanation": "Khối lượng nước $m = V\\cdot\\rho = 10 \\cdot 1000 = 10000\\text{ kg}$. Trọng lượng $P = mg = 10^5\\text{ N}$. Công cần thiết để nâng nước lên $A = P\\cdot h = 10^5 \\cdot 10 = 10^6\\text{ J}$. Thời gian $t = A / \\mathcal{P} = 10^6 / 2000 = 500\\text{ s}."
+      "explanation": "Khối lượng nước $m = V\\cdot\\rho = 10 \\cdot 1000 = 10000\\text{ kg}$. Trọng lượng $P = mg = 10^5\\text{ N}$. Công cần thiết để nâng nước lên $A = P\\cdot h = 10^5 \\cdot 10 = 10^6\\text{ J}$. Thời gian $t = A / \\mathcal{P} = 10^6 / 2000 = 500\\text{ s}$."
     },
     {
       "id": "mc-c3-021",
@@ -4238,7 +4238,7 @@
         "400000 J"
       ],
       "answer": 0,
-      "explanation": "Đổi $v = 72\\text{ km/h} = 20\\text{ m/s}$. $W_d = \\frac{1}{2}mv^2 = 0.5 \\cdot 1000 \\cdot 20^2 = 500 \\cdot 400 = 200000\\text{ J} = 200\\text{ kJ}."
+      "explanation": "Đổi $v = 72\\text{ km/h} = 20\\text{ m/s}$. $W_d = \\frac{1}{2}mv^2 = 0.5 \\cdot 1000 \\cdot 20^2 = 500 \\cdot 400 = 200000\\text{ J} = 200\\text{ kJ}$."
     },
     {
       "id": "mc-c3-026",
@@ -4286,7 +4286,7 @@
         "8 m"
       ],
       "answer": 0,
-      "explanation": "Động năng ban đầu $W_{d1} = 0.5 \\cdot 2 \\cdot 4^2 = 16\\text{ J}$. Động năng sau $W_{d2} = 0$. $\\Delta W_d = -16\\text{ J}$. Công của lực cản $A = -F_{ms} \\cdot s = -8s$. Ta có $-8s = -16 \\Rightarrow s = 2\\text{ m}."
+      "explanation": "Động năng ban đầu $W_{d1} = 0.5 \\cdot 2 \\cdot 4^2 = 16\\text{ J}$. Động năng sau $W_{d2} = 0$. $\\Delta W_d = -16\\text{ J}$. Công của lực cản $A = -F_{ms} \\cdot s = -8s$. Ta có $-8s = -16 \\Rightarrow s = 2\\text{ m}$."
     },
     {
       "id": "mc-c3-029",
@@ -4366,7 +4366,7 @@
         "-100 J"
       ],
       "answer": 0,
-      "explanation": "$W_t = mgz = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}."
+      "explanation": "$W_t = mgz = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}$."
     },
     {
       "id": "mc-c3-034",
@@ -4382,7 +4382,7 @@
         "-80 J"
       ],
       "answer": 0,
-      "explanation": "Mốc $z=0$ ở 8m. Bóng ở 4m, tức là cách mốc -4m (dưới mốc 4m). Vậy $z = -4\\text{m}$. $W_t = 1 \\cdot 10 \\cdot (-4) = -40\\text{ J}."
+      "explanation": "Mốc $z=0$ ở 8m. Bóng ở 4m, tức là cách mốc -4m (dưới mốc 4m). Vậy $z = -4\\text{m}$. $W_t = 1 \\cdot 10 \\cdot (-4) = -40\\text{ J}$."
     },
     {
       "id": "mc-c3-035",
@@ -4414,7 +4414,7 @@
         "0,1 J"
       ],
       "answer": 0,
-      "explanation": "Đổi $\\Delta l = 10\\text{cm} = 0,1\\text{m}$. $W_t = 0.5 \\cdot 200 \\cdot (0,1)^2 = 100 \\cdot 0,01 = 1\\text{ J}."
+      "explanation": "Đổi $\\Delta l = 10\\text{cm} = 0,1\\text{m}$. $W_t = 0.5 \\cdot 200 \\cdot (0,1)^2 = 100 \\cdot 0,01 = 1\\text{ J}$."
     },
     {
       "id": "mc-c3-037",
@@ -4494,7 +4494,7 @@
         "50 J"
       ],
       "answer": 0,
-      "explanation": "Lúc thả $v=0 \\Rightarrow W_d = 0$. $W_t = mgz = 1 \\cdot 10 \\cdot 10 = 100\\text{ J}$. Cơ năng $W = 100 + 0 = 100\\text{ J}."
+      "explanation": "Lúc thả $v=0 \\Rightarrow W_d = 0$. $W_t = mgz = 1 \\cdot 10 \\cdot 10 = 100\\text{ J}$. Cơ năng $W = 100 + 0 = 100\\text{ J}$."
     },
     {
       "id": "mc-c3-042",
@@ -4510,7 +4510,7 @@
         "14,1 m/s"
       ],
       "answer": 0,
-      "explanation": "Bảo toàn cơ năng $W_{\\text{đỉnh}} = W_{\\text{đáy}} \\Rightarrow mgh = \frac{1}{2}mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 20} = \\sqrt{400} = 20\\text{ m/s}."
+      "explanation": "Bảo toàn cơ năng $W_{\\text{đỉnh}} = W_{\\text{đáy}} \\Rightarrow mgh = \\frac{1}{2}mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 20} = \\sqrt{400} = 20\\text{ m/s}$."
     },
     {
       "id": "mc-c3-043",
@@ -4526,7 +4526,7 @@
         "100 m"
       ],
       "answer": 0,
-      "explanation": "Tại mặt đất $W_t=0$, $W = W_d = 0.5 mv^2 = 0.5 \\cdot m \\cdot 10^2 = 50m$. Tại đỉnh $W_d=0$, $W = W_t = mgh_{\\max}$. Bằng nhau $\\Rightarrow mgh_{\\max} = 50m \\Rightarrow 10h_{\\max} = 50 \\Rightarrow h_{\\max} = 5\\text{ m}."
+      "explanation": "Tại mặt đất $W_t=0$, $W = W_d = 0.5 mv^2 = 0.5 \\cdot m \\cdot 10^2 = 50m$. Tại đỉnh $W_d=0$, $W = W_t = mgh_{\\max}$. Bằng nhau $\\Rightarrow mgh_{\\max} = 50m \\Rightarrow 10h_{\\max} = 50 \\Rightarrow h_{\\max} = 5\\text{ m}$."
     },
     {
       "id": "mc-c3-044",
@@ -4542,7 +4542,7 @@
         "2 m"
       ],
       "answer": 0,
-      "explanation": "Cơ năng tại đỉnh $W = mgh = 20mg$. Tại vị trí cần tìm: $W_d = W_t$. Mà $W = W_d + W_t = 2W_t = 2mgz$. Vậy $2mgz = 20mg \\Rightarrow z = 10\\text{ m}."
+      "explanation": "Cơ năng tại đỉnh $W = mgh = 20mg$. Tại vị trí cần tìm: $W_d = W_t$. Mà $W = W_d + W_t = 2W_t = 2mgz$. Vậy $2mgz = 20mg \\Rightarrow z = 10\\text{ m}$."
     },
     {
       "id": "mc-c3-045",
@@ -4558,7 +4558,7 @@
         "6,67 m"
       ],
       "answer": 0,
-      "explanation": "$W_d = 3W_t \\Rightarrow W = W_d + W_t = 4W_t$. $W = 20mg = 4(mgz) \\Rightarrow 4z = 20 \\Rightarrow z = 5\\text{ m}."
+      "explanation": "$W_d = 3W_t \\Rightarrow W = W_d + W_t = 4W_t$. $W = 20mg = 4(mgz) \\Rightarrow 4z = 20 \\Rightarrow z = 5\\text{ m}$."
     },
     {
       "id": "mc-c3-046",
@@ -4590,7 +4590,7 @@
         "64 J"
       ],
       "answer": 0,
-      "explanation": "Cơ năng tại đỉnh: $W_1 = mgh = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}$. Cơ năng tại đáy: $W_2 = W_d = 0.5 \\cdot 2 \\cdot 6^2 = 36\\text{ J}$. Công ma sát $A_{ms} = W_2 - W_1 = 36 - 100 = -64\\text{ J}."
+      "explanation": "Cơ năng tại đỉnh: $W_1 = mgh = 2 \\cdot 10 \\cdot 5 = 100\\text{ J}$. Cơ năng tại đáy: $W_2 = W_d = 0.5 \\cdot 2 \\cdot 6^2 = 36\\text{ J}$. Công ma sát $A_{ms} = W_2 - W_1 = 36 - 100 = -64\\text{ J}$."
     },
     {
       "id": "mc-c3-048",
@@ -4606,7 +4606,7 @@
         "64 N"
       ],
       "answer": 0,
-      "explanation": "Ta có $A_{ms} = -F_{ms} \\cdot s \\Rightarrow -64 = -F_{ms} \\cdot 10 \\Rightarrow F_{ms} = 6,4\\text{ N}."
+      "explanation": "Ta có $A_{ms} = -F_{ms} \\cdot s \\Rightarrow -64 = -F_{ms} \\cdot 10 \\Rightarrow F_{ms} = 6,4\\text{ N}$."
     },
     {
       "id": "mc-c3-049",
@@ -4622,7 +4622,7 @@
         "Cả A và C đều đúng"
       ],
       "answer": 0,
-      "explanation": "Độ cao ban đầu của vật so với vị trí thấp nhất (VTCB) là $h = l - l\\cos\\alpha = 1 - 1\\cdot 0.5 = 0.5\\text{ m}$. Bảo toàn cơ năng: $mgh = 0.5mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 0.5} = \\sqrt{10} \\approx 3,16\\text{ m/s}."
+      "explanation": "Độ cao ban đầu của vật so với vị trí thấp nhất (VTCB) là $h = l - l\\cos\\alpha = 1 - 1\\cdot 0.5 = 0.5\\text{ m}$. Bảo toàn cơ năng: $mgh = 0.5mv^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 0.5} = \\sqrt{10} \\approx 3,16\\text{ m/s}$."
     },
     {
       "id": "mc-c3-050",
@@ -4638,7 +4638,7 @@
         "$25\\text{ m/s}$"
       ],
       "answer": 0,
-      "explanation": "Thế năng đàn hồi ban đầu hoàn toàn chuyển hóa thành động năng viên đạn. $0.5 k (\\Delta l)^2 = 0.5 m v^2 \\Rightarrow 1000 \\cdot (0,05)^2 = 0,01 \\cdot v^2 \\Rightarrow 1000 \\cdot 0,0025 = 0,01 \\cdot v^2 \\Rightarrow 2,5 = 0,01v^2 \\Rightarrow v^2 = 250 \\Rightarrow v = \\sqrt{250} \\approx 15,8\\text{ m/s}."
+      "explanation": "Thế năng đàn hồi ban đầu hoàn toàn chuyển hóa thành động năng viên đạn. $0.5 k (\\Delta l)^2 = 0.5 m v^2 \\Rightarrow 1000 \\cdot (0,05)^2 = 0,01 \\cdot v^2 \\Rightarrow 1000 \\cdot 0,0025 = 0,01 \\cdot v^2 \\Rightarrow 2,5 = 0,01v^2 \\Rightarrow v^2 = 250 \\Rightarrow v = \\sqrt{250} \\approx 15,8\\text{ m/s}$."
     },
     {
       "id": "mc-c3-051",
@@ -4718,7 +4718,7 @@
         "4 kW"
       ],
       "answer": 0,
-      "explanation": "$H = P_{\\text{có ích}} / P_{\\text{tiêu thụ}} \\Rightarrow 0,25 = 2 / P_{tp} \\Rightarrow P_{tp} = 2 / 0,25 = 8\\text{ kW}."
+      "explanation": "$H = P_{\\text{có ích}} / P_{\\text{tiêu thụ}} \\Rightarrow 0,25 = 2 / P_{tp} \\Rightarrow P_{tp} = 2 / 0,25 = 8\\text{ kW}$."
     },
     {
       "id": "mc-c3-056",
@@ -4750,7 +4750,7 @@
         "$15\\text{ m/s}$"
       ],
       "answer": 0,
-      "explanation": "Cơ năng lúc ném $W_1 = W_{t1} + W_{d1} = mgh + 0.5mv_0^2 = 1\\cdot 10\\cdot 5 + 0.5\\cdot 1\\cdot 100 = 50 + 50 = 100\\text{ J}$. Cơ năng lúc chạm đất $W_2 = W_{d2} = 0.5mv_2^2$. Do bảo toàn $0.5\\cdot 1\\cdot v_2^2 = 100 \\Rightarrow v_2^2 = 200 \\Rightarrow v_2 = \\sqrt{200} \\approx 14,1\\text{ m/s}."
+      "explanation": "Cơ năng lúc ném $W_1 = W_{t1} + W_{d1} = mgh + 0.5mv_0^2 = 1\\cdot 10\\cdot 5 + 0.5\\cdot 1\\cdot 100 = 50 + 50 = 100\\text{ J}$. Cơ năng lúc chạm đất $W_2 = W_{d2} = 0.5mv_2^2$. Do bảo toàn $0.5\\cdot 1\\cdot v_2^2 = 100 \\Rightarrow v_2^2 = 200 \\Rightarrow v_2 = \\sqrt{200} \\approx 14,1\\text{ m/s}$."
     },
     {
       "id": "mc-c3-058",
@@ -4766,7 +4766,7 @@
         "2000 J"
       ],
       "answer": 0,
-      "explanation": "Công toàn phần người sinh ra $A_{tp} = F \\cdot s = 150 \\cdot 10 = 1500\\text{ J}$. Công có ích (chỉ là nâng lên 2m thẳng đứng): $A_{ci} = P \\cdot h = 500 \\cdot 2 = 1000\\text{ J}$. Công hao phí = Toàn phần - Có ích = $1500 - 1000 = 500\\text{ J}."
+      "explanation": "Công toàn phần người sinh ra $A_{tp} = F \\cdot s = 150 \\cdot 10 = 1500\\text{ J}$. Công có ích (chỉ là nâng lên 2m thẳng đứng): $A_{ci} = P \\cdot h = 500 \\cdot 2 = 1000\\text{ J}$. Công hao phí = Toàn phần - Có ích = $1500 - 1000 = 500\\text{ J}$."
     },
     {
       "id": "mc-c3-059",
@@ -4782,7 +4782,7 @@
         "10 J"
       ],
       "answer": 0,
-      "explanation": "Công ngoại lực thực hiện đúng bằng sự thay đổi thế năng đàn hồi (từ 0 lên): $A = \\Delta W_t = 0.5 k (\\Delta l)^2 = 0.5 \\cdot 100 \\cdot (0.1)^2 = 50 \\cdot 0.01 = 0.5\\text{ J}."
+      "explanation": "Công ngoại lực thực hiện đúng bằng sự thay đổi thế năng đàn hồi (từ 0 lên): $A = \\Delta W_t = 0.5 k (\\Delta l)^2 = 0.5 \\cdot 100 \\cdot (0.1)^2 = 50 \\cdot 0.01 = 0.5\\text{ J}$."
     },
     {
       "id": "mc-c3-060",
@@ -4862,7 +4862,7 @@
         "2610 N"
       ],
       "answer": 0,
-      "explanation": "$m = 0.145\\text{ kg}$. Chọn chiều dương là chiều bay ngược lại. $\\Delta v = 50 - (-40) = 90\\text{ m/s}$. $F = m\\Delta v / \\Delta t = 0.145 \\times 90 / 0.01 = 13.05 / 0.01 = 1305\\text{ N}."
+      "explanation": "$m = 0.145\\text{ kg}$. Chọn chiều dương là chiều bay ngược lại. $\\Delta v = 50 - (-40) = 90\\text{ m/s}$. $F = m\\Delta v / \\Delta t = 0.145 \\times 90 / 0.01 = 13.05 / 0.01 = 1305\\text{ N}$."
     },
     {
       "id": "mc-c3-065",
@@ -4910,7 +4910,7 @@
         "-5 m/s"
       ],
       "answer": 0,
-      "explanation": "Công thức $v_1' = \\frac{(m_1-m_2)v_1 + 2m_2v_2}{m_1+m_2} = \\frac{(1-2)5 + 0}{3} = -5/3 \u0007pprox -1,67\\text{ m/s}$ (bật ngược lại)."
+      "explanation": "Công thức $v_1' = \\frac{(m_1-m_2)v_1 + 2m_2v_2}{m_1+m_2} = \\frac{(1-2)5 + 0}{3} = -5/3 \\approx -1,67\\text{ m/s}$ (bật ngược lại)."
     },
     {
       "id": "mc-c3-068",
@@ -4926,7 +4926,7 @@
         "2 m/s"
       ],
       "answer": 0,
-      "explanation": "Công thức $v_2' = \\frac{(m_2-m_1)v_2 + 2m_1v_1}{m_1+m_2} = \\frac{0 + 2(1)(5)}{3} = 10/3 \u0007pprox 3,33\\text{ m/s}$."
+      "explanation": "Công thức $v_2' = \\frac{(m_2-m_1)v_2 + 2m_1v_1}{m_1+m_2} = \\frac{0 + 2(1)(5)}{3} = 10/3 \\approx 3,33\\text{ m/s}$."
     },
     {
       "id": "mc-c3-069",
@@ -4990,7 +4990,7 @@
         "3,5 m/s"
       ],
       "answer": 0,
-      "explanation": "Động lượng ban đầu: $p = m_1 v_1 + m_2 v_2 = 60 \\cdot 4 + 100 \\cdot 2 = 240 + 200 = 440\\text{ kg.m/s}$. Vận tốc sau $V = p / (m_1+m_2) = 440 / 160 = 2,75\\text{ m/s}."
+      "explanation": "Động lượng ban đầu: $p = m_1 v_1 + m_2 v_2 = 60 \\cdot 4 + 100 \\cdot 2 = 240 + 200 = 440\\text{ kg.m/s}$. Vận tốc sau $V = p / (m_1+m_2) = 440 / 160 = 2,75\\text{ m/s}$."
     },
     {
       "id": "mc-c3-073",
@@ -5038,7 +5038,7 @@
         "500 N"
       ],
       "answer": 0,
-      "explanation": "Công đưa vật lên cao $A = P \\cdot h = 1000 \\cdot 1 = 1000\\text{ J}$. Bỏ qua ma sát, $A = F \\cdot s \\Rightarrow F \\cdot 4 = 1000 \\Rightarrow F = 250\\text{ N}."
+      "explanation": "Công đưa vật lên cao $A = P \\cdot h = 1000 \\cdot 1 = 1000\\text{ J}$. Bỏ qua ma sát, $A = F \\cdot s \\Rightarrow F \\cdot 4 = 1000 \\Rightarrow F = 250\\text{ N}$."
     },
     {
       "id": "mc-c3-076",
@@ -5054,7 +5054,7 @@
         "33,3%"
       ],
       "answer": 0,
-      "explanation": "Công có ích $A_{ci} = 1000\\text{ J}$. Công toàn phần $A_{tp} = F \\cdot s = 300 \\cdot 4 = 1200\\text{ J}$. Hiệu suất $H = A_{ci} / A_{tp} = 1000 / 1200 = 5/6 \u0007pprox 83,3\\%$."
+      "explanation": "Công có ích $A_{ci} = 1000\\text{ J}$. Công toàn phần $A_{tp} = F \\cdot s = 300 \\cdot 4 = 1200\\text{ J}$. Hiệu suất $H = A_{ci} / A_{tp} = 1000 / 1200 = 5/6 \\approx 83,3\\%$."
     },
     {
       "id": "mc-c3-077",
@@ -5278,7 +5278,7 @@
         "2,0 m"
       ],
       "answer": 0,
-      "explanation": "Mất 20% tức là còn lại 80%. Cơ năng sau nảy $W' = 0.8 W$. Mà $W = mgh \\Rightarrow mgh' = 0.8 mgh \\Rightarrow h' = 0.8 \\times 2 = 1,6\\text{ m}."
+      "explanation": "Mất 20% tức là còn lại 80%. Cơ năng sau nảy $W' = 0.8 W$. Mà $W = mgh \\Rightarrow mgh' = 0.8 mgh \\Rightarrow h' = 0.8 \\times 2 = 1,6\\text{ m}$."
     },
     {
       "id": "mc-c3-091",
@@ -5294,7 +5294,7 @@
         "1,6 m"
       ],
       "answer": 0,
-      "explanation": "Cơ năng tiếp tục giảm còn 80% của lần nảy trước. $h'' = 0.8 \\times h' = 0.8 \\times 1,6 = 1,28\\text{ m}."
+      "explanation": "Cơ năng tiếp tục giảm còn 80% của lần nảy trước. $h'' = 0.8 \\times h' = 0.8 \\times 1,6 = 1,28\\text{ m}$."
     },
     {
       "id": "mc-c3-092",
@@ -5310,7 +5310,7 @@
         "320 kW"
       ],
       "answer": 0,
-      "explanation": "Tốc độ $v$ tăng 2 lần. Lực cản $F_c = kv^2$ sẽ tăng $2^2 = 4$ lần. Công suất $\\mathcal{P} = F \\cdot v = F_c \\cdot v$. Vận tốc tăng 2, Lực tăng 4 $\\Rightarrow$ Công suất tăng $4 \\times 2 = 8$ lần. $20 \\times 8 = 160\\text{ kW}."
+      "explanation": "Tốc độ $v$ tăng 2 lần. Lực cản $F_c = kv^2$ sẽ tăng $2^2 = 4$ lần. Công suất $\\mathcal{P} = F \\cdot v = F_c \\cdot v$. Vận tốc tăng 2, Lực tăng 4 $\\Rightarrow$ Công suất tăng $4 \\times 2 = 8$ lần. $20 \\times 8 = 160\\text{ kW}$."
     },
     {
       "id": "mc-c3-093",
@@ -5358,7 +5358,7 @@
         "1 m"
       ],
       "answer": 0,
-      "explanation": "Bảo toàn động lượng (va chạm mềm): $0.01 \\times 100 = (0.01 + 0.99) \\times V \\Rightarrow 1 = 1 \\times V \\Rightarrow V = 1\\text{ m/s}$. Bảo toàn cơ năng cho hệ lò xo sau va chạm: $0.5 M V^2 = 0.5 k (\\Delta x)^2 \\Rightarrow 1 \\cdot 1^2 = 100 (\\Delta x)^2 \\Rightarrow (\\Delta x)^2 = 0.01 \\Rightarrow \\Delta x = 0.1\\text{ m} = 10\\text{ cm}."
+      "explanation": "Bảo toàn động lượng (va chạm mềm): $0.01 \\times 100 = (0.01 + 0.99) \\times V \\Rightarrow 1 = 1 \\times V \\Rightarrow V = 1\\text{ m/s}$. Bảo toàn cơ năng cho hệ lò xo sau va chạm: $0.5 M V^2 = 0.5 k (\\Delta x)^2 \\Rightarrow 1 \\cdot 1^2 = 100 (\\Delta x)^2 \\Rightarrow (\\Delta x)^2 = 0.01 \\Rightarrow \\Delta x = 0.1\\text{ m} = 10\\text{ cm}$."
     },
     {
       "id": "mc-c3-096",
@@ -5390,7 +5390,7 @@
         "0,5 J"
       ],
       "answer": 0,
-      "explanation": "Thế năng lúc đầu $\\Delta l_1 = 0.05 \\Rightarrow W_{t1} = 0.5\\cdot 100 \\cdot (0.05)^2 = 0.125\\text{ J}$. Thế năng lúc sau $\\Delta l_2 = 0.1 \\Rightarrow W_{t2} = 0.5\\cdot 100 \\cdot (0.1)^2 = 0.5\\text{ J}$. Công phải thực hiện $A = W_{t2} - W_{t1} = 0.5 - 0.125 = 0.375\\text{ J}."
+      "explanation": "Thế năng lúc đầu $\\Delta l_1 = 0.05 \\Rightarrow W_{t1} = 0.5\\cdot 100 \\cdot (0.05)^2 = 0.125\\text{ J}$. Thế năng lúc sau $\\Delta l_2 = 0.1 \\Rightarrow W_{t2} = 0.5\\cdot 100 \\cdot (0.1)^2 = 0.5\\text{ J}$. Công phải thực hiện $A = W_{t2} - W_{t1} = 0.5 - 0.125 = 0.375\\text{ J}$."
     },
     {
       "id": "mc-c3-098",
@@ -5486,7 +5486,7 @@
         "3,0 m"
       ],
       "answer": 0,
-      "explanation": "Tại độ cao cực đại $W = W_t = mgh_{\\max} = 7.6 \\Rightarrow 0.2 \\times 10 \\times h_{\\max} = 7.6 \\Rightarrow 2 h_{\\max} = 7.6 \\Rightarrow h_{\\max} = 3.8\\text{ m}."
+      "explanation": "Tại độ cao cực đại $W = W_t = mgh_{\\max} = 7.6 \\Rightarrow 0.2 \\times 10 \\times h_{\\max} = 7.6 \\Rightarrow 2 h_{\\max} = 7.6 \\Rightarrow h_{\\max} = 3.8\\text{ m}$."
     },
     {
       "id": "mc-c3-104",
@@ -5502,7 +5502,7 @@
         "0,5 N"
       ],
       "answer": 0,
-      "explanation": "Cơ năng đầu $W_1 = 1\\cdot 10\\cdot 5 = 50\\text{ J}$. Cơ năng cuối $W_2 = 0.5\\cdot 1\\cdot 9^2 = 40.5\\text{ J}$. Biến thiên cơ năng $\\Delta W = -9.5\\text{ J}$. Công cản $A_c = -F_c \\cdot h = -5 F_c = -9.5 \\Rightarrow F_c = 1.9\\text{ N}."
+      "explanation": "Cơ năng đầu $W_1 = 1\\cdot 10\\cdot 5 = 50\\text{ J}$. Cơ năng cuối $W_2 = 0.5\\cdot 1\\cdot 9^2 = 40.5\\text{ J}$. Biến thiên cơ năng $\\Delta W = -9.5\\text{ J}$. Công cản $A_c = -F_c \\cdot h = -5 F_c = -9.5 \\Rightarrow F_c = 1.9\\text{ N}$."
     },
     {
       "id": "mc-c3-105",
@@ -5518,7 +5518,7 @@
         "1000 N"
       ],
       "answer": 0,
-      "explanation": "$\\Delta W_d = 0.5\\cdot 1000\\cdot(20^2 - 10^2) = 500 \\times 300 = 150000\\text{ J}$. Công $A = F \\cdot s \\Rightarrow F \\cdot 50 = 150000 \\Rightarrow F = 3000\\text{ N}."
+      "explanation": "$\\Delta W_d = 0.5\\cdot 1000\\cdot(20^2 - 10^2) = 500 \\times 300 = 150000\\text{ J}$. Công $A = F \\cdot s \\Rightarrow F \\cdot 50 = 150000 \\Rightarrow F = 3000\\text{ N}$."
     },
     {
       "id": "mc-c3-106",
@@ -5534,7 +5534,7 @@
         "$2000\\sqrt{2}\\text{ J}$"
       ],
       "answer": 0,
-      "explanation": "$A = F s \\cos(45^\\circ) = 100 \\times 20 \\times \\frac{\\sqrt{2}}{2} = 1000\\sqrt{2}\\text{ J}."
+      "explanation": "$A = F s \\cos(45^\\circ) = 100 \\times 20 \\times \\frac{\\sqrt{2}}{2} = 1000\\sqrt{2}\\text{ J}$."
     },
     {
       "id": "mc-c3-107",
@@ -5550,7 +5550,7 @@
         "10 MW"
       ],
       "answer": 0,
-      "explanation": "Khối lượng nước rơi mỗi giây: $m = 5000\\text{ kg/s}$. Thế năng mất đi mỗi giây (chính là công suất): $P = mgh / t = 5000 \\times 10 \\times 20 = 1,000,000\\text{ W} = 1\\text{ MW}."
+      "explanation": "Khối lượng nước rơi mỗi giây: $m = 5000\\text{ kg/s}$. Thế năng mất đi mỗi giây (chính là công suất): $P = mgh / t = 5000 \\times 10 \\times 20 = 1,000,000\\text{ W} = 1\\text{ MW}$."
     },
     {
       "id": "mc-c3-108",
@@ -5582,7 +5582,7 @@
         "100 N"
       ],
       "answer": 0,
-      "explanation": "Công có ích $A_{ci} = P \\cdot h = 200 \\times 0,1 = 20\\text{ J}$. Công toàn phần phải cung cấp $A_{tp} = A_{ci} / H = 20 / 0.8 = 25\\text{ J}$. Lực ấn tay $F = A_{tp} / s = 25 / 0,5 = 50\\text{ N}."
+      "explanation": "Công có ích $A_{ci} = P \\cdot h = 200 \\times 0,1 = 20\\text{ J}$. Công toàn phần phải cung cấp $A_{tp} = A_{ci} / H = 20 / 0.8 = 25\\text{ J}$. Lực ấn tay $F = A_{tp} / s = 25 / 0,5 = 50\\text{ N}$."
     },
     {
       "id": "mc-c3-110",
@@ -5614,7 +5614,7 @@
         "1 cm"
       ],
       "answer": 0,
-      "explanation": "Động năng búa khi chạm cọc = $mgh = 100 \\cdot 10 \\cdot 2 = 2000\\text{ J}$. Công của lực cản đất (hút hết động năng và công trọng lực búa trong đoạn lún s): $(F_c - P) \\cdot s = W_d \\Rightarrow (20000 - 1000)s = 2000 \\Rightarrow 19000s = 2000 \\Rightarrow s \u0007pprox 0.1\\text{m} = 10\\text{cm}$. (Thường cho làm tròn $F_c \\cdot s = W_d \\Rightarrow s = 2000/20000 = 0.1\\text{m}$)."
+      "explanation": "Động năng búa khi chạm cọc = $mgh = 100 \\cdot 10 \\cdot 2 = 2000\\text{ J}$. Công của lực cản đất (hút hết động năng và công trọng lực búa trong đoạn lún s): $(F_c - P) \\cdot s = W_d \\Rightarrow (20000 - 1000)s = 2000 \\Rightarrow 19000s = 2000 \\Rightarrow s \\approx 0.1\\text{m} = 10\\text{cm}$. (Thường cho làm tròn $F_c \\cdot s = W_d \\Rightarrow s = 2000/20000 = 0.1\\text{m}$)."
     },
     {
       "id": "mc-c3-112",
@@ -5646,7 +5646,7 @@
         "2,0 m/s"
       ],
       "answer": 0,
-      "explanation": "Động lượng hệ $p = 200 \\times 5 + 800 \\times 2 = 1000 + 1600 = 2600$. Vận tốc chung $V = p / (200+800) = 2600 / 1000 = 2,6\\text{ m/s}."
+      "explanation": "Động lượng hệ $p = 200 \\times 5 + 800 \\times 2 = 1000 + 1600 = 2600$. Vận tốc chung $V = p / (200+800) = 2600 / 1000 = 2,6\\text{ m/s}$."
     },
     {
       "id": "mc-c3-114",
@@ -5662,7 +5662,7 @@
         "4100 J"
       ],
       "answer": 0,
-      "explanation": "ĐN ban đầu $W_1 = 0.5(200)(25) + 0.5(800)(4) = 2500 + 1600 = 4100\\text{ J}$. ĐN lúc sau $W_2 = 0.5(1000)(2.6)^2 = 500 \\times 6.76 = 3380\\text{ J}$. Nhiệt $= 4100 - 3380 = 720\\text{ J}."
+      "explanation": "ĐN ban đầu $W_1 = 0.5(200)(25) + 0.5(800)(4) = 2500 + 1600 = 4100\\text{ J}$. ĐN lúc sau $W_2 = 0.5(1000)(2.6)^2 = 500 \\times 6.76 = 3380\\text{ J}$. Nhiệt $= 4100 - 3380 = 720\\text{ J}$."
     },
     {
       "id": "mc-c3-115",
@@ -5678,7 +5678,7 @@
         "500 s"
       ],
       "answer": 0,
-      "explanation": "Công có ích $A_{ci} = 300000\\text{ J}$. Công tiêu thụ (toàn phần) $A = 300000 / 0.8 = 375000\\text{ J}$. Thời gian $t = A / \\mathcal{P} = 375000 / 1000 = 375\\text{ s}."
+      "explanation": "Công có ích $A_{ci} = 300000\\text{ J}$. Công tiêu thụ (toàn phần) $A = 300000 / 0.8 = 375000\\text{ J}$. Thời gian $t = A / \\mathcal{P} = 375000 / 1000 = 375\\text{ s}$."
     },
     {
       "id": "mc-c3-116",
@@ -5686,7 +5686,7 @@
       "lesson": "b23",
       "level": "vd",
       "dang": "Công chống trọng lực & ma sát",
-      "question": "Người ta kéo đều khối đá 50kg lên dốc nghiêng 30 độ dài 10m ($g=10, \\mu=0,1, \\sqrt{3} \u0007pprox 1,73$). Tổng công kéo đã thực hiện là khoảng:",
+      "question": "Người ta kéo đều khối đá 50kg lên dốc nghiêng 30 độ dài 10m ($g=10, \\mu=0,1, \\sqrt{3} \\approx 1,73$). Tổng công kéo đã thực hiện là khoảng:",
       "choices": [
         "2932 J",
         "2500 J",
@@ -5758,7 +5758,7 @@
         "10 m/s"
       ],
       "answer": 0,
-      "explanation": "Chỉ có thành phần động lượng nằm ngang được bảo toàn vì súng bị sàn đỡ thẳng đứng. Ban đầu ngang bằng 0. $0 = -M V + m(v\\cos 60^\\circ) \\Rightarrow 100V = 5 \\times (100 \\times 0.5) = 250 \\Rightarrow V = 2,5\\text{ m/s}."
+      "explanation": "Chỉ có thành phần động lượng nằm ngang được bảo toàn vì súng bị sàn đỡ thẳng đứng. Ban đầu ngang bằng 0. $0 = -M V + m(v\\cos 60^\\circ) \\Rightarrow 100V = 5 \\times (100 \\times 0.5) = 250 \\Rightarrow V = 2,5\\text{ m/s}$."
     },
     {
       "id": "mc-c4-001",
@@ -5934,7 +5934,7 @@
         "6,28 s"
       ],
       "answer": 0,
-      "explanation": "Chu vi vòng xuyến $S = 2\\pi r = 100\\pi\\text{ m}$. Thời gian đi 1 vòng (Chu kì) $T = S/v = 100\\pi / 10 = 10\\pi\\text{ s} \u0007pprox 31,4\\text{ s}$."
+      "explanation": "Chu vi vòng xuyến $S = 2\\pi r = 100\\pi\\text{ m}$. Thời gian đi 1 vòng (Chu kì) $T = S/v = 100\\pi / 10 = 10\\pi\\text{ s} \\approx 31,4\\text{ s}$."
     },
     {
       "id": "mc-c4-012",
@@ -6078,7 +6078,7 @@
         "1 giờ 10 phút"
       ],
       "answer": 0,
-      "explanation": "Tốc độ góc kim phút $\\omega_p = 2\\pi / 1\\text{h}$. Kim giờ $\\omega_h = 2\\pi / 12\\text{h}$. Góc quay: $\\omega_p t - \\omega_h t = 2\\pi \\Rightarrow (2\\pi - 2\\pi/12)t = 2\\pi \\Rightarrow (11/12)t = 1 \\Rightarrow t = 12/11\\text{ h} = 1\\text{h } 5\\text{ phút } 27\\text{ giây}."
+      "explanation": "Tốc độ góc kim phút $\\omega_p = 2\\pi / 1\\text{h}$. Kim giờ $\\omega_h = 2\\pi / 12\\text{h}$. Góc quay: $\\omega_p t - \\omega_h t = 2\\pi \\Rightarrow (2\\pi - 2\\pi/12)t = 2\\pi \\Rightarrow (11/12)t = 1 \\Rightarrow t = 12/11\\text{ h} = 1\\text{h } 5\\text{ phút } 27\\text{ giây}$."
     },
     {
       "id": "mc-c4-021",
@@ -6158,7 +6158,7 @@
         "20 N"
       ],
       "answer": 0,
-      "explanation": "$\\omega = 2\\pi / 2 = \\pi\\text{ rad/s}$. Lực căng dây đóng vai trò lực hướng tâm: $T = F_{ht} = m\\omega^2 r = 0.5 \\cdot 10 \\cdot 1 = 5\\text{ N}."
+      "explanation": "$\\omega = 2\\pi / 2 = \\pi\\text{ rad/s}$. Lực căng dây đóng vai trò lực hướng tâm: $T = F_{ht} = m\\omega^2 r = 0.5 \\cdot 10 \\cdot 1 = 5\\text{ N}$."
     },
     {
       "id": "mc-c4-026",
@@ -6174,7 +6174,7 @@
         "40 m/s"
       ],
       "answer": 0,
-      "explanation": "Lực ma sát nghỉ cực đại $\\mu mg$ đóng vai trò lực hướng tâm $m v^2 / r$. Để không trượt: $m v^2 / r \\le \\mu mg \\Rightarrow v \\le \\sqrt{\\mu gr} = \\sqrt{0.4 \\cdot 10 \\cdot 40} = \\sqrt{160} \u0007pprox 12,6\\text{ m/s}."
+      "explanation": "Lực ma sát nghỉ cực đại $\\mu mg$ đóng vai trò lực hướng tâm $m v^2 / r$. Để không trượt: $m v^2 / r \\le \\mu mg \\Rightarrow v \\le \\sqrt{\\mu gr} = \\sqrt{0.4 \\cdot 10 \\cdot 40} = \\sqrt{160} \\approx 12,6\\text{ m/s}$."
     },
     {
       "id": "mc-c4-027",
@@ -6334,7 +6334,7 @@
         "25 N"
       ],
       "answer": 0,
-      "explanation": "Độ giãn $\\Delta l = 25 - 20 = 5\\text{ cm} = 0.05\\text{ m}$. Lực $F = k\\Delta l = 50 \\times 0.05 = 2.5\\text{ N}."
+      "explanation": "Độ giãn $\\Delta l = 25 - 20 = 5\\text{ cm} = 0.05\\text{ m}$. Lực $F = k\\Delta l = 50 \\times 0.05 = 2.5\\text{ N}$."
     },
     {
       "id": "mc-c4-037",
@@ -6398,7 +6398,7 @@
         "5 kg"
       ],
       "answer": 0,
-      "explanation": "$S = 1\\text{ mm}^2 = 10^{-6}\\text{ m}^2$. Độ cứng $k = ES/l_0 = (2\\cdot 10^{11} \\cdot 10^{-6}) / 2 = 10^5\\text{ N/m}$. $\\Delta l = 1\\text{mm} = 10^{-3}\\text{m}$. Lực kéo $F = k\\Delta l = 10^5 \\cdot 10^{-3} = 100\\text{ N}$. Khối lượng vật $m = F/g = 10\\text{ kg}."
+      "explanation": "$S = 1\\text{ mm}^2 = 10^{-6}\\text{ m}^2$. Độ cứng $k = ES/l_0 = (2\\cdot 10^{11} \\cdot 10^{-6}) / 2 = 10^5\\text{ N/m}$. $\\Delta l = 1\\text{mm} = 10^{-3}\\text{m}$. Lực kéo $F = k\\Delta l = 10^5 \\cdot 10^{-3} = 100\\text{ N}$. Khối lượng vật $m = F/g = 10\\text{ kg}$."
     },
     {
       "id": "mc-c4-041",
@@ -6446,7 +6446,7 @@
         "$4\\text{ Pa}$"
       ],
       "answer": 0,
-      "explanation": "Áp lực $F = P = 600\\text{ N}$. Tổng diện tích $S = 2 \\times 150 = 300\\text{ cm}^2 = 0,03\\text{ m}^2$. Áp suất $p = F/S = 600 / 0,03 = 20000\\text{ Pa}."
+      "explanation": "Áp lực $F = P = 600\\text{ N}$. Tổng diện tích $S = 2 \\times 150 = 300\\text{ cm}^2 = 0,03\\text{ m}^2$. Áp suất $p = F/S = 600 / 0,03 = 20000\\text{ Pa}$."
     },
     {
       "id": "mc-c4-044",
@@ -6574,7 +6574,7 @@
         "11,5 N"
       ],
       "answer": 0,
-      "explanation": "Thành phần đứng của mỗi dây là $T_y = T\\cos 30^\\circ$. Có 2 dây nên $2 T\\cos 30^\\circ = P \\Rightarrow 2 T \\cdot (\\sqrt{3}/2) = 20 \\Rightarrow T\\sqrt{3} = 20 \\Rightarrow T = 20/\\sqrt{3} \u0007pprox 11,5\\text{ N}$."
+      "explanation": "Thành phần đứng của mỗi dây là $T_y = T\\cos 30^\\circ$. Có 2 dây nên $2 T\\cos 30^\\circ = P \\Rightarrow 2 T \\cdot (\\sqrt{3}/2) = 20 \\Rightarrow T\\sqrt{3} = 20 \\Rightarrow T = 20/\\sqrt{3} \\approx 11,5\\text{ N}$."
     },
     {
       "id": "mc-c4-052",
@@ -6606,7 +6606,7 @@
         "$9,8\\text{ m/s}^2$"
       ],
       "answer": 0,
-      "explanation": "$T = 60\\text{ s}$. $\\omega = 2\\pi / 60 = \\pi / 30\\text{ rad/s} \u0007pprox 0,105$. Gia tốc $a_{ht} = r\\omega^2 = 20 \\cdot (0,105)^2 \u0007pprox 0,22\\text{ m/s}^2$."
+      "explanation": "$T = 60\\text{ s}$. $\\omega = 2\\pi / 60 = \\pi / 30\\text{ rad/s} \\approx 0,105$. Gia tốc $a_{ht} = r\\omega^2 = 20 \\cdot (0,105)^2 \\approx 0,22\\text{ m/s}^2$."
     },
     {
       "id": "mc-c4-054",
@@ -6638,7 +6638,7 @@
         "33,3 N/m"
       ],
       "answer": 0,
-      "explanation": "Cắt làm 3, chiều dài mỗi đoạn giảm 3 lần $\\Rightarrow$ độ cứng mỗi đoạn tăng 3 lần ($k' = 300$). Ghép 3 đoạn song song $\\Rightarrow k_{songsong} = 300 + 300 + 300 = 900\\text{ N/m}."
+      "explanation": "Cắt làm 3, chiều dài mỗi đoạn giảm 3 lần $\\Rightarrow$ độ cứng mỗi đoạn tăng 3 lần ($k' = 300$). Ghép 3 đoạn song song $\\Rightarrow k_{songsong} = 300 + 300 + 300 = 900\\text{ N/m}$."
     },
     {
       "id": "mc-c4-056",
@@ -6782,7 +6782,7 @@
         "100 N.m"
       ],
       "answer": 0,
-      "explanation": "Cánh tay đòn $d = 20\\text{ cm} = 0.2\\text{ m}$. Lực vuông góc nên $d$ chính là chiều dài cờ lê. $M = F \\cdot d = 50 \\cdot 0.2 = 10\\text{ N.m}."
+      "explanation": "Cánh tay đòn $d = 20\\text{ cm} = 0.2\\text{ m}$. Lực vuông góc nên $d$ chính là chiều dài cờ lê. $M = F \\cdot d = 50 \\cdot 0.2 = 10\\text{ N.m}$."
     },
     {
       "id": "mc-c4-065",
@@ -6814,7 +6814,7 @@
         "40 kg"
       ],
       "answer": 0,
-      "explanation": "Quy tắc momen quanh O: $P_A \\cdot OA = P_B \\cdot OB \\Rightarrow (40\\cdot g) \\cdot 20 = (m_B \\cdot g) \\cdot 80 \\Rightarrow 40 \\cdot 20 = m_B \\cdot 80 \\Rightarrow 800 = 80 m_B \\Rightarrow m_B = 10\\text{ kg}."
+      "explanation": "Quy tắc momen quanh O: $P_A \\cdot OA = P_B \\cdot OB \\Rightarrow (40\\cdot g) \\cdot 20 = (m_B \\cdot g) \\cdot 80 \\Rightarrow 40 \\cdot 20 = m_B \\cdot 80 \\Rightarrow 800 = 80 m_B \\Rightarrow m_B = 10\\text{ kg}$."
     },
     {
       "id": "mc-c4-067",
@@ -6846,7 +6846,7 @@
         "0 N.m"
       ],
       "answer": 0,
-      "explanation": "Cánh tay đòn $d = OA \\sin 30^\\circ = 0.5 \\cdot 0.5 = 0.25\\text{m}$. $M = F \\cdot d = 100 \\cdot 0.25 = 25\\text{ N.m}."
+      "explanation": "Cánh tay đòn $d = OA \\sin 30^\\circ = 0.5 \\cdot 0.5 = 0.25\\text{m}$. $M = F \\cdot d = 100 \\cdot 0.25 = 25\\text{ N.m}$."
     },
     {
       "id": "mc-c4-069",
@@ -6894,7 +6894,7 @@
         "0 N.m"
       ],
       "answer": 0,
-      "explanation": "$M = F \\cdot d$, với $F$ là độ lớn của MỘT lực, $d$ là khoảng cách 2 lực (đường kính). $M = 10 \\times 0.4 = 4\\text{ N.m}."
+      "explanation": "$M = F \\cdot d$, với $F$ là độ lớn của MỘT lực, $d$ là khoảng cách 2 lực (đường kính). $M = 10 \\times 0.4 = 4\\text{ N.m}$."
     },
     {
       "id": "mc-c4-072",
@@ -7006,7 +7006,7 @@
         "1000 N"
       ],
       "answer": 0,
-      "explanation": "Trọng lượng xà $P_x = 2000\\text{N}$ (đặt tại giữa xà, cách A 5m). Trọng lượng người $P_n = 500\\text{N}$ (cách A 2m). Xét momen tại A: $N_B \\cdot 10 = P_n \\cdot 2 + P_x \\cdot 5 = 500 \\cdot 2 + 2000 \\cdot 5 = 1000 + 10000 = 11000 \\Rightarrow N_B = 1100\\text{ N}."
+      "explanation": "Trọng lượng xà $P_x = 2000\\text{N}$ (đặt tại giữa xà, cách A 5m). Trọng lượng người $P_n = 500\\text{N}$ (cách A 2m). Xét momen tại A: $N_B \\cdot 10 = P_n \\cdot 2 + P_x \\cdot 5 = 500 \\cdot 2 + 2000 \\cdot 5 = 1000 + 10000 = 11000 \\Rightarrow N_B = 1100\\text{ N}$."
     },
     {
       "id": "mc-c4-079",
@@ -7022,7 +7022,7 @@
         "500 N"
       ],
       "answer": 0,
-      "explanation": "Tổng lực đẩy lên = Tổng trọng lượng kéo xuống: $N_A + N_B = P_x + P_n \\Rightarrow N_A + 1100 = 2000 + 500 = 2500 \\Rightarrow N_A = 1400\\text{ N}."
+      "explanation": "Tổng lực đẩy lên = Tổng trọng lượng kéo xuống: $N_A + N_B = P_x + P_n \\Rightarrow N_A + 1100 = 2000 + 500 = 2500 \\Rightarrow N_A = 1400\\text{ N}$."
     },
     {
       "id": "mc-c4-080",
@@ -7038,7 +7038,7 @@
         "250 N"
       ],
       "answer": 0,
-      "explanation": "Tủ bị lật quanh mép đáy. Trọng lực tạo momen giữ $M_P = P \\cdot d_P = 500 \\times (0.8 / 2) = 200\\text{ N.m}$. Lực đẩy tạo momen lật $M_F = F \\cdot d_F = F \\times 2$. Để lật: $F \times 2 > 200 \\Rightarrow F > 100\\text{ N}."
+      "explanation": "Tủ bị lật quanh mép đáy. Trọng lực tạo momen giữ $M_P = P \\cdot d_P = 500 \\times (0.8 / 2) = 200\\text{ N.m}$. Lực đẩy tạo momen lật $M_F = F \\cdot d_F = F \\times 2$. Để lật: $F \\times 2 > 200 \\Rightarrow F > 100\\text{ N}$."
     },
     {
       "id": "mc-c4-081",
@@ -7102,7 +7102,7 @@
         "200 N"
       ],
       "answer": 0,
-      "explanation": "$F_A = \\rho_l g V_{\\text{chìm}} = 1000 \\times 10 \\times 0.002 = 20\\text{ N}."
+      "explanation": "$F_A = \\rho_l g V_{\\text{chìm}} = 1000 \\times 10 \\times 0.002 = 20\\text{ N}$."
     },
     {
       "id": "mc-c4-085",
@@ -7118,7 +7118,7 @@
         "$10\\text{ m}^3$"
       ],
       "answer": 0,
-      "explanation": "Độ giảm trọng lượng khi ở trong nước chính là Lực đẩy Acsimet: $F_A = 50 - 40 = 10\\text{ N}$. Lại có $F_A = \\rho g V \\Rightarrow 10 = 1000 \\times 10 \times V \\Rightarrow 10000 V = 10 \\Rightarrow V = 0,001\\text{ m}^3$."
+      "explanation": "Độ giảm trọng lượng khi ở trong nước chính là Lực đẩy Acsimet: $F_A = 50 - 40 = 10\\text{ N}$. Lại có $F_A = \\rho g V \\Rightarrow 10 = 1000 \\times 10 \\times V \\Rightarrow 10000 V = 10 \\Rightarrow V = 0,001\\text{ m}^3$."
     },
     {
       "id": "mc-c4-086",
@@ -7150,7 +7150,7 @@
         "$1000\\text{ m}^3$"
       ],
       "answer": 0,
-      "explanation": "Tàu nổi nên $P = F_A \\Rightarrow m \\cdot g = \\rho \\cdot V_c \\cdot g \\Rightarrow V_c = m / \\rho = (5,000,000\\text{ kg}) / 1025 \u0007pprox 4878\\text{ m}^3$."
+      "explanation": "Tàu nổi nên $P = F_A \\Rightarrow m \\cdot g = \\rho \\cdot V_c \\cdot g \\Rightarrow V_c = m / \\rho = (5,000,000\\text{ kg}) / 1025 \\approx 4878\\text{ m}^3$."
     },
     {
       "id": "mc-c4-088",
@@ -7166,7 +7166,7 @@
         "136 cm"
       ],
       "answer": 0,
-      "explanation": "Áp suất tại đáy cột nước (trên mặt tiếp xúc thủy ngân) phải bằng áp suất trong cột thủy ngân ở cùng độ cao ngang đó bên nhánh phải. $\\rho_{nước} g h_{nước} = \\rho_{Hg} g h \\Rightarrow 1000 \\times 13.6 = 13600 \times h \\Rightarrow 13600 = 13600 h \\Rightarrow h = 1\\text{ cm}."
+      "explanation": "Áp suất tại đáy cột nước (trên mặt tiếp xúc thủy ngân) phải bằng áp suất trong cột thủy ngân ở cùng độ cao ngang đó bên nhánh phải. $\\rho_{nước} g h_{nước} = \\rho_{Hg} g h \\Rightarrow 1000 \\times 13.6 = 13600 \\times h \\Rightarrow 13600 = 13600 h \\Rightarrow h = 1\\text{ cm}$."
     },
     {
       "id": "mc-c4-089",
@@ -7230,7 +7230,7 @@
         "400 cm/s"
       ],
       "answer": 0,
-      "explanation": "$S_1 v_1 = S_2 v_2 \\Rightarrow v_2 = v_1 \\cdot (S_1/S_2) = 1 \\cdot 20 = 20\\text{ cm/s}."
+      "explanation": "$S_1 v_1 = S_2 v_2 \\Rightarrow v_2 = v_1 \\cdot (S_1/S_2) = 1 \\cdot 20 = 20\\text{ cm/s}$."
     },
     {
       "id": "mc-c4-093",
@@ -7246,7 +7246,7 @@
         "1,0 atm"
       ],
       "answer": 0,
-      "explanation": "$p_A + 0.5\\rho v_A^2 = p_B + 0.5\\rho v_B^2 \\Rightarrow 150000 + 0.5(1000)(4) = p_B + 0.5(1000)(16) \\Rightarrow 152000 = p_B + 8000 \\Rightarrow p_B = 144000\\text{ Pa} = 1,44\\text{ atm}."
+      "explanation": "$p_A + 0.5\\rho v_A^2 = p_B + 0.5\\rho v_B^2 \\Rightarrow 150000 + 0.5(1000)(4) = p_B + 0.5(1000)(16) \\Rightarrow 152000 = p_B + 8000 \\Rightarrow p_B = 144000\\text{ Pa} = 1,44\\text{ atm}$."
     },
     {
       "id": "mc-c4-094",
@@ -7326,7 +7326,7 @@
         "Nhiệt độ của không khí"
       ],
       "answer": 0,
-      "explanation": "$mg = G \frac{mM}{R^2} \\Rightarrow g = G \frac{M}{R^2}$, phụ thuộc vào khối lượng $M$ và bán kính $R$ của hành tinh, không phụ thuộc khối lượng vật $m$."
+      "explanation": "$mg = G \\frac{mM}{R^2} \\Rightarrow g = G \\frac{M}{R^2}$, phụ thuộc vào khối lượng $M$ và bán kính $R$ của hành tinh, không phụ thuộc khối lượng vật $m$."
     },
     {
       "id": "mc-c4-099",
@@ -7342,7 +7342,7 @@
         "$h = 2R$"
       ],
       "answer": 0,
-      "explanation": "$g' = G \frac{M}{(R+h)^2}$. $g = G \frac{M}{R^2}$. Để $g' = 0.5 g \\Rightarrow (R+h)^2 = 2 R^2 \\Rightarrow R+h = R\\sqrt{2} \\Rightarrow h = R(\\sqrt{2}-1) \u0007pprox 0.414 R$."
+      "explanation": "$g' = G \\frac{M}{(R+h)^2}$. $g = G \\frac{M}{R^2}$. Để $g' = 0.5 g \\Rightarrow (R+h)^2 = 2 R^2 \\Rightarrow R+h = R\\sqrt{2} \\Rightarrow h = R(\\sqrt{2}-1) \\approx 0.414 R$."
     },
     {
       "id": "mc-c4-100",
@@ -7398,7 +7398,7 @@
       "lesson": "b42",
       "level": "vd",
       "dang": "Định luật Kepler 3",
-      "question": "Hành tinh Mộc (Jupiter) có bán kính quỹ đạo lớn gấp khoảng 5,2 lần bán kính quỹ đạo Trái Đất. Theo định luật Kepler 3 ($T^2/R^3 = \text{const}$), chu kì quay quanh Mặt Trời của sao Mộc xấp xỉ:",
+      "question": "Hành tinh Mộc (Jupiter) có bán kính quỹ đạo lớn gấp khoảng 5,2 lần bán kính quỹ đạo Trái Đất. Theo định luật Kepler 3 ($T^2/R^3 = \\text{const}$), chu kì quay quanh Mặt Trời của sao Mộc xấp xỉ:",
       "choices": [
         "11,9 năm Trái Đất",
         "5,2 năm Trái Đất",
@@ -7406,7 +7406,7 @@
         "1 năm Trái Đất"
       ],
       "answer": 0,
-      "explanation": "$(T_M/T_D)^2 = (R_M/R_D)^3 \\Rightarrow (T_M/1)^2 = (5.2)^3 \u0007pprox 140.6 \\Rightarrow T_M = \\sqrt{140.6} \u0007pprox 11,86 \u0007pprox 11,9\\text{ năm}."
+      "explanation": "$(T_M/T_D)^2 = (R_M/R_D)^3 \\Rightarrow (T_M/1)^2 = (5.2)^3 \\approx 140.6 \\Rightarrow T_M = \\sqrt{140.6} \\approx 11,86 \\approx 11,9\\text{ năm}$."
     },
     {
       "id": "mc-c4-104",
@@ -7422,7 +7422,7 @@
         "$9,8\\text{ km/s}$"
       ],
       "answer": 0,
-      "explanation": "Trọng lực là lực hướng tâm: $mg = m v^2 / R \\Rightarrow v = \\sqrt{gR} = \\sqrt{9.8 \times 6400 \times 1000} = \\sqrt{62720000} \u0007pprox 7920\\text{ m/s} \u0007pprox 7,9\\text{ km/s}."
+      "explanation": "Trọng lực là lực hướng tâm: $mg = m v^2 / R \\Rightarrow v = \\sqrt{gR} = \\sqrt{9.8 \\times 6400 \\times 1000} = \\sqrt{62720000} \\approx 7920\\text{ m/s} \\approx 7,9\\text{ km/s}$."
     },
     {
       "id": "mc-c4-105",
@@ -7438,7 +7438,7 @@
         "6 N"
       ],
       "answer": 0,
-      "explanation": "Tại VTCB, quỹ đạo có bán kính cong r = l. Hợp lực hướng tâm $T - P = m v^2 / l \\Rightarrow T = mg + m v^2 / l = 1\\cdot 10 + 1\\cdot 2^2 / 1 = 10 + 4 = 14\\text{ N}."
+      "explanation": "Tại VTCB, quỹ đạo có bán kính cong r = l. Hợp lực hướng tâm $T - P = m v^2 / l \\Rightarrow T = mg + m v^2 / l = 1\\cdot 10 + 1\\cdot 2^2 / 1 = 10 + 4 = 14\\text{ N}$."
     },
     {
       "id": "mc-c4-106",
@@ -7470,7 +7470,7 @@
         "Không bao giờ xảy ra"
       ],
       "answer": 0,
-      "explanation": "Tại đỉnh cầu: $P - N = m v^2 / R$. Nếu $N = 0 \\Rightarrow P = m v^2 / R \\Rightarrow mg = m v^2 / R \\Rightarrow v = \\sqrt{gR} = \\sqrt{10 \\times 100} = \\sqrt{1000} \u0007pprox 31,6\\text{ m/s}."
+      "explanation": "Tại đỉnh cầu: $P - N = m v^2 / R$. Nếu $N = 0 \\Rightarrow P = m v^2 / R \\Rightarrow mg = m v^2 / R \\Rightarrow v = \\sqrt{gR} = \\sqrt{10 \\times 100} = \\sqrt{1000} \\approx 31,6\\text{ m/s}$."
     },
     {
       "id": "mc-c4-108",
@@ -7486,7 +7486,7 @@
         "0,05 m"
       ],
       "answer": 0,
-      "explanation": "Bảo toàn cơ năng: Chọn mốc thế năng trọng trường tại vị trí lò xo nén cực đại (dưới đất x). Thế năng đầu $mg(h+x)$. Thế năng cuối (tại đó vận tốc = 0) chỉ còn đàn hồi $0.5 k x^2$. $mg(h+x) = 0.5 k x^2 \\Rightarrow 10(5+x) = 500 x^2 \\Rightarrow 500x^2 - 10x - 50 = 0 \\Rightarrow 50x^2 - x - 5 = 0$. $x = \\frac{1 + \\sqrt{1 + 1000}}{100} \u0007pprox 32.6/100 = 0.32\\text{ m}."
+      "explanation": "Bảo toàn cơ năng: Chọn mốc thế năng trọng trường tại vị trí lò xo nén cực đại (dưới đất x). Thế năng đầu $mg(h+x)$. Thế năng cuối (tại đó vận tốc = 0) chỉ còn đàn hồi $0.5 k x^2$. $mg(h+x) = 0.5 k x^2 \\Rightarrow 10(5+x) = 500 x^2 \\Rightarrow 500x^2 - 10x - 50 = 0 \\Rightarrow 50x^2 - x - 5 = 0$. $x = \\frac{1 + \\sqrt{1 + 1000}}{100} \\approx 32.6/100 = 0.32\\text{ m}$."
     },
     {
       "id": "mc-c4-109",
@@ -7502,7 +7502,7 @@
         "Nằm ở mép đối diện"
       ],
       "answer": 0,
-      "explanation": "Dùng phương pháp khối lượng âm (lỗ khoét coi như đĩa có $m_{am}$). Đĩa lớn bán kính R khối lượng M (tâm O, tọa độ 0). Lỗ bán kính R/2 khối lượng -M/4 (tâm O1, tọa độ R/2). Trọng tâm $X = \frac{M(0) + (-M/4)(R/2)}{M - M/4} = \frac{-MR/8}{3M/4} = -R/6$. Tức là dịch ra phía xa lỗ đoạn R/6."
+      "explanation": "Dùng phương pháp khối lượng âm (lỗ khoét coi như đĩa có $m_{am}$). Đĩa lớn bán kính R khối lượng M (tâm O, tọa độ 0). Lỗ bán kính R/2 khối lượng -M/4 (tâm O1, tọa độ R/2). Trọng tâm $X = \\frac{M(0) + (-M/4)(R/2)}{M - M/4} = \\frac{-MR/8}{3M/4} = -R/6$. Tức là dịch ra phía xa lỗ đoạn R/6."
     },
     {
       "id": "mc-c4-110",
@@ -7550,7 +7550,7 @@
         "16 m/s"
       ],
       "answer": 0,
-      "explanation": "Bóp 3/4 tức là diện tích còn hở $S_2 = S_1/4$. Phương trình liên tục $S_1 v_1 = S_2 v_2 \\Rightarrow v_2 = v_1 \\cdot (S_1 / (S_1/4)) = 4 v_1 = 4\\text{ m/s}."
+      "explanation": "Bóp 3/4 tức là diện tích còn hở $S_2 = S_1/4$. Phương trình liên tục $S_1 v_1 = S_2 v_2 \\Rightarrow v_2 = v_1 \\cdot (S_1 / (S_1/4)) = 4 v_1 = 4\\text{ m/s}$."
     },
     {
       "id": "mc-c4-113",
@@ -7598,7 +7598,7 @@
         "40 cm"
       ],
       "answer": 0,
-      "explanation": "Hệ nối tiếp $1/k = 1/100 + 1/100 = 2/100 \\Rightarrow k = 50\\text{ N/m}$. Trọng lượng $P = 10\\text{ N}$. $\\Delta l = P / k = 10 / 50 = 0.2\\text{ m} = 20\\text{ cm}."
+      "explanation": "Hệ nối tiếp $1/k = 1/100 + 1/100 = 2/100 \\Rightarrow k = 50\\text{ N/m}$. Trọng lượng $P = 10\\text{ N}$. $\\Delta l = P / k = 10 / 50 = 0.2\\text{ m} = 20\\text{ cm}$."
     },
     {
       "id": "mc-c4-116",
@@ -7662,7 +7662,7 @@
         "5000 N"
       ],
       "answer": 0,
-      "explanation": "Chênh lệch áp suất $\\Delta p = 10^5 - 10^4 = 9\\cdot 10^4\\text{ Pa}$. $S = 0.005\\text{ m}^2$. $F = \\Delta p \\cdot S = 90000 \times 0.005 = 450\\text{ N}."
+      "explanation": "Chênh lệch áp suất $\\Delta p = 10^5 - 10^4 = 9\\cdot 10^4\\text{ Pa}$. $S = 0.005\\text{ m}^2$. $F = \\Delta p \\cdot S = 90000 \\times 0.005 = 450\\text{ N}$."
     },
     {
       "id": "mc-c4-120",
@@ -7774,7 +7774,7 @@
         "$12,04 \\cdot 10^{23}$ phân tử"
       ],
       "answer": 0,
-      "explanation": "Số mol $n = m/M = 16/32 = 0,5\\text{ mol}$. Số phân tử $N = n \\cdot N_A = 0.5 \times 6,02 \\cdot 10^{23} = 3,01 \\cdot 10^{23}$ phân tử."
+      "explanation": "Số mol $n = m/M = 16/32 = 0,5\\text{ mol}$. Số phân tử $N = n \\cdot N_A = 0.5 \\times 6,02 \\cdot 10^{23} = 3,01 \\cdot 10^{23}$ phân tử."
     },
     {
       "id": "mc-c5-007",
@@ -7790,7 +7790,7 @@
         "2 g"
       ],
       "answer": 0,
-      "explanation": "Khối lượng 1 phân tử $m_0 = M / N_A = 2 / (6,02 \\cdot 10^{23}) \u0007pprox 0,332 \\cdot 10^{-23} = 3,32 \\cdot 10^{-24}\\text{ g}."
+      "explanation": "Khối lượng 1 phân tử $m_0 = M / N_A = 2 / (6,02 \\cdot 10^{23}) \\approx 0,332 \\cdot 10^{-23} = 3,32 \\cdot 10^{-24}\\text{ g}$."
     },
     {
       "id": "mc-c5-008",
@@ -7806,7 +7806,7 @@
         "$3 \\cdot 10^{22}$ phân tử"
       ],
       "answer": 0,
-      "explanation": "$N = n \\cdot V = 3 \\cdot 10^{25} \times 0.002 = 6 \\cdot 10^{22}$ phân tử."
+      "explanation": "$N = n \\cdot V = 3 \\cdot 10^{25} \\times 0.002 = 6 \\cdot 10^{22}$ phân tử."
     },
     {
       "id": "mc-c5-009",
@@ -7950,7 +7950,7 @@
         "$1,5\\cdot 10^5\\text{ Pa}$"
       ],
       "answer": 0,
-      "explanation": "$p_1 V_1 = p_2 V_2 \\Rightarrow 2\\cdot 10^5 \times 150 = p_2 \times 100 \\Rightarrow p_2 = (2\\cdot 10^5 \times 150) / 100 = 3\\cdot 10^5\\text{ Pa}."
+      "explanation": "$p_1 V_1 = p_2 V_2 \\Rightarrow 2\\cdot 10^5 \\times 150 = p_2 \\times 100 \\Rightarrow p_2 = (2\\cdot 10^5 \\times 150) / 100 = 3\\cdot 10^5\\text{ Pa}$."
     },
     {
       "id": "mc-c5-018",
@@ -7958,7 +7958,7 @@
       "lesson": "b45",
       "level": "vd",
       "dang": "Áp suất bọt khí",
-      "question": "Một bọt khí nổi từ đáy hồ sâu 10m lên mặt nước. Coi nhiệt độ nước hồ không đổi theo độ sâu, áp suất khí quyển là $10^5\\text{ Pa} (\u0007pprox 1\\text{ atm})$. Thể tích bọt khí khi lên đến mặt nước so với lúc ở đáy hồ sẽ:",
+      "question": "Một bọt khí nổi từ đáy hồ sâu 10m lên mặt nước. Coi nhiệt độ nước hồ không đổi theo độ sâu, áp suất khí quyển là $10^5\\text{ Pa} (\\approx 1\\text{ atm})$. Thể tích bọt khí khi lên đến mặt nước so với lúc ở đáy hồ sẽ:",
       "choices": [
         "Tăng gấp 2 lần",
         "Tăng gấp 10 lần",
@@ -7966,7 +7966,7 @@
         "Không đổi"
       ],
       "answer": 0,
-      "explanation": "Áp suất ở đáy hồ $p_1 = p_{kq} + \rho g h = 10^5 + 1000 \\cdot 10 \\cdot 10 = 2 \\cdot 10^5\\text{ Pa}$. Áp suất mặt nước $p_2 = 10^5\\text{ Pa}$. Do đẳng nhiệt $p_1 V_1 = p_2 V_2 \\Rightarrow (2 \\cdot 10^5)V_1 = (10^5)V_2 \\Rightarrow V_2 = 2 V_1$. (Tăng gấp đôi)."
+      "explanation": "Áp suất ở đáy hồ $p_1 = p_{kq} + \\rho g h = 10^5 + 1000 \\cdot 10 \\cdot 10 = 2 \\cdot 10^5\\text{ Pa}$. Áp suất mặt nước $p_2 = 10^5\\text{ Pa}$. Do đẳng nhiệt $p_1 V_1 = p_2 V_2 \\Rightarrow (2 \\cdot 10^5)V_1 = (10^5)V_2 \\Rightarrow V_2 = 2 V_1$. (Tăng gấp đôi)."
     },
     {
       "id": "mc-c5-019",
@@ -7982,7 +7982,7 @@
         "Giảm 83,3%"
       ],
       "answer": 0,
-      "explanation": "$p_2 = 1.2 p_1$. $V_2 = p_1 V_1 / p_2 = V_1 / 1.2 \u0007pprox 0.8333 V_1$. Tức là còn 83,33%. Vậy nó đã GIẢM $100 - 83.33 = 16.67\\%$ (Bẫy: Tăng 20% p thì V không giảm 20%)."
+      "explanation": "$p_2 = 1.2 p_1$. $V_2 = p_1 V_1 / p_2 = V_1 / 1.2 \\approx 0.8333 V_1$. Tức là còn 83,33%. Vậy nó đã GIẢM $100 - 83.33 = 16.67\\%$ (Bẫy: Tăng 20% p thì V không giảm 20%)."
     },
     {
       "id": "mc-c5-020",
@@ -8046,7 +8046,7 @@
         "Đường thẳng vuông góc với trục p"
       ],
       "answer": 0,
-      "explanation": "Vì $p = (\text{const}) \\cdot T$, đồ thị là đường thẳng đi qua gốc tọa độ O. (Vẽ nét đứt ở gần 0 K vì khí sẽ hóa lỏng trước khi đạt 0 K)."
+      "explanation": "Vì $p = (\\text{const}) \\cdot T$, đồ thị là đường thẳng đi qua gốc tọa độ O. (Vẽ nét đứt ở gần 0 K vì khí sẽ hóa lỏng trước khi đạt 0 K)."
     },
     {
       "id": "mc-c5-024",
@@ -8078,7 +8078,7 @@
         "2,0 atm"
       ],
       "answer": 0,
-      "explanation": "Phải đổi ra Kelvin: $T_1 = 27 + 273 = 300\\text{ K}$. $T_2 = 57 + 273 = 330\\text{ K}$. Quá trình đẳng tích: $p_1 / T_1 = p_2 / T_2 \\Rightarrow 2 / 300 = p_2 / 330 \\Rightarrow p_2 = 2 \times 330 / 300 = 660 / 300 = 2,2\\text{ atm}."
+      "explanation": "Phải đổi ra Kelvin: $T_1 = 27 + 273 = 300\\text{ K}$. $T_2 = 57 + 273 = 330\\text{ K}$. Quá trình đẳng tích: $p_1 / T_1 = p_2 / T_2 \\Rightarrow 2 / 300 = p_2 / 330 \\Rightarrow p_2 = 2 \\times 330 / 300 = 660 / 300 = 2,2\\text{ atm}$."
     },
     {
       "id": "mc-c5-026",
@@ -8094,7 +8094,7 @@
         "$322,3^\\circ\\text{C}$"
       ],
       "answer": 0,
-      "explanation": "$T_1 = 20 + 273 = 293\\text{ K}$. Áp suất sau $p_2 = 1.1 p_0$. Ta có $p_2 / T_2 = p_1 / T_1 \\Rightarrow 1.1 p_0 / T_2 = p_0 / 293 \\Rightarrow T_2 = 1.1 \times 293 = 322,3\\text{ K}$. Nhiệt độ Celsius $t_2 = 322,3 - 273 = 49,3^\\circ\\text{C}$."
+      "explanation": "$T_1 = 20 + 273 = 293\\text{ K}$. Áp suất sau $p_2 = 1.1 p_0$. Ta có $p_2 / T_2 = p_1 / T_1 \\Rightarrow 1.1 p_0 / T_2 = p_0 / 293 \\Rightarrow T_2 = 1.1 \\times 293 = 322,3\\text{ K}$. Nhiệt độ Celsius $t_2 = 322,3 - 273 = 49,3^\\circ\\text{C}$."
     },
     {
       "id": "mc-c5-027",
@@ -8174,7 +8174,7 @@
         "Đường parabol"
       ],
       "answer": 0,
-      "explanation": "Do $V = (\text{const}) \\cdot T$, đồ thị $V$ theo $T$ là một đường thẳng đi qua gốc tọa độ O."
+      "explanation": "Do $V = (\\text{const}) \\cdot T$, đồ thị $V$ theo $T$ là một đường thẳng đi qua gốc tọa độ O."
     },
     {
       "id": "mc-c5-032",
@@ -8206,7 +8206,7 @@
         "20 lít"
       ],
       "answer": 0,
-      "explanation": "$T_1 = 300\\text{ K}$, $V_1 = 10\\text{ L}$. $T_2 = 87 + 273 = 360\\text{ K}$. $V_1/T_1 = V_2/T_2 \\Rightarrow 10/300 = V_2/360 \\Rightarrow V_2 = 360 \times 10 / 300 = 12\\text{ L}."
+      "explanation": "$T_1 = 300\\text{ K}$, $V_1 = 10\\text{ L}$. $T_2 = 87 + 273 = 360\\text{ K}$. $V_1/T_1 = V_2/T_2 \\Rightarrow 10/300 = V_2/360 \\Rightarrow V_2 = 360 \\times 10 / 300 = 12\\text{ L}$."
     },
     {
       "id": "mc-c5-034",
@@ -8334,7 +8334,7 @@
         "10 atm"
       ],
       "answer": 0,
-      "explanation": "$T_1 = 300\\text{ K}, V_1 = 10, p_1 = 1$. $T_2 = 177 + 273 = 450\\text{ K}, V_2 = 2$. $p_1V_1/T_1 = p_2V_2/T_2 \\Rightarrow (1 \\cdot 10)/300 = (p_2 \\cdot 2)/450 \\Rightarrow 1/30 = 2 p_2 / 450 \\Rightarrow p_2 = 450 / 60 = 7,5\\text{ atm}."
+      "explanation": "$T_1 = 300\\text{ K}, V_1 = 10, p_1 = 1$. $T_2 = 177 + 273 = 450\\text{ K}, V_2 = 2$. $p_1V_1/T_1 = p_2V_2/T_2 \\Rightarrow (1 \\cdot 10)/300 = (p_2 \\cdot 2)/450 \\Rightarrow 1/30 = 2 p_2 / 450 \\Rightarrow p_2 = 450 / 60 = 7,5\\text{ atm}$."
     },
     {
       "id": "mc-c5-042",
@@ -8366,7 +8366,7 @@
         "15%"
       ],
       "answer": 0,
-      "explanation": "Vì V bình không đổi: $p_1 V = n_1 R T_1$ và $p_2 V = n_2 R T_2$. Lập tỉ số $n_2/n_1 = (p_2/T_2) / (p_1/T_1) = (30/285) / (40/300) = (30/40) \\cdot (300/285) = 0.75 \\cdot 1.0526 \u0007pprox 0.789$ (tức 79% còn lại). Đã hụt mất 21%."
+      "explanation": "Vì V bình không đổi: $p_1 V = n_1 R T_1$ và $p_2 V = n_2 R T_2$. Lập tỉ số $n_2/n_1 = (p_2/T_2) / (p_1/T_1) = (30/285) / (40/300) = (30/40) \\cdot (300/285) = 0.75 \\cdot 1.0526 \\approx 0.789$ (tức 79% còn lại). Đã hụt mất 21%."
     },
     {
       "id": "mc-c5-044",
@@ -8382,7 +8382,7 @@
         "$0,22\\text{ kg/m}^3$"
       ],
       "answer": 0,
-      "explanation": "Khối lượng riêng $\\rho = m/V$. Từ $pV = (m/M)RT \\Rightarrow m/V = pM / RT$. Lưu ý M phải đổi ra kg/mol (0,028). $\\rho = (2\\cdot 10^5 \\cdot 0,028) / (8,31 \\cdot 300) = 5600 / 2493 \u0007pprox 2,25\\text{ kg/m}^3$."
+      "explanation": "Khối lượng riêng $\\rho = m/V$. Từ $pV = (m/M)RT \\Rightarrow m/V = pM / RT$. Lưu ý M phải đổi ra kg/mol (0,028). $\\rho = (2\\cdot 10^5 \\cdot 0,028) / (8,31 \\cdot 300) = 5600 / 2493 \\approx 2,25\\text{ kg/m}^3$."
     },
     {
       "id": "mc-c5-045",
@@ -8446,7 +8446,7 @@
         "15 cm"
       ],
       "answer": 0,
-      "explanation": "Lúc ngang: Áp suất khí $p_1 = p_0 = 76\\text{ cmHg}$. Thể tích $V_1 = S \\cdot 20$. Lúc đứng: Áp suất khí $p_2 = p_0 + h_{Hg} = 76 + 10 = 86\\text{ cmHg}$. Thể tích $V_2 = S \\cdot l$. $p_1 V_1 = p_2 V_2 \\Rightarrow 76 \times 20 = 86 \times l \\Rightarrow l = 1520 / 86 \u0007pprox 17,67\\text{ cm}."
+      "explanation": "Lúc ngang: Áp suất khí $p_1 = p_0 = 76\\text{ cmHg}$. Thể tích $V_1 = S \\cdot 20$. Lúc đứng: Áp suất khí $p_2 = p_0 + h_{Hg} = 76 + 10 = 86\\text{ cmHg}$. Thể tích $V_2 = S \\cdot l$. $p_1 V_1 = p_2 V_2 \\Rightarrow 76 \\times 20 = 86 \\times l \\Rightarrow l = 1520 / 86 \\approx 17,67\\text{ cm}$."
     },
     {
       "id": "mc-c5-049",
@@ -8462,7 +8462,7 @@
         "25 cm"
       ],
       "answer": 0,
-      "explanation": "Lúc hở quay xuống, giọt Hg kéo màng khí xuống làm áp suất giảm: $p_3 = p_0 - h_{Hg} = 76 - 10 = 66\\text{ cmHg}$. $76 \times 20 = 66 \times l' \\Rightarrow l' = 1520 / 66 \u0007pprox 23,03\\text{ cm}."
+      "explanation": "Lúc hở quay xuống, giọt Hg kéo màng khí xuống làm áp suất giảm: $p_3 = p_0 - h_{Hg} = 76 - 10 = 66\\text{ cmHg}$. $76 \\times 20 = 66 \\times l' \\Rightarrow l' = 1520 / 66 \\approx 23,03\\text{ cm}$."
     },
     {
       "id": "mc-c5-050",
@@ -8478,7 +8478,7 @@
         "1,2 atm"
       ],
       "answer": 0,
-      "explanation": "Bảo toàn số mol $n = n_1 + n_2 \\Rightarrow \frac{p V}{RT} = \frac{p_1 V_1}{RT} + \frac{p_2 V_2}{RT}$. Đẳng nhiệt nên: $p(V_1+V_2) = p_1 V_1 + p_2 V_2 \\Rightarrow p \times 5 = 1 \times 2 + 2 \times 3 = 8 \\Rightarrow p = 8/5 = 1,6\\text{ atm}."
+      "explanation": "Bảo toàn số mol $n = n_1 + n_2 \\Rightarrow \\frac{p V}{RT} = \\frac{p_1 V_1}{RT} + \\frac{p_2 V_2}{RT}$. Đẳng nhiệt nên: $p(V_1+V_2) = p_1 V_1 + p_2 V_2 \\Rightarrow p \\times 5 = 1 \\times 2 + 2 \\times 3 = 8 \\Rightarrow p = 8/5 = 1,6\\text{ atm}$."
     },
     {
       "id": "mc-c5-051",
@@ -8510,7 +8510,7 @@
         "$p = \\frac{3}{2} n W_d$"
       ],
       "answer": 0,
-      "explanation": "Công thức cơ bản: $p = \\frac{1}{3} m_0 n \\overline{v^2} = \\frac{2}{3} n \\left(\\frac{1}{2} m_0 \\overline{v^2}\right) = \\frac{2}{3} n W_d$."
+      "explanation": "Công thức cơ bản: $p = \\frac{1}{3} m_0 n \\overline{v^2} = \\frac{2}{3} n \\left(\\frac{1}{2} m_0 \\overline{v^2}\\right) = \\frac{2}{3} n W_d$."
     },
     {
       "id": "mc-c5-053",
@@ -8558,7 +8558,7 @@
         "20 atm"
       ],
       "answer": 0,
-      "explanation": "Lượng khí ban đầu trong lốp: $n_0 \\sim p_0 V_0 = 1 \times 2 = 2$. Mỗi lần bơm nhồi thêm $p_b V_b = 1 \times 0.1 = 0.1$. 20 lần nhồi vào $20 \times 0.1 = 2$. Tổng lượng khí: $2 + 2 = 4$. Áp suất mới: $p = 4 / V_{lốp} = 4 / 2 = 2\\text{ atm}."
+      "explanation": "Lượng khí ban đầu trong lốp: $n_0 \\sim p_0 V_0 = 1 \\times 2 = 2$. Mỗi lần bơm nhồi thêm $p_b V_b = 1 \\times 0.1 = 0.1$. 20 lần nhồi vào $20 \\times 0.1 = 2$. Tổng lượng khí: $2 + 2 = 4$. Áp suất mới: $p = 4 / V_{lốp} = 4 / 2 = 2\\text{ atm}$."
     },
     {
       "id": "mc-c5-056",
@@ -8600,9 +8600,9 @@
       "dang": "Bài toán pittông cân bằng",
       "question": "Một xilanh đặt thẳng đứng có pittông nặng (diện tích S, khối lượng m) đậy kín. Áp suất khí quyển là $p_0$. Áp suất khí $p$ bên trong xilanh ở trạng thái cân bằng được tính bởi:",
       "choices": [
-        "$p = p_0 + \frac{mg}{S}$",
-        "$p = p_0 - \frac{mg}{S}$",
-        "$p = \frac{mg}{S}$",
+        "$p = p_0 + \\frac{mg}{S}$",
+        "$p = p_0 - \\frac{mg}{S}$",
+        "$p = \\frac{mg}{S}$",
         "$p = p_0$"
       ],
       "answer": 0,
@@ -8616,10 +8616,10 @@
       "dang": "Xilanh lật ngược",
       "question": "Từ câu trên ($p = p_0 + mg/S$), nếu ta lật ngược xilanh (pittông vẫn đóng kín, hướng xuống đất). Áp suất khí bên trong lúc này là:",
       "choices": [
-        "$p' = p_0 - \frac{mg}{S}$",
-        "$p' = p_0 + \frac{mg}{S}$",
+        "$p' = p_0 - \\frac{mg}{S}$",
+        "$p' = p_0 + \\frac{mg}{S}$",
         "$p' = p_0$",
-        "$p' = \frac{mg}{S}$"
+        "$p' = \\frac{mg}{S}$"
       ],
       "answer": 0,
       "explanation": "Lúc lật ngược, khí bên trong cùng với khí quyển (hướng lên) phải đỡ lấy trọng lượng pittông có xu hướng tuột xuống. Lực ép vào của khí quyển $p_0 S = p' S + mg \\Rightarrow p' = p_0 - mg/S$."
@@ -8734,7 +8734,7 @@
         "Tăng 250 J"
       ],
       "answer": 0,
-      "explanation": "Bình kín là quá trình đẳng tích $\\Rightarrow \\Delta V = 0 \\Rightarrow A = 0$ (khí không sinh công). $\\Delta U = A + Q = 0 + 500 = 500\\text{ J}."
+      "explanation": "Bình kín là quá trình đẳng tích $\\Rightarrow \\Delta V = 0 \\Rightarrow A = 0$ (khí không sinh công). $\\Delta U = A + Q = 0 + 500 = 500\\text{ J}$."
     },
     {
       "id": "mc-c5-067",
@@ -8766,7 +8766,7 @@
         "400 J"
       ],
       "answer": 0,
-      "explanation": "Khí giãn nở thực hiện công $A' = p\\Delta V = 2\\cdot 10^5 \\times (0,005 - 0,002) = 2\\cdot 10^5 \times 0,003 = 600\\text{ J}$. (Công khí thực hiện $A'=600$, công khí nhận $A=-600$). Tùy cách hỏi, nếu hỏi \"công khối khí thực hiện\" thì nó là giá trị độ lớn 600 J."
+      "explanation": "Khí giãn nở thực hiện công $A' = p\\Delta V = 2\\cdot 10^5 \\times (0,005 - 0,002) = 2\\cdot 10^5 \\times 0,003 = 600\\text{ J}$. (Công khí thực hiện $A'=600$, công khí nhận $A=-600$). Tùy cách hỏi, nếu hỏi \"công khối khí thực hiện\" thì nó là giá trị độ lớn 600 J."
     },
     {
       "id": "mc-c5-069",
@@ -8942,7 +8942,7 @@
         "72 mm"
       ],
       "answer": 0,
-      "explanation": "$\\Delta t = 50 - 20 = 30\\text{ K}$ (hoặc độ C). $\\Delta l = 24\\cdot 10^{-6} \times 10 \times 30 = 7200\\cdot 10^{-6}\\text{ m} = 0,0072\\text{ m} = 7,2\\text{ mm}."
+      "explanation": "$\\Delta t = 50 - 20 = 30\\text{ K}$ (hoặc độ C). $\\Delta l = 24\\cdot 10^{-6} \\times 10 \\times 30 = 7200\\cdot 10^{-6}\\text{ m} = 0,0072\\text{ m} = 7,2\\text{ mm}$."
     },
     {
       "id": "mc-c5-080",
@@ -8958,7 +8958,7 @@
         "$\\beta \\approx 3\\alpha$, tăng thêm 51 $\\text{cm}^3$"
       ],
       "answer": 0,
-      "explanation": "Hệ số nở khối $\\beta \u0007pprox 3\\alpha = 3 \times 17\\cdot 10^{-6} = 51\\cdot 10^{-6}$. $\\Delta V = \\beta V_0 \\Delta t = 51\\cdot 10^{-6} \times 1000 \times 100 = 5100000 \\cdot 10^{-6} = 5,1\\text{ cm}^3$."
+      "explanation": "Hệ số nở khối $\\beta \\approx 3\\alpha = 3 \\times 17\\cdot 10^{-6} = 51\\cdot 10^{-6}$. $\\Delta V = \\beta V_0 \\Delta t = 51\\cdot 10^{-6} \\times 1000 \\times 100 = 5100000 \\cdot 10^{-6} = 5,1\\text{ cm}^3$."
     },
     {
       "id": "mc-c5-081",
@@ -9022,7 +9022,7 @@
         "$68\\cdot 10^5\\text{ J}$"
       ],
       "answer": 0,
-      "explanation": "$Q = \\lambda m = 3,4\\cdot 10^5 \times 2 = 6,8\\cdot 10^5\\text{ J}$."
+      "explanation": "$Q = \\lambda m = 3,4\\cdot 10^5 \\times 2 = 6,8\\cdot 10^5\\text{ J}$."
     },
     {
       "id": "mc-c5-085",
@@ -9086,7 +9086,7 @@
         "100.000 J"
       ],
       "answer": 0,
-      "explanation": "$Q = L m = 2,3\\cdot 10^6 \times 1 = 2,3\\cdot 10^6\\text{ J}$ (tức 2,3 triệu Jun). Nước bay hơi tốn rất nhiều năng lượng."
+      "explanation": "$Q = L m = 2,3\\cdot 10^6 \\times 1 = 2,3\\cdot 10^6\\text{ J}$ (tức 2,3 triệu Jun). Nước bay hơi tốn rất nhiều năng lượng."
     },
     {
       "id": "mc-c5-089",
@@ -9150,7 +9150,7 @@
         "$21^\\circ\\text{C}$"
       ],
       "answer": 0,
-      "explanation": "$m_{Al} c_{Al} (100 - t) = m_n c_n (t - 20) \\Rightarrow 0.5 \times 880 (100 - t) = 1 \times 4200 (t - 20) \\Rightarrow 440(100-t) = 4200(t-20)$. Chia hai vế cho 40: $11(100-t) = 105(t-20) \\Rightarrow 1100 - 11t = 105t - 2100 \\Rightarrow 116t = 3200 \\Rightarrow t \u0007pprox 27,58^\\circ\\text{C}$."
+      "explanation": "$m_{Al} c_{Al} (100 - t) = m_n c_n (t - 20) \\Rightarrow 0.5 \\times 880 (100 - t) = 1 \\times 4200 (t - 20) \\Rightarrow 440(100-t) = 4200(t-20)$. Chia hai vế cho 40: $11(100-t) = 105(t-20) \\Rightarrow 1100 - 11t = 105t - 2100 \\Rightarrow 116t = 3200 \\Rightarrow t \\approx 27,58^\\circ\\text{C}$."
     },
     {
       "id": "mc-c5-093",
@@ -9294,7 +9294,7 @@
         "$4,98\\cdot 10^5\\text{ Pa}$"
       ],
       "answer": 0,
-      "explanation": "Số mol $H_2$: $n_1 = 2/2 = 1\\text{ mol}$. Số mol $N_2$: $n_2 = 14/28 = 0.5\\text{ mol}$. Tổng số mol $n = 1.5\\text{ mol}$. Áp suất $p = nRT/V = 1.5 \times 8.31 \times 300 / 0.01 = 3739.5 / 0.01 = 3,74\\cdot 10^5\\text{ Pa}$."
+      "explanation": "Số mol $H_2$: $n_1 = 2/2 = 1\\text{ mol}$. Số mol $N_2$: $n_2 = 14/28 = 0.5\\text{ mol}$. Tổng số mol $n = 1.5\\text{ mol}$. Áp suất $p = nRT/V = 1.5 \\times 8.31 \\times 300 / 0.01 = 3739.5 / 0.01 = 3,74\\cdot 10^5\\text{ Pa}$."
     },
     {
       "id": "mc-c5-102",
@@ -9310,7 +9310,7 @@
         "$100^\\circ\\text{C}$"
       ],
       "answer": 0,
-      "explanation": "$0.5 \\cdot (0.5 m v^2) = m c \\Delta t \\Rightarrow 0.25 v^2 = c \\Delta t \\Rightarrow 0.25 \times 400^2 = 130 \\Delta t \\Rightarrow 40000 = 130 \\Delta t \\Rightarrow \\Delta t = 40000 / 130 \u0007pprox 307.7^\\circ\\text{C}$."
+      "explanation": "$0.5 \\cdot (0.5 m v^2) = m c \\Delta t \\Rightarrow 0.25 v^2 = c \\Delta t \\Rightarrow 0.25 \\times 400^2 = 130 \\Delta t \\Rightarrow 40000 = 130 \\Delta t \\Rightarrow \\Delta t = 40000 / 130 \\approx 307.7^\\circ\\text{C}$."
     },
     {
       "id": "mc-c5-103",
@@ -9326,7 +9326,7 @@
         "5000 quả"
       ],
       "answer": 0,
-      "explanation": "Khí ban đầu $p_1 V_1 = 100 \times 50 = 5000$ (atm.L). Khí không thể bơm ra được là khí còn kẹt trong bình ở 1 atm (bằng áp suất ngoài), thể tích 50 lít. Lượng khí bơm ra vỏ bóng: $\\Delta(pV) = 5000 - (1 \times 50) = 4950$. Số bóng = $4950 / 2 = 2475$ quả."
+      "explanation": "Khí ban đầu $p_1 V_1 = 100 \\times 50 = 5000$ (atm.L). Khí không thể bơm ra được là khí còn kẹt trong bình ở 1 atm (bằng áp suất ngoài), thể tích 50 lít. Lượng khí bơm ra vỏ bóng: $\\Delta(pV) = 5000 - (1 \\times 50) = 4950$. Số bóng = $4950 / 2 = 2475$ quả."
     },
     {
       "id": "mc-c5-104",
@@ -9342,7 +9342,7 @@
         "20 N"
       ],
       "answer": 0,
-      "explanation": "Đẳng tích: $p_2 / T_2 = p_1 / T_1 \\Rightarrow p_2 = 1 \times (400 / 300) = 1.333\\text{ atm}$. Chênh lệch áp suất so với khí quyển: $\\Delta p = 0.333\\text{ atm} \u0007pprox 0.333 \times 10^5 = 33333\\text{ Pa}$. Lực đẩy làm bung nắp $F = \\Delta p \\cdot S = 33333 \times 10 \\cdot 10^{-4} = 33,3\\text{ N}$. Lực này vừa thắng lực ma sát giữ nắp $\\Rightarrow F_{ms} \u0007pprox 33\\text{ N}$."
+      "explanation": "Đẳng tích: $p_2 / T_2 = p_1 / T_1 \\Rightarrow p_2 = 1 \\times (400 / 300) = 1.333\\text{ atm}$. Chênh lệch áp suất so với khí quyển: $\\Delta p = 0.333\\text{ atm} \\approx 0.333 \\times 10^5 = 33333\\text{ Pa}$. Lực đẩy làm bung nắp $F = \\Delta p \\cdot S = 33333 \\times 10 \\cdot 10^{-4} = 33,3\\text{ N}$. Lực này vừa thắng lực ma sát giữ nắp $\\Rightarrow F_{ms} \\approx 33\\text{ N}$."
     },
     {
       "id": "mc-c5-105",
@@ -9438,7 +9438,7 @@
         "Do không khí hóa lỏng sinh nhiệt"
       ],
       "answer": 0,
-      "explanation": "Ma sát có góp phần nhưng chủ yếu là quá trình nén nhanh không kịp tỏa nhiệt ($Q \u0007pprox 0$), $A > 0 \\Rightarrow \\Delta U > 0 \\Rightarrow$ khí nóng ran lên."
+      "explanation": "Ma sát có góp phần nhưng chủ yếu là quá trình nén nhanh không kịp tỏa nhiệt ($Q \\approx 0$), $A > 0 \\Rightarrow \\Delta U > 0 \\Rightarrow$ khí nóng ran lên."
     },
     {
       "id": "mc-c5-111",
@@ -9534,7 +9534,7 @@
         "Nước sôi"
       ],
       "answer": 0,
-      "explanation": "Nhiệt làm đá tăng lên 0 độ: $Q_1 = 0.1 \times 2100 \times 10 = 2100\\text{ J}$. Nhiệt để đá tan hoàn toàn: $Q_2 = 0.1 \times 340000 = 34000\\text{ J}$. Tổng cần thu $Q = 36100\\text{ J}$. Nhiệt tối đa nước có thể tỏa (hạ xuống 0 độ): $Q_{tỏa} = 0.2 \times 4200 \times 20 = 16800\\text{ J}$. Vì Thu (36100) > Tỏa tối đa (16800) $\\Rightarrow$ Nhiệt nước cấp không đủ làm tan hết đá. Hệ dừng ở 0 độ C."
+      "explanation": "Nhiệt làm đá tăng lên 0 độ: $Q_1 = 0.1 \\times 2100 \\times 10 = 2100\\text{ J}$. Nhiệt để đá tan hoàn toàn: $Q_2 = 0.1 \\times 340000 = 34000\\text{ J}$. Tổng cần thu $Q = 36100\\text{ J}$. Nhiệt tối đa nước có thể tỏa (hạ xuống 0 độ): $Q_{tỏa} = 0.2 \\times 4200 \\times 20 = 16800\\text{ J}$. Vì Thu (36100) > Tỏa tối đa (16800) $\\Rightarrow$ Nhiệt nước cấp không đủ làm tan hết đá. Hệ dừng ở 0 độ C."
     },
     {
       "id": "mc-c5-117",
