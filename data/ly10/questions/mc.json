@@ -6571,7 +6571,7 @@
         "$20/\\sqrt{3}\\text{ N}$",
         "10 N",
         "20 N",
-        "11,5 N"
+        "23,1 N (nhầm quên hệ số 2 dây)"
       ],
       "answer": 0,
       "explanation": "Thành phần đứng của mỗi dây là $T_y = T\\cos 30^\\circ$. Có 2 dây nên $2 T\\cos 30^\\circ = P \\Rightarrow 2 T \\cdot (\\sqrt{3}/2) = 20 \\Rightarrow T\\sqrt{3} = 20 \\Rightarrow T = 20/\\sqrt{3} \\approx 11,5\\text{ N}$."
@@ -9448,7 +9448,7 @@
       "dang": "Nhiệt lượng kế (mất nhiệt)",
       "question": "Dùng một nhiệt lượng kế (có nhiệt dung $C_k = 100\\text{ J/K}$) đựng 0,2kg nước ở $20^\\circ\\text{C}$. Thả một thỏi đồng 0,5kg ở $100^\\circ\\text{C}$ vào. ($c_{nuoc} = 4200, c_{dong} = 380$). Bỏ qua mất nhiệt ra môi trường phòng. Nhiệt độ cân bằng $t$ là:",
       "choices": [
-        "$34,3^\\circ\\text{C}$",
+        "$\\approx 33,5^\\circ\\text{C}$",
         "$26,5^\\circ\\text{C}$",
         "$36,2^\\circ\\text{C}$",
         "$42^\\circ\\text{C}$"
