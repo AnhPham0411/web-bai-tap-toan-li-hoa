@@ -18,7 +18,7 @@
       "dang": "Số tập con",
       "question": "Một tập hợp có đúng $4$ phần tử. Hỏi tập hợp đó có bao nhiêu tập con (kể cả tập rỗng và chính nó)?",
       "answer": "16",
-      "explanation": "$2^4=16$ tập con."
+      "explanation": "Số tập con của một tập hợp có $n$ phần tử là $2^{n}$. Với $n = 4$ ta được $2^{4} = 16$ tập con (đã tính cả tập rỗng và chính tập đó)."
     },
     {
       "id": "sa-c1-003",
@@ -98,7 +98,7 @@
       "dang": "Độ dài đoạn",
       "question": "Đoạn thẳng $[-2; 5]$ có độ dài bao nhiêu?",
       "answer": "7",
-      "explanation": "Độ dài $=5-(-2)=7$."
+      "explanation": "Độ dài của đoạn $[a;b]$ bằng hiệu hai đầu mút $b - a$. Ở đây: $5 - (-2) = 5 + 2 = 7$."
     },
     {
       "id": "sa-c1-011",
@@ -108,7 +108,7 @@
       "dang": "Độ dài đoạn",
       "question": "Đoạn thẳng $[4; 10]$ có độ dài bao nhiêu?",
       "answer": "6",
-      "explanation": "Độ dài $=10-4=6$."
+      "explanation": "Độ dài của đoạn $[a;b]$ bằng $b - a$. Ở đây: $10 - 4 = 6$."
     },
     {
       "id": "sa-c1-012",
@@ -118,7 +118,7 @@
       "dang": "Độ dài đoạn",
       "question": "Đoạn thẳng $[-6; -1]$ có độ dài bao nhiêu?",
       "answer": "5",
-      "explanation": "Độ dài $=-1-(-6)=5$."
+      "explanation": "Độ dài của đoạn $[a;b]$ bằng $b - a$. Ở đây: $-1 - (-6) = -1 + 6 = 5$ — hai đầu mút đều âm nhưng độ dài vẫn là số dương."
     },
     {
       "id": "sa-c1-013",
@@ -308,7 +308,7 @@
       "dang": "Tính giá trị biểu thức",
       "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(1;2)$.",
       "answer": "8",
-      "explanation": "$F=2(1)+3(2)=2+6=8$."
+      "explanation": "Muốn tính giá trị biểu thức tại một điểm, ta thay hoành độ vào $x$ và tung độ vào $y$: $F = 2(1) + 3(2) = 2 + 6 = 8$."
     },
     {
       "id": "sa-c2-002",
@@ -318,7 +318,7 @@
       "dang": "Tính giá trị biểu thức",
       "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(2;1)$.",
       "answer": "7",
-      "explanation": "$F=2(2)+3(1)=4+3=7$."
+      "explanation": "Thay $x = 2$ và $y = 1$ vào biểu thức: $F = 2(2) + 3(1) = 4 + 3 = 7$."
     },
     {
       "id": "sa-c2-003",
@@ -328,7 +328,7 @@
       "dang": "Tính giá trị biểu thức",
       "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(0;4)$.",
       "answer": "12",
-      "explanation": "$F=2(0)+3(4)=0+12=12$."
+      "explanation": "Thay $x = 0$ và $y = 4$ vào biểu thức: $F = 2(0) + 3(4) = 0 + 12 = 12$."
     },
     {
       "id": "sa-c2-004",
@@ -338,7 +338,7 @@
       "dang": "Thay số vào bpt",
       "question": "Thay $(x;y)=(2;2)$ vào vế trái của bất phương trình $x+y\\le5$, kết quả bằng bao nhiêu?",
       "answer": "4",
-      "explanation": "$x+y=2+2=4$."
+      "explanation": "Vế trái của bất phương trình là $x + y$. Thay $x = 2$, $y = 2$ được $2 + 2 = 4$. Vì $4 \\le 5$ nên điểm này là nghiệm của bất phương trình."
     },
     {
       "id": "sa-c2-005",
@@ -368,7 +368,7 @@
       "dang": "Giao điểm với trục hoành",
       "question": "Đường thẳng $x+2y=6$ cắt trục hoành ($y=0$) tại điểm có hoành độ $x=$?",
       "answer": "6",
-      "explanation": "Thay $y=0$: $x=6$."
+      "explanation": "Mọi điểm trên trục hoành đều có tung độ $y = 0$. Thay $y = 0$ vào phương trình: $x + 2(0) = 6 \\Rightarrow x = 6$."
     },
     {
       "id": "sa-c2-008",
@@ -408,7 +408,7 @@
       "dang": "Giao điểm với trục tung",
       "question": "Đường thẳng $3x+y=9$ cắt trục tung tại điểm có tung độ $y=$?",
       "answer": "9",
-      "explanation": "Thay $x=0$: $y=9$."
+      "explanation": "Mọi điểm trên trục tung đều có hoành độ $x = 0$. Thay $x = 0$ vào phương trình: $3(0) + y = 9 \\Rightarrow y = 9$."
     },
     {
       "id": "sa-c2-012",
@@ -428,7 +428,7 @@
       "dang": "Thay số vào bpt",
       "question": "Thay $(x;y)=(4;3)$ vào vế trái của bất phương trình $x-2y\\le0$, kết quả bằng bao nhiêu?",
       "answer": "-2",
-      "explanation": "$x-2y=4-2(3)=4-6=-2$."
+      "explanation": "Vế trái của bất phương trình là $x - 2y$. Thay $x = 4$, $y = 3$ được $4 - 2(3) = 4 - 6 = -2$. Vì $-2 \\le 0$ nên điểm này là nghiệm."
     },
     {
       "id": "sa-c2-014",
@@ -438,7 +438,7 @@
       "dang": "Thay số vào bpt",
       "question": "Thay $(x;y)=(3;2)$ vào vế trái của bất phương trình $3x+y<10$, kết quả bằng bao nhiêu?",
       "answer": "11",
-      "explanation": "$3x+y=3(3)+2=9+2=11$."
+      "explanation": "Vế trái của bất phương trình là $3x + y$. Thay $x = 3$, $y = 2$ được $3(3) + 2 = 9 + 2 = 11$. Vì $11 < 10$ là sai nên điểm này KHÔNG phải nghiệm."
     },
     {
       "id": "sa-c2-015",
@@ -448,7 +448,7 @@
       "dang": "Thay số vào bpt",
       "question": "Thay $(x;y)=(-4;1)$ vào vế trái của bất phương trình $x+y\\ge-1$, kết quả bằng bao nhiêu?",
       "answer": "-3",
-      "explanation": "$x+y=-4+1=-3$."
+      "explanation": "Vế trái của bất phương trình là $x + y$. Thay $x = -4$, $y = 1$ được $-4 + 1 = -3$. Vì $-3 \\ge -1$ là sai nên điểm này KHÔNG phải nghiệm."
     },
     {
       "id": "sa-c2-016",
@@ -488,7 +488,7 @@
       "dang": "Tính F tại một đỉnh",
       "question": "Tính $F=3x+2y$ tại đỉnh $(0;5)$ của miền nghiệm.",
       "answer": "10",
-      "explanation": "$F=3(0)+2(5)=10$."
+      "explanation": "Giá trị của $F$ tại một đỉnh được tính bằng cách thay toạ độ đỉnh đó vào biểu thức: $F = 3(0) + 2(5) = 0 + 10 = 10$."
     },
     {
       "id": "sa-c2-020",
@@ -498,7 +498,7 @@
       "dang": "Tính F tại một đỉnh",
       "question": "Tính $F=5x+y$ tại đỉnh $(4;0)$ của miền nghiệm.",
       "answer": "20",
-      "explanation": "$F=5(4)+0=20$."
+      "explanation": "Thay toạ độ đỉnh $(4;0)$ vào biểu thức: $F = 5(4) + 0 = 20$."
     },
     {
       "id": "sa-c2-021",
@@ -508,7 +508,7 @@
       "dang": "Tính F tại một đỉnh",
       "question": "Tính $F=x+4y$ tại đỉnh $(2;3)$ của miền nghiệm.",
       "answer": "14",
-      "explanation": "$F=2+4(3)=2+12=14$."
+      "explanation": "Thay toạ độ đỉnh $(2;3)$ vào biểu thức: $F = 2 + 4(3) = 2 + 12 = 14$."
     },
     {
       "id": "sa-c2-022",
@@ -578,7 +578,7 @@
       "dang": "Bài toán tối ưu",
       "question": "Một xưởng có ràng buộc $x+y\\le10$, $x,y\\ge0$; lợi nhuận $L=30x+20y$ (nghìn đồng). Tính $L$ tại đỉnh $(10;0)$.",
       "answer": "300",
-      "explanation": "$L=30(10)+20(0)=300$."
+      "explanation": "Giá trị lớn nhất (nhỏ nhất) của biểu thức bậc nhất luôn đạt tại một đỉnh của miền nghiệm, nên ta thay toạ độ đỉnh vào: $L = 30(10) + 20(0) = 300$ nghìn đồng."
     },
     {
       "id": "sa-c2-029",
@@ -588,7 +588,7 @@
       "dang": "Bài toán tối ưu",
       "question": "Với ràng buộc $2x+y\\le12$, lợi nhuận $L=15x+20y$ (nghìn đồng). Tính $L$ tại đỉnh $(0;12)$.",
       "answer": "240",
-      "explanation": "$L=15(0)+20(12)=240$."
+      "explanation": "Thay toạ độ đỉnh $(0;12)$ vào hàm lợi nhuận: $L = 15(0) + 20(12) = 0 + 240 = 240$ nghìn đồng."
     },
     {
       "id": "sa-c2-030",
@@ -598,7 +598,7 @@
       "dang": "Bài toán tối ưu",
       "question": "Với hệ $x+2y\\le14$, $x\\ge0,y\\ge0$, lợi nhuận $L=10x+5y$ (nghìn đồng). Tính $L$ tại đỉnh $(14;0)$.",
       "answer": "140",
-      "explanation": "$L=10(14)+5(0)=140$."
+      "explanation": "Thay toạ độ đỉnh $(14;0)$ vào hàm lợi nhuận: $L = 10(14) + 5(0) = 140 + 0 = 140$ nghìn đồng."
     },
     {
       "id": "sa-c3-001",
@@ -1281,7 +1281,7 @@
       "dang": "Khoảng biến thiên",
       "question": "Tính khoảng biến thiên của mẫu $10;15;20;25;30$.",
       "answer": "20",
-      "explanation": "$R=30-10=20$."
+      "explanation": "Khoảng biến thiên bằng hiệu giữa giá trị lớn nhất và nhỏ nhất: $R = x_{max} - x_{min} = 30 - 10 = 20$."
     },
     {
       "id": "sa-c5-008",
@@ -1311,7 +1311,7 @@
       "dang": "Khoảng biến thiên",
       "question": "Tính khoảng biến thiên của mẫu $-3;0;4;8$.",
       "answer": "11",
-      "explanation": "$R=8-(-3)=11$."
+      "explanation": "Khoảng biến thiên $R = x_{max} - x_{min} = 8 - (-3) = 8 + 3 = 11$ (chú ý trừ một số âm thì thành cộng)."
     },
     {
       "id": "sa-c5-011",
@@ -1331,7 +1331,7 @@
       "dang": "Khoảng biến thiên",
       "question": "Tính khoảng biến thiên của mẫu $100;102;98;105$.",
       "answer": "7",
-      "explanation": "$R=105-98=7$."
+      "explanation": "Mẫu chưa được sắp xếp nên phải tìm hai giá trị cực trị trước: $x_{max} = 105$, $x_{min} = 98$. Vậy $R = 105 - 98 = 7$."
     },
     {
       "id": "sa-c5-013",
@@ -1361,7 +1361,7 @@
       "dang": "Khoảng biến thiên",
       "question": "Tính khoảng biến thiên của mẫu $50;60;70;80;90$.",
       "answer": "40",
-      "explanation": "$R=90-50=40$."
+      "explanation": "Khoảng biến thiên $R = x_{max} - x_{min} = 90 - 50 = 40$."
     },
     {
       "id": "sa-c5-016",

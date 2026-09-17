@@ -5,1210 +5,1214 @@
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 1)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v0</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Số neutron",
+      "question": "Nguyên tử carbon có $Z = 6$ và số khối $A = 12$. Tính số neutron $N$ trong hạt nhân.",
+      "answer": "6",
+      "explanation": "$N = A - Z = 12 - 6 = 6$."
     },
     {
       "id": "sa-c1-002",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 1)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v1</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số neutron",
+      "question": "Nguyên tử sodium có $Z = 11$ và số khối $A = 23$. Tính số neutron $N$.",
+      "answer": "12",
+      "explanation": "$N = A - Z = 23 - 11 = 12$."
     },
     {
       "id": "sa-c1-003",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 1)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v2</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Số neutron",
+      "question": "Nguyên tử chlorine có $Z = 17$ và số khối $A = 35$. Tính số neutron $N$.",
+      "answer": "18",
+      "explanation": "$N = A - Z = 35 - 17 = 18$."
     },
     {
       "id": "sa-c1-004",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 2)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v3</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Số electron",
+      "question": "Một nguyên tử trung hòa về điện có $Z = 15$. Nguyên tử đó có bao nhiêu electron?",
+      "answer": "15",
+      "explanation": "Nguyên tử trung hòa có số electron bằng số proton, mà số proton bằng $Z$: vậy có $15$ electron."
     },
     {
       "id": "sa-c1-005",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 2)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v4</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số proton",
+      "question": "Một nguyên tử có số hiệu nguyên tử $Z = 20$. Hạt nhân nguyên tử đó có bao nhiêu proton?",
+      "answer": "20",
+      "explanation": "Số hiệu nguyên tử $Z$ chính là số proton trong hạt nhân: $20$ proton."
     },
     {
       "id": "sa-c1-006",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 2)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v5</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử sodium ($Z = 11$) có cấu hình $1s^2 2s^2 2p^6 3s^1$. Nguyên tử đó có bao nhiêu LỚP electron?",
+      "answer": "3",
+      "explanation": "Cấu hình $1s^2 2s^2 2p^6 3s^1$ có electron ở các lớp $n = 1, 2, 3$, vậy có $3$ lớp electron (sodium thuộc chu kì 3)."
     },
     {
       "id": "sa-c1-007",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 3)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v6</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Electron lớp ngoài cùng",
+      "question": "Nguyên tử oxygen ($Z = 8$) có cấu hình $1s^2 2s^2 2p^4$. Lớp ngoài cùng có bao nhiêu electron?",
+      "answer": "6",
+      "explanation": "Lớp ngoài cùng là lớp $n = 2$, gồm $2s^2$ và $2p^4$: $2 + 4 = 6$ electron."
     },
     {
       "id": "sa-c1-008",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 3)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v7</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử lithium ($Z = 3$) có cấu hình $1s^2 2s^1$. Nguyên tử đó có bao nhiêu LỚP electron?",
+      "answer": "2",
+      "explanation": "Cấu hình $1s^2 2s^1$ chỉ có electron ở lớp $n = 1$ và $n = 2$, vậy có $2$ lớp electron. Lithium thuộc chu kì 2 nên không thể có 3 lớp."
     },
     {
       "id": "sa-c1-009",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 3)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v8</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Electron lớp ngoài cùng",
+      "question": "Nguyên tử sodium ($Z = 11$, cấu hình $1s^2 2s^2 2p^6 3s^1$) có bao nhiêu electron ở lớp ngoài cùng?",
+      "answer": "1",
+      "explanation": "Lớp ngoài cùng là lớp $n = 3$ chỉ có $3s^1$: $1$ electron. Đây là lí do sodium dễ nhường 1 electron."
     },
     {
       "id": "sa-c1-010",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 4)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v9</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Sức chứa của lớp",
+      "question": "Lớp electron thứ ba (lớp M, $n = 3$) chứa được tối đa bao nhiêu electron?",
+      "answer": "18",
+      "explanation": "Số electron tối đa của lớp thứ $n$ là $2n^{2}$: với $n = 3$ ta có $2 \\cdot 3^{2} = 18$ electron."
     },
     {
       "id": "sa-c1-011",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 4)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v10</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Sức chứa của lớp",
+      "question": "Lớp electron thứ hai (lớp L, $n = 2$) chứa được tối đa bao nhiêu electron?",
+      "answer": "8",
+      "explanation": "Áp dụng $2n^{2}$ với $n = 2$: $2 \\cdot 4 = 8$ electron."
     },
     {
       "id": "sa-c1-012",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 4)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v11</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Số orbital",
+      "question": "Phân lớp $p$ có bao nhiêu orbital nguyên tử (AO)?",
+      "answer": "3",
+      "explanation": "Phân lớp $p$ có $3$ orbital định hướng theo ba trục $p_x, p_y, p_z$ (mỗi AO chứa tối đa 2 electron nên phân lớp $p$ chứa tối đa 6 electron)."
     },
     {
       "id": "sa-c1-013",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 5)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v12</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Sức chứa phân lớp",
+      "question": "Phân lớp $d$ chứa được tối đa bao nhiêu electron?",
+      "answer": "10",
+      "explanation": "Phân lớp $d$ có $5$ orbital, mỗi orbital chứa tối đa $2$ electron: $5 \\cdot 2 = 10$ electron."
     },
     {
       "id": "sa-c1-014",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 5)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v13</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số khối",
+      "question": "Một nguyên tử có $17$ proton và $20$ neutron. Tính số khối $A$.",
+      "answer": "37",
+      "explanation": "$A = Z + N = 17 + 20 = 37$."
     },
     {
       "id": "sa-c1-015",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Cấu tạo (Nhóm 5)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v14</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Hạt mang điện",
+      "question": "Một nguyên tử trung hòa có $Z = 12$. Tổng số hạt MANG ĐIỆN trong nguyên tử là bao nhiêu?",
+      "answer": "24",
+      "explanation": "Hạt mang điện gồm proton và electron (neutron không mang điện): $12 + 12 = 24$ hạt."
     },
     {
       "id": "sa-c1-016",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 6)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v15</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử beryllium ($Z = 4$) có cấu hình $1s^2 2s^2$. Nguyên tử đó có bao nhiêu LỚP electron?",
+      "answer": "2",
+      "explanation": "Cấu hình $1s^2 2s^2$ chỉ có electron ở lớp $n = 1$ và $n = 2$, vậy có $2$ lớp electron (beryllium thuộc chu kì 2)."
     },
     {
       "id": "sa-c1-017",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 6)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v16</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử boron ($Z = 5$) có cấu hình $1s^2 2s^2 2p^1$. Nguyên tử đó có bao nhiêu LỚP electron?",
+      "answer": "2",
+      "explanation": "Electron chỉ phân bố ở lớp $n = 1$ và $n = 2$, vậy có $2$ lớp electron. Cả Li, Be, B đều ở chu kì 2 nên đều có đúng 2 lớp."
     },
     {
       "id": "sa-c1-018",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 6)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v17</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Electron lớp ngoài cùng",
+      "question": "Nguyên tử chlorine ($Z = 17$, cấu hình $1s^2 2s^2 2p^6 3s^2 3p^5$) có bao nhiêu electron lớp ngoài cùng?",
+      "answer": "7",
+      "explanation": "Lớp ngoài cùng $n = 3$ gồm $3s^2 3p^5$: $2 + 5 = 7$ electron, nên chlorine chỉ cần nhận thêm 1 electron là đạt octet."
     },
     {
       "id": "sa-c1-019",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 7)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v18</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Tổng số hạt",
+      "question": "Một nguyên tử có tổng số hạt (proton, neutron, electron) là $34$, trong đó số proton là $11$. Tính số neutron.",
+      "answer": "12",
+      "explanation": "Nguyên tử trung hòa có số electron bằng số proton nên tổng hạt $= 2Z + N$. Suy ra $N = 34 - 2 \\cdot 11 = 12$."
     },
     {
       "id": "sa-c1-020",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 7)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v19</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số khối",
+      "question": "Một nguyên tử sắt có $26$ proton và $30$ neutron. Tính số khối $A$.",
+      "answer": "56",
+      "explanation": "$A = Z + N = 26 + 30 = 56$."
     },
     {
       "id": "sa-c1-021",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 7)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v20</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử calcium ($Z = 20$) có cấu hình $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2$. Nguyên tử đó có bao nhiêu LỚP electron?",
+      "answer": "4",
+      "explanation": "Electron phân bố ở các lớp $n = 1, 2, 3, 4$, vậy có $4$ lớp (calcium thuộc chu kì 4)."
     },
     {
       "id": "sa-c1-022",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 8)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v21</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Electron lớp ngoài cùng",
+      "question": "Nguyên tử calcium ($Z = 20$, cấu hình kết thúc bằng $4s^2$) có bao nhiêu electron lớp ngoài cùng?",
+      "answer": "2",
+      "explanation": "Lớp ngoài cùng là $n = 4$ với $4s^2$: $2$ electron, nên calcium dễ nhường 2 electron tạo ion $Ca^{2+}$."
     },
     {
       "id": "sa-c1-023",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 8)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v22</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Cấu hình khí hiếm",
+      "question": "Nguyên tử argon ($Z = 18$, cấu hình $1s^2 2s^2 2p^6 3s^2 3p^6$) có bao nhiêu electron lớp ngoài cùng?",
+      "answer": "8",
+      "explanation": "Lớp ngoài cùng $n = 3$ gồm $3s^2 3p^6$: $8$ electron — cấu hình bão hòa bền vững của khí hiếm."
     },
     {
       "id": "sa-c1-024",
       "chapter": "c1",
-      "lesson": "b1",
+      "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 8)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v23</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Suy ra số hiệu nguyên tử",
+      "question": "Nguyên tử X có $3$ lớp electron và lớp ngoài cùng có $6$ electron. Tính số hiệu nguyên tử $Z$ của X.",
+      "answer": "16",
+      "explanation": "Lớp 1 chứa $2$, lớp 2 chứa $8$ (đã bão hòa), lớp 3 có $6$: $Z = 2 + 8 + 6 = 16$ (đó là lưu huỳnh S)."
     },
     {
       "id": "sa-c1-025",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 9)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v24</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Số electron của ion",
+      "question": "Ion $Na^{+}$ được tạo từ nguyên tử sodium ($Z = 11$). Ion này có bao nhiêu electron?",
+      "answer": "10",
+      "explanation": "Sodium nhường $1$ electron để tạo ion dương: $11 - 1 = 10$ electron (trùng cấu hình khí hiếm neon)."
     },
     {
       "id": "sa-c1-026",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 9)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v25</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Số electron của ion",
+      "question": "Ion $Cl^{-}$ được tạo từ nguyên tử chlorine ($Z = 17$). Ion này có bao nhiêu electron?",
+      "answer": "18",
+      "explanation": "Chlorine nhận thêm $1$ electron: $17 + 1 = 18$ electron (trùng cấu hình khí hiếm argon)."
     },
     {
       "id": "sa-c1-027",
       "chapter": "c1",
-      "lesson": "b2",
+      "lesson": "b1",
       "level": "th",
-      "dang": "Cấu tạo (Nhóm 9)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v26</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Số neutron",
+      "question": "Đồng vị uranium $^{235}U$ có $Z = 92$. Tính số neutron trong hạt nhân.",
+      "answer": "143",
+      "explanation": "$N = A - Z = 235 - 92 = 143$."
     },
     {
       "id": "sa-c1-028",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Cấu tạo (Nhóm 10)",
-      "question": "Một nguyên tử X có Z = 1 và số khối A = 4. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v27</span>",
-      "answer": "3",
-      "explanation": "N = A - Z = 4 - 1 = 3."
+      "dang": "Tìm số proton từ tổng hạt",
+      "question": "Nguyên tử X có tổng số hạt là $40$, trong đó số hạt mang điện nhiều hơn số hạt không mang điện là $12$. Tính số proton của X.",
+      "answer": "13",
+      "explanation": "Ta có $2Z + N = 40$ và $2Z - N = 12$. Cộng hai vế: $4Z = 52 \\Rightarrow Z = 13$ (nhôm Al, với $N = 14$)."
     },
     {
       "id": "sa-c1-029",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Cấu tạo (Nhóm 10)",
-      "question": "Một nguyên tử X có Z = 2 và số khối A = 6. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v28</span>",
-      "answer": "4",
-      "explanation": "N = A - Z = 6 - 2 = 4."
+      "dang": "Nguyên tử khối trung bình",
+      "question": "Chlorine có hai đồng vị: $^{35}Cl$ chiếm $75\\%$ và $^{37}Cl$ chiếm $25\\%$. Tính nguyên tử khối trung bình.",
+      "answer": "35,5",
+      "explanation": "$\\bar{A} = \\frac{35 \\cdot 75 + 37 \\cdot 25}{100} = \\frac{2625 + 925}{100} = 35,5$."
     },
     {
       "id": "sa-c1-030",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Cấu tạo (Nhóm 10)",
-      "question": "Một nguyên tử X có Z = 3 và số khối A = 8. Tính số neutron N trong hạt nhân X. <span style=\"display:none\">v29</span>",
-      "answer": "5",
-      "explanation": "N = A - Z = 8 - 3 = 5."
+      "dang": "Nguyên tử khối trung bình",
+      "question": "Copper có hai đồng vị: $^{63}Cu$ chiếm $73\\%$ và $^{65}Cu$ chiếm $27\\%$. Tính nguyên tử khối trung bình.",
+      "answer": "63,54",
+      "explanation": "$\\bar{A} = \\frac{63 \\cdot 73 + 65 \\cdot 27}{100} = \\frac{4599 + 1755}{100} = 63,54$."
     },
     {
       "id": "sa-c2-001",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 1)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v0</span>",
+      "dang": "Xác định chu kì",
+      "question": "Nguyên tố sodium có $Z = 11$ (cấu hình $1s^2 2s^2 2p^6 3s^1$). Nguyên tố đó thuộc chu kì thứ mấy?",
       "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Số thứ tự chu kì bằng số lớp electron. Sodium có $3$ lớp nên thuộc chu kì $3$."
     },
     {
       "id": "sa-c2-002",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 1)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v1</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định nhóm",
+      "question": "Nguyên tố sodium ($Z = 11$, lớp ngoài cùng $3s^1$) thuộc nhóm A thứ mấy? (trả lời bằng số thứ tự nhóm)",
+      "answer": "1",
+      "explanation": "Với nguyên tố nhóm A, số thứ tự nhóm bằng số electron lớp ngoài cùng: sodium có $1$ electron ngoài cùng nên thuộc nhóm IA."
     },
     {
       "id": "sa-c2-003",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 1)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v2</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định chu kì",
+      "question": "Nguyên tố oxygen có $Z = 8$ (cấu hình $1s^2 2s^2 2p^4$). Nguyên tố đó thuộc chu kì thứ mấy?",
+      "answer": "2",
+      "explanation": "Oxygen có $2$ lớp electron nên thuộc chu kì $2$."
     },
     {
       "id": "sa-c2-004",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 2)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v3</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định nhóm",
+      "question": "Nguyên tố oxygen ($Z = 8$, lớp ngoài cùng $2s^2 2p^4$) thuộc nhóm A thứ mấy?",
+      "answer": "6",
+      "explanation": "Lớp ngoài cùng có $2 + 4 = 6$ electron nên oxygen thuộc nhóm VIA."
     },
     {
       "id": "sa-c2-005",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 2)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v4</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Cấu tạo bảng tuần hoàn",
+      "question": "Bảng tuần hoàn hiện nay gồm bao nhiêu chu kì?",
+      "answer": "7",
+      "explanation": "Bảng tuần hoàn có $7$ chu kì, đánh số từ 1 đến 7."
     },
     {
       "id": "sa-c2-006",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 2)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v5</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Cấu tạo bảng tuần hoàn",
+      "question": "Bảng tuần hoàn có bao nhiêu nhóm A?",
+      "answer": "8",
+      "explanation": "Có $8$ nhóm A, kí hiệu từ IA đến VIIIA."
     },
     {
       "id": "sa-c2-007",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 3)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v6</span>",
+      "dang": "Xác định chu kì",
+      "question": "Nguyên tố chlorine có $Z = 17$ (cấu hình $1s^2 2s^2 2p^6 3s^2 3p^5$). Nguyên tố đó thuộc chu kì thứ mấy?",
       "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "Chlorine có $3$ lớp electron nên thuộc chu kì $3$."
     },
     {
       "id": "sa-c2-008",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 3)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v7</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định nhóm",
+      "question": "Nguyên tố chlorine ($Z = 17$, lớp ngoài cùng $3s^2 3p^5$) thuộc nhóm A thứ mấy?",
+      "answer": "7",
+      "explanation": "Lớp ngoài cùng có $2 + 5 = 7$ electron nên chlorine thuộc nhóm VIIA."
     },
     {
       "id": "sa-c2-009",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 3)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v8</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Số nguyên tố trong chu kì",
+      "question": "Chu kì 2 của bảng tuần hoàn có bao nhiêu nguyên tố?",
+      "answer": "8",
+      "explanation": "Chu kì 2 gồm $8$ nguyên tố, từ Li ($Z=3$) đến Ne ($Z=10$)."
     },
     {
       "id": "sa-c2-010",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 4)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v9</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Số nguyên tố trong chu kì",
+      "question": "Chu kì 1 của bảng tuần hoàn có bao nhiêu nguyên tố?",
+      "answer": "2",
+      "explanation": "Chu kì 1 chỉ có $2$ nguyên tố là H ($Z=1$) và He ($Z=2$)."
     },
     {
       "id": "sa-c2-011",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 4)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v10</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hóa trị cao nhất với oxygen",
+      "question": "Nguyên tố thuộc nhóm VIA có hóa trị cao nhất trong hợp chất với oxygen là bao nhiêu?",
+      "answer": "6",
+      "explanation": "Hóa trị cao nhất với oxygen bằng số thứ tự nhóm: nhóm VIA có hóa trị cao nhất là $6$ (ví dụ $SO_3$)."
     },
     {
       "id": "sa-c2-012",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 4)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v11</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hóa trị với hydrogen",
+      "question": "Nguyên tố thuộc nhóm VIA có hóa trị trong hợp chất khí với hydrogen là bao nhiêu?",
+      "answer": "2",
+      "explanation": "Hóa trị với hydrogen $= 8 -$ số thứ tự nhóm $= 8 - 6 = 2$ (ví dụ $H_2S$)."
     },
     {
       "id": "sa-c2-013",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 5)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v12</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định chu kì",
+      "question": "Nguyên tố calcium có $Z = 20$ (cấu hình kết thúc bằng $4s^2$). Nguyên tố đó thuộc chu kì thứ mấy?",
+      "answer": "4",
+      "explanation": "Calcium có $4$ lớp electron nên thuộc chu kì $4$."
     },
     {
       "id": "sa-c2-014",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 5)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v13</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Xác định nhóm",
+      "question": "Nguyên tố calcium ($Z = 20$, lớp ngoài cùng $4s^2$) thuộc nhóm A thứ mấy?",
+      "answer": "2",
+      "explanation": "Lớp ngoài cùng có $2$ electron nên calcium thuộc nhóm IIA."
     },
     {
       "id": "sa-c2-015",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "nb",
-      "dang": "Bảng TH (Nhóm 5)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v14</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Số nguyên tố trong chu kì",
+      "question": "Chu kì 3 của bảng tuần hoàn có bao nhiêu nguyên tố?",
+      "answer": "8",
+      "explanation": "Chu kì 3 gồm $8$ nguyên tố, từ Na ($Z=11$) đến Ar ($Z=18$)."
     },
     {
       "id": "sa-c2-016",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 6)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v15</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Suy ra số hiệu nguyên tử",
+      "question": "Một nguyên tố thuộc chu kì 3, nhóm IIA. Tính số hiệu nguyên tử $Z$ của nó.",
+      "answer": "12",
+      "explanation": "Chu kì 3 nghĩa là có 3 lớp; nhóm IIA nghĩa là lớp ngoài cùng có 2 electron: $Z = 2 + 8 + 2 = 12$ (magnesium Mg)."
     },
     {
       "id": "sa-c2-017",
       "chapter": "c2",
-      "lesson": "b4",
+      "lesson": "b3",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 6)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v16</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Suy ra số hiệu nguyên tử",
+      "question": "Một nguyên tố thuộc chu kì 2, nhóm VIIA. Tính số hiệu nguyên tử $Z$ của nó.",
+      "answer": "9",
+      "explanation": "Chu kì 2 có 2 lớp; nhóm VIIA có 7 electron ngoài cùng: $Z = 2 + 7 = 9$ (fluorine F)."
     },
     {
       "id": "sa-c2-018",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 6)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v17</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hóa trị cao nhất với oxygen",
+      "question": "Nguyên tố thuộc nhóm VA có hóa trị cao nhất với oxygen là bao nhiêu?",
+      "answer": "5",
+      "explanation": "Hóa trị cao nhất với oxygen bằng số thứ tự nhóm: $5$ (ví dụ $N_2O_5$)."
     },
     {
       "id": "sa-c2-019",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 7)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v18</span>",
+      "dang": "Hóa trị với hydrogen",
+      "question": "Nguyên tố thuộc nhóm VA có hóa trị trong hợp chất khí với hydrogen là bao nhiêu?",
       "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "explanation": "$8 - 5 = 3$ (ví dụ $NH_3$)."
     },
     {
       "id": "sa-c2-020",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 7)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v19</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Công thức oxide cao nhất",
+      "question": "Nguyên tố R thuộc nhóm VIIA có oxide cao nhất dạng $R_2O_n$. Giá trị của $n$ là bao nhiêu?",
+      "answer": "7",
+      "explanation": "Hóa trị cao nhất với oxygen là $7$, nên oxide cao nhất là $R_2O_7$, tức $n = 7$."
     },
     {
       "id": "sa-c2-021",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 7)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v20</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hợp chất khí với hydrogen",
+      "question": "Nguyên tố R thuộc nhóm IVA có hợp chất khí với hydrogen dạng $RH_n$. Giá trị của $n$ là bao nhiêu?",
+      "answer": "4",
+      "explanation": "Hóa trị với hydrogen $= 8 - 4 = 4$, nên hợp chất là $RH_4$ (ví dụ $CH_4$)."
     },
     {
       "id": "sa-c2-022",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 8)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v21</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Suy ra số hiệu nguyên tử",
+      "question": "Một nguyên tố thuộc chu kì 4, nhóm IA. Tính số hiệu nguyên tử $Z$ của nó.",
+      "answer": "19",
+      "explanation": "Các lớp chứa lần lượt $2, 8, 8$ electron và lớp ngoài cùng có $1$: $Z = 19$ (potassium K)."
     },
     {
       "id": "sa-c2-023",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 8)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v22</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Electron hóa trị",
+      "question": "Nguyên tố thuộc nhóm VIA có bao nhiêu electron hóa trị?",
+      "answer": "6",
+      "explanation": "Với nguyên tố nhóm A, số electron hóa trị bằng số electron lớp ngoài cùng và bằng số thứ tự nhóm: $6$."
     },
     {
       "id": "sa-c2-024",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 8)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v23</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Phần trăm khối lượng",
+      "question": "Trong oxide cao nhất $N_2O_5$ (biết $N = 14$, $O = 16$), oxygen chiếm bao nhiêu phần trăm khối lượng? (làm tròn 2 chữ số thập phân)",
+      "answer": "74,07",
+      "explanation": "Khối lượng phân tử $= 2 \\cdot 14 + 5 \\cdot 16 = 108$. Phần trăm oxygen $= \\frac{80}{108} \\cdot 100\\% \\approx 74,07\\%$.",
+      "unit": "%",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c2-025",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 9)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v24</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Suy ra số hiệu nguyên tử",
+      "question": "Một nguyên tố thuộc chu kì 3, nhóm VIA. Tính số hiệu nguyên tử $Z$ của nó.",
+      "answer": "16",
+      "explanation": "$Z = 2 + 8 + 6 = 16$ (sulfur S)."
     },
     {
       "id": "sa-c2-026",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 9)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v25</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Số lớp electron",
+      "question": "Nguyên tử của một nguyên tố thuộc chu kì 4 có bao nhiêu lớp electron?",
+      "answer": "4",
+      "explanation": "Số thứ tự chu kì bằng số lớp electron, nên nguyên tố chu kì 4 có $4$ lớp."
     },
     {
       "id": "sa-c2-027",
       "chapter": "c2",
-      "lesson": "b3",
+      "lesson": "b4",
       "level": "th",
-      "dang": "Bảng TH (Nhóm 9)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v26</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Tìm nguyên tố từ phần trăm",
+      "question": "Nguyên tố R có oxide cao nhất dạng $R_2O_5$, trong đó R chiếm $43,66\\%$ khối lượng (biết $O = 16$). Tính nguyên tử khối của R.",
+      "answer": "31",
+      "explanation": "Gọi nguyên tử khối R là $M$: $\\frac{2M}{2M + 80} = 0,4366 \\Rightarrow 2M = 0,4366(2M+80) \\Rightarrow 1,1268M = 34,928 \\Rightarrow M \\approx 31$ (phosphorus P).",
+      "tolerance": 0.5
     },
     {
       "id": "sa-c2-028",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "dang": "Bảng TH (Nhóm 10)",
-      "question": "Nguyên tố X có Z = 3. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v27</span>",
-      "answer": "3",
-      "explanation": "Z = 3 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hai nguyên tố kế tiếp",
+      "question": "Hai nguyên tố A và B đứng kế tiếp nhau trong cùng một chu kì, có tổng số hiệu nguyên tử là $25$. Tính số hiệu nguyên tử của nguyên tố có $Z$ NHỎ HƠN.",
+      "answer": "12",
+      "explanation": "Kế tiếp trong cùng chu kì nên $Z_B = Z_A + 1$. Ta có $Z_A + (Z_A+1) = 25 \\Rightarrow Z_A = 12$ (Mg và Al)."
     },
     {
       "id": "sa-c2-029",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "dang": "Bảng TH (Nhóm 10)",
-      "question": "Nguyên tố X có Z = 4. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v28</span>",
-      "answer": "3",
-      "explanation": "Z = 4 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Hai nguyên tố cùng nhóm",
+      "question": "Hai nguyên tố thuộc cùng một nhóm A và ở hai chu kì nhỏ liên tiếp, có tổng số hiệu nguyên tử là $32$. Tính số hiệu nguyên tử của nguyên tố có $Z$ NHỎ HƠN.",
+      "answer": "12",
+      "explanation": "Cùng nhóm A ở hai chu kì liên tiếp (chu kì nhỏ) thì hơn kém nhau $8$ đơn vị: $Z + (Z+8) = 32 \\Rightarrow Z = 12$ (Mg và Ca)."
     },
     {
       "id": "sa-c2-030",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "dang": "Bảng TH (Nhóm 10)",
-      "question": "Nguyên tố X có Z = 5. Nguyên tử X có bao nhiêu lớp electron? <span style=\"display:none\">v29</span>",
-      "answer": "3",
-      "explanation": "Z = 5 có cấu hình e thích hợp với 3 lớp e."
+      "dang": "Tìm nguyên tố halogen",
+      "question": "Nguyên tố R thuộc nhóm VIIA, hợp chất khí với hydrogen có dạng $HR$ và chứa $2,74\\%$ hydrogen về khối lượng (biết $H = 1$). Tính nguyên tử khối của R. (làm tròn 1 chữ số thập phân)",
+      "answer": "35,5",
+      "explanation": "Ta có $\\frac{1}{1+M} = 0,0274 \\Rightarrow 1 + M = \\frac{1}{0,0274} \\approx 36,5 \\Rightarrow M \\approx 35,5$ (chlorine Cl).",
+      "tolerance": 0.2
     },
     {
       "id": "sa-c3-001",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 1)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v0</span>",
+      "dang": "Liên kết trong CH4",
+      "question": "Một phân tử methane ($CH_4$) có bao nhiêu liên kết cộng hóa trị đơn C–H?",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "explanation": "Carbon có $4$ electron hóa trị, góp chung với $4$ nguyên tử H tạo $4$ liên kết đơn C–H."
     },
     {
       "id": "sa-c3-002",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 1)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v1</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Electron dùng chung",
+      "question": "Một liên kết cộng hóa trị ĐƠN được tạo bởi bao nhiêu electron dùng chung?",
+      "answer": "2",
+      "explanation": "Mỗi nguyên tử góp $1$ electron, tạo thành $1$ cặp electron dùng chung $= 2$ electron."
     },
     {
       "id": "sa-c3-003",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 1)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v2</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết trong N2",
+      "question": "Trong phân tử $N_2$, hai nguyên tử nitrogen liên kết với nhau bằng liên kết ba. Liên kết ba gồm bao nhiêu liên kết?",
+      "answer": "3",
+      "explanation": "Liên kết ba gồm $3$ liên kết: $1$ liên kết $\\sigma$ và $2$ liên kết $\\pi$."
     },
     {
       "id": "sa-c3-004",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 2)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v3</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Sự nhường electron",
+      "question": "Nguyên tử sodium ($Z = 11$) nhường bao nhiêu electron để tạo thành ion $Na^{+}$?",
+      "answer": "1",
+      "explanation": "Sodium có $1$ electron lớp ngoài cùng, nhường $1$ electron đó để đạt cấu hình bền của neon."
     },
     {
       "id": "sa-c3-005",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 2)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v4</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Sự nhận electron",
+      "question": "Nguyên tử chlorine ($Z = 17$) nhận bao nhiêu electron để tạo thành ion $Cl^{-}$?",
+      "answer": "1",
+      "explanation": "Chlorine có $7$ electron lớp ngoài cùng, chỉ cần nhận thêm $1$ electron là đạt octet."
     },
     {
       "id": "sa-c3-006",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 2)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v5</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Điện tích ion",
+      "question": "Ion $Mg^{2+}$ mang điện tích dương bằng bao nhiêu đơn vị điện tích?",
+      "answer": "2",
+      "explanation": "Magnesium nhường $2$ electron nên ion mang điện tích $+2$, tức $2$ đơn vị điện tích dương."
     },
     {
       "id": "sa-c3-007",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 3)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v6</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết trong CO2",
+      "question": "Phân tử $CO_2$ có cấu tạo $O=C=O$. Phân tử này có bao nhiêu liên kết đôi?",
+      "answer": "2",
+      "explanation": "Carbon tạo liên kết đôi với mỗi nguyên tử oxygen: có $2$ liên kết đôi."
     },
     {
       "id": "sa-c3-008",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 3)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v7</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Cặp electron tự do",
+      "question": "Trong phân tử $H_2O$, nguyên tử oxygen còn bao nhiêu CẶP electron chưa liên kết?",
+      "answer": "2",
+      "explanation": "Oxygen có $6$ electron hóa trị, dùng $2$ để tạo $2$ liên kết O–H, còn lại $4$ electron $= 2$ cặp chưa liên kết."
     },
     {
       "id": "sa-c3-009",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 3)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v8</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết trong NH3",
+      "question": "Một phân tử ammonia ($NH_3$) có bao nhiêu liên kết đơn N–H?",
+      "answer": "3",
+      "explanation": "Nitrogen tạo $3$ liên kết đơn với $3$ nguyên tử hydrogen (và còn $1$ cặp electron chưa liên kết)."
     },
     {
       "id": "sa-c3-010",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 4)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v9</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Quy tắc octet",
+      "question": "Theo quy tắc octet, nguyên tử có xu hướng đạt được bao nhiêu electron ở lớp ngoài cùng?",
+      "answer": "8",
+      "explanation": "Quy tắc octet: nguyên tử có xu hướng đạt $8$ electron lớp ngoài cùng như khí hiếm (riêng H, Li đạt 2)."
     },
     {
       "id": "sa-c3-011",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 4)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v10</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Mạng tinh thể ion",
+      "question": "Trong mạng tinh thể NaCl, mỗi ion $Na^{+}$ được bao quanh bởi bao nhiêu ion $Cl^{-}$ gần nhất?",
+      "answer": "6",
+      "explanation": "Trong mạng lập phương của NaCl, mỗi ion $Na^{+}$ có $6$ ion $Cl^{-}$ gần nhất bao quanh (và ngược lại)."
     },
     {
       "id": "sa-c3-012",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 4)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v11</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết sigma",
+      "question": "Trong phân tử $N_2$ (liên kết ba), có bao nhiêu liên kết $\\sigma$?",
+      "answer": "1",
+      "explanation": "Liên kết ba luôn gồm đúng $1$ liên kết $\\sigma$ (xen phủ trục) và $2$ liên kết $\\pi$ (xen phủ bên)."
     },
     {
       "id": "sa-c3-013",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 5)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v12</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết pi",
+      "question": "Trong phân tử $N_2$ (liên kết ba), có bao nhiêu liên kết $\\pi$?",
+      "answer": "2",
+      "explanation": "Liên kết ba gồm $1$ liên kết $\\sigma$ và $2$ liên kết $\\pi$."
     },
     {
       "id": "sa-c3-014",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 5)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v13</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết hydrogen",
+      "question": "Một phân tử $H_2O$ có bao nhiêu nguyên tử hydrogen có thể tham gia tạo liên kết hydrogen với phân tử khác?",
+      "answer": "2",
+      "explanation": "Phân tử nước có $2$ nguyên tử H, mỗi nguyên tử có thể tạo một liên kết hydrogen với O của phân tử nước khác."
     },
     {
       "id": "sa-c3-015",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "nb",
-      "dang": "Liên kết (Nhóm 5)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v14</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết hydrogen trong DNA",
+      "question": "Trong phân tử DNA, cặp base A–T được nối với nhau bằng bao nhiêu liên kết hydrogen?",
+      "answer": "2",
+      "explanation": "Cặp adenine–thymine (A–T) liên kết bằng $2$ liên kết hydrogen."
     },
     {
       "id": "sa-c3-016",
       "chapter": "c3",
-      "lesson": "b5",
+      "lesson": "b6",
       "level": "th",
-      "dang": "Liên kết (Nhóm 6)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v15</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết hydrogen trong DNA",
+      "question": "Trong phân tử DNA, cặp base G–C được nối với nhau bằng bao nhiêu liên kết hydrogen?",
+      "answer": "3",
+      "explanation": "Cặp guanine–cytosine (G–C) liên kết bằng $3$ liên kết hydrogen, nên bền hơn cặp A–T (2 liên kết)."
     },
     {
       "id": "sa-c3-017",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 6)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v16</span>",
+      "dang": "Electron hóa trị",
+      "question": "Nguyên tử carbon ($Z = 6$, cấu hình $1s^2 2s^2 2p^2$) có bao nhiêu electron hóa trị?",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "explanation": "Electron hóa trị là electron lớp ngoài cùng: $2s^2 2p^2$ cho $2 + 2 = 4$ electron hóa trị."
     },
     {
       "id": "sa-c3-018",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 6)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v17</span>",
+      "dang": "Tổng số liên kết",
+      "question": "Phân tử $CH_4$ có tất cả bao nhiêu liên kết cộng hóa trị?",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "explanation": "Có đúng $4$ liên kết C–H, tất cả đều là liên kết đơn."
     },
     {
       "id": "sa-c3-019",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 7)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v18</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Electron dùng chung",
+      "question": "Một liên kết BA được tạo bởi bao nhiêu electron dùng chung?",
+      "answer": "6",
+      "explanation": "Liên kết ba gồm $3$ cặp electron dùng chung, tức $3 \\cdot 2 = 6$ electron."
     },
     {
       "id": "sa-c3-020",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 7)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v19</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Điện tích ion",
+      "question": "Ion $Al^{3+}$ mang điện tích dương bằng bao nhiêu đơn vị điện tích?",
+      "answer": "3",
+      "explanation": "Aluminium nhường $3$ electron lớp ngoài cùng nên ion mang điện tích $+3$."
     },
     {
       "id": "sa-c3-021",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 7)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v20</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Hợp chất ion",
+      "question": "Trong công thức $CaCl_2$, một ion $Ca^{2+}$ kết hợp với bao nhiêu ion $Cl^{-}$?",
+      "answer": "2",
+      "explanation": "Để trung hòa điện tích $+2$ của $Ca^{2+}$ cần $2$ ion $Cl^{-}$ (mỗi ion mang $-1$)."
     },
     {
       "id": "sa-c3-022",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 8)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v21</span>",
+      "dang": "Cặp electron chung",
+      "question": "Phân tử $CO_2$ có cấu tạo $O=C=O$. Tổng số CẶP electron dùng chung trong phân tử là bao nhiêu?",
       "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "explanation": "Mỗi liên kết đôi có $2$ cặp electron dùng chung, hai liên kết đôi cho $2 \\cdot 2 = 4$ cặp."
     },
     {
       "id": "sa-c3-023",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 8)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v22</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Số nguyên tử trong phân tử",
+      "question": "Phân tử $H_2SO_4$ gồm tất cả bao nhiêu nguyên tử?",
+      "answer": "7",
+      "explanation": "Đếm theo công thức: $2$ H $+ 1$ S $+ 4$ O $= 7$ nguyên tử."
     },
     {
       "id": "sa-c3-024",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 8)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v23</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết sigma",
+      "question": "Phân tử $CO_2$ ($O=C=O$) có bao nhiêu liên kết $\\sigma$?",
+      "answer": "2",
+      "explanation": "Mỗi liên kết đôi chứa $1$ liên kết $\\sigma$, nên hai liên kết đôi cho $2$ liên kết $\\sigma$."
     },
     {
       "id": "sa-c3-025",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 9)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v24</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết pi",
+      "question": "Phân tử $CO_2$ ($O=C=O$) có bao nhiêu liên kết $\\pi$?",
+      "answer": "2",
+      "explanation": "Mỗi liên kết đôi chứa $1$ liên kết $\\pi$, nên hai liên kết đôi cho $2$ liên kết $\\pi$."
     },
     {
       "id": "sa-c3-026",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 9)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v25</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Sự nhường electron",
+      "question": "Nguyên tử magnesium ($Z = 12$, lớp ngoài cùng $3s^2$) nhường bao nhiêu electron khi tạo ion?",
+      "answer": "2",
+      "explanation": "Magnesium nhường $2$ electron lớp ngoài cùng để đạt cấu hình bền của neon, tạo ion $Mg^{2+}$."
     },
     {
       "id": "sa-c3-027",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "th",
-      "dang": "Liên kết (Nhóm 9)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v26</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Sự nhận electron",
+      "question": "Nguyên tử oxygen ($Z = 8$, có 6 electron lớp ngoài cùng) nhận bao nhiêu electron để tạo ion $O^{2-}$?",
+      "answer": "2",
+      "explanation": "Oxygen cần thêm $8 - 6 = 2$ electron để đạt octet."
     },
     {
       "id": "sa-c3-028",
       "chapter": "c3",
       "lesson": "b5",
       "level": "vd",
-      "dang": "Liên kết (Nhóm 10)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 0)? <span style=\"display:none\">v27</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Tổng số electron trong phân tử",
+      "question": "Phân tử $CH_4$ có tất cả bao nhiêu electron? (biết $Z_C = 6$, $Z_H = 1$)",
+      "answer": "10",
+      "explanation": "Tổng electron $=$ tổng số proton của các nguyên tử $= 6 + 4 \\cdot 1 = 10$ electron."
     },
     {
       "id": "sa-c3-029",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "vd",
-      "dang": "Liên kết (Nhóm 10)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 1)? <span style=\"display:none\">v28</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết sigma trong C2H4",
+      "question": "Phân tử ethylene $C_2H_4$ có cấu tạo $CH_2=CH_2$. Phân tử này có bao nhiêu liên kết $\\sigma$?",
+      "answer": "5",
+      "explanation": "Có $4$ liên kết $\\sigma$ C–H, cộng $1$ liên kết $\\sigma$ trong nối đôi C=C: tổng $5$ liên kết $\\sigma$."
     },
     {
       "id": "sa-c3-030",
       "chapter": "c3",
-      "lesson": "b6",
+      "lesson": "b5",
       "level": "vd",
-      "dang": "Liên kết (Nhóm 10)",
-      "question": "Một phân tử Mêtan (CH_4) có bao nhiêu liên kết cộng hóa trị đơn C-H (BT 2)? <span style=\"display:none\">v29</span>",
-      "answer": "4",
-      "explanation": "C có 4 e hóa trị kết hợp với 4 H tạo 4 liên kết đơn."
+      "dang": "Liên kết pi trong C2H4",
+      "question": "Phân tử ethylene $C_2H_4$ ($CH_2=CH_2$) có bao nhiêu liên kết $\\pi$?",
+      "answer": "1",
+      "explanation": "Chỉ nối đôi C=C chứa liên kết $\\pi$, và mỗi nối đôi có đúng $1$ liên kết $\\pi$."
     },
     {
       "id": "sa-c4-001",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 1)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v0</span>",
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của lưu huỳnh (S) trong $H_2SO_4$.",
       "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "explanation": "Đặt số oxi hóa của S là $x$: $2(+1) + x + 4(-2) = 0 \\Rightarrow x = +6$."
     },
     {
       "id": "sa-c4-002",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 1)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v1</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của manganese (Mn) trong $KMnO_4$.",
+      "answer": "7",
+      "explanation": "$(+1) + x + 4(-2) = 0 \\Rightarrow x = +7$."
     },
     {
       "id": "sa-c4-003",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 1)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v2</span>",
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của chromium (Cr) trong $K_2Cr_2O_7$.",
       "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "explanation": "$2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$."
     },
     {
       "id": "sa-c4-004",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 2)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v3</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa của oxygen",
+      "question": "Trong hầu hết các hợp chất (trừ peroxide và hợp chất với fluorine), oxygen có số oxi hóa bằng bao nhiêu?",
+      "answer": "-2",
+      "explanation": "Oxygen thường có số oxi hóa $-2$ trong hợp chất."
     },
     {
       "id": "sa-c4-005",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 2)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v4</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa của hydrogen",
+      "question": "Trong hợp chất với phi kim, hydrogen có số oxi hóa bằng bao nhiêu?",
+      "answer": "1",
+      "explanation": "Hydrogen có số oxi hóa $+1$ khi liên kết với phi kim (chỉ mang $-1$ trong hydride kim loại như $NaH$)."
     },
     {
       "id": "sa-c4-006",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 2)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v5</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của sắt (Fe) trong $Fe_2O_3$.",
+      "answer": "3",
+      "explanation": "$2x + 3(-2) = 0 \\Rightarrow 2x = 6 \\Rightarrow x = +3$."
     },
     {
       "id": "sa-c4-007",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 3)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v6</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của nitrogen (N) trong $HNO_3$.",
+      "answer": "5",
+      "explanation": "$(+1) + x + 3(-2) = 0 \\Rightarrow x = +5$."
     },
     {
       "id": "sa-c4-008",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 3)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v7</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của chlorine (Cl) trong $NaCl$.",
+      "answer": "-1",
+      "explanation": "Sodium có số oxi hóa $+1$, nên Cl phải là $-1$ để tổng bằng $0$."
     },
     {
       "id": "sa-c4-009",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 3)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v8</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa của đơn chất",
+      "question": "Số oxi hóa của nguyên tố trong đơn chất (như $O_2$, $Fe$, $Cl_2$) bằng bao nhiêu?",
+      "answer": "0",
+      "explanation": "Trong đơn chất, số oxi hóa của nguyên tố luôn bằng $0$."
     },
     {
       "id": "sa-c4-010",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 4)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v9</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của lưu huỳnh (S) trong $SO_2$.",
+      "answer": "4",
+      "explanation": "$x + 2(-2) = 0 \\Rightarrow x = +4$."
     },
     {
       "id": "sa-c4-011",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 4)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v10</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của carbon (C) trong $CO_2$.",
+      "answer": "4",
+      "explanation": "$x + 2(-2) = 0 \\Rightarrow x = +4$."
     },
     {
       "id": "sa-c4-012",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 4)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v11</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của nitrogen (N) trong $NH_3$.",
+      "answer": "-3",
+      "explanation": "$x + 3(+1) = 0 \\Rightarrow x = -3$."
     },
     {
       "id": "sa-c4-013",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 5)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v12</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số electron nhường",
+      "question": "Trong quá trình $Fe \\rightarrow Fe^{3+}$, mỗi nguyên tử sắt nhường bao nhiêu electron?",
+      "answer": "3",
+      "explanation": "Số oxi hóa tăng từ $0$ lên $+3$ nên nhường $3$ electron."
     },
     {
       "id": "sa-c4-014",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 5)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v13</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số electron nhận",
+      "question": "Trong quá trình $N^{+5} \\rightarrow N^{+2}$ (tạo khí NO), mỗi nguyên tử nitrogen nhận bao nhiêu electron?",
+      "answer": "3",
+      "explanation": "Số oxi hóa giảm từ $+5$ xuống $+2$ nên nhận $3$ electron."
     },
     {
       "id": "sa-c4-015",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "nb",
-      "dang": "Oxi hóa (Nhóm 5)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v14</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số electron nhận",
+      "question": "Trong quá trình $S^{+6} \\rightarrow S^{+4}$ (tạo khí $SO_2$), mỗi nguyên tử lưu huỳnh nhận bao nhiêu electron?",
+      "answer": "2",
+      "explanation": "Số oxi hóa giảm từ $+6$ xuống $+4$ nên nhận $2$ electron."
     },
     {
       "id": "sa-c4-016",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 6)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v15</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của chlorine (Cl) trong $KClO_3$.",
+      "answer": "5",
+      "explanation": "$(+1) + x + 3(-2) = 0 \\Rightarrow x = +5$."
     },
     {
       "id": "sa-c4-017",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 6)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v16</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa trung bình",
+      "question": "Xác định số oxi hóa TRUNG BÌNH của lưu huỳnh trong $Na_2S_2O_3$.",
+      "answer": "2",
+      "explanation": "$2(+1) + 2x + 3(-2) = 0 \\Rightarrow 2x = 4 \\Rightarrow x = +2$ (đây là giá trị trung bình của hai nguyên tử S)."
     },
     {
       "id": "sa-c4-018",
       "chapter": "c4",
-      "lesson": "b8",
+      "lesson": "b7",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 6)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v17</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số electron nhận",
+      "question": "Trong quá trình $N^{+5} \\rightarrow N^{-3}$ (tạo muối ammonium), mỗi nguyên tử nitrogen nhận bao nhiêu electron?",
+      "answer": "8",
+      "explanation": "Số oxi hóa giảm từ $+5$ xuống $-3$: nhận $5 - (-3) = 8$ electron."
     },
     {
       "id": "sa-c4-019",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 7)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v18</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $3Cu + 8HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO + 4H_2O$, hệ số của $HNO_3$ là bao nhiêu?",
+      "answer": "8",
+      "explanation": "Bảo toàn nitrogen: vế phải có $3 \\cdot 2 + 2 = 8$ nguyên tử N, nên hệ số $HNO_3$ là $8$."
     },
     {
       "id": "sa-c4-020",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 7)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v19</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Tổng hệ số",
+      "question": "Cho phương trình đã cân bằng $Zn + 2H_2SO_4 \\rightarrow ZnSO_4 + SO_2 + 2H_2O$. Tính tổng các hệ số của tất cả các chất.",
+      "answer": "7",
+      "explanation": "Tổng hệ số $= 1 + 2 + 1 + 1 + 2 = 7$."
     },
     {
       "id": "sa-c4-021",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 7)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v20</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $Fe + 2HCl \\rightarrow FeCl_2 + H_2$, hệ số của $Fe$ là bao nhiêu?",
+      "answer": "1",
+      "explanation": "Chỉ cần $1$ nguyên tử Fe để tạo $1$ phân tử $FeCl_2$, nên hệ số của Fe là $1$."
     },
     {
       "id": "sa-c4-022",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 8)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v21</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số electron trao đổi",
+      "question": "Trong quá trình $Cu \\rightarrow Cu^{2+} + ne$, giá trị của $n$ là bao nhiêu?",
+      "answer": "2",
+      "explanation": "Số oxi hóa tăng từ $0$ lên $+2$ nên nhường $2$ electron."
     },
     {
       "id": "sa-c4-023",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 8)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v22</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $4Al + 3O_2 \\rightarrow 2Al_2O_3$, hệ số của $O_2$ là bao nhiêu?",
+      "answer": "3",
+      "explanation": "Vế phải có $2 \\cdot 3 = 6$ nguyên tử O, cần $3$ phân tử $O_2$."
     },
     {
       "id": "sa-c4-024",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 8)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v23</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $3Cu + 8HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO + 4H_2O$, hệ số của $H_2O$ là bao nhiêu?",
+      "answer": "4",
+      "explanation": "Bảo toàn hydrogen: vế trái có $8$ nguyên tử H nên vế phải cần $4$ phân tử $H_2O$."
     },
     {
       "id": "sa-c4-025",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 9)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v24</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của manganese (Mn) trong $MnO_2$.",
+      "answer": "4",
+      "explanation": "$x + 2(-2) = 0 \\Rightarrow x = +4$."
     },
     {
       "id": "sa-c4-026",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 9)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v25</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Số oxi hóa",
+      "question": "Xác định số oxi hóa của phosphorus (P) trong $H_3PO_4$.",
+      "answer": "5",
+      "explanation": "$3(+1) + x + 4(-2) = 0 \\Rightarrow x = +5$."
     },
     {
       "id": "sa-c4-027",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "dang": "Oxi hóa (Nhóm 9)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v26</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $MnO_2 + 4HCl \\rightarrow MnCl_2 + Cl_2 + 2H_2O$, hệ số của $HCl$ là bao nhiêu?",
+      "answer": "4",
+      "explanation": "Cần $4$ HCl: $2$ phân tử tạo $MnCl_2$ (đóng vai trò môi trường) và $2$ phân tử bị oxi hóa thành $Cl_2$."
     },
     {
       "id": "sa-c4-028",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "dang": "Oxi hóa (Nhóm 10)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 0). <span style=\"display:none\">v27</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Tổng hệ số",
+      "question": "Cho phương trình đã cân bằng $2KMnO_4 + 16HCl \\rightarrow 2KCl + 2MnCl_2 + 5Cl_2 + 8H_2O$. Tính tổng các hệ số của tất cả các chất.",
+      "answer": "35",
+      "explanation": "Tổng hệ số $= 2 + 16 + 2 + 2 + 5 + 8 = 35$."
     },
     {
       "id": "sa-c4-029",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "vd",
-      "dang": "Oxi hóa (Nhóm 10)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 1). <span style=\"display:none\">v28</span>",
+      "dang": "Số electron trao đổi",
+      "question": "Trong phản ứng $2Al + 3Cl_2 \\rightarrow 2AlCl_3$, tổng số electron trao đổi là bao nhiêu?",
       "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "explanation": "Mỗi nguyên tử Al nhường $3$ electron, có $2$ nguyên tử Al nên tổng số electron trao đổi là $2 \\cdot 3 = 6$."
     },
     {
       "id": "sa-c4-030",
       "chapter": "c4",
-      "lesson": "b7",
+      "lesson": "b8",
       "level": "vd",
-      "dang": "Oxi hóa (Nhóm 10)",
-      "question": "Xác định số oxi hóa của nguyên tố Lưu huỳnh (S) trong H_2SO_4 (BT 2). <span style=\"display:none\">v29</span>",
-      "answer": "6",
-      "explanation": "2(+1) + S + 4(-2) = 0 => S = +6."
+      "dang": "Hệ số cân bằng",
+      "question": "Trong phương trình đã cân bằng $8Al + 30HNO_3 \\rightarrow 8Al(NO_3)_3 + 3N_2O + 15H_2O$, hệ số của $Al$ là bao nhiêu?",
+      "answer": "8",
+      "explanation": "Al nhường $3e$, còn $2N^{+5} + 8e \\rightarrow N_2^{+1}$. Để cân bằng electron: $8$ Al nhường $24e$, vừa đủ cho $3$ phân tử $N_2O$ nhận $24e$."
     },
     {
       "id": "sa-c5-001",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 1)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v0</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Nhiệt tỏa ra",
+      "question": "Một phản ứng có $\\Delta_r H^0_{298} = -92$ kJ. Nhiệt lượng tỏa ra là bao nhiêu kJ?",
+      "answer": "92",
+      "explanation": "$\\Delta_r H < 0$ nghĩa là phản ứng tỏa nhiệt, nhiệt lượng tỏa ra bằng $|\\Delta_r H| = 92$ kJ.",
       "unit": "kJ"
     },
     {
@@ -1216,10 +1220,10 @@
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 1)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v1</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Nhiệt hấp thụ",
+      "question": "Một phản ứng có $\\Delta_r H^0_{298} = +180$ kJ. Nhiệt lượng phản ứng hấp thụ là bao nhiêu kJ?",
+      "answer": "180",
+      "explanation": "$\\Delta_r H > 0$ nghĩa là phản ứng thu nhiệt, hấp thụ $180$ kJ từ môi trường.",
       "unit": "kJ"
     },
     {
@@ -1227,54 +1231,54 @@
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 1)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v2</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt tạo thành của đơn chất",
+      "question": "Nhiệt tạo thành chuẩn $\\Delta_f H^0_{298}$ của đơn chất bền nhất (như $O_2$, $N_2$) bằng bao nhiêu kJ/mol?",
+      "answer": "0",
+      "explanation": "Theo quy ước, đơn chất ở dạng bền nhất tại điều kiện chuẩn có nhiệt tạo thành chuẩn bằng $0$.",
+      "unit": "kJ/mol"
     },
     {
       "id": "sa-c5-004",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 2)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v3</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Đốt cháy $1$ mol $CH_4$ tỏa ra $890$ kJ. Đốt cháy $2$ mol $CH_4$ tỏa ra bao nhiêu kJ?",
+      "answer": "1780",
+      "explanation": "Nhiệt lượng tỉ lệ thuận với số mol: $890 \\cdot 2 = 1780$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-005",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 2)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v4</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Tính ΔH từ nhiệt tạo thành",
+      "question": "Một phản ứng có tổng nhiệt tạo thành các sản phẩm là $-400$ kJ và của các chất tham gia là $-100$ kJ. Tính $\\Delta_r H$ (kJ).",
+      "answer": "-300",
+      "explanation": "$\\Delta_r H = \\sum \\Delta_f H(\\text{sp}) - \\sum \\Delta_f H(\\text{tg}) = -400 - (-100) = -300$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-006",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 2)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v5</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Điều kiện chuẩn",
+      "question": "Trong kí hiệu $\\Delta_r H^0_{298}$, số $298$ chỉ nhiệt độ theo thang Kelvin. Nhiệt độ đó là bao nhiêu K?",
+      "answer": "298",
+      "explanation": "$298$ K tương ứng $25^\\circ$C — nhiệt độ quy ước của điều kiện chuẩn.",
+      "unit": "K"
     },
     {
       "id": "sa-c5-007",
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 3)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v6</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Phản ứng nghịch",
+      "question": "Phản ứng thuận có $\\Delta_r H = -100$ kJ. Phản ứng nghịch có $\\Delta_r H$ bằng bao nhiêu kJ?",
+      "answer": "100",
+      "explanation": "Phản ứng nghịch có biến thiên enthalpy trái dấu: $+100$ kJ (từ tỏa nhiệt thành thu nhiệt).",
       "unit": "kJ"
     },
     {
@@ -1282,54 +1286,54 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 3)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v7</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Đốt cháy $1$ mol $CH_4$ tỏa $890$ kJ. Đốt cháy $0,5$ mol $CH_4$ tỏa ra bao nhiêu kJ?",
+      "answer": "445",
+      "explanation": "$890 \\cdot 0,5 = 445$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-009",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 3)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v8</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt tạo thành của đơn chất",
+      "question": "Nhiệt tạo thành chuẩn của khí $O_2$ ở điều kiện chuẩn bằng bao nhiêu kJ/mol?",
+      "answer": "0",
+      "explanation": "$O_2$ là dạng đơn chất bền nhất của oxygen nên $\\Delta_f H^0 = 0$ kJ/mol.",
+      "unit": "kJ/mol"
     },
     {
       "id": "sa-c5-010",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 4)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v9</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Tính ΔH từ nhiệt tạo thành",
+      "question": "Một phản ứng có tổng nhiệt tạo thành sản phẩm là $-700$ kJ, của chất tham gia là $-250$ kJ. Tính $\\Delta_r H$ (kJ).",
+      "answer": "-450",
+      "explanation": "$\\Delta_r H = -700 - (-250) = -450$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-011",
       "chapter": "c5",
-      "lesson": "b10",
+      "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 4)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v10</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
-      "unit": "kJ"
+      "dang": "Đổi đơn vị năng lượng",
+      "question": "$1$ kJ bằng bao nhiêu J?",
+      "answer": "1000",
+      "explanation": "Tiền tố \"kilo\" ứng với thừa số $10^{3}$, nên $1$ kJ $= 10^{3}$ J $= 1000$ J.",
+      "unit": "J"
     },
     {
       "id": "sa-c5-012",
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 4)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v11</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Đốt cháy $1$ mol carbon tỏa $393,5$ kJ. Đốt cháy $3$ mol carbon tỏa ra bao nhiêu kJ?",
+      "answer": "1180,5",
+      "explanation": "$393,5 \\cdot 3 = 1180,5$ kJ.",
       "unit": "kJ"
     },
     {
@@ -1337,10 +1341,10 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 5)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v12</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Phản ứng $2H_2 + O_2 \\rightarrow 2H_2O$ có $\\Delta_r H = -571,6$ kJ (ứng với 2 mol nước). Nhiệt tạo thành của $1$ mol $H_2O$ là bao nhiêu kJ?",
+      "answer": "-285,8",
+      "explanation": "Chia đôi cả phương trình: $\\frac{-571,6}{2} = -285,8$ kJ/mol.",
       "unit": "kJ"
     },
     {
@@ -1348,10 +1352,10 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 5)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v13</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Đốt cháy $1$ mol CO tỏa $283$ kJ. Đốt cháy $2$ mol CO tỏa ra bao nhiêu kJ?",
+      "answer": "566",
+      "explanation": "Nhiệt lượng tỏa ra tỉ lệ thuận với số mol chất bị đốt cháy: $2$ mol CO tỏa ra $283 \\cdot 2 = 566$ kJ.",
       "unit": "kJ"
     },
     {
@@ -1359,10 +1363,10 @@
       "chapter": "c5",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Nhiệt học (Nhóm 5)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v14</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
+      "dang": "Phản ứng nghịch",
+      "question": "Phản ứng thuận có $\\Delta_r H = +180$ kJ. Phản ứng nghịch có $\\Delta_r H$ bằng bao nhiêu kJ?",
+      "answer": "-180",
+      "explanation": "Phản ứng nghịch có $\\Delta_r H$ trái dấu: $-180$ kJ.",
       "unit": "kJ"
     },
     {
@@ -1370,87 +1374,92 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 6)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v15</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Tính ΔH từ năng lượng liên kết",
+      "question": "Một phản ứng có tổng năng lượng liên kết của chất tham gia là $1000$ kJ, của sản phẩm là $1200$ kJ. Tính $\\Delta_r H$ (kJ).",
+      "answer": "-200",
+      "explanation": "$\\Delta_r H = \\sum E_b(\\text{tg}) - \\sum E_b(\\text{sp}) = 1000 - 1200 = -200$ kJ (tỏa nhiệt vì liên kết sản phẩm bền hơn).",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-017",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 6)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v16</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Tính ΔH từ năng lượng liên kết",
+      "question": "Cho $H_2 + Cl_2 \\rightarrow 2HCl$ với $E_b(H-H) = 436$, $E_b(Cl-Cl) = 243$, $E_b(H-Cl) = 432$ (kJ/mol). Tính $\\Delta_r H$ (kJ).",
+      "answer": "-185",
+      "explanation": "$\\Delta_r H = (436 + 243) - 2 \\cdot 432 = 679 - 864 = -185$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-018",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 6)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v17</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Tính ΔH đốt cháy",
+      "question": "Cho $\\Delta_f H^0$: $CH_4 = -74,8$; $CO_2 = -393,5$; $H_2O(l) = -285,8$ (kJ/mol). Tính $\\Delta_r H$ của phản ứng $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O(l)$ (kJ).",
+      "answer": "-890,3",
+      "explanation": "$\\Delta_r H = [-393,5 + 2(-285,8)] - [-74,8 + 0] = -965,1 + 74,8 = -890,3$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-019",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 7)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v18</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt theo khối lượng",
+      "question": "Đốt cháy $16$ gam $CH_4$ (biết $M = 16$ g/mol, mỗi mol tỏa $890,3$ kJ). Nhiệt lượng tỏa ra là bao nhiêu kJ?",
+      "answer": "890,3",
+      "explanation": "Số mol $= \\frac{16}{16} = 1$ mol, nên nhiệt tỏa ra $= 890,3$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-020",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 7)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v19</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt theo khối lượng",
+      "question": "Đốt cháy $32$ gam $CH_4$ ($M = 16$ g/mol, mỗi mol tỏa $890,3$ kJ). Nhiệt lượng tỏa ra là bao nhiêu kJ?",
+      "answer": "1780,6",
+      "explanation": "Số mol $= \\frac{32}{16} = 2$ mol, nhiệt tỏa ra $= 2 \\cdot 890,3 = 1780,6$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-021",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 7)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v20</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt theo số mol",
+      "question": "Phản ứng $2H_2 + O_2 \\rightarrow 2H_2O$ tỏa $571,6$ kJ. Đốt cháy $1$ mol $H_2$ tỏa ra bao nhiêu kJ?",
+      "answer": "285,8",
+      "explanation": "Phương trình ứng với $2$ mol $H_2$, nên $1$ mol tỏa $\\frac{571,6}{2} = 285,8$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-022",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 8)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v21</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
-      "unit": "kJ"
+      "dang": "Tính ΔH phản ứng phân hủy",
+      "question": "Cho $\\Delta_f H^0$: $CaCO_3 = -1207$; $CaO = -635$; $CO_2 = -393,5$ (kJ/mol). Tính $\\Delta_r H$ của phản ứng $CaCO_3 \\rightarrow CaO + CO_2$ (kJ).",
+      "answer": "178,5",
+      "explanation": "$\\Delta_r H = (-635 - 393,5) - (-1207) = -1028,5 + 1207 = 178,5$ kJ (thu nhiệt, nên phải nung vôi ở nhiệt độ cao).",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-023",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 8)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v22</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Năng lượng phá vỡ liên kết",
+      "question": "Năng lượng liên kết $N \\equiv N$ là $945$ kJ/mol. Cần bao nhiêu kJ để phá vỡ hoàn toàn $2$ mol liên kết này?",
+      "answer": "1890",
+      "explanation": "$945 \\cdot 2 = 1890$ kJ. Năng lượng lớn này giải thích vì sao $N_2$ rất trơ.",
       "unit": "kJ"
     },
     {
@@ -1458,54 +1467,57 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 8)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v23</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt theo số mol",
+      "question": "Phản ứng phân hủy $1$ mol $CaCO_3$ cần hấp thụ $178,5$ kJ. Phân hủy $0,5$ mol cần bao nhiêu kJ?",
+      "answer": "89,25",
+      "explanation": "$178,5 \\cdot 0,5 = 89,25$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c5-025",
       "chapter": "c5",
       "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 9)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v24</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt chuyển thể",
+      "question": "Cho $\\Delta_f H^0$ của $H_2O(g) = -241,8$ và $H_2O(l) = -285,8$ kJ/mol. Khi $1$ mol hơi nước ngưng tụ thành nước lỏng, nhiệt lượng TỎA RA là bao nhiêu kJ?",
+      "answer": "44",
+      "explanation": "$\\Delta H = -285,8 - (-241,8) = -44$ kJ, nghĩa là tỏa ra $44$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-026",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 9)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v25</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
+      "dang": "Nhiệt theo số mol",
+      "question": "Đốt cháy $1$ mol $C_2H_2$ tỏa $1300$ kJ. Đốt cháy $0,2$ mol tỏa ra bao nhiêu kJ?",
+      "answer": "260",
+      "explanation": "$1300 \\cdot 0,2 = 260$ kJ.",
       "unit": "kJ"
     },
     {
       "id": "sa-c5-027",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "th",
-      "dang": "Nhiệt học (Nhóm 9)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v26</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Tính ΔH từ nhiệt tạo thành",
+      "question": "Cho $\\Delta_f H^0$: $CO = -110,5$; $CO_2 = -393,5$ (kJ/mol). Tính $\\Delta_r H$ của phản ứng $2CO + O_2 \\rightarrow 2CO_2$ (kJ).",
+      "answer": "-566",
+      "explanation": "$\\Delta_r H = 2(-393,5) - [2(-110,5) + 0] = -787 + 221 = -566$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-028",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "vd",
-      "dang": "Nhiệt học (Nhóm 10)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -25 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v27</span>",
-      "answer": "25",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 25 kJ.",
+      "dang": "Bài toán nhiên liệu",
+      "question": "Đốt cháy propane $C_3H_8$ tỏa $2220$ kJ/mol. Đốt cháy $5$ mol propane tỏa ra bao nhiêu kJ?",
+      "answer": "11100",
+      "explanation": "$2220 \\cdot 5 = 11100$ kJ.",
       "unit": "kJ"
     },
     {
@@ -1513,22 +1525,24 @@
       "chapter": "c5",
       "lesson": "b10",
       "level": "vd",
-      "dang": "Nhiệt học (Nhóm 10)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -50 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v28</span>",
-      "answer": "50",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 50 kJ.",
-      "unit": "kJ"
+      "dang": "Nhiệt theo thể tích khí",
+      "question": "Đốt cháy hoàn toàn $2,24$ lít khí $C_2H_4$ (đktc, $22,4$ L/mol), biết mỗi mol tỏa $1411$ kJ. Nhiệt lượng tỏa ra là bao nhiêu kJ?",
+      "answer": "141,1",
+      "explanation": "Số mol $= \\frac{2,24}{22,4} = 0,1$ mol, nên nhiệt tỏa ra $= 0,1 \\cdot 1411 = 141,1$ kJ.",
+      "unit": "kJ",
+      "tolerance": 0.1
     },
     {
       "id": "sa-c5-030",
       "chapter": "c5",
-      "lesson": "b9",
+      "lesson": "b10",
       "level": "vd",
-      "dang": "Nhiệt học (Nhóm 10)",
-      "question": "Cho phản ứng tỏa nhiệt có Δ_r H_2_9_8^0 = -75 kJ. Nhiệt lượng tỏa ra (kJ) là: <span style=\"display:none\">v29</span>",
-      "answer": "75",
-      "explanation": "Nhiệt lượng tỏa ra = |Δ_r H_2_9_8^0| = 75 kJ.",
-      "unit": "kJ"
+      "dang": "Tìm số mol từ nhiệt lượng",
+      "question": "Cần đốt cháy bao nhiêu mol $CH_4$ để thu được $4451,5$ kJ nhiệt, biết mỗi mol tỏa $890,3$ kJ?",
+      "answer": "5",
+      "explanation": "Số mol $= \\frac{4451,5}{890,3} = 5$ mol.",
+      "unit": "mol",
+      "tolerance": 0.01
     }
   ]
 }
