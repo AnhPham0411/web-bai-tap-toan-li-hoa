@@ -101,3 +101,18 @@ export function shuffle(list) {
   }
   return arr;
 }
+
+/**
+ * Trộn thứ tự các phương án của một câu trắc nghiệm, đồng thời cập nhật lại
+ * chỉ số đáp án đúng cho khớp. Trả về một câu hỏi MỚI (không sửa câu gốc),
+ * để dữ liệu gốc trong bộ đề không bị thay đổi giữa các lượt làm bài khác nhau.
+ */
+export function shuffleChoices(question) {
+  if (!Array.isArray(question.choices) || question.choices.length === 0) return question;
+  const order = shuffle(question.choices.map((_, i) => i));
+  return {
+    ...question,
+    choices: order.map((i) => question.choices[i]),
+    answer: order.indexOf(question.answer)
+  };
+}

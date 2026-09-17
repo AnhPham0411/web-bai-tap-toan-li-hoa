@@ -630,7 +630,7 @@
       "lesson": "b3",
       "level": "vd",
       "dang": "Tính sai số đo trực tiếp",
-      "question": "Tiếp tục với 5 lần đo: 0,40s; 0,42s; 0,39s; 0,41s; 0,38s (có $\\bar{t} = 0,40s$). Bỏ qua sai số dụng cụ. Sai số tuyệt đối của phép đo thời gian này là:",
+      "question": "Cho 5 lần đo thời gian: 0,40s; 0,42s; 0,39s; 0,41s; 0,38s (giá trị trung bình $\\bar{t} = 0,40$s). Bỏ qua sai số dụng cụ. Sai số tuyệt đối của phép đo thời gian này là:",
       "choices": [
         "0,012s",
         "0,02s",
@@ -1622,7 +1622,7 @@
       "lesson": "b8",
       "level": "vd",
       "dang": "Cộng vận tốc vuông góc",
-      "question": "Trong bài toán canô sang sông (canô hướng vuông góc bờ, v_canô=4m/s, v_nước=3m/s), nếu bề rộng con sông là 40m, thời gian canô sang đến bờ bên kia là:",
+      "question": "Một canô sang sông, hướng mũi vuông góc với bờ, vận tốc canô so với nước là $4$ m/s, nước chảy $3$ m/s. Nếu bề rộng con sông là $40$ m, thời gian canô sang đến bờ bên kia là:",
       "choices": [
         "10 s",
         "8 s",
@@ -1638,7 +1638,7 @@
       "lesson": "b8",
       "level": "vd",
       "dang": "Cộng vận tốc vuông góc",
-      "question": "Cũng với canô trên, khoảng cách bị nước cuốn trôi dọc theo bờ sông khi sang đến đích là:",
+      "question": "Một canô sang sông, luôn hướng mũi vuông góc với bờ, vận tốc canô so với nước là $4$ m/s, nước chảy với vận tốc $3$ m/s, bề rộng con sông là $40$ m. Khoảng cách canô bị nước cuốn trôi dọc theo bờ sông khi sang đến đích là:",
       "choices": [
         "30 m",
         "40 m",
@@ -1750,7 +1750,7 @@
       "lesson": "b9",
       "level": "vd",
       "dang": "Tính toán ném xiên",
-      "question": "Cũng quả bóng ném xiên $v_0 = 20\\text{ m/s}$, góc 30 độ. Độ cao cực đại mà bóng đạt được là:",
+      "question": "Một quả bóng được ném xiên với $v_0 = 20\\text{ m/s}$, góc ném $30$ độ so với phương ngang. Độ cao cực đại mà bóng đạt được là:",
       "choices": [
         "5 m",
         "10 m",
@@ -1766,7 +1766,7 @@
       "lesson": "b9",
       "level": "vd",
       "dang": "Tính toán ném xiên",
-      "question": "Cũng quả bóng ném xiên $v_0 = 20\\text{ m/s}$, góc 30 độ. Tầm xa của quả bóng là: (Lấy $\\sqrt{3} \\approx 1,73$)",
+      "question": "Một quả bóng được ném xiên với $v_0 = 20\\text{ m/s}$, góc ném $30$ độ so với phương ngang. Tầm xa của quả bóng là: (Lấy $\\sqrt{3} \\approx 1,73$)",
       "choices": [
         "34,6 m",
         "17,3 m",
@@ -1814,7 +1814,7 @@
       "lesson": "b5",
       "level": "vd",
       "dang": "Tổng hợp đồ thị",
-      "question": "Từ dữ kiện trên, gia tốc của thang máy trong 2 giây đầu tiên là:",
+      "question": "Đồ thị v-t của một thang máy gồm 3 đoạn: từ $t=0$ đến $2$s vận tốc tăng từ $0$ đến $4$ m/s; từ $2$s đến $8$s giữ $v=4$ m/s không đổi; từ $8$s đến $10$s giảm từ $4$ về $0$. Gia tốc của thang máy trong $2$ giây đầu tiên là:",
       "choices": [
         "2 m/s²",
         "4 m/s²",
@@ -3382,7 +3382,7 @@
       "lesson": "b16",
       "level": "vd",
       "dang": "Hệ hai vật vắt ròng rọc",
-      "question": "Trong hệ thống ở câu trên ($m_1=3, m_2=2, g=10, a=2$), lực căng của sợi dây treo hai vật có độ lớn là:",
+      "question": "Hệ Atwood: hai vật $m_1=3\\text{ kg}$ và $m_2=2\\text{ kg}$ treo vào hai đầu dây vắt qua ròng rọc cố định ($g=10\\text{ m/s}^2$), hệ chuyển động với gia tốc $a=2\\text{ m/s}^2$. Bỏ qua khối lượng dây và ròng rọc. Lực căng của sợi dây treo hai vật có độ lớn là:",
       "choices": [
         "24 N",
         "10 N",
@@ -3414,7 +3414,7 @@
       "lesson": "b17",
       "level": "vd",
       "dang": "Lực kéo góc có ma sát (Lừa áp lực)",
-      "question": "Cũng bài toán trên (vật 5kg, kéo F=20N, góc 30 độ), nhưng sàn có ma sát $\\mu = 0,2$. ($g=10$). Biểu thức tính lực ma sát nào ĐÚNG?",
+      "question": "Một vật $5$ kg được kéo bằng lực $F = 20$ N hợp với phương ngang góc $30$ độ, sàn có ma sát với hệ số $\\mu = 0,2$ ($g=10$). Biểu thức tính lực ma sát nào ĐÚNG?",
       "choices": [
         "$F_{ms} = \\mu(mg - F\\sin 30^\\circ)$",
         "$F_{ms} = \\mu mg$",
@@ -3734,7 +3734,7 @@
       "lesson": "b20",
       "level": "vd",
       "dang": "Phân tích hệ tĩnh",
-      "question": "Cũng quả cầu trên, tính phản lực (N) của tường đẩy ra.",
+      "question": "Quả cầu nhẵn $2$ kg treo vào tường bằng một sợi dây hợp với tường góc $30^\\circ$, lực căng dây là $T = 40/\\sqrt{3}$ N. Tính phản lực $N$ của tường đẩy ra. ($g=10$)",
       "choices": [
         "$20/\\sqrt{3}\\text{ N}$",
         "20 N",
@@ -4550,7 +4550,7 @@
       "lesson": "b27",
       "level": "vd",
       "dang": "Bài toán Wd = n Wt",
-      "question": "Cũng vật rơi tự do từ 20m. Ở độ cao nào thì Động năng bằng 3 lần Thế năng?",
+      "question": "Một vật rơi tự do từ độ cao $20$ m. Ở độ cao nào thì Động năng bằng 3 lần Thế năng?",
       "choices": [
         "5 m",
         "15 m",
@@ -4598,7 +4598,7 @@
       "lesson": "b27",
       "level": "vd",
       "dang": "Định lí BT Cơ năng",
-      "question": "Từ kết quả trên, tính độ lớn của lực ma sát tác dụng lên vật trên đoạn dốc dài 10m đó.",
+      "question": "Một vật $2$ kg trượt không vận tốc đầu từ đỉnh dốc dài $10$ m, cao $5$ m xuống chân dốc; do có ma sát nên vận tốc tại chân dốc chỉ là $6$ m/s và công của lực ma sát là $-64$ J ($g=10$). Tính độ lớn của lực ma sát tác dụng lên vật trên đoạn dốc dài $10$ m đó.",
       "choices": [
         "6,4 N",
         "10 N",
@@ -4918,7 +4918,7 @@
       "lesson": "b28",
       "level": "vd",
       "dang": "Tính va chạm đàn hồi",
-      "question": "Tiếp tục bài toán trên, vận tốc của bi B (2kg) sau va chạm là:",
+      "question": "Bi A khối lượng $1$ kg chuyển động với vận tốc $5$ m/s đến va chạm đàn hồi xuyên tâm với bi B khối lượng $2$ kg đang đứng yên. Vận tốc của bi B sau va chạm là:",
       "choices": [
         "3,33 m/s",
         "1,67 m/s",
@@ -5046,7 +5046,7 @@
       "lesson": "b29",
       "level": "vd",
       "dang": "Tính hiệu suất máy cơ",
-      "question": "Với mặt phẳng nghiêng ở câu trên, nếu trong thực tế có ma sát nên lực kéo phải dùng là 300 N. Hiệu suất của mặt phẳng nghiêng này là:",
+      "question": "Để đưa vật nặng 1000 N lên cao 1 m, người ta dùng mặt phẳng nghiêng dài 4 m. Trong thực tế có ma sát nên lực kéo phải dùng là 300 N. Hiệu suất của mặt phẳng nghiêng này là:",
       "choices": [
         "83,3%",
         "120%",
@@ -5286,7 +5286,7 @@
       "lesson": "b32",
       "level": "vd",
       "dang": "Tiêu hao năng lượng (lần 2)",
-      "question": "Cũng quả bóng ở câu trên (mất 20% cơ năng mỗi lần nảy). Độ cao bóng đạt được sau lần chạm đất thứ HAI là:",
+      "question": "Một quả bóng cao su rơi từ độ cao 2 m xuống đất cứng rồi nảy lên; sau mỗi lần chạm đất bóng mất 20% cơ năng. Độ cao bóng đạt được sau lần chạm đất thứ HAI là:",
       "choices": [
         "1,28 m",
         "1,2 m",
@@ -5294,7 +5294,7 @@
         "1,6 m"
       ],
       "answer": 0,
-      "explanation": "Cơ năng tiếp tục giảm còn 80% của lần nảy trước. $h'' = 0.8 \\times h' = 0.8 \\times 1,6 = 1,28\\text{ m}$."
+      "explanation": "Sau lần chạm thứ nhất, cơ năng còn 80%: $h' = 0,8 \\times 2 = 1,6\\text{ m}$. Sau lần chạm thứ hai lại còn 80% của lần trước: $h'' = 0,8 \\times 1,6 = 1,28\\text{ m}$."
     },
     {
       "id": "mc-c3-092",
@@ -5366,7 +5366,7 @@
       "lesson": "b33",
       "level": "vd",
       "dang": "Bài toán va chạm - lò xo (Phân tích tổn hao)",
-      "question": "Cũng bài toán trên, Động năng của viên đạn TRƯỚC va chạm và Động năng của hệ (gỗ+đạn) NGAY SAU va chạm lần lượt là bao nhiêu?",
+      "question": "Một viên đạn $10$ g bay ngang với tốc độ $100$ m/s xuyên vào một khối gỗ $990$ g đang nằm yên (va chạm mềm, đạn nằm trong gỗ). Động năng của viên đạn TRƯỚC va chạm và động năng của hệ (gỗ+đạn) NGAY SAU va chạm lần lượt là bao nhiêu?",
       "choices": [
         "50 J và 0,5 J",
         "50 J và 50 J",
@@ -5478,7 +5478,7 @@
       "lesson": "b27",
       "level": "vd",
       "dang": "Độ cao cực đại",
-      "question": "Với viên đá ở câu trên ($W = 7,6\\text{ J}, m = 0,2\\text{kg}$), nó sẽ đạt được độ cao cực đại so với mặt đất là bao nhiêu? (Bỏ qua lực cản)",
+      "question": "Ném một viên đá khối lượng $m=0,2\\text{ kg}$ thẳng đứng lên cao, cơ năng của viên đá là $W=7,6\\text{ J}$ (mốc thế năng tại mặt đất, $g=10$). Viên đá đạt độ cao cực đại so với mặt đất là bao nhiêu? (Bỏ qua lực cản)",
       "choices": [
         "3,8 m",
         "4,0 m",
@@ -5654,7 +5654,7 @@
       "lesson": "b28",
       "level": "vd",
       "dang": "Tổn hao va chạm mềm",
-      "question": "Từ câu trên, phần động năng đã chuyển hóa thành nhiệt trong va chạm là:",
+      "question": "Xe A (200 kg) chạy 5 m/s đụng đuôi xe B (800 kg) chạy cùng chiều 2 m/s. Va chạm hoàn toàn mềm nên sau va chạm hai xe cùng chuyển động với vận tốc 2,6 m/s. Phần động năng đã chuyển hóa thành nhiệt trong va chạm là:",
       "choices": [
         "720 J",
         "1000 J",
@@ -7014,7 +7014,7 @@
       "lesson": "b39",
       "level": "vd",
       "dang": "Lực đỡ dầm",
-      "question": "Từ câu trên, phản lực của trụ đỡ tại A là bao nhiêu?",
+      "question": "Một cái xà ngang đồng chất dài 10 m, nặng 200 kg, được kê lên hai trụ đỡ ở hai đầu A và B. Một người nặng 50 kg đứng ở vị trí cách đầu A 2 m. Biết phản lực của trụ đỡ tại B lên xà là 1100 N. Phản lực của trụ đỡ tại A là bao nhiêu? ($g=10$)",
       "choices": [
         "1400 N",
         "1100 N",
@@ -8614,7 +8614,7 @@
       "lesson": "b48",
       "level": "vd",
       "dang": "Xilanh lật ngược",
-      "question": "Từ câu trên ($p = p_0 + mg/S$), nếu ta lật ngược xilanh (pittông vẫn đóng kín, hướng xuống đất). Áp suất khí bên trong lúc này là:",
+      "question": "Một xilanh đặt thẳng đứng có pittông nặng (diện tích $S$, khối lượng $m$) đậy kín, áp suất khí quyển là $p_0$; khi pittông nằm phía trên thì áp suất khí trong xilanh là $p = p_0 + \\frac{mg}{S}$. Nếu lật ngược xilanh (pittông vẫn đóng kín, hướng xuống đất), áp suất khí bên trong lúc này là:",
       "choices": [
         "$p' = p_0 - \\frac{mg}{S}$",
         "$p' = p_0 + \\frac{mg}{S}$",

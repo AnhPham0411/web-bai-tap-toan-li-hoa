@@ -119,5 +119,44 @@ ok('grade: hiển thị đáp số kiểu Việt kèm đơn vị',
   grade.formatAnswer({ answer: '-2.5', unit: 'm/s' }, 'short-answer') === '−2,5 m/s',
   grade.formatAnswer({ answer: '-2.5', unit: 'm/s' }, 'short-answer'));
 
+// -------------------------------------------------- grade.js: trộn phương án
+// Bộ đề lưu đáp án đúng gần như luôn ở vị trí A. Nếu không trộn phương án,
+// học sinh đoán A là trúng mà không cần đọc đề.
+{
+  const base = { id: 'x', answer: 0, choices: ['ĐÚNG', 'sai 1', 'sai 2', 'sai 3'] };
+
+  let textKept = true;
+  let permutationKept = true;
+  const seen = new Set();
+  for (let i = 0; i < 300; i++) {
+    const s = grade.shuffleChoices(base);
+    if (s.choices[s.answer] !== 'ĐÚNG') textKept = false;
+    if ([...s.choices].sort().join('|') !== [...base.choices].sort().join('|')) permutationKept = false;
+    seen.add(s.answer);
+  }
+  ok('grade: trộn phương án — đáp án đúng vẫn là đúng', textKept);
+  ok('grade: trộn phương án — không mất/nhân đôi phương án nào', permutationKept);
+  ok('grade: trộn phương án — đáp án rơi vào đủ cả 4 vị trí', seen.size === 4,
+    `các vị trí gặp được: ${[...seen].sort().join(',')}`);
+  ok('grade: trộn phương án — không sửa câu hỏi gốc',
+    base.answer === 0 && base.choices[0] === 'ĐÚNG');
+
+  const moved = grade.shuffleChoices({ answer: 2, choices: ['a', 'b', 'ĐÚNG', 'd'] });
+  ok('grade: trộn phương án — đáp án không ở vị trí 0 vẫn theo đúng nội dung',
+    moved.choices[moved.answer] === 'ĐÚNG');
+
+  const noChoices = { answer: 0 };
+  ok('grade: trộn phương án — câu không có choices thì trả nguyên câu',
+    grade.shuffleChoices(noChoices) === noChoices);
+  ok('grade: trộn phương án — mảng choices rỗng không làm vỡ',
+    grade.shuffleChoices({ answer: 0, choices: [] }).choices.length === 0);
+
+  // Câu đã trộn phải chấm đúng bằng chính isCorrect()
+  const s = grade.shuffleChoices(base);
+  ok('grade: trộn phương án — isCorrect chấm đúng vị trí mới',
+    grade.isCorrect(s, 'multiple-choice', s.answer) === true &&
+    grade.isCorrect(s, 'multiple-choice', (s.answer + 1) % 4) === false);
+}
+
 console.log(`\n${fail === 0 ? 'TẤT CẢ ĐỀU PASS' : fail + ' TEST HỎNG'}`);
 process.exit(fail === 0 ? 0 : 1);

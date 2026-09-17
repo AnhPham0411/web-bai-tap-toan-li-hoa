@@ -1,5 +1,5 @@
 import { mathHtml, mathBlock, escapeHtml } from '../math.js';
-import { isCorrect, formatAnswer, shuffle } from '../grade.js';
+import { isCorrect, formatAnswer, shuffle, shuffleChoices } from '../grade.js';
 import { saveResult, saveLastSetup, getLastSetup } from '../store.js';
 
 const LEVEL_LABEL = { nb: 'Nhận biết', th: 'Thông hiểu', vd: 'Vận dụng' };
@@ -202,6 +202,13 @@ export function bindSetup(ctx, root) {
     questions = questions.slice(0, Math.min(sel.count, questions.length));
 
     const setMeta = index.questionSets.find((s) => s.id === sel.setId);
+
+    // Trộn thứ tự phương án của từng câu trắc nghiệm. Nếu không trộn, đáp án
+    // đúng luôn nằm ở vị trí đã lưu trong bộ đề (hầu hết là A), học sinh có thể
+    // đoán đúng mà không cần đọc đề.
+    if (setMeta.type === 'multiple-choice') {
+      questions = questions.map(shuffleChoices);
+    }
     const chapterLabel = sel.chapterIds.length === index.chapters.length
       ? 'Tất cả các chương'
       : sel.chapterIds

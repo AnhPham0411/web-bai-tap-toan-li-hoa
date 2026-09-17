@@ -1278,7 +1278,7 @@
         "$1 < m \\le 4$"
       ],
       "answer": 0,
-      "explanation": "Vì cả $A$ và $B$ đều là khoảng mở nên các đầu mút được PHÉP trùng nhau: cần $m \\ge 1$ (nếu $m=1$ thì $A=(1;4)$ vẫn không chứa điểm $1$) và $m+3 \\le 7 \\Leftrightarrow m \\le 4$. Kết hợp: $1 \\le m \\le 4$ — khác với trường hợp $A$ đóng ở câu trên, ở đây dấu bằng được chấp nhận ở cả hai đầu."
+      "explanation": "Vì cả $A$ và $B$ đều là khoảng mở nên các đầu mút được PHÉP trùng nhau: cần $m \\ge 1$ (nếu $m=1$ thì $A=(1;4)$ vẫn không chứa điểm $1$) và $m+3 \\le 7 \\Leftrightarrow m \\le 4$. Kết hợp: $1 \\le m \\le 4$ — vì cả hai đầu mút đều mở nên dấu bằng được chấp nhận ở cả hai đầu."
     },
     {
       "id": "mc-c1-081",
@@ -1310,7 +1310,7 @@
         "$m \\ge 5$"
       ],
       "answer": 0,
-      "explanation": "Lần này CẢ HAI đầu mút đều đóng: nếu $m=5$ thì điểm $5$ thuộc cả $A$ và $B$, hai tập sẽ giao nhau tại $\\{5\\}$. Vì vậy phải loại trường hợp bằng, điều kiện đúng là $m < 5$ (khác với câu trên vì cách đóng/mở hai đầu đã đổi)."
+      "explanation": "Ở đây CẢ HAI đầu mút đều đóng: nếu $m=5$ thì điểm $5$ thuộc cả $A$ và $B$, hai tập sẽ giao nhau tại $\\{5\\}$. Vì vậy phải loại trường hợp bằng, điều kiện đúng là $m < 5$ (chỉ khi một trong hai đầu mút là mở thì dấu bằng mới được chấp nhận)."
     },
     {
       "id": "mc-c1-083",
@@ -1342,7 +1342,7 @@
         "$m \\ge 3$"
       ],
       "answer": 0,
-      "explanation": "$A \\cap B = \\emptyset$ khi $m \\le 3$ (tương tự các câu trên); do đó $A \\cap B \\ne \\emptyset$ đúng với trường hợp còn lại là $m > 3$."
+      "explanation": "$A \\cap B = \\emptyset$ khi $m \\le 3$ (vì $B$ mở tại $3$ nên $m=3$ vẫn chưa giao nhau); do đó $A \\cap B \\ne \\emptyset$ ứng với trường hợp còn lại là $m > 3$."
     },
     {
       "id": "mc-c1-085",
@@ -2014,7 +2014,7 @@
         "$30.000x + 50.000y > 800.000$"
       ],
       "answer": 0,
-      "explanation": "\"Nhiều hơn\" là bất đẳng thức nghiêm ngặt $>$ (không lấy dấu bằng), khác với \"không vượt quá\" ($\\le$) ở câu trước. Vé người lớn ứng với $x$, vé trẻ em ứng với $y$."
+      "explanation": "\"Nhiều hơn\" là bất đẳng thức nghiêm ngặt $>$ (không lấy dấu bằng), khác với \"không vượt quá\" ($\\le$). Vé người lớn ứng với $x$, vé trẻ em ứng với $y$."
     },
     {
       "id": "mc-c2-007",
@@ -2966,7 +2966,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Tìm GTLN, GTNN trên miền nghiệm",
-      "question": "Với cùng miền tam giác $A(0;0)$, $B(4;0)$, $C(0;3)$, giá trị nhỏ nhất của biểu thức $F = 2x + 3y$ trên miền này là:",
+      "question": "Cho miền nghiệm là tam giác với ba đỉnh $A(0;0)$, $B(4;0)$, $C(0;3)$. Giá trị nhỏ nhất của biểu thức $F = 2x + 3y$ trên miền này là:",
       "choices": [
         "0, đạt tại $A$",
         "8, đạt tại $B$",
@@ -3094,7 +3094,7 @@
       "lesson": "b4",
       "level": "vd",
       "dang": "Toán thực tế: tối ưu sản xuất",
-      "question": "Với ràng buộc trên ($2x+y\\le40$, $x+3y\\le45$, $x,y\\ge0$), các đỉnh của miền nghiệm là:",
+      "question": "Cho hệ ràng buộc $2x+y\\le40$, $x+3y\\le45$, $x,y\\ge0$. Các đỉnh của miền nghiệm là:",
       "choices": [
         "$(0;0), (20;0), (15;10), (0;15)$",
         "$(0;0), (40;0), (0;45)$",
@@ -3190,7 +3190,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: khẩu phần dinh dưỡng",
-      "question": "Nếu chỉ dùng thực phẩm B (không dùng A), cần tối thiểu bao nhiêu phần B để đủ cả đạm lẫn vitamin?",
+      "question": "Cần dùng thực phẩm A ($2$ đơn vị đạm, $3$ đơn vị vitamin mỗi phần) và thực phẩm B ($4$ đơn vị đạm, $2$ đơn vị vitamin mỗi phần) sao cho đạt ÍT NHẤT $8$ đơn vị đạm và $12$ đơn vị vitamin. Nếu chỉ dùng thực phẩm B (không dùng A), cần tối thiểu bao nhiêu phần B để đủ cả đạm lẫn vitamin?",
       "choices": [
         "6 phần (ràng buộc vitamin quyết định)",
         "2 phần (ràng buộc đạm quyết định)",
@@ -3318,7 +3318,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: vận chuyển hàng hoá",
-      "question": "Nếu chỉ dùng xe tải lớn (không dùng xe nhỏ), cần tối thiểu bao nhiêu xe để chở đủ $40$ tấn?",
+      "question": "Dùng xe tải nhỏ (chở $3$ tấn/xe) và xe tải lớn (chở $8$ tấn/xe) để chở ít nhất $40$ tấn hàng. Nếu chỉ dùng xe tải lớn (không dùng xe nhỏ), cần tối thiểu bao nhiêu xe để chở đủ $40$ tấn?",
       "choices": [
         "5 xe",
         "4 xe",
@@ -3382,7 +3382,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: phân bổ đầu tư",
-      "question": "Nếu không đầu tư vào quỹ B ($y=0$), số tiền tối đa vào quỹ A và lợi nhuận tương ứng là:",
+      "question": "Nhà đầu tư có $500$ triệu đồng, chia vào quỹ A (lãi $8\\%$/năm) số tiền $x$ và quỹ B (lãi $12\\%$/năm) số tiền $y$, biết không đầu tư quá $200$ triệu vào quỹ B. Nếu không đầu tư vào quỹ B ($y=0$), số tiền tối đa vào quỹ A và lợi nhuận tương ứng là:",
       "choices": [
         "500 triệu đồng, lợi nhuận $40$ triệu đồng",
         "200 triệu đồng, lợi nhuận $16$ triệu đồng",
@@ -3446,7 +3446,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: pha trộn phân bón",
-      "question": "Nếu chỉ dùng phân B (không dùng phân A), cần tối thiểu bao nhiêu kg để đủ $12$ kg đạm?",
+      "question": "Trộn phân A ($20\\%$ đạm) và phân B ($30\\%$ đạm) để có ít nhất $12$ kg đạm nguyên chất. Nếu chỉ dùng phân B (không dùng phân A), cần tối thiểu bao nhiêu kg để đủ $12$ kg đạm?",
       "choices": [
         "40 kg",
         "30 kg",
@@ -3510,7 +3510,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: bán vé tối ưu doanh thu",
-      "question": "Nếu bán hết $200$ vé toàn bộ là vé thường (không bán vé VIP), doanh thu là bao nhiêu?",
+      "question": "Một rạp chiếu phim có $200$ ghế, bán vé thường giá $80$ nghìn đồng và vé VIP giá $150$ nghìn đồng. Nếu bán hết $200$ vé và toàn bộ đều là vé thường (không bán vé VIP), doanh thu là bao nhiêu?",
       "choices": [
         "16 000 nghìn đồng (bằng $16$ triệu đồng)",
         "19 500 nghìn đồng",
@@ -3518,7 +3518,7 @@
         "30 000 nghìn đồng"
       ],
       "answer": 0,
-      "explanation": "$D=80(200)=16.000$ nghìn đồng — thấp hơn phương án tối ưu ở câu trên, cho thấy bán toàn vé thường không phải lựa chọn tốt nhất."
+      "explanation": "$D=80(200)=16.000$ nghìn đồng $=16$ triệu đồng — thấp hơn phương án có bán kèm vé VIP, cho thấy bán toàn vé thường không phải lựa chọn tốt nhất."
     },
     {
       "id": "mc-c2-101",
@@ -3574,7 +3574,7 @@
       "lesson": "b4",
       "level": "vd",
       "dang": "Toán thực tế: thuê nhân công",
-      "question": "Nếu chỉ thuê nhân viên part-time (không thuê full-time), cần bao nhiêu người để đủ $40$ giờ công, và điều đó có khả thi với ràng buộc \"tối đa $8$ người\" không?",
+      "question": "Công ty cần ít nhất $40$ giờ công/ngày, thuê nhân viên full-time ($8$ giờ/ngày) và nhân viên part-time ($4$ giờ/ngày), tổng số nhân viên không quá $8$ người. Nếu chỉ thuê nhân viên part-time (không thuê full-time), cần bao nhiêu người để đủ $40$ giờ công, và điều đó có khả thi với ràng buộc \"tối đa $8$ người\" không?",
       "choices": [
         "Cần $10$ người, nhưng vượt quá giới hạn $8$ người cho phép nên KHÔNG khả thi nếu chỉ dùng part-time",
         "Cần $8$ người, khả thi",
@@ -3638,7 +3638,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Toán thực tế: sản xuất bánh",
-      "question": "Nếu chỉ làm bánh ngọt (không làm bánh mặn), số bánh ngọt tối đa có thể làm là bao nhiêu?",
+      "question": "Tiệm bánh làm bánh ngọt ($200$g bột, $100$g đường/cái) và bánh mặn ($150$g bột, $50$g đường/cái), có $6.000$g bột và $2.500$g đường. Nếu chỉ làm bánh ngọt (không làm bánh mặn), số bánh ngọt tối đa có thể làm là bao nhiêu?",
       "choices": [
         "25 bánh (giới hạn bởi lượng đường)",
         "30 bánh (giới hạn bởi lượng bột)",
@@ -4470,7 +4470,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Định lí côsin — ứng dụng",
-      "question": "Trong tam giác $13$–$14$–$15$ ở câu trên, góc $C$ (đối diện cạnh lớn nhất) là góc gì?",
+      "question": "Tam giác $ABC$ có $a=13$, $b=14$, $c=15$. Góc $C$ (đối diện cạnh lớn nhất $c=15$) là góc gì?",
       "choices": [
         "Nhọn, vì $\\cos C=\\frac{5}{13}>0$",
         "Tù, vì cạnh $15$ là cạnh lớn nhất nên góc đối luôn là góc tù",
@@ -4534,7 +4534,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Định lí côsin — bài toán tổng hợp",
-      "question": "Với tam giác $a=5$, $b=7$, $c=8$ ở câu trên ($p=10$), tính diện tích $S$ bằng công thức Heron.",
+      "question": "Tam giác $ABC$ có $a=5$, $b=7$, $c=8$ (nửa chu vi $p=10$). Tính diện tích $S$ bằng công thức Heron.",
       "choices": [
         "$10\\sqrt{3}$",
         "$300$",
@@ -5078,7 +5078,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Diện tích tam giác — công thức Heron",
-      "question": "Với tam giác $a=9$, $b=10$, $c=11$ ($p=15$) ở câu trên, tính diện tích bằng công thức Heron.",
+      "question": "Tam giác có $a=9$, $b=10$, $c=11$ (nửa chu vi $p=15$). Tính diện tích bằng công thức Heron.",
       "choices": [
         "$30\\sqrt{2}$",
         "$1800$",
@@ -5590,7 +5590,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Toán thực tế: diện tích và giá trị đất",
-      "question": "Với miếng đất diện tích $336$m² ở câu trên, nếu giá đất là $20$ triệu đồng/m², tổng giá trị miếng đất là:",
+      "question": "Một miếng đất tam giác có diện tích $336$m². Nếu giá đất là $20$ triệu đồng/m², tổng giá trị miếng đất là:",
       "choices": [
         "6 720 triệu đồng (6,72 tỷ đồng)",
         "3 360 triệu đồng",
@@ -5606,7 +5606,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Toán thực tế: diện tích và giá trị đất",
-      "question": "Với miếng đất $26$-$28$-$30$ ở trên ($S=336$, $p=42$), tính bán kính đường tròn nội tiếp $r$.",
+      "question": "Một miếng đất tam giác có ba cạnh $26$m, $28$m, $30$m (diện tích $S=336$m², nửa chu vi $p=42$). Tính bán kính đường tròn nội tiếp $r$.",
       "choices": [
         "8",
         "16",
@@ -5750,7 +5750,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Tổng ôn hệ thức lượng trong tam giác",
-      "question": "Với tam giác $a=6$, $b=8$, $c=10$ ở câu trên, bán kính đường tròn nội tiếp $r$ là:",
+      "question": "Tam giác $ABC$ có $a=6$, $b=8$, $c=10$. Bán kính đường tròn nội tiếp $r$ là:",
       "choices": [
         "2",
         "4",
@@ -6998,7 +6998,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Tích vô hướng theo toạ độ",
-      "question": "Với $\\vec{a}, \\vec{b}$ ở câu trên ($\\vec{a}\\cdot\\vec{b}=0$), góc giữa hai vectơ là:",
+      "question": "Cho hai vectơ $\\vec{a}$, $\\vec{b}$ đều khác $\\vec{0}$ và thoả mãn $\\vec{a}\\cdot\\vec{b}=0$. Góc giữa hai vectơ đó là:",
       "choices": [
         "$90^\\circ$",
         "$0^\\circ$",
@@ -7006,7 +7006,7 @@
         "Không xác định được"
       ],
       "answer": 0,
-      "explanation": "Tích vô hướng bằng $0$ (và cả hai vectơ khác $\\vec{0}$) chính là dấu hiệu hai vectơ vuông góc: góc giữa chúng là $90^\\circ$."
+      "explanation": "Tích vô hướng bằng $0$ trong khi cả hai vectơ đều khác $\\vec{0}$ chính là dấu hiệu hai vectơ vuông góc: góc giữa chúng là $90^\\circ$."
     },
     {
       "id": "mc-c4-079",
@@ -7254,7 +7254,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Chứng minh vuông góc bằng toạ độ",
-      "question": "Với tam giác vuông ở câu trên ($A(0;0)$, $B(4;0)$, $C(0;3)$), tính độ dài cạnh huyền $BC$.",
+      "question": "Tam giác $ABC$ có $A(0;0)$, $B(4;0)$, $C(0;3)$ (vuông tại $A$). Tính độ dài cạnh huyền $BC$.",
       "choices": [
         "5",
         "7",
@@ -7318,7 +7318,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Tính góc tam giác bằng tích vô hướng",
-      "question": "Với tam giác $A(0;0), B(2;0), C(1;\\sqrt{3})$ ở câu trên, tính độ dài các cạnh để nhận xét loại tam giác.",
+      "question": "Cho tam giác $ABC$ với $A(0;0)$, $B(2;0)$, $C(1;\\sqrt{3})$. Tính độ dài các cạnh để nhận xét loại tam giác.",
       "choices": [
         "$AB=AC=BC=2$: tam giác đều",
         "$AB=2, AC=BC=1$: tam giác cân",
@@ -7326,7 +7326,7 @@
         "Tam giác thường, không có gì đặc biệt"
       ],
       "answer": 0,
-      "explanation": "$AB=2$; $AC=\\sqrt{1+3}=2$; $BC=\\sqrt{(2-1)^2+3}=2$. Ba cạnh bằng nhau nên đây là tam giác đều, khớp với $\\cos A=0,5$ (tức $A=60°$) tính được ở câu trên."
+      "explanation": "$AB=2$; $AC=\\sqrt{1+3}=2$; $BC=\\sqrt{(2-1)^2+3}=2$. Ba cạnh bằng nhau nên đây là tam giác đều (mọi góc đều bằng $60^\\circ$, phù hợp với $\\cos A=0,5$)."
     },
     {
       "id": "mc-c4-099",
@@ -8246,7 +8246,7 @@
       "lesson": "b13",
       "level": "vd",
       "dang": "Tứ phân vị",
-      "question": "Với mẫu $1;2;3;4;5;6;7$ ở câu trên, tìm $Q_3$.",
+      "question": "Cho mẫu số liệu $1;2;3;4;5;6;7$ ($n=7$, đã sắp xếp, $Q_2=4$). Tìm $Q_3$.",
       "choices": [
         "6",
         "5",
@@ -8342,7 +8342,7 @@
       "lesson": "b14",
       "level": "vd",
       "dang": "Tứ phân vị — ứng dụng thực tế",
-      "question": "Với dữ liệu trên ($Q_1=23,5, Q_3=36,5$), tính $\\Delta_Q$ và kiểm tra giá trị $60$ có là ngoại lệ không.",
+      "question": "Một mẫu số liệu có $Q_1=23,5$ và $Q_3=36,5$. Tính $\\Delta_Q$ và kiểm tra giá trị $60$ có là ngoại lệ không.",
       "choices": [
         "$\\Delta_Q=13$; $60$ LÀ ngoại lệ vì $60>56$",
         "$\\Delta_Q=13$; $60$ không là ngoại lệ",
@@ -8422,7 +8422,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Tứ phân vị — ứng dụng thực tế",
-      "question": "Với mẫu ở câu trên ($Q_1=15, Q_3=27$), tính $\\Delta_Q$.",
+      "question": "Một mẫu số liệu có $Q_1=15$ và $Q_3=27$. Tính khoảng tứ phân vị $\\Delta_Q$.",
       "choices": [
         "12",
         "15",
@@ -8758,7 +8758,7 @@
       "lesson": "b13",
       "level": "vd",
       "dang": "So sánh trung bình, trung vị, mốt",
-      "question": "Với mẫu $10;20;20;20;30;100$ ở câu trên, số trung bình là bao nhiêu, và nó có gần với mốt/trung vị ($=20$) không?",
+      "question": "Cho mẫu số liệu $10;20;20;20;30;100$ (mốt và trung vị đều bằng $20$). Số trung bình là bao nhiêu, và nó có gần với mốt/trung vị không?",
       "choices": [
         "$\\approx33,33$; khá xa mốt và trung vị do ảnh hưởng của giá trị $100$",
         "$=20$, giống hệt mốt và trung vị",
@@ -8982,7 +8982,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Phương sai",
-      "question": "Với mẫu $2;4;6;8;10$ ở câu trên ($S^2=8$), tính độ lệch chuẩn $S$.",
+      "question": "Cho mẫu số liệu $2;4;6;8;10$ có phương sai $S^2=8$. Tính độ lệch chuẩn $S$.",
       "choices": [
         "$2\\sqrt{2} \\approx 2,83$",
         "8",

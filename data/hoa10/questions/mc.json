@@ -7350,7 +7350,7 @@
       "lesson": "b23",
       "level": "vd",
       "dang": "So sánh PƯ Hóa hơi",
-      "question": "Dựa vào câu trên (tạo $H_2O$ lỏng tỏa 890,3 kJ). Nếu nước sinh ra ở thể KHÍ ($H_2O(g)$) thì lượng nhiệt phản ứng tỏa ra sẽ LỚN HƠN hay NHỎ HƠN 890,3 kJ?",
+      "question": "Đốt cháy khí Methane: $CH_4(g) + 2O_2(g) \\rightarrow CO_2(g) + 2H_2O(l)$ tỏa ra $890,3$ kJ (nước sinh ra ở thể LỎNG). Nếu nước sinh ra ở thể KHÍ ($H_2O(g)$) thì lượng nhiệt phản ứng tỏa ra sẽ LỚN HƠN hay NHỎ HƠN $890,3$ kJ?",
       "choices": [
         "Nhỏ hơn (tỏa ra ít nhiệt hơn do phải tốn một phần nhiệt để hóa hơi nước)",
         "Lớn hơn",
@@ -7750,7 +7750,7 @@
       "lesson": "b25",
       "level": "vd",
       "dang": "Tính Tốc độ theo SP",
-      "question": "Tiếp tục câu trên, tốc độ TẠO THÀNH của khí $NO_2$ trong khoảng thời gian từ 0 đến 20s là bao nhiêu?",
+      "question": "Trong phản ứng $N_2O_4(g) \\rightarrow 2NO_2(g)$, nồng độ $N_2O_4$ giảm từ $0,040$ M xuống $0,024$ M trong $20$ s (tốc độ trung bình của phản ứng là $8,0 \\times 10^{-4}$ M/s). Tốc độ TẠO THÀNH của khí $NO_2$ trong khoảng thời gian đó là bao nhiêu?",
       "choices": [
         "$1,6 \\times 10^{-3} \\text{ M/s}$",
         "$8,0 \\times 10^{-4} \\text{ M/s}$",
