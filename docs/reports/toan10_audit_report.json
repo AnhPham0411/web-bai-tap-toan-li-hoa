@@ -1,0 +1,3953 @@
+{
+  "timestamp": "2026-09-17 22:22:15",
+  "total_scanned": 750,
+  "clean_count": 597,
+  "total_defects": 153,
+  "critical_count": 0,
+  "warning_count": 153,
+  "minor_count": 0,
+  "agent_stats": {
+    "agent_1": {
+      "agent_id": 1,
+      "chapter": "c1",
+      "chapter_name": "Mệnh đề và Tập hợp",
+      "partition": "MC Part 1",
+      "scanned": 75,
+      "defect_count": 1
+    },
+    "agent_2": {
+      "agent_id": 2,
+      "chapter": "c1",
+      "chapter_name": "Mệnh đề và Tập hợp",
+      "partition": "MC Part 2 + Short",
+      "scanned": 75,
+      "defect_count": 60
+    },
+    "agent_3": {
+      "agent_id": 3,
+      "chapter": "c2",
+      "chapter_name": "Bất phương trình và Hệ bất phương trình bậc nhất hai ẩn",
+      "partition": "MC Part 1",
+      "scanned": 75,
+      "defect_count": 0
+    },
+    "agent_4": {
+      "agent_id": 4,
+      "chapter": "c2",
+      "chapter_name": "Bất phương trình và Hệ bất phương trình bậc nhất hai ẩn",
+      "partition": "MC Part 2 + Short",
+      "scanned": 75,
+      "defect_count": 60
+    },
+    "agent_5": {
+      "agent_id": 5,
+      "chapter": "c3",
+      "chapter_name": "Hệ thức lượng trong tam giác",
+      "partition": "MC Part 1",
+      "scanned": 75,
+      "defect_count": 0
+    },
+    "agent_6": {
+      "agent_id": 6,
+      "chapter": "c3",
+      "chapter_name": "Hệ thức lượng trong tam giác",
+      "partition": "MC Part 2 + Short",
+      "scanned": 75,
+      "defect_count": 90
+    },
+    "agent_7": {
+      "agent_id": 7,
+      "chapter": "c4",
+      "chapter_name": "Vectơ",
+      "partition": "MC Part 1",
+      "scanned": 75,
+      "defect_count": 0
+    },
+    "agent_8": {
+      "agent_id": 8,
+      "chapter": "c4",
+      "chapter_name": "Vectơ",
+      "partition": "MC Part 2 + Short",
+      "scanned": 75,
+      "defect_count": 60
+    },
+    "agent_9": {
+      "agent_id": 9,
+      "chapter": "c5",
+      "chapter_name": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+      "partition": "MC Part 1",
+      "scanned": 75,
+      "defect_count": 0
+    },
+    "agent_10": {
+      "agent_id": 10,
+      "chapter": "c5",
+      "chapter_name": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+      "partition": "MC Part 2 + Short",
+      "scanned": 75,
+      "defect_count": 60
+    }
+  },
+  "defects": [
+    {
+      "id": "mc-c1-032",
+      "issues": [
+        {
+          "source": "Static Engine",
+          "severity": "WARNING",
+          "type": "latex_syntax_error",
+          "description": "Unbalanced curly braces in LaTeX: '{3}' vs '{2}' in '$D = \\{x \\in \\mathbb{R} : x^{2}...$' in mc-c1-032",
+          "fix_proposal": "Sửa lỗi cú pháp tại trường question"
+        },
+        {
+          "source": "Agent 1",
+          "severity": "WARNING",
+          "type": "split_latex_set_notation",
+          "description": "Ký hiệu tập hợp bị chia cắt qua 2 khối $: dấu mở '\\{' ở block $ đầu và dấu đóng '\\}' ở block $ sau làm hỏng KaTeX parser.",
+          "fix_proposal": "Gộp toàn bộ điều kiện tập hợp vào một khối toán duy nhất hoặc dùng \\text{...}."
+        }
+      ],
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Phương trình bậc 2 tập hợp",
+      "question": "Tập hợp $D = \\{x \\in \\mathbb{R} : x^{2} - 5x + 6 = 0$ và $x > 2\\}$ có các phần tử là:",
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "mc-c1-039",
+      "issues": [
+        {
+          "source": "Static Engine",
+          "severity": "WARNING",
+          "type": "latex_syntax_error",
+          "description": "Unbalanced curly braces in LaTeX: '{2}' vs '{1}' in '$B = \\{x \\in \\mathbb{N} : x...$' in mc-c1-039",
+          "fix_proposal": "Sửa lỗi cú pháp tại trường question"
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "mc-c1-046",
+      "issues": [
+        {
+          "source": "Static Engine",
+          "severity": "WARNING",
+          "type": "latex_syntax_error",
+          "description": "Unbalanced curly braces in LaTeX: '{3}' vs '{2}' in '$A = \\{n \\in \\mathbb{N}^{*} : n...$' in mc-c1-046",
+          "fix_proposal": "Sửa lỗi cú pháp tại trường question"
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 3 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v0</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('2^3 = 8'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 4 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v1</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('2^4 = 16'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Số tập con (Nhóm 1)",
+      "question": "Tập hợp có 5 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v2</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('2^5 = 32'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-1; 1]$? <span style=\"display:none\">v3</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Đếm số nguyên'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-2; 2]$? <span style=\"display:none\">v4</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Đếm số nguyên'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Đếm số nguyên (Nhóm 2)",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-3; 3]$? <span style=\"display:none\">v5</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Đếm số nguyên'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v6</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v7</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Bài toán Venn (Nhóm 3)",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v8</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v9</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v10</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Độ dài đoạn (Nhóm 4)",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v11</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v12</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v13</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Tổng phần tử (Nhóm 5)",
+      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v14</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v15</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v16</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tìm m (Nhóm 6)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v17</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v18</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v19</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Bài toán Venn (Nhóm 7)",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v20</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('A + B - C'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v21</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v22</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Độ dài đoạn (Nhóm 8)",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v23</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Hiệu 2 đầu mút'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v24</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v25</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b2",
+      "dang": "Tổng phần tử (Nhóm 9)",
+      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v26</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Cộng lại'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v27</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v28</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b1",
+      "dang": "Tìm m (Nhóm 10)",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v29</span>",
+      "issues": [
+        {
+          "source": "Agent 2",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 2",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('m <= val'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v0</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v1</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 1)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v2</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v3</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v4</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 2)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v5</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v6</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v7</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 3)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v8</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v9</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v10</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 4)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v11</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v12</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v13</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 5)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v14</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v15</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v16</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 6)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v17</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v18</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v19</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 7)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v20</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v21</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v22</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 8)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v23</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v24</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v25</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 9)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v26</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v27</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b3",
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v28</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b4",
+      "dang": "Dạng bpt (Nhóm 10)",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v29</span>",
+      "issues": [
+        {
+          "source": "Agent 4",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 4",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Thay số'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v0</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v1</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 1)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v2</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v3</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v4</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 2)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v5</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v6</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v7</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 3)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v8</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v9</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v10</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 4)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v11</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v12</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v13</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 5)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v14</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v15</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v16</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 6)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v17</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v18</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v19</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 7)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v20</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v21</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v22</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 8)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v23</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v24</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v25</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 9)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v26</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b5",
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v27</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v28</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b6",
+      "dang": "Dạng tam giác (Nhóm 10)",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v29</span>",
+      "issues": [
+        {
+          "source": "Agent 6",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Pytago'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        },
+        {
+          "source": "Agent 6",
+          "severity": "MINOR",
+          "type": "mechanical_clone_marker",
+          "description": "Đề bài chứa mã đánh dấu biến thể sinh tự động '(BT ...)' gây giảm tính thẩm mỹ của bài tập.",
+          "fix_proposal": "Xóa bỏ chuỗi '(BT ...)' và làm phong phú số liệu bài toán."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b10",
+      "dang": "Dạng vectơ (Nhóm 1)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v0</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 1)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v1</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 1)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v2</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b7",
+      "dang": "Dạng vectơ (Nhóm 2)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v3</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 2)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v4</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 2)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v5</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 3)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v6</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 3)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v7</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b11",
+      "dang": "Dạng vectơ (Nhóm 3)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v8</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b11",
+      "dang": "Dạng vectơ (Nhóm 4)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v9</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 4)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v10</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 4)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v11</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 5)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v12</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b7",
+      "dang": "Dạng vectơ (Nhóm 5)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v13</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 5)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v14</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 6)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v15</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 6)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v16</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b9",
+      "dang": "Dạng vectơ (Nhóm 6)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v17</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b11",
+      "dang": "Dạng vectơ (Nhóm 7)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v18</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b10",
+      "dang": "Dạng vectơ (Nhóm 7)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v19</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b10",
+      "dang": "Dạng vectơ (Nhóm 7)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v20</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b11",
+      "dang": "Dạng vectơ (Nhóm 8)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v21</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b11",
+      "dang": "Dạng vectơ (Nhóm 8)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v22</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 8)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v23</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b7",
+      "dang": "Dạng vectơ (Nhóm 9)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v24</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b7",
+      "dang": "Dạng vectơ (Nhóm 9)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v25</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b10",
+      "dang": "Dạng vectơ (Nhóm 9)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v26</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b10",
+      "dang": "Dạng vectơ (Nhóm 10)",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v27</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 10)",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v28</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b8",
+      "dang": "Dạng vectơ (Nhóm 10)",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v29</span>",
+      "issues": [
+        {
+          "source": "Agent 8",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 8",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Tọa độ'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v0</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v1</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 1)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v2</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v3</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v4</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 2)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v5</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v6</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v7</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 3)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v8</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v9</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v10</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 4)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v11</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v12</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v13</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 5)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v14</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v15</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v16</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 6)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v17</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v18</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v19</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 7)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v20</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v21</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v22</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b13",
+      "dang": "Dạng thống kê (Nhóm 8)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v23</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v24</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v25</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 9)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v26</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b12",
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v27</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v28</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b14",
+      "dang": "Dạng thống kê (Nhóm 10)",
+      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v29</span>",
+      "issues": [
+        {
+          "source": "Agent 10",
+          "severity": "WARNING",
+          "type": "hidden_html_tag",
+          "description": "Câu hỏi chứa thẻ HTML ẩn rác '<span style=\"display:none\">v...</span>' sót lại từ quy trình sinh tự động.",
+          "fix_proposal": "Xóa bỏ hoàn toàn chuỗi '<span style=\"display:none\">...</span>' khỏi đề bài."
+        },
+        {
+          "source": "Agent 10",
+          "severity": "MINOR",
+          "type": "stub_explanation",
+          "description": "Lời giải dạng tóm lược sơ sài ('Max - Min'), chưa có các bước biến đổi chi tiết sư phạm.",
+          "fix_proposal": "Bổ sung lời giải tự luận chi tiết theo từng bước để học sinh dễ hiểu."
+        }
+      ],
+      "highest_severity": "WARNING"
+    }
+  ]
+}

@@ -502,7 +502,7 @@
       "lesson": "b2",
       "level": "vd",
       "dang": "Phương trình bậc 2 tập hợp",
-      "question": "Tập hợp $D = \\{x \\in \\mathbb{R} : x^{2} - 5x + 6 = 0$ và $x > 2\\}$ có các phần tử là:",
+      "question": "Tập hợp $D = \\{x \\in \\mathbb{R} : x^{2} - 5x + 6 = 0 \\text{ và } x > 2\\}$ có các phần tử là:",
       "choices": [
         "$D = \\{3\\}$",
         "$D = \\{2; 3\\}$",
@@ -614,7 +614,7 @@
       "lesson": "b2",
       "level": "vd",
       "dang": "Tập con",
-      "question": "Cho $B = \\{x \\in \\mathbb{N} : x$ là ước của $8\\}$ và $C = \\{1; 2; 3; 4; 6; 8\\}$. Khẳng định nào sau đây ĐÚNG?",
+      "question": "Cho $B = \\{x \\in \\mathbb{N} : x \\text{ là ước của } 8\\}$ và $C = \\{1; 2; 3; 4; 6; 8\\}$. Khẳng định nào sau đây ĐÚNG?",
       "choices": [
         "$B \\subset C$",
         "$C \\subset B$",
@@ -726,7 +726,7 @@
       "lesson": "b2",
       "level": "vd",
       "dang": "Giao của hai tập hợp",
-      "question": "Cho $A = \\{n \\in \\mathbb{N}^{*} : n$ là ước của $12\\}$, $B = \\{n \\in \\mathbb{N}^{*} : n$ là ước của $18\\}$. Tập $A \\cap B$ là:",
+      "question": "Cho $A = \\{n \\in \\mathbb{N}^{*} : n \\text{ là ước của } 12\\}$, $B = \\{n \\in \\mathbb{N}^{*} : n \\text{ là ước của } 18\\}$. Tập $A \\cap B$ là:",
       "choices": [
         "$\\{1; 2; 3; 6\\}$",
         "$\\{1; 2; 3; 4; 6; 9; 12; 18\\}$",

@@ -6,7 +6,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 3 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v0</span>",
+      "question": "Tập hợp có 3 phần tử thì có bao nhiêu tập con?",
       "answer": "8",
       "explanation": "2^3 = 8"
     },
@@ -16,7 +16,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 4 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v1</span>",
+      "question": "Tập hợp có 4 phần tử thì có bao nhiêu tập con?",
       "answer": "16",
       "explanation": "2^4 = 16"
     },
@@ -26,7 +26,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 5 phần tử thì có bao nhiêu tập con? <span style=\"display:none\">v2</span>",
+      "question": "Tập hợp có 5 phần tử thì có bao nhiêu tập con?",
       "answer": "32",
       "explanation": "2^5 = 32"
     },
@@ -36,7 +36,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-1; 1]$? <span style=\"display:none\">v3</span>",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-1; 1]$?",
       "answer": "3",
       "explanation": "Đếm số nguyên",
       "unit": "số"
@@ -47,7 +47,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-2; 2]$? <span style=\"display:none\">v4</span>",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-2; 2]$?",
       "answer": "5",
       "explanation": "Đếm số nguyên",
       "unit": "số"
@@ -58,7 +58,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-3; 3]$? <span style=\"display:none\">v5</span>",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-3; 3]$?",
       "answer": "7",
       "explanation": "Đếm số nguyên",
       "unit": "số"
@@ -69,7 +69,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v6</span>",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "30",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -80,7 +80,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v7</span>",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "31",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -91,7 +91,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v8</span>",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "32",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -102,7 +102,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v9</span>",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -112,7 +112,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v10</span>",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -122,7 +122,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v11</span>",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -132,7 +132,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v12</span>",
+      "question": "Tổng các số nguyên từ 1 đến 3 là:",
       "answer": "6",
       "explanation": "Cộng lại"
     },
@@ -142,7 +142,7 @@
       "lesson": "b2",
       "level": "nb",
       "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v13</span>",
+      "question": "Tổng các số nguyên từ 1 đến 4 là:",
       "answer": "10",
       "explanation": "Cộng lại"
     },
@@ -152,7 +152,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v14</span>",
+      "question": "Tổng các số nguyên từ 1 đến 5 là:",
       "answer": "15",
       "explanation": "Cộng lại"
     },
@@ -162,7 +162,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v15</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng.",
       "answer": "2",
       "explanation": "m <= val"
     },
@@ -172,7 +172,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v16</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng.",
       "answer": "3",
       "explanation": "m <= val"
     },
@@ -182,7 +182,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v17</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng.",
       "answer": "4",
       "explanation": "m <= val"
     },
@@ -192,7 +192,7 @@
       "lesson": "b1",
       "level": "th",
       "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v18</span>",
+      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "30",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -203,7 +203,7 @@
       "lesson": "b1",
       "level": "th",
       "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v19</span>",
+      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "31",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -214,7 +214,7 @@
       "lesson": "b1",
       "level": "th",
       "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn? <span style=\"display:none\">v20</span>",
+      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
       "answer": "32",
       "explanation": "A + B - C",
       "unit": "bạn"
@@ -225,7 +225,7 @@
       "lesson": "b1",
       "level": "th",
       "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu? <span style=\"display:none\">v21</span>",
+      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -235,7 +235,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu? <span style=\"display:none\">v22</span>",
+      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -245,7 +245,7 @@
       "lesson": "b1",
       "level": "th",
       "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu? <span style=\"display:none\">v23</span>",
+      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu?",
       "answer": "5",
       "explanation": "Hiệu 2 đầu mút"
     },
@@ -255,7 +255,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 3 là: <span style=\"display:none\">v24</span>",
+      "question": "Tổng các số nguyên từ 1 đến 3 là:",
       "answer": "6",
       "explanation": "Cộng lại"
     },
@@ -265,7 +265,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 4 là: <span style=\"display:none\">v25</span>",
+      "question": "Tổng các số nguyên từ 1 đến 4 là:",
       "answer": "10",
       "explanation": "Cộng lại"
     },
@@ -275,7 +275,7 @@
       "lesson": "b2",
       "level": "th",
       "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 5 là: <span style=\"display:none\">v26</span>",
+      "question": "Tổng các số nguyên từ 1 đến 5 là:",
       "answer": "15",
       "explanation": "Cộng lại"
     },
@@ -285,7 +285,7 @@
       "lesson": "b1",
       "level": "vd",
       "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng. <span style=\"display:none\">v27</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng.",
       "answer": "2",
       "explanation": "m <= val"
     },
@@ -295,7 +295,7 @@
       "lesson": "b1",
       "level": "vd",
       "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng. <span style=\"display:none\">v28</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng.",
       "answer": "3",
       "explanation": "m <= val"
     },
@@ -305,7 +305,7 @@
       "lesson": "b1",
       "level": "vd",
       "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng. <span style=\"display:none\">v29</span>",
+      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng.",
       "answer": "4",
       "explanation": "m <= val"
     },
@@ -315,7 +315,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v0</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -325,7 +325,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v1</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -335,7 +335,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v2</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -345,7 +345,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v3</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -355,7 +355,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v4</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -365,7 +365,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v5</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -375,7 +375,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v6</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -385,7 +385,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v7</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -395,7 +395,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v8</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -405,7 +405,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v9</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -415,7 +415,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v10</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -425,7 +425,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v11</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -435,7 +435,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v12</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -445,7 +445,7 @@
       "lesson": "b3",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v13</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -455,7 +455,7 @@
       "lesson": "b4",
       "level": "nb",
       "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v14</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -465,7 +465,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v15</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -475,7 +475,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v16</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -485,7 +485,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v17</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -495,7 +495,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v18</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -505,7 +505,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v19</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -515,7 +515,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v20</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -525,7 +525,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v21</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -535,7 +535,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v22</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -545,7 +545,7 @@
       "lesson": "b4",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v23</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -555,7 +555,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v24</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -565,7 +565,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v25</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -575,7 +575,7 @@
       "lesson": "b3",
       "level": "th",
       "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v26</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -585,7 +585,7 @@
       "lesson": "b3",
       "level": "vd",
       "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là: <span style=\"display:none\">v27</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
       "answer": "5",
       "explanation": "Thay số"
     },
@@ -595,7 +595,7 @@
       "lesson": "b3",
       "level": "vd",
       "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là: <span style=\"display:none\">v28</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
       "answer": "6",
       "explanation": "Thay số"
     },
@@ -605,7 +605,7 @@
       "lesson": "b4",
       "level": "vd",
       "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là: <span style=\"display:none\">v29</span>",
+      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
       "answer": "7",
       "explanation": "Thay số"
     },
@@ -615,7 +615,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v0</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -625,7 +625,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v1</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -635,7 +635,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v2</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -645,7 +645,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v3</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -655,7 +655,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v4</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -665,7 +665,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v5</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -675,7 +675,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v6</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -685,7 +685,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v7</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -695,7 +695,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v8</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -705,7 +705,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v9</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -715,7 +715,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v10</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -725,7 +725,7 @@
       "lesson": "b6",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v11</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -735,7 +735,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v12</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -745,7 +745,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v13</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -755,7 +755,7 @@
       "lesson": "b5",
       "level": "nb",
       "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v14</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -765,7 +765,7 @@
       "lesson": "b5",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v15</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -775,7 +775,7 @@
       "lesson": "b5",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v16</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -785,7 +785,7 @@
       "lesson": "b5",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v17</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -795,7 +795,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v18</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -805,7 +805,7 @@
       "lesson": "b5",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v19</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -815,7 +815,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v20</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -825,7 +825,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v21</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -835,7 +835,7 @@
       "lesson": "b5",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v22</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -845,7 +845,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v23</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -855,7 +855,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v24</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -865,7 +865,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v25</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -875,7 +875,7 @@
       "lesson": "b6",
       "level": "th",
       "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v26</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -885,7 +885,7 @@
       "lesson": "b5",
       "level": "vd",
       "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0). <span style=\"display:none\">v27</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -895,7 +895,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1). <span style=\"display:none\">v28</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -905,7 +905,7 @@
       "lesson": "b6",
       "level": "vd",
       "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2). <span style=\"display:none\">v29</span>",
+      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
       "answer": "5",
       "explanation": "Pytago"
     },
@@ -915,7 +915,7 @@
       "lesson": "b10",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v0</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -925,7 +925,7 @@
       "lesson": "b9",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v1</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -935,7 +935,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v2</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -945,7 +945,7 @@
       "lesson": "b7",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v3</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -955,7 +955,7 @@
       "lesson": "b9",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v4</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -965,7 +965,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v5</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -975,7 +975,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v6</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -985,7 +985,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v7</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -995,7 +995,7 @@
       "lesson": "b11",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v8</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1005,7 +1005,7 @@
       "lesson": "b11",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v9</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1015,7 +1015,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v10</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1025,7 +1025,7 @@
       "lesson": "b8",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v11</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1035,7 +1035,7 @@
       "lesson": "b9",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v12</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1045,7 +1045,7 @@
       "lesson": "b7",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v13</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1055,7 +1055,7 @@
       "lesson": "b9",
       "level": "nb",
       "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v14</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1065,7 +1065,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v15</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1075,7 +1075,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v16</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1085,7 +1085,7 @@
       "lesson": "b9",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v17</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1095,7 +1095,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v18</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1105,7 +1105,7 @@
       "lesson": "b10",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v19</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1115,7 +1115,7 @@
       "lesson": "b10",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v20</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1125,7 +1125,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v21</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1135,7 +1135,7 @@
       "lesson": "b11",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v22</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1145,7 +1145,7 @@
       "lesson": "b8",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v23</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1155,7 +1155,7 @@
       "lesson": "b7",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v24</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1165,7 +1165,7 @@
       "lesson": "b7",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v25</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1175,7 +1175,7 @@
       "lesson": "b10",
       "level": "th",
       "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v26</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1185,7 +1185,7 @@
       "lesson": "b10",
       "level": "vd",
       "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là: <span style=\"display:none\">v27</span>",
+      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1195,7 +1195,7 @@
       "lesson": "b8",
       "level": "vd",
       "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là: <span style=\"display:none\">v28</span>",
+      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1205,7 +1205,7 @@
       "lesson": "b8",
       "level": "vd",
       "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là: <span style=\"display:none\">v29</span>",
+      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
       "answer": "3",
       "explanation": "Tọa độ"
     },
@@ -1215,7 +1215,7 @@
       "lesson": "b12",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v0</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1225,7 +1225,7 @@
       "lesson": "b12",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v1</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1235,7 +1235,7 @@
       "lesson": "b12",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v2</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1245,7 +1245,7 @@
       "lesson": "b14",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v3</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1255,7 +1255,7 @@
       "lesson": "b12",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v4</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1265,7 +1265,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v5</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1275,7 +1275,7 @@
       "lesson": "b14",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v6</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1285,7 +1285,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v7</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1295,7 +1295,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v8</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1305,7 +1305,7 @@
       "lesson": "b14",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v9</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1315,7 +1315,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v10</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1325,7 +1325,7 @@
       "lesson": "b14",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v11</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1335,7 +1335,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v12</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1345,7 +1345,7 @@
       "lesson": "b13",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v13</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1355,7 +1355,7 @@
       "lesson": "b14",
       "level": "nb",
       "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v14</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1365,7 +1365,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v15</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1375,7 +1375,7 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v16</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1385,7 +1385,7 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v17</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1395,7 +1395,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v18</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1405,7 +1405,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v19</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1415,7 +1415,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v20</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1425,7 +1425,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v21</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1435,7 +1435,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v22</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1445,7 +1445,7 @@
       "lesson": "b13",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v23</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1455,7 +1455,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v24</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1465,7 +1465,7 @@
       "lesson": "b14",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v25</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1475,7 +1475,7 @@
       "lesson": "b12",
       "level": "th",
       "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v26</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1485,7 +1485,7 @@
       "lesson": "b12",
       "level": "vd",
       "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 0 và 5. <span style=\"display:none\">v27</span>",
+      "question": "Tính khoảng biến thiên của 0 và 5.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1495,7 +1495,7 @@
       "lesson": "b14",
       "level": "vd",
       "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 1 và 6. <span style=\"display:none\">v28</span>",
+      "question": "Tính khoảng biến thiên của 1 và 6.",
       "answer": "5",
       "explanation": "Max - Min"
     },
@@ -1505,7 +1505,7 @@
       "lesson": "b14",
       "level": "vd",
       "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 2 và 7. <span style=\"display:none\">v29</span>",
+      "question": "Tính khoảng biến thiên của 2 và 7.",
       "answer": "5",
       "explanation": "Max - Min"
     }
