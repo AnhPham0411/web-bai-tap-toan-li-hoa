@@ -5,1509 +5,1518 @@
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 3 phần tử thì có bao nhiêu tập con?",
+      "dang": "Số tập con",
+      "question": "Tập hợp $A=\\{a;b;c\\}$ có bao nhiêu tập con?",
       "answer": "8",
-      "explanation": "2^3 = 8"
+      "explanation": "Số tập con của một tập có $n$ phần tử là $2^n$. Với $n=3$: $2^3=8$."
     },
     {
       "id": "sa-c1-002",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 4 phần tử thì có bao nhiêu tập con?",
+      "dang": "Số tập con",
+      "question": "Một tập hợp có đúng $4$ phần tử. Hỏi tập hợp đó có bao nhiêu tập con (kể cả tập rỗng và chính nó)?",
       "answer": "16",
-      "explanation": "2^4 = 16"
+      "explanation": "$2^4=16$ tập con."
     },
     {
       "id": "sa-c1-003",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Số tập con (Nhóm 1)",
-      "question": "Tập hợp có 5 phần tử thì có bao nhiêu tập con?",
+      "dang": "Số tập con",
+      "question": "Cho $B=\\{n \\in \\mathbb{N} : 1 \\le n \\le 5\\}$. Hỏi $B$ có bao nhiêu tập con?",
       "answer": "32",
-      "explanation": "2^5 = 32"
+      "explanation": "$B=\\{1;2;3;4;5\\}$ có $5$ phần tử nên có $2^5=32$ tập con."
     },
     {
       "id": "sa-c1-004",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-1; 1]$?",
-      "answer": "3",
-      "explanation": "Đếm số nguyên",
-      "unit": "số"
+      "dang": "Đếm số nguyên",
+      "question": "Có bao nhiêu số nguyên thuộc nửa khoảng $(0; 6]$?",
+      "answer": "6",
+      "explanation": "Số nguyên thuộc $(0;6]$ là $1,2,3,4,5,6$, tổng cộng $6$ số."
     },
     {
       "id": "sa-c1-005",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-2; 2]$?",
-      "answer": "5",
-      "explanation": "Đếm số nguyên",
-      "unit": "số"
+      "dang": "Đếm số nguyên",
+      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-4; 4]$?",
+      "answer": "9",
+      "explanation": "Từ $-4$ đến $4$ có $4-(-4)+1=9$ số nguyên."
     },
     {
       "id": "sa-c1-006",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Đếm số nguyên (Nhóm 2)",
-      "question": "Có bao nhiêu số nguyên thuộc đoạn $[-3; 3]$?",
+      "dang": "Đếm số nguyên",
+      "question": "Có bao nhiêu số nguyên thuộc khoảng $(-3; 5)$?",
       "answer": "7",
-      "explanation": "Đếm số nguyên",
-      "unit": "số"
+      "explanation": "$(-3;5)$ không lấy hai đầu mút: $-2,-1,0,1,2,3,4$, tổng cộng $7$ số."
     },
     {
       "id": "sa-c1-007",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "30",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Một lớp có $30$ học sinh, trong đó $18$ em thích Toán, $12$ em thích Văn, $6$ em thích cả hai môn. Hỏi có bao nhiêu em thích ít nhất một trong hai môn?",
+      "answer": "24",
+      "explanation": "$n(A\\cup B)=n(A)+n(B)-n(A\\cap B)=18+12-6=24$."
     },
     {
       "id": "sa-c1-008",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "31",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Trong $40$ người được khảo sát, có $22$ người dùng mạng xã hội A, $19$ người dùng mạng xã hội B, $8$ người dùng cả hai. Hỏi có bao nhiêu người không dùng mạng nào trong hai mạng trên?",
+      "answer": "7",
+      "explanation": "Số người dùng ít nhất một mạng $=22+19-8=33$. Số người không dùng mạng nào $=40-33=7$."
     },
     {
       "id": "sa-c1-009",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Bài toán Venn (Nhóm 3)",
-      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "32",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Khảo sát $25$ bạn: $15$ bạn thích bóng đá, $10$ bạn thích cầu lông, $4$ bạn thích cả hai. Hỏi có bao nhiêu bạn không thích môn nào trong hai môn trên?",
+      "answer": "4",
+      "explanation": "Số bạn thích ít nhất một môn $=15+10-4=21$. Số bạn không thích môn nào $=25-21=4$."
     },
     {
       "id": "sa-c1-010",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu?",
-      "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "dang": "Độ dài đoạn",
+      "question": "Đoạn thẳng $[-2; 5]$ có độ dài bao nhiêu?",
+      "answer": "7",
+      "explanation": "Độ dài $=5-(-2)=7$."
     },
     {
       "id": "sa-c1-011",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu?",
-      "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "dang": "Độ dài đoạn",
+      "question": "Đoạn thẳng $[4; 10]$ có độ dài bao nhiêu?",
+      "answer": "6",
+      "explanation": "Độ dài $=10-4=6$."
     },
     {
       "id": "sa-c1-012",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Độ dài đoạn (Nhóm 4)",
-      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu?",
+      "dang": "Độ dài đoạn",
+      "question": "Đoạn thẳng $[-6; -1]$ có độ dài bao nhiêu?",
       "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "explanation": "Độ dài $=-1-(-6)=5$."
     },
     {
       "id": "sa-c1-013",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 3 là:",
-      "answer": "6",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Tính tổng các số nguyên từ $1$ đến $6$.",
+      "answer": "21",
+      "explanation": "$1+2+\\cdots+6=\\frac{6\\cdot7}{2}=21$."
     },
     {
       "id": "sa-c1-014",
       "chapter": "c1",
       "lesson": "b2",
       "level": "nb",
-      "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 4 là:",
-      "answer": "10",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Tính tổng các phần tử của tập hợp $A=\\{x \\in \\mathbb{N}^{*} : x \\le 7\\}$.",
+      "answer": "28",
+      "explanation": "$A=\\{1;2;\\ldots;7\\}$, tổng $=\\frac{7\\cdot8}{2}=28$."
     },
     {
       "id": "sa-c1-015",
       "chapter": "c1",
       "lesson": "b1",
       "level": "nb",
-      "dang": "Tổng phần tử (Nhóm 5)",
-      "question": "Tổng các số nguyên từ 1 đến 5 là:",
-      "answer": "15",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Tính tổng các số nguyên từ $-3$ đến $3$.",
+      "answer": "0",
+      "explanation": "Các số đối nhau ($-3$ và $3$, $-2$ và $2$, ...) triệt tiêu từng cặp, tổng bằng $0$."
     },
     {
       "id": "sa-c1-016",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng.",
-      "answer": "2",
-      "explanation": "m <= val"
+      "dang": "Tìm m",
+      "question": "Cho $A=(-\\infty; m]$ và $B=(3;+\\infty)$. Tìm giá trị nguyên lớn nhất của $m$ để $A\\cap B=\\emptyset$.",
+      "answer": "3",
+      "explanation": "Cần $m \\le 3$: nếu $m=3$ thì $A$ chứa $3$ nhưng $B$ không chứa $3$ (do $B$ mở) nên vẫn rời nhau. Giá trị nguyên lớn nhất là $m=3$."
     },
     {
       "id": "sa-c1-017",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng.",
-      "answer": "3",
-      "explanation": "m <= val"
+      "dang": "Tìm m",
+      "question": "Cho $A=(-\\infty; m)$ và $B=[5;+\\infty)$. Tìm giá trị nguyên lớn nhất của $m$ để $A\\cap B=\\emptyset$.",
+      "answer": "5",
+      "explanation": "Cần $m \\le 5$: nếu $m=5$ thì $A=(-\\infty;5)$ không chứa $5$ nên vẫn rời khỏi $B$. Giá trị nguyên lớn nhất là $m=5$."
     },
     {
       "id": "sa-c1-018",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tìm m (Nhóm 6)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng.",
-      "answer": "4",
-      "explanation": "m <= val"
+      "dang": "Tìm m",
+      "question": "Cho $A=(-\\infty; m]$ và $B=[7;+\\infty)$. Tìm giá trị nguyên lớn nhất của $m$ để $A\\cap B=\\emptyset$.",
+      "answer": "6",
+      "explanation": "Cả hai đầu mút đều đóng nên cần $m<7$ (nếu $m=7$ thì $7$ thuộc cả hai tập). Giá trị nguyên lớn nhất là $m=6$."
     },
     {
       "id": "sa-c1-019",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 20 bạn giỏi Toán, 15 giỏi Văn, 5 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "30",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Một nhóm $50$ người, trong đó $28$ người biết tiếng Anh, $22$ người biết tiếng Pháp, $10$ người biết cả hai thứ tiếng. Hỏi có bao nhiêu người không biết thứ tiếng nào trong hai thứ tiếng trên?",
+      "answer": "10",
+      "explanation": "Số người biết ít nhất một thứ tiếng $=28+22-10=40$. Số người không biết thứ tiếng nào $=50-40=10$."
     },
     {
       "id": "sa-c1-020",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 21 bạn giỏi Toán, 16 giỏi Văn, 6 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "31",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Một câu lạc bộ có $45$ thành viên: $25$ người chơi cờ vua, $20$ người chơi cờ tướng, $8$ người chơi cả hai môn cờ. Hỏi có bao nhiêu người không chơi môn cờ nào trong hai môn trên?",
+      "answer": "8",
+      "explanation": "Số người chơi ít nhất một môn $=25+20-8=37$. Số người không chơi môn nào $=45-37=8$."
     },
     {
       "id": "sa-c1-021",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Bài toán Venn (Nhóm 7)",
-      "question": "Lớp có 22 bạn giỏi Toán, 17 giỏi Văn, 7 giỏi cả hai. Hỏi có bao nhiêu bạn giỏi ít nhất 1 môn?",
-      "answer": "32",
-      "explanation": "A + B - C",
-      "unit": "bạn"
+      "dang": "Bài toán Venn",
+      "question": "Khảo sát $80$ khách hàng: $48$ người mua sản phẩm A, $40$ người mua sản phẩm B, $20$ người mua cả hai sản phẩm. Hỏi có bao nhiêu khách hàng không mua sản phẩm nào trong hai sản phẩm trên?",
+      "answer": "12",
+      "explanation": "Số khách mua ít nhất một sản phẩm $=48+40-20=68$. Số khách không mua sản phẩm nào $=80-68=12$."
     },
     {
       "id": "sa-c1-022",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[1; 6]$ là bao nhiêu?",
-      "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "dang": "Độ dài đoạn",
+      "question": "Cho tập hợp $A=(-2;7]$. Tính độ dài của $A$ (khoảng cách giữa hai đầu mút).",
+      "answer": "9",
+      "explanation": "Độ dài $=7-(-2)=9$ (không phụ thuộc việc đầu mút đóng hay mở)."
     },
     {
       "id": "sa-c1-023",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[2; 7]$ là bao nhiêu?",
-      "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "dang": "Độ dài đoạn",
+      "question": "Hợp của hai đoạn $[1;4]$ và $[3;8]$ là một đoạn liền (do chồng lấn nhau). Tính độ dài của đoạn hợp đó.",
+      "answer": "7",
+      "explanation": "Vì $[1;4]$ và $[3;8]$ chồng lấn (chung $[3;4]$), hợp của chúng là đoạn liền $[1;8]$, độ dài $=8-1=7$."
     },
     {
       "id": "sa-c1-024",
       "chapter": "c1",
       "lesson": "b1",
       "level": "th",
-      "dang": "Độ dài đoạn (Nhóm 8)",
-      "question": "Độ dài đoạn thẳng $[3; 8]$ là bao nhiêu?",
-      "answer": "5",
-      "explanation": "Hiệu 2 đầu mút"
+      "dang": "Độ dài đoạn",
+      "question": "Cho hai tập $A=[-5;2]$ và $B=[-1;6]$. Tính độ dài của $A\\cap B$.",
+      "answer": "3",
+      "explanation": "$A\\cap B=[-1;2]$, độ dài $=2-(-1)=3$."
     },
     {
       "id": "sa-c1-025",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 3 là:",
-      "answer": "6",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Cho $A=\\{1;2;3;4;5\\}$ và $B=\\{3;4;5;6;7\\}$. Tính tổng các phần tử của $A\\cup B$.",
+      "answer": "28",
+      "explanation": "$A\\cup B=\\{1;2;3;4;5;6;7\\}$, tổng $=1+2+\\cdots+7=28$."
     },
     {
       "id": "sa-c1-026",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 4 là:",
-      "answer": "10",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Cho $A=\\{2;4;6;8\\}$ và $B=\\{4;6;8;10\\}$. Tính tổng các phần tử của $A\\cap B$.",
+      "answer": "18",
+      "explanation": "$A\\cap B=\\{4;6;8\\}$, tổng $=4+6+8=18$."
     },
     {
       "id": "sa-c1-027",
       "chapter": "c1",
       "lesson": "b2",
       "level": "th",
-      "dang": "Tổng phần tử (Nhóm 9)",
-      "question": "Tổng các số nguyên từ 1 đến 5 là:",
-      "answer": "15",
-      "explanation": "Cộng lại"
+      "dang": "Tổng phần tử",
+      "question": "Tính tổng các phần tử của tập hợp $C=\\{x \\in \\mathbb{Z} : -3 \\le x \\le 4\\}$.",
+      "answer": "4",
+      "explanation": "Tổng các số nguyên đối nhau từ $-3$ đến $3$ bằng $0$, cộng thêm số còn lại là $4$, được tổng $=4$."
     },
     {
       "id": "sa-c1-028",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[2; +\\infty)$ bằng rỗng.",
-      "answer": "2",
-      "explanation": "m <= val"
+      "dang": "Tìm m",
+      "question": "Cho $A=(m-1;m+3)$ và $B=(0;4)$. Tìm giá trị nguyên $m$ để $A\\subset B$.",
+      "answer": "1",
+      "explanation": "Cần $m-1\\ge0$ (tức $m\\ge1$) và $m+3\\le4$ (tức $m\\le1$). Vậy chỉ có $m=1$ thoả mãn."
     },
     {
       "id": "sa-c1-029",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[3; +\\infty)$ bằng rỗng.",
-      "answer": "3",
-      "explanation": "m <= val"
+      "dang": "Tìm m",
+      "question": "Cho $A=[2m-1; 3m+2]$ và $B=[-3;10]$. Tìm giá trị nguyên lớn nhất của $m$ để $A\\subset B$.",
+      "answer": "2",
+      "explanation": "Cần $2m-1\\ge-3$ (tức $m\\ge-1$) và $3m+2\\le10$ (tức $m\\le\\frac{8}{3}$). Giá trị nguyên lớn nhất thoả cả hai là $m=2$."
     },
     {
       "id": "sa-c1-030",
       "chapter": "c1",
       "lesson": "b1",
       "level": "vd",
-      "dang": "Tìm m (Nhóm 10)",
-      "question": "Tìm m nguyên lớn nhất để $(-\\infty; m)$ giao $[4; +\\infty)$ bằng rỗng.",
+      "dang": "Tìm m",
+      "question": "Cho hai tập $A=(-\\infty; 2m+1)$ và $B=(-\\infty; 9)$. Tìm giá trị nguyên lớn nhất của $m$ để $A\\subset B$.",
       "answer": "4",
-      "explanation": "m <= val"
+      "explanation": "Cần $2m+1\\le9$, suy ra $m\\le4$. Giá trị nguyên lớn nhất là $m=4$."
     },
     {
       "id": "sa-c2-001",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Tính giá trị biểu thức",
+      "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(1;2)$.",
+      "answer": "8",
+      "explanation": "$F=2(1)+3(2)=2+6=8$."
     },
     {
       "id": "sa-c2-002",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Tính giá trị biểu thức",
+      "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(2;1)$.",
+      "answer": "7",
+      "explanation": "$F=2(2)+3(1)=4+3=7$."
     },
     {
       "id": "sa-c2-003",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 1)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Tính giá trị biểu thức",
+      "question": "Tính giá trị của biểu thức $F=2x+3y$ tại điểm $(x;y)=(0;4)$.",
+      "answer": "12",
+      "explanation": "$F=2(0)+3(4)=0+12=12$."
     },
     {
       "id": "sa-c2-004",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(2;2)$ vào vế trái của bất phương trình $x+y\\le5$, kết quả bằng bao nhiêu?",
+      "answer": "4",
+      "explanation": "$x+y=2+2=4$."
     },
     {
       "id": "sa-c2-005",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(3;4)$ vào vế trái của bất phương trình $x+y\\le5$, kết quả bằng bao nhiêu?",
+      "answer": "7",
+      "explanation": "$x+y=3+4=7$ (lớn hơn $5$ nên điểm này không phải nghiệm)."
     },
     {
       "id": "sa-c2-006",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 2)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(5;0)$ vào vế trái của bất phương trình $x+y\\le5$, kết quả bằng bao nhiêu?",
+      "answer": "5",
+      "explanation": "$x+y=5+0=5$ (đúng bằng giới hạn nên vẫn là nghiệm)."
     },
     {
       "id": "sa-c2-007",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục hoành",
+      "question": "Đường thẳng $x+2y=6$ cắt trục hoành ($y=0$) tại điểm có hoành độ $x=$?",
+      "answer": "6",
+      "explanation": "Thay $y=0$: $x=6$."
     },
     {
       "id": "sa-c2-008",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục hoành",
+      "question": "Đường thẳng $3x+y=9$ cắt trục hoành tại điểm có hoành độ $x=$?",
+      "answer": "3",
+      "explanation": "Thay $y=0$: $3x=9 \\Rightarrow x=3$."
     },
     {
       "id": "sa-c2-009",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 3)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục hoành",
+      "question": "Đường thẳng $2x-y=8$ cắt trục hoành tại điểm có hoành độ $x=$?",
+      "answer": "4",
+      "explanation": "Thay $y=0$: $2x=8 \\Rightarrow x=4$."
     },
     {
       "id": "sa-c2-010",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục tung",
+      "question": "Đường thẳng $x+2y=6$ cắt trục tung ($x=0$) tại điểm có tung độ $y=$?",
+      "answer": "3",
+      "explanation": "Thay $x=0$: $2y=6 \\Rightarrow y=3$."
     },
     {
       "id": "sa-c2-011",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục tung",
+      "question": "Đường thẳng $3x+y=9$ cắt trục tung tại điểm có tung độ $y=$?",
+      "answer": "9",
+      "explanation": "Thay $x=0$: $y=9$."
     },
     {
       "id": "sa-c2-012",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 4)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Giao điểm với trục tung",
+      "question": "Đường thẳng $2x+4y=8$ cắt trục tung tại điểm có tung độ $y=$?",
+      "answer": "2",
+      "explanation": "Thay $x=0$: $4y=8 \\Rightarrow y=2$."
     },
     {
       "id": "sa-c2-013",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(4;3)$ vào vế trái của bất phương trình $x-2y\\le0$, kết quả bằng bao nhiêu?",
+      "answer": "-2",
+      "explanation": "$x-2y=4-2(3)=4-6=-2$."
     },
     {
       "id": "sa-c2-014",
       "chapter": "c2",
       "lesson": "b3",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(3;2)$ vào vế trái của bất phương trình $3x+y<10$, kết quả bằng bao nhiêu?",
+      "answer": "11",
+      "explanation": "$3x+y=3(3)+2=9+2=11$."
     },
     {
       "id": "sa-c2-015",
       "chapter": "c2",
       "lesson": "b4",
       "level": "nb",
-      "dang": "Dạng bpt (Nhóm 5)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Thay số vào bpt",
+      "question": "Thay $(x;y)=(-4;1)$ vào vế trái của bất phương trình $x+y\\ge-1$, kết quả bằng bao nhiêu?",
+      "answer": "-3",
+      "explanation": "$x+y=-4+1=-3$."
     },
     {
       "id": "sa-c2-016",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Hệ bpt — chênh lệch với giới hạn",
+      "question": "Cho hệ bất phương trình có ràng buộc $x+y\\le6$. Tại điểm $(x;y)=(4;3)$, giá trị $x+y$ vượt quá giới hạn $6$ bao nhiêu đơn vị (âm nếu chưa vượt)?",
+      "answer": "1",
+      "explanation": "$x+y=4+3=7$. Chênh lệch $=7-6=1$ (đã vượt quá $1$ đơn vị, không khả thi)."
     },
     {
       "id": "sa-c2-017",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Hệ bpt — chênh lệch với giới hạn",
+      "question": "Cho hệ bất phương trình có ràng buộc $2x+y\\le10$. Tại điểm $(x;y)=(3;3)$, giá trị $2x+y$ vượt quá giới hạn $10$ bao nhiêu đơn vị (âm nếu chưa vượt)?",
+      "answer": "-1",
+      "explanation": "$2x+y=2(3)+3=9$. Chênh lệch $=9-10=-1$ (chưa vượt quá, còn dư $1$)."
     },
     {
       "id": "sa-c2-018",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 6)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Hệ bpt — chênh lệch với giới hạn",
+      "question": "Cho hệ bất phương trình có ràng buộc $x+y\\le8$. Tại điểm $(x;y)=(1;5)$, giá trị $x+y$ vượt quá giới hạn $8$ bao nhiêu đơn vị (âm nếu chưa vượt)?",
+      "answer": "-2",
+      "explanation": "$x+y=1+5=6$. Chênh lệch $=6-8=-2$."
     },
     {
       "id": "sa-c2-019",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Tính F tại một đỉnh",
+      "question": "Tính $F=3x+2y$ tại đỉnh $(0;5)$ của miền nghiệm.",
+      "answer": "10",
+      "explanation": "$F=3(0)+2(5)=10$."
     },
     {
       "id": "sa-c2-020",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Tính F tại một đỉnh",
+      "question": "Tính $F=5x+y$ tại đỉnh $(4;0)$ của miền nghiệm.",
+      "answer": "20",
+      "explanation": "$F=5(4)+0=20$."
     },
     {
       "id": "sa-c2-021",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 7)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Tính F tại một đỉnh",
+      "question": "Tính $F=x+4y$ tại đỉnh $(2;3)$ của miền nghiệm.",
+      "answer": "14",
+      "explanation": "$F=2+4(3)=2+12=14$."
     },
     {
       "id": "sa-c2-022",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "So sánh giá trị F tại hai điểm",
+      "question": "Với $F=2x+y$, so sánh giá trị của $F$ tại $A(3;1)$ và $B(1;4)$. Giá trị lớn hơn trong hai giá trị đó bằng bao nhiêu?",
+      "answer": "7",
+      "explanation": "$F(A)=2(3)+1=7$; $F(B)=2(1)+4=6$. Giá trị lớn hơn là $7$."
     },
     {
       "id": "sa-c2-023",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "So sánh giá trị F tại hai điểm",
+      "question": "Với $F=x+3y$, so sánh giá trị của $F$ tại $A(5;0)$ và $B(2;2)$. Giá trị lớn hơn trong hai giá trị đó bằng bao nhiêu?",
+      "answer": "8",
+      "explanation": "$F(A)=5+3(0)=5$; $F(B)=2+3(2)=8$. Giá trị lớn hơn là $8$."
     },
     {
       "id": "sa-c2-024",
       "chapter": "c2",
       "lesson": "b4",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 8)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "So sánh giá trị F tại hai điểm",
+      "question": "Với $F=4x+y$, so sánh giá trị của $F$ tại $A(0;6)$ và $B(2;1)$. Giá trị lớn hơn trong hai giá trị đó bằng bao nhiêu?",
+      "answer": "9",
+      "explanation": "$F(A)=4(0)+6=6$; $F(B)=4(2)+1=9$. Giá trị lớn hơn là $9$."
     },
     {
       "id": "sa-c2-025",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Tìm m",
+      "question": "Tìm $m$ nguyên nhỏ nhất để $(1;2)$ là nghiệm của bất phương trình $x+my\\ge5$.",
+      "answer": "2",
+      "explanation": "$1+2m\\ge5 \\Rightarrow m\\ge2$. Giá trị nguyên nhỏ nhất là $m=2$."
     },
     {
       "id": "sa-c2-026",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Tìm m",
+      "question": "Tìm $m$ nguyên lớn nhất để $(2;1)$ là nghiệm của bất phương trình $mx+y\\le9$.",
+      "answer": "4",
+      "explanation": "$2m+1\\le9 \\Rightarrow m\\le4$. Giá trị nguyên lớn nhất là $m=4$."
     },
     {
       "id": "sa-c2-027",
       "chapter": "c2",
       "lesson": "b3",
       "level": "th",
-      "dang": "Dạng bpt (Nhóm 9)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Tìm m",
+      "question": "Tìm $m$ nguyên nhỏ nhất để $(3;0)$ là nghiệm của bất phương trình $mx-2\\ge7$.",
+      "answer": "3",
+      "explanation": "$3m-2\\ge7 \\Rightarrow m\\ge3$. Giá trị nguyên nhỏ nhất là $m=3$."
     },
     {
       "id": "sa-c2-028",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 0 được giá trị là:",
-      "answer": "5",
-      "explanation": "Thay số"
+      "dang": "Bài toán tối ưu",
+      "question": "Một xưởng có ràng buộc $x+y\\le10$, $x,y\\ge0$; lợi nhuận $L=30x+20y$ (nghìn đồng). Tính $L$ tại đỉnh $(10;0)$.",
+      "answer": "300",
+      "explanation": "$L=30(10)+20(0)=300$."
     },
     {
       "id": "sa-c2-029",
       "chapter": "c2",
       "lesson": "b3",
       "level": "vd",
-      "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 1 được giá trị là:",
-      "answer": "6",
-      "explanation": "Thay số"
+      "dang": "Bài toán tối ưu",
+      "question": "Với ràng buộc $2x+y\\le12$, lợi nhuận $L=15x+20y$ (nghìn đồng). Tính $L$ tại đỉnh $(0;12)$.",
+      "answer": "240",
+      "explanation": "$L=15(0)+20(12)=240$."
     },
     {
       "id": "sa-c2-030",
       "chapter": "c2",
       "lesson": "b4",
       "level": "vd",
-      "dang": "Dạng bpt (Nhóm 10)",
-      "question": "Thay x=2, y=3 vào biểu thức x + y + 2 được giá trị là:",
-      "answer": "7",
-      "explanation": "Thay số"
+      "dang": "Bài toán tối ưu",
+      "question": "Với hệ $x+2y\\le14$, $x\\ge0,y\\ge0$, lợi nhuận $L=10x+5y$ (nghìn đồng). Tính $L$ tại đỉnh $(14;0)$.",
+      "answer": "140",
+      "explanation": "$L=10(14)+5(0)=140$."
     },
     {
       "id": "sa-c3-001",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có hai cạnh góc vuông $a=3$, $b=4$. Tính cạnh huyền $c$.",
       "answer": "5",
-      "explanation": "Pytago"
+      "explanation": "$c=\\sqrt{3^2+4^2}=\\sqrt{25}=5$."
     },
     {
       "id": "sa-c3-002",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có hai cạnh góc vuông $a=6$, $b=8$. Tính cạnh huyền $c$.",
+      "answer": "10",
+      "explanation": "$c=\\sqrt{6^2+8^2}=\\sqrt{100}=10$."
     },
     {
       "id": "sa-c3-003",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 1)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có hai cạnh góc vuông $a=5$, $b=12$. Tính cạnh huyền $c$.",
+      "answer": "13",
+      "explanation": "$c=\\sqrt{5^2+12^2}=\\sqrt{169}=13$."
     },
     {
       "id": "sa-c3-004",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "GTLG đặc biệt",
+      "question": "$\\sin 30^\\circ$ bằng bao nhiêu?",
+      "answer": "0,5",
+      "explanation": "$\\sin 30^\\circ=\\frac{1}{2}=0,5$ (giá trị lượng giác của góc đặc biệt)."
     },
     {
       "id": "sa-c3-005",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "GTLG đặc biệt",
+      "question": "$\\cos 45^\\circ$ bằng bao nhiêu? (làm tròn đến hàng phần trăm)",
+      "answer": "0,71",
+      "explanation": "$\\cos45^\\circ=\\frac{\\sqrt2}{2}\\approx0,71$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c3-006",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 2)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "GTLG đặc biệt",
+      "question": "$\\tan 60^\\circ$ bằng bao nhiêu? (làm tròn đến hàng phần trăm)",
+      "answer": "1,73",
+      "explanation": "$\\tan60^\\circ=\\sqrt3\\approx1,73$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c3-007",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có cạnh huyền $c=13$, một cạnh góc vuông $a=5$. Tính cạnh góc vuông còn lại $b$.",
+      "answer": "12",
+      "explanation": "$b=\\sqrt{13^2-5^2}=\\sqrt{144}=12$."
     },
     {
       "id": "sa-c3-008",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có cạnh huyền $c=17$, một cạnh góc vuông $a=8$. Tính cạnh góc vuông còn lại $b$.",
+      "answer": "15",
+      "explanation": "$b=\\sqrt{17^2-8^2}=\\sqrt{225}=15$."
     },
     {
       "id": "sa-c3-009",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 3)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Pythagoras",
+      "question": "Tam giác vuông có cạnh huyền $c=25$, một cạnh góc vuông $a=7$. Tính cạnh góc vuông còn lại $b$.",
+      "answer": "24",
+      "explanation": "$b=\\sqrt{25^2-7^2}=\\sqrt{576}=24$."
     },
     {
       "id": "sa-c3-010",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Tổng ba góc tam giác",
+      "question": "Tam giác $ABC$ có $A=50^\\circ$, $B=60^\\circ$. Tính góc $C$.",
+      "answer": "70",
+      "explanation": "$C=180^\\circ-50^\\circ-60^\\circ=70^\\circ$.",
+      "unit": "°"
     },
     {
       "id": "sa-c3-011",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Tổng ba góc tam giác",
+      "question": "Tam giác $ABC$ có $A=90^\\circ$, $B=35^\\circ$. Tính góc $C$.",
+      "answer": "55",
+      "explanation": "$C=180^\\circ-90^\\circ-35^\\circ=55^\\circ$.",
+      "unit": "°"
     },
     {
       "id": "sa-c3-012",
       "chapter": "c3",
       "lesson": "b6",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 4)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Tổng ba góc tam giác",
+      "question": "Tam giác $ABC$ có $A=45^\\circ$, $B=45^\\circ$. Tính góc $C$.",
+      "answer": "90",
+      "explanation": "$C=180^\\circ-45^\\circ-45^\\circ=90^\\circ$.",
+      "unit": "°"
     },
     {
       "id": "sa-c3-013",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Góc bù nhau",
+      "question": "Biết $\\sin 40^\\circ \\approx 0,643$. Tính $\\sin 140^\\circ$.",
+      "answer": "0,643",
+      "explanation": "$\\sin(180^\\circ-\\alpha)=\\sin\\alpha$ nên $\\sin140^\\circ=\\sin40^\\circ\\approx0,643$.",
+      "tolerance": 0.001
     },
     {
       "id": "sa-c3-014",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Góc bù nhau",
+      "question": "Biết $\\cos 50^\\circ \\approx 0,643$. Tính $\\cos 130^\\circ$.",
+      "answer": "-0,643",
+      "explanation": "$\\cos(180^\\circ-\\alpha)=-\\cos\\alpha$ nên $\\cos130^\\circ=-\\cos50^\\circ\\approx-0,643$.",
+      "tolerance": 0.001
     },
     {
       "id": "sa-c3-015",
       "chapter": "c3",
       "lesson": "b5",
       "level": "nb",
-      "dang": "Dạng tam giác (Nhóm 5)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Góc bù nhau",
+      "question": "Biết $\\sin 70^\\circ \\approx 0,940$. Tính $\\sin 110^\\circ$.",
+      "answer": "0,940",
+      "explanation": "$\\sin(180^\\circ-\\alpha)=\\sin\\alpha$ nên $\\sin110^\\circ=\\sin70^\\circ\\approx0,940$.",
+      "tolerance": 0.001
     },
     {
       "id": "sa-c3-016",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Hệ thức Pythagore lượng giác",
+      "question": "Biết $\\sin\\alpha=0,6$ và $\\alpha$ là góc tù ($90^\\circ<\\alpha<180^\\circ$). Tính $\\cos\\alpha$.",
+      "answer": "-0,8",
+      "explanation": "Vì $\\alpha$ tù nên $\\cos\\alpha<0$: $\\cos\\alpha=-\\sqrt{1-0,6^2}=-\\sqrt{0,64}=-0,8$."
     },
     {
       "id": "sa-c3-017",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Hệ thức Pythagore lượng giác",
+      "question": "Biết $\\cos\\alpha=0,6$ với $0^\\circ<\\alpha<90^\\circ$. Tính $\\sin\\alpha$.",
+      "answer": "0,8",
+      "explanation": "$\\sin\\alpha=\\sqrt{1-0,6^2}=\\sqrt{0,64}=0,8$ (dương vì $\\alpha$ nhọn)."
     },
     {
       "id": "sa-c3-018",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 6)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Hệ thức Pythagore lượng giác",
+      "question": "Biết $\\sin\\alpha=0,8$ và $\\alpha$ là góc tù. Tính $\\cos\\alpha$.",
+      "answer": "-0,6",
+      "explanation": "Vì $\\alpha$ tù nên $\\cos\\alpha<0$: $\\cos\\alpha=-\\sqrt{1-0,8^2}=-\\sqrt{0,36}=-0,6$."
     },
     {
       "id": "sa-c3-019",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Định lí côsin",
+      "question": "Tam giác có $a=7$, $b=9$, góc xen giữa $C=60^\\circ$. Tính cạnh $c$ (làm tròn đến hàng phần trăm).",
+      "answer": "8,19",
+      "explanation": "$c^2=7^2+9^2-2(7)(9)\\cos60^\\circ=130-63=67 \\Rightarrow c=\\sqrt{67}\\approx8,19$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c3-020",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Hệ thức lượng giác cơ bản",
+      "question": "Biết $\\tan\\alpha=\\frac{3}{4}$ với $0^\\circ<\\alpha<90^\\circ$. Tính $\\sin\\alpha$.",
+      "answer": "0,6",
+      "explanation": "Xét tam giác vuông với hai cạnh góc vuông $3$ và $4$, cạnh huyền $5$ (bộ ba Pythagore). $\\sin\\alpha=\\frac{3}{5}=0,6$."
     },
     {
       "id": "sa-c3-021",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 7)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Định lí côsin",
+      "question": "Tam giác có $a=5$, $b=6$, góc xen giữa $C=120^\\circ$. Tính cạnh $c$ (làm tròn đến hàng phần trăm).",
+      "answer": "9,54",
+      "explanation": "$c^2=5^2+6^2-2(5)(6)\\cos120^\\circ=61-60(-0,5)=91 \\Rightarrow c=\\sqrt{91}\\approx9,54$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c3-022",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Định lí sin — bán kính ngoại tiếp",
+      "question": "Tam giác có $a=10$, góc $A=30^\\circ$. Tính bán kính đường tròn ngoại tiếp $R$ (dùng $R=\\frac{a}{2\\sin A}$).",
+      "answer": "10",
+      "explanation": "$R=\\frac{10}{2\\sin30^\\circ}=\\frac{10}{2(0,5)}=10$."
     },
     {
       "id": "sa-c3-023",
       "chapter": "c3",
       "lesson": "b5",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Tìm góc từ giá trị côsin",
+      "question": "Biết $\\cos\\alpha=-\\frac{1}{2}$ với $0^\\circ \\le \\alpha \\le 180^\\circ$. Tìm $\\alpha$.",
+      "answer": "120",
+      "explanation": "$\\cos\\alpha=-\\frac{1}{2} \\Rightarrow \\alpha=120^\\circ$ (góc đặc biệt).",
+      "unit": "°"
     },
     {
       "id": "sa-c3-024",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 8)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Định lí sin — bán kính ngoại tiếp",
+      "question": "Tam giác có $a=8$, góc $A=45^\\circ$. Tính bán kính đường tròn ngoại tiếp $R$ (làm tròn đến hàng phần trăm).",
+      "answer": "5,66",
+      "explanation": "$R=\\frac{a}{2\\sin A}=\\frac{8}{2\\cdot\\frac{\\sqrt2}{2}}=\\frac{8}{\\sqrt2}=4\\sqrt2\\approx5,66$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c3-025",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Diện tích tam giác",
+      "question": "Tam giác có $a=6$, $b=7$, góc xen giữa $C=30^\\circ$. Tính diện tích $S$.",
+      "answer": "10,5",
+      "explanation": "$S=\\frac{1}{2}ab\\sin C=\\frac{1}{2}(6)(7)(0,5)=10,5$."
     },
     {
       "id": "sa-c3-026",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Diện tích tam giác",
+      "question": "Tam giác có $a=8$, $b=5$, góc xen giữa $C=150^\\circ$. Tính diện tích $S$.",
+      "answer": "10",
+      "explanation": "$S=\\frac{1}{2}(8)(5)\\sin150^\\circ=\\frac{1}{2}(40)(0,5)=10$."
     },
     {
       "id": "sa-c3-027",
       "chapter": "c3",
       "lesson": "b6",
       "level": "th",
-      "dang": "Dạng tam giác (Nhóm 9)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Diện tích tam giác",
+      "question": "Tam giác có $a=10$, $b=10$, góc xen giữa $C=90^\\circ$. Tính diện tích $S$.",
+      "answer": "50",
+      "explanation": "$S=\\frac{1}{2}(10)(10)\\sin90^\\circ=\\frac{1}{2}(100)(1)=50$."
     },
     {
       "id": "sa-c3-028",
       "chapter": "c3",
       "lesson": "b5",
       "level": "vd",
-      "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 0).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Biểu thức lượng giác đối xứng",
+      "question": "Biết $\\sin\\alpha+\\cos\\alpha=\\frac{7}{5}$. Tính $\\sin\\alpha\\cdot\\cos\\alpha$.",
+      "answer": "0,48",
+      "explanation": "Bình phương hai vế: $(\\sin\\alpha+\\cos\\alpha)^2=1+2\\sin\\alpha\\cos\\alpha \\Rightarrow \\left(\\frac{7}{5}\\right)^2=1+2\\sin\\alpha\\cos\\alpha \\Rightarrow \\sin\\alpha\\cos\\alpha=\\frac{49/25-1}{2}=\\frac{24/25}{2}=0,48$."
     },
     {
       "id": "sa-c3-029",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 1).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Công thức Heron",
+      "question": "Tam giác $ABC$ có $a=13$, $b=14$, $c=15$. Tính diện tích $S$ bằng công thức Heron.",
+      "answer": "84",
+      "explanation": "Nửa chu vi $p=21$. $S=\\sqrt{21(21-13)(21-14)(21-15)}=\\sqrt{21\\cdot8\\cdot7\\cdot6}=\\sqrt{7056}=84$."
     },
     {
       "id": "sa-c3-030",
       "chapter": "c3",
       "lesson": "b6",
       "level": "vd",
-      "dang": "Dạng tam giác (Nhóm 10)",
-      "question": "Tam giác có cạnh a=3, b=4, tam giác vuông. Tính cạnh huyền c (BT 2).",
-      "answer": "5",
-      "explanation": "Pytago"
+      "dang": "Định lí côsin",
+      "question": "Tam giác có $b=7$, $c=9$, góc $A=120^\\circ$. Tính cạnh $a$ (làm tròn đến hàng phần trăm).",
+      "answer": "13,89",
+      "explanation": "$a^2=7^2+9^2-2(7)(9)\\cos120^\\circ=130-126(-0,5)=193 \\Rightarrow a=\\sqrt{193}\\approx13,89$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c4-001",
       "chapter": "c4",
       "lesson": "b10",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài đoạn thẳng bằng toạ độ",
+      "question": "Cho $A(0;0)$, $B(6;8)$. Tính $|\\vec{AB}|$.",
+      "answer": "10",
+      "explanation": "$\\vec{AB}=(6;8)$, $|\\vec{AB}|=\\sqrt{6^2+8^2}=\\sqrt{100}=10$."
     },
     {
       "id": "sa-c4-002",
       "chapter": "c4",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vectơ với một số",
+      "question": "Cho $\\vec{a}=(2;3)$. Vectơ $3\\vec{a}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "15",
+      "explanation": "$3\\vec{a}=(6;9)$, $x+y=6+9=15$."
     },
     {
       "id": "sa-c4-003",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 1)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tổng của hai vectơ",
+      "question": "Cho $\\vec{u}=(1;2)$, $\\vec{v}=(3;-1)$. Vectơ $\\vec{u}+\\vec{v}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "5",
+      "explanation": "$\\vec{u}+\\vec{v}=(4;1)$, $x+y=4+1=5$."
     },
     {
       "id": "sa-c4-004",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Khái niệm mở đầu",
+      "question": "Vectơ $\\vec{0}$ có độ dài bằng bao nhiêu?",
+      "answer": "0",
+      "explanation": "Theo định nghĩa, vectơ-không có điểm đầu trùng điểm cuối nên độ dài bằng $0$."
     },
     {
       "id": "sa-c4-005",
       "chapter": "c4",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vectơ với một số",
+      "question": "Cho $\\vec{a}=(4;-2)$. Vectơ $-2\\vec{a}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "-4",
+      "explanation": "$-2\\vec{a}=(-8;4)$, $x+y=-8+4=-4$."
     },
     {
       "id": "sa-c4-006",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 2)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Hiệu của hai vectơ",
+      "question": "Cho $\\vec{u}=(5;1)$, $\\vec{v}=(2;3)$. Vectơ $\\vec{u}-\\vec{v}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "1",
+      "explanation": "$\\vec{u}-\\vec{v}=(3;-2)$, $x+y=3+(-2)=1$."
     },
     {
       "id": "sa-c4-007",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Quy tắc hình bình hành",
+      "question": "Cho hình bình hành $ABCD$. Biết $\\vec{AB}=(3;1)$ và $\\vec{AD}=(1;4)$. Vectơ $\\vec{AC}=\\vec{AB}+\\vec{AD}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "9",
+      "explanation": "$\\vec{AC}=(4;5)$, $x+y=4+5=9$."
     },
     {
       "id": "sa-c4-008",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tổng của hai vectơ",
+      "question": "Cho $\\vec{a}=(2;5)$, $\\vec{b}=(-2;-5)$. Tính $x+y$ của vectơ $\\vec{a}+\\vec{b}$.",
+      "answer": "0",
+      "explanation": "$\\vec{a}+\\vec{b}=(0;0)$ (hai vectơ đối nhau), $x+y=0$."
     },
     {
       "id": "sa-c4-009",
       "chapter": "c4",
       "lesson": "b11",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 3)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vô hướng",
+      "question": "Cho $\\vec{a}=(1;0)$, $\\vec{b}=(0;1)$. Tính $\\vec{a}\\cdot\\vec{b}$.",
+      "answer": "0",
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=1(0)+0(1)=0$ (hai vectơ vuông góc)."
     },
     {
       "id": "sa-c4-010",
       "chapter": "c4",
       "lesson": "b11",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài vectơ",
+      "question": "Cho $\\vec{a}=(3;4)$. Tính $|\\vec{a}|$.",
+      "answer": "5",
+      "explanation": "$|\\vec{a}|=\\sqrt{3^2+4^2}=\\sqrt{25}=5$."
     },
     {
       "id": "sa-c4-011",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài đoạn thẳng bằng toạ độ",
+      "question": "Cho $A(2;3)$, $B(8;11)$. Tính $|\\vec{AB}|$.",
+      "answer": "10",
+      "explanation": "$\\vec{AB}=(6;8)$, $|\\vec{AB}|=\\sqrt{6^2+8^2}=\\sqrt{100}=10$."
     },
     {
       "id": "sa-c4-012",
       "chapter": "c4",
       "lesson": "b8",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 4)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài đoạn thẳng bằng toạ độ",
+      "question": "Cho $A(0;0)$, $B(-5;12)$. Tính $|\\vec{AB}|$.",
+      "answer": "13",
+      "explanation": "$\\vec{AB}=(-5;12)$, $|\\vec{AB}|=\\sqrt{5^2+12^2}=\\sqrt{169}=13$."
     },
     {
       "id": "sa-c4-013",
       "chapter": "c4",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vectơ với một số",
+      "question": "Cho $\\vec{a}=(6;-9)$. Vectơ $\\frac{1}{3}\\vec{a}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "-1",
+      "explanation": "$\\frac{1}{3}\\vec{a}=(2;-3)$, $x+y=2+(-3)=-1$."
     },
     {
       "id": "sa-c4-014",
       "chapter": "c4",
       "lesson": "b7",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Vectơ đối",
+      "question": "Vectơ đối của $\\vec{a}=(5;-3)$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "-2",
+      "explanation": "Vectơ đối của $\\vec{a}$ là $-\\vec{a}=(-5;3)$, $x+y=-5+3=-2$."
     },
     {
       "id": "sa-c4-015",
       "chapter": "c4",
       "lesson": "b9",
       "level": "nb",
-      "dang": "Dạng vectơ (Nhóm 5)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vectơ với một số",
+      "question": "Cho $\\vec{a}=(-8;4)$. Vectơ $-\\frac{1}{4}\\vec{a}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "1",
+      "explanation": "$-\\frac{1}{4}\\vec{a}=(2;-1)$, $x+y=2+(-1)=1$."
     },
     {
       "id": "sa-c4-016",
       "chapter": "c4",
       "lesson": "b9",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tổ hợp tuyến tính của vectơ",
+      "question": "Cho $\\vec{a}=(1;2)$, $\\vec{b}=(3;1)$ và $\\vec{u}=2\\vec{a}-\\vec{b}$. Vectơ $\\vec{u}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "2",
+      "explanation": "$2\\vec{a}=(2;4)$, $\\vec{u}=(2-3;4-1)=(-1;3)$, $x+y=-1+3=2$."
     },
     {
       "id": "sa-c4-017",
       "chapter": "c4",
       "lesson": "b9",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tổ hợp tuyến tính của vectơ",
+      "question": "Cho $\\vec{a}=(2;0)$, $\\vec{b}=(1;-2)$ và $\\vec{u}=\\vec{a}+3\\vec{b}$. Vectơ $\\vec{u}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "-1",
+      "explanation": "$3\\vec{b}=(3;-6)$, $\\vec{u}=(2+3;0-6)=(5;-6)$, $x+y=5+(-6)=-1$."
     },
     {
       "id": "sa-c4-018",
       "chapter": "c4",
       "lesson": "b9",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 6)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tổ hợp tuyến tính của vectơ",
+      "question": "Cho $\\vec{a}=(4;1)$, $\\vec{b}=(0;3)$ và $\\vec{u}=-\\vec{a}+2\\vec{b}$. Vectơ $\\vec{u}$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "1",
+      "explanation": "$-\\vec{a}=(-4;-1)$, $2\\vec{b}=(0;6)$, $\\vec{u}=(-4;5)$, $x+y=-4+5=1$."
     },
     {
       "id": "sa-c4-019",
       "chapter": "c4",
       "lesson": "b11",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vô hướng",
+      "question": "Cho $\\vec{a}=(2;3)$, $\\vec{b}=(3;-2)$. Tính $\\vec{a}\\cdot\\vec{b}$.",
+      "answer": "0",
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=2(3)+3(-2)=6-6=0$ (hai vectơ vuông góc)."
     },
     {
       "id": "sa-c4-020",
       "chapter": "c4",
       "lesson": "b10",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vô hướng bằng toạ độ điểm",
+      "question": "Cho $A(0;0)$, $B(3;0)$, $C(2;5)$. Tính $\\vec{AB}\\cdot\\vec{AC}$.",
+      "answer": "6",
+      "explanation": "$\\vec{AB}=(3;0)$, $\\vec{AC}=(2;5)$, $\\vec{AB}\\cdot\\vec{AC}=3(2)+0(5)=6$."
     },
     {
       "id": "sa-c4-021",
       "chapter": "c4",
       "lesson": "b10",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 7)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vô hướng bằng toạ độ điểm",
+      "question": "Cho $A(1;1)$, $B(5;1)$, $C(3;4)$. Tính $\\vec{AB}\\cdot\\vec{AC}$.",
+      "answer": "8",
+      "explanation": "$\\vec{AB}=(4;0)$, $\\vec{AC}=(2;3)$, $\\vec{AB}\\cdot\\vec{AC}=4(2)+0(3)=8$."
     },
     {
       "id": "sa-c4-022",
       "chapter": "c4",
       "lesson": "b11",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tích vô hướng",
+      "question": "Cho $\\vec{a}=(1;1)$, $\\vec{b}=(1;-1)$. Tính $\\vec{a}\\cdot\\vec{b}$.",
+      "answer": "0",
+      "explanation": "$\\vec{a}\\cdot\\vec{b}=1(1)+1(-1)=0$ (hai đường chéo hình vuông luôn vuông góc)."
     },
     {
       "id": "sa-c4-023",
       "chapter": "c4",
       "lesson": "b11",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài vectơ",
+      "question": "Cho $\\vec{a}=(3;4)$. Tính $|2\\vec{a}|$.",
+      "answer": "10",
+      "explanation": "$|2\\vec{a}|=2|\\vec{a}|=2\\sqrt{3^2+4^2}=2(5)=10$."
     },
     {
       "id": "sa-c4-024",
       "chapter": "c4",
       "lesson": "b8",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 8)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Độ dài vectơ bằng toạ độ điểm",
+      "question": "Cho $A(-1;2)$, $B(2;2)$, $C(2;-2)$. Tính $|\\vec{BC}|$.",
+      "answer": "4",
+      "explanation": "$\\vec{BC}=(0;-4)$, $|\\vec{BC}|=\\sqrt{0^2+4^2}=4$."
     },
     {
       "id": "sa-c4-025",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Vectơ đơn vị",
+      "question": "Vectơ $\\vec{a}=(0,6;0,8)$ có độ dài bằng bao nhiêu?",
+      "answer": "1",
+      "explanation": "$|\\vec{a}|=\\sqrt{0,6^2+0,8^2}=\\sqrt{0,36+0,64}=\\sqrt{1}=1$ (đây là một vectơ đơn vị)."
     },
     {
       "id": "sa-c4-026",
       "chapter": "c4",
       "lesson": "b7",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Kiểm tra cùng phương",
+      "question": "Cho $\\vec{a}=(2;4)$, $\\vec{b}=(3;6)$. Tính $x_1y_2-x_2y_1$ (bằng $0$ nghĩa là hai vectơ cùng phương).",
+      "answer": "0",
+      "explanation": "$x_1y_2-x_2y_1=2(6)-4(3)=12-12=0$, vậy $\\vec{a}$ và $\\vec{b}$ cùng phương."
     },
     {
       "id": "sa-c4-027",
       "chapter": "c4",
       "lesson": "b10",
       "level": "th",
-      "dang": "Dạng vectơ (Nhóm 9)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Trung điểm đoạn thẳng",
+      "question": "Cho $A(2;4)$, $B(8;-2)$. Trung điểm $M$ của $AB$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "6",
+      "explanation": "$M=\\left(\\frac{2+8}{2};\\frac{4-2}{2}\\right)=(5;1)$, $x+y=5+1=6$."
     },
     {
       "id": "sa-c4-028",
       "chapter": "c4",
       "lesson": "b10",
       "level": "vd",
-      "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(0; 0), B(3; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Chứng minh vuông góc bằng tích vô hướng",
+      "question": "Cho $A(1;1)$, $B(5;1)$, $C(5;4)$. Tính $\\vec{BA}\\cdot\\vec{BC}$.",
+      "answer": "0",
+      "explanation": "$\\vec{BA}=(-4;0)$, $\\vec{BC}=(0;3)$, $\\vec{BA}\\cdot\\vec{BC}=(-4)(0)+0(3)=0$, vậy tam giác vuông tại $B$."
     },
     {
       "id": "sa-c4-029",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(1; 0), B(4; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Đỉnh còn lại của hình bình hành",
+      "question": "Cho hình bình hành $ABCD$ với $A(0;0)$, $B(4;0)$, $C(6;3)$. Đỉnh $D$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "5",
+      "explanation": "$\\vec{AD}=\\vec{BC}=(2;3) \\Rightarrow D=(2;3)$, $x+y=2+3=5$."
     },
     {
       "id": "sa-c4-030",
       "chapter": "c4",
       "lesson": "b8",
       "level": "vd",
-      "dang": "Dạng vectơ (Nhóm 10)",
-      "question": "Cho A(2; 0), B(5; 0). Độ dài AB là:",
-      "answer": "3",
-      "explanation": "Tọa độ"
+      "dang": "Tìm điểm theo tỉ lệ vectơ",
+      "question": "Cho $A(1;2)$, $B(3;6)$. Gọi $D$ là điểm sao cho $\\vec{AD}=2\\vec{AB}$. Điểm $D$ có toạ độ $(x;y)$. Tính $x+y$.",
+      "answer": "15",
+      "explanation": "$\\vec{AB}=(2;4)$, $2\\vec{AB}=(4;8)$, $D=A+2\\vec{AB}=(5;10)$, $x+y=5+10=15$."
     },
     {
       "id": "sa-c5-001",
       "chapter": "c5",
       "lesson": "b12",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Sai số tuyệt đối",
+      "question": "Số gần đúng $a=72\\pm0,5$. Sai số tuyệt đối không vượt quá bao nhiêu?",
+      "answer": "0,5",
+      "explanation": "Theo kí hiệu $a=\\bar{a}\\pm d$, sai số tuyệt đối $\\Delta_a \\le d=0,5$."
     },
     {
       "id": "sa-c5-002",
       "chapter": "c5",
       "lesson": "b12",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Sai số tuyệt đối",
+      "question": "Số gần đúng $a=150\\pm2$. Sai số tuyệt đối không vượt quá bao nhiêu?",
+      "answer": "2",
+      "explanation": "Sai số tuyệt đối $\\Delta_a \\le d=2$."
     },
     {
       "id": "sa-c5-003",
       "chapter": "c5",
       "lesson": "b12",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 1)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số quy tròn",
+      "question": "Quy tròn số $3,847$ đến hàng phần trăm.",
+      "answer": "3,85",
+      "explanation": "Chữ số hàng phần nghìn là $7\\ge5$ nên làm tròn lên: $3,847 \\to 3,85$."
     },
     {
       "id": "sa-c5-004",
       "chapter": "c5",
       "lesson": "b14",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên",
+      "question": "Tính khoảng biến thiên của mẫu số liệu $2;5;7;9;12$.",
+      "answer": "10",
+      "explanation": "$R=x_{max}-x_{min}=12-2=10$."
     },
     {
       "id": "sa-c5-005",
       "chapter": "c5",
       "lesson": "b12",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số quy tròn",
+      "question": "Quy tròn số $6,2381$ đến hàng phần nghìn.",
+      "answer": "6,238",
+      "explanation": "Chữ số hàng phần chục nghìn là $1<5$ nên giữ nguyên: $6,2381 \\to 6,238$."
     },
     {
       "id": "sa-c5-006",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 2)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số trung bình",
+      "question": "Tính số trung bình của mẫu $4;6;8;10$.",
+      "answer": "7",
+      "explanation": "$\\bar{x}=\\frac{4+6+8+10}{4}=\\frac{28}{4}=7$."
     },
     {
       "id": "sa-c5-007",
       "chapter": "c5",
       "lesson": "b14",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên",
+      "question": "Tính khoảng biến thiên của mẫu $10;15;20;25;30$.",
+      "answer": "20",
+      "explanation": "$R=30-10=20$."
     },
     {
       "id": "sa-c5-008",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Trung vị",
+      "question": "Tìm trung vị của mẫu $3;7;9;12;15$ (đã sắp xếp).",
+      "answer": "9",
+      "explanation": "Mẫu có $5$ giá trị (lẻ), trung vị là giá trị chính giữa: $M_e=9$."
     },
     {
       "id": "sa-c5-009",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 3)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
+      "dang": "Mốt",
+      "question": "Tìm mốt của mẫu $2;3;3;5;5;5;8$.",
       "answer": "5",
-      "explanation": "Max - Min"
+      "explanation": "Giá trị $5$ xuất hiện nhiều nhất ($3$ lần) nên mốt $=5$."
     },
     {
       "id": "sa-c5-010",
       "chapter": "c5",
       "lesson": "b14",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên",
+      "question": "Tính khoảng biến thiên của mẫu $-3;0;4;8$.",
+      "answer": "11",
+      "explanation": "$R=8-(-3)=11$."
     },
     {
       "id": "sa-c5-011",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
+      "dang": "Số trung bình",
+      "question": "Tính số trung bình của mẫu $5;5;5;5;5$.",
       "answer": "5",
-      "explanation": "Max - Min"
+      "explanation": "Mọi giá trị bằng nhau nên số trung bình cũng bằng $5$."
     },
     {
       "id": "sa-c5-012",
       "chapter": "c5",
       "lesson": "b14",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 4)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên",
+      "question": "Tính khoảng biến thiên của mẫu $100;102;98;105$.",
+      "answer": "7",
+      "explanation": "$R=105-98=7$."
     },
     {
       "id": "sa-c5-013",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
+      "dang": "Trung vị",
+      "question": "Tìm trung vị của mẫu $2;4;6;8$ (đã sắp xếp, $n=4$).",
       "answer": "5",
-      "explanation": "Max - Min"
+      "explanation": "$n$ chẵn, trung vị là trung bình cộng hai giá trị giữa: $M_e=\\frac{4+6}{2}=5$."
     },
     {
       "id": "sa-c5-014",
       "chapter": "c5",
       "lesson": "b13",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số trung bình",
+      "question": "Tính số trung bình của mẫu $1;2;3;4;5;6$.",
+      "answer": "3,5",
+      "explanation": "$\\bar{x}=\\frac{1+2+3+4+5+6}{6}=\\frac{21}{6}=3,5$."
     },
     {
       "id": "sa-c5-015",
       "chapter": "c5",
       "lesson": "b14",
       "level": "nb",
-      "dang": "Dạng thống kê (Nhóm 5)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên",
+      "question": "Tính khoảng biến thiên của mẫu $50;60;70;80;90$.",
+      "answer": "40",
+      "explanation": "$R=90-50=40$."
     },
     {
       "id": "sa-c5-016",
       "chapter": "c5",
       "lesson": "b13",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
+      "dang": "Mốt",
+      "question": "Mẫu $2;3;3;4;5;5;5;9$ có mốt bằng bao nhiêu?",
       "answer": "5",
-      "explanation": "Max - Min"
+      "explanation": "Giá trị $5$ xuất hiện $3$ lần, nhiều nhất trong mẫu, nên mốt $=5$."
     },
     {
       "id": "sa-c5-017",
       "chapter": "c5",
       "lesson": "b12",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Cận trên của số gần đúng",
+      "question": "Số gần đúng $a=12,3$ với sai số tuyệt đối không vượt quá $0,05$. Viết cận trên của $a$.",
+      "answer": "12,35",
+      "explanation": "Cận trên $=\\bar{a}+d=12,3+0,05=12,35$."
     },
     {
       "id": "sa-c5-018",
       "chapter": "c5",
       "lesson": "b12",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 6)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Sai số tương đối",
+      "question": "Chiều dài đo được $a=25,4\\pm0,2$ (cm). Sai số tương đối (theo %, làm tròn 1 chữ số thập phân) là bao nhiêu?",
+      "answer": "0,8%",
+      "explanation": "Sai số tương đối $\\delta_a=\\frac{\\Delta_a}{|\\bar a|}=\\frac{0,2}{25,4}\\approx0,00787=0,79\\% \\approx 0,8\\%$.",
+      "tolerance": 0.05
     },
     {
       "id": "sa-c5-019",
       "chapter": "c5",
       "lesson": "b14",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Khoảng biến thiên và ngoại lệ",
+      "question": "Tính khoảng biến thiên $R$ của mẫu $5;10;10;10;15;100$.",
+      "answer": "95",
+      "explanation": "$R=100-5=95$ (bị chi phối mạnh bởi giá trị ngoại lệ $100$)."
     },
     {
       "id": "sa-c5-020",
       "chapter": "c5",
       "lesson": "b13",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Trung vị",
+      "question": "Mẫu lương (triệu đồng): $7;8;8;9;50$. Tìm trung vị.",
+      "answer": "8",
+      "explanation": "Mẫu đã sắp xếp có $5$ giá trị, trung vị là giá trị thứ $3$: $M_e=8$."
     },
     {
       "id": "sa-c5-021",
       "chapter": "c5",
       "lesson": "b13",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 7)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số trung bình",
+      "question": "Mẫu lương (triệu đồng): $7;8;8;9;50$. Tính số trung bình.",
+      "answer": "16,4",
+      "explanation": "$\\bar{x}=\\frac{7+8+8+9+50}{5}=\\frac{82}{5}=16,4$."
     },
     {
       "id": "sa-c5-022",
       "chapter": "c5",
       "lesson": "b13",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Số trung bình và ngoại lệ",
+      "question": "Mẫu $B: 1;2;3;4;100$. Tính số trung bình của mẫu $B$.",
+      "answer": "22",
+      "explanation": "$\\bar{x}=\\frac{1+2+3+4+100}{5}=\\frac{110}{5}=22$ (bị kéo lệch mạnh bởi giá trị $100$)."
     },
     {
       "id": "sa-c5-023",
       "chapter": "c5",
       "lesson": "b14",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Phương sai",
+      "question": "Mẫu $10;20;30$ có phương sai bằng bao nhiêu? (làm tròn 2 chữ số thập phân)",
+      "answer": "66,67",
+      "explanation": "Trung bình $=20$. Tổng bình phương độ lệch $=100+0+100=200$. Phương sai $=\\frac{200}{3}\\approx66,67$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c5-024",
       "chapter": "c5",
       "lesson": "b13",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 8)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Trung vị",
+      "question": "Mẫu $5;6;7;8;9$ có trung vị bằng bao nhiêu?",
+      "answer": "7",
+      "explanation": "Mẫu có $5$ giá trị, trung vị là giá trị chính giữa: $M_e=7$."
     },
     {
       "id": "sa-c5-025",
       "chapter": "c5",
       "lesson": "b14",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Phương sai",
+      "question": "Tính phương sai của mẫu $2;4;6$. (làm tròn 2 chữ số thập phân)",
+      "answer": "2,67",
+      "explanation": "Trung bình $=4$. Tổng bình phương độ lệch $=4+0+4=8$. Phương sai $=\\frac{8}{3}\\approx2,67$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c5-026",
       "chapter": "c5",
       "lesson": "b14",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Độ lệch chuẩn",
+      "question": "Tính độ lệch chuẩn của mẫu $1;3;5;7$. (làm tròn 2 chữ số thập phân)",
+      "answer": "2,24",
+      "explanation": "Trung bình $=4$. Tổng bình phương độ lệch $=9+1+1+9=20$. Phương sai $=\\frac{20}{4}=5$. Độ lệch chuẩn $=\\sqrt5\\approx2,24$.",
+      "tolerance": 0.01
     },
     {
       "id": "sa-c5-027",
       "chapter": "c5",
       "lesson": "b12",
       "level": "th",
-      "dang": "Dạng thống kê (Nhóm 9)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Chữ số có nghĩa",
+      "question": "Kết quả đo $a=8,72$ có $3$ chữ số có nghĩa đáng tin cậy. Viết lại $a$ ở dạng quy tròn phù hợp.",
+      "answer": "8,72",
+      "explanation": "Vì cả $3$ chữ số $8,7,2$ đều đáng tin cậy, số $a$ được giữ nguyên là $8,72$."
     },
     {
       "id": "sa-c5-028",
       "chapter": "c5",
       "lesson": "b12",
       "level": "vd",
-      "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 0 và 5.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Sai số tương đối",
+      "question": "Cân một vật được kết quả $m=45,3\\pm0,15$ (kg). Sai số tương đối là bao nhiêu % (làm tròn 2 chữ số thập phân)?",
+      "answer": "0,33%",
+      "explanation": "$\\delta_m=\\frac{0,15}{45,3}\\approx0,00331=0,33\\%$.",
+      "tolerance": 0.02
     },
     {
       "id": "sa-c5-029",
       "chapter": "c5",
       "lesson": "b14",
       "level": "vd",
-      "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 1 và 6.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "So sánh độ phân tán",
+      "question": "Hai lớp có cùng số trung bình $7$ điểm. Lớp A có độ lệch chuẩn $0,5$; lớp B có độ lệch chuẩn $1,8$. Độ lệch chuẩn nhỏ hơn (ứng với lớp học đều hơn) bằng bao nhiêu?",
+      "answer": "0,5",
+      "explanation": "Độ lệch chuẩn càng nhỏ thì dữ liệu càng đồng đều quanh trung bình. Lớp A có độ lệch chuẩn nhỏ hơn: $0,5$."
     },
     {
       "id": "sa-c5-030",
       "chapter": "c5",
       "lesson": "b14",
       "level": "vd",
-      "dang": "Dạng thống kê (Nhóm 10)",
-      "question": "Tính khoảng biến thiên của 2 và 7.",
-      "answer": "5",
-      "explanation": "Max - Min"
+      "dang": "Trung vị và ngoại lệ",
+      "question": "Mẫu lương $5$ nhân viên (triệu đồng): $9;9;10;10;100$. Tính trung vị của mẫu này.",
+      "answer": "10",
+      "explanation": "Mẫu đã sắp xếp có $5$ giá trị, trung vị là giá trị thứ $3$: $M_e=10$ (phản ánh đúng mặt bằng lương hơn số trung bình vì không bị ảnh hưởng bởi giá trị $100$)."
     }
   ]
 }
