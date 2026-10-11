@@ -1,0 +1,2008 @@
+{
+  "sgk_chapter_title": "Hàm số, đồ thị và ứng dụng",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b15",
+      "sgk_title": "Bài 15. Hàm số"
+    },
+    {
+      "lesson_id": "b16",
+      "sgk_title": "Bài 16. Hàm số bậc hai"
+    },
+    {
+      "lesson_id": "b17",
+      "sgk_title": "Bài 17. Dấu của tam thức bậc hai"
+    },
+    {
+      "lesson_id": "b18",
+      "sgk_title": "Bài 18. Phương trình quy về phương trình bậc hai"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "dang": "Tập xác định hàm phân thức bậc nhất (Nhóm 1)",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{x - 2}$ là: <!-- v0 -->",
+      "choices": [
+        "(-\\infty; 2)",
+        "$\\mathbb{R} \\setminus \\{2\\}$",
+        "$\\mathbb{R} \\setminus \\{-2\\}$",
+        "(2; +\\infty)"
+      ],
+      "answer": 1,
+      "explanation": "Hàm số xác định khi mẫu số khác 0: $x - 2 \\ne 0 \\Leftrightarrow x \\ne 2$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định hàm phân thức bậc nhất (Nhóm 1)",
+      "question": "Tập xác định của hàm số $y = \\frac{2}{x - 3}$ là: <!-- v1 -->",
+      "choices": [
+        "(3; +\\infty)",
+        "(-\\infty; 3)",
+        "$\\mathbb{R} \\setminus \\{3\\}$",
+        "$\\mathbb{R} \\setminus \\{-3\\}$"
+      ],
+      "answer": 2,
+      "explanation": "Hàm số xác định khi mẫu số khác 0: $x - 3 \\ne 0 \\Leftrightarrow x \\ne 3$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định hàm phân thức bậc nhất (Nhóm 1)",
+      "question": "Tập xác định của hàm số $y = \\frac{3}{x - 4}$ là: <!-- v2 -->",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{-4\\}$",
+        "$\\mathbb{R} \\setminus \\{4\\}$",
+        "(-\\infty; 4)",
+        "(4; +\\infty)"
+      ],
+      "answer": 1,
+      "explanation": "Hàm số xác định khi mẫu số khác 0: $x - 4 \\ne 0 \\Leftrightarrow x \\ne 4$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định hàm phân thức bậc nhất (Nhóm 1)",
+      "question": "Tập xác định của hàm số $y = \\frac{4}{x - 5}$ là: <!-- v3 -->",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{5\\}$",
+        "$\\mathbb{R} \\setminus \\{-5\\}$",
+        "(5; +\\infty)",
+        "(-\\infty; 5)"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số xác định khi mẫu số khác 0: $x - 5 \\ne 0 \\Leftrightarrow x \\ne 5$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Điểm thuộc đồ thị hàm số (Nhóm 2)",
+      "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$? <!-- v0 -->",
+      "choices": [
+        "$B(1; 3)$",
+        "$A(1; 1)$",
+        "$C(0; 2)$",
+        "$D(-1; 4)$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $x = 1$ vào hàm số ta được $y = 2(1) - 1 = 1$. Vậy điểm $A(1; 1)$ thuộc đồ thị.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Điểm thuộc đồ thị hàm số (Nhóm 2)",
+      "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 2$? <!-- v1 -->",
+      "choices": [
+        "$A(1; 0)$",
+        "$D(-1; 5)$",
+        "$C(0; 3)$",
+        "$B(1; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 1$ vào hàm số ta được $y = 2(1) - 2 = 0$. Vậy điểm $A(1; 0)$ thuộc đồ thị.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Điểm thuộc đồ thị hàm số (Nhóm 2)",
+      "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 3$? <!-- v2 -->",
+      "choices": [
+        "$B(1; 1)$",
+        "$C(0; 4)$",
+        "$D(-1; 6)$",
+        "$A(1; -1)$"
+      ],
+      "answer": 3,
+      "explanation": "Thay $x = 1$ vào hàm số ta được $y = 2(1) - 3 = -1$. Vậy điểm $A(1; -1)$ thuộc đồ thị.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Điểm thuộc đồ thị hàm số (Nhóm 2)",
+      "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 4$? <!-- v3 -->",
+      "choices": [
+        "$D(-1; 7)$",
+        "$A(1; -2)$",
+        "$C(0; 5)$",
+        "$B(1; 0)$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $x = 1$ vào hàm số ta được $y = 2(1) - 4 = -2$. Vậy điểm $A(1; -2)$ thuộc đồ thị.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tính đồng biến hàm bậc nhất (Nhóm 3)",
+      "question": "Hàm số $y = 2x + 3$ đồng biến trên khoảng nào? <!-- v0 -->",
+      "choices": [
+        "$(0; +\\infty)$",
+        "$(-\\infty; +\\infty)$",
+        "Không đồng biến",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 1,
+      "explanation": "Hàm số bậc nhất $y = ax + b$ có hệ số $a = 2 > 0$ nên đồng biến trên toàn bộ $\\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tính đồng biến hàm bậc nhất (Nhóm 3)",
+      "question": "Hàm số $y = 3x + 4$ đồng biến trên khoảng nào? <!-- v1 -->",
+      "choices": [
+        "Không đồng biến",
+        "$(0; +\\infty)$",
+        "$(-\\infty; +\\infty)$",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Hàm số bậc nhất $y = ax + b$ có hệ số $a = 3 > 0$ nên đồng biến trên toàn bộ $\\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tính đồng biến hàm bậc nhất (Nhóm 3)",
+      "question": "Hàm số $y = 4x + 5$ đồng biến trên khoảng nào? <!-- v2 -->",
+      "choices": [
+        "Không đồng biến",
+        "$(0; +\\infty)$",
+        "$(-\\infty; +\\infty)$",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Hàm số bậc nhất $y = ax + b$ có hệ số $a = 4 > 0$ nên đồng biến trên toàn bộ $\\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tính đồng biến hàm bậc nhất (Nhóm 3)",
+      "question": "Hàm số $y = 5x + 6$ đồng biến trên khoảng nào? <!-- v3 -->",
+      "choices": [
+        "Không đồng biến",
+        "$(0; +\\infty)$",
+        "$(-\\infty; +\\infty)$",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Hàm số bậc nhất $y = ax + b$ có hệ số $a = 5 > 0$ nên đồng biến trên toàn bộ $\\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tọa độ đỉnh parabol (Nhóm 4)",
+      "question": "Tọa độ đỉnh của parabol $y = x^2 - 2x + 1$ là: <!-- v0 -->",
+      "choices": [
+        "$I(1; 0)$",
+        "$I(-1; 2)$",
+        "$I(2; 1)$",
+        "$I(1; 5)$"
+      ],
+      "answer": 0,
+      "explanation": "Hoành độ đỉnh $x_I = -b/(2a) = 2/2 = 1$, tung độ $y_I = (1)^2 - 2(1) + 1 = 0$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tọa độ đỉnh parabol (Nhóm 4)",
+      "question": "Tọa độ đỉnh của parabol $y = x^2 - 4x + 2$ là: <!-- v1 -->",
+      "choices": [
+        "$I(2; -2)$",
+        "$I(2; 6)$",
+        "$I(4; 2)$",
+        "$I(-2; 6)$"
+      ],
+      "answer": 0,
+      "explanation": "Hoành độ đỉnh $x_I = -b/(2a) = 4/2 = 2$, tung độ $y_I = (2)^2 - 4(2) + 2 = -2$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tọa độ đỉnh parabol (Nhóm 4)",
+      "question": "Tọa độ đỉnh của parabol $y = x^2 - 6x + 3$ là: <!-- v2 -->",
+      "choices": [
+        "$I(-3; 12)$",
+        "$I(3; -6)$",
+        "$I(3; 7)$",
+        "$I(6; 3)$"
+      ],
+      "answer": 1,
+      "explanation": "Hoành độ đỉnh $x_I = -b/(2a) = 6/2 = 3$, tung độ $y_I = (3)^2 - 6(3) + 3 = -6$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tọa độ đỉnh parabol (Nhóm 4)",
+      "question": "Tọa độ đỉnh của parabol $y = x^2 - 8x + 4$ là: <!-- v3 -->",
+      "choices": [
+        "$I(8; 4)$",
+        "$I(4; -12)$",
+        "$I(4; 8)$",
+        "$I(-4; 20)$"
+      ],
+      "answer": 1,
+      "explanation": "Hoành độ đỉnh $x_I = -b/(2a) = 8/2 = 4$, tung độ $y_I = (4)^2 - 8(4) + 4 = -12$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Trục đối xứng của parabol (Nhóm 5)",
+      "question": "Trục đối xứng của parabol $y = 2x^2 - 4x + 1$ là đường thẳng: <!-- v0 -->",
+      "choices": [
+        "$y = 1$",
+        "$x = -1$",
+        "$x = 2$",
+        "$x = 1$"
+      ],
+      "answer": 3,
+      "explanation": "Trục đối xứng có phương trình $x = -b/(2a) = 4/4 = 1$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Trục đối xứng của parabol (Nhóm 5)",
+      "question": "Trục đối xứng của parabol $y = 2x^2 - 8x + 1$ là đường thẳng: <!-- v1 -->",
+      "choices": [
+        "$x = -2$",
+        "$x = 2$",
+        "$x = 4$",
+        "$y = 2$"
+      ],
+      "answer": 1,
+      "explanation": "Trục đối xứng có phương trình $x = -b/(2a) = 8/4 = 2$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Trục đối xứng của parabol (Nhóm 5)",
+      "question": "Trục đối xứng của parabol $y = 2x^2 - 12x + 1$ là đường thẳng: <!-- v2 -->",
+      "choices": [
+        "$x = 3$",
+        "$x = -3$",
+        "$y = 3$",
+        "$x = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Trục đối xứng có phương trình $x = -b/(2a) = 12/4 = 3$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Trục đối xứng của parabol (Nhóm 5)",
+      "question": "Trục đối xứng của parabol $y = 2x^2 - 16x + 1$ là đường thẳng: <!-- v3 -->",
+      "choices": [
+        "$x = 4$",
+        "$x = -4$",
+        "$y = 4$",
+        "$x = 8$"
+      ],
+      "answer": 0,
+      "explanation": "Trục đối xứng có phương trình $x = -b/(2a) = 16/4 = 4$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hướng bề lõm parabol (Nhóm 6)",
+      "question": "Đồ thị hàm số $y = -1x^2 + 3x - 1$ có bề lõm: <!-- v0 -->",
+      "choices": [
+        "Sang bên phải",
+        "Quay xuống dưới",
+        "Sang bên trái",
+        "Quay lên trên"
+      ],
+      "answer": 1,
+      "explanation": "Do hệ số $a = -1 < 0$ nên bề lõm của parabol quay xuống phía dưới.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hướng bề lõm parabol (Nhóm 6)",
+      "question": "Đồ thị hàm số $y = -2x^2 + 3x - 1$ có bề lõm: <!-- v1 -->",
+      "choices": [
+        "Sang bên phải",
+        "Quay xuống dưới",
+        "Sang bên trái",
+        "Quay lên trên"
+      ],
+      "answer": 1,
+      "explanation": "Do hệ số $a = -2 < 0$ nên bề lõm của parabol quay xuống phía dưới.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hướng bề lõm parabol (Nhóm 6)",
+      "question": "Đồ thị hàm số $y = -3x^2 + 3x - 1$ có bề lõm: <!-- v2 -->",
+      "choices": [
+        "Sang bên phải",
+        "Quay xuống dưới",
+        "Sang bên trái",
+        "Quay lên trên"
+      ],
+      "answer": 1,
+      "explanation": "Do hệ số $a = -3 < 0$ nên bề lõm của parabol quay xuống phía dưới.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hướng bề lõm parabol (Nhóm 6)",
+      "question": "Đồ thị hàm số $y = -4x^2 + 3x - 1$ có bề lõm: <!-- v3 -->",
+      "choices": [
+        "Quay lên trên",
+        "Sang bên trái",
+        "Quay xuống dưới",
+        "Sang bên phải"
+      ],
+      "answer": 2,
+      "explanation": "Do hệ số $a = -4 < 0$ nên bề lõm của parabol quay xuống phía dưới.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giao điểm của parabol với trục tung (Nhóm 7)",
+      "question": "Tọa độ giao điểm của parabol $y = x^2 + 5x - 3$ với trục tung là: <!-- v0 -->",
+      "choices": [
+        "$(-3; 0)$",
+        "$(0; -3)$",
+        "$(1; 4)$",
+        "$(0; 3)$"
+      ],
+      "answer": 1,
+      "explanation": "Giao điểm với trục tung có hoành độ $x = 0 \\Rightarrow y = -3$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giao điểm của parabol với trục tung (Nhóm 7)",
+      "question": "Tọa độ giao điểm của parabol $y = x^2 + 5x - 4$ với trục tung là: <!-- v1 -->",
+      "choices": [
+        "$(-4; 0)$",
+        "$(0; -4)$",
+        "$(1; 3)$",
+        "$(0; 4)$"
+      ],
+      "answer": 1,
+      "explanation": "Giao điểm với trục tung có hoành độ $x = 0 \\Rightarrow y = -4$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giao điểm của parabol với trục tung (Nhóm 7)",
+      "question": "Tọa độ giao điểm của parabol $y = x^2 + 5x - 5$ với trục tung là: <!-- v2 -->",
+      "choices": [
+        "$(1; 2)$",
+        "$(-5; 0)$",
+        "$(0; -5)$",
+        "$(0; 5)$"
+      ],
+      "answer": 2,
+      "explanation": "Giao điểm với trục tung có hoành độ $x = 0 \\Rightarrow y = -5$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giao điểm của parabol với trục tung (Nhóm 7)",
+      "question": "Tọa độ giao điểm của parabol $y = x^2 + 5x - 6$ với trục tung là: <!-- v3 -->",
+      "choices": [
+        "$(0; -6)$",
+        "$(1; 1)$",
+        "$(0; 6)$",
+        "$(-6; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Giao điểm với trục tung có hoành độ $x = 0 \\Rightarrow y = -6$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Nhận biết biểu thức tam thức bậc hai (Nhóm 8)",
+      "question": "Biểu thức nào sau đây là tam thức bậc hai theo biến $x$ (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$g(x) = 2x - 5$",
+        "$k(x) = \\frac{1}{x^2} + 1$",
+        "$h(x) = x^3 - 1x$",
+        "$f(x) = 2x^2 - 3x + 1$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức bậc hai có dạng $ax^2 + bx + c$ với $a \\ne 0$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nhận biết biểu thức tam thức bậc hai (Nhóm 8)",
+      "question": "Biểu thức nào sau đây là tam thức bậc hai theo biến $x$ (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$f(x) = 3x^2 - 3x + 1$",
+        "$k(x) = \\frac{2}{x^2} + 1$",
+        "$h(x) = x^3 - 2x$",
+        "$g(x) = 3x - 5$"
+      ],
+      "answer": 0,
+      "explanation": "Tam thức bậc hai có dạng $ax^2 + bx + c$ với $a \\ne 0$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nhận biết biểu thức tam thức bậc hai (Nhóm 8)",
+      "question": "Biểu thức nào sau đây là tam thức bậc hai theo biến $x$ (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$k(x) = \\frac{3}{x^2} + 1$",
+        "$h(x) = x^3 - 3x$",
+        "$g(x) = 4x - 5$",
+        "$f(x) = 4x^2 - 3x + 1$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức bậc hai có dạng $ax^2 + bx + c$ với $a \\ne 0$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nhận biết biểu thức tam thức bậc hai (Nhóm 8)",
+      "question": "Biểu thức nào sau đây là tam thức bậc hai theo biến $x$ (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$h(x) = x^3 - 4x$",
+        "$f(x) = 5x^2 - 3x + 1$",
+        "$k(x) = \\frac{4}{x^2} + 1$",
+        "$g(x) = 5x - 5$"
+      ],
+      "answer": 1,
+      "explanation": "Tam thức bậc hai có dạng $ax^2 + bx + c$ với $a \\ne 0$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Biệt thức delta của tam thức bậc hai (Nhóm 9)",
+      "question": "Biệt thức $\\Delta$ của tam thức bậc hai $f(x) = x^2 - 4x + 0$ là: <!-- v0 -->",
+      "choices": [
+        "$0$",
+        "$16$",
+        "$-16$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta = b^2 - 4ac = [-4]^2 - 4(1)[0] = 4(2)^2 - 4(2)^2 + 16 = 16$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Biệt thức delta của tam thức bậc hai (Nhóm 9)",
+      "question": "Biệt thức $\\Delta$ của tam thức bậc hai $f(x) = x^2 - 6x + 5$ là: <!-- v1 -->",
+      "choices": [
+        "$-16$",
+        "$4$",
+        "$16$",
+        "$0$"
+      ],
+      "answer": 2,
+      "explanation": "$\\Delta = b^2 - 4ac = [-6]^2 - 4(1)[5] = 4(3)^2 - 4(3)^2 + 16 = 16$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Biệt thức delta của tam thức bậc hai (Nhóm 9)",
+      "question": "Biệt thức $\\Delta$ của tam thức bậc hai $f(x) = x^2 - 8x + 12$ là: <!-- v2 -->",
+      "choices": [
+        "$-16$",
+        "$16$",
+        "$4$",
+        "$0$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta = b^2 - 4ac = [-8]^2 - 4(1)[12] = 4(4)^2 - 4(4)^2 + 16 = 16$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Biệt thức delta của tam thức bậc hai (Nhóm 9)",
+      "question": "Biệt thức $\\Delta$ của tam thức bậc hai $f(x) = x^2 - 10x + 21$ là: <!-- v3 -->",
+      "choices": [
+        "$16$",
+        "$0$",
+        "$-16$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta = b^2 - 4ac = [-10]^2 - 4(1)[21] = 4(5)^2 - 4(5)^2 + 16 = 16$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Dấu của tam thức khi biệt thức âm (Nhóm 10)",
+      "question": "Cho tam thức $f(x) = x^2 + 2x + 3$. Khẳng định nào sau đây ĐÚNG? <!-- v0 -->",
+      "choices": [
+        "$f(x) < 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x)$ đổi dấu trên $\\mathbb{R}$",
+        "$f(x) \\ge 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) > 0, \\forall x \\in \\mathbb{R}$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta' = 1 - (3) = -2 < 0$ và hệ số $a = 1 > 0$, do đó $f(x) > 0$ với mọi $x \\in \\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Dấu của tam thức khi biệt thức âm (Nhóm 10)",
+      "question": "Cho tam thức $f(x) = x^2 + 2x + 4$. Khẳng định nào sau đây ĐÚNG? <!-- v1 -->",
+      "choices": [
+        "$f(x) \\ge 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) < 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x)$ đổi dấu trên $\\mathbb{R}$",
+        "$f(x) > 0, \\forall x \\in \\mathbb{R}$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta' = 1 - (4) = -3 < 0$ và hệ số $a = 1 > 0$, do đó $f(x) > 0$ với mọi $x \\in \\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Dấu của tam thức khi biệt thức âm (Nhóm 10)",
+      "question": "Cho tam thức $f(x) = x^2 + 2x + 5$. Khẳng định nào sau đây ĐÚNG? <!-- v2 -->",
+      "choices": [
+        "$f(x)$ đổi dấu trên $\\mathbb{R}$",
+        "$f(x) \\ge 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) > 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) < 0, \\forall x \\in \\mathbb{R}$"
+      ],
+      "answer": 2,
+      "explanation": "$\\Delta' = 1 - (5) = -4 < 0$ và hệ số $a = 1 > 0$, do đó $f(x) > 0$ với mọi $x \\in \\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Dấu của tam thức khi biệt thức âm (Nhóm 10)",
+      "question": "Cho tam thức $f(x) = x^2 + 2x + 6$. Khẳng định nào sau đây ĐÚNG? <!-- v3 -->",
+      "choices": [
+        "$f(x) > 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) \\ge 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x) < 0, \\forall x \\in \\mathbb{R}$",
+        "$f(x)$ đổi dấu trên $\\mathbb{R}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta' = 1 - (6) = -5 < 0$ và hệ số $a = 1 > 0$, do đó $f(x) > 0$ với mọi $x \\in \\mathbb{R}$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm của tam thức bậc hai cơ bản (Nhóm 11)",
+      "question": "Các nghiệm của tam thức bậc hai $f(x) = x^2 - 5x + 6$ là: <!-- v0 -->",
+      "choices": [
+        "$x = 2$ và $x = 3$",
+        "$x = -2$ và $x = -3$",
+        "$x = 1$ và $x = 4$",
+        "Vô nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phân tích thành $(x - 2)(x - 3) = 0$ nên nghiệm là $x = 2$ và $x = 3$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm của tam thức bậc hai cơ bản (Nhóm 11)",
+      "question": "Các nghiệm của tam thức bậc hai $f(x) = x^2 - 7x + 12$ là: <!-- v1 -->",
+      "choices": [
+        "$x = 3$ và $x = 4$",
+        "Vô nghiệm",
+        "$x = 2$ và $x = 5$",
+        "$x = -3$ và $x = -4$"
+      ],
+      "answer": 0,
+      "explanation": "Phân tích thành $(x - 3)(x - 4) = 0$ nên nghiệm là $x = 3$ và $x = 4$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm của tam thức bậc hai cơ bản (Nhóm 11)",
+      "question": "Các nghiệm của tam thức bậc hai $f(x) = x^2 - 9x + 20$ là: <!-- v2 -->",
+      "choices": [
+        "Vô nghiệm",
+        "$x = -4$ và $x = -5$",
+        "$x = 4$ và $x = 5$",
+        "$x = 3$ và $x = 6$"
+      ],
+      "answer": 2,
+      "explanation": "Phân tích thành $(x - 4)(x - 5) = 0$ nên nghiệm là $x = 4$ và $x = 5$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm của tam thức bậc hai cơ bản (Nhóm 11)",
+      "question": "Các nghiệm của tam thức bậc hai $f(x) = x^2 - 11x + 30$ là: <!-- v3 -->",
+      "choices": [
+        "$x = -5$ và $x = -6$",
+        "$x = 4$ và $x = 7$",
+        "$x = 5$ và $x = 6$",
+        "Vô nghiệm"
+      ],
+      "answer": 2,
+      "explanation": "Phân tích thành $(x - 5)(x - 6) = 0$ nên nghiệm là $x = 5$ và $x = 6$.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai một ẩn (Nhóm 12)",
+      "question": "Bất phương trình nào sau đây là bất phương trình bậc hai một ẩn (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$x^3 + 2x - 1 < 0$",
+        "$2x^2 - 1x + 3 > 0$",
+        "$1x - 7 \\le 0$",
+        "$2x + y - 0 \\ge 0$"
+      ],
+      "answer": 1,
+      "explanation": "Bất phương trình bậc hai một ẩn có bậc cao nhất của biến là 2.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai một ẩn (Nhóm 12)",
+      "question": "Bất phương trình nào sau đây là bất phương trình bậc hai một ẩn (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$x^3 + 2x - 1 < 0$",
+        "$2x^2 - 2x + 3 > 0$",
+        "$2x + y - 1 \\ge 0$",
+        "$2x - 7 \\le 0$"
+      ],
+      "answer": 1,
+      "explanation": "Bất phương trình bậc hai một ẩn có bậc cao nhất của biến là 2.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai một ẩn (Nhóm 12)",
+      "question": "Bất phương trình nào sau đây là bất phương trình bậc hai một ẩn (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$3x - 7 \\le 0$",
+        "$2x + y - 2 \\ge 0$",
+        "$x^3 + 2x - 1 < 0$",
+        "$2x^2 - 3x + 3 > 0$"
+      ],
+      "answer": 3,
+      "explanation": "Bất phương trình bậc hai một ẩn có bậc cao nhất của biến là 2.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai một ẩn (Nhóm 12)",
+      "question": "Bất phương trình nào sau đây là bất phương trình bậc hai một ẩn (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$2x^2 - 4x + 3 > 0$",
+        "$2x + y - 3 \\ge 0$",
+        "$x^3 + 2x - 1 < 0$",
+        "$4x - 7 \\le 0$"
+      ],
+      "answer": 0,
+      "explanation": "Bất phương trình bậc hai một ẩn có bậc cao nhất của biến là 2.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Điều kiện xác định của căn bậc hai (Nhóm 13)",
+      "question": "Điều kiện xác định của phương trình $\\sqrt{x - 2} = x - 1$ là: <!-- v0 -->",
+      "choices": [
+        "$x \\ge 2$",
+        "$x \\ge 1$",
+        "$x > 2$",
+        "$x \\le 2$"
+      ],
+      "answer": 0,
+      "explanation": "Biểu thức dưới dấu căn không âm: $x - 2 \\ge 0 \\Leftrightarrow x \\ge 2$.",
+      "level": "nb",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Điều kiện xác định của căn bậc hai (Nhóm 13)",
+      "question": "Điều kiện xác định của phương trình $\\sqrt{x - 3} = x - 1$ là: <!-- v1 -->",
+      "choices": [
+        "$x \\le 3$",
+        "$x \\ge 3$",
+        "$x > 3$",
+        "$x \\ge 1$"
+      ],
+      "answer": 1,
+      "explanation": "Biểu thức dưới dấu căn không âm: $x - 3 \\ge 0 \\Leftrightarrow x \\ge 3$.",
+      "level": "nb",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Điều kiện xác định của căn bậc hai (Nhóm 13)",
+      "question": "Điều kiện xác định của phương trình $\\sqrt{x - 4} = x - 1$ là: <!-- v2 -->",
+      "choices": [
+        "$x \\le 4$",
+        "$x \\ge 4$",
+        "$x > 4$",
+        "$x \\ge 1$"
+      ],
+      "answer": 1,
+      "explanation": "Biểu thức dưới dấu căn không âm: $x - 4 \\ge 0 \\Leftrightarrow x \\ge 4$.",
+      "level": "nb",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Điều kiện xác định của căn bậc hai (Nhóm 13)",
+      "question": "Điều kiện xác định của phương trình $\\sqrt{x - 5} = x - 1$ là: <!-- v3 -->",
+      "choices": [
+        "$x \\ge 1$",
+        "$x \\ge 5$",
+        "$x > 5$",
+        "$x \\le 5$"
+      ],
+      "answer": 1,
+      "explanation": "Biểu thức dưới dấu căn không âm: $x - 5 \\ge 0 \\Leftrightarrow x \\ge 5$.",
+      "level": "nb",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của parabol trên R (Nhóm 14)",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 4x + 9$ trên $\\mathbb{R}$ là: <!-- v0 -->",
+      "choices": [
+        "$-1$",
+        "$5$",
+        "$6$",
+        "$14$"
+      ],
+      "answer": 1,
+      "explanation": "Biến đổi $y = (x - 2)^2 + 5 \\ge 5$. Giá trị nhỏ nhất là 5 đạt tại $x = 2$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của parabol trên R (Nhóm 14)",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 6x + 14$ trên $\\mathbb{R}$ là: <!-- v1 -->",
+      "choices": [
+        "$7$",
+        "$5$",
+        "$19$",
+        "$-2$"
+      ],
+      "answer": 1,
+      "explanation": "Biến đổi $y = (x - 3)^2 + 5 \\ge 5$. Giá trị nhỏ nhất là 5 đạt tại $x = 3$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của parabol trên R (Nhóm 14)",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 8x + 21$ trên $\\mathbb{R}$ là: <!-- v2 -->",
+      "choices": [
+        "$8$",
+        "$-3$",
+        "$5$",
+        "$26$"
+      ],
+      "answer": 2,
+      "explanation": "Biến đổi $y = (x - 4)^2 + 5 \\ge 5$. Giá trị nhỏ nhất là 5 đạt tại $x = 4$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của parabol trên R (Nhóm 14)",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 10x + 30$ trên $\\mathbb{R}$ là: <!-- v3 -->",
+      "choices": [
+        "$-4$",
+        "$9$",
+        "$35$",
+        "$5$"
+      ],
+      "answer": 3,
+      "explanation": "Biến đổi $y = (x - 5)^2 + 5 \\ge 5$. Giá trị nhỏ nhất là 5 đạt tại $x = 5$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tập xác định của căn bậc hai đơn giản (Nhóm 15)",
+      "question": "Tập xác định của hàm số $y = \\sqrt{3 - x}$ là: <!-- v0 -->",
+      "choices": [
+        "$(3; +\\infty)$",
+        "$[3; +\\infty)$",
+        "$(-\\infty; 3]$",
+        "$(-\\infty; 3)$"
+      ],
+      "answer": 2,
+      "explanation": "Hàm số xác định khi $3 - x \\ge 0 \\Leftrightarrow x \\le 3$. Vậy $D = (-\\infty; 3]$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định của căn bậc hai đơn giản (Nhóm 15)",
+      "question": "Tập xác định của hàm số $y = \\sqrt{4 - x}$ là: <!-- v1 -->",
+      "choices": [
+        "$(4; +\\infty)$",
+        "$[4; +\\infty)$",
+        "$(-\\infty; 4)$",
+        "$(-\\infty; 4]$"
+      ],
+      "answer": 3,
+      "explanation": "Hàm số xác định khi $4 - x \\ge 0 \\Leftrightarrow x \\le 4$. Vậy $D = (-\\infty; 4]$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định của căn bậc hai đơn giản (Nhóm 15)",
+      "question": "Tập xác định của hàm số $y = \\sqrt{5 - x}$ là: <!-- v2 -->",
+      "choices": [
+        "$[5; +\\infty)$",
+        "$(-\\infty; 5]$",
+        "$(-\\infty; 5)$",
+        "$(5; +\\infty)$"
+      ],
+      "answer": 1,
+      "explanation": "Hàm số xác định khi $5 - x \\ge 0 \\Leftrightarrow x \\le 5$. Vậy $D = (-\\infty; 5]$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định của căn bậc hai đơn giản (Nhóm 15)",
+      "question": "Tập xác định của hàm số $y = \\sqrt{6 - x}$ là: <!-- v3 -->",
+      "choices": [
+        "$(6; +\\infty)$",
+        "$(-\\infty; 6]$",
+        "$(-\\infty; 6)$",
+        "$[6; +\\infty)$"
+      ],
+      "answer": 1,
+      "explanation": "Hàm số xác định khi $6 - x \\ge 0 \\Leftrightarrow x \\le 6$. Vậy $D = (-\\infty; 6]$.",
+      "level": "nb",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định phân thức có chứa căn (Nhóm 16)",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{\\sqrt{x - 1}} + \\frac{x}{x - 4}$ là: <!-- v0 -->",
+      "choices": [
+        "$[1; +\\infty) \\setminus \\{4\\}$",
+        "$\\mathbb{R} \\setminus \\{4\\}$",
+        "$(1; 4)$",
+        "$(1; +\\infty) \\setminus \\{4\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện: $x - 1 > 0 \\Leftrightarrow x > 1$ và $x \\ne 4$. Vậy $D = (1; +\\infty) \\setminus \\{4\\}$.",
+      "level": "th",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định phân thức có chứa căn (Nhóm 16)",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{\\sqrt{x - 2}} + \\frac{x}{x - 5}$ là: <!-- v1 -->",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{5\\}$",
+        "$[2; +\\infty) \\setminus \\{5\\}$",
+        "$(2; 5)$",
+        "$(2; +\\infty) \\setminus \\{5\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện: $x - 2 > 0 \\Leftrightarrow x > 2$ và $x \\ne 5$. Vậy $D = (2; +\\infty) \\setminus \\{5\\}$.",
+      "level": "th",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định phân thức có chứa căn (Nhóm 16)",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{\\sqrt{x - 3}} + \\frac{x}{x - 6}$ là: <!-- v2 -->",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{6\\}$",
+        "$(3; +\\infty) \\setminus \\{6\\}$",
+        "$[3; +\\infty) \\setminus \\{6\\}$",
+        "$(3; 6)$"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện: $x - 3 > 0 \\Leftrightarrow x > 3$ và $x \\ne 6$. Vậy $D = (3; +\\infty) \\setminus \\{6\\}$.",
+      "level": "th",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Tập xác định phân thức có chứa căn (Nhóm 16)",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{\\sqrt{x - 4}} + \\frac{x}{x - 7}$ là: <!-- v3 -->",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{7\\}$",
+        "$(4; 7)$",
+        "$[4; +\\infty) \\setminus \\{7\\}$",
+        "$(4; +\\infty) \\setminus \\{7\\}$"
+      ],
+      "answer": 3,
+      "explanation": "Điều kiện: $x - 4 > 0 \\Leftrightarrow x > 4$ và $x \\ne 7$. Vậy $D = (4; +\\infty) \\setminus \\{7\\}$.",
+      "level": "th",
+      "lesson": "b15"
+    },
+    {
+      "dang": "Xác định hàm số bậc hai qua đỉnh và điểm (Nhóm 17)",
+      "question": "Biết parabol $y = ax^2 + bx + 1$ có đỉnh $I(1; -1)$. Giá trị của $a$ là: <!-- v0 -->",
+      "choices": [
+        "1",
+        "$2$",
+        "$1$",
+        "-2"
+      ],
+      "answer": 1,
+      "explanation": "Đỉnh có $x = 1 \\Rightarrow -b/(2a) = 1 \\Rightarrow b = -2a$. Tại $x = 1: a(1)^2 - 2a(1) + 1 = -1 \\Leftrightarrow -a + 1 = -1 \\Leftrightarrow a = 2$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Xác định hàm số bậc hai qua đỉnh và điểm (Nhóm 17)",
+      "question": "Biết parabol $y = ax^2 + bx + 1$ có đỉnh $I(1; -2)$. Giá trị của $a$ là: <!-- v1 -->",
+      "choices": [
+        "-3",
+        "$2$",
+        "$3$",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Đỉnh có $x = 1 \\Rightarrow -b/(2a) = 1 \\Rightarrow b = -2a$. Tại $x = 1: a(1)^2 - 2a(1) + 1 = -2 \\Leftrightarrow -a + 1 = -2 \\Leftrightarrow a = 3$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Xác định hàm số bậc hai qua đỉnh và điểm (Nhóm 17)",
+      "question": "Biết parabol $y = ax^2 + bx + 1$ có đỉnh $I(1; -3)$. Giá trị của $a$ là: <!-- v2 -->",
+      "choices": [
+        "$3$",
+        "-4",
+        "1",
+        "$4$"
+      ],
+      "answer": 3,
+      "explanation": "Đỉnh có $x = 1 \\Rightarrow -b/(2a) = 1 \\Rightarrow b = -2a$. Tại $x = 1: a(1)^2 - 2a(1) + 1 = -3 \\Leftrightarrow -a + 1 = -3 \\Leftrightarrow a = 4$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Xác định hàm số bậc hai qua đỉnh và điểm (Nhóm 17)",
+      "question": "Biết parabol $y = ax^2 + bx + 1$ có đỉnh $I(1; -4)$. Giá trị của $a$ là: <!-- v3 -->",
+      "choices": [
+        "-5",
+        "$4$",
+        "1",
+        "$5$"
+      ],
+      "answer": 3,
+      "explanation": "Đỉnh có $x = 1 \\Rightarrow -b/(2a) = 1 \\Rightarrow b = -2a$. Tại $x = 1: a(1)^2 - 2a(1) + 1 = -4 \\Leftrightarrow -a + 1 = -4 \\Leftrightarrow a = 5$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Khoảng nghịch biến của parabol (Nhóm 18)",
+      "question": "Hàm số $y = -x^2 + 4x - 3$ đồng biến trên khoảng nào sau đây? <!-- v0 -->",
+      "choices": [
+        "$(2; +\\infty)$",
+        "$(-\\infty; 0)$",
+        "$(-\\infty; 2)$",
+        "$(0; +\\infty)$"
+      ],
+      "answer": 2,
+      "explanation": "Hệ số $a = -1 < 0$, hoành độ đỉnh $x = -b/(2a) = 4/2 = 2$. Hàm số đồng biến trên $(-\\infty; 2)$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Khoảng nghịch biến của parabol (Nhóm 18)",
+      "question": "Hàm số $y = -x^2 + 6x - 3$ đồng biến trên khoảng nào sau đây? <!-- v1 -->",
+      "choices": [
+        "$(-\\infty; 0)$",
+        "$(-\\infty; 3)$",
+        "$(3; +\\infty)$",
+        "$(0; +\\infty)$"
+      ],
+      "answer": 1,
+      "explanation": "Hệ số $a = -1 < 0$, hoành độ đỉnh $x = -b/(2a) = 6/2 = 3$. Hàm số đồng biến trên $(-\\infty; 3)$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Khoảng nghịch biến của parabol (Nhóm 18)",
+      "question": "Hàm số $y = -x^2 + 8x - 3$ đồng biến trên khoảng nào sau đây? <!-- v2 -->",
+      "choices": [
+        "$(0; +\\infty)$",
+        "$(4; +\\infty)$",
+        "$(-\\infty; 4)$",
+        "$(-\\infty; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Hệ số $a = -1 < 0$, hoành độ đỉnh $x = -b/(2a) = 8/2 = 4$. Hàm số đồng biến trên $(-\\infty; 4)$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Khoảng nghịch biến của parabol (Nhóm 18)",
+      "question": "Hàm số $y = -x^2 + 10x - 3$ đồng biến trên khoảng nào sau đây? <!-- v3 -->",
+      "choices": [
+        "$(-\\infty; 0)$",
+        "$(5; +\\infty)$",
+        "$(-\\infty; 5)$",
+        "$(0; +\\infty)$"
+      ],
+      "answer": 2,
+      "explanation": "Hệ số $a = -1 < 0$, hoành độ đỉnh $x = -b/(2a) = 10/2 = 5$. Hàm số đồng biến trên $(-\\infty; 5)$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tham số để parabol đi qua điểm (Nhóm 19)",
+      "question": "Tìm $m$ để đồ thị hàm số $y = x^2 - 3x + m$ đi qua điểm $M(2; 5)$. <!-- v0 -->",
+      "choices": [
+        "$m = -7$",
+        "$m = 5$",
+        "$m = 7$",
+        "$m = 3$"
+      ],
+      "answer": 2,
+      "explanation": "Thay tọa độ $M(2; 5)$: $2^2 - 3(2) + m = 5 \\Leftrightarrow -2 + m = 5 \\Leftrightarrow m = 7$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tham số để parabol đi qua điểm (Nhóm 19)",
+      "question": "Tìm $m$ để đồ thị hàm số $y = x^2 - 3x + m$ đi qua điểm $M(2; 6)$. <!-- v1 -->",
+      "choices": [
+        "$m = 8$",
+        "$m = 4$",
+        "$m = -8$",
+        "$m = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Thay tọa độ $M(2; 6)$: $2^2 - 3(2) + m = 6 \\Leftrightarrow -2 + m = 6 \\Leftrightarrow m = 8$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tham số để parabol đi qua điểm (Nhóm 19)",
+      "question": "Tìm $m$ để đồ thị hàm số $y = x^2 - 3x + m$ đi qua điểm $M(2; 7)$. <!-- v2 -->",
+      "choices": [
+        "$m = 9$",
+        "$m = 7$",
+        "$m = 5$",
+        "$m = -9$"
+      ],
+      "answer": 0,
+      "explanation": "Thay tọa độ $M(2; 7)$: $2^2 - 3(2) + m = 7 \\Leftrightarrow -2 + m = 7 \\Leftrightarrow m = 9$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tham số để parabol đi qua điểm (Nhóm 19)",
+      "question": "Tìm $m$ để đồ thị hàm số $y = x^2 - 3x + m$ đi qua điểm $M(2; 8)$. <!-- v3 -->",
+      "choices": [
+        "$m = 6$",
+        "$m = 8$",
+        "$m = 10$",
+        "$m = -10$"
+      ],
+      "answer": 2,
+      "explanation": "Thay tọa độ $M(2; 8)$: $2^2 - 3(2) + m = 8 \\Leftrightarrow -2 + m = 8 \\Leftrightarrow m = 10$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Xét dấu tam thức bậc hai có hai nghiệm phân biệt (Nhóm 20)",
+      "question": "Tam thức $f(x) = x^2 - 5x + 6$ nhận giá trị âm khi và chỉ khi: <!-- v0 -->",
+      "choices": [
+        "$x < 2$ hoặc $x > 3$",
+        "$x \\ge 3$",
+        "$2 < x < 3$",
+        "$x \\le 2$"
+      ],
+      "answer": 2,
+      "explanation": "Tam thức có 2 nghiệm $2$ và $3$, hệ số $a = 1 > 0$. Áp dụng quy tắc 'trong trái ngoài cùng', $f(x) < 0$ khi $2 < x < 3$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Xét dấu tam thức bậc hai có hai nghiệm phân biệt (Nhóm 20)",
+      "question": "Tam thức $f(x) = x^2 - 7x + 12$ nhận giá trị âm khi và chỉ khi: <!-- v1 -->",
+      "choices": [
+        "$x < 3$ hoặc $x > 4$",
+        "$x \\le 3$",
+        "$x \\ge 4$",
+        "$3 < x < 4$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức có 2 nghiệm $3$ và $4$, hệ số $a = 1 > 0$. Áp dụng quy tắc 'trong trái ngoài cùng', $f(x) < 0$ khi $3 < x < 4$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Xét dấu tam thức bậc hai có hai nghiệm phân biệt (Nhóm 20)",
+      "question": "Tam thức $f(x) = x^2 - 9x + 20$ nhận giá trị âm khi và chỉ khi: <!-- v2 -->",
+      "choices": [
+        "$x \\ge 5$",
+        "$4 < x < 5$",
+        "$x < 4$ hoặc $x > 5$",
+        "$x \\le 4$"
+      ],
+      "answer": 1,
+      "explanation": "Tam thức có 2 nghiệm $4$ và $5$, hệ số $a = 1 > 0$. Áp dụng quy tắc 'trong trái ngoài cùng', $f(x) < 0$ khi $4 < x < 5$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Xét dấu tam thức bậc hai có hai nghiệm phân biệt (Nhóm 20)",
+      "question": "Tam thức $f(x) = x^2 - 11x + 30$ nhận giá trị âm khi và chỉ khi: <!-- v3 -->",
+      "choices": [
+        "$x \\le 5$",
+        "$x \\ge 6$",
+        "$x < 5$ hoặc $x > 6$",
+        "$5 < x < 6$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức có 2 nghiệm $5$ và $6$, hệ số $a = 1 > 0$. Áp dụng quy tắc 'trong trái ngoài cùng', $f(x) < 0$ khi $5 < x < 6$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giải bất phương trình bậc hai cơ bản (Nhóm 21)",
+      "question": "Tập nghiệm của bất phương trình $x^2 - 3x + 2 \\le 0$ là: <!-- v0 -->",
+      "choices": [
+        "$(1; 2)$",
+        "$\\emptyset$",
+        "$(-\\infty; 1] \\cup [2; +\\infty)$",
+        "$[1; 2]$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức có nghiệm $1$ và $2$, $a = 1 > 0$. Do đó $f(x) \\le 0 \\Leftrightarrow x \\in [1; 2]$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giải bất phương trình bậc hai cơ bản (Nhóm 21)",
+      "question": "Tập nghiệm của bất phương trình $x^2 - 5x + 6 \\le 0$ là: <!-- v1 -->",
+      "choices": [
+        "$(2; 3)$",
+        "$[2; 3]$",
+        "$(-\\infty; 2] \\cup [3; +\\infty)$",
+        "$\\emptyset$"
+      ],
+      "answer": 1,
+      "explanation": "Tam thức có nghiệm $2$ và $3$, $a = 1 > 0$. Do đó $f(x) \\le 0 \\Leftrightarrow x \\in [2; 3]$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giải bất phương trình bậc hai cơ bản (Nhóm 21)",
+      "question": "Tập nghiệm của bất phương trình $x^2 - 7x + 12 \\le 0$ là: <!-- v2 -->",
+      "choices": [
+        "$[3; 4]$",
+        "$\\emptyset$",
+        "$(3; 4)$",
+        "$(-\\infty; 3] \\cup [4; +\\infty)$"
+      ],
+      "answer": 0,
+      "explanation": "Tam thức có nghiệm $3$ và $4$, $a = 1 > 0$. Do đó $f(x) \\le 0 \\Leftrightarrow x \\in [3; 4]$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giải bất phương trình bậc hai cơ bản (Nhóm 21)",
+      "question": "Tập nghiệm của bất phương trình $x^2 - 9x + 20 \\le 0$ là: <!-- v3 -->",
+      "choices": [
+        "$(4; 5)$",
+        "$(-\\infty; 4] \\cup [5; +\\infty)$",
+        "$\\emptyset$",
+        "$[4; 5]$"
+      ],
+      "answer": 3,
+      "explanation": "Tam thức có nghiệm $4$ và $5$, $a = 1 > 0$. Do đó $f(x) \\le 0 \\Leftrightarrow x \\in [4; 5]$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai vô nghiệm (Nhóm 22)",
+      "question": "Tập nghiệm của bất phương trình $-x^2 + 2x - 3 > 0$ là: <!-- v0 -->",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$(-1; 1)$",
+        "$(1; 3)$",
+        "$\\emptyset$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta' = 1 - (3) = -2 < 0$ và $a = -1 < 0$ nên $-x^2 + 2x - 3 < 0, \\forall x$. BPT vô nghiệm, tập nghiệm là $\\emptyset$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai vô nghiệm (Nhóm 22)",
+      "question": "Tập nghiệm của bất phương trình $-x^2 + 2x - 4 > 0$ là: <!-- v1 -->",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$\\emptyset$",
+        "$(1; 4)$",
+        "$(-1; 1)$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta' = 1 - (4) = -3 < 0$ và $a = -1 < 0$ nên $-x^2 + 2x - 4 < 0, \\forall x$. BPT vô nghiệm, tập nghiệm là $\\emptyset$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai vô nghiệm (Nhóm 22)",
+      "question": "Tập nghiệm của bất phương trình $-x^2 + 2x - 5 > 0$ là: <!-- v2 -->",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$(1; 5)$",
+        "$\\emptyset$",
+        "$(-1; 1)$"
+      ],
+      "answer": 2,
+      "explanation": "$\\Delta' = 1 - (5) = -4 < 0$ và $a = -1 < 0$ nên $-x^2 + 2x - 5 < 0, \\forall x$. BPT vô nghiệm, tập nghiệm là $\\emptyset$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bất phương trình bậc hai vô nghiệm (Nhóm 22)",
+      "question": "Tập nghiệm của bất phương trình $-x^2 + 2x - 6 > 0$ là: <!-- v3 -->",
+      "choices": [
+        "$\\emptyset$",
+        "$(-1; 1)$",
+        "$\\mathbb{R}$",
+        "$(1; 6)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta' = 1 - (6) = -5 < 0$ và $a = -1 < 0$ nên $-x^2 + 2x - 6 < 0, \\forall x$. BPT vô nghiệm, tập nghiệm là $\\emptyset$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giải phương trình căn f bằng căn g (Nhóm 23)",
+      "question": "Nghiệm của phương trình $\\sqrt{2x - 1} = \\sqrt{x + 3}$ là: <!-- v0 -->",
+      "choices": [
+        "$x = 4$",
+        "$x = 1$",
+        "Vô nghiệm",
+        "$x = 5$"
+      ],
+      "answer": 0,
+      "explanation": "Bình phương hai vế: $2x - 1 = x + 3 \\Leftrightarrow x = 4$. Thử lại thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn f bằng căn g (Nhóm 23)",
+      "question": "Nghiệm của phương trình $\\sqrt{2x - 2} = \\sqrt{x + 4}$ là: <!-- v1 -->",
+      "choices": [
+        "Vô nghiệm",
+        "$x = 2$",
+        "$x = 7$",
+        "$x = 6$"
+      ],
+      "answer": 3,
+      "explanation": "Bình phương hai vế: $2x - 2 = x + 4 \\Leftrightarrow x = 6$. Thử lại thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn f bằng căn g (Nhóm 23)",
+      "question": "Nghiệm của phương trình $\\sqrt{2x - 3} = \\sqrt{x + 5}$ là: <!-- v2 -->",
+      "choices": [
+        "Vô nghiệm",
+        "$x = 8$",
+        "$x = 3$",
+        "$x = 9$"
+      ],
+      "answer": 1,
+      "explanation": "Bình phương hai vế: $2x - 3 = x + 5 \\Leftrightarrow x = 8$. Thử lại thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn f bằng căn g (Nhóm 23)",
+      "question": "Nghiệm của phương trình $\\sqrt{2x - 4} = \\sqrt{x + 6}$ là: <!-- v3 -->",
+      "choices": [
+        "$x = 10$",
+        "$x = 4$",
+        "$x = 11$",
+        "Vô nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Bình phương hai vế: $2x - 4 = x + 6 \\Leftrightarrow x = 10$. Thử lại thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Phương trình quy về bậc hai dạng căn f(x) bằng g(x) (Nhóm 24)",
+      "question": "Số nghiệm của phương trình $\\sqrt{x^2 - 4x + 4} = x - 2$ (mẫu 1) là: <!-- v0 -->",
+      "choices": [
+        "Vô số nghiệm",
+        "Vô nghiệm",
+        "2 nghiệm",
+        "1 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình tương đương $|x - 2| = x - 2 \\Leftrightarrow x \\ge 2$. Vậy phương trình có vô số nghiệm.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Phương trình quy về bậc hai dạng căn f(x) bằng g(x) (Nhóm 24)",
+      "question": "Số nghiệm của phương trình $\\sqrt{x^2 - 4x + 4} = x - 2$ (mẫu 2) là: <!-- v1 -->",
+      "choices": [
+        "2 nghiệm",
+        "Vô nghiệm",
+        "1 nghiệm",
+        "Vô số nghiệm"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình tương đương $|x - 2| = x - 2 \\Leftrightarrow x \\ge 2$. Vậy phương trình có vô số nghiệm.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Phương trình quy về bậc hai dạng căn f(x) bằng g(x) (Nhóm 24)",
+      "question": "Số nghiệm của phương trình $\\sqrt{x^2 - 4x + 4} = x - 2$ (mẫu 3) là: <!-- v2 -->",
+      "choices": [
+        "Vô số nghiệm",
+        "Vô nghiệm",
+        "1 nghiệm",
+        "2 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình tương đương $|x - 2| = x - 2 \\Leftrightarrow x \\ge 2$. Vậy phương trình có vô số nghiệm.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Phương trình quy về bậc hai dạng căn f(x) bằng g(x) (Nhóm 24)",
+      "question": "Số nghiệm của phương trình $\\sqrt{x^2 - 4x + 4} = x - 2$ (mẫu 4) là: <!-- v3 -->",
+      "choices": [
+        "2 nghiệm",
+        "1 nghiệm",
+        "Vô số nghiệm",
+        "Vô nghiệm"
+      ],
+      "answer": 2,
+      "explanation": "Phương trình tương đương $|x - 2| = x - 2 \\Leftrightarrow x \\ge 2$. Vậy phương trình có vô số nghiệm.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn thức bậc hai bằng bậc nhất (Nhóm 25)",
+      "question": "Nghiệm của phương trình $\\sqrt{x^2 + 2x + 1} = x + 1$ là: <!-- v0 -->",
+      "choices": [
+        "$x = 1$",
+        "$x = -1$",
+        "Vô nghiệm",
+        "$x = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Bình phương 2 vế với điều kiện $x \\ge -1$: $x^2 + 2x + 1 = x^2 + 2x + 1 \\Leftrightarrow 0x = -0$. Với mọi $v$, $x = 0$ thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn thức bậc hai bằng bậc nhất (Nhóm 25)",
+      "question": "Nghiệm của phương trình $\\sqrt{x^2 + 4x + 2} = x + 1$ là: <!-- v1 -->",
+      "choices": [
+        "$x = 0$",
+        "Vô nghiệm",
+        "$x = 2$",
+        "$x = -1$"
+      ],
+      "answer": 0,
+      "explanation": "Bình phương 2 vế với điều kiện $x \\ge -1$: $x^2 + 4x + 2 = x^2 + 2x + 1 \\Leftrightarrow 2x = -1$. Với mọi $v$, $x = 0$ thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn thức bậc hai bằng bậc nhất (Nhóm 25)",
+      "question": "Nghiệm của phương trình $\\sqrt{x^2 + 6x + 3} = x + 1$ là: <!-- v2 -->",
+      "choices": [
+        "$x = 3$",
+        "Vô nghiệm",
+        "$x = -1$",
+        "$x = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Bình phương 2 vế với điều kiện $x \\ge -1$: $x^2 + 6x + 3 = x^2 + 2x + 1 \\Leftrightarrow 4x = -2$. Với mọi $v$, $x = 0$ thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giải phương trình căn thức bậc hai bằng bậc nhất (Nhóm 25)",
+      "question": "Nghiệm của phương trình $\\sqrt{x^2 + 8x + 4} = x + 1$ là: <!-- v3 -->",
+      "choices": [
+        "$x = -1$",
+        "$x = 0$",
+        "Vô nghiệm",
+        "$x = 4$"
+      ],
+      "answer": 1,
+      "explanation": "Bình phương 2 vế với điều kiện $x \\ge -1$: $x^2 + 8x + 4 = x^2 + 2x + 1 \\Leftrightarrow 6x = -3$. Với mọi $v$, $x = 0$ thỏa mãn.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Số nghiệm nguyên của bất phương trình bậc hai (Nhóm 26)",
+      "question": "Số nghiệm nguyên của bất phương trình $x^2 \\le 4$ là: <!-- v0 -->",
+      "choices": [
+        "$5$",
+        "$3$",
+        "$4$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$x^2 \\le 4 \\Leftrightarrow -2 \\le x \\le 2$. Số nghiệm nguyên là $2 - (-2) + 1 = 5$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Số nghiệm nguyên của bất phương trình bậc hai (Nhóm 26)",
+      "question": "Số nghiệm nguyên của bất phương trình $x^2 \\le 9$ là: <!-- v1 -->",
+      "choices": [
+        "$3$",
+        "$7$",
+        "$6$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "$x^2 \\le 9 \\Leftrightarrow -3 \\le x \\le 3$. Số nghiệm nguyên là $3 - (-3) + 1 = 7$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Số nghiệm nguyên của bất phương trình bậc hai (Nhóm 26)",
+      "question": "Số nghiệm nguyên của bất phương trình $x^2 \\le 16$ là: <!-- v2 -->",
+      "choices": [
+        "$9$",
+        "$5$",
+        "$8$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$x^2 \\le 16 \\Leftrightarrow -4 \\le x \\le 4$. Số nghiệm nguyên là $4 - (-4) + 1 = 9$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Số nghiệm nguyên của bất phương trình bậc hai (Nhóm 26)",
+      "question": "Số nghiệm nguyên của bất phương trình $x^2 \\le 25$ là: <!-- v3 -->",
+      "choices": [
+        "$5$",
+        "$10$",
+        "$6$",
+        "$11$"
+      ],
+      "answer": 3,
+      "explanation": "$x^2 \\le 25 \\Leftrightarrow -5 \\le x \\le 5$. Số nghiệm nguyên là $5 - (-5) + 1 = 11$.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị lớn nhất của parabol trên đoạn (Nhóm 27)",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^2 + 2x + 2$ trên đoạn $[0; 2]$ là: <!-- v0 -->",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "Đỉnh $x = 1 \\in [0; 2]$. Ta có $y(0) = 2$, $y(1) = 3$, $y(2) = 2$. Vậy giá trị lớn nhất là $3$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị lớn nhất của parabol trên đoạn (Nhóm 27)",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^2 + 2x + 3$ trên đoạn $[0; 2]$ là: <!-- v1 -->",
+      "choices": [
+        "$5$",
+        "$4$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 1,
+      "explanation": "Đỉnh $x = 1 \\in [0; 2]$. Ta có $y(0) = 3$, $y(1) = 4$, $y(2) = 3$. Vậy giá trị lớn nhất là $4$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị lớn nhất của parabol trên đoạn (Nhóm 27)",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^2 + 2x + 4$ trên đoạn $[0; 2]$ là: <!-- v2 -->",
+      "choices": [
+        "$4$",
+        "$6$",
+        "$5$",
+        "$3$"
+      ],
+      "answer": 2,
+      "explanation": "Đỉnh $x = 1 \\in [0; 2]$. Ta có $y(0) = 4$, $y(1) = 5$, $y(2) = 4$. Vậy giá trị lớn nhất là $5$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị lớn nhất của parabol trên đoạn (Nhóm 27)",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^2 + 2x + 5$ trên đoạn $[0; 2]$ là: <!-- v3 -->",
+      "choices": [
+        "$4$",
+        "$5$",
+        "$7$",
+        "$6$"
+      ],
+      "answer": 3,
+      "explanation": "Đỉnh $x = 1 \\in [0; 2]$. Ta có $y(0) = 5$, $y(1) = 6$, $y(2) = 5$. Vậy giá trị lớn nhất là $6$.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tìm m để tam thức bậc hai luôn dương trên R (Nhóm 28)",
+      "question": "Tìm tất cả các giá trị của tham số $m$ để tam thức $f(x) = x^2 - 2(m + 1)x + m^2 + 3 > 0, \\forall x \\in \\mathbb{R}$. <!-- v0 -->",
+      "choices": [
+        "$m > 2$",
+        "$m < 2$",
+        "$m > \\frac{2}{2}$",
+        "$m < \\frac{2}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Yêu cầu bài toán $\\Leftrightarrow a = 1 > 0$ và $\\Delta' = (m+1)^2 - (m^2 + 3) < 0 \\Leftrightarrow 2m + 1 - 3 < 0 \\Leftrightarrow 2m < 2 \\Leftrightarrow m < \\frac{2}{2}$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tìm m để tam thức bậc hai luôn dương trên R (Nhóm 28)",
+      "question": "Tìm tất cả các giá trị của tham số $m$ để tam thức $f(x) = x^2 - 2(m + 1)x + m^2 + 4 > 0, \\forall x \\in \\mathbb{R}$. <!-- v1 -->",
+      "choices": [
+        "$m > 3$",
+        "$m < 3$",
+        "$m > \\frac{3}{2}$",
+        "$m < \\frac{3}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Yêu cầu bài toán $\\Leftrightarrow a = 1 > 0$ và $\\Delta' = (m+1)^2 - (m^2 + 4) < 0 \\Leftrightarrow 2m + 1 - 4 < 0 \\Leftrightarrow 2m < 3 \\Leftrightarrow m < \\frac{3}{2}$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tìm m để tam thức bậc hai luôn dương trên R (Nhóm 28)",
+      "question": "Tìm tất cả các giá trị của tham số $m$ để tam thức $f(x) = x^2 - 2(m + 1)x + m^2 + 5 > 0, \\forall x \\in \\mathbb{R}$. <!-- v2 -->",
+      "choices": [
+        "$m > \\frac{4}{2}$",
+        "$m > 4$",
+        "$m < 4$",
+        "$m < \\frac{4}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Yêu cầu bài toán $\\Leftrightarrow a = 1 > 0$ và $\\Delta' = (m+1)^2 - (m^2 + 5) < 0 \\Leftrightarrow 2m + 1 - 5 < 0 \\Leftrightarrow 2m < 4 \\Leftrightarrow m < \\frac{4}{2}$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tìm m để tam thức bậc hai luôn dương trên R (Nhóm 28)",
+      "question": "Tìm tất cả các giá trị của tham số $m$ để tam thức $f(x) = x^2 - 2(m + 1)x + m^2 + 6 > 0, \\forall x \\in \\mathbb{R}$. <!-- v3 -->",
+      "choices": [
+        "$m > 5$",
+        "$m > \\frac{5}{2}$",
+        "$m < 5$",
+        "$m < \\frac{5}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Yêu cầu bài toán $\\Leftrightarrow a = 1 > 0$ và $\\Delta' = (m+1)^2 - (m^2 + 6) < 0 \\Leftrightarrow 2m + 1 - 6 < 0 \\Leftrightarrow 2m < 5 \\Leftrightarrow m < \\frac{5}{2}$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tham số m để phương trình có hai nghiệm trái dấu (Nhóm 29)",
+      "question": "Tìm $m$ để phương trình $x^2 - 4x + m - 2 = 0$ có hai nghiệm trái dấu. <!-- v0 -->",
+      "choices": [
+        "$m < 2$",
+        "$m > 0$",
+        "$m \\le 2$",
+        "$m > 2$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc hai có hai nghiệm trái dấu khi và chỉ khi $ac < 0 \\Leftrightarrow 1 \\times (m - 2) < 0 \\Leftrightarrow m < 2$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tham số m để phương trình có hai nghiệm trái dấu (Nhóm 29)",
+      "question": "Tìm $m$ để phương trình $x^2 - 5x + m - 3 = 0$ có hai nghiệm trái dấu. <!-- v1 -->",
+      "choices": [
+        "$m < 3$",
+        "$m > 0$",
+        "$m > 3$",
+        "$m \\le 3$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc hai có hai nghiệm trái dấu khi và chỉ khi $ac < 0 \\Leftrightarrow 1 \\times (m - 3) < 0 \\Leftrightarrow m < 3$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tham số m để phương trình có hai nghiệm trái dấu (Nhóm 29)",
+      "question": "Tìm $m$ để phương trình $x^2 - 6x + m - 4 = 0$ có hai nghiệm trái dấu. <!-- v2 -->",
+      "choices": [
+        "$m \\le 4$",
+        "$m < 4$",
+        "$m > 0$",
+        "$m > 4$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình bậc hai có hai nghiệm trái dấu khi và chỉ khi $ac < 0 \\Leftrightarrow 1 \\times (m - 4) < 0 \\Leftrightarrow m < 4$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tham số m để phương trình có hai nghiệm trái dấu (Nhóm 29)",
+      "question": "Tìm $m$ để phương trình $x^2 - 7x + m - 5 = 0$ có hai nghiệm trái dấu. <!-- v3 -->",
+      "choices": [
+        "$m < 5$",
+        "$m > 5$",
+        "$m \\le 5$",
+        "$m > 0$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc hai có hai nghiệm trái dấu khi và chỉ khi $ac < 0 \\Leftrightarrow 1 \\times (m - 5) < 0 \\Leftrightarrow m < 5$.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Bài toán thực tế tối ưu hóa với hàm số bậc hai (Nhóm 30)",
+      "question": "Một người nông dân dùng 40 m lưới thép để rào mảnh vườn hình chữ nhật giáp bờ tường thẳng (không rào cạnh bờ tường). Diện tích lớn nhất của mảnh vườn là: <!-- v0 -->",
+      "choices": [
+        "200 m$^2$",
+        "250 m$^2$",
+        "150 m$^2$",
+        "300 m$^2$"
+      ],
+      "answer": 0,
+      "explanation": "Gọi chiều rộng là $x$ thì chiều dài là $L = 40 - 2x$. Diện tích $S = x(40 - 2x) = -2x^2 + 40x$. Cực đại tại $x = 10$, diện tích lớn nhất là $200$ m$^2$.",
+      "level": "vd",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Bài toán thực tế tối ưu hóa với hàm số bậc hai (Nhóm 30)",
+      "question": "Một người nông dân dùng 44 m lưới thép để rào mảnh vườn hình chữ nhật giáp bờ tường thẳng (không rào cạnh bờ tường). Diện tích lớn nhất của mảnh vườn là: <!-- v1 -->",
+      "choices": [
+        "292 m$^2$",
+        "192 m$^2$",
+        "342 m$^2$",
+        "242 m$^2$"
+      ],
+      "answer": 3,
+      "explanation": "Gọi chiều rộng là $x$ thì chiều dài là $L = 44 - 2x$. Diện tích $S = x(44 - 2x) = -2x^2 + 44x$. Cực đại tại $x = 11$, diện tích lớn nhất là $242$ m$^2$.",
+      "level": "vd",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Bài toán thực tế tối ưu hóa với hàm số bậc hai (Nhóm 30)",
+      "question": "Một người nông dân dùng 48 m lưới thép để rào mảnh vườn hình chữ nhật giáp bờ tường thẳng (không rào cạnh bờ tường). Diện tích lớn nhất của mảnh vườn là: <!-- v2 -->",
+      "choices": [
+        "338 m$^2$",
+        "388 m$^2$",
+        "288 m$^2$",
+        "238 m$^2$"
+      ],
+      "answer": 2,
+      "explanation": "Gọi chiều rộng là $x$ thì chiều dài là $L = 48 - 2x$. Diện tích $S = x(48 - 2x) = -2x^2 + 48x$. Cực đại tại $x = 12$, diện tích lớn nhất là $288$ m$^2$.",
+      "level": "vd",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Bài toán thực tế tối ưu hóa với hàm số bậc hai (Nhóm 30)",
+      "question": "Một người nông dân dùng 52 m lưới thép để rào mảnh vườn hình chữ nhật giáp bờ tường thẳng (không rào cạnh bờ tường). Diện tích lớn nhất của mảnh vườn là: <!-- v3 -->",
+      "choices": [
+        "288 m$^2$",
+        "338 m$^2$",
+        "388 m$^2$",
+        "438 m$^2$"
+      ],
+      "answer": 1,
+      "explanation": "Gọi chiều rộng là $x$ thì chiều dài là $L = 52 - 2x$. Diện tích $S = x(52 - 2x) = -2x^2 + 52x$. Cực đại tại $x = 13$, diện tích lớn nhất là $338$ m$^2$.",
+      "level": "vd",
+      "lesson": "b16"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Hoành độ đỉnh parabol (Nhóm 1)",
+      "question": "Tìm hoành độ đỉnh của parabol $y = x^2 - 6x + 1$. <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ đỉnh là $x = -b/(2a) = 3$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hoành độ đỉnh parabol (Nhóm 1)",
+      "question": "Tìm hoành độ đỉnh của parabol $y = x^2 - 8x + 1$. <!-- v1 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ đỉnh là $x = -b/(2a) = 4$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Hoành độ đỉnh parabol (Nhóm 1)",
+      "question": "Tìm hoành độ đỉnh của parabol $y = x^2 - 10x + 1$. <!-- v2 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ đỉnh là $x = -b/(2a) = 5$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tung độ giao điểm với Oy (Nhóm 2)",
+      "question": "Tìm tung độ giao điểm của parabol $y = 3x^2 - 4x + 7$ với trục tung $Oy$. <!-- v0 -->",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tại $x = 0$, $y = 7$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tung độ giao điểm với Oy (Nhóm 2)",
+      "question": "Tìm tung độ giao điểm của parabol $y = 3x^2 - 4x + 8$ với trục tung $Oy$. <!-- v1 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tại $x = 0$, $y = 8$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tung độ giao điểm với Oy (Nhóm 2)",
+      "question": "Tìm tung độ giao điểm của parabol $y = 3x^2 - 4x + 9$ với trục tung $Oy$. <!-- v2 -->",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tại $x = 0$, $y = 9$.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị của tam thức tại một điểm (Nhóm 3)",
+      "question": "Tính giá trị của tam thức bậc hai $f(x) = 2x^2 - 3x + 1$ tại $x = 2$. <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 2$ vào tam thức ta được giá trị là 3.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị của tam thức tại một điểm (Nhóm 3)",
+      "question": "Tính giá trị của tam thức bậc hai $f(x) = 2x^2 - 3x + 2$ tại $x = 2$. <!-- v1 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 2$ vào tam thức ta được giá trị là 4.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị của tam thức tại một điểm (Nhóm 3)",
+      "question": "Tính giá trị của tam thức bậc hai $f(x) = 2x^2 - 3x + 3$ tại $x = 2$. <!-- v2 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 2$ vào tam thức ta được giá trị là 5.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm dương của phương trình bậc hai (Nhóm 4)",
+      "question": "Tìm nghiệm dương của phương trình $x^2 - 4 = 0$. <!-- v0 -->",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Phương trình có nghiệm $x = \\pm 2$, nghiệm dương là 2.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm dương của phương trình bậc hai (Nhóm 4)",
+      "question": "Tìm nghiệm dương của phương trình $x^2 - 9 = 0$. <!-- v1 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Phương trình có nghiệm $x = \\pm 3$, nghiệm dương là 3.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Nghiệm dương của phương trình bậc hai (Nhóm 4)",
+      "question": "Tìm nghiệm dương của phương trình $x^2 - 16 = 0$. <!-- v2 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Phương trình có nghiệm $x = \\pm 4$, nghiệm dương là 4.",
+      "level": "nb",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Tung độ đỉnh parabol đặc biệt (Nhóm 5)",
+      "question": "Tìm tung độ đỉnh của parabol $y = (x - 2)^2 + 5$. <!-- v0 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ đỉnh là 5.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tung độ đỉnh parabol đặc biệt (Nhóm 5)",
+      "question": "Tìm tung độ đỉnh của parabol $y = (x - 3)^2 + 6$. <!-- v1 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ đỉnh là 6.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Tung độ đỉnh parabol đặc biệt (Nhóm 5)",
+      "question": "Tìm tung độ đỉnh của parabol $y = (x - 4)^2 + 7$. <!-- v2 -->",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ đỉnh là 7.",
+      "level": "nb",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Nghiệm phương trình chứa căn nguyên (Nhóm 6)",
+      "question": "Giải phương trình $\\sqrt{2x - 1} = 3$. Tìm nghiệm $x$. <!-- v0 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương hai vế: $2x - 1 = 9 \\Leftrightarrow 2x = 10 \\Leftrightarrow x = 5$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Nghiệm phương trình chứa căn nguyên (Nhóm 6)",
+      "question": "Giải phương trình $\\sqrt{2x - 1} = 5$. Tìm nghiệm $x$. <!-- v1 -->",
+      "answer": "13",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương hai vế: $2x - 1 = 25 \\Leftrightarrow 2x = 26 \\Leftrightarrow x = 13$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Nghiệm phương trình chứa căn nguyên (Nhóm 6)",
+      "question": "Giải phương trình $\\sqrt{2x - 1} = 7$. Tìm nghiệm $x$. <!-- v2 -->",
+      "answer": "25",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương hai vế: $2x - 1 = 49 \\Leftrightarrow 2x = 50 \\Leftrightarrow x = 25$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Số nghiệm nguyên của BPT bậc hai (Nhóm 7)",
+      "question": "Có bao nhiêu số nguyên $x$ thỏa mãn bất phương trình $x^2 - 5x + 6 \\le 0$? <!-- v0 -->",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bất phương trình tương đương $2 \\le x \\le 3$. Có đúng 2 số nguyên là 2 và 3.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Số nghiệm nguyên của BPT bậc hai (Nhóm 7)",
+      "question": "Có bao nhiêu số nguyên $x$ thỏa mãn bất phương trình $x^2 - 7x + 12 \\le 0$? <!-- v1 -->",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bất phương trình tương đương $3 \\le x \\le 4$. Có đúng 2 số nguyên là 3 và 4.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Số nghiệm nguyên của BPT bậc hai (Nhóm 7)",
+      "question": "Có bao nhiêu số nguyên $x$ thỏa mãn bất phương trình $x^2 - 9x + 20 \\le 0$? <!-- v2 -->",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bất phương trình tương đương $4 \\le x \\le 5$. Có đúng 2 số nguyên là 4 và 5.",
+      "level": "th",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của hàm số bậc hai (Nhóm 8)",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 4x + 8$ trên $\\mathbb{R}$. <!-- v0 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Biến đổi $y = (x - 2)^2 + 4 \\ge 4$. Giá trị nhỏ nhất là 4.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của hàm số bậc hai (Nhóm 8)",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 6x + 14$ trên $\\mathbb{R}$. <!-- v1 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Biến đổi $y = (x - 3)^2 + 5 \\ge 5$. Giá trị nhỏ nhất là 5.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Giá trị nhỏ nhất của hàm số bậc hai (Nhóm 8)",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 8x + 22$ trên $\\mathbb{R}$. <!-- v2 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Biến đổi $y = (x - 4)^2 + 6 \\ge 6$. Giá trị nhỏ nhất là 6.",
+      "level": "th",
+      "lesson": "b16"
+    },
+    {
+      "dang": "Nghiệm của phương trình căn thức đơn giản (Nhóm 9)",
+      "question": "Tìm nghiệm của phương trình $\\sqrt{x + 2} = 3$. <!-- v0 -->",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương 2 vế: $x + 2 = 9 \\Leftrightarrow x = 7$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Nghiệm của phương trình căn thức đơn giản (Nhóm 9)",
+      "question": "Tìm nghiệm của phương trình $\\sqrt{x + 3} = 4$. <!-- v1 -->",
+      "answer": "13",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương 2 vế: $x + 3 = 16 \\Leftrightarrow x = 13$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Nghiệm của phương trình căn thức đơn giản (Nhóm 9)",
+      "question": "Tìm nghiệm của phương trình $\\sqrt{x + 4} = 5$. <!-- v2 -->",
+      "answer": "21",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bình phương 2 vế: $x + 4 = 25 \\Leftrightarrow x = 21$.",
+      "level": "th",
+      "lesson": "b18"
+    },
+    {
+      "dang": "Giá trị nguyên nhỏ nhất của tham số m (Nhóm 10)",
+      "question": "Tìm giá trị nguyên nhỏ nhất của $m$ để tam thức $f(x) = x^2 - 4x + m + 0 > 0$ luôn đúng với mọi $x \\in \\mathbb{R}$. <!-- v0 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Điều kiện $\\Delta' = 4 - (m + 0) < 0 \\Leftrightarrow m > 4$. Do đó số nguyên nhỏ nhất của $m$ là 5.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị nguyên nhỏ nhất của tham số m (Nhóm 10)",
+      "question": "Tìm giá trị nguyên nhỏ nhất của $m$ để tam thức $f(x) = x^2 - 4x + m + 1 > 0$ luôn đúng với mọi $x \\in \\mathbb{R}$. <!-- v1 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Điều kiện $\\Delta' = 4 - (m + 1) < 0 \\Leftrightarrow m > 3$. Do đó số nguyên nhỏ nhất của $m$ là 4.",
+      "level": "vd",
+      "lesson": "b17"
+    },
+    {
+      "dang": "Giá trị nguyên nhỏ nhất của tham số m (Nhóm 10)",
+      "question": "Tìm giá trị nguyên nhỏ nhất của $m$ để tam thức $f(x) = x^2 - 4x + m + 2 > 0$ luôn đúng với mọi $x \\in \\mathbb{R}$. <!-- v2 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Điều kiện $\\Delta' = 4 - (m + 2) < 0 \\Leftrightarrow m > 2$. Do đó số nguyên nhỏ nhất của $m$ là 3.",
+      "level": "vd",
+      "lesson": "b17"
+    }
+  ]
+}

@@ -1,0 +1,2008 @@
+{
+  "sgk_chapter_title": "Phương pháp toạ độ trong mặt phẳng",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b19",
+      "sgk_title": "Bài 19. Phương trình đường thẳng"
+    },
+    {
+      "lesson_id": "b20",
+      "sgk_title": "Bài 20. Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách"
+    },
+    {
+      "lesson_id": "b21",
+      "sgk_title": "Bài 21. Đường tròn trong mặt phẳng toạ độ"
+    },
+    {
+      "lesson_id": "b22",
+      "sgk_title": "Bài 22. Ba đường conic"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "dang": "Vectơ pháp tuyến của đường thẳng (Nhóm 1)",
+      "question": "Vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $\\Delta: 2x - 3y + 1 = 0$? <!-- v0 -->",
+      "choices": [
+        "$\\vec{n} = (4; 2)$",
+        "$\\vec{n} = (2; 3)$",
+        "$\\vec{n} = (2; -3)$",
+        "$\\vec{n} = (-5; 2)$"
+      ],
+      "answer": 2,
+      "explanation": "Đường thẳng $Ax + By + C = 0$ có VTPT là $\\vec{n} = (A; B) = (2; -3)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ pháp tuyến của đường thẳng (Nhóm 1)",
+      "question": "Vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $\\Delta: 3x - 4y + 1 = 0$? <!-- v1 -->",
+      "choices": [
+        "$\\vec{n} = (3; -4)$",
+        "$\\vec{n} = (3; 4)$",
+        "$\\vec{n} = (5; 3)$",
+        "$\\vec{n} = (-6; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng $Ax + By + C = 0$ có VTPT là $\\vec{n} = (A; B) = (3; -4)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ pháp tuyến của đường thẳng (Nhóm 1)",
+      "question": "Vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $\\Delta: 4x - 5y + 1 = 0$? <!-- v2 -->",
+      "choices": [
+        "$\\vec{n} = (4; 5)$",
+        "$\\vec{n} = (6; 4)$",
+        "$\\vec{n} = (-7; 4)$",
+        "$\\vec{n} = (4; -5)$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng $Ax + By + C = 0$ có VTPT là $\\vec{n} = (A; B) = (4; -5)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ pháp tuyến của đường thẳng (Nhóm 1)",
+      "question": "Vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $\\Delta: 5x - 6y + 1 = 0$? <!-- v3 -->",
+      "choices": [
+        "$\\vec{n} = (7; 5)$",
+        "$\\vec{n} = (-8; 5)$",
+        "$\\vec{n} = (5; 6)$",
+        "$\\vec{n} = (5; -6)$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng $Ax + By + C = 0$ có VTPT là $\\vec{n} = (A; B) = (5; -6)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ chỉ phương của đường thẳng tham số (Nhóm 2)",
+      "question": "Vectơ chỉ phương của đường thẳng $d: x = 1 + 1t, y = 2 - 2t$ là: <!-- v0 -->",
+      "choices": [
+        "$\\vec{u} = (1; -2)$",
+        "$\\vec{u} = (3; 1)$",
+        "$\\vec{u} = (1; 2)$",
+        "$\\vec{u} = (-1; -2)$"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng tham số $x = x_0 + at, y = y_0 + bt$ có VTCP $\\vec{u} = (a; b) = (1; -2)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ chỉ phương của đường thẳng tham số (Nhóm 2)",
+      "question": "Vectơ chỉ phương của đường thẳng $d: x = 1 + 2t, y = 2 - 3t$ là: <!-- v1 -->",
+      "choices": [
+        "$\\vec{u} = (2; 3)$",
+        "$\\vec{u} = (-2; -3)$",
+        "$\\vec{u} = (2; -3)$",
+        "$\\vec{u} = (4; 2)$"
+      ],
+      "answer": 2,
+      "explanation": "Đường thẳng tham số $x = x_0 + at, y = y_0 + bt$ có VTCP $\\vec{u} = (a; b) = (2; -3)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ chỉ phương của đường thẳng tham số (Nhóm 2)",
+      "question": "Vectơ chỉ phương của đường thẳng $d: x = 1 + 3t, y = 2 - 4t$ là: <!-- v2 -->",
+      "choices": [
+        "$\\vec{u} = (-3; -4)$",
+        "$\\vec{u} = (5; 3)$",
+        "$\\vec{u} = (3; -4)$",
+        "$\\vec{u} = (3; 4)$"
+      ],
+      "answer": 2,
+      "explanation": "Đường thẳng tham số $x = x_0 + at, y = y_0 + bt$ có VTCP $\\vec{u} = (a; b) = (3; -4)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vectơ chỉ phương của đường thẳng tham số (Nhóm 2)",
+      "question": "Vectơ chỉ phương của đường thẳng $d: x = 1 + 4t, y = 2 - 5t$ là: <!-- v3 -->",
+      "choices": [
+        "$\\vec{u} = (4; 5)$",
+        "$\\vec{u} = (6; 4)$",
+        "$\\vec{u} = (-4; -5)$",
+        "$\\vec{u} = (4; -5)$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng tham số $x = x_0 + at, y = y_0 + bt$ có VTCP $\\vec{u} = (a; b) = (4; -5)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Chuyển đổi VTPT sang VTCP (Nhóm 3)",
+      "question": "Đường thẳng $\\Delta$ có VTPT $\\vec{n} = (1; 4)$. Một VTCP của $\\Delta$ là: <!-- v0 -->",
+      "choices": [
+        "$\\vec{u} = (5; 1)$",
+        "$\\vec{u} = (1; 5)$",
+        "$\\vec{u} = (-4; 1)$",
+        "$\\vec{u} = (1; -4)$"
+      ],
+      "answer": 2,
+      "explanation": "Nếu $\\vec{n} = (A; B)$ thì VTCP vuông góc là $\\vec{u} = (-B; A) = (-4; 1)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Chuyển đổi VTPT sang VTCP (Nhóm 3)",
+      "question": "Đường thẳng $\\Delta$ có VTPT $\\vec{n} = (2; 5)$. Một VTCP của $\\Delta$ là: <!-- v1 -->",
+      "choices": [
+        "$\\vec{u} = (2; 6)$",
+        "$\\vec{u} = (2; -5)$",
+        "$\\vec{u} = (6; 2)$",
+        "$\\vec{u} = (-5; 2)$"
+      ],
+      "answer": 3,
+      "explanation": "Nếu $\\vec{n} = (A; B)$ thì VTCP vuông góc là $\\vec{u} = (-B; A) = (-5; 2)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Chuyển đổi VTPT sang VTCP (Nhóm 3)",
+      "question": "Đường thẳng $\\Delta$ có VTPT $\\vec{n} = (3; 6)$. Một VTCP của $\\Delta$ là: <!-- v2 -->",
+      "choices": [
+        "$\\vec{u} = (3; 7)$",
+        "$\\vec{u} = (3; -6)$",
+        "$\\vec{u} = (7; 3)$",
+        "$\\vec{u} = (-6; 3)$"
+      ],
+      "answer": 3,
+      "explanation": "Nếu $\\vec{n} = (A; B)$ thì VTCP vuông góc là $\\vec{u} = (-B; A) = (-6; 3)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Chuyển đổi VTPT sang VTCP (Nhóm 3)",
+      "question": "Đường thẳng $\\Delta$ có VTPT $\\vec{n} = (4; 7)$. Một VTCP của $\\Delta$ là: <!-- v3 -->",
+      "choices": [
+        "$\\vec{u} = (4; -7)$",
+        "$\\vec{u} = (-7; 4)$",
+        "$\\vec{u} = (8; 4)$",
+        "$\\vec{u} = (4; 8)$"
+      ],
+      "answer": 1,
+      "explanation": "Nếu $\\vec{n} = (A; B)$ thì VTCP vuông góc là $\\vec{u} = (-B; A) = (-7; 4)$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Điểm thuộc đường thẳng tổng quát (Nhóm 4)",
+      "question": "Điểm nào sau đây thuộc đường thẳng $\\Delta: 2x - y - 1 = 0$? <!-- v0 -->",
+      "choices": [
+        "$M(1; 1)$",
+        "$N(0; 3)$",
+        "$Q(2; 2)$",
+        "$P(1; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $M(1; 1)$: $2(1) - 1 - (1) = 2v + 2 - 1 - 2v - 1 = 0$. Điểm $M$ thuộc đường thẳng.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Điểm thuộc đường thẳng tổng quát (Nhóm 4)",
+      "question": "Điểm nào sau đây thuộc đường thẳng $\\Delta: 2x - y - 3 = 0$? <!-- v1 -->",
+      "choices": [
+        "$M(2; 1)$",
+        "$Q(3; 2)$",
+        "$P(1; 0)$",
+        "$N(0; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $M(2; 1)$: $2(2) - 1 - (3) = 2v + 2 - 1 - 2v - 1 = 0$. Điểm $M$ thuộc đường thẳng.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Điểm thuộc đường thẳng tổng quát (Nhóm 4)",
+      "question": "Điểm nào sau đây thuộc đường thẳng $\\Delta: 2x - y - 5 = 0$? <!-- v2 -->",
+      "choices": [
+        "$N(0; 5)$",
+        "$P(1; 0)$",
+        "$Q(4; 2)$",
+        "$M(3; 1)$"
+      ],
+      "answer": 3,
+      "explanation": "Thay $M(3; 1)$: $2(3) - 1 - (5) = 2v + 2 - 1 - 2v - 1 = 0$. Điểm $M$ thuộc đường thẳng.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Điểm thuộc đường thẳng tổng quát (Nhóm 4)",
+      "question": "Điểm nào sau đây thuộc đường thẳng $\\Delta: 2x - y - 7 = 0$? <!-- v3 -->",
+      "choices": [
+        "$N(0; 6)$",
+        "$Q(5; 2)$",
+        "$M(4; 1)$",
+        "$P(1; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Thay $M(4; 1)$: $2(4) - 1 - (7) = 2v + 2 - 1 - 2v - 1 = 0$. Điểm $M$ thuộc đường thẳng.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tham số qua điểm có VTCP (Nhóm 5)",
+      "question": "Phương trình tham số của đường thẳng đi qua $A(2; -1)$ có VTCP $\\vec{u} = (2; 3)$ là: <!-- v0 -->",
+      "choices": [
+        "$x = 2 - 2t, y = 1 - 3t$",
+        "$x = 1 + 2t, y = 2 + 3t$",
+        "$x = 2 + 2t, y = 3 - t$",
+        "$x = 2 + 2t, y = -1 + 3t$"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình tham số: $x = x_0 + at = 2 + 2t, y = y_0 + bt = -1 + 3t$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tham số qua điểm có VTCP (Nhóm 5)",
+      "question": "Phương trình tham số của đường thẳng đi qua $A(2; -1)$ có VTCP $\\vec{u} = (3; 3)$ là: <!-- v1 -->",
+      "choices": [
+        "$x = 1 + 3t, y = 2 + 3t$",
+        "$x = 2 - 3t, y = 1 - 3t$",
+        "$x = 2 + 3t, y = -1 + 3t$",
+        "$x = 3 + 2t, y = 3 - t$"
+      ],
+      "answer": 2,
+      "explanation": "Phương trình tham số: $x = x_0 + at = 2 + 3t, y = y_0 + bt = -1 + 3t$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tham số qua điểm có VTCP (Nhóm 5)",
+      "question": "Phương trình tham số của đường thẳng đi qua $A(2; -1)$ có VTCP $\\vec{u} = (4; 3)$ là: <!-- v2 -->",
+      "choices": [
+        "$x = 4 + 2t, y = 3 - t$",
+        "$x = 2 + 4t, y = -1 + 3t$",
+        "$x = 2 - 4t, y = 1 - 3t$",
+        "$x = 1 + 4t, y = 2 + 3t$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình tham số: $x = x_0 + at = 2 + 4t, y = y_0 + bt = -1 + 3t$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tham số qua điểm có VTCP (Nhóm 5)",
+      "question": "Phương trình tham số của đường thẳng đi qua $A(2; -1)$ có VTCP $\\vec{u} = (5; 3)$ là: <!-- v3 -->",
+      "choices": [
+        "$x = 2 - 5t, y = 1 - 3t$",
+        "$x = 5 + 2t, y = 3 - t$",
+        "$x = 1 + 5t, y = 2 + 3t$",
+        "$x = 2 + 5t, y = -1 + 3t$"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình tham số: $x = x_0 + at = 2 + 5t, y = y_0 + bt = -1 + 3t$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tổng quát qua điểm có VTPT (Nhóm 6)",
+      "question": "Phương trình tổng quát của đường thẳng đi qua $M(1; 2)$ và có VTPT $\\vec{n} = (3; 1)$ là: <!-- v0 -->",
+      "choices": [
+        "$3x - y - 1 = 0$",
+        "$x + 3y - 5 = 0$",
+        "$3x + y - 5 = 0$",
+        "$3x + y + 5 = 0$"
+      ],
+      "answer": 2,
+      "explanation": "Phương trình: $3(x - 1) + 1(y - 2) = 0 \\Leftrightarrow 3x + y - (3 + 2) = 0 \\Leftrightarrow 3x + y - 5 = 0$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tổng quát qua điểm có VTPT (Nhóm 6)",
+      "question": "Phương trình tổng quát của đường thẳng đi qua $M(1; 2)$ và có VTPT $\\vec{n} = (4; 1)$ là: <!-- v1 -->",
+      "choices": [
+        "$4x + y - 6 = 0$",
+        "$4x + y + 6 = 0$",
+        "$4x - y - 2 = 0$",
+        "$x + 4y - 6 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình: $4(x - 1) + 1(y - 2) = 0 \\Leftrightarrow 4x + y - (4 + 2) = 0 \\Leftrightarrow 4x + y - 6 = 0$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tổng quát qua điểm có VTPT (Nhóm 6)",
+      "question": "Phương trình tổng quát của đường thẳng đi qua $M(1; 2)$ và có VTPT $\\vec{n} = (5; 1)$ là: <!-- v2 -->",
+      "choices": [
+        "$5x + y + 7 = 0$",
+        "$5x + y - 7 = 0$",
+        "$5x - y - 3 = 0$",
+        "$x + 5y - 7 = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình: $5(x - 1) + 1(y - 2) = 0 \\Leftrightarrow 5x + y - (5 + 2) = 0 \\Leftrightarrow 5x + y - 7 = 0$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT tổng quát qua điểm có VTPT (Nhóm 6)",
+      "question": "Phương trình tổng quát của đường thẳng đi qua $M(1; 2)$ và có VTPT $\\vec{n} = (6; 1)$ là: <!-- v3 -->",
+      "choices": [
+        "$6x - y - 4 = 0$",
+        "$6x + y - 8 = 0$",
+        "$x + 6y - 8 = 0$",
+        "$6x + y + 8 = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình: $6(x - 1) + 1(y - 2) = 0 \\Leftrightarrow 6x + y - (6 + 2) = 0 \\Leftrightarrow 6x + y - 8 = 0$.",
+      "level": "nb",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Điều kiện hai đường thẳng vuông góc (Nhóm 7)",
+      "question": "Hai đường thẳng $\\Delta_1: A_1 x + B_1 y + C_1 = 0$ và $\\Delta_2: A_2 x + B_2 y + C_2 = 0$ vuông góc khi và chỉ khi (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$A_1 A_2 - B_1 B_2 = 0$",
+        "$A_1 B_1 + A_2 B_2 = 0$",
+        "$A_1 B_2 - A_2 B_1 = 0$",
+        "$A_1 A_2 + B_1 B_2 = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Hai đường thẳng vuông góc khi tích vô hướng hai VTPT bằng 0: $A_1 A_2 + B_1 B_2 = 0$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Điều kiện hai đường thẳng vuông góc (Nhóm 7)",
+      "question": "Hai đường thẳng $\\Delta_1: A_1 x + B_1 y + C_1 = 0$ và $\\Delta_2: A_2 x + B_2 y + C_2 = 0$ vuông góc khi và chỉ khi (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$A_1 A_2 + B_1 B_2 = 0$",
+        "$A_1 B_1 + A_2 B_2 = 0$",
+        "$A_1 A_2 - B_1 B_2 = 0$",
+        "$A_1 B_2 - A_2 B_1 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng vuông góc khi tích vô hướng hai VTPT bằng 0: $A_1 A_2 + B_1 B_2 = 0$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Điều kiện hai đường thẳng vuông góc (Nhóm 7)",
+      "question": "Hai đường thẳng $\\Delta_1: A_1 x + B_1 y + C_1 = 0$ và $\\Delta_2: A_2 x + B_2 y + C_2 = 0$ vuông góc khi và chỉ khi (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$A_1 B_2 - A_2 B_1 = 0$",
+        "$A_1 A_2 + B_1 B_2 = 0$",
+        "$A_1 B_1 + A_2 B_2 = 0$",
+        "$A_1 A_2 - B_1 B_2 = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Hai đường thẳng vuông góc khi tích vô hướng hai VTPT bằng 0: $A_1 A_2 + B_1 B_2 = 0$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Điều kiện hai đường thẳng vuông góc (Nhóm 7)",
+      "question": "Hai đường thẳng $\\Delta_1: A_1 x + B_1 y + C_1 = 0$ và $\\Delta_2: A_2 x + B_2 y + C_2 = 0$ vuông góc khi và chỉ khi (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$A_1 A_2 - B_1 B_2 = 0$",
+        "$A_1 B_1 + A_2 B_2 = 0$",
+        "$A_1 B_2 - A_2 B_1 = 0$",
+        "$A_1 A_2 + B_1 B_2 = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Hai đường thẳng vuông góc khi tích vô hướng hai VTPT bằng 0: $A_1 A_2 + B_1 B_2 = 0$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Công thức khoảng cách từ điểm đến đường thẳng (Nhóm 8)",
+      "question": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: Ax + By + C = 0$ được tính bởi công thức (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{A^2 + B^2}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{Ax_0 + By_0 + C}{\\sqrt{A^2 + B^2}}$"
+      ],
+      "answer": 2,
+      "explanation": "Công thức chuẩn: $d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Công thức khoảng cách từ điểm đến đường thẳng (Nhóm 8)",
+      "question": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: Ax + By + C = 0$ được tính bởi công thức (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{A^2 + B^2}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{Ax_0 + By_0 + C}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0|}{\\sqrt{A^2 + B^2}}$"
+      ],
+      "answer": 1,
+      "explanation": "Công thức chuẩn: $d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Công thức khoảng cách từ điểm đến đường thẳng (Nhóm 8)",
+      "question": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: Ax + By + C = 0$ được tính bởi công thức (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{A^2 + B^2}$",
+        "$d(M, \\Delta) = \\frac{Ax_0 + By_0 + C}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0|}{\\sqrt{A^2 + B^2}}$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức chuẩn: $d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Công thức khoảng cách từ điểm đến đường thẳng (Nhóm 8)",
+      "question": "Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $\\Delta: Ax + By + C = 0$ được tính bởi công thức (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{A^2 + B^2}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{|Ax_0 + By_0|}{\\sqrt{A^2 + B^2}}$",
+        "$d(M, \\Delta) = \\frac{Ax_0 + By_0 + C}{\\sqrt{A^2 + B^2}}$"
+      ],
+      "answer": 1,
+      "explanation": "Công thức chuẩn: $d(M, \\Delta) = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}$.",
+      "level": "nb",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Tọa độ tâm đường tròn chính tắc (Nhóm 9)",
+      "question": "Tọa độ tâm của đường tròn $(C): (x - 2)^2 + (y + 3)^2 = 16$ là: <!-- v0 -->",
+      "choices": [
+        "$I(-2; -3)$",
+        "$I(2; 5)$",
+        "$I(-2; 3)$",
+        "$I(2; -3)$"
+      ],
+      "answer": 3,
+      "explanation": "Đường tròn $(x - a)^2 + (y - b)^2 = R^2$ có tâm $I(a; b) = (2; -3)$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tọa độ tâm đường tròn chính tắc (Nhóm 9)",
+      "question": "Tọa độ tâm của đường tròn $(C): (x - 3)^2 + (y + 4)^2 = 16$ là: <!-- v1 -->",
+      "choices": [
+        "$I(3; 6)$",
+        "$I(-3; -4)$",
+        "$I(3; -4)$",
+        "$I(-3; 4)$"
+      ],
+      "answer": 2,
+      "explanation": "Đường tròn $(x - a)^2 + (y - b)^2 = R^2$ có tâm $I(a; b) = (3; -4)$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tọa độ tâm đường tròn chính tắc (Nhóm 9)",
+      "question": "Tọa độ tâm của đường tròn $(C): (x - 4)^2 + (y + 5)^2 = 16$ là: <!-- v2 -->",
+      "choices": [
+        "$I(-4; 5)$",
+        "$I(4; 7)$",
+        "$I(4; -5)$",
+        "$I(-4; -5)$"
+      ],
+      "answer": 2,
+      "explanation": "Đường tròn $(x - a)^2 + (y - b)^2 = R^2$ có tâm $I(a; b) = (4; -5)$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tọa độ tâm đường tròn chính tắc (Nhóm 9)",
+      "question": "Tọa độ tâm của đường tròn $(C): (x - 5)^2 + (y + 6)^2 = 16$ là: <!-- v3 -->",
+      "choices": [
+        "$I(5; 8)$",
+        "$I(5; -6)$",
+        "$I(-5; -6)$",
+        "$I(-5; 6)$"
+      ],
+      "answer": 1,
+      "explanation": "Đường tròn $(x - a)^2 + (y - b)^2 = R^2$ có tâm $I(a; b) = (5; -6)$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn chính tắc (Nhóm 10)",
+      "question": "Bán kính của đường tròn $(C): (x - 1)^2 + (y - 2)^2 = 4$ là: <!-- v0 -->",
+      "choices": [
+        "$R = 5$",
+        "$R = 8$",
+        "$R = 1$",
+        "$R = 2$"
+      ],
+      "answer": 3,
+      "explanation": "Bán kính $R = \\sqrt{4} = 2$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn chính tắc (Nhóm 10)",
+      "question": "Bán kính của đường tròn $(C): (x - 1)^2 + (y - 2)^2 = 9$ là: <!-- v1 -->",
+      "choices": [
+        "$R = 6$",
+        "$R = 3$",
+        "$R = 9$",
+        "$R = 2$"
+      ],
+      "answer": 1,
+      "explanation": "Bán kính $R = \\sqrt{9} = 3$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn chính tắc (Nhóm 10)",
+      "question": "Bán kính của đường tròn $(C): (x - 1)^2 + (y - 2)^2 = 16$ là: <!-- v2 -->",
+      "choices": [
+        "$R = 4$",
+        "$R = 10$",
+        "$R = 7$",
+        "$R = 3$"
+      ],
+      "answer": 0,
+      "explanation": "Bán kính $R = \\sqrt{16} = 4$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn chính tắc (Nhóm 10)",
+      "question": "Bán kính của đường tròn $(C): (x - 1)^2 + (y - 2)^2 = 25$ là: <!-- v3 -->",
+      "choices": [
+        "$R = 4$",
+        "$R = 8$",
+        "$R = 11$",
+        "$R = 5$"
+      ],
+      "answer": 3,
+      "explanation": "Bán kính $R = \\sqrt{25} = 5$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tâm đường tròn dạng tổng quát (Nhóm 11)",
+      "question": "Tọa độ tâm của đường tròn $x^2 + y^2 - 2x + 4y - 1 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "$I(-1; 2)$",
+        "$I(1; 3)$",
+        "$I(2; -4)$",
+        "$I(1; -2)$"
+      ],
+      "answer": 3,
+      "explanation": "Tâm $I(a; b)$ với $a = -(-2)/2 = 1$ và $b = -(4*(v+1))/2 = -2$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tâm đường tròn dạng tổng quát (Nhóm 11)",
+      "question": "Tọa độ tâm của đường tròn $x^2 + y^2 - 4x + 8y - 1 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "$I(2; -4)$",
+        "$I(-2; 4)$",
+        "$I(4; -8)$",
+        "$I(2; 5)$"
+      ],
+      "answer": 0,
+      "explanation": "Tâm $I(a; b)$ với $a = -(-4)/2 = 2$ và $b = -(4*(v+1))/2 = -4$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tâm đường tròn dạng tổng quát (Nhóm 11)",
+      "question": "Tọa độ tâm của đường tròn $x^2 + y^2 - 6x + 12y - 1 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "$I(-3; 6)$",
+        "$I(6; -12)$",
+        "$I(3; -6)$",
+        "$I(3; 7)$"
+      ],
+      "answer": 2,
+      "explanation": "Tâm $I(a; b)$ với $a = -(-6)/2 = 3$ và $b = -(4*(v+1))/2 = -6$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tâm đường tròn dạng tổng quát (Nhóm 11)",
+      "question": "Tọa độ tâm của đường tròn $x^2 + y^2 - 8x + 16y - 1 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "$I(4; 9)$",
+        "$I(-4; 8)$",
+        "$I(4; -8)$",
+        "$I(8; -16)$"
+      ],
+      "answer": 2,
+      "explanation": "Tâm $I(a; b)$ với $a = -(-8)/2 = 4$ và $b = -(4*(v+1))/2 = -8$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT chính tắc của elip (Nhóm 12)",
+      "question": "Phương trình nào sau đây là phương trình chính tắc của một elip (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$\\frac{x^2}{1} + \\frac{y^2}{16} = 1$",
+        "$x^2 + y^2 = 9$",
+        "$\\frac{x^2}{4} - \\frac{y^2}{9} = 1$",
+        "$\\frac{x^2}{9} + \\frac{y^2}{4} = 1$"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình chính tắc elip có dạng $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ với $a > b > 0$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của elip (Nhóm 12)",
+      "question": "Phương trình nào sau đây là phương trình chính tắc của một elip (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$\\frac{x^2}{4} + \\frac{y^2}{25} = 1$",
+        "$\\frac{x^2}{9} - \\frac{y^2}{16} = 1$",
+        "$x^2 + y^2 = 16$",
+        "$\\frac{x^2}{16} + \\frac{y^2}{9} = 1$"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình chính tắc elip có dạng $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ với $a > b > 0$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của elip (Nhóm 12)",
+      "question": "Phương trình nào sau đây là phương trình chính tắc của một elip (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$x^2 + y^2 = 25$",
+        "$\\frac{x^2}{9} + \\frac{y^2}{36} = 1$",
+        "$\\frac{x^2}{25} + \\frac{y^2}{16} = 1$",
+        "$\\frac{x^2}{16} - \\frac{y^2}{25} = 1$"
+      ],
+      "answer": 2,
+      "explanation": "Phương trình chính tắc elip có dạng $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ với $a > b > 0$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của elip (Nhóm 12)",
+      "question": "Phương trình nào sau đây là phương trình chính tắc của một elip (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$x^2 + y^2 = 36$",
+        "$\\frac{x^2}{36} + \\frac{y^2}{25} = 1$",
+        "$\\frac{x^2}{16} + \\frac{y^2}{49} = 1$",
+        "$\\frac{x^2}{25} - \\frac{y^2}{36} = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình chính tắc elip có dạng $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ với $a > b > 0$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của hypebol (Nhóm 13)",
+      "question": "Phương trình chính tắc của hypebol có dạng (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = -1$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$",
+        "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$",
+        "$y^2 = 2px$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình chính tắc hypebol là $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của hypebol (Nhóm 13)",
+      "question": "Phương trình chính tắc của hypebol có dạng (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = -1$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$",
+        "$y^2 = 2px$"
+      ],
+      "answer": 2,
+      "explanation": "Phương trình chính tắc hypebol là $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của hypebol (Nhóm 13)",
+      "question": "Phương trình chính tắc của hypebol có dạng (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$y^2 = 2px$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = -1$",
+        "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình chính tắc hypebol là $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT chính tắc của hypebol (Nhóm 13)",
+      "question": "Phương trình chính tắc của hypebol có dạng (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = -1$",
+        "$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$",
+        "$y^2 = 2px$",
+        "$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình chính tắc hypebol là $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu điểm của parabol (Nhóm 14)",
+      "question": "Tọa độ tiêu điểm của parabol $y^2 = 4x$ là: <!-- v0 -->",
+      "choices": [
+        "$F(-1; 0)$",
+        "$F(0; 1)$",
+        "$F(5; 0)$",
+        "$F(1; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "Parabol $y^2 = 2px$ có $2p = 4 \\Rightarrow p = 2$. Tiêu điểm $F(p/2; 0) = (1; 0)$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu điểm của parabol (Nhóm 14)",
+      "question": "Tọa độ tiêu điểm của parabol $y^2 = 8x$ là: <!-- v1 -->",
+      "choices": [
+        "$F(2; 0)$",
+        "$F(0; 2)$",
+        "$F(7; 0)$",
+        "$F(-2; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Parabol $y^2 = 2px$ có $2p = 8 \\Rightarrow p = 4$. Tiêu điểm $F(p/2; 0) = (2; 0)$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu điểm của parabol (Nhóm 14)",
+      "question": "Tọa độ tiêu điểm của parabol $y^2 = 12x$ là: <!-- v2 -->",
+      "choices": [
+        "$F(9; 0)$",
+        "$F(0; 3)$",
+        "$F(-3; 0)$",
+        "$F(3; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "Parabol $y^2 = 2px$ có $2p = 12 \\Rightarrow p = 6$. Tiêu điểm $F(p/2; 0) = (3; 0)$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu điểm của parabol (Nhóm 14)",
+      "question": "Tọa độ tiêu điểm của parabol $y^2 = 16x$ là: <!-- v3 -->",
+      "choices": [
+        "$F(0; 4)$",
+        "$F(11; 0)$",
+        "$F(-4; 0)$",
+        "$F(4; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "Parabol $y^2 = 2px$ có $2p = 16 \\Rightarrow p = 8$. Tiêu điểm $F(p/2; 0) = (4; 0)$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip cơ bản (Nhóm 15)",
+      "question": "Độ dài trục lớn của elip $(E): \\frac{x^2}{16} + \\frac{y^2}{4} = 1$ là: <!-- v0 -->",
+      "choices": [
+        "$15$",
+        "$4$",
+        "$10$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Ta có $a = 4$, độ dài trục lớn là $2a = 8$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip cơ bản (Nhóm 15)",
+      "question": "Độ dài trục lớn của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ là: <!-- v1 -->",
+      "choices": [
+        "$17$",
+        "$10$",
+        "$13$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "Ta có $a = 5$, độ dài trục lớn là $2a = 10$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip cơ bản (Nhóm 15)",
+      "question": "Độ dài trục lớn của elip $(E): \\frac{x^2}{36} + \\frac{y^2}{16} = 1$ là: <!-- v2 -->",
+      "choices": [
+        "$19$",
+        "$16$",
+        "$12$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explanation": "Ta có $a = 6$, độ dài trục lớn là $2a = 12$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip cơ bản (Nhóm 15)",
+      "question": "Độ dài trục lớn của elip $(E): \\frac{x^2}{49} + \\frac{y^2}{25} = 1$ là: <!-- v3 -->",
+      "choices": [
+        "$21$",
+        "$14$",
+        "$7$",
+        "$19$"
+      ],
+      "answer": 1,
+      "explanation": "Ta có $a = 7$, độ dài trục lớn là $2a = 14$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "PT đường thẳng đi qua hai điểm (Nhóm 16)",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 1)$ và $B(3; 5)$ có một vectơ chỉ phương là: <!-- v0 -->",
+      "choices": [
+        "$\\vec{u} = (1; -2)$",
+        "$\\vec{u} = (1; 2)$",
+        "$\\vec{u} = (-2; 1)$",
+        "$\\vec{u} = (2; 1)$"
+      ],
+      "answer": 1,
+      "explanation": "$\\vec{AB} = (2; 4) = 2(1; 2)$. Một VTCP là $\\vec{u} = (1; 2)$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng đi qua hai điểm (Nhóm 16)",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 2)$ và $B(3; 6)$ có một vectơ chỉ phương là: <!-- v1 -->",
+      "choices": [
+        "$\\vec{u} = (1; -2)$",
+        "$\\vec{u} = (2; 1)$",
+        "$\\vec{u} = (-2; 1)$",
+        "$\\vec{u} = (1; 2)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AB} = (2; 4) = 2(1; 2)$. Một VTCP là $\\vec{u} = (1; 2)$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng đi qua hai điểm (Nhóm 16)",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 3)$ và $B(3; 7)$ có một vectơ chỉ phương là: <!-- v2 -->",
+      "choices": [
+        "$\\vec{u} = (1; -2)$",
+        "$\\vec{u} = (-2; 1)$",
+        "$\\vec{u} = (1; 2)$",
+        "$\\vec{u} = (2; 1)$"
+      ],
+      "answer": 2,
+      "explanation": "$\\vec{AB} = (2; 4) = 2(1; 2)$. Một VTCP là $\\vec{u} = (1; 2)$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng đi qua hai điểm (Nhóm 16)",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 4)$ và $B(3; 8)$ có một vectơ chỉ phương là: <!-- v3 -->",
+      "choices": [
+        "$\\vec{u} = (1; 2)$",
+        "$\\vec{u} = (1; -2)$",
+        "$\\vec{u} = (-2; 1)$",
+        "$\\vec{u} = (2; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{AB} = (2; 4) = 2(1; 2)$. Một VTCP là $\\vec{u} = (1; 2)$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng song song (Nhóm 17)",
+      "question": "Phương trình đường thẳng đi qua điểm $M(1; -1)$ và song song với $d: 2x - 3y + 1 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "$3x + 2y - 1 = 0$",
+        "$2x - 3y + 5 = 0$",
+        "$2x - 3y - 5 = 0$",
+        "$2x + 3y + 1 = 0$"
+      ],
+      "answer": 2,
+      "explanation": "Đường thẳng song song có dạng $2x - 3y + C = 0$. Qua $M(1; -1) \\Rightarrow 2(1) - 3(-1) + C = 0 \\Leftrightarrow C = -5$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng song song (Nhóm 17)",
+      "question": "Phương trình đường thẳng đi qua điểm $M(1; -1)$ và song song với $d: 2x - 3y + 2 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "$2x - 3y + 5 = 0$",
+        "$2x + 3y + 1 = 0$",
+        "$3x + 2y - 1 = 0$",
+        "$2x - 3y - 5 = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng song song có dạng $2x - 3y + C = 0$. Qua $M(1; -1) \\Rightarrow 2(1) - 3(-1) + C = 0 \\Leftrightarrow C = -5$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng song song (Nhóm 17)",
+      "question": "Phương trình đường thẳng đi qua điểm $M(1; -1)$ và song song với $d: 2x - 3y + 3 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "$2x - 3y + 5 = 0$",
+        "$2x + 3y + 1 = 0$",
+        "$3x + 2y - 1 = 0$",
+        "$2x - 3y - 5 = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng song song có dạng $2x - 3y + C = 0$. Qua $M(1; -1) \\Rightarrow 2(1) - 3(-1) + C = 0 \\Leftrightarrow C = -5$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng song song (Nhóm 17)",
+      "question": "Phương trình đường thẳng đi qua điểm $M(1; -1)$ và song song với $d: 2x - 3y + 4 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "$2x - 3y - 5 = 0$",
+        "$3x + 2y - 1 = 0$",
+        "$2x - 3y + 5 = 0$",
+        "$2x + 3y + 1 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng song song có dạng $2x - 3y + C = 0$. Qua $M(1; -1) \\Rightarrow 2(1) - 3(-1) + C = 0 \\Leftrightarrow C = -5$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng vuông góc (Nhóm 18)",
+      "question": "Phương trình đường thẳng đi qua gốc tọa độ $O(0; 0)$ và vuông góc với $\\Delta: 2x - y + 1 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "$x - 2y = 0$",
+        "$2x - y = 0$",
+        "$2x + y = 0$",
+        "$x + 2y = 0$"
+      ],
+      "answer": 3,
+      "explanation": "Đường thẳng vuông góc có VTPT là VTCP của $\\Delta$, tức $(1; 2)$. Qua $O(0; 0)$ nên phương trình là $x + 2y = 0$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng vuông góc (Nhóm 18)",
+      "question": "Phương trình đường thẳng đi qua gốc tọa độ $O(0; 0)$ và vuông góc với $\\Delta: 3x - y + 1 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "$3x - y = 0$",
+        "$x + 3y = 0$",
+        "$x - 3y = 0$",
+        "$3x + y = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Đường thẳng vuông góc có VTPT là VTCP của $\\Delta$, tức $(1; 3)$. Qua $O(0; 0)$ nên phương trình là $x + 3y = 0$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng vuông góc (Nhóm 18)",
+      "question": "Phương trình đường thẳng đi qua gốc tọa độ $O(0; 0)$ và vuông góc với $\\Delta: 4x - y + 1 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "$4x - y = 0$",
+        "$4x + y = 0$",
+        "$x + 4y = 0$",
+        "$x - 4y = 0$"
+      ],
+      "answer": 2,
+      "explanation": "Đường thẳng vuông góc có VTPT là VTCP của $\\Delta$, tức $(1; 4)$. Qua $O(0; 0)$ nên phương trình là $x + 4y = 0$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "PT đường thẳng vuông góc (Nhóm 18)",
+      "question": "Phương trình đường thẳng đi qua gốc tọa độ $O(0; 0)$ và vuông góc với $\\Delta: 5x - y + 1 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "$x + 5y = 0$",
+        "$x - 5y = 0$",
+        "$5x - y = 0$",
+        "$5x + y = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng vuông góc có VTPT là VTCP của $\\Delta$, tức $(1; 5)$. Qua $O(0; 0)$ nên phương trình là $x + 5y = 0$.",
+      "level": "th",
+      "lesson": "b19"
+    },
+    {
+      "dang": "Vị trí tương đối của hai đường thẳng (Nhóm 19)",
+      "question": "Vị trí tương đối của hai đường thẳng $\\Delta_1: 1x - 2y + 1 = 0$ và $\\Delta_2: 2x - 4y + 5 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "Cắt nhau nhưng không vuông góc",
+        "Song song",
+        "Trùng nhau",
+        "Vuông góc"
+      ],
+      "answer": 1,
+      "explanation": "Tỉ số các hệ số: $\\frac{1}{2} = \\frac{-2}{-4} = \\frac{1}{2} \\ne \\frac{1}{5}$. Vậy hai đường thẳng song song.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Vị trí tương đối của hai đường thẳng (Nhóm 19)",
+      "question": "Vị trí tương đối của hai đường thẳng $\\Delta_1: 2x - 2y + 1 = 0$ và $\\Delta_2: 4x - 4y + 5 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "Song song",
+        "Trùng nhau",
+        "Cắt nhau nhưng không vuông góc",
+        "Vuông góc"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số các hệ số: $\\frac{2}{4} = \\frac{-2}{-4} = \\frac{1}{2} \\ne \\frac{1}{5}$. Vậy hai đường thẳng song song.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Vị trí tương đối của hai đường thẳng (Nhóm 19)",
+      "question": "Vị trí tương đối của hai đường thẳng $\\Delta_1: 3x - 2y + 1 = 0$ và $\\Delta_2: 6x - 4y + 5 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "Trùng nhau",
+        "Cắt nhau nhưng không vuông góc",
+        "Vuông góc",
+        "Song song"
+      ],
+      "answer": 3,
+      "explanation": "Tỉ số các hệ số: $\\frac{3}{6} = \\frac{-2}{-4} = \\frac{1}{2} \\ne \\frac{1}{5}$. Vậy hai đường thẳng song song.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Vị trí tương đối của hai đường thẳng (Nhóm 19)",
+      "question": "Vị trí tương đối của hai đường thẳng $\\Delta_1: 4x - 2y + 1 = 0$ và $\\Delta_2: 8x - 4y + 5 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "Vuông góc",
+        "Trùng nhau",
+        "Cắt nhau nhưng không vuông góc",
+        "Song song"
+      ],
+      "answer": 3,
+      "explanation": "Tỉ số các hệ số: $\\frac{4}{8} = \\frac{-2}{-4} = \\frac{1}{2} \\ne \\frac{1}{5}$. Vậy hai đường thẳng song song.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Góc giữa hai đường thẳng (Nhóm 20)",
+      "question": "Góc giữa hai đường thẳng $d_1: x + 2y - 1 = 0$ và $d_2: 2x - y + 3 = 0$ bằng: <!-- v0 -->",
+      "choices": [
+        "$60^\\circ$",
+        "$90^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$"
+      ],
+      "answer": 1,
+      "explanation": "Hai VTPT là $\\vec{n_1} = (1; 2)$ và $\\vec{n_2} = (2; -1)$. Tích vô hướng $\\vec{n_1} \\cdot \\vec{n_2} = 1(2) + (2)(-1) = 0$. Vậy góc giữa chúng là $90^\\circ$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Góc giữa hai đường thẳng (Nhóm 20)",
+      "question": "Góc giữa hai đường thẳng $d_1: x + 3y - 1 = 0$ và $d_2: 3x - y + 3 = 0$ bằng: <!-- v1 -->",
+      "choices": [
+        "$30^\\circ$",
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$"
+      ],
+      "answer": 1,
+      "explanation": "Hai VTPT là $\\vec{n_1} = (1; 3)$ và $\\vec{n_2} = (3; -1)$. Tích vô hướng $\\vec{n_1} \\cdot \\vec{n_2} = 1(3) + (3)(-1) = 0$. Vậy góc giữa chúng là $90^\\circ$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Góc giữa hai đường thẳng (Nhóm 20)",
+      "question": "Góc giữa hai đường thẳng $d_1: x + 4y - 1 = 0$ và $d_2: 4x - y + 3 = 0$ bằng: <!-- v2 -->",
+      "choices": [
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$30^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Hai VTPT là $\\vec{n_1} = (1; 4)$ và $\\vec{n_2} = (4; -1)$. Tích vô hướng $\\vec{n_1} \\cdot \\vec{n_2} = 1(4) + (4)(-1) = 0$. Vậy góc giữa chúng là $90^\\circ$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Góc giữa hai đường thẳng (Nhóm 20)",
+      "question": "Góc giữa hai đường thẳng $d_1: x + 5y - 1 = 0$ và $d_2: 5x - y + 3 = 0$ bằng: <!-- v3 -->",
+      "choices": [
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 3,
+      "explanation": "Hai VTPT là $\\vec{n_1} = (1; 5)$ và $\\vec{n_2} = (5; -1)$. Tích vô hướng $\\vec{n_1} \\cdot \\vec{n_2} = 1(5) + (5)(-1) = 0$. Vậy góc giữa chúng là $90^\\circ$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng cụ thể (Nhóm 21)",
+      "question": "Khoảng cách từ điểm $M(1; 2)$ đến đường thẳng $\\Delta: 3x + 4y - 11 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "$0$",
+        "$3$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Tử số: $|3(1) + 4(2) - (4v + 11)| = |3 + 4v + 8 - 4v - 11| = |0| = 0$. Điểm $M$ thuộc đường thẳng nên khoảng cách bằng 0.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng cụ thể (Nhóm 21)",
+      "question": "Khoảng cách từ điểm $M(1; 3)$ đến đường thẳng $\\Delta: 3x + 4y - 15 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 2,
+      "explanation": "Tử số: $|3(1) + 4(3) - (4v + 11)| = |3 + 4v + 8 - 4v - 11| = |0| = 0$. Điểm $M$ thuộc đường thẳng nên khoảng cách bằng 0.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng cụ thể (Nhóm 21)",
+      "question": "Khoảng cách từ điểm $M(1; 4)$ đến đường thẳng $\\Delta: 3x + 4y - 19 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Tử số: $|3(1) + 4(4) - (4v + 11)| = |3 + 4v + 8 - 4v - 11| = |0| = 0$. Điểm $M$ thuộc đường thẳng nên khoảng cách bằng 0.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng cụ thể (Nhóm 21)",
+      "question": "Khoảng cách từ điểm $M(1; 5)$ đến đường thẳng $\\Delta: 3x + 4y - 23 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Tử số: $|3(1) + 4(5) - (4v + 11)| = |3 + 4v + 8 - 4v - 11| = |0| = 0$. Điểm $M$ thuộc đường thẳng nên khoảng cách bằng 0.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "PT đường tròn có tâm và đi qua một điểm (Nhóm 22)",
+      "question": "Phương trình đường tròn tâm $O(0; 0)$ đi qua điểm $A(3; 0)$ là: <!-- v0 -->",
+      "choices": [
+        "$x^2 + y^2 = 3$",
+        "$(x - 3)^2 + y^2 = 1$",
+        "$x^2 + y^2 = 6$",
+        "$x^2 + y^2 = 9$"
+      ],
+      "answer": 3,
+      "explanation": "Bán kính $R = OA = 3$. Phương trình đường tròn là $x^2 + y^2 = 9$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn có tâm và đi qua một điểm (Nhóm 22)",
+      "question": "Phương trình đường tròn tâm $O(0; 0)$ đi qua điểm $A(4; 0)$ là: <!-- v1 -->",
+      "choices": [
+        "$x^2 + y^2 = 16$",
+        "$x^2 + y^2 = 4$",
+        "$x^2 + y^2 = 8$",
+        "$(x - 4)^2 + y^2 = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Bán kính $R = OA = 4$. Phương trình đường tròn là $x^2 + y^2 = 16$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn có tâm và đi qua một điểm (Nhóm 22)",
+      "question": "Phương trình đường tròn tâm $O(0; 0)$ đi qua điểm $A(5; 0)$ là: <!-- v2 -->",
+      "choices": [
+        "$(x - 5)^2 + y^2 = 1$",
+        "$x^2 + y^2 = 5$",
+        "$x^2 + y^2 = 10$",
+        "$x^2 + y^2 = 25$"
+      ],
+      "answer": 3,
+      "explanation": "Bán kính $R = OA = 5$. Phương trình đường tròn là $x^2 + y^2 = 25$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn có tâm và đi qua một điểm (Nhóm 22)",
+      "question": "Phương trình đường tròn tâm $O(0; 0)$ đi qua điểm $A(6; 0)$ là: <!-- v3 -->",
+      "choices": [
+        "$x^2 + y^2 = 36$",
+        "$x^2 + y^2 = 12$",
+        "$x^2 + y^2 = 6$",
+        "$(x - 6)^2 + y^2 = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Bán kính $R = OA = 6$. Phương trình đường tròn là $x^2 + y^2 = 36$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn đường kính AB (Nhóm 23)",
+      "question": "Đường kính $AB$ với $A(-2; 0)$ và $B(2; 0)$. Phương trình đường tròn là: <!-- v0 -->",
+      "choices": [
+        "$x^2 + y^2 = 9$",
+        "$x^2 + y^2 = 4$",
+        "$x^2 + y^2 = 1$",
+        "$(x - 2)^2 + y^2 = 4$"
+      ],
+      "answer": 1,
+      "explanation": "Tâm là trung điểm $O(0; 0)$, bán kính $R = AB/2 = 2$. Phương trình $x^2 + y^2 = 4$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn đường kính AB (Nhóm 23)",
+      "question": "Đường kính $AB$ với $A(-3; 0)$ và $B(3; 0)$. Phương trình đường tròn là: <!-- v1 -->",
+      "choices": [
+        "$x^2 + y^2 = 2$",
+        "$x^2 + y^2 = 9$",
+        "$x^2 + y^2 = 14$",
+        "$(x - 3)^2 + y^2 = 9$"
+      ],
+      "answer": 1,
+      "explanation": "Tâm là trung điểm $O(0; 0)$, bán kính $R = AB/2 = 3$. Phương trình $x^2 + y^2 = 9$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn đường kính AB (Nhóm 23)",
+      "question": "Đường kính $AB$ với $A(-4; 0)$ và $B(4; 0)$. Phương trình đường tròn là: <!-- v2 -->",
+      "choices": [
+        "$(x - 4)^2 + y^2 = 16$",
+        "$x^2 + y^2 = 16$",
+        "$x^2 + y^2 = 21$",
+        "$x^2 + y^2 = 3$"
+      ],
+      "answer": 1,
+      "explanation": "Tâm là trung điểm $O(0; 0)$, bán kính $R = AB/2 = 4$. Phương trình $x^2 + y^2 = 16$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT đường tròn đường kính AB (Nhóm 23)",
+      "question": "Đường kính $AB$ với $A(-5; 0)$ và $B(5; 0)$. Phương trình đường tròn là: <!-- v3 -->",
+      "choices": [
+        "$x^2 + y^2 = 4$",
+        "$x^2 + y^2 = 30$",
+        "$x^2 + y^2 = 25$",
+        "$(x - 5)^2 + y^2 = 25$"
+      ],
+      "answer": 2,
+      "explanation": "Tâm là trung điểm $O(0; 0)$, bán kính $R = AB/2 = 5$. Phương trình $x^2 + y^2 = 25$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT tiếp tuyến của đường tròn tại điểm (Nhóm 24)",
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 = 4$ tại điểm $M(2; 0)$ là: <!-- v0 -->",
+      "choices": [
+        "$y = 2$",
+        "$x = 2$",
+        "$x + y = 2$",
+        "$x = -2$"
+      ],
+      "answer": 1,
+      "explanation": "Tâm $O(0; 0)$, VTPT là $\\vec{OM} = (2; 0) = (2)(1; 0)$. Tiếp tuyến có phương trình $1(x - 2) + 0(y - 0) = 0 \\Leftrightarrow x = 2$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT tiếp tuyến của đường tròn tại điểm (Nhóm 24)",
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 = 9$ tại điểm $M(3; 0)$ là: <!-- v1 -->",
+      "choices": [
+        "$x = 3$",
+        "$x = -3$",
+        "$x + y = 3$",
+        "$y = 3$"
+      ],
+      "answer": 0,
+      "explanation": "Tâm $O(0; 0)$, VTPT là $\\vec{OM} = (3; 0) = (3)(1; 0)$. Tiếp tuyến có phương trình $1(x - 3) + 0(y - 0) = 0 \\Leftrightarrow x = 3$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT tiếp tuyến của đường tròn tại điểm (Nhóm 24)",
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 = 16$ tại điểm $M(4; 0)$ là: <!-- v2 -->",
+      "choices": [
+        "$y = 4$",
+        "$x + y = 4$",
+        "$x = -4$",
+        "$x = 4$"
+      ],
+      "answer": 3,
+      "explanation": "Tâm $O(0; 0)$, VTPT là $\\vec{OM} = (4; 0) = (4)(1; 0)$. Tiếp tuyến có phương trình $1(x - 4) + 0(y - 0) = 0 \\Leftrightarrow x = 4$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "PT tiếp tuyến của đường tròn tại điểm (Nhóm 24)",
+      "question": "Phương trình tiếp tuyến của đường tròn $(C): x^2 + y^2 = 25$ tại điểm $M(5; 0)$ là: <!-- v3 -->",
+      "choices": [
+        "$x + y = 5$",
+        "$x = -5$",
+        "$y = 5$",
+        "$x = 5$"
+      ],
+      "answer": 3,
+      "explanation": "Tâm $O(0; 0)$, VTPT là $\\vec{OM} = (5; 0) = (5)(1; 0)$. Tiếp tuyến có phương trình $1(x - 5) + 0(y - 0) = 0 \\Leftrightarrow x = 5$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 25)",
+      "question": "Tiêu cự của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ (mẫu 1) bằng: <!-- v0 -->",
+      "choices": [
+        "$6$",
+        "$10$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Ta có $a^2 = 25, b^2 = 9 \\Rightarrow c = \\sqrt{25 - 9} = 4$. Tiêu cự $2c = 8$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 25)",
+      "question": "Tiêu cự của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ (mẫu 2) bằng: <!-- v1 -->",
+      "choices": [
+        "$6$",
+        "$10$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Ta có $a^2 = 25, b^2 = 9 \\Rightarrow c = \\sqrt{25 - 9} = 4$. Tiêu cự $2c = 8$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 25)",
+      "question": "Tiêu cự của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ (mẫu 3) bằng: <!-- v2 -->",
+      "choices": [
+        "$8$",
+        "$6$",
+        "$10$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $a^2 = 25, b^2 = 9 \\Rightarrow c = \\sqrt{25 - 9} = 4$. Tiêu cự $2c = 8$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 25)",
+      "question": "Tiêu cự của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ (mẫu 4) bằng: <!-- v3 -->",
+      "choices": [
+        "$6$",
+        "$10$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Ta có $a^2 = 25, b^2 = 9 \\Rightarrow c = \\sqrt{25 - 9} = 4$. Tiêu cự $2c = 8$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục bé của elip (Nhóm 26)",
+      "question": "Độ dài trục bé của elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$ là: <!-- v0 -->",
+      "choices": [
+        "$6$",
+        "$3$",
+        "$9$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $b = 3$, độ dài trục bé là $2b = 6$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục bé của elip (Nhóm 26)",
+      "question": "Độ dài trục bé của elip $(E): \\frac{x^2}{36} + \\frac{y^2}{16} = 1$ là: <!-- v1 -->",
+      "choices": [
+        "$8$",
+        "$12$",
+        "$16$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $b = 4$, độ dài trục bé là $2b = 8$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục bé của elip (Nhóm 26)",
+      "question": "Độ dài trục bé của elip $(E): \\frac{x^2}{49} + \\frac{y^2}{25} = 1$ là: <!-- v2 -->",
+      "choices": [
+        "$25$",
+        "$10$",
+        "$14$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "Ta có $b = 5$, độ dài trục bé là $2b = 10$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục bé của elip (Nhóm 26)",
+      "question": "Độ dài trục bé của elip $(E): \\frac{x^2}{64} + \\frac{y^2}{36} = 1$ là: <!-- v3 -->",
+      "choices": [
+        "$12$",
+        "$36$",
+        "$6$",
+        "$16$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $b = 6$, độ dài trục bé là $2b = 12$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Đường chuẩn của parabol (Nhóm 27)",
+      "question": "Phương trình đường chuẩn của parabol $y^2 = 4x$ là: <!-- v0 -->",
+      "choices": [
+        "$x = -2$",
+        "$x = -1$",
+        "$y = -1$",
+        "$x = 1$"
+      ],
+      "answer": 1,
+      "explanation": "$2p = 4 \\Rightarrow p = 2$. Đường chuẩn có phương trình $x = -p/2 = -1$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Đường chuẩn của parabol (Nhóm 27)",
+      "question": "Phương trình đường chuẩn của parabol $y^2 = 8x$ là: <!-- v1 -->",
+      "choices": [
+        "$x = -4$",
+        "$y = -2$",
+        "$x = 2$",
+        "$x = -2$"
+      ],
+      "answer": 3,
+      "explanation": "$2p = 8 \\Rightarrow p = 4$. Đường chuẩn có phương trình $x = -p/2 = -2$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Đường chuẩn của parabol (Nhóm 27)",
+      "question": "Phương trình đường chuẩn của parabol $y^2 = 12x$ là: <!-- v2 -->",
+      "choices": [
+        "$x = 3$",
+        "$x = -6$",
+        "$x = -3$",
+        "$y = -3$"
+      ],
+      "answer": 2,
+      "explanation": "$2p = 12 \\Rightarrow p = 6$. Đường chuẩn có phương trình $x = -p/2 = -3$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Đường chuẩn của parabol (Nhóm 27)",
+      "question": "Phương trình đường chuẩn của parabol $y^2 = 16x$ là: <!-- v3 -->",
+      "choices": [
+        "$x = -4$",
+        "$y = -4$",
+        "$x = -8$",
+        "$x = 4$"
+      ],
+      "answer": 0,
+      "explanation": "$2p = 16 \\Rightarrow p = 8$. Đường chuẩn có phương trình $x = -p/2 = -4$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Khoảng cách giữa hai đường thẳng song song (Nhóm 28)",
+      "question": "Khoảng cách giữa hai đường thẳng song song $\\Delta_1: 3x - 4y + 1 = 0$ và $\\Delta_2: 3x - 4y + 11 = 0$ là: <!-- v0 -->",
+      "choices": [
+        "$2$",
+        "$5$",
+        "$10$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức $d(\\Delta_1, \\Delta_2) = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|1 - (11)|}{\\sqrt{3^2 + (-4)^2}} = \\frac{10}{5} = 2$.",
+      "level": "vd",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách giữa hai đường thẳng song song (Nhóm 28)",
+      "question": "Khoảng cách giữa hai đường thẳng song song $\\Delta_1: 3x - 4y + 2 = 0$ và $\\Delta_2: 3x - 4y + 12 = 0$ là: <!-- v1 -->",
+      "choices": [
+        "$5$",
+        "$10$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 3,
+      "explanation": "Công thức $d(\\Delta_1, \\Delta_2) = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|2 - (12)|}{\\sqrt{3^2 + (-4)^2}} = \\frac{10}{5} = 2$.",
+      "level": "vd",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách giữa hai đường thẳng song song (Nhóm 28)",
+      "question": "Khoảng cách giữa hai đường thẳng song song $\\Delta_1: 3x - 4y + 3 = 0$ và $\\Delta_2: 3x - 4y + 13 = 0$ là: <!-- v2 -->",
+      "choices": [
+        "$10$",
+        "$2$",
+        "$1$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "Công thức $d(\\Delta_1, \\Delta_2) = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|3 - (13)|}{\\sqrt{3^2 + (-4)^2}} = \\frac{10}{5} = 2$.",
+      "level": "vd",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách giữa hai đường thẳng song song (Nhóm 28)",
+      "question": "Khoảng cách giữa hai đường thẳng song song $\\Delta_1: 3x - 4y + 4 = 0$ và $\\Delta_2: 3x - 4y + 14 = 0$ là: <!-- v3 -->",
+      "choices": [
+        "$10$",
+        "$2$",
+        "$1$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "Công thức $d(\\Delta_1, \\Delta_2) = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|4 - (14)|}{\\sqrt{3^2 + (-4)^2}} = \\frac{10}{5} = 2$.",
+      "level": "vd",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Tham số m để đường tròn tiếp xúc đường thẳng (Nhóm 29)",
+      "question": "Tìm $m > 0$ để đường thẳng $\\Delta: x - m = 0$ tiếp xúc với đường tròn $(C): x^2 + y^2 = 9$. <!-- v0 -->",
+      "choices": [
+        "$m = 9$",
+        "$m = 1$",
+        "$m = 3$",
+        "$m = 6$"
+      ],
+      "answer": 2,
+      "explanation": "Đường tròn có tâm $O(0; 0)$ và $R = 3$. Tiếp xúc khi $d(O, \\Delta) = R \\Leftrightarrow |0 - m| = 3 \\Leftrightarrow m = 3$ (do $m > 0$).",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tham số m để đường tròn tiếp xúc đường thẳng (Nhóm 29)",
+      "question": "Tìm $m > 0$ để đường thẳng $\\Delta: x - m = 0$ tiếp xúc với đường tròn $(C): x^2 + y^2 = 16$. <!-- v1 -->",
+      "choices": [
+        "$m = 4$",
+        "$m = 8$",
+        "$m = 2$",
+        "$m = 16$"
+      ],
+      "answer": 0,
+      "explanation": "Đường tròn có tâm $O(0; 0)$ và $R = 4$. Tiếp xúc khi $d(O, \\Delta) = R \\Leftrightarrow |0 - m| = 4 \\Leftrightarrow m = 4$ (do $m > 0$).",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tham số m để đường tròn tiếp xúc đường thẳng (Nhóm 29)",
+      "question": "Tìm $m > 0$ để đường thẳng $\\Delta: x - m = 0$ tiếp xúc với đường tròn $(C): x^2 + y^2 = 25$. <!-- v2 -->",
+      "choices": [
+        "$m = 25$",
+        "$m = 5$",
+        "$m = 10$",
+        "$m = 3$"
+      ],
+      "answer": 1,
+      "explanation": "Đường tròn có tâm $O(0; 0)$ và $R = 5$. Tiếp xúc khi $d(O, \\Delta) = R \\Leftrightarrow |0 - m| = 5 \\Leftrightarrow m = 5$ (do $m > 0$).",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tham số m để đường tròn tiếp xúc đường thẳng (Nhóm 29)",
+      "question": "Tìm $m > 0$ để đường thẳng $\\Delta: x - m = 0$ tiếp xúc với đường tròn $(C): x^2 + y^2 = 36$. <!-- v3 -->",
+      "choices": [
+        "$m = 12$",
+        "$m = 6$",
+        "$m = 4$",
+        "$m = 36$"
+      ],
+      "answer": 1,
+      "explanation": "Đường tròn có tâm $O(0; 0)$ và $R = 6$. Tiếp xúc khi $d(O, \\Delta) = R \\Leftrightarrow |0 - m| = 6 \\Leftrightarrow m = 6$ (do $m > 0$).",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Ứng dụng elip trong thực tế (Nhóm 30)",
+      "question": "Một đường hầm có mặt cắt là nửa hình elip với chiều rộng 10 m và chiều cao 3 m. Phương trình chính tắc của elip đó là: <!-- v0 -->",
+      "choices": [
+        "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$",
+        "$\\frac{x^2}{25} - \\frac{y^2}{9} = 1$",
+        "$\\frac{x^2}{100} + \\frac{y^2}{9} = 1$",
+        "$\\frac{x^2}{9} + \\frac{y^2}{25} = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều rộng $2a = 10 \\Rightarrow a = 5$. Chiều cao nửa elip là $b = 3$. Phương trình: $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+      "level": "vd",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Ứng dụng elip trong thực tế (Nhóm 30)",
+      "question": "Một đường hầm có mặt cắt là nửa hình elip với chiều rộng 12 m và chiều cao 4 m. Phương trình chính tắc của elip đó là: <!-- v1 -->",
+      "choices": [
+        "$\\frac{x^2}{36} + \\frac{y^2}{16} = 1$",
+        "$\\frac{x^2}{144} + \\frac{y^2}{16} = 1$",
+        "$\\frac{x^2}{16} + \\frac{y^2}{36} = 1$",
+        "$\\frac{x^2}{36} - \\frac{y^2}{16} = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều rộng $2a = 12 \\Rightarrow a = 6$. Chiều cao nửa elip là $b = 4$. Phương trình: $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$.",
+      "level": "vd",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Ứng dụng elip trong thực tế (Nhóm 30)",
+      "question": "Một đường hầm có mặt cắt là nửa hình elip với chiều rộng 14 m và chiều cao 5 m. Phương trình chính tắc của elip đó là: <!-- v2 -->",
+      "choices": [
+        "$\\frac{x^2}{25} + \\frac{y^2}{49} = 1$",
+        "$\\frac{x^2}{196} + \\frac{y^2}{25} = 1$",
+        "$\\frac{x^2}{49} + \\frac{y^2}{25} = 1$",
+        "$\\frac{x^2}{49} - \\frac{y^2}{25} = 1$"
+      ],
+      "answer": 2,
+      "explanation": "Chiều rộng $2a = 14 \\Rightarrow a = 7$. Chiều cao nửa elip là $b = 5$. Phương trình: $\\frac{x^2}{49} + \\frac{y^2}{25} = 1$.",
+      "level": "vd",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Ứng dụng elip trong thực tế (Nhóm 30)",
+      "question": "Một đường hầm có mặt cắt là nửa hình elip với chiều rộng 16 m và chiều cao 6 m. Phương trình chính tắc của elip đó là: <!-- v3 -->",
+      "choices": [
+        "$\\frac{x^2}{36} + \\frac{y^2}{64} = 1$",
+        "$\\frac{x^2}{64} + \\frac{y^2}{36} = 1$",
+        "$\\frac{x^2}{64} - \\frac{y^2}{36} = 1$",
+        "$\\frac{x^2}{256} + \\frac{y^2}{36} = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Chiều rộng $2a = 16 \\Rightarrow a = 8$. Chiều cao nửa elip là $b = 6$. Phương trình: $\\frac{x^2}{64} + \\frac{y^2}{36} = 1$.",
+      "level": "vd",
+      "lesson": "b22"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Hoành độ tâm đường tròn (Nhóm 1)",
+      "question": "Tìm hoành độ tâm của đường tròn $(x - 4)^2 + (y - 1)^2 = 25$. <!-- v0 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ tâm là $a = 4$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Hoành độ tâm đường tròn (Nhóm 1)",
+      "question": "Tìm hoành độ tâm của đường tròn $(x - 5)^2 + (y - 1)^2 = 25$. <!-- v1 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ tâm là $a = 5$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Hoành độ tâm đường tròn (Nhóm 1)",
+      "question": "Tìm hoành độ tâm của đường tròn $(x - 6)^2 + (y - 1)^2 = 25$. <!-- v2 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Hoành độ tâm là $a = 6$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tung độ tâm đường tròn (Nhóm 2)",
+      "question": "Tìm tung độ tâm của đường tròn $(x + 2)^2 + (y - 6)^2 = 9$. <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ tâm là $b = 6$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tung độ tâm đường tròn (Nhóm 2)",
+      "question": "Tìm tung độ tâm của đường tròn $(x + 2)^2 + (y - 7)^2 = 9$. <!-- v1 -->",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ tâm là $b = 7$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Tung độ tâm đường tròn (Nhóm 2)",
+      "question": "Tìm tung độ tâm của đường tròn $(x + 2)^2 + (y - 8)^2 = 9$. <!-- v2 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tung độ tâm là $b = 8$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn (Nhóm 3)",
+      "question": "Tìm bán kính $R$ của đường tròn $(x - 1)^2 + (y - 2)^2 = 9$. <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính là $R = \\sqrt{9} = 3$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn (Nhóm 3)",
+      "question": "Tìm bán kính $R$ của đường tròn $(x - 1)^2 + (y - 2)^2 = 16$. <!-- v1 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính là $R = \\sqrt{16} = 4$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn (Nhóm 3)",
+      "question": "Tìm bán kính $R$ của đường tròn $(x - 1)^2 + (y - 2)^2 = 25$. <!-- v2 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính là $R = \\sqrt{25} = 5$.",
+      "level": "nb",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Hoành độ tiêu điểm parabol (Nhóm 4)",
+      "question": "Tìm hoành độ tiêu điểm của parabol $y^2 = 8x$. <!-- v0 -->",
+      "answer": "2",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Ta có $2p = 8 \\Rightarrow p = 4$. Hoành độ tiêu điểm là $p/2 = 2$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Hoành độ tiêu điểm parabol (Nhóm 4)",
+      "question": "Tìm hoành độ tiêu điểm của parabol $y^2 = 12x$. <!-- v1 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Ta có $2p = 12 \\Rightarrow p = 6$. Hoành độ tiêu điểm là $p/2 = 3$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Hoành độ tiêu điểm parabol (Nhóm 4)",
+      "question": "Tìm hoành độ tiêu điểm của parabol $y^2 = 16x$. <!-- v2 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Ta có $2p = 16 \\Rightarrow p = 8$. Hoành độ tiêu điểm là $p/2 = 4$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip (Nhóm 5)",
+      "question": "Tìm độ dài trục lớn của elip $\\frac{x^2}{9} + \\frac{y^2}4 = 1$. <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Trục lớn $2a = 2(3) = 6$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip (Nhóm 5)",
+      "question": "Tìm độ dài trục lớn của elip $\\frac{x^2}{16} + \\frac{y^2}4 = 1$. <!-- v1 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Trục lớn $2a = 2(4) = 8$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Độ dài trục lớn elip (Nhóm 5)",
+      "question": "Tìm độ dài trục lớn của elip $\\frac{x^2}{25} + \\frac{y^2}4 = 1$. <!-- v2 -->",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Trục lớn $2a = 2(5) = 10$.",
+      "level": "nb",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng (Nhóm 6)",
+      "question": "Tính khoảng cách từ điểm $M(0; 1)$ đến đường thẳng $\\Delta: 3x - 4y + 19 = 0$. <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$d(M, \\Delta) = \\frac{|3(0) - 4(1) + 19|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|-4v - 4 + 4v + 19|}{5} = \\frac{15}{5} = 3$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng (Nhóm 6)",
+      "question": "Tính khoảng cách từ điểm $M(0; 2)$ đến đường thẳng $\\Delta: 3x - 4y + 23 = 0$. <!-- v1 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$d(M, \\Delta) = \\frac{|3(0) - 4(2) + 23|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|-4v - 4 + 4v + 19|}{5} = \\frac{15}{5} = 3$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Khoảng cách từ điểm đến đường thẳng (Nhóm 6)",
+      "question": "Tính khoảng cách từ điểm $M(0; 3)$ đến đường thẳng $\\Delta: 3x - 4y + 27 = 0$. <!-- v2 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$d(M, \\Delta) = \\frac{|3(0) - 4(3) + 27|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|-4v - 4 + 4v + 19|}{5} = \\frac{15}{5} = 3$.",
+      "level": "th",
+      "lesson": "b20"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 7)",
+      "question": "Tính tiêu cự của elip $\\frac{x^2}{(v+5)^2} + \\frac{y^2}{(v+3)^2} = 1$ khi $v = 0$ (elip $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$, biết $c^2 = a^2 - b^2$). Tính $2c^2$. <!-- v0 -->",
+      "answer": "32",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$c^2 = 25 - 9 = 16$. Do đó $2c^2 = 32$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 7)",
+      "question": "Tính tiêu cự của elip $\\frac{x^2}{(v+5)^2} + \\frac{y^2}{(v+3)^2} = 1$ khi $v = 1$ (elip $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$, biết $c^2 = a^2 - b^2$). Tính $2c^2$. <!-- v1 -->",
+      "answer": "40",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$c^2 = 36 - 16 = 20$. Do đó $2c^2 = 40$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Tiêu cự của elip (Nhóm 7)",
+      "question": "Tính tiêu cự của elip $\\frac{x^2}{(v+5)^2} + \\frac{y^2}{(v+3)^2} = 1$ khi $v = 2$ (elip $\\frac{x^2}{49} + \\frac{y^2}{25} = 1$, biết $c^2 = a^2 - b^2$). Tính $2c^2$. <!-- v2 -->",
+      "answer": "48",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$c^2 = 49 - 25 = 24$. Do đó $2c^2 = 48$.",
+      "level": "th",
+      "lesson": "b22"
+    },
+    {
+      "dang": "Bán kính đường tròn tổng quát (Nhóm 8)",
+      "question": "Tìm bán kính $R$ của đường tròn $x^2 + y^2 - 6x - 8y - -25 = 0$ khi biểu thức $a^2+b^2-c = 25$. <!-- v0 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính $R = \\sqrt{a^2 + b^2 - c} = 5$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn tổng quát (Nhóm 8)",
+      "question": "Tìm bán kính $R$ của đường tròn $x^2 + y^2 - 6x - 8y - -15 = 0$ khi biểu thức $a^2+b^2-c = 36$. <!-- v1 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính $R = \\sqrt{a^2 + b^2 - c} = 6$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Bán kính đường tròn tổng quát (Nhóm 8)",
+      "question": "Tìm bán kính $R$ của đường tròn $x^2 + y^2 - 6x - 8y - -5 = 0$ khi biểu thức $a^2+b^2-c = 49$. <!-- v2 -->",
+      "answer": "7",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Bán kính $R = \\sqrt{a^2 + b^2 - c} = 7$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Độ dài đoạn thẳng nối hai tâm (Nhóm 9)",
+      "question": "Tính khoảng cách giữa hai tâm của hai đường tròn $(x - 1)^2 + y^2 = 4$ và $(x - 4)^2 + y^2 = 9$. <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách giữa hai tâm $I_1(1; 0)$ và $I_2(4; 0)$ là $|4 - 1| = 3$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Độ dài đoạn thẳng nối hai tâm (Nhóm 9)",
+      "question": "Tính khoảng cách giữa hai tâm của hai đường tròn $(x - 1)^2 + y^2 = 4$ và $(x - 5)^2 + y^2 = 9$. <!-- v1 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách giữa hai tâm $I_1(1; 0)$ và $I_2(5; 0)$ là $|5 - 1| = 4$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Độ dài đoạn thẳng nối hai tâm (Nhóm 9)",
+      "question": "Tính khoảng cách giữa hai tâm của hai đường tròn $(x - 1)^2 + y^2 = 4$ và $(x - 6)^2 + y^2 = 9$. <!-- v2 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách giữa hai tâm $I_1(1; 0)$ và $I_2(6; 0)$ là $|6 - 1| = 5$.",
+      "level": "th",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Khoảng cách từ điểm ngoài đến đường tròn (Nhóm 10)",
+      "question": "Cho điểm $M(0; 7)$ và đường tròn $(C): x^2 + y^2 = 4$. Tính khoảng cách ngắn nhất từ $M$ đến một điểm trên $(C)$. <!-- v0 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách từ $M$ đến tâm $O(0; 0)$ là $d = 7$. Khoảng cách ngắn nhất đến đường tròn là $d - R = (7) - (2) = 5$.",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Khoảng cách từ điểm ngoài đến đường tròn (Nhóm 10)",
+      "question": "Cho điểm $M(0; 8)$ và đường tròn $(C): x^2 + y^2 = 9$. Tính khoảng cách ngắn nhất từ $M$ đến một điểm trên $(C)$. <!-- v1 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách từ $M$ đến tâm $O(0; 0)$ là $d = 8$. Khoảng cách ngắn nhất đến đường tròn là $d - R = (8) - (3) = 5$.",
+      "level": "vd",
+      "lesson": "b21"
+    },
+    {
+      "dang": "Khoảng cách từ điểm ngoài đến đường tròn (Nhóm 10)",
+      "question": "Cho điểm $M(0; 9)$ và đường tròn $(C): x^2 + y^2 = 16$. Tính khoảng cách ngắn nhất từ $M$ đến một điểm trên $(C)$. <!-- v2 -->",
+      "answer": "5",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Khoảng cách từ $M$ đến tâm $O(0; 0)$ là $d = 9$. Khoảng cách ngắn nhất đến đường tròn là $d - R = (9) - (4) = 5$.",
+      "level": "vd",
+      "lesson": "b21"
+    }
+  ]
+}

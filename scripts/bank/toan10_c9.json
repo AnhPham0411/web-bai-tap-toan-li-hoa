@@ -1,0 +1,2000 @@
+{
+  "sgk_chapter_title": "Tính xác suất theo định nghĩa cổ điển",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b26",
+      "sgk_title": "Bài 26. Biến cố và định nghĩa cổ điển của xác suất"
+    },
+    {
+      "lesson_id": "b27",
+      "sgk_title": "Bài 27. Thực hành tính xác suất theo định nghĩa cổ điển"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Gieo 2 đồng xu cân đối và đồng chất. Số phần tử của không gian mẫu $n(\\Omega)$ là: <!-- v0 -->",
+      "choices": [
+        "$3$",
+        "$8$",
+        "$6$",
+        "$4$"
+      ],
+      "answer": 3,
+      "explanation": "Mỗi đồng xu có 2 khả năng (Sấp hoặc Ngửa). Gieo 2 đồng xu có $2^{2} = 4$ kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Gieo 3 đồng xu cân đối và đồng chất. Số phần tử của không gian mẫu $n(\\Omega)$ là: <!-- v1 -->",
+      "choices": [
+        "$8$",
+        "$7$",
+        "$10$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi đồng xu có 2 khả năng (Sấp hoặc Ngửa). Gieo 3 đồng xu có $2^{3} = 8$ kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Gieo 4 đồng xu cân đối và đồng chất. Số phần tử của không gian mẫu $n(\\Omega)$ là: <!-- v2 -->",
+      "choices": [
+        "$20$",
+        "$15$",
+        "$16$",
+        "$18$"
+      ],
+      "answer": 2,
+      "explanation": "Mỗi đồng xu có 2 khả năng (Sấp hoặc Ngửa). Gieo 4 đồng xu có $2^{4} = 16$ kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Gieo 5 đồng xu cân đối và đồng chất. Số phần tử của không gian mẫu $n(\\Omega)$ là: <!-- v3 -->",
+      "choices": [
+        "$31$",
+        "$36$",
+        "$32$",
+        "$34$"
+      ],
+      "answer": 2,
+      "explanation": "Mỗi đồng xu có 2 khả năng (Sấp hoặc Ngửa). Gieo 5 đồng xu có $2^{5} = 32$ kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo xúc xắc (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối và đồng chất một lần. Số phần tử của không gian mẫu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "36",
+        "4",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Không gian mẫu gồm 6 mặt: $\\Omega = \\{1; 2; 3; 4; 5; 6\\} \\Rightarrow n(\\Omega) = 6$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo xúc xắc (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối và đồng chất một lần. Số phần tử của không gian mẫu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "12",
+        "6",
+        "36",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu gồm 6 mặt: $\\Omega = \\{1; 2; 3; 4; 5; 6\\} \\Rightarrow n(\\Omega) = 6$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo xúc xắc (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối và đồng chất một lần. Số phần tử của không gian mẫu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "12",
+        "6",
+        "36",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu gồm 6 mặt: $\\Omega = \\{1; 2; 3; 4; 5; 6\\} \\Rightarrow n(\\Omega) = 6$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo xúc xắc (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối và đồng chất một lần. Số phần tử của không gian mẫu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "12",
+        "4",
+        "36",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Không gian mẫu gồm 6 mặt: $\\Omega = \\{1; 2; 3; 4; 5; 6\\} \\Rightarrow n(\\Omega) = 6$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo 2 con xúc xắc (Nhóm 3)",
+      "question": "Gieo hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "6",
+        "36",
+        "12",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "Mỗi con xúc xắc có 6 khả năng, gieo hai con có $6 \\times 6 = 36$ khả năng.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo 2 con xúc xắc (Nhóm 3)",
+      "question": "Gieo hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "6",
+        "12",
+        "18",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "Mỗi con xúc xắc có 6 khả năng, gieo hai con có $6 \\times 6 = 36$ khả năng.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo 2 con xúc xắc (Nhóm 3)",
+      "question": "Gieo hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "36",
+        "6",
+        "18",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi con xúc xắc có 6 khả năng, gieo hai con có $6 \\times 6 = 36$ khả năng.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo 2 con xúc xắc (Nhóm 3)",
+      "question": "Gieo hai con xúc xắc cân đối và đồng chất. Số phần tử của không gian mẫu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "36",
+        "18",
+        "12",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi con xúc xắc có 6 khả năng, gieo hai con có $6 \\times 6 = 36$ khả năng.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố chắc chắn (Nhóm 4)",
+      "question": "Xác suất của biến cố chắc chắn $\\Omega$ bằng (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "100",
+        "1",
+        "0",
+        "0,5"
+      ],
+      "answer": 1,
+      "explanation": "Theo định nghĩa, xác suất của biến cố chắc chắn là $P(\\Omega) = 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố chắc chắn (Nhóm 4)",
+      "question": "Xác suất của biến cố chắc chắn $\\Omega$ bằng (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "1",
+        "0",
+        "100",
+        "0,5"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, xác suất của biến cố chắc chắn là $P(\\Omega) = 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố chắc chắn (Nhóm 4)",
+      "question": "Xác suất của biến cố chắc chắn $\\Omega$ bằng (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "1",
+        "0",
+        "0,5",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, xác suất của biến cố chắc chắn là $P(\\Omega) = 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố chắc chắn (Nhóm 4)",
+      "question": "Xác suất của biến cố chắc chắn $\\Omega$ bằng (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "100",
+        "0,5",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Theo định nghĩa, xác suất của biến cố chắc chắn là $P(\\Omega) = 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố không thể (Nhóm 5)",
+      "question": "Xác suất của biến cố không thể $\\emptyset$ bằng (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "0",
+        "0,5",
+        "-1",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, xác suất của biến cố không thể là $P(\\emptyset) = 0$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố không thể (Nhóm 5)",
+      "question": "Xác suất của biến cố không thể $\\emptyset$ bằng (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "-1",
+        "0,5",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "Theo định nghĩa, xác suất của biến cố không thể là $P(\\emptyset) = 0$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố không thể (Nhóm 5)",
+      "question": "Xác suất của biến cố không thể $\\emptyset$ bằng (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "0",
+        "1",
+        "0,5",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, xác suất của biến cố không thể là $P(\\emptyset) = 0$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất biến cố không thể (Nhóm 5)",
+      "question": "Xác suất của biến cố không thể $\\emptyset$ bằng (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "0",
+        "-1",
+        "1",
+        "0,5"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, xác suất của biến cố không thể là $P(\\emptyset) = 0$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Công thức xác suất cổ điển (Nhóm 6)",
+      "question": "Cho phép thử có không gian mẫu $\\Omega$ gồm các kết quả đồng khả năng. Xác suất của biến cố $A$ là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$P(A) = n(A) \\times n(\\Omega)$",
+        "$P(A) = \\frac{n(A)}{n(\\Omega)}$",
+        "$P(A) = \\frac{n(\\Omega)}{n(A)}$",
+        "$P(A) = n(\\Omega) - n(A)$"
+      ],
+      "answer": 1,
+      "explanation": "Định nghĩa cổ điển của xác suất là $P(A) = \\frac{n(A)}{n(\\Omega)}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Công thức xác suất cổ điển (Nhóm 6)",
+      "question": "Cho phép thử có không gian mẫu $\\Omega$ gồm các kết quả đồng khả năng. Xác suất của biến cố $A$ là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$P(A) = \\frac{n(\\Omega)}{n(A)}$",
+        "$P(A) = n(\\Omega) - n(A)$",
+        "$P(A) = n(A) \\times n(\\Omega)$",
+        "$P(A) = \\frac{n(A)}{n(\\Omega)}$"
+      ],
+      "answer": 3,
+      "explanation": "Định nghĩa cổ điển của xác suất là $P(A) = \\frac{n(A)}{n(\\Omega)}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Công thức xác suất cổ điển (Nhóm 6)",
+      "question": "Cho phép thử có không gian mẫu $\\Omega$ gồm các kết quả đồng khả năng. Xác suất của biến cố $A$ là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$P(A) = \\frac{n(A)}{n(\\Omega)}$",
+        "$P(A) = n(A) \\times n(\\Omega)$",
+        "$P(A) = \\frac{n(\\Omega)}{n(A)}$",
+        "$P(A) = n(\\Omega) - n(A)$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa cổ điển của xác suất là $P(A) = \\frac{n(A)}{n(\\Omega)}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Công thức xác suất cổ điển (Nhóm 6)",
+      "question": "Cho phép thử có không gian mẫu $\\Omega$ gồm các kết quả đồng khả năng. Xác suất của biến cố $A$ là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$P(A) = \\frac{n(A)}{n(\\Omega)}$",
+        "$P(A) = n(A) \\times n(\\Omega)$",
+        "$P(A) = \\frac{n(\\Omega)}{n(A)}$",
+        "$P(A) = n(\\Omega) - n(A)$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa cổ điển của xác suất là $P(A) = \\frac{n(A)}{n(\\Omega)}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Biến cố đối và xác suất (Nhóm 7)",
+      "question": "Nếu biến cố $A$ có xác suất $P(A) = 0,2$ thì xác suất của biến cố đối $\\overline{A}$ là: <!-- v0 -->",
+      "choices": [
+        "1",
+        "0",
+        "0,2",
+        "0,8"
+      ],
+      "answer": 3,
+      "explanation": "Xác suất biến cố đối: $P(\\overline{A}) = 1 - P(A) = 1 - 0,2 = 0,8$,",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Biến cố đối và xác suất (Nhóm 7)",
+      "question": "Nếu biến cố $A$ có xác suất $P(A) = 0,4$ thì xác suất của biến cố đối $\\overline{A}$ là: <!-- v1 -->",
+      "choices": [
+        "1",
+        "0,6",
+        "0",
+        "0,4"
+      ],
+      "answer": 1,
+      "explanation": "Xác suất biến cố đối: $P(\\overline{A}) = 1 - P(A) = 1 - 0,4 = 0,6$,",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Biến cố đối và xác suất (Nhóm 7)",
+      "question": "Nếu biến cố $A$ có xác suất $P(A) = 0,6$ thì xác suất của biến cố đối $\\overline{A}$ là: <!-- v2 -->",
+      "choices": [
+        "1",
+        "0,4",
+        "0",
+        "0,6"
+      ],
+      "answer": 1,
+      "explanation": "Xác suất biến cố đối: $P(\\overline{A}) = 1 - P(A) = 1 - 0,6 = 0,4$,",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Biến cố đối và xác suất (Nhóm 7)",
+      "question": "Nếu biến cố $A$ có xác suất $P(A) = 0,8$ thì xác suất của biến cố đối $\\overline{A}$ là: <!-- v3 -->",
+      "choices": [
+        "0,2",
+        "1",
+        "0",
+        "0,8"
+      ],
+      "answer": 0,
+      "explanation": "Xác suất biến cố đối: $P(\\overline{A}) = 1 - P(A) = 1 - 0,8 = 0,2$,",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt chẵn (Nhóm 8)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số chẵn là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt chẵn là $\\{2; 4; 6\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt chẵn (Nhóm 8)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số chẵn là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 2,
+      "explanation": "Các mặt chẵn là $\\{2; 4; 6\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt chẵn (Nhóm 8)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số chẵn là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 1,
+      "explanation": "Các mặt chẵn là $\\{2; 4; 6\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt chẵn (Nhóm 8)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số chẵn là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt chẵn là $\\{2; 4; 6\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt số lẻ (Nhóm 9)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số lẻ là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{6}$"
+      ],
+      "answer": 1,
+      "explanation": "Các mặt lẻ là $\\{1; 3; 5\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt số lẻ (Nhóm 9)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số lẻ là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{6}$"
+      ],
+      "answer": 1,
+      "explanation": "Các mặt lẻ là $\\{1; 3; 5\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt số lẻ (Nhóm 9)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số lẻ là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": 2,
+      "explanation": "Các mặt lẻ là $\\{1; 3; 5\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được mặt số lẻ (Nhóm 9)",
+      "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số lẻ là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Các mặt lẻ là $\\{1; 3; 5\\} \\Rightarrow n(A) = 3$. $P(A) = 3/6 = 1/2$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi từ hộp cơ bản (Nhóm 10)",
+      "question": "Một hộp có 1 viên bi đỏ và 2 viên bi xanh cùng kích thước. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi đỏ là: <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số bi là $1 + 2 = 3$. Số kết quả thuận lợi là $1$. Xác suất là $\\frac{1}{3}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi từ hộp cơ bản (Nhóm 10)",
+      "question": "Một hộp có 2 viên bi đỏ và 3 viên bi xanh cùng kích thước. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi đỏ là: <!-- v1 -->",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{7}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số bi là $2 + 3 = 5$. Số kết quả thuận lợi là $2$. Xác suất là $\\frac{2}{5}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi từ hộp cơ bản (Nhóm 10)",
+      "question": "Một hộp có 3 viên bi đỏ và 4 viên bi xanh cùng kích thước. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi đỏ là: <!-- v2 -->",
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": 2,
+      "explanation": "Tổng số bi là $3 + 4 = 7$. Số kết quả thuận lợi là $3$. Xác suất là $\\frac{3}{7}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi từ hộp cơ bản (Nhóm 10)",
+      "question": "Một hộp có 4 viên bi đỏ và 5 viên bi xanh cùng kích thước. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi đỏ là: <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{5}{9}$",
+        "$\\frac{2}{11}$",
+        "$\\frac{4}{9}$"
+      ],
+      "answer": 3,
+      "explanation": "Tổng số bi là $4 + 5 = 9$. Số kết quả thuận lợi là $4$. Xác suất là $\\frac{4}{9}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi xanh từ hộp (Nhóm 11)",
+      "question": "Một hộp có 2 viên bi đỏ và 3 viên bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi xanh là: <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 2,
+      "explanation": "Tổng số bi là $5$. Số bi xanh là $3$. Xác suất là $\\frac{3}{5}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi xanh từ hộp (Nhóm 11)",
+      "question": "Một hộp có 3 viên bi đỏ và 4 viên bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi xanh là: <!-- v1 -->",
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số bi là $7$. Số bi xanh là $4$. Xác suất là $\\frac{4}{7}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi xanh từ hộp (Nhóm 11)",
+      "question": "Một hộp có 4 viên bi đỏ và 5 viên bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi xanh là: <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{5}{9}$",
+        "$\\frac{4}{9}$",
+        "$\\frac{1}{9}$"
+      ],
+      "answer": 1,
+      "explanation": "Tổng số bi là $9$. Số bi xanh là $5$. Xác suất là $\\frac{5}{9}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất lấy bi xanh từ hộp (Nhóm 11)",
+      "question": "Một hộp có 5 viên bi đỏ và 6 viên bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất lấy được viên bi xanh là: <!-- v3 -->",
+      "choices": [
+        "$\\frac{5}{11}$",
+        "$\\frac{1}{11}$",
+        "$\\frac{6}{11}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": 2,
+      "explanation": "Tổng số bi là $11$. Số bi xanh là $6$. Xác suất là $\\frac{6}{11}$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử chọn k học sinh từ n học sinh (Nhóm 12)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một tổ gồm 5 học sinh. Số phần tử của không gian mẫu là: <!-- v0 -->",
+      "choices": [
+        "$A_{5}^2 = 20$",
+        "10",
+        "5",
+        "$C_{5}^2 = 10$"
+      ],
+      "answer": 3,
+      "explanation": "Số cách chọn 2 bạn từ 5 bạn là $C_{5}^2 = 10$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số phần tử chọn k học sinh từ n học sinh (Nhóm 12)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một tổ gồm 6 học sinh. Số phần tử của không gian mẫu là: <!-- v1 -->",
+      "choices": [
+        "$C_{6}^2 = 15$",
+        "$A_{6}^2 = 30$",
+        "12",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Số cách chọn 2 bạn từ 6 bạn là $C_{6}^2 = 15$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số phần tử chọn k học sinh từ n học sinh (Nhóm 12)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một tổ gồm 7 học sinh. Số phần tử của không gian mẫu là: <!-- v2 -->",
+      "choices": [
+        "$C_{7}^2 = 21$",
+        "$A_{7}^2 = 42$",
+        "14",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Số cách chọn 2 bạn từ 7 bạn là $C_{7}^2 = 21$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số phần tử chọn k học sinh từ n học sinh (Nhóm 12)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một tổ gồm 8 học sinh. Số phần tử của không gian mẫu là: <!-- v3 -->",
+      "choices": [
+        "$C_{8}^2 = 28$",
+        "$A_{8}^2 = 56$",
+        "8",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "Số cách chọn 2 bạn từ 8 bạn là $C_{8}^2 = 28$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Khoảng giá trị của xác suất (Nhóm 13)",
+      "question": "Với mọi biến cố $A$, xác suất $P(A)$ luôn thỏa mãn điều kiện nào sau đây (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$P(A) \\le 1$",
+        "$0 \\le P(A) \\le 1$",
+        "$0 < P(A) < 1$",
+        "$P(A) \\ge 0$"
+      ],
+      "answer": 1,
+      "explanation": "Theo tính chất của xác suất, ta luôn có $0 \\le P(A) \\le 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Khoảng giá trị của xác suất (Nhóm 13)",
+      "question": "Với mọi biến cố $A$, xác suất $P(A)$ luôn thỏa mãn điều kiện nào sau đây (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$0 \\le P(A) \\le 1$",
+        "$P(A) \\ge 0$",
+        "$0 < P(A) < 1$",
+        "$P(A) \\le 1$"
+      ],
+      "answer": 0,
+      "explanation": "Theo tính chất của xác suất, ta luôn có $0 \\le P(A) \\le 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Khoảng giá trị của xác suất (Nhóm 13)",
+      "question": "Với mọi biến cố $A$, xác suất $P(A)$ luôn thỏa mãn điều kiện nào sau đây (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$P(A) \\ge 0$",
+        "$P(A) \\le 1$",
+        "$0 < P(A) < 1$",
+        "$0 \\le P(A) \\le 1$"
+      ],
+      "answer": 3,
+      "explanation": "Theo tính chất của xác suất, ta luôn có $0 \\le P(A) \\le 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Khoảng giá trị của xác suất (Nhóm 13)",
+      "question": "Với mọi biến cố $A$, xác suất $P(A)$ luôn thỏa mãn điều kiện nào sau đây (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$P(A) \\le 1$",
+        "$0 \\le P(A) \\le 1$",
+        "$P(A) \\ge 0$",
+        "$0 < P(A) < 1$"
+      ],
+      "answer": 1,
+      "explanation": "Theo tính chất của xác suất, ta luôn có $0 \\le P(A) \\le 1$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được số chấm lớn hơn 4 (Nhóm 14)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để xuất hiện mặt có số chấm lớn hơn 4 là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 3,
+      "explanation": "Các mặt thỏa mãn là 5 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được số chấm lớn hơn 4 (Nhóm 14)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để xuất hiện mặt có số chấm lớn hơn 4 là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 3,
+      "explanation": "Các mặt thỏa mãn là 5 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được số chấm lớn hơn 4 (Nhóm 14)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để xuất hiện mặt có số chấm lớn hơn 4 là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt thỏa mãn là 5 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc được số chấm lớn hơn 4 (Nhóm 14)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để xuất hiện mặt có số chấm lớn hơn 4 là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt thỏa mãn là 5 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc chia hết cho 3 (Nhóm 15)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để số chấm xuất hiện chia hết cho 3 là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 3,
+      "explanation": "Các mặt chia hết cho 3 là 3 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc chia hết cho 3 (Nhóm 15)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để số chấm xuất hiện chia hết cho 3 là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt chia hết cho 3 là 3 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc chia hết cho 3 (Nhóm 15)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để số chấm xuất hiện chia hết cho 3 là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{5}{6}$"
+      ],
+      "answer": 1,
+      "explanation": "Các mặt chia hết cho 3 là 3 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo xúc xắc chia hết cho 3 (Nhóm 15)",
+      "question": "Gieo một con xúc xắc một lần. Xác suất để số chấm xuất hiện chia hết cho 3 là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{5}{6}$"
+      ],
+      "answer": 2,
+      "explanation": "Các mặt chia hết cho 3 là 3 và 6 (2 kết quả). Xác suất là $2/6 = 1/3$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc có tổng số chấm (Nhóm 16)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 7 là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{5}{36}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{7}{36}$",
+        "$\\frac{1}{12}$"
+      ],
+      "answer": 1,
+      "explanation": "Các cặp có tổng bằng 7 là (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc có tổng số chấm (Nhóm 16)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 7 là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{12}$",
+        "$\\frac{7}{36}$",
+        "$\\frac{5}{36}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": 3,
+      "explanation": "Các cặp có tổng bằng 7 là (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc có tổng số chấm (Nhóm 16)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 7 là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{5}{36}$",
+        "$\\frac{7}{36}$",
+        "$\\frac{1}{12}$"
+      ],
+      "answer": 0,
+      "explanation": "Các cặp có tổng bằng 7 là (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc có tổng số chấm (Nhóm 16)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 7 là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{5}{36}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{7}{36}$"
+      ],
+      "answer": 2,
+      "explanation": "Các cặp có tổng bằng 7 là (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc xuất hiện số chấm giống nhau (Nhóm 17)",
+      "question": "Gieo đồng thời hai con xúc xắc. Xác suất để hai mặt xuất hiện có số chấm bằng nhau là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{36}$"
+      ],
+      "answer": 0,
+      "explanation": "Các cặp giống nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc xuất hiện số chấm giống nhau (Nhóm 17)",
+      "question": "Gieo đồng thời hai con xúc xắc. Xác suất để hai mặt xuất hiện có số chấm bằng nhau là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{36}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Các cặp giống nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc xuất hiện số chấm giống nhau (Nhóm 17)",
+      "question": "Gieo đồng thời hai con xúc xắc. Xác suất để hai mặt xuất hiện có số chấm bằng nhau là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{36}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": 3,
+      "explanation": "Các cặp giống nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất gieo 2 xúc xắc xuất hiện số chấm giống nhau (Nhóm 17)",
+      "question": "Gieo đồng thời hai con xúc xắc. Xác suất để hai mặt xuất hiện có số chấm bằng nhau là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{36}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Các cặp giống nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 cặp. Xác suất là $6/36 = 1/6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi cùng màu (Nhóm 18)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Số cách chọn 2 bi đỏ là $C_3^2 = 3$, chọn 2 bi xanh là $C_2^2 = 1$. Tổng số cách cùng màu là $3 + 1 = 4$. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi cùng màu (Nhóm 18)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 1,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Số cách chọn 2 bi đỏ là $C_3^2 = 3$, chọn 2 bi xanh là $C_2^2 = 1$. Tổng số cách cùng màu là $3 + 1 = 4$. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi cùng màu (Nhóm 18)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 1,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Số cách chọn 2 bi đỏ là $C_3^2 = 3$, chọn 2 bi xanh là $C_2^2 = 1$. Tổng số cách cùng màu là $3 + 1 = 4$. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi cùng màu (Nhóm 18)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi cùng màu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 3,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Số cách chọn 2 bi đỏ là $C_3^2 = 3$, chọn 2 bi xanh là $C_2^2 = 1$. Tổng số cách cùng màu là $3 + 1 = 4$. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi khác màu (Nhóm 19)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi khác màu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 1,
+      "explanation": "Biến cố khác màu gồm 1 bi đỏ và 1 bi xanh: $3 \\times 2 = 6$ cách. Xác suất là $6/10 = 3/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi khác màu (Nhóm 19)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi khác màu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": 3,
+      "explanation": "Biến cố khác màu gồm 1 bi đỏ và 1 bi xanh: $3 \\times 2 = 6$ cách. Xác suất là $6/10 = 3/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi khác màu (Nhóm 19)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi khác màu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 2,
+      "explanation": "Biến cố khác màu gồm 1 bi đỏ và 1 bi xanh: $3 \\times 2 = 6$ cách. Xác suất là $6/10 = 3/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn 2 viên bi khác màu (Nhóm 19)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên đồng thời 2 viên bi. Xác suất để lấy được 2 viên bi khác màu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Biến cố khác màu gồm 1 bi đỏ và 1 bi xanh: $3 \\times 2 = 6$ cách. Xác suất là $6/10 = 3/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được ít nhất 1 mặt sấp (Nhóm 20)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện ít nhất 1 mặt sấp là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{7}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{3}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Không gian mẫu $2^3 = 8$. Biến cố đối là 'cả 3 đồng xu đều ngửa' có 1 cách. Xác suất là $1 - 1/8 = 7/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được ít nhất 1 mặt sấp (Nhóm 20)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện ít nhất 1 mặt sấp là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{7}{8}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Không gian mẫu $2^3 = 8$. Biến cố đối là 'cả 3 đồng xu đều ngửa' có 1 cách. Xác suất là $1 - 1/8 = 7/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được ít nhất 1 mặt sấp (Nhóm 20)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện ít nhất 1 mặt sấp là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{3}{8}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu $2^3 = 8$. Biến cố đối là 'cả 3 đồng xu đều ngửa' có 1 cách. Xác suất là $1 - 1/8 = 7/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được ít nhất 1 mặt sấp (Nhóm 20)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện ít nhất 1 mặt sấp là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{8}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu $2^3 = 8$. Biến cố đối là 'cả 3 đồng xu đều ngửa' có 1 cách. Xác suất là $1 - 1/8 = 7/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được đúng 2 mặt sấp (Nhóm 21)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện đúng 2 mặt sấp là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{5}{8}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Số kết quả thuận lợi có đúng 2 mặt sấp là $C_3^2 = 3$. Xác suất là $3/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được đúng 2 mặt sấp (Nhóm 21)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện đúng 2 mặt sấp là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{3}{8}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Số kết quả thuận lợi có đúng 2 mặt sấp là $C_3^2 = 3$. Xác suất là $3/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được đúng 2 mặt sấp (Nhóm 21)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện đúng 2 mặt sấp là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Số kết quả thuận lợi có đúng 2 mặt sấp là $C_3^2 = 3$. Xác suất là $3/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Gieo 3 đồng xu được đúng 2 mặt sấp (Nhóm 21)",
+      "question": "Gieo 3 đồng xu cân đối đồng thời. Xác suất để xuất hiện đúng 2 mặt sấp là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{3}{8}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Số kết quả thuận lợi có đúng 2 mặt sấp là $C_3^2 = 3$. Xác suất là $3/8$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn học sinh có ít nhất một nữ (Nhóm 22)",
+      "question": "Một tổ có 3 bạn nam và 2 bạn nữ. Chọn ngẫu nhiên 2 bạn đi dự đại hội. Xác suất để có ít nhất 1 bạn nữ là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{3}{10}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{7}{10}$"
+      ],
+      "answer": 3,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Biến cố đối là cả 2 bạn đều là nam: $C_3^2 = 3$. Xác suất là $1 - 3/10 = 7/10$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn học sinh có ít nhất một nữ (Nhóm 22)",
+      "question": "Một tổ có 3 bạn nam và 2 bạn nữ. Chọn ngẫu nhiên 2 bạn đi dự đại hội. Xác suất để có ít nhất 1 bạn nữ là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{3}{10}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Biến cố đối là cả 2 bạn đều là nam: $C_3^2 = 3$. Xác suất là $1 - 3/10 = 7/10$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn học sinh có ít nhất một nữ (Nhóm 22)",
+      "question": "Một tổ có 3 bạn nam và 2 bạn nữ. Chọn ngẫu nhiên 2 bạn đi dự đại hội. Xác suất để có ít nhất 1 bạn nữ là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{3}{10}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Biến cố đối là cả 2 bạn đều là nam: $C_3^2 = 3$. Xác suất là $1 - 3/10 = 7/10$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn học sinh có ít nhất một nữ (Nhóm 22)",
+      "question": "Một tổ có 3 bạn nam và 2 bạn nữ. Chọn ngẫu nhiên 2 bạn đi dự đại hội. Xác suất để có ít nhất 1 bạn nữ là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{7}{10}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$n(\\Omega) = C_5^2 = 10$. Biến cố đối là cả 2 bạn đều là nam: $C_3^2 = 3$. Xác suất là $1 - 3/10 = 7/10$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 5 (Nhóm 23)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để số được chọn chia hết cho 5 là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 3,
+      "explanation": "Số các số có 2 chữ số là $99 - 10 + 1 = 90$. Các số chia hết cho 5 là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số. Xác suất là $18/90 = 1/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 5 (Nhóm 23)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để số được chọn chia hết cho 5 là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{10}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Số các số có 2 chữ số là $99 - 10 + 1 = 90$. Các số chia hết cho 5 là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số. Xác suất là $18/90 = 1/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 5 (Nhóm 23)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để số được chọn chia hết cho 5 là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{10}$"
+      ],
+      "answer": 0,
+      "explanation": "Số các số có 2 chữ số là $99 - 10 + 1 = 90$. Các số chia hết cho 5 là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số. Xác suất là $18/90 = 1/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 5 (Nhóm 23)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ 10 đến 99). Xác suất để số được chọn chia hết cho 5 là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 3,
+      "explanation": "Số các số có 2 chữ số là $99 - 10 + 1 = 90$. Các số chia hết cho 5 là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số. Xác suất là $18/90 = 1/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 2 (Nhóm 24)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 20. Xác suất để số được chọn là số chẵn là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{9}{20}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{11}{20}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Từ 1 đến 20 có 10 số chẵn. Xác suất là $10/20 = 1/2$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 2 (Nhóm 24)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 20. Xác suất để số được chọn là số chẵn là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{9}{20}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{11}{20}$"
+      ],
+      "answer": 1,
+      "explanation": "Từ 1 đến 20 có 10 số chẵn. Xác suất là $10/20 = 1/2$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 2 (Nhóm 24)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 20. Xác suất để số được chọn là số chẵn là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{9}{20}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{11}{20}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Từ 1 đến 20 có 10 số chẵn. Xác suất là $10/20 = 1/2$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số tự nhiên chia hết cho 2 (Nhóm 24)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 20. Xác suất để số được chọn là số chẵn là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{9}{20}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{11}{20}$"
+      ],
+      "answer": 2,
+      "explanation": "Từ 1 đến 20 có 10 số chẵn. Xác suất là $10/20 = 1/2$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số nguyên tố từ 1 đến 10 (Nhóm 25)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 10. Xác suất để số được chọn là số nguyên tố là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{3}{10}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 1,
+      "explanation": "Các số nguyên tố là 2, 3, 5, 7 gồm 4 số. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số nguyên tố từ 1 đến 10 (Nhóm 25)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 10. Xác suất để số được chọn là số nguyên tố là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{10}$"
+      ],
+      "answer": 1,
+      "explanation": "Các số nguyên tố là 2, 3, 5, 7 gồm 4 số. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số nguyên tố từ 1 đến 10 (Nhóm 25)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 10. Xác suất để số được chọn là số nguyên tố là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Các số nguyên tố là 2, 3, 5, 7 gồm 4 số. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Chọn số nguyên tố từ 1 đến 10 (Nhóm 25)",
+      "question": "Chọn ngẫu nhiên một số tự nhiên từ 1 đến 10. Xác suất để số được chọn là số nguyên tố là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 2,
+      "explanation": "Các số nguyên tố là 2, 3, 5, 7 gồm 4 số. Xác suất là $4/10 = 2/5$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài theo chất (Nhóm 26)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài tú lơ khơ 52 lá. Xác suất để rút được lá bài chất cơ (tim) là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{52}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{13}$"
+      ],
+      "answer": 2,
+      "explanation": "Trong bộ bài 52 lá có 13 lá chất cơ. Xác suất là $13/52 = 1/4$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài theo chất (Nhóm 26)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài tú lơ khơ 52 lá. Xác suất để rút được lá bài chất cơ (tim) là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{52}$"
+      ],
+      "answer": 1,
+      "explanation": "Trong bộ bài 52 lá có 13 lá chất cơ. Xác suất là $13/52 = 1/4$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài theo chất (Nhóm 26)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài tú lơ khơ 52 lá. Xác suất để rút được lá bài chất cơ (tim) là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{52}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{13}$"
+      ],
+      "answer": 1,
+      "explanation": "Trong bộ bài 52 lá có 13 lá chất cơ. Xác suất là $13/52 = 1/4$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài theo chất (Nhóm 26)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài tú lơ khơ 52 lá. Xác suất để rút được lá bài chất cơ (tim) là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{52}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 3,
+      "explanation": "Trong bộ bài 52 lá có 13 lá chất cơ. Xác suất là $13/52 = 1/4$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài Át (Nhóm 27)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để rút được quân bài Át (A) là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{52}$",
+        "$\\frac{4}{13}$"
+      ],
+      "answer": 1,
+      "explanation": "Bộ bài có 4 quân Át. Xác suất là $4/52 = 1/13$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài Át (Nhóm 27)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để rút được quân bài Át (A) là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{52}$",
+        "$\\frac{1}{13}$",
+        "$\\frac{4}{13}$"
+      ],
+      "answer": 2,
+      "explanation": "Bộ bài có 4 quân Át. Xác suất là $4/52 = 1/13$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài Át (Nhóm 27)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để rút được quân bài Át (A) là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{52}$",
+        "$\\frac{4}{13}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{13}$"
+      ],
+      "answer": 3,
+      "explanation": "Bộ bài có 4 quân Át. Xác suất là $4/52 = 1/13$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Rút một quân bài Át (Nhóm 27)",
+      "question": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để rút được quân bài Át (A) là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{52}$",
+        "$\\frac{4}{13}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Bộ bài có 4 quân Át. Xác suất là $4/52 = 1/13$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất chọn 3 bạn có cả nam và nữ (Nhóm 28)",
+      "question": "Một nhóm có 4 nam và 3 nữ. Chọn ngẫu nhiên 3 bạn. Xác suất để trong 3 bạn được chọn có cả nam và nữ là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{5}{7}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_7^3 = 35$. Số cách chọn 3 nam là $C_4^3 = 4$, 3 nữ là $C_3^3 = 1$. Số cách không có cả hai giới là $4 + 1 = 5$. Xác suất có cả nam và nữ là $1 - 5/35 = 30/35 = 6/7$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất chọn 3 bạn có cả nam và nữ (Nhóm 28)",
+      "question": "Một nhóm có 4 nam và 3 nữ. Chọn ngẫu nhiên 3 bạn. Xác suất để trong 3 bạn được chọn có cả nam và nữ là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{6}{7}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$"
+      ],
+      "answer": 0,
+      "explanation": "$n(\\Omega) = C_7^3 = 35$. Số cách chọn 3 nam là $C_4^3 = 4$, 3 nữ là $C_3^3 = 1$. Số cách không có cả hai giới là $4 + 1 = 5$. Xác suất có cả nam và nữ là $1 - 5/35 = 30/35 = 6/7$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất chọn 3 bạn có cả nam và nữ (Nhóm 28)",
+      "question": "Một nhóm có 4 nam và 3 nữ. Chọn ngẫu nhiên 3 bạn. Xác suất để trong 3 bạn được chọn có cả nam và nữ là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{5}{7}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_7^3 = 35$. Số cách chọn 3 nam là $C_4^3 = 4$, 3 nữ là $C_3^3 = 1$. Số cách không có cả hai giới là $4 + 1 = 5$. Xác suất có cả nam và nữ là $1 - 5/35 = 30/35 = 6/7$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất chọn 3 bạn có cả nam và nữ (Nhóm 28)",
+      "question": "Một nhóm có 4 nam và 3 nữ. Chọn ngẫu nhiên 3 bạn. Xác suất để trong 3 bạn được chọn có cả nam và nữ là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{1}{7}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_7^3 = 35$. Số cách chọn 3 nam là $C_4^3 = 4$, 3 nữ là $C_3^3 = 1$. Số cách không có cả hai giới là $4 + 1 = 5$. Xác suất có cả nam và nữ là $1 - 5/35 = 30/35 = 6/7$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất lấy 2 quả cầu cùng màu từ 3 màu (Nhóm 29)",
+      "question": "Một hộp có 3 quả đỏ, 2 quả xanh và 2 quả vàng. Lấy ngẫu nhiên 2 quả. Xác suất để lấy được 2 quả cùng màu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{16}{21}$",
+        "$\\frac{5}{21}$",
+        "$\\frac{2}{7}$"
+      ],
+      "answer": 2,
+      "explanation": "$n(\\Omega) = C_7^2 = 21$. Cùng màu đỏ: $C_3^2 = 3$, cùng xanh: $C_2^2 = 1$, cùng vàng: $C_2^2 = 1$. Tổng thuận lợi là $3 + 1 + 1 = 5$. Xác suất là $5/21$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất lấy 2 quả cầu cùng màu từ 3 màu (Nhóm 29)",
+      "question": "Một hộp có 3 quả đỏ, 2 quả xanh và 2 quả vàng. Lấy ngẫu nhiên 2 quả. Xác suất để lấy được 2 quả cùng màu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{5}{21}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{16}{21}$",
+        "$\\frac{2}{7}$"
+      ],
+      "answer": 0,
+      "explanation": "$n(\\Omega) = C_7^2 = 21$. Cùng màu đỏ: $C_3^2 = 3$, cùng xanh: $C_2^2 = 1$, cùng vàng: $C_2^2 = 1$. Tổng thuận lợi là $3 + 1 + 1 = 5$. Xác suất là $5/21$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất lấy 2 quả cầu cùng màu từ 3 màu (Nhóm 29)",
+      "question": "Một hộp có 3 quả đỏ, 2 quả xanh và 2 quả vàng. Lấy ngẫu nhiên 2 quả. Xác suất để lấy được 2 quả cùng màu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{16}{21}$",
+        "$\\frac{5}{21}$"
+      ],
+      "answer": 3,
+      "explanation": "$n(\\Omega) = C_7^2 = 21$. Cùng màu đỏ: $C_3^2 = 3$, cùng xanh: $C_2^2 = 1$, cùng vàng: $C_2^2 = 1$. Tổng thuận lợi là $3 + 1 + 1 = 5$. Xác suất là $5/21$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất lấy 2 quả cầu cùng màu từ 3 màu (Nhóm 29)",
+      "question": "Một hộp có 3 quả đỏ, 2 quả xanh và 2 quả vàng. Lấy ngẫu nhiên 2 quả. Xác suất để lấy được 2 quả cùng màu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{16}{21}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{5}{21}$"
+      ],
+      "answer": 3,
+      "explanation": "$n(\\Omega) = C_7^2 = 21$. Cùng màu đỏ: $C_3^2 = 3$, cùng xanh: $C_2^2 = 1$, cùng vàng: $C_2^2 = 1$. Tổng thuận lợi là $3 + 1 + 1 = 5$. Xác suất là $5/21$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất hai người đứng cạnh nhau (Nhóm 30)",
+      "question": "Xếp ngẫu nhiên 5 bạn học sinh (trong đó có An và Bình) thành một hàng ngang. Xác suất để An và Bình đứng cạnh nhau là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu là $5! = 120$. Coi An và Bình là 1 khối thì có $4! \\times 2! = 48$ cách. Xác suất là $48/120 = 2/5$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất hai người đứng cạnh nhau (Nhóm 30)",
+      "question": "Xếp ngẫu nhiên 5 bạn học sinh (trong đó có An và Bình) thành một hàng ngang. Xác suất để An và Bình đứng cạnh nhau là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": 2,
+      "explanation": "Không gian mẫu là $5! = 120$. Coi An và Bình là 1 khối thì có $4! \\times 2! = 48$ cách. Xác suất là $48/120 = 2/5$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất hai người đứng cạnh nhau (Nhóm 30)",
+      "question": "Xếp ngẫu nhiên 5 bạn học sinh (trong đó có An và Bình) thành một hàng ngang. Xác suất để An và Bình đứng cạnh nhau là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Không gian mẫu là $5! = 120$. Coi An và Bình là 1 khối thì có $4! \\times 2! = 48$ cách. Xác suất là $48/120 = 2/5$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Xác suất hai người đứng cạnh nhau (Nhóm 30)",
+      "question": "Xếp ngẫu nhiên 5 bạn học sinh (trong đó có An và Bình) thành một hàng ngang. Xác suất để An và Bình đứng cạnh nhau là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Không gian mẫu là $5! = 120$. Coi An và Bình là 1 khối thì có $4! \\times 2! = 48$ cách. Xác suất là $48/120 = 2/5$.",
+      "level": "vd",
+      "lesson": "b27"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Tính số phần tử của không gian mẫu khi gieo 2 đồng xu cân đối đồng thời. <!-- v0 -->",
+      "answer": "4",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số phần tử là $2^{2} = 4$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Tính số phần tử của không gian mẫu khi gieo 3 đồng xu cân đối đồng thời. <!-- v1 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số phần tử là $2^{3} = 8$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử không gian mẫu gieo đồng xu (Nhóm 1)",
+      "question": "Tính số phần tử của không gian mẫu khi gieo 4 đồng xu cân đối đồng thời. <!-- v2 -->",
+      "answer": "16",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số phần tử là $2^{4} = 16$.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số kết quả thuận lợi gieo xúc xắc chẵn (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối. Có bao nhiêu kết quả thuận lợi cho biến cố 'xuất hiện mặt có số chấm là số nguyên tố' (mẫu 1)? <!-- v0 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số nguyên tố là 2, 3, 5 gồm đúng 3 kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số kết quả thuận lợi gieo xúc xắc chẵn (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối. Có bao nhiêu kết quả thuận lợi cho biến cố 'xuất hiện mặt có số chấm là số nguyên tố' (mẫu 2)? <!-- v1 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số nguyên tố là 2, 3, 5 gồm đúng 3 kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số kết quả thuận lợi gieo xúc xắc chẵn (Nhóm 2)",
+      "question": "Gieo một con xúc xắc cân đối. Có bao nhiêu kết quả thuận lợi cho biến cố 'xuất hiện mặt có số chấm là số nguyên tố' (mẫu 3)? <!-- v2 -->",
+      "answer": "3",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số nguyên tố là 2, 3, 5 gồm đúng 3 kết quả.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu chọn 2 từ n (Nhóm 3)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một nhóm gồm 4 học sinh. Tính số phần tử của không gian mẫu. <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$n(\\Omega) = C_{4}^2 = 6$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu chọn 2 từ n (Nhóm 3)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một nhóm gồm 5 học sinh. Tính số phần tử của không gian mẫu. <!-- v1 -->",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$n(\\Omega) = C_{5}^2 = 10$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu chọn 2 từ n (Nhóm 3)",
+      "question": "Chọn ngẫu nhiên 2 học sinh từ một nhóm gồm 6 học sinh. Tính số phần tử của không gian mẫu. <!-- v2 -->",
+      "answer": "15",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$n(\\Omega) = C_{6}^2 = 15$.",
+      "level": "nb",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số bi trong hộp (Nhóm 4)",
+      "question": "Một hộp có 3 viên bi đỏ và 5 viên bi xanh. Tổng số viên bi trong hộp là bao nhiêu? <!-- v0 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số bi là $3 + 5 = 8$ viên bi.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số bi trong hộp (Nhóm 4)",
+      "question": "Một hộp có 4 viên bi đỏ và 6 viên bi xanh. Tổng số viên bi trong hộp là bao nhiêu? <!-- v1 -->",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số bi là $4 + 6 = 10$ viên bi.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số bi trong hộp (Nhóm 4)",
+      "question": "Một hộp có 5 viên bi đỏ và 7 viên bi xanh. Tổng số viên bi trong hộp là bao nhiêu? <!-- v2 -->",
+      "answer": "12",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số bi là $5 + 7 = 12$ viên bi.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu gieo 2 xúc xắc (Nhóm 5)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Số phần tử của không gian mẫu bằng bao nhiêu (mẫu 1)? <!-- v0 -->",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Không gian mẫu gồm $6 \\times 6 = 36$ phần tử.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu gieo 2 xúc xắc (Nhóm 5)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Số phần tử của không gian mẫu bằng bao nhiêu (mẫu 2)? <!-- v1 -->",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Không gian mẫu gồm $6 \\times 6 = 36$ phần tử.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số phần tử của không gian mẫu gieo 2 xúc xắc (Nhóm 5)",
+      "question": "Gieo đồng thời hai con xúc xắc cân đối. Số phần tử của không gian mẫu bằng bao nhiêu (mẫu 3)? <!-- v2 -->",
+      "answer": "36",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Không gian mẫu gồm $6 \\times 6 = 36$ phần tử.",
+      "level": "nb",
+      "lesson": "b26"
+    },
+    {
+      "dang": "Số kết quả thuận lợi tổng số chấm bằng 7 (Nhóm 6)",
+      "question": "Gieo đồng thời hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố 'tổng số chấm trên hai con xúc xắc bằng 7' (mẫu 1)? <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Có 6 cặp: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số kết quả thuận lợi tổng số chấm bằng 7 (Nhóm 6)",
+      "question": "Gieo đồng thời hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố 'tổng số chấm trên hai con xúc xắc bằng 7' (mẫu 2)? <!-- v1 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Có 6 cặp: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số kết quả thuận lợi tổng số chấm bằng 7 (Nhóm 6)",
+      "question": "Gieo đồng thời hai con xúc xắc. Có bao nhiêu kết quả thuận lợi cho biến cố 'tổng số chấm trên hai con xúc xắc bằng 7' (mẫu 3)? <!-- v2 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Có 6 cặp: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 2 viên bi khác màu (Nhóm 7)",
+      "question": "Một hộp có 3 viên bi đỏ và 2 viên bi xanh. Lấy ngẫu nhiên 2 viên bi gồm 1 viên đỏ và 1 viên xanh. Có bao nhiêu cách lấy? <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $(3) \\times (2) = 6$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 2 viên bi khác màu (Nhóm 7)",
+      "question": "Một hộp có 4 viên bi đỏ và 3 viên bi xanh. Lấy ngẫu nhiên 2 viên bi gồm 1 viên đỏ và 1 viên xanh. Có bao nhiêu cách lấy? <!-- v1 -->",
+      "answer": "12",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $(4) \\times (3) = 12$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 2 viên bi khác màu (Nhóm 7)",
+      "question": "Một hộp có 5 viên bi đỏ và 4 viên bi xanh. Lấy ngẫu nhiên 2 viên bi gồm 1 viên đỏ và 1 viên xanh. Có bao nhiêu cách lấy? <!-- v2 -->",
+      "answer": "20",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $(5) \\times (4) = 20$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 3 bạn toàn nam (Nhóm 8)",
+      "question": "Một tổ có 5 bạn nam và 3 bạn nữ. Có bao nhiêu cách chọn 3 bạn toàn là nam? <!-- v0 -->",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $C_{5}^3 = 10$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 3 bạn toàn nam (Nhóm 8)",
+      "question": "Một tổ có 6 bạn nam và 3 bạn nữ. Có bao nhiêu cách chọn 3 bạn toàn là nam? <!-- v1 -->",
+      "answer": "20",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $C_{6}^3 = 20$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn 3 bạn toàn nam (Nhóm 8)",
+      "question": "Một tổ có 7 bạn nam và 3 bạn nữ. Có bao nhiêu cách chọn 3 bạn toàn là nam? <!-- v2 -->",
+      "answer": "35",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số cách chọn là $C_{7}^3 = 35$.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số số tự nhiên có 2 chữ số chia hết cho 5 (Nhóm 9)",
+      "question": "Có bao nhiêu số tự nhiên có 2 chữ số chia hết cho 5 (mẫu 1)? <!-- v0 -->",
+      "answer": "18",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số số tự nhiên có 2 chữ số chia hết cho 5 (Nhóm 9)",
+      "question": "Có bao nhiêu số tự nhiên có 2 chữ số chia hết cho 5 (mẫu 2)? <!-- v1 -->",
+      "answer": "18",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số số tự nhiên có 2 chữ số chia hết cho 5 (Nhóm 9)",
+      "question": "Có bao nhiêu số tự nhiên có 2 chữ số chia hết cho 5 (mẫu 3)? <!-- v2 -->",
+      "answer": "18",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Các số là 10, 15, ..., 95 gồm $(95 - 10)/5 + 1 = 18$ số.",
+      "level": "th",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn thỏa mãn điều kiện cả hai giới (Nhóm 10)",
+      "question": "Một nhóm có 4 bạn nam và 3 bạn nữ. Có bao nhiêu cách chọn 3 bạn sao cho có cả nam và nữ? <!-- v0 -->",
+      "answer": "30",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số cách chọn 3 bạn là $C_{7}^3 = 35$. Số cách chọn 3 nam là $C_4^3 = 4$. Số cách chọn 3 nữ là $C_{3}^3 = 1$. Vậy số cách có cả nam và nữ là $35 - 4 - 1 = 30$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn thỏa mãn điều kiện cả hai giới (Nhóm 10)",
+      "question": "Một nhóm có 4 bạn nam và 4 bạn nữ. Có bao nhiêu cách chọn 3 bạn sao cho có cả nam và nữ? <!-- v1 -->",
+      "answer": "48",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số cách chọn 3 bạn là $C_{8}^3 = 56$. Số cách chọn 3 nam là $C_4^3 = 4$. Số cách chọn 3 nữ là $C_{4}^3 = 4$. Vậy số cách có cả nam và nữ là $56 - 4 - 4 = 48$.",
+      "level": "vd",
+      "lesson": "b27"
+    },
+    {
+      "dang": "Số cách chọn thỏa mãn điều kiện cả hai giới (Nhóm 10)",
+      "question": "Một nhóm có 4 bạn nam và 5 bạn nữ. Có bao nhiêu cách chọn 3 bạn sao cho có cả nam và nữ? <!-- v2 -->",
+      "answer": "70",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Tổng số cách chọn 3 bạn là $C_{9}^3 = 84$. Số cách chọn 3 nam là $C_4^3 = 4$. Số cách chọn 3 nữ là $C_{5}^3 = 10$. Vậy số cách có cả nam và nữ là $84 - 4 - 10 = 70$.",
+      "level": "vd",
+      "lesson": "b27"
+    }
+  ]
+}

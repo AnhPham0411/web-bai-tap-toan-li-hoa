@@ -1,0 +1,2004 @@
+{
+  "sgk_chapter_title": "Đại số tổ hợp",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b23",
+      "sgk_title": "Bài 23. Quy tắc đếm"
+    },
+    {
+      "lesson_id": "b24",
+      "sgk_title": "Bài 24. Hoán vị, chỉnh hợp và tổ hợp"
+    },
+    {
+      "lesson_id": "b25",
+      "sgk_title": "Bài 25. Nhị thức Newton"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "dang": "Quy tắc cộng cơ bản (Nhóm 1)",
+      "question": "Một bạn có 3 quyển sách Toán và 4 quyển sách Văn (các quyển sách khác nhau). Có bao nhiêu cách chọn 1 quyển sách để đọc? <!-- v0 -->",
+      "choices": [
+        "12",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Áp dụng quy tắc cộng: số cách chọn là $3 + 4 = 7$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc cộng cơ bản (Nhóm 1)",
+      "question": "Một bạn có 4 quyển sách Toán và 5 quyển sách Văn (các quyển sách khác nhau). Có bao nhiêu cách chọn 1 quyển sách để đọc? <!-- v1 -->",
+      "choices": [
+        "5",
+        "4",
+        "20",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "Áp dụng quy tắc cộng: số cách chọn là $4 + 5 = 9$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc cộng cơ bản (Nhóm 1)",
+      "question": "Một bạn có 5 quyển sách Toán và 6 quyển sách Văn (các quyển sách khác nhau). Có bao nhiêu cách chọn 1 quyển sách để đọc? <!-- v2 -->",
+      "choices": [
+        "11",
+        "30",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Áp dụng quy tắc cộng: số cách chọn là $5 + 6 = 11$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc cộng cơ bản (Nhóm 1)",
+      "question": "Một bạn có 6 quyển sách Toán và 7 quyển sách Văn (các quyển sách khác nhau). Có bao nhiêu cách chọn 1 quyển sách để đọc? <!-- v3 -->",
+      "choices": [
+        "6",
+        "13",
+        "42",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Áp dụng quy tắc cộng: số cách chọn là $6 + 7 = 13$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc nhân cơ bản (Nhóm 2)",
+      "question": "Một bạn có 2 chiếc áo sơ mi và 3 chiếc quần âu khác nhau. Có bao nhiêu cách chọn một bộ quần áo gồm 1 áo và 1 quần? <!-- v0 -->",
+      "choices": [
+        "5",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Theo quy tắc nhân: số cách chọn là $(2) \\times (3) = 6$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc nhân cơ bản (Nhóm 2)",
+      "question": "Một bạn có 3 chiếc áo sơ mi và 4 chiếc quần âu khác nhau. Có bao nhiêu cách chọn một bộ quần áo gồm 1 áo và 1 quần? <!-- v1 -->",
+      "choices": [
+        "4",
+        "7",
+        "12",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Theo quy tắc nhân: số cách chọn là $(3) \\times (4) = 12$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc nhân cơ bản (Nhóm 2)",
+      "question": "Một bạn có 4 chiếc áo sơ mi và 5 chiếc quần âu khác nhau. Có bao nhiêu cách chọn một bộ quần áo gồm 1 áo và 1 quần? <!-- v2 -->",
+      "choices": [
+        "20",
+        "4",
+        "9",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Theo quy tắc nhân: số cách chọn là $(4) \\times (5) = 20$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Quy tắc nhân cơ bản (Nhóm 2)",
+      "question": "Một bạn có 5 chiếc áo sơ mi và 6 chiếc quần âu khác nhau. Có bao nhiêu cách chọn một bộ quần áo gồm 1 áo và 1 quần? <!-- v3 -->",
+      "choices": [
+        "30",
+        "11",
+        "6",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Theo quy tắc nhân: số cách chọn là $(5) \\times (6) = 30$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số hoán vị của n phần tử (Nhóm 3)",
+      "question": "Có bao nhiêu cách xếp 3 bạn học sinh thành một hàng dọc? <!-- v0 -->",
+      "choices": [
+        "6",
+        "3",
+        "3! = 6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Số cách xếp là số hoán vị của 3 phần tử: $P_{3} = (3)!$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số hoán vị của n phần tử (Nhóm 3)",
+      "question": "Có bao nhiêu cách xếp 4 bạn học sinh thành một hàng dọc? <!-- v1 -->",
+      "choices": [
+        "8",
+        "4",
+        "4! = 24",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Số cách xếp là số hoán vị của 4 phần tử: $P_{4} = (4)!$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số hoán vị của n phần tử (Nhóm 3)",
+      "question": "Có bao nhiêu cách xếp 5 bạn học sinh thành một hàng dọc? <!-- v2 -->",
+      "choices": [
+        "10",
+        "5! = 120",
+        "25",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Số cách xếp là số hoán vị của 5 phần tử: $P_{5} = (5)!$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số hoán vị của n phần tử (Nhóm 3)",
+      "question": "Có bao nhiêu cách xếp 6 bạn học sinh thành một hàng dọc? <!-- v3 -->",
+      "choices": [
+        "6",
+        "12",
+        "6! = 720",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "Số cách xếp là số hoán vị của 6 phần tử: $P_{6} = (6)!$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa chỉnh hợp (Nhóm 4)",
+      "question": "Số các chỉnh hợp chập $k$ của một tập hợp có $n$ phần tử ($1 \\le k \\le n$) được kí hiệu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$P_n$",
+        "$n^k$",
+        "$C_n^k$",
+        "$A_n^k$"
+      ],
+      "answer": 3,
+      "explanation": "Kí hiệu số chỉnh hợp chập $k$ của $n$ phần tử là $A_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa chỉnh hợp (Nhóm 4)",
+      "question": "Số các chỉnh hợp chập $k$ của một tập hợp có $n$ phần tử ($1 \\le k \\le n$) được kí hiệu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$C_n^k$",
+        "$A_n^k$",
+        "$P_n$",
+        "$n^k$"
+      ],
+      "answer": 1,
+      "explanation": "Kí hiệu số chỉnh hợp chập $k$ của $n$ phần tử là $A_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa chỉnh hợp (Nhóm 4)",
+      "question": "Số các chỉnh hợp chập $k$ của một tập hợp có $n$ phần tử ($1 \\le k \\le n$) được kí hiệu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$n^k$",
+        "$A_n^k$",
+        "$P_n$",
+        "$C_n^k$"
+      ],
+      "answer": 1,
+      "explanation": "Kí hiệu số chỉnh hợp chập $k$ của $n$ phần tử là $A_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa chỉnh hợp (Nhóm 4)",
+      "question": "Số các chỉnh hợp chập $k$ của một tập hợp có $n$ phần tử ($1 \\le k \\le n$) được kí hiệu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$A_n^k$",
+        "$n^k$",
+        "$C_n^k$",
+        "$P_n$"
+      ],
+      "answer": 0,
+      "explanation": "Kí hiệu số chỉnh hợp chập $k$ của $n$ phần tử là $A_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa tổ hợp (Nhóm 5)",
+      "question": "Số các tổ hợp chập $k$ của một tập hợp có $n$ phần tử ($0 \\le k \\le n$) được kí hiệu là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$k^n$",
+        "$C_n^k$",
+        "$P_n$",
+        "$A_n^k$"
+      ],
+      "answer": 1,
+      "explanation": "Kí hiệu số tổ hợp chập $k$ của $n$ phần tử là $C_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa tổ hợp (Nhóm 5)",
+      "question": "Số các tổ hợp chập $k$ của một tập hợp có $n$ phần tử ($0 \\le k \\le n$) được kí hiệu là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$P_n$",
+        "$k^n$",
+        "$A_n^k$",
+        "$C_n^k$"
+      ],
+      "answer": 3,
+      "explanation": "Kí hiệu số tổ hợp chập $k$ của $n$ phần tử là $C_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa tổ hợp (Nhóm 5)",
+      "question": "Số các tổ hợp chập $k$ của một tập hợp có $n$ phần tử ($0 \\le k \\le n$) được kí hiệu là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$P_n$",
+        "$C_n^k$",
+        "$A_n^k$",
+        "$k^n$"
+      ],
+      "answer": 1,
+      "explanation": "Kí hiệu số tổ hợp chập $k$ của $n$ phần tử là $C_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Định nghĩa tổ hợp (Nhóm 5)",
+      "question": "Số các tổ hợp chập $k$ của một tập hợp có $n$ phần tử ($0 \\le k \\le n$) được kí hiệu là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$C_n^k$",
+        "$P_n$",
+        "$k^n$",
+        "$A_n^k$"
+      ],
+      "answer": 0,
+      "explanation": "Kí hiệu số tổ hợp chập $k$ của $n$ phần tử là $C_n^k$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Công thức tính số tổ hợp (Nhóm 6)",
+      "question": "Công thức tính số tổ hợp $C_n^k$ ($0 \\le k \\le n$) là (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$C_n^k = \\frac{n!}{k!}$",
+        "$C_n^k = \\frac{k!}{(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!(n-k)!}$",
+        "$C_n^k = \\frac{n!}{(n-k)!}$"
+      ],
+      "answer": 2,
+      "explanation": "Công thức tổ hợp là $C_n^k = \\frac{n!}{k!(n-k)!}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Công thức tính số tổ hợp (Nhóm 6)",
+      "question": "Công thức tính số tổ hợp $C_n^k$ ($0 \\le k \\le n$) là (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$C_n^k = \\frac{k!}{(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!}$",
+        "$C_n^k = \\frac{n!}{(n-k)!}$"
+      ],
+      "answer": 1,
+      "explanation": "Công thức tổ hợp là $C_n^k = \\frac{n!}{k!(n-k)!}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Công thức tính số tổ hợp (Nhóm 6)",
+      "question": "Công thức tính số tổ hợp $C_n^k$ ($0 \\le k \\le n$) là (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$C_n^k = \\frac{k!}{(n-k)!}$",
+        "$C_n^k = \\frac{n!}{(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!}$"
+      ],
+      "answer": 2,
+      "explanation": "Công thức tổ hợp là $C_n^k = \\frac{n!}{k!(n-k)!}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Công thức tính số tổ hợp (Nhóm 6)",
+      "question": "Công thức tính số tổ hợp $C_n^k$ ($0 \\le k \\le n$) là (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$C_n^k = \\frac{n!}{(n-k)!}$",
+        "$C_n^k = \\frac{k!}{(n-k)!}$",
+        "$C_n^k = \\frac{n!}{k!}$",
+        "$C_n^k = \\frac{n!}{k!(n-k)!}$"
+      ],
+      "answer": 3,
+      "explanation": "Công thức tổ hợp là $C_n^k = \\frac{n!}{k!(n-k)!}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Tính chất đối xứng của tổ hợp (Nhóm 7)",
+      "question": "Khẳng định nào sau đây là ĐÚNG với $0 \\le k \\le n$ (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$C_n^k = C_{n-1}^k$",
+        "$C_n^k = A_n^{n-k}$",
+        "$C_n^k = C_{n+1}^k$",
+        "$C_n^k = C_n^{n-k}$"
+      ],
+      "answer": 3,
+      "explanation": "Tính chất cơ bản của tổ hợp: $C_n^k = C_n^{n-k}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Tính chất đối xứng của tổ hợp (Nhóm 7)",
+      "question": "Khẳng định nào sau đây là ĐÚNG với $0 \\le k \\le n$ (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$C_n^k = C_{n+1}^k$",
+        "$C_n^k = C_n^{n-k}$",
+        "$C_n^k = A_n^{n-k}$",
+        "$C_n^k = C_{n-1}^k$"
+      ],
+      "answer": 1,
+      "explanation": "Tính chất cơ bản của tổ hợp: $C_n^k = C_n^{n-k}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Tính chất đối xứng của tổ hợp (Nhóm 7)",
+      "question": "Khẳng định nào sau đây là ĐÚNG với $0 \\le k \\le n$ (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$C_n^k = C_{n+1}^k$",
+        "$C_n^k = C_n^{n-k}$",
+        "$C_n^k = C_{n-1}^k$",
+        "$C_n^k = A_n^{n-k}$"
+      ],
+      "answer": 1,
+      "explanation": "Tính chất cơ bản của tổ hợp: $C_n^k = C_n^{n-k}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Tính chất đối xứng của tổ hợp (Nhóm 7)",
+      "question": "Khẳng định nào sau đây là ĐÚNG với $0 \\le k \\le n$ (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$C_n^k = C_{n+1}^k$",
+        "$C_n^k = A_n^{n-k}$",
+        "$C_n^k = C_{n-1}^k$",
+        "$C_n^k = C_n^{n-k}$"
+      ],
+      "answer": 3,
+      "explanation": "Tính chất cơ bản của tổ hợp: $C_n^k = C_n^{n-k}$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tập hợp con gồm k phần tử (Nhóm 8)",
+      "question": "Một tập hợp có 4 phần tử. Số tập con có 2 phần tử của tập hợp đó là: <!-- v0 -->",
+      "choices": [
+        "$C_{4}^2 = 6$",
+        "$A_{4}^2 = 12$",
+        "4",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Số tập con có 2 phần tử là $C_{4}^2 = \\frac{(4)(3)}{2} = 6$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tập hợp con gồm k phần tử (Nhóm 8)",
+      "question": "Một tập hợp có 5 phần tử. Số tập con có 2 phần tử của tập hợp đó là: <!-- v1 -->",
+      "choices": [
+        "5",
+        "10",
+        "$A_{5}^2 = 20$",
+        "$C_{5}^2 = 10$"
+      ],
+      "answer": 3,
+      "explanation": "Số tập con có 2 phần tử là $C_{5}^2 = \\frac{(5)(4)}{2} = 10$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tập hợp con gồm k phần tử (Nhóm 8)",
+      "question": "Một tập hợp có 6 phần tử. Số tập con có 2 phần tử của tập hợp đó là: <!-- v2 -->",
+      "choices": [
+        "6",
+        "$A_{6}^2 = 30$",
+        "12",
+        "$C_{6}^2 = 15$"
+      ],
+      "answer": 3,
+      "explanation": "Số tập con có 2 phần tử là $C_{6}^2 = \\frac{(6)(5)}{2} = 15$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tập hợp con gồm k phần tử (Nhóm 8)",
+      "question": "Một tập hợp có 7 phần tử. Số tập con có 2 phần tử của tập hợp đó là: <!-- v3 -->",
+      "choices": [
+        "$A_{7}^2 = 42$",
+        "$C_{7}^2 = 21$",
+        "7",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "Số tập con có 2 phần tử là $C_{7}^2 = \\frac{(7)(6)}{2} = 21$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện không phân biệt chức vụ (Nhóm 9)",
+      "question": "Một tổ có 5 học sinh. Có bao nhiêu cách chọn 2 học sinh đi trực nhật? <!-- v0 -->",
+      "choices": [
+        "$C_{5}^2 = 10$",
+        "10",
+        "$A_{5}^2 = 20$",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Chọn 2 học sinh không phân biệt thứ tự là một tổ hợp: $C_{5}^2 = 10$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện không phân biệt chức vụ (Nhóm 9)",
+      "question": "Một tổ có 6 học sinh. Có bao nhiêu cách chọn 2 học sinh đi trực nhật? <!-- v1 -->",
+      "choices": [
+        "$A_{6}^2 = 30$",
+        "6",
+        "$C_{6}^2 = 15$",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Chọn 2 học sinh không phân biệt thứ tự là một tổ hợp: $C_{6}^2 = 15$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện không phân biệt chức vụ (Nhóm 9)",
+      "question": "Một tổ có 7 học sinh. Có bao nhiêu cách chọn 2 học sinh đi trực nhật? <!-- v2 -->",
+      "choices": [
+        "$C_{7}^2 = 21$",
+        "14",
+        "$A_{7}^2 = 42$",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Chọn 2 học sinh không phân biệt thứ tự là một tổ hợp: $C_{7}^2 = 21$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện không phân biệt chức vụ (Nhóm 9)",
+      "question": "Một tổ có 8 học sinh. Có bao nhiêu cách chọn 2 học sinh đi trực nhật? <!-- v3 -->",
+      "choices": [
+        "$A_{8}^2 = 56$",
+        "8",
+        "16",
+        "$C_{8}^2 = 28$"
+      ],
+      "answer": 3,
+      "explanation": "Chọn 2 học sinh không phân biệt thứ tự là một tổ hợp: $C_{8}^2 = 28$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện có phân biệt chức vụ (Nhóm 10)",
+      "question": "Một tổ có 5 học sinh. Có bao nhiêu cách chọn 1 bạn làm tổ trưởng và 1 bạn làm tổ phó? <!-- v0 -->",
+      "choices": [
+        "$A_{5}^2 = 20$",
+        "10",
+        "25",
+        "$C_{5}^2 = 10$"
+      ],
+      "answer": 0,
+      "explanation": "Chọn có phân biệt thứ tự/chức vụ là một chỉnh hợp: $A_{5}^2 = 20$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện có phân biệt chức vụ (Nhóm 10)",
+      "question": "Một tổ có 6 học sinh. Có bao nhiêu cách chọn 1 bạn làm tổ trưởng và 1 bạn làm tổ phó? <!-- v1 -->",
+      "choices": [
+        "36",
+        "$A_{6}^2 = 30$",
+        "12",
+        "$C_{6}^2 = 15$"
+      ],
+      "answer": 1,
+      "explanation": "Chọn có phân biệt thứ tự/chức vụ là một chỉnh hợp: $A_{6}^2 = 30$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện có phân biệt chức vụ (Nhóm 10)",
+      "question": "Một tổ có 7 học sinh. Có bao nhiêu cách chọn 1 bạn làm tổ trưởng và 1 bạn làm tổ phó? <!-- v2 -->",
+      "choices": [
+        "14",
+        "$A_{7}^2 = 42$",
+        "49",
+        "$C_{7}^2 = 21$"
+      ],
+      "answer": 1,
+      "explanation": "Chọn có phân biệt thứ tự/chức vụ là một chỉnh hợp: $A_{7}^2 = 42$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đại diện có phân biệt chức vụ (Nhóm 10)",
+      "question": "Một tổ có 8 học sinh. Có bao nhiêu cách chọn 1 bạn làm tổ trưởng và 1 bạn làm tổ phó? <!-- v3 -->",
+      "choices": [
+        "16",
+        "$A_{8}^2 = 56$",
+        "64",
+        "$C_{8}^2 = 28$"
+      ],
+      "answer": 1,
+      "explanation": "Chọn có phân biệt thứ tự/chức vụ là một chỉnh hợp: $A_{8}^2 = 56$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số số tự nhiên có các chữ số khác nhau (Nhóm 11)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 2 chữ số khác nhau (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$15$",
+        "$20$",
+        "$25$",
+        "$10$"
+      ],
+      "answer": 1,
+      "explanation": "Số cách lập là $A_5^2 = 5 \\times 4 = 20$.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số số tự nhiên có các chữ số khác nhau (Nhóm 11)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 2 chữ số khác nhau (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$20$",
+        "$10$",
+        "$25$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "Số cách lập là $A_5^2 = 5 \\times 4 = 20$.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số số tự nhiên có các chữ số khác nhau (Nhóm 11)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 2 chữ số khác nhau (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$20$",
+        "$25$",
+        "$15$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "Số cách lập là $A_5^2 = 5 \\times 4 = 20$.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số số tự nhiên có các chữ số khác nhau (Nhóm 11)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 2 chữ số khác nhau (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$25$",
+        "$15$",
+        "$20$",
+        "$10$"
+      ],
+      "answer": 2,
+      "explanation": "Số cách lập là $A_5^2 = 5 \\times 4 = 20$.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 4 (Nhóm 12)",
+      "question": "Khai triển của $(a + b)^4$ có bao nhiêu số hạng (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "6 số hạng",
+        "4 số hạng",
+        "3 số hạng",
+        "5 số hạng"
+      ],
+      "answer": 3,
+      "explanation": "Khai triển $(a + b)^n$ có $n + 1$ số hạng, với $n = 4$ có $4 + 1 = 5$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 4 (Nhóm 12)",
+      "question": "Khai triển của $(a + b)^4$ có bao nhiêu số hạng (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "6 số hạng",
+        "4 số hạng",
+        "3 số hạng",
+        "5 số hạng"
+      ],
+      "answer": 3,
+      "explanation": "Khai triển $(a + b)^n$ có $n + 1$ số hạng, với $n = 4$ có $4 + 1 = 5$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 4 (Nhóm 12)",
+      "question": "Khai triển của $(a + b)^4$ có bao nhiêu số hạng (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "3 số hạng",
+        "6 số hạng",
+        "5 số hạng",
+        "4 số hạng"
+      ],
+      "answer": 2,
+      "explanation": "Khai triển $(a + b)^n$ có $n + 1$ số hạng, với $n = 4$ có $4 + 1 = 5$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 4 (Nhóm 12)",
+      "question": "Khai triển của $(a + b)^4$ có bao nhiêu số hạng (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "6 số hạng",
+        "5 số hạng",
+        "4 số hạng",
+        "3 số hạng"
+      ],
+      "answer": 1,
+      "explanation": "Khai triển $(a + b)^n$ có $n + 1$ số hạng, với $n = 4$ có $4 + 1 = 5$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 5 (Nhóm 13)",
+      "question": "Khai triển của $(a + b)^5$ có bao nhiêu số hạng (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "5 số hạng",
+        "6 số hạng",
+        "4 số hạng",
+        "7 số hạng"
+      ],
+      "answer": 1,
+      "explanation": "Với $n = 5$, số số hạng trong khai triển là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 5 (Nhóm 13)",
+      "question": "Khai triển của $(a + b)^5$ có bao nhiêu số hạng (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "6 số hạng",
+        "5 số hạng",
+        "7 số hạng",
+        "4 số hạng"
+      ],
+      "answer": 0,
+      "explanation": "Với $n = 5$, số số hạng trong khai triển là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 5 (Nhóm 13)",
+      "question": "Khai triển của $(a + b)^5$ có bao nhiêu số hạng (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "6 số hạng",
+        "5 số hạng",
+        "4 số hạng",
+        "7 số hạng"
+      ],
+      "answer": 0,
+      "explanation": "Với $n = 5$, số số hạng trong khai triển là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng trong khai triển nhị thức Newton bậc 5 (Nhóm 13)",
+      "question": "Khai triển của $(a + b)^5$ có bao nhiêu số hạng (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "4 số hạng",
+        "6 số hạng",
+        "7 số hạng",
+        "5 số hạng"
+      ],
+      "answer": 1,
+      "explanation": "Với $n = 5$, số số hạng trong khai triển là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của số hạng đầu tiên trong nhị thức (Nhóm 14)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 1)^4$ là: <!-- v0 -->",
+      "choices": [
+        "$6$",
+        "$16$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 2,
+      "explanation": "Số hạng đầu tiên là $x^4$, hệ số bằng 1.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của số hạng đầu tiên trong nhị thức (Nhóm 14)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 2)^4$ là: <!-- v1 -->",
+      "choices": [
+        "$1$",
+        "$81$",
+        "$10$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng đầu tiên là $x^4$, hệ số bằng 1.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của số hạng đầu tiên trong nhị thức (Nhóm 14)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 3)^4$ là: <!-- v2 -->",
+      "choices": [
+        "$1$",
+        "$14$",
+        "$256$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng đầu tiên là $x^4$, hệ số bằng 1.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của số hạng đầu tiên trong nhị thức (Nhóm 14)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 4)^4$ là: <!-- v3 -->",
+      "choices": [
+        "$18$",
+        "$625$",
+        "$5$",
+        "$1$"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng đầu tiên là $x^4$, hệ số bằng 1.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số tự do trong nhị thức Newton bậc 4 (Nhóm 15)",
+      "question": "Hệ số tự do (không chứa $x$) trong khai triển $(x + 2)^4$ là: <!-- v0 -->",
+      "choices": [
+        "$16$",
+        "$36$",
+        "$6$",
+        "$26$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số tự do là $(2)^4 = 16$.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số tự do trong nhị thức Newton bậc 4 (Nhóm 15)",
+      "question": "Hệ số tự do (không chứa $x$) trong khai triển $(x + 3)^4$ là: <!-- v1 -->",
+      "choices": [
+        "$91$",
+        "$81$",
+        "$71$",
+        "$101$"
+      ],
+      "answer": 1,
+      "explanation": "Hệ số tự do là $(3)^4 = 81$.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số tự do trong nhị thức Newton bậc 4 (Nhóm 15)",
+      "question": "Hệ số tự do (không chứa $x$) trong khai triển $(x + 4)^4$ là: <!-- v2 -->",
+      "choices": [
+        "$256$",
+        "$266$",
+        "$246$",
+        "$276$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số tự do là $(4)^4 = 256$.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số tự do trong nhị thức Newton bậc 4 (Nhóm 15)",
+      "question": "Hệ số tự do (không chứa $x$) trong khai triển $(x + 5)^4$ là: <!-- v3 -->",
+      "choices": [
+        "$625$",
+        "$645$",
+        "$615$",
+        "$635$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số tự do là $(5)^4 = 625$.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số tự nhiên chẵn gồm 3 chữ số (Nhóm 16)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và là số chẵn? <!-- v0 -->",
+      "choices": [
+        "$60$",
+        "$30$",
+        "$40$",
+        "$120$"
+      ],
+      "answer": 0,
+      "explanation": "Chữ số hàng đơn vị có 3 cách chọn (2, 4, 6). Hai chữ số còn lại chọn từ 5 chữ số có $A_5^2 = 20$ cách. Tổng cộng $3 \\times 20 = 60$ số.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chẵn gồm 3 chữ số (Nhóm 16)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và là số chẵn? <!-- v1 -->",
+      "choices": [
+        "$30$",
+        "$60$",
+        "$40$",
+        "$120$"
+      ],
+      "answer": 1,
+      "explanation": "Chữ số hàng đơn vị có 3 cách chọn (2, 4, 6). Hai chữ số còn lại chọn từ 5 chữ số có $A_5^2 = 20$ cách. Tổng cộng $3 \\times 20 = 60$ số.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chẵn gồm 3 chữ số (Nhóm 16)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và là số chẵn? <!-- v2 -->",
+      "choices": [
+        "$30$",
+        "$40$",
+        "$60$",
+        "$120$"
+      ],
+      "answer": 2,
+      "explanation": "Chữ số hàng đơn vị có 3 cách chọn (2, 4, 6). Hai chữ số còn lại chọn từ 5 chữ số có $A_5^2 = 20$ cách. Tổng cộng $3 \\times 20 = 60$ số.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chẵn gồm 3 chữ số (Nhóm 16)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và là số chẵn? <!-- v3 -->",
+      "choices": [
+        "$120$",
+        "$30$",
+        "$40$",
+        "$60$"
+      ],
+      "answer": 3,
+      "explanation": "Chữ số hàng đơn vị có 3 cách chọn (2, 4, 6). Hai chữ số còn lại chọn từ 5 chữ số có $A_5^2 = 20$ cách. Tổng cộng $3 \\times 20 = 60$ số.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Chọn đội tuyển nam và nữ (Nhóm 17)",
+      "question": "Một nhóm gồm 4 nam và 3 nữ. Có bao nhiêu cách chọn 2 học sinh gồm 1 nam và 1 nữ? <!-- v0 -->",
+      "choices": [
+        "7",
+        "6",
+        "12",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Chọn 1 nam có 4 cách, chọn 1 nữ có 3 cách. Theo quy tắc nhân có $(4)(3) = 12$ cách.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển nam và nữ (Nhóm 17)",
+      "question": "Một nhóm gồm 5 nam và 4 nữ. Có bao nhiêu cách chọn 2 học sinh gồm 1 nam và 1 nữ? <!-- v1 -->",
+      "choices": [
+        "10",
+        "20",
+        "9",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Chọn 1 nam có 5 cách, chọn 1 nữ có 4 cách. Theo quy tắc nhân có $(5)(4) = 20$ cách.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển nam và nữ (Nhóm 17)",
+      "question": "Một nhóm gồm 6 nam và 5 nữ. Có bao nhiêu cách chọn 2 học sinh gồm 1 nam và 1 nữ? <!-- v2 -->",
+      "choices": [
+        "11",
+        "30",
+        "15",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "Chọn 1 nam có 6 cách, chọn 1 nữ có 5 cách. Theo quy tắc nhân có $(6)(5) = 30$ cách.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển nam và nữ (Nhóm 17)",
+      "question": "Một nhóm gồm 7 nam và 6 nữ. Có bao nhiêu cách chọn 2 học sinh gồm 1 nam và 1 nữ? <!-- v3 -->",
+      "choices": [
+        "49",
+        "42",
+        "21",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Chọn 1 nam có 7 cách, chọn 1 nữ có 6 cách. Theo quy tắc nhân có $(7)(6) = 42$ cách.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Xếp hai người đứng cạnh nhau (Nhóm 18)",
+      "question": "Có bao nhiêu cách xếp 4 bạn thành hàng dọc sao cho 2 bạn A và B luôn đứng cạnh nhau? <!-- v0 -->",
+      "choices": [
+        "18",
+        "4",
+        "16",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "Coi A và B là 1 khối, có $( 3 )!$ cách xếp khối cùng các bạn còn lại. A và B đổi chỗ cho nhau có 2 cách. Số cách là $2 \\times (3)!$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Xếp hai người đứng cạnh nhau (Nhóm 18)",
+      "question": "Có bao nhiêu cách xếp 5 bạn thành hàng dọc sao cho 2 bạn A và B luôn đứng cạnh nhau? <!-- v1 -->",
+      "choices": [
+        "5",
+        "18",
+        "48",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "Coi A và B là 1 khối, có $( 4 )!$ cách xếp khối cùng các bạn còn lại. A và B đổi chỗ cho nhau có 2 cách. Số cách là $2 \\times (4)!$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Xếp hai người đứng cạnh nhau (Nhóm 18)",
+      "question": "Có bao nhiêu cách xếp 6 bạn thành hàng dọc sao cho 2 bạn A và B luôn đứng cạnh nhau? <!-- v2 -->",
+      "choices": [
+        "240",
+        "36",
+        "18",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Coi A và B là 1 khối, có $( 5 )!$ cách xếp khối cùng các bạn còn lại. A và B đổi chỗ cho nhau có 2 cách. Số cách là $2 \\times (5)!$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Xếp hai người đứng cạnh nhau (Nhóm 18)",
+      "question": "Có bao nhiêu cách xếp 7 bạn thành hàng dọc sao cho 2 bạn A và B luôn đứng cạnh nhau? <!-- v3 -->",
+      "choices": [
+        "1440",
+        "18",
+        "7",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "Coi A và B là 1 khối, có $( 6 )!$ cách xếp khối cùng các bạn còn lại. A và B đổi chỗ cho nhau có 2 cách. Số cách là $2 \\times (6)!$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số đường chéo của đa giác đều (Nhóm 19)",
+      "question": "Số đường chéo của một đa giác lồi 5 đỉnh là: <!-- v0 -->",
+      "choices": [
+        "13",
+        "5",
+        "20",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Số đường chéo của đa giác $n$ đỉnh là $C_n^2 - n = \\frac{n(n-3)}{2}$. Với $n = 5$, số đường chéo là $\\frac{(5)(2)}{2} = 5$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số đường chéo của đa giác đều (Nhóm 19)",
+      "question": "Số đường chéo của một đa giác lồi 6 đỉnh là: <!-- v1 -->",
+      "choices": [
+        "23",
+        "18",
+        "9",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Số đường chéo của đa giác $n$ đỉnh là $C_n^2 - n = \\frac{n(n-3)}{2}$. Với $n = 6$, số đường chéo là $\\frac{(6)(3)}{2} = 9$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số đường chéo của đa giác đều (Nhóm 19)",
+      "question": "Số đường chéo của một đa giác lồi 7 đỉnh là: <!-- v2 -->",
+      "choices": [
+        "24",
+        "3",
+        "26",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "Số đường chéo của đa giác $n$ đỉnh là $C_n^2 - n = \\frac{n(n-3)}{2}$. Với $n = 7$, số đường chéo là $\\frac{(7)(4)}{2} = 14$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số đường chéo của đa giác đều (Nhóm 19)",
+      "question": "Số đường chéo của một đa giác lồi 8 đỉnh là: <!-- v3 -->",
+      "choices": [
+        "31",
+        "20",
+        "4",
+        "29"
+      ],
+      "answer": 1,
+      "explanation": "Số đường chéo của đa giác $n$ đỉnh là $C_n^2 - n = \\frac{n(n-3)}{2}$. Với $n = 8$, số đường chéo là $\\frac{(8)(5)}{2} = 20$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo bởi các đỉnh của đa giác (Nhóm 20)",
+      "question": "Cho đa giác lồi có 5 đỉnh. Có bao nhiêu tam giác có các đỉnh là đỉnh của đa giác? <!-- v0 -->",
+      "choices": [
+        "5",
+        "$A_{5}^3$",
+        "$C_{5}^3 = 10$",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Mỗi tam giác được tạo bởi 3 đỉnh bất kì: $C_{5}^3 = 10$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo bởi các đỉnh của đa giác (Nhóm 20)",
+      "question": "Cho đa giác lồi có 6 đỉnh. Có bao nhiêu tam giác có các đỉnh là đỉnh của đa giác? <!-- v1 -->",
+      "choices": [
+        "$C_{6}^3 = 20$",
+        "6",
+        "18",
+        "$A_{6}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi tam giác được tạo bởi 3 đỉnh bất kì: $C_{6}^3 = 20$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo bởi các đỉnh của đa giác (Nhóm 20)",
+      "question": "Cho đa giác lồi có 7 đỉnh. Có bao nhiêu tam giác có các đỉnh là đỉnh của đa giác? <!-- v2 -->",
+      "choices": [
+        "$C_{7}^3 = 35$",
+        "7",
+        "$A_{7}^3$",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi tam giác được tạo bởi 3 đỉnh bất kì: $C_{7}^3 = 35$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo bởi các đỉnh của đa giác (Nhóm 20)",
+      "question": "Cho đa giác lồi có 8 đỉnh. Có bao nhiêu tam giác có các đỉnh là đỉnh của đa giác? <!-- v3 -->",
+      "choices": [
+        "24",
+        "$C_{8}^3 = 56$",
+        "8",
+        "$A_{8}^3$"
+      ],
+      "answer": 1,
+      "explanation": "Mỗi tam giác được tạo bởi 3 đỉnh bất kì: $C_{8}^3 = 56$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Khai triển nhị thức Newton bậc 4 có hệ số (Nhóm 21)",
+      "question": "Hệ số của $x^3$ trong khai triển $(x + 1)^4$ là: <!-- v0 -->",
+      "choices": [
+        "$6$",
+        "$12$",
+        "$11$",
+        "$4$"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(1) = 4x^3$. Hệ số là $4$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức Newton bậc 4 có hệ số (Nhóm 21)",
+      "question": "Hệ số của $x^3$ trong khai triển $(x + 2)^4$ là: <!-- v1 -->",
+      "choices": [
+        "$16$",
+        "$18$",
+        "$24$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(2) = 8x^3$. Hệ số là $8$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức Newton bậc 4 có hệ số (Nhóm 21)",
+      "question": "Hệ số của $x^3$ trong khai triển $(x + 3)^4$ là: <!-- v2 -->",
+      "choices": [
+        "$12$",
+        "$54$",
+        "$37$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(3) = 12x^3$. Hệ số là $12$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức Newton bậc 4 có hệ số (Nhóm 21)",
+      "question": "Hệ số của $x^3$ trong khai triển $(x + 4)^4$ là: <!-- v3 -->",
+      "choices": [
+        "$16$",
+        "$24$",
+        "$96$",
+        "$74$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(4) = 16x^3$. Hệ số là $16$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^2 trong khai triển bậc 4 (Nhóm 22)",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 1)^4$ là: <!-- v0 -->",
+      "choices": [
+        "$13$",
+        "$6$",
+        "$11$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "Số hạng chứa $x^2$ là $6x^2(1)^2 = 6x^2$. Hệ số là $6$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^2 trong khai triển bậc 4 (Nhóm 22)",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 2)^4$ là: <!-- v1 -->",
+      "choices": [
+        "$24$",
+        "$25$",
+        "$14$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng chứa $x^2$ là $6x^2(2)^2 = 24x^2$. Hệ số là $24$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^2 trong khai triển bậc 4 (Nhóm 22)",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 3)^4$ là: <!-- v2 -->",
+      "choices": [
+        "$12$",
+        "$19$",
+        "$54$",
+        "$37$"
+      ],
+      "answer": 2,
+      "explanation": "Số hạng chứa $x^2$ là $6x^2(3)^2 = 54x^2$. Hệ số là $54$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^2 trong khai triển bậc 4 (Nhóm 22)",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 4)^4$ là: <!-- v3 -->",
+      "choices": [
+        "$49$",
+        "$16$",
+        "$26$",
+        "$96$"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng chứa $x^2$ là $6x^2(4)^2 = 96x^2$. Hệ số là $96$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^4 trong khai triển bậc 5 (Nhóm 23)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 2)^5$ là: <!-- v0 -->",
+      "choices": [
+        "$10$",
+        "$17$",
+        "$16$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng chứa $x^4$ là $5x^4(2) = 10x^4$. Hệ số là $10$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^4 trong khai triển bậc 5 (Nhóm 23)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 3)^5$ là: <!-- v1 -->",
+      "choices": [
+        "$22$",
+        "$90$",
+        "$81$",
+        "$15$"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng chứa $x^4$ là $5x^4(3) = 15x^4$. Hệ số là $15$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^4 trong khai triển bậc 5 (Nhóm 23)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 4)^5$ là: <!-- v2 -->",
+      "choices": [
+        "$256$",
+        "$160$",
+        "$20$",
+        "$27$"
+      ],
+      "answer": 2,
+      "explanation": "Số hạng chứa $x^4$ là $5x^4(4) = 20x^4$. Hệ số là $20$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^4 trong khai triển bậc 5 (Nhóm 23)",
+      "question": "Hệ số của $x^4$ trong khai triển $(x + 5)^5$ là: <!-- v3 -->",
+      "choices": [
+        "$625$",
+        "$25$",
+        "$250$",
+        "$32$"
+      ],
+      "answer": 1,
+      "explanation": "Số hạng chứa $x^4$ là $5x^4(5) = 25x^4$. Hệ số là $25$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số trong khai triển (Nhóm 24)",
+      "question": "Tổng các hệ số trong khai triển nhị thức $(1 + 1x)^4$ là: <!-- v0 -->",
+      "choices": [
+        "$4$",
+        "$16$",
+        "$8$",
+        "$1$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $x = 1$ vào biểu thức: $(1 + 1)^4 = (2)^4 = 16$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số trong khai triển (Nhóm 24)",
+      "question": "Tổng các hệ số trong khai triển nhị thức $(1 + 2x)^4$ là: <!-- v1 -->",
+      "choices": [
+        "$27$",
+        "$81$",
+        "$8$",
+        "$16$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $x = 1$ vào biểu thức: $(1 + 2)^4 = (3)^4 = 81$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số trong khai triển (Nhóm 24)",
+      "question": "Tổng các hệ số trong khai triển nhị thức $(1 + 3x)^4$ là: <!-- v2 -->",
+      "choices": [
+        "$256$",
+        "$12$",
+        "$64$",
+        "$81$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 1$ vào biểu thức: $(1 + 3)^4 = (4)^4 = 256$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số trong khai triển (Nhóm 24)",
+      "question": "Tổng các hệ số trong khai triển nhị thức $(1 + 4x)^4$ là: <!-- v3 -->",
+      "choices": [
+        "$256$",
+        "$125$",
+        "$625$",
+        "$16$"
+      ],
+      "answer": 2,
+      "explanation": "Thay $x = 1$ vào biểu thức: $(1 + 4)^4 = (5)^4 = 625$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Giải phương trình chứa tổ hợp (Nhóm 25)",
+      "question": "Tìm số nguyên dương $n$ thỏa mãn $C_n^1 + C_n^2 = 3$: <!-- v0 -->",
+      "choices": [
+        "$n = 4$",
+        "$n = 3$",
+        "$n = 2$",
+        "$n = 1$"
+      ],
+      "answer": 2,
+      "explanation": "Thay $n = 2$: $C_{2}^1 + C_{2}^2 = 2 + 1$. Vậy $n = 2$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Giải phương trình chứa tổ hợp (Nhóm 25)",
+      "question": "Tìm số nguyên dương $n$ thỏa mãn $C_n^1 + C_n^2 = 6$: <!-- v1 -->",
+      "choices": [
+        "$n = 5$",
+        "$n = 3$",
+        "$n = 4$",
+        "$n = 2$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $n = 3$: $C_{3}^1 + C_{3}^2 = 3 + 3$. Vậy $n = 3$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Giải phương trình chứa tổ hợp (Nhóm 25)",
+      "question": "Tìm số nguyên dương $n$ thỏa mãn $C_n^1 + C_n^2 = 10$: <!-- v2 -->",
+      "choices": [
+        "$n = 4$",
+        "$n = 3$",
+        "$n = 5$",
+        "$n = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $n = 4$: $C_{4}^1 + C_{4}^2 = 4 + 6$. Vậy $n = 4$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Giải phương trình chứa tổ hợp (Nhóm 25)",
+      "question": "Tìm số nguyên dương $n$ thỏa mãn $C_n^1 + C_n^2 = 15$: <!-- v3 -->",
+      "choices": [
+        "$n = 5$",
+        "$n = 6$",
+        "$n = 4$",
+        "$n = 7$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $n = 5$: $C_{5}^1 + C_{5}^2 = 5 + 10$. Vậy $n = 5$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số tập hợp con có số phần tử lẻ (Nhóm 26)",
+      "question": "Tập hợp $X$ có 4 phần tử. Số tập con có đúng 1 hoặc 3 phần tử của $X$ là: <!-- v0 -->",
+      "choices": [
+        "$6$",
+        "$4$",
+        "$16$",
+        "$8$"
+      ],
+      "answer": 3,
+      "explanation": "Số tập con là $C_4^1 + C_4^3 = 4 + 4 = 8$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số tập hợp con có số phần tử lẻ (Nhóm 26)",
+      "question": "Tập hợp $X$ có 4 phần tử. Số tập con có đúng 1 hoặc 3 phần tử của $X$ là: <!-- v1 -->",
+      "choices": [
+        "$8$",
+        "$16$",
+        "$6$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Số tập con là $C_4^1 + C_4^3 = 4 + 4 = 8$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số tập hợp con có số phần tử lẻ (Nhóm 26)",
+      "question": "Tập hợp $X$ có 4 phần tử. Số tập con có đúng 1 hoặc 3 phần tử của $X$ là: <!-- v2 -->",
+      "choices": [
+        "$16$",
+        "$8$",
+        "$4$",
+        "$6$"
+      ],
+      "answer": 1,
+      "explanation": "Số tập con là $C_4^1 + C_4^3 = 4 + 4 = 8$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Đếm số tập hợp con có số phần tử lẻ (Nhóm 26)",
+      "question": "Tập hợp $X$ có 4 phần tử. Số tập con có đúng 1 hoặc 3 phần tử của $X$ là: <!-- v3 -->",
+      "choices": [
+        "$16$",
+        "$6$",
+        "$8$",
+        "$4$"
+      ],
+      "answer": 2,
+      "explanation": "Số tập con là $C_4^1 + C_4^3 = 4 + 4 = 8$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Khai triển nhị thức có dấu trừ (Nhóm 27)",
+      "question": "Tìm hệ số của $x$ trong khai triển $(x - 1)^4$: <!-- v0 -->",
+      "choices": [
+        "$4$",
+        "-4",
+        "$21$",
+        "-6"
+      ],
+      "answer": 1,
+      "explanation": "Số hạng chứa $x$ là $4x(-1)^3 = -4x$. Hệ số là $-4$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức có dấu trừ (Nhóm 27)",
+      "question": "Tìm hệ số của $x$ trong khai triển $(x - 2)^4$: <!-- v1 -->",
+      "choices": [
+        "-32",
+        "-24",
+        "$36$",
+        "$32$"
+      ],
+      "answer": 0,
+      "explanation": "Số hạng chứa $x$ là $4x(-2)^3 = -32x$. Hệ số là $-32$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức có dấu trừ (Nhóm 27)",
+      "question": "Tìm hệ số của $x$ trong khai triển $(x - 3)^4$: <!-- v2 -->",
+      "choices": [
+        "-54",
+        "$101$",
+        "$108$",
+        "-108"
+      ],
+      "answer": 3,
+      "explanation": "Số hạng chứa $x$ là $4x(-3)^3 = -108x$. Hệ số là $-108$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Khai triển nhị thức có dấu trừ (Nhóm 27)",
+      "question": "Tìm hệ số của $x$ trong khai triển $(x - 4)^4$: <!-- v3 -->",
+      "choices": [
+        "$256$",
+        "-96",
+        "-256",
+        "$276$"
+      ],
+      "answer": 2,
+      "explanation": "Số hạng chứa $x$ là $4x(-4)^3 = -256x$. Hệ số là $-256$.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số tự nhiên chia hết cho 5 (Nhóm 28)",
+      "question": "Từ các chữ số 0, 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 (mẫu 1)? <!-- v0 -->",
+      "choices": [
+        "$36$",
+        "$40$",
+        "$48$",
+        "$32$"
+      ],
+      "answer": 0,
+      "explanation": "Trường hợp tận cùng là 0: $A_5^2 = 20$ số. Trường hợp tận cùng là 5: chữ số đầu có 4 cách, chữ số giữa có 4 cách, có $4 \\times 4 = 16$ số. Tổng cộng $20 + 16 = 36$ số.",
+      "level": "vd",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chia hết cho 5 (Nhóm 28)",
+      "question": "Từ các chữ số 0, 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 (mẫu 2)? <!-- v1 -->",
+      "choices": [
+        "$48$",
+        "$40$",
+        "$36$",
+        "$32$"
+      ],
+      "answer": 2,
+      "explanation": "Trường hợp tận cùng là 0: $A_5^2 = 20$ số. Trường hợp tận cùng là 5: chữ số đầu có 4 cách, chữ số giữa có 4 cách, có $4 \\times 4 = 16$ số. Tổng cộng $20 + 16 = 36$ số.",
+      "level": "vd",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chia hết cho 5 (Nhóm 28)",
+      "question": "Từ các chữ số 0, 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 (mẫu 3)? <!-- v2 -->",
+      "choices": [
+        "$48$",
+        "$40$",
+        "$32$",
+        "$36$"
+      ],
+      "answer": 3,
+      "explanation": "Trường hợp tận cùng là 0: $A_5^2 = 20$ số. Trường hợp tận cùng là 5: chữ số đầu có 4 cách, chữ số giữa có 4 cách, có $4 \\times 4 = 16$ số. Tổng cộng $20 + 16 = 36$ số.",
+      "level": "vd",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên chia hết cho 5 (Nhóm 28)",
+      "question": "Từ các chữ số 0, 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 (mẫu 4)? <!-- v3 -->",
+      "choices": [
+        "$36$",
+        "$48$",
+        "$40$",
+        "$32$"
+      ],
+      "answer": 0,
+      "explanation": "Trường hợp tận cùng là 0: $A_5^2 = 20$ số. Trường hợp tận cùng là 5: chữ số đầu có 4 cách, chữ số giữa có 4 cách, có $4 \\times 4 = 16$ số. Tổng cộng $20 + 16 = 36$ số.",
+      "level": "vd",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Chọn đội tuyển có ít nhất 1 bạn nữ (Nhóm 29)",
+      "question": "Một lớp có 5 nam và 4 nữ. Cần chọn 3 học sinh sao cho có ít nhất 1 học sinh nữ. Số cách chọn là: <!-- v0 -->",
+      "choices": [
+        "74",
+        "40",
+        "100",
+        "84"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số cách chọn 3 bạn bất kì là $C_{2v+9}^3$. Số cách chọn 3 bạn toàn nam là $C_{v+5}^3$. Số cách có ít nhất 1 nữ là $C_{2v+9}^3 - C_{v+5}^3$.",
+      "level": "vd",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển có ít nhất 1 bạn nữ (Nhóm 29)",
+      "question": "Một lớp có 6 nam và 5 nữ. Cần chọn 3 học sinh sao cho có ít nhất 1 học sinh nữ. Số cách chọn là: <!-- v1 -->",
+      "choices": [
+        "145",
+        "165",
+        "100",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số cách chọn 3 bạn bất kì là $C_{2v+9}^3$. Số cách chọn 3 bạn toàn nam là $C_{v+5}^3$. Số cách có ít nhất 1 nữ là $C_{2v+9}^3 - C_{v+5}^3$.",
+      "level": "vd",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển có ít nhất 1 bạn nữ (Nhóm 29)",
+      "question": "Một lớp có 7 nam và 6 nữ. Cần chọn 3 học sinh sao cho có ít nhất 1 học sinh nữ. Số cách chọn là: <!-- v2 -->",
+      "choices": [
+        "100",
+        "286",
+        "251",
+        "60"
+      ],
+      "answer": 2,
+      "explanation": "Tổng số cách chọn 3 bạn bất kì là $C_{2v+9}^3$. Số cách chọn 3 bạn toàn nam là $C_{v+5}^3$. Số cách có ít nhất 1 nữ là $C_{2v+9}^3 - C_{v+5}^3$.",
+      "level": "vd",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Chọn đội tuyển có ít nhất 1 bạn nữ (Nhóm 29)",
+      "question": "Một lớp có 8 nam và 7 nữ. Cần chọn 3 học sinh sao cho có ít nhất 1 học sinh nữ. Số cách chọn là: <!-- v3 -->",
+      "choices": [
+        "100",
+        "455",
+        "399",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "Tổng số cách chọn 3 bạn bất kì là $C_{2v+9}^3$. Số cách chọn 3 bạn toàn nam là $C_{v+5}^3$. Số cách có ít nhất 1 nữ là $C_{2v+9}^3 - C_{v+5}^3$.",
+      "level": "vd",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển tích (Nhóm 30)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển biểu thức $P(x) = (x + 1)^4 + (x + 2)^4$ (mẫu 1): <!-- v0 -->",
+      "choices": [
+        "$8$",
+        "$16$",
+        "$12$",
+        "$20$"
+      ],
+      "answer": 2,
+      "explanation": "Hệ số của $x^3$ trong $(x + 1)^4$ là $4(1) = 4$. Trong $(x + 2)^4$ là $4(2) = 8$. Tổng hệ số là $4 + 8 = 12$.",
+      "level": "vd",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển tích (Nhóm 30)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển biểu thức $P(x) = (x + 1)^4 + (x + 2)^4$ (mẫu 2): <!-- v1 -->",
+      "choices": [
+        "$20$",
+        "$8$",
+        "$16$",
+        "$12$"
+      ],
+      "answer": 3,
+      "explanation": "Hệ số của $x^3$ trong $(x + 1)^4$ là $4(1) = 4$. Trong $(x + 2)^4$ là $4(2) = 8$. Tổng hệ số là $4 + 8 = 12$.",
+      "level": "vd",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển tích (Nhóm 30)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển biểu thức $P(x) = (x + 1)^4 + (x + 2)^4$ (mẫu 3): <!-- v2 -->",
+      "choices": [
+        "$20$",
+        "$16$",
+        "$8$",
+        "$12$"
+      ],
+      "answer": 3,
+      "explanation": "Hệ số của $x^3$ trong $(x + 1)^4$ là $4(1) = 4$. Trong $(x + 2)^4$ là $4(2) = 8$. Tổng hệ số là $4 + 8 = 12$.",
+      "level": "vd",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển tích (Nhóm 30)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển biểu thức $P(x) = (x + 1)^4 + (x + 2)^4$ (mẫu 4): <!-- v3 -->",
+      "choices": [
+        "$16$",
+        "$20$",
+        "$8$",
+        "$12$"
+      ],
+      "answer": 3,
+      "explanation": "Hệ số của $x^3$ trong $(x + 1)^4$ là $4(1) = 4$. Trong $(x + 2)^4$ là $4(2) = 8$. Tổng hệ số là $4 + 8 = 12$.",
+      "level": "vd",
+      "lesson": "b25"
+    }
+  ],
+  "short": [
+    {
+      "dang": "Số hoán vị n phần tử (Nhóm 1)",
+      "question": "Tính số hoán vị của tập hợp có 3 phần tử (tức $P_{3}$). <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$P_{3} = (3)! = 6$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số hoán vị n phần tử (Nhóm 1)",
+      "question": "Tính số hoán vị của tập hợp có 4 phần tử (tức $P_{4}$). <!-- v1 -->",
+      "answer": "24",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$P_{4} = (4)! = 24$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số hoán vị n phần tử (Nhóm 1)",
+      "question": "Tính số hoán vị của tập hợp có 5 phần tử (tức $P_{5}$). <!-- v2 -->",
+      "answer": "120",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$P_{5} = (5)! = 120$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số chỉnh hợp chập 2 (Nhóm 2)",
+      "question": "Tính giá trị của $A_{4}^2$. <!-- v0 -->",
+      "answer": "12",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$A_{4}^2 = (4) \\times (3) = 12$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số chỉnh hợp chập 2 (Nhóm 2)",
+      "question": "Tính giá trị của $A_{5}^2$. <!-- v1 -->",
+      "answer": "20",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$A_{5}^2 = (5) \\times (4) = 20$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số chỉnh hợp chập 2 (Nhóm 2)",
+      "question": "Tính giá trị của $A_{6}^2$. <!-- v2 -->",
+      "answer": "30",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$A_{6}^2 = (6) \\times (5) = 30$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tổ hợp chập 2 (Nhóm 3)",
+      "question": "Tính giá trị của $C_{4}^2$. <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$C_{4}^2 = \\frac{(4)(3)}{2} = 6$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tổ hợp chập 2 (Nhóm 3)",
+      "question": "Tính giá trị của $C_{5}^2$. <!-- v1 -->",
+      "answer": "10",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$C_{5}^2 = \\frac{(5)(4)}{2} = 10$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tổ hợp chập 2 (Nhóm 3)",
+      "question": "Tính giá trị của $C_{6}^2$. <!-- v2 -->",
+      "answer": "15",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "$C_{6}^2 = \\frac{(6)(5)}{2} = 15$.",
+      "level": "nb",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số cách chọn 1 bạn từ 2 nhóm (Nhóm 4)",
+      "question": "Có 5 bông hoa hồng và 6 bông hoa cúc khác nhau. Có bao nhiêu cách chọn 1 bông hoa? <!-- v0 -->",
+      "answer": "11",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Quy tắc cộng: $5 + 6 = 11$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số cách chọn 1 bạn từ 2 nhóm (Nhóm 4)",
+      "question": "Có 6 bông hoa hồng và 7 bông hoa cúc khác nhau. Có bao nhiêu cách chọn 1 bông hoa? <!-- v1 -->",
+      "answer": "13",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Quy tắc cộng: $6 + 7 = 13$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số cách chọn 1 bạn từ 2 nhóm (Nhóm 4)",
+      "question": "Có 7 bông hoa hồng và 8 bông hoa cúc khác nhau. Có bao nhiêu cách chọn 1 bông hoa? <!-- v2 -->",
+      "answer": "15",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Quy tắc cộng: $7 + 8 = 15$ cách.",
+      "level": "nb",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số số hạng của khai triển (Nhóm 5)",
+      "question": "Khai triển $(x + 1)^5$ có bao nhiêu số hạng? <!-- v0 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số số hạng là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng của khai triển (Nhóm 5)",
+      "question": "Khai triển $(x + 2)^5$ có bao nhiêu số hạng? <!-- v1 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số số hạng là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số số hạng của khai triển (Nhóm 5)",
+      "question": "Khai triển $(x + 3)^5$ có bao nhiêu số hạng? <!-- v2 -->",
+      "answer": "6",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số số hạng là $5 + 1 = 6$ số hạng.",
+      "level": "nb",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số đường chéo của đa giác (Nhóm 6)",
+      "question": "Đa giác lồi có 6 đỉnh có bao nhiêu đường chéo? <!-- v0 -->",
+      "answer": "9",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số đường chéo là $\\frac{(6)(3)}{2} = 9$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số đường chéo của đa giác (Nhóm 6)",
+      "question": "Đa giác lồi có 7 đỉnh có bao nhiêu đường chéo? <!-- v1 -->",
+      "answer": "14",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số đường chéo là $\\frac{(7)(4)}{2} = 14$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số đường chéo của đa giác (Nhóm 6)",
+      "question": "Đa giác lồi có 8 đỉnh có bao nhiêu đường chéo? <!-- v2 -->",
+      "answer": "20",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số đường chéo là $\\frac{(8)(5)}{2} = 20$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo từ n điểm (Nhóm 7)",
+      "question": "Cho 6 điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Có bao nhiêu tam giác có 3 đỉnh là 3 trong số các điểm đó? <!-- v0 -->",
+      "answer": "20",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số tam giác là $C_{6}^3 = 20$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo từ n điểm (Nhóm 7)",
+      "question": "Cho 7 điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Có bao nhiêu tam giác có 3 đỉnh là 3 trong số các điểm đó? <!-- v1 -->",
+      "answer": "35",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số tam giác là $C_{7}^3 = 35$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Số tam giác tạo từ n điểm (Nhóm 7)",
+      "question": "Cho 8 điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Có bao nhiêu tam giác có 3 đỉnh là 3 trong số các điểm đó? <!-- v2 -->",
+      "answer": "56",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số tam giác là $C_{8}^3 = 56$.",
+      "level": "th",
+      "lesson": "b24"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển (Nhóm 8)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển $(x + 2)^4$. <!-- v0 -->",
+      "answer": "8",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(2) = 8x^3$. Hệ số là 8.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển (Nhóm 8)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển $(x + 3)^4$. <!-- v1 -->",
+      "answer": "12",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(3) = 12x^3$. Hệ số là 12.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Hệ số của x^3 trong khai triển (Nhóm 8)",
+      "question": "Tìm hệ số của $x^3$ trong khai triển $(x + 4)^4$. <!-- v2 -->",
+      "answer": "16",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số hạng chứa $x^3$ là $4x^3(4) = 16x^3$. Hệ số là 16.",
+      "level": "th",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Số tự nhiên có 3 chữ số khác nhau (Nhóm 9)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số đôi một khác nhau? <!-- v0 -->",
+      "answer": "60",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số các số là $A_5^3 = 5 \\times 4 \\times 3 = 60$.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên có 3 chữ số khác nhau (Nhóm 9)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 6 có thể lập được bao nhiêu số tự nhiên có 3 chữ số đôi một khác nhau? <!-- v1 -->",
+      "answer": "60",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số các số là $A_5^3 = 5 \\times 4 \\times 3 = 60$.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Số tự nhiên có 3 chữ số khác nhau (Nhóm 9)",
+      "question": "Từ các chữ số 1, 2, 3, 4, 7 có thể lập được bao nhiêu số tự nhiên có 3 chữ số đôi một khác nhau? <!-- v2 -->",
+      "answer": "60",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Số các số là $A_5^3 = 5 \\times 4 \\times 3 = 60$.",
+      "level": "th",
+      "lesson": "b23"
+    },
+    {
+      "dang": "Tổng các hệ số của khai triển (Nhóm 10)",
+      "question": "Tính tổng các hệ số trong khai triển $(2 - x)^{4}$. <!-- v0 -->",
+      "answer": "1",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 1$ vào biểu thức: $(2 - 1)^{4} = 1^{4} = 1$.",
+      "level": "vd",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số của khai triển (Nhóm 10)",
+      "question": "Tính tổng các hệ số trong khai triển $(2 - x)^{5}$. <!-- v1 -->",
+      "answer": "1",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 1$ vào biểu thức: $(2 - 1)^{5} = 1^{5} = 1$.",
+      "level": "vd",
+      "lesson": "b25"
+    },
+    {
+      "dang": "Tổng các hệ số của khai triển (Nhóm 10)",
+      "question": "Tính tổng các hệ số trong khai triển $(2 - x)^{6}$. <!-- v2 -->",
+      "answer": "1",
+      "tolerance": 0,
+      "unit": "",
+      "explanation": "Thay $x = 1$ vào biểu thức: $(2 - 1)^{6} = 1^{6} = 1$.",
+      "level": "vd",
+      "lesson": "b25"
+    }
+  ]
+}
