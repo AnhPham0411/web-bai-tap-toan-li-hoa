@@ -28,7 +28,11 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 SEED = 20261001                     # cố định để build lại cho kết quả giống hệt
 SUBJECTS = ["toan10", "ly10", "hoa10"]
-CHAPTERS = ["c1", "c2", "c3", "c4", "c5"]
+SUBJECT_CHAPTERS = {
+    "toan10": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9"],
+    "ly10": ["c1", "c2", "c3", "c4", "c5"],
+    "hoa10": ["c1", "c2", "c3", "c4", "c5"],
+}
 
 MC_PER_CHAPTER = 120
 SA_PER_CHAPTER = 30
@@ -320,10 +324,15 @@ def save_json(path, data):
 
 def main():
     check_only = "--check" in sys.argv
+    partial = "--partial" in sys.argv
+    target_subject = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--subject=")), None)
+    target_chapter = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--chapter=")), None)
+    active_subjects = [target_subject] if target_subject else SUBJECTS
+
     p = Problems()
     built = {}
 
-    for subject in SUBJECTS:
+    for subject in active_subjects:
         index_path = os.path.join(DATA_DIR, subject, "index.json")
         with open(index_path, encoding="utf-8") as f:
             index = json.load(f)
@@ -331,10 +340,15 @@ def main():
                           for ch in index["chapters"])
 
         mc_all, sa_all, title_updates = [], [], []
+        chapters = SUBJECT_CHAPTERS.get(subject, ["c1", "c2", "c3", "c4", "c5"])
+        if target_chapter:
+            chapters = [c for c in chapters if c == target_chapter]
 
-        for chapter in CHAPTERS:
+        for chapter in chapters:
             bank_path = os.path.join(BANK_DIR, "%s_%s.json" % (subject, chapter))
             if not os.path.exists(bank_path):
+                if partial:
+                    continue
                 p.error("%s/%s" % (subject, chapter), "thieu file ngan hang %s" % bank_path)
                 continue
             with open(bank_path, encoding="utf-8") as f:
@@ -374,7 +388,9 @@ def main():
 
     # ------------------------------------------------------------------ báo cáo
     print("KIEM DINH")
-    for subject in SUBJECTS:
+    for subject in active_subjects:
+        if subject not in built:
+            continue
         _, _, mc, sa, _ = built[subject]
         uniq_mc = len(set(norm_key(q["question"]) for q in mc))
         uniq_sa = len(set(norm_key(q["question"]) for q in sa))
@@ -403,7 +419,9 @@ def main():
         return 0
 
     # ------------------------------------------------------------------ ghi file
-    for subject in SUBJECTS:
+    for subject in active_subjects:
+        if subject not in built:
+            continue
         index, index_path, mc, sa, title_updates = built[subject]
         save_json(os.path.join(DATA_DIR, subject, "questions", "mc.json"), {"questions": mc})
         save_json(os.path.join(DATA_DIR, subject, "questions", "short.json"), {"questions": sa})
@@ -438,7 +456,7 @@ def main():
 
         print("Da ghi %s: %d TN + %d TLN" % (subject, len(mc), len(sa)))
 
-    total = sum(len(built[s][2]) + len(built[s][3]) for s in SUBJECTS)
+    total = sum(len(built[s][2]) + len(built[s][3]) for s in active_subjects if s in built)
     print("\nTONG: %d cau hoi." % total)
     return 0
 
