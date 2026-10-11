@@ -2600,13 +2600,13 @@
       "dang": "Biểu diễn liên kết H",
       "question": "Liên kết hydrogen giữa 2 phân tử Ethanol ($C_2H_5OH$) được biểu diễn bằng nét đứt (...) tại vị trí nào sau đây?",
       "choices": [
-        "$C_2H_5O-H \\dots O(H)-C_2H_5$",
-        "$C_2H_5-O \\dots H-O-C_2H_5$",
-        "$C-C \\dots O-H$",
-        "$H-C \\dots O-H$"
+        "$C_2H_5O-H ... O(H)-C_2H_5$",
+        "$C_2H_5-O ... H-O-C_2H_5$",
+        "$C-C ... O-H$",
+        "$H-C ... O-H$"
       ],
       "answer": 0,
-      "explanation": "Liên kết H hình thành giữa nguyên tử H linh động (của nhóm -OH thứ nhất) với cặp e tự do của nguyên tử O (của nhóm -OH thứ hai). Biểu diễn đúng: $-O-H \\dots O-$."
+      "explanation": "Liên kết H hình thành giữa nguyên tử H linh động (của nhóm -OH thứ nhất) với cặp e tự do của nguyên tử O (của nhóm -OH thứ hai). Biểu diễn đúng: $-O-H ... O-$. Chọn đáp án A."
     },
     {
       "id": "mc-c2-044",
@@ -5870,7 +5870,7 @@
         "$H_2O(g) \\rightarrow H_2O(l)$"
       ],
       "answer": 0,
-      "explanation": "Nhiệt tạo thành phải thỏa mãn 2 điều kiện: (1) Tạo ra đúng 1 MOL SẢN PHẨM. (2) Chất tham gia phải là CÁC ĐƠN CHẤT BỀN NHẤT ($H_2, O_2$). Đáp án B tạo 2 mol nên sai. Đáp án C đi từ ion nên sai. Đáp án D là quá trình ngưng tụ."
+      "explanation": "Nhiệt tạo thành phải thỏa mãn 2 điều kiện: (1) Tạo ra đúng 1 MOL SẢN PHẨM. (2) Chất tham gia phải là CÁC ĐƠN CHẤT BỀN NHẤT ($H_2, O_2$). Phương án B tạo 2 mol nên loại. Phương án C đi từ ion nên loại. Phương án D là quá trình ngưng tụ. Chọn đáp án A."
     },
     {
       "id": "mc-c4-008",
