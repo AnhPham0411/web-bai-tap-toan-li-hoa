@@ -1,0 +1,98 @@
+{
+  "chapterId": "c1",
+  "title": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm phương trình bậc nhất hai ẩn"
+        },
+        {
+          "type": "definition",
+          "title": "Phương trình bậc nhất hai ẩn",
+          "content": "Phương trình bậc nhất hai ẩn $x$ và $y$ là hệ thức dạng $ax + by = c$, trong đó $a, b, c$ là các số đã biết ($a \\neq 0$ hoặc $b \\neq 0$)."
+        },
+        {
+          "type": "definition",
+          "title": "Nghiệm của phương trình",
+          "content": "Cặp số $(x_0; y_0)$ thoả mãn $ax_0 + by_0 = c$ được gọi là một nghiệm của phương trình $ax + by = c$. Phương trình bậc nhất hai ẩn luôn có vô số nghiệm. Tập nghiệm được biểu diễn bởi đường thẳng $ax + by = c$ trên mặt phẳng toạ độ $Oxy$."
+        },
+        {
+          "type": "example",
+          "question": "Tìm một nghiệm của phương trình $2x - y = 3$ và biểu diễn nghiệm tổng quát.",
+          "solution": "Cho $x = 2 \\Rightarrow y = 2(2) - 3 = 1$. Cặp $(2; 1)$ là một nghiệm. Nghiệm tổng quát: $x \\in \\mathbb{R}, y = 2x - 3$ (hoặc viết dạng cặp số $(x; 2x - 3)$ với $x \\in \\mathbb{R}$)."
+        },
+        {
+          "type": "heading",
+          "text": "2. Khái niệm hệ hai phương trình bậc nhất hai ẩn"
+        },
+        {
+          "type": "definition",
+          "title": "Hệ hai phương trình bậc nhất hai ẩn",
+          "content": "Hệ hai phương trình bậc nhất hai ẩn có dạng tổng quát:\n$a_1 x + b_1 y = c_1$\n$a_2 x + b_2 y = c_2$\ntrong đó mỗi phương trình đều là phương trình bậc nhất hai ẩn. Cặp số $(x_0; y_0)$ đồng thời là nghiệm của cả hai phương trình được gọi là nghiệm của hệ phương trình."
+        },
+        {
+          "type": "note",
+          "content": "Số nghiệm của hệ hai phương trình bậc nhất hai ẩn tương ứng với số điểm chung của hai đường thẳng $d_1: a_1 x + b_1 y = c_1$ và $d_2: a_2 x + b_2 y = c_2$.\n- $d_1$ cắt $d_2$: Hệ có nghiệm duy nhất.\n- $d_1 \\parallel d_2$: Hệ vô nghiệm.\n- $d_1$ trùng $d_2$: Hệ có vô số nghiệm."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Phương pháp thế"
+        },
+        {
+          "type": "definition",
+          "title": "Quy tắc thế",
+          "content": "1. Từ một phương trình của hệ, biểu diễn một ẩn theo ẩn kia (ví dụ biểu diễn $y$ theo $x$).\n2. Thế biểu thức của ẩn đó vào phương trình còn lại để được phương trình một ẩn.\n3. Giải phương trình một ẩn tìm được giá trị của ẩn đó, rồi thay lại tìm ẩn còn lại."
+        },
+        {
+          "type": "example",
+          "question": "Giải hệ phương trình:\n$x - 2y = 1$\n$2x + y = 7$",
+          "solution": "Từ phương trình đầu rút ra $x = 2y + 1$. Thế vào phương trình thứ hai: $2(2y + 1) + y = 7 \\Leftrightarrow 5y + 2 = 7 \\Leftrightarrow y = 1$. Suy ra $x = 2(1) + 1 = 3$. Vậy hệ có nghiệm duy nhất $(3; 1)$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Phương pháp cộng đại số"
+        },
+        {
+          "type": "definition",
+          "title": "Quy tắc cộng đại số",
+          "content": "1. Nhân hai vế của mỗi phương trình với số thích hợp (nếu cần) sao cho các hệ số của một ẩn nào đó bằng nhau hoặc đối nhau.\n2. Cộng hoặc trừ từng vế hai phương trình để triệt tiêu bớt một ẩn, thu được phương trình một ẩn.\n3. Giải phương trình một ẩn vừa nhận được rồi thế vào một trong hai phương trình ban đầu để tìm ẩn còn lại."
+        },
+        {
+          "type": "example",
+          "question": "Giải hệ phương trình:\n$3x + 2y = 8$\n$2x - 2y = 2$",
+          "solution": "Cộng từng vế hai phương trình ta được: $5x = 10 \\Leftrightarrow x = 2$. Thay $x = 2$ vào phương trình thứ hai: $2(2) - 2y = 2 \\Leftrightarrow 4 - 2y = 2 \\Leftrightarrow y = 1$. Vậy hệ có nghiệm duy nhất $(2; 1)$."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "title": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Các bước giải bài toán bằng cách lập hệ phương trình"
+        },
+        {
+          "type": "definition",
+          "title": "Quy trình 3 bước",
+          "content": "Bước 1: Lập hệ phương trình:\n- Chọn hai ẩn số và đặt điều kiện thích hợp cho ẩn (kèm đơn vị đo).\n- Biểu diễn các đại lượng chưa biết theo các ẩn và các đại lượng đã biết.\n- Lập hai phương trình biểu thị mối quan hệ giữa các đại lượng theo đề bài.\nBước 2: Giải hệ phương trình vừa lập được.\nBước 3: Kiểm tra các nghiệm tìm được có thoả mãn điều kiện của ẩn hay không rồi kết luận."
+        },
+        {
+          "type": "example",
+          "question": "Tìm hai số tự nhiên biết tổng của chúng bằng 45 và hiệu của chúng bằng 15.",
+          "solution": "Gọi số lớn là $x$, số bé là $y$ ($x, y \\in \\mathbb{N}, x > y$).\nTheo đề bài ta có hệ phương trình:\n$x + y = 45$\n$x - y = 15$\nCộng từng vế: $2x = 60 \\Leftrightarrow x = 30$. Suy ra $y = 45 - 30 = 15$ (thoả mãn điều kiện). Vậy hai số cần tìm là 30 và 15."
+        }
+      ]
+    }
+  ]
+}

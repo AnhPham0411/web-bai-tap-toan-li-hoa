@@ -1,0 +1,145 @@
+{
+  "chapterId": "c3",
+  "title": "Căn bậc hai và căn bậc ba",
+  "lessons": [
+    {
+      "id": "b7",
+      "title": "Bài 7. Căn bậc hai và căn thức bậc hai",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Căn bậc hai số học"
+        },
+        {
+          "type": "definition",
+          "title": "Căn bậc hai số học",
+          "content": "Với số dương $a$, số $\\sqrt{a}$ được gọi là căn bậc hai số học của $a$. Số 0 có căn bậc hai số học là 0, viết là $\\sqrt{0} = 0$. Mỗi số thực dương $a$ có đúng hai căn bậc hai đối nhau là $\\sqrt{a}$ và $-\\sqrt{a}$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Căn thức bậc hai và hằng đẳng thức"
+        },
+        {
+          "type": "definition",
+          "title": "Căn thức bậc hai",
+          "content": "Với $A$ là một biểu thức đại số, người ta gọi $\\sqrt{A}$ là căn thức bậc hai của $A$. $\\sqrt{A}$ xác định (có nghĩa) khi và chỉ khi $A \\ge 0$."
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Hằng đẳng thức",
+              "math": "\\sqrt{A^2} = |A|"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Rút gọn biểu thức $\\sqrt{(x - 3)^2}$ với $x < 3$.",
+          "solution": "Áp dụng $\\sqrt{A^2} = |A|$: $\\sqrt{(x - 3)^2} = |x - 3|$. Vì $x < 3$ nên $x - 3 < 0$, suy ra $|x - 3| = -(x - 3) = 3 - x$."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "title": "Bài 8. Khai căn bậc hai với phép nhân và phép chia",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Quy tắc khai phương một tích và một thương"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Khai phương một tích (A ≥ 0, B ≥ 0)",
+              "math": "\\sqrt{A \\cdot B} = \\sqrt{A} \\cdot \\sqrt{B}"
+            },
+            {
+              "label": "Nhân các căn thức (A ≥ 0, B ≥ 0)",
+              "math": "\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A \\cdot B}"
+            },
+            {
+              "label": "Khai phương một thương (A ≥ 0, B > 0)",
+              "math": "\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{\\sqrt{B}}"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Tính giá trị của biểu thức $P = \\sqrt{18} \\cdot \\sqrt{2}$.",
+          "solution": "$P = \\sqrt{18 \\cdot 2} = \\sqrt{36} = 6$."
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "title": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Các phép biến đổi căn thức bậc hai"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Đưa thừa số ra ngoài căn (B ≥ 0)",
+              "math": "\\sqrt{A^2 B} = |A| \\sqrt{B}"
+            },
+            {
+              "label": "Đưa thừa số vào trong căn (A ≥ 0, B ≥ 0)",
+              "math": "A \\sqrt{B} = \\sqrt{A^2 B}"
+            },
+            {
+              "label": "Khử mẫu biểu thức lấy căn (A · B ≥ 0, B ≠ 0)",
+              "math": "\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A \\cdot B}}{|B|}"
+            },
+            {
+              "label": "Trục căn thức ở mẫu dạng liên hợp",
+              "math": "\\frac{C}{\\sqrt{A} \\pm \\sqrt{B}} = \\frac{C(\\sqrt{A} \\mp \\sqrt{B})}{A - B}"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Rút gọn biểu thức $A = \\sqrt{12} + \\sqrt{27} - \\sqrt{48}$.",
+          "solution": "Ta có $\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$, $\\sqrt{48} = 4\\sqrt{3}$. Do đó $A = 2\\sqrt{3} + 3\\sqrt{3} - 4\\sqrt{3} = \\sqrt{3}$."
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "title": "Bài 10. Căn bậc ba và căn thức bậc ba",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Định nghĩa và tính chất của căn bậc ba"
+        },
+        {
+          "type": "definition",
+          "title": "Căn bậc ba",
+          "content": "Căn bậc ba của một số thực $a$ là số $x$ sao cho $x^3 = a$, kí hiệu $\\sqrt[3]{a}$. Mọi số thực $a$ đều có duy nhất một căn bậc ba (không phân biệt số âm, dương hay số 0)."
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Hằng đẳng thức",
+              "math": "(\\sqrt[3]{a})^3 = a, \\quad \\sqrt[3]{a^3} = a"
+            },
+            {
+              "label": "Nhân căn bậc ba",
+              "math": "\\sqrt[3]{a \\cdot b} = \\sqrt[3]{a} \\cdot \\sqrt[3]{b}"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Tính giá trị của $M = \\sqrt[3]{-64} + \\sqrt[3]{27}$.",
+          "solution": "Vì $(-4)^3 = -64$ nên $\\sqrt[3]{-64} = -4$. Vì $3^3 = 27$ nên $\\sqrt[3]{27} = 3$. Vậy $M = -4 + 3 = -1$."
+        }
+      ]
+    }
+  ]
+}

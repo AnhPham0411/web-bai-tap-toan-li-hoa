@@ -1,0 +1,119 @@
+{
+  "chapterId": "c5",
+  "title": "Đường tròn",
+  "lessons": [
+    {
+      "id": "b13",
+      "title": "Bài 13. Mở đầu về đường tròn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Định nghĩa và tính chất đối xứng của đường tròn"
+        },
+        {
+          "type": "definition",
+          "title": "Đường tròn",
+          "content": "Đường tròn tâm $O$ bán kính $R$ ($R > 0$), kí hiệu $(O; R)$, là hình gồm các điểm cách điểm $O$ một khoảng bằng $R$.\n- Điểm $M$ nằm trong $(O; R) \\Leftrightarrow OM < R$.\n- Điểm $M$ nằm trên $(O; R) \\Leftrightarrow OM = R$.\n- Điểm $M$ nằm ngoài $(O; R) \\Leftrightarrow OM > R$."
+        },
+        {
+          "type": "note",
+          "content": "Đường tròn là hình có tâm đối xứng (tâm $O$) và có vô số trục đối xứng (bất kì đường kính nào cũng là một trục đối xứng)."
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "title": "Bài 14. Cung và dây của một đường tròn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Quan hệ vuông góc giữa đường kính và dây"
+        },
+        {
+          "type": "theorem",
+          "title": "Đường kính và dây",
+          "content": "Trong một đường tròn:\n1. Đường kính vuông góc với một dây thì đi qua trung điểm của dây ấy.\n2. Đường kính đi qua trung điểm của một dây không đi qua tâm thì vuông góc với dây ấy.\n3. Trong các dây của một đường tròn, dây lớn nhất là đường kính."
+        },
+        {
+          "type": "example",
+          "question": "Cho đường tròn $(O; 5\\text{ cm})$ và dây $AB = 8\\text{ cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$.",
+          "solution": "Kẻ $OH \\perp AB$ tại $H$. Theo định lí đường kính vuông góc với dây, $H$ là trung điểm của $AB \\Rightarrow AH = \\frac{AB}{2} = 4\\text{ cm}$.\nÁp dụng định lí Pythagore trong tam giác vuông $OAH$: $OH = \\sqrt{OA^2 - AH^2} = \\sqrt{5^2 - 4^2} = \\sqrt{9} = 3\\text{ cm}$."
+        }
+      ]
+    },
+    {
+      "id": "b15",
+      "title": "Bài 15. Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Công thức tính chu vi, diện tích hình tròn và hình quạt"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Độ dài đường tròn (chu vi)",
+              "math": "C = 2\\pi R = \\pi d"
+            },
+            {
+              "label": "Độ dài cung tròn n°",
+              "math": "l = \\frac{\\pi R n}{180}"
+            },
+            {
+              "label": "Diện tích hình tròn",
+              "math": "S = \\pi R^2"
+            },
+            {
+              "label": "Diện tích hình quạt tròn bán kính R, cung n°",
+              "math": "S_q = \\frac{\\pi R^2 n}{360} = \\frac{l \\cdot R}{2}"
+            },
+            {
+              "label": "Diện tích hình vành khuyên giới hạn bởi R1 > R2",
+              "math": "S_{vk} = \\pi (R_1^2 - R_2^2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "title": "Bài 16. Vị trí tương đối của đường thẳng và đường tròn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Ba vị trí tương đối giữa đường thẳng và đường tròn"
+        },
+        {
+          "type": "definition",
+          "title": "Khoảng cách từ tâm d đến đường thẳng",
+          "content": "Gọi $d$ là khoảng cách từ tâm $O$ của đường tròn $(O; R)$ đến đường thẳng $\\Delta$:\n- $d < R$: Đường thẳng cắt đường tròn tại 2 điểm phân biệt (cát tuyến).\n- $d = R$: Đường thẳng tiếp xúc với đường tròn tại 1 điểm duy nhất (tiếp tuyến).\n- $d > R$: Đường thẳng không giao nhau với đường tròn."
+        },
+        {
+          "type": "heading",
+          "text": "2. Dấu hiệu nhận biết tiếp tuyến"
+        },
+        {
+          "type": "theorem",
+          "title": "Dấu hiệu nhận biết tiếp tuyến",
+          "content": "Nếu một đường thẳng đi qua một điểm của đường tròn và vuông góc với bán kính đi qua điểm đó thì đường thẳng ấy là một tiếp tuyến của đường tròn."
+        }
+      ]
+    },
+    {
+      "id": "b17",
+      "title": "Bài 17. Vị trí tương đối của hai đường tròn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Vị trí tương đối của hai đường tròn (O; R) và (O'; r) với R ≥ r"
+        },
+        {
+          "type": "definition",
+          "title": "Hệ thức đoạn nối tâm d = OO'",
+          "content": "- Ở ngoài nhau: $d > R + r$ (0 điểm chung).\n- Tiếp xúc ngoài: $d = R + r$ (1 điểm chung).\n- Cắt nhau: $R - r < d < R + r$ (2 điểm chung).\n- Tiếp xúc trong: $d = R - r > 0$ (1 điểm chung).\n- Đựng nhau: $d < R - r$ (0 điểm chung)."
+        }
+      ]
+    }
+  ]
+}

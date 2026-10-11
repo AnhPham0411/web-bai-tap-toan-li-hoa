@@ -1,0 +1,100 @@
+{
+  "chapterId": "c2",
+  "title": "Phương trình và bất phương trình bậc nhất một ẩn",
+  "lessons": [
+    {
+      "id": "b4",
+      "title": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Phương trình tích"
+        },
+        {
+          "type": "definition",
+          "title": "Phương trình tích",
+          "content": "Phương trình tích có dạng $A(x) \\cdot B(x) = 0$. Để giải phương trình tích, ta giải từng phương trình $A(x) = 0$ và $B(x) = 0$, rồi lấy tất cả các nghiệm tìm được."
+        },
+        {
+          "type": "example",
+          "question": "Giải phương trình $(2x - 4)(x + 3) = 0$.",
+          "solution": "Ta có $2x - 4 = 0$ hoặc $x + 3 = 0$.\n$2x = 4 \\Leftrightarrow x = 2$.\n$x + 3 = 0 \\Leftrightarrow x = -3$.\nVậy tập nghiệm của phương trình là $S = \\{2; -3\\}$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Phương trình chứa ẩn ở mẫu"
+        },
+        {
+          "type": "definition",
+          "title": "Các bước giải phương trình chứa ẩn ở mẫu",
+          "content": "Bước 1: Tìm điều kiện xác định (ĐKXĐ) của phương trình (mẫu thức khác 0).\nBước 2: Quy đồng mẫu thức hai vế rồi khử mẫu.\nBước 3: Giải phương trình vừa nhận được.\nBước 4: Đối chiếu nghiệm với ĐKXĐ và kết luận."
+        },
+        {
+          "type": "example",
+          "question": "Giải phương trình $\\frac{x + 2}{x - 1} = 2$.",
+          "solution": "ĐKXĐ: $x \\neq 1$.\nQuy đồng và khử mẫu: $x + 2 = 2(x - 1) \\Leftrightarrow x + 2 = 2x - 2 \\Leftrightarrow x = 4$.\nĐối chiếu $x = 4$ thoả mãn ĐKXĐ. Vậy nghiệm là $x = 4$."
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "title": "Bài 5. Bất đẳng thức và tính chất",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Khái niệm và tính chất của bất đẳng thức"
+        },
+        {
+          "type": "definition",
+          "title": "Bất đẳng thức",
+          "content": "Hệ thức có dạng $a < b$ (hoặc $a > b, a \\le b, a \\ge b$) được gọi là bất đẳng thức. Vế trái là $a$, vế phải là $b$."
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Tính chất cộng",
+              "math": "a < b \\Rightarrow a + c < b + c"
+            },
+            {
+              "label": "Nhân với số dương (c > 0)",
+              "math": "a < b \\Rightarrow a \\cdot c < b \\cdot c"
+            },
+            {
+              "label": "Nhân với số âm (c < 0)",
+              "math": "a < b \\Rightarrow a \\cdot c > b \\cdot c \\text{ (đổi chiều BĐT)}"
+            },
+            {
+              "label": "Bắc cầu",
+              "math": "a < b \\text{ và } b < c \\Rightarrow a < c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "title": "Bài 6. Bất phương trình bậc nhất một ẩn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm và cách giải bất phương trình bậc nhất một ẩn"
+        },
+        {
+          "type": "definition",
+          "title": "Bất phương trình bậc nhất một ẩn",
+          "content": "Bất phương trình bậc nhất một ẩn có dạng $ax + b < 0$ (hoặc $> 0, \\le 0, \\ge 0$) với $a \\neq 0$."
+        },
+        {
+          "type": "example",
+          "question": "Giải bất phương trình $3x - 6 > 0$ và biểu diễn nghiệm trên trục số.",
+          "solution": "Ta có $3x - 6 > 0 \\Leftrightarrow 3x > 6 \\Leftrightarrow x > 2$.\nTập nghiệm là $S = \\{x \\in \\mathbb{R} \\mid x > 2\\}$."
+        },
+        {
+          "type": "note",
+          "content": "Khi nhân hoặc chia cả hai vế của bất phương trình cho một số âm, ta phải đổi chiều bất phương trình: ví dụ $-2x < 4 \\Leftrightarrow x > -2$."
+        }
+      ]
+    }
+  ]
+}

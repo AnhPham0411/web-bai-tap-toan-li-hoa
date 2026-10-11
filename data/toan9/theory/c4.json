@@ -1,0 +1,71 @@
+{
+  "chapterId": "c4",
+  "title": "Hệ thức lượng trong tam giác vuông",
+  "lessons": [
+    {
+      "id": "b11",
+      "title": "Bài 11. Tỉ số lượng giác của góc nhọn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Định nghĩa tỉ số lượng giác của góc nhọn"
+        },
+        {
+          "type": "definition",
+          "title": "Tỉ số lượng giác",
+          "content": "Cho tam giác vuông có góc nhọn $\\alpha$:\n- $\\sin \\alpha = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}}$\n- $\\cos \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}}$\n- $\\tan \\alpha = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}}$\n- $\\cot \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh đối}}$"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Giới hạn giá trị",
+              "math": "0 < \\sin \\alpha < 1, \\quad 0 < \\cos \\alpha < 1"
+            },
+            {
+              "label": "Đẳng thức lượng giác cơ bản",
+              "math": "\\sin^2 \\alpha + \\cos^2 \\alpha = 1, \\quad \\tan \\alpha \\cdot \\cot \\alpha = 1"
+            },
+            {
+              "label": "Quan hệ chia",
+              "math": "\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}, \\quad \\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Tỉ số lượng giác của hai góc phụ nhau"
+        },
+        {
+          "type": "theorem",
+          "title": "Hai góc phụ nhau",
+          "content": "Nếu hai góc phụ nhau ($\\alpha + \\beta = 90^\\circ$) thì sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia:\n$\\sin \\alpha = \\cos \\beta, \\quad \\cos \\alpha = \\sin \\beta, \\quad \\tan \\alpha = \\cot \\beta, \\quad \\cot \\alpha = \\tan \\beta$."
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "title": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Hệ thức giữa cạnh và góc trong tam giác vuông"
+        },
+        {
+          "type": "theorem",
+          "title": "Hệ thức cạnh và góc",
+          "content": "Trong tam giác vuông $ABC$ vuông tại $A$ có cạnh huyền $a$, hai cạnh góc vuông $b, c$:\n- Mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề: $b = a \\cdot \\sin B = a \\cdot \\cos C$.\n- Mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối hoặc nhân với côtang góc kề: $b = c \\cdot \\tan B = c \\cdot \\cot C$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Ứng dụng thực tế giải tam giác vuông"
+        },
+        {
+          "type": "example",
+          "question": "Một người đứng cách chân tháp một khoảng $d = 30\\text{ m}$, nhìn lên đỉnh tháp dưới một góc nghiêng $\\alpha = 45^\\circ$. Chiều cao của tháp (bỏ qua chiều cao người quan sát) là bao nhiêu?",
+          "solution": "Chiều cao tháp là cạnh đối diện với góc $45^\\circ$ trong tam giác vuông: $h = d \\cdot \\tan 45^\\circ = 30 \\cdot 1 = 30\\text{ m}$."
+        }
+      ]
+    }
+  ]
+}
