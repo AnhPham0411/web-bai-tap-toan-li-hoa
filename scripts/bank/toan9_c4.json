@@ -1,0 +1,2240 @@
+{
+  "sgk_chapter_title": "Hệ thức lượng trong tam giác vuông",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b11",
+      "sgk_title": "Bài 11. Tỉ số lượng giác của góc nhọn"
+    },
+    {
+      "lesson_id": "b12",
+      "sgk_title": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c4-001",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số sin góc nhọn",
+      "question": "Trong tam giác vuông, tỉ số giữa cạnh đối và cạnh huyền của góc nhọn $\\alpha$ là:",
+      "choices": [
+        "$\\sin \\alpha$",
+        "$\\cos \\alpha$",
+        "$\\tan \\alpha$",
+        "$\\cot \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, $\\sin \\alpha = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}}$."
+    },
+    {
+      "id": "mc-c4-002",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số sin góc nhọn",
+      "question": "Tỉ số lượng giác $\\sin B$ trong tam giác $ABC$ vuông tại $A$ được tính bằng:",
+      "choices": [
+        "$\\frac{AC}{BC}$",
+        "$\\frac{AB}{BC}$",
+        "$\\frac{AC}{AB}$",
+        "$\\frac{AB}{AC}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{AC}{BC}$."
+    },
+    {
+      "id": "mc-c4-003",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số sin góc nhọn",
+      "question": "Cho tam giác vuông $MNP$ vuông tại $M$. Tỉ số $\\sin N$ bằng:",
+      "choices": [
+        "$\\frac{MP}{NP}$",
+        "$\\frac{MN}{NP}$",
+        "$\\frac{MP}{MN}$",
+        "$\\frac{MN}{MP}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin N = \\frac{MP}{NP}$."
+    },
+    {
+      "id": "mc-c4-004",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số sin góc nhọn",
+      "question": "Khẳng định nào đúng về tỉ số sin của một góc nhọn trong tam giác vuông?",
+      "choices": [
+        "Bằng cạnh đối chia cho cạnh huyền",
+        "Bằng cạnh kề chia cho cạnh huyền",
+        "Bằng cạnh đối chia cho cạnh kề",
+        "Bằng cạnh kề chia cho cạnh đối"
+      ],
+      "answer": 0,
+      "explanation": "Sin đi học: đối trên huyền."
+    },
+    {
+      "id": "mc-c4-005",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số sin góc nhọn",
+      "question": "Đại lượng $\\frac{\\text{cạnh đối}}{\\text{cạnh huyền}}$ của góc nhọn trong tam giác vuông gọi là:",
+      "choices": [
+        "Sin của góc đó",
+        "Côsin của góc đó",
+        "Tang của góc đó",
+        "Côtang của góc đó"
+      ],
+      "answer": 0,
+      "explanation": "Đây là định nghĩa sin của góc nhọn."
+    },
+    {
+      "id": "mc-c4-006",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cos góc nhọn",
+      "question": "Tỉ số giữa cạnh kề và cạnh huyền của góc nhọn $\\alpha$ trong tam giác vuông là:",
+      "choices": [
+        "$\\cos \\alpha$",
+        "$\\sin \\alpha$",
+        "$\\tan \\alpha$",
+        "$\\cot \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, $\\cos \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}}$."
+    },
+    {
+      "id": "mc-c4-007",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cos góc nhọn",
+      "question": "Trong tam giác $ABC$ vuông tại $A$, tỉ số $\\cos B$ bằng:",
+      "choices": [
+        "$\\frac{AB}{BC}$",
+        "$\\frac{AC}{BC}$",
+        "$\\frac{AB}{AC}$",
+        "$\\frac{AC}{AB}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos B = \\frac{AB}{BC}$ (cạnh kề chia cạnh huyền)."
+    },
+    {
+      "id": "mc-c4-008",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cos góc nhọn",
+      "question": "Cho tam giác vuông $DEF$ vuông tại $D$. Tỉ số $\\cos E$ được tính là:",
+      "choices": [
+        "$\\frac{DE}{EF}$",
+        "$\\frac{DF}{EF}$",
+        "$\\frac{DE}{DF}$",
+        "$\\frac{DF}{DE}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos E = \\frac{DE}{EF}$."
+    },
+    {
+      "id": "mc-c4-009",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cos góc nhọn",
+      "question": "Công thức nào đúng để tính côsin của góc nhọn trong tam giác vuông?",
+      "choices": [
+        "Bằng cạnh kề chia cho cạnh huyền",
+        "Bằng cạnh đối chia cho cạnh huyền",
+        "Bằng cạnh đối chia cho cạnh kề",
+        "Bằng cạnh kề chia cho cạnh đối"
+      ],
+      "answer": 0,
+      "explanation": "Cos khóc nhè: kề trên huyền."
+    },
+    {
+      "id": "mc-c4-010",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cos góc nhọn",
+      "question": "Tỉ số $\\frac{\\text{cạnh kề}}{\\text{cạnh huyền}}$ của một góc nhọn xác định tỉ số lượng giác nào?",
+      "choices": [
+        "Côsin",
+        "Sin",
+        "Tang",
+        "Côtang"
+      ],
+      "answer": 0,
+      "explanation": "Đây là định nghĩa côsin của góc nhọn."
+    },
+    {
+      "id": "mc-c4-011",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số tan góc nhọn",
+      "question": "Tỉ số giữa cạnh đối và cạnh kề của góc nhọn $\\alpha$ trong tam giác vuông là:",
+      "choices": [
+        "$\\tan \\alpha$",
+        "$\\cot \\alpha$",
+        "$\\sin \\alpha$",
+        "$\\cos \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan \\alpha = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}}$."
+    },
+    {
+      "id": "mc-c4-012",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số tan góc nhọn",
+      "question": "Trong tam giác $ABC$ vuông tại $A$, tỉ số $\\tan B$ bằng:",
+      "choices": [
+        "$\\frac{AC}{AB}$",
+        "$\\frac{AB}{AC}$",
+        "$\\frac{AC}{BC}$",
+        "$\\frac{AB}{BC}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan B = \\frac{AC}{AB}$."
+    },
+    {
+      "id": "mc-c4-013",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số tan góc nhọn",
+      "question": "Cho tam giác vuông $HIK$ vuông tại $H$. Tỉ số $\\tan I$ được tính bằng:",
+      "choices": [
+        "$\\frac{HK}{HI}$",
+        "$\\frac{HI}{HK}$",
+        "$\\frac{HK}{IK}$",
+        "$\\frac{HI}{IK}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan I = \\frac{HK}{HI}$."
+    },
+    {
+      "id": "mc-c4-014",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số tan góc nhọn",
+      "question": "Biểu thức $\\frac{\\text{cạnh đối}}{\\text{cạnh kề}}$ của một góc nhọn trong tam giác vuông xác định:",
+      "choices": [
+        "Tang của góc đó",
+        "Côtang của góc đó",
+        "Sin của góc đó",
+        "Côsin của góc đó"
+      ],
+      "answer": 0,
+      "explanation": "Tang đoàn kết: đối trên kề."
+    },
+    {
+      "id": "mc-c4-015",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số tan góc nhọn",
+      "question": "Tỉ số lượng giác nào bằng thương của cạnh đối chia cho cạnh kề?",
+      "choices": [
+        "Tang",
+        "Côtang",
+        "Sin",
+        "Côsin"
+      ],
+      "answer": 0,
+      "explanation": "Đó là tỉ số tang."
+    },
+    {
+      "id": "mc-c4-016",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cot góc nhọn",
+      "question": "Tỉ số giữa cạnh kề và cạnh đối của góc nhọn $\\alpha$ trong tam giác vuông là:",
+      "choices": [
+        "$\\cot \\alpha$",
+        "$\\tan \\alpha$",
+        "$\\cos \\alpha$",
+        "$\\sin \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh đối}}$."
+    },
+    {
+      "id": "mc-c4-017",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cot góc nhọn",
+      "question": "Trong tam giác $ABC$ vuông tại $A$, tỉ số $\\cot B$ bằng:",
+      "choices": [
+        "$\\frac{AB}{AC}$",
+        "$\\frac{AC}{AB}$",
+        "$\\frac{AB}{BC}$",
+        "$\\frac{AC}{BC}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot B = \\frac{AB}{AC}$."
+    },
+    {
+      "id": "mc-c4-018",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cot góc nhọn",
+      "question": "Cho tam giác vuông $MNP$ vuông tại $M$. Tỉ số $\\cot N$ bằng:",
+      "choices": [
+        "$\\frac{MN}{MP}$",
+        "$\\frac{MP}{MN}$",
+        "$\\frac{MN}{NP}$",
+        "$\\frac{MP}{NP}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot N = \\frac{MN}{MP}$."
+    },
+    {
+      "id": "mc-c4-019",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cot góc nhọn",
+      "question": "Thương của cạnh kề chia cho cạnh đối của góc nhọn gọi là:",
+      "choices": [
+        "Côtang của góc đó",
+        "Tang của góc đó",
+        "Sin của góc đó",
+        "Côsin của góc đó"
+      ],
+      "answer": 0,
+      "explanation": "Côtang kết đoàn: kề trên đối."
+    },
+    {
+      "id": "mc-c4-020",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định nghĩa tỉ số cot góc nhọn",
+      "question": "Đại lượng $\\frac{\\cos \\alpha}{\\sin \\alpha}$ với góc nhọn $\\alpha$ bằng tỉ số nào?",
+      "choices": [
+        "$\\cot \\alpha$",
+        "$\\tan \\alpha$",
+        "$\\sin \\alpha$",
+        "$\\cos \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$."
+    },
+    {
+      "id": "mc-c4-021",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị sin 30 độ",
+      "question": "Giá trị lượng giác của $\\sin 30^\\circ$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Góc đặc biệt: $\\sin 30^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-022",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị sin 30 độ",
+      "question": "Tính giá trị của biểu thức $\\sin 30^\\circ$:",
+      "choices": [
+        "$0,5$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 30^\\circ = 0,5 = 1/2$."
+    },
+    {
+      "id": "mc-c4-023",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị sin 30 độ",
+      "question": "Khẳng định nào đúng về giá trị của $\\sin 30^\\circ$?",
+      "choices": [
+        "Bằng $\\frac{1}{2}$",
+        "Bằng $\\frac{\\sqrt{3}}{2}$",
+        "Bằng $\\frac{\\sqrt{2}}{2}$",
+        "Bằng 1"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 30^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-024",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị sin 30 độ",
+      "question": "Góc nhọn có sin bằng $\\frac{1}{2}$ có số đo là:",
+      "choices": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Góc đó là $30^\\circ$."
+    },
+    {
+      "id": "mc-c4-025",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị sin 30 độ",
+      "question": "Cho góc $\\alpha = 30^\\circ$. Khi đó giá trị của $\\sin \\alpha$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 30^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-026",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị cos 60 độ",
+      "question": "Giá trị lượng giác của $\\cos 60^\\circ$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Góc đặc biệt: $\\cos 60^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-027",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị cos 60 độ",
+      "question": "Tính giá trị của biểu thức $\\cos 60^\\circ$:",
+      "choices": [
+        "$0,5$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$1$",
+        "$\\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 60^\\circ = 0,5$."
+    },
+    {
+      "id": "mc-c4-028",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị cos 60 độ",
+      "question": "Khẳng định nào đúng về giá trị của $\\cos 60^\\circ$?",
+      "choices": [
+        "Bằng $\\frac{1}{2}$",
+        "Bằng $\\frac{\\sqrt{3}}{2}$",
+        "Bằng $\\frac{\\sqrt{3}}{3}$",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 60^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-029",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị cos 60 độ",
+      "question": "Góc nhọn có côsin bằng $\\frac{1}{2}$ có số đo bằng:",
+      "choices": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$0^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Đó là góc $60^\\circ$."
+    },
+    {
+      "id": "mc-c4-030",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị cos 60 độ",
+      "question": "Cho góc $\\beta = 60^\\circ$. Giá trị của $\\cos \\beta$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 60^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c4-031",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị tan 45 độ",
+      "question": "Giá trị của $\\tan 45^\\circ$ bằng:",
+      "choices": [
+        "$1$",
+        "$\\sqrt{3}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác vuông cân có góc $45^\\circ$, hai cạnh góc vuông bằng nhau nên $\\tan 45^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-032",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị tan 45 độ",
+      "question": "Tính giá trị của biểu thức $\\tan 45^\\circ$ thu được:",
+      "choices": [
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$\\sqrt{2}$",
+        "$\\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan 45^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-033",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị tan 45 độ",
+      "question": "Góc nhọn nào có giá trị tang bằng 1?",
+      "choices": [
+        "$45^\\circ$",
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Góc $45^\\circ$ có $\\tan 45^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-034",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị tan 45 độ",
+      "question": "Giá trị của $\\cot 45^\\circ$ bằng:",
+      "choices": [
+        "$1$",
+        "$\\sqrt{3}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot 45^\\circ = 1 / \\tan 45^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-035",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Giá trị tan 45 độ",
+      "question": "Khẳng định nào đúng về $\\tan 45^\\circ$?",
+      "choices": [
+        "Bằng 1",
+        "Bằng $\\sqrt{3}$",
+        "Bằng $\\frac{1}{\\sqrt{3}}$",
+        "Bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan 45^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-036",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Đẳng thức lượng giác cơ bản",
+      "question": "Với mọi góc nhọn $\\alpha$, giá trị của $\\sin^2 \\alpha + \\cos^2 \\alpha$ bằng:",
+      "choices": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Đẳng thức lượng giác cơ bản: $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$."
+    },
+    {
+      "id": "mc-c4-037",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Đẳng thức lượng giác cơ bản",
+      "question": "Tính giá trị của biểu thức $\\sin^2 25^\\circ + \\cos^2 25^\\circ$:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$0,5$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin^2 25^\\circ + \\cos^2 25^\\circ = 1$."
+    },
+    {
+      "id": "mc-c4-038",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Đẳng thức lượng giác cơ bản",
+      "question": "Biểu thức $\\sin^2 40^\\circ + \\cos^2 40^\\circ$ có giá trị bằng:",
+      "choices": [
+        "$1$",
+        "$\\sin 80^\\circ$",
+        "$\\cos 80^\\circ$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "mc-c4-039",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Đẳng thức lượng giác cơ bản",
+      "question": "Kết quả của phép tính $\\sin^2 70^\\circ + \\cos^2 70^\\circ$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$-1$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "mc-c4-040",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Đẳng thức lượng giác cơ bản",
+      "question": "Đẳng thức nào sau đây luôn đúng với góc nhọn x?",
+      "choices": [
+        "$\\sin^2 x + \\cos^2 x = 1$",
+        "$\\sin^2 x - \\cos^2 x = 1$",
+        "$\\sin x + \\cos x = 1$",
+        "$\\sin^2 x + \\cos^2 x = 2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin^2 x + \\cos^2 x = 1$."
+    },
+    {
+      "id": "mc-c4-041",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tích tan và cot",
+      "question": "Với góc nhọn $\\alpha$, tích $\\tan \\alpha \\cdot \\cot \\alpha$ bằng:",
+      "choices": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$\\sin \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\cot \\alpha = 1/\\tan \\alpha$ nên tích bằng 1."
+    },
+    {
+      "id": "mc-c4-042",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tích tan và cot",
+      "question": "Tính giá trị của $\\tan 35^\\circ \\cdot \\cot 35^\\circ$:",
+      "choices": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$0,5$"
+      ],
+      "answer": 0,
+      "explanation": "Tích của tang và côtang cùng một góc luôn bằng 1."
+    },
+    {
+      "id": "mc-c4-043",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tích tan và cot",
+      "question": "Biểu thức $\\tan 50^\\circ \\cdot \\cot 50^\\circ$ có giá trị là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "mc-c4-044",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tích tan và cot",
+      "question": "Kết quả của $\\tan 65^\\circ \\cdot \\cot 65^\\circ$ bằng:",
+      "choices": [
+        "$1$",
+        "$\\tan 130^\\circ$",
+        "$0$",
+        "$\\cot 130^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "mc-c4-045",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tích tan và cot",
+      "question": "Khẳng định nào đúng về tích $\\tan x \\cdot \\cot x$ với góc nhọn x?",
+      "choices": [
+        "Luôn bằng 1",
+        "Luôn bằng 0",
+        "Thay đổi theo x",
+        "Luôn bằng 2"
+      ],
+      "answer": 0,
+      "explanation": "Luôn bằng 1."
+    },
+    {
+      "id": "mc-c4-046",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua sin",
+      "question": "Trong tam giác vuông $ABC$ vuông tại $A$ có cạnh huyền a, cạnh góc vuông b tính theo $\\sin B$ là:",
+      "choices": [
+        "$b = a \\cdot \\sin B$",
+        "$b = a \\cdot \\cos B$",
+        "$b = a \\cdot \\tan B$",
+        "$b = a / \\sin B$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh góc vuông bằng cạnh huyền nhân sin góc đối: $b = a \\cdot \\sin B$."
+    },
+    {
+      "id": "mc-c4-047",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua sin",
+      "question": "Công thức nào đúng để tính cạnh góc vuông qua cạnh huyền và góc đối?",
+      "choices": [
+        "Cạnh góc vuông = Cạnh huyền $\\times$ sin góc đối",
+        "Cạnh góc vuông = Cạnh huyền $\\times$ cos góc đối",
+        "Cạnh góc vuông = Cạnh huyền $\\times$ tan góc đối",
+        "Cạnh góc vuông = Cạnh huyền / sin góc đối"
+      ],
+      "answer": 0,
+      "explanation": "Theo hệ thức lượng trong tam giác vuông."
+    },
+    {
+      "id": "mc-c4-048",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua sin",
+      "question": "Trong tam giác vuông $MNP$ vuông tại $M$, cạnh $MP$ tính theo cạnh huyền $NP$ và góc $N$ là:",
+      "choices": [
+        "$MP = NP \\cdot \\sin N$",
+        "$MP = NP \\cdot \\cos N$",
+        "$MP = NP \\cdot \\tan N$",
+        "$MP = NP / \\sin N$"
+      ],
+      "answer": 0,
+      "explanation": "$MP$ đối diện góc $N$ nên $MP = NP \\cdot \\sin N$."
+    },
+    {
+      "id": "mc-c4-049",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua sin",
+      "question": "Cho tam giác vuông $ABC$ (vuông tại $A$). Độ dài cạnh $AC$ được tính bằng:",
+      "choices": [
+        "$BC \\cdot \\sin B$",
+        "$BC \\cdot \\cos B$",
+        "$BC \\cdot \\tan B$",
+        "$AB \\cdot \\sin B$"
+      ],
+      "answer": 0,
+      "explanation": "$AC = BC \\cdot \\sin B$."
+    },
+    {
+      "id": "mc-c4-050",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua sin",
+      "question": "Hệ thức giữa cạnh góc vuông c và cạnh huyền a với góc C trong tam giác vuông là:",
+      "choices": [
+        "$c = a \\cdot \\cos C$",
+        "$c = a \\cdot \\sin C$",
+        "$c = a \\cdot \\tan C$",
+        "$c = a / \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "$c$ kề với góc $C$ nên $c = a \\cdot \\cos C$."
+    },
+    {
+      "id": "mc-c4-051",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua tan",
+      "question": "Trong tam giác vuông $ABC$ vuông tại $A$, cạnh góc vuông b tính theo cạnh c và góc B là:",
+      "choices": [
+        "$b = c \\cdot \\tan B$",
+        "$b = c \\cdot \\cot B$",
+        "$b = c \\cdot \\sin B$",
+        "$b = c \\cdot \\cos B$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh góc vuông này bằng cạnh góc vuông kia nhân tang góc đối: $b = c \\cdot \\tan B$."
+    },
+    {
+      "id": "mc-c4-052",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua tan",
+      "question": "Cho tam giác vuông có hai cạnh góc vuông $b, c$. Hệ thức nào sau đây đúng?",
+      "choices": [
+        "$b = c \\cdot \\tan B$",
+        "$b = c / \\tan B$",
+        "$b = c \\cdot \\sin B$",
+        "$b = c \\cdot \\cos B$"
+      ],
+      "answer": 0,
+      "explanation": "$b = c \\cdot \\tan B$."
+    },
+    {
+      "id": "mc-c4-053",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua tan",
+      "question": "Trong tam giác $ABC$ vuông tại $A$, cạnh $AC$ được tính theo cạnh $AB$ và góc $C$ là:",
+      "choices": [
+        "$AC = AB \\cdot \\cot C$",
+        "$AC = AB \\cdot \\tan C$",
+        "$AC = AB \\cdot \\sin C$",
+        "$AC = AB \\cdot \\cos C$"
+      ],
+      "answer": 0,
+      "explanation": "$AC = AB \\cdot \\cot C$ (nhân với côtang góc kề)."
+    },
+    {
+      "id": "mc-c4-054",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua tan",
+      "question": "Hệ thức nào sau đây tính cạnh góc vuông qua cạnh góc vuông kia và góc kề?",
+      "choices": [
+        "Bằng cạnh góc vuông kia nhân côtang góc kề",
+        "Bằng cạnh góc vuông kia nhân tang góc kề",
+        "Bằng cạnh góc vuông kia nhân sin góc kề",
+        "Bằng cạnh góc vuông kia nhân côsin góc kề"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh góc vuông = Cạnh kia $\\times \\cot$ góc kề."
+    },
+    {
+      "id": "mc-c4-055",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Hệ thức cạnh và góc qua tan",
+      "question": "Trong tam giác vuông $DEF$ vuông tại $D$, cạnh $DF$ tính theo $DE$ và góc $E$ là:",
+      "choices": [
+        "$DF = DE \\cdot \\tan E$",
+        "$DF = DE \\cdot \\cot E$",
+        "$DF = DE / \\tan E$",
+        "$DF = DE \\cdot \\sin E$"
+      ],
+      "answer": 0,
+      "explanation": "$DF = DE \\cdot \\tan E$."
+    },
+    {
+      "id": "mc-c4-056",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Hai góc phụ nhau",
+      "question": "Nếu hai góc $\\alpha$ và $\\beta$ phụ nhau ($\\alpha + \\beta = 90^\\circ$) thì:",
+      "choices": [
+        "$\\sin \\alpha = \\cos \\beta$",
+        "$\\sin \\alpha = \\sin \\beta$",
+        "$\\tan \\alpha = \\tan \\beta$",
+        "$\\cos \\alpha = -\\cos \\beta$"
+      ],
+      "answer": 0,
+      "explanation": "Hai góc phụ nhau thì sin góc này bằng cosin góc kia."
+    },
+    {
+      "id": "mc-c4-057",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Hai góc phụ nhau",
+      "question": "Cho $\\alpha + \\beta = 90^\\circ$. Đẳng thức nào sau đây đúng?",
+      "choices": [
+        "$\\tan \\alpha = \\cot \\beta$",
+        "$\\tan \\alpha = \\tan \\beta$",
+        "$\\cot \\alpha = \\cos \\beta$",
+        "$\\sin \\alpha = \\tan \\beta$"
+      ],
+      "answer": 0,
+      "explanation": "Hai góc phụ nhau thì tang góc này bằng côtang góc kia."
+    },
+    {
+      "id": "mc-c4-058",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Hai góc phụ nhau",
+      "question": "Giá trị của $\\cos 70^\\circ$ bằng giá trị lượng giác nào sau đây?",
+      "choices": [
+        "$\\sin 20^\\circ$",
+        "$\\sin 70^\\circ$",
+        "$\\cos 20^\\circ$",
+        "$\\tan 20^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $70^\\circ + 20^\\circ = 90^\\circ$ nên $\\cos 70^\\circ = \\sin 20^\\circ$."
+    },
+    {
+      "id": "mc-c4-059",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Hai góc phụ nhau",
+      "question": "Giá trị của $\\tan 80^\\circ$ bằng:",
+      "choices": [
+        "$\\cot 10^\\circ$",
+        "$\\tan 10^\\circ$",
+        "$\\sin 10^\\circ$",
+        "$\\cos 10^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $80^\\circ + 10^\\circ = 90^\\circ$ nên $\\tan 80^\\circ = \\cot 10^\\circ$."
+    },
+    {
+      "id": "mc-c4-060",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Hai góc phụ nhau",
+      "question": "Cho góc $\\alpha = 15^\\circ$. Giá trị $\\sin 15^\\circ$ bằng:",
+      "choices": [
+        "$\\cos 75^\\circ$",
+        "$\\cos 15^\\circ$",
+        "$\\sin 75^\\circ$",
+        "$\\tan 75^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $15^\\circ + 75^\\circ = 90^\\circ$ nên $\\sin 15^\\circ = \\cos 75^\\circ$."
+    },
+    {
+      "id": "mc-c4-061",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tỉ số lượng giác trong tam giác cụ thể",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 3\\text{ cm}$, $AC = 4\\text{ cm}$. Giá trị của $\\sin B$ là:",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền $BC = \\sqrt{3^2 + 4^2} = 5$. Do đó $\\sin B = AC / BC = 4/5$."
+    },
+    {
+      "id": "mc-c4-062",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tỉ số lượng giác trong tam giác cụ thể",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}$, $AC = 8\\text{ cm}$. Giá trị của $\\cos B$ bằng:",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền $BC = 10$. Do đó $\\cos B = AB / BC = 6/10 = 3/5$."
+    },
+    {
+      "id": "mc-c4-063",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tỉ số lượng giác trong tam giác cụ thể",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 5\\text{ cm}$, $AC = 12\\text{ cm}$. Giá trị $\\tan B$ là:",
+      "choices": [
+        "$\\frac{12}{5}$",
+        "$\\frac{5}{12}$",
+        "$\\frac{12}{13}$",
+        "$\\frac{5}{13}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan B = AC / AB = 12/5$."
+    },
+    {
+      "id": "mc-c4-064",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tỉ số lượng giác trong tam giác cụ thể",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 9 và 12. Cạnh huyền có độ dài bằng:",
+      "choices": [
+        "$15$",
+        "$18$",
+        "$21$",
+        "$13$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15$."
+    },
+    {
+      "id": "mc-c4-065",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh huyền và góc",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $BC = 10\\text{ cm}$ và $\\angle B = 30^\\circ$. Độ dài cạnh $AC$ là:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$5\\sqrt{3}\\text{ cm}$",
+        "$10\\sqrt{3}\\text{ cm}$",
+        "$8\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AC = BC \\cdot \\sin 30^\\circ = 10 \\cdot 0,5 = 5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-066",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh huyền và góc",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $BC = 12\\text{ cm}$ và $\\angle B = 60^\\circ$. Độ dài cạnh $AB$ bằng:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$6\\sqrt{3}\\text{ cm}$",
+        "$12\\sqrt{3}\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = BC \\cdot \\cos 60^\\circ = 12 \\cdot 0,5 = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-067",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh huyền và góc",
+      "question": "Tam giác vuông có cạnh huyền bằng $16\\text{ cm}$ và một góc nhọn bằng $30^\\circ$. Cạnh góc vuông đối diện góc đó dài:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$8\\sqrt{3}\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$b = 16 \\cdot \\sin 30^\\circ = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-068",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh huyền và góc",
+      "question": "Tính cạnh góc vuông đối diện góc $30^\\circ$ trong tam giác vuông có cạnh huyền bằng $20\\text{ cm}$:",
+      "choices": [
+        "$10\\text{ cm}$",
+        "$10\\sqrt{3}\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$15\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$20 \\cdot \\sin 30^\\circ = 10\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-069",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh kề và góc 45 độ",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}$ và $\\angle B = 45^\\circ$. Độ dài cạnh $AC$ là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$6\\sqrt{2}\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác vuông cân tại A nên $AC = AB = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-070",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh kề và góc 45 độ",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 8\\text{ cm}$ và $\\angle C = 45^\\circ$. Độ dài cạnh $AC$ bằng:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$8\\sqrt{2}\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$16\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\angle C = 45^\\circ$ nên tam giác vuông cân $\\Rightarrow AC = AB = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-071",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh kề và góc 45 độ",
+      "question": "Một tam giác vuông có một góc nhọn bằng $45^\\circ$ và một cạnh góc vuông bằng $5\\text{ cm}$. Cạnh góc vuông còn lại dài:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$5\\sqrt{2}\\text{ cm}$",
+        "$2,5\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai cạnh góc vuông bằng nhau và bằng $5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-072",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông khi biết cạnh kề và góc 45 độ",
+      "question": "Độ dài cạnh góc vuông của tam giác vuông cân có cạnh huyền bằng $6\\sqrt{2}\\text{ cm}$ là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$6\\sqrt{2}\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$a = 6\\sqrt{2} / \\sqrt{2} = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-073",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính cos khi biết sin",
+      "question": "Cho góc nhọn $\\alpha$ có $\\sin \\alpha = \\frac{3}{5}$. Giá trị của $\\cos \\alpha$ là:",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = \\sqrt{1 - (3/5)^2} = 4/5$."
+    },
+    {
+      "id": "mc-c4-074",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính cos khi biết sin",
+      "question": "Biết $\\sin x = \\frac{5}{13}$ với góc nhọn x. Giá trị của $\\cos x$ bằng:",
+      "choices": [
+        "$\\frac{12}{13}$",
+        "$\\frac{8}{13}$",
+        "$\\frac{1}{13}$",
+        "$\\frac{12}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\sqrt{1 - 25/169} = \\sqrt{144/169} = 12/13$."
+    },
+    {
+      "id": "mc-c4-075",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính cos khi biết sin",
+      "question": "Cho góc nhọn $\\beta$ có $\\cos \\beta = \\frac{4}{5}$. Giá trị của $\\sin \\beta$ là:",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{4}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin \\beta = \\sqrt{1 - 16/25} = 3/5$."
+    },
+    {
+      "id": "mc-c4-076",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính cos khi biết sin",
+      "question": "Biết góc nhọn $\\alpha$ thoả mãn $\\sin \\alpha = 0,8$. Giá trị của $\\cos \\alpha$ bằng:",
+      "choices": [
+        "$0,6$",
+        "$0,2$",
+        "$0,4$",
+        "$0,5$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = \\sqrt{1 - 0,64} = \\sqrt{0,36} = 0,6$."
+    },
+    {
+      "id": "mc-c4-077",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tan khi biết sin và cos",
+      "question": "Cho góc nhọn $\\alpha$ có $\\sin \\alpha = \\frac{3}{5}$ và $\\cos \\alpha = \\frac{4}{5}$. Giá trị $\\tan \\alpha$ bằng:",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{3}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan \\alpha = \\sin \\alpha / \\cos \\alpha = (3/5)/(4/5) = 3/4$."
+    },
+    {
+      "id": "mc-c4-078",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tan khi biết sin và cos",
+      "question": "Biết $\\sin x = \\frac{5}{13}$ và $\\cos x = \\frac{12}{13}$. Giá trị của $\\tan x$ là:",
+      "choices": [
+        "$\\frac{5}{12}$",
+        "$\\frac{12}{5}$",
+        "$\\frac{5}{13}$",
+        "$\\frac{12}{13}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = 5/12$."
+    },
+    {
+      "id": "mc-c4-079",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tan khi biết sin và cos",
+      "question": "Cho góc nhọn có $\\sin \\alpha = 0,6$ và $\\cos \\alpha = 0,8$. Giá trị $\\cot \\alpha$ bằng:",
+      "choices": [
+        "$\\frac{4}{3}$",
+        "$\\frac{3}{4}$",
+        "$1$",
+        "$0,8$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = \\cos / \\sin = 0,8 / 0,6 = 4/3$."
+    },
+    {
+      "id": "mc-c4-080",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính tan khi biết sin và cos",
+      "question": "Biết $\\tan \\alpha = 2$. Giá trị của $\\cot \\alpha$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$2$",
+        "$-2$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = 1 / \\tan \\alpha = 1/2$."
+    },
+    {
+      "id": "mc-c4-081",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Ứng dụng thực tế tính chiều cao cây",
+      "question": "Một cái cây có bóng trên mặt đất dài 12 m khi góc tạo bởi tia nắng mặt trời và mặt đất bằng $45^\\circ$. Chiều cao của cây là:",
+      "choices": [
+        "$12\\text{ m}$",
+        "$12\\sqrt{3}\\text{ m}$",
+        "$6\\text{ m}$",
+        "$24\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $h = 12 \\cdot \\tan 45^\\circ = 12\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-082",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Ứng dụng thực tế tính chiều cao cây",
+      "question": "Bóng của một cột cờ trên mặt đất dài 15 m khi góc nghiêng tia nắng bằng $45^\\circ$. Chiều cao của cột cờ là:",
+      "choices": [
+        "$15\\text{ m}$",
+        "$15\\sqrt{3}\\text{ m}$",
+        "$7,5\\text{ m}$",
+        "$30\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $h = 15 \\cdot 1 = 15\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-083",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Ứng dụng thực tế tính chiều cao cây",
+      "question": "Một người đứng cách chân toà nhà 30 m và nhìn thấy đỉnh toà nhà dưới góc $45^\\circ$. Chiều cao toà nhà (bỏ qua chiều cao người) là:",
+      "choices": [
+        "$30\\text{ m}$",
+        "$30\\sqrt{3}\\text{ m}$",
+        "$15\\text{ m}$",
+        "$60\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "$h = 30 \\cdot \\tan 45^\\circ = 30\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-084",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Ứng dụng thực tế tính chiều cao cây",
+      "question": "Bóng của một tháp cao dài 20 m khi tia sáng mặt trời chiếu nghiêng một góc $45^\\circ$. Chiều cao của ngọn tháp bằng:",
+      "choices": [
+        "$20\\text{ m}$",
+        "$20\\sqrt{3}\\text{ m}$",
+        "$10\\text{ m}$",
+        "$40\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $h = 20 \\cdot 1 = 20\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-085",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng trong tam giác vuông: định lí đường cao",
+      "question": "Tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\text{ cm}$ và $CH = 9\\text{ cm}$. Độ dài $AH$ là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$7\\text{ cm}$",
+        "$8\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AH^2 = BH \\cdot CH = 4 \\cdot 9 = 36 \\Rightarrow AH = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-086",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng trong tam giác vuông: định lí đường cao",
+      "question": "Trong tam giác vuông có hình chiếu hai cạnh góc vuông trên cạnh huyền là 1 cm và 4 cm. Độ dài đường cao ứng với cạnh huyền là:",
+      "choices": [
+        "$2\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$1\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$h = \\sqrt{1 \\cdot 4} = 2\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-087",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng trong tam giác vuông: định lí đường cao",
+      "question": "Cho tam giác vuông có hai hình chiếu trên cạnh huyền là 9 cm và 16 cm. Đường cao ứng với cạnh huyền dài:",
+      "choices": [
+        "$12\\text{ cm}$",
+        "$15\\text{ cm}$",
+        "$25\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$h = \\sqrt{9 \\cdot 16} = 3 \\cdot 4 = 12\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-088",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng trong tam giác vuông: định lí đường cao",
+      "question": "Tam giác vuông có hình chiếu hai cạnh góc vuông là 2 cm và 8 cm. Đường cao kẻ từ đỉnh góc vuông bằng:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$h = \\sqrt{2 \\cdot 8} = 4\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-089",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng cạnh góc vuông và hình chiếu",
+      "question": "Tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 2\\text{ cm}$, $BC = 8\\text{ cm}$. Độ dài cạnh $AB$ là:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$2\\sqrt{3}\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AB^2 = BH \\cdot BC = 2 \\cdot 8 = 16 \\Rightarrow AB = 4\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-090",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng cạnh góc vuông và hình chiếu",
+      "question": "Trong tam giác vuông $ABC$ vuông tại $A$ có cạnh huyền $BC = 9\\text{ cm}$ và $BH = 4\\text{ cm}$. Cạnh góc vuông $AB$ dài:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$36\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$8\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = \\sqrt{BH \\cdot BC} = \\sqrt{4 \\cdot 9} = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-091",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng cạnh góc vuông và hình chiếu",
+      "question": "Cho tam giác vuông có cạnh huyền bằng 25 cm và hình chiếu cạnh góc vuông là 9 cm. Cạnh góc vuông đó dài:",
+      "choices": [
+        "$15\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$20\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$c = \\sqrt{9 \\cdot 25} = 3 \\cdot 5 = 15\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-092",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Hệ thức lượng cạnh góc vuông và hình chiếu",
+      "question": "Hình chiếu của cạnh góc vuông trên cạnh huyền dài 4 cm, cạnh huyền dài 16 cm. Cạnh góc vuông đó bằng:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$64\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$c = \\sqrt{4 \\cdot 16} = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-093",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính diện tích tam giác vuông theo tỉ số lượng giác",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}$, $AC = 8\\text{ cm}$. Diện tích tam giác $ABC$ là:",
+      "choices": [
+        "$24\\text{ cm}^2$",
+        "$48\\text{ cm}^2$",
+        "$14\\text{ cm}^2$",
+        "$20\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{2} \\cdot 6 \\cdot 8 = 24\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-094",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính diện tích tam giác vuông theo tỉ số lượng giác",
+      "question": "Diện tích của tam giác vuông có hai cạnh góc vuông là 5 cm và 10 cm bằng:",
+      "choices": [
+        "$25\\text{ cm}^2$",
+        "$50\\text{ cm}^2$",
+        "$15\\text{ cm}^2$",
+        "$20\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{2} \\cdot 5 \\cdot 10 = 25\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-095",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính diện tích tam giác vuông theo tỉ số lượng giác",
+      "question": "Tam giác vuông cân có cạnh góc vuông bằng 4 cm. Diện tích tam giác bằng:",
+      "choices": [
+        "$8\\text{ cm}^2$",
+        "$16\\text{ cm}^2$",
+        "$4\\text{ cm}^2$",
+        "$12\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{2} \\cdot 4 \\cdot 4 = 8\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-096",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính diện tích tam giác vuông theo tỉ số lượng giác",
+      "question": "Một tam giác vuông có cạnh huyền bằng 10 cm và đường cao ứng với cạnh huyền là 4 cm. Diện tích tam giác là:",
+      "choices": [
+        "$20\\text{ cm}^2$",
+        "$40\\text{ cm}^2$",
+        "$14\\text{ cm}^2$",
+        "$24\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{2} \\cdot 10 \\cdot 4 = 20\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-097",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác phụ nhau",
+      "question": "Giá trị của biểu thức $P = \\sin 25^\\circ - \\cos 65^\\circ$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2\\sin 25^\\circ$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $25^\\circ + 65^\\circ = 90^\\circ$ nên $\\cos 65^\\circ = \\sin 25^\\circ \\Rightarrow P = 0$."
+    },
+    {
+      "id": "mc-c4-098",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác phụ nhau",
+      "question": "Tính giá trị của biểu thức $Q = \\tan 40^\\circ - \\cot 50^\\circ$:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\cot 50^\\circ = \\tan 40^\\circ$ nên hiệu bằng 0."
+    },
+    {
+      "id": "mc-c4-099",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác phụ nhau",
+      "question": "Kết quả của phép tính $\\cos 15^\\circ - \\sin 75^\\circ$ là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$\\sqrt{3}$",
+        "$0,5$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 15^\\circ = \\sin 75^\\circ \\Rightarrow$ hiệu bằng 0."
+    },
+    {
+      "id": "mc-c4-100",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác phụ nhau",
+      "question": "Biểu thức $\\frac{\\sin 20^\\circ}{\\cos 70^\\circ}$ có giá trị bằng:",
+      "choices": [
+        "$1$",
+        "$0$",
+        "$\\tan 20^\\circ$",
+        "$\\cot 70^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\sin 20^\\circ = \\cos 70^\\circ$ nên thương bằng 1."
+    },
+    {
+      "id": "mc-c4-101",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính góc nhọn khi biết hai cạnh góc vuông",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 3$ và $AC = 3\\sqrt{3}$. Số đo góc $\\angle B$ là:",
+      "choices": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan B = AC / AB = 3\\sqrt{3} / 3 = \\sqrt{3} \\Rightarrow \\angle B = 60^\\circ$."
+    },
+    {
+      "id": "mc-c4-102",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính góc nhọn khi biết hai cạnh góc vuông",
+      "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 4\\sqrt{3}$ và $AC = 4$. Số đo góc $\\angle B$ bằng:",
+      "choices": [
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$45^\\circ$",
+        "$15^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan B = AC / AB = 4 / (4\\sqrt{3}) = 1/\\sqrt{3} \\Rightarrow \\angle B = 30^\\circ$."
+    },
+    {
+      "id": "mc-c4-103",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính góc nhọn khi biết hai cạnh góc vuông",
+      "question": "Tam giác vuông có hai cạnh góc vuông bằng nhau thì các góc nhọn có số đo là:",
+      "choices": [
+        "$45^\\circ$",
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$50^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác vuông cân có hai góc nhọn bằng $45^\\circ$."
+    },
+    {
+      "id": "mc-c4-104",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính góc nhọn khi biết hai cạnh góc vuông",
+      "question": "Trong tam giác vuông, nếu cạnh đối bằng nửa cạnh huyền thì góc đối có số đo:",
+      "choices": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin = 1/2 \\Rightarrow$ góc bằng $30^\\circ$."
+    },
+    {
+      "id": "mc-c4-105",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính độ dài thang dựa vào tường",
+      "question": "Một chiếc thang dài L dựa vào tường tạo với mặt đất góc $60^\\circ$. Chân thang cách tường 3 m. Độ dài thang là:",
+      "choices": [
+        "$6\\text{ m}$",
+        "$3\\sqrt{3}\\text{ m}$",
+        "$3\\text{ m}$",
+        "$12\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng cách $d = L \\cdot \\cos 60^\\circ \\Rightarrow 3 = L \\cdot 0,5 \\Rightarrow L = 6\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-106",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính độ dài thang dựa vào tường",
+      "question": "Một thang dựa vào tường có góc nghiêng so với mặt đất bằng $60^\\circ$. Biết chân thang cách tường 2 m. Chiều dài thang bằng:",
+      "choices": [
+        "$4\\text{ m}$",
+        "$2\\sqrt{3}\\text{ m}$",
+        "$2\\text{ m}$",
+        "$8\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "$L = 2 / \\cos 60^\\circ = 4\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-107",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính độ dài thang dựa vào tường",
+      "question": "Chiếc thang dài 4 m dựa vào tường có chân thang cách tường 2 m. Góc tạo bởi thang và mặt đất là:",
+      "choices": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$75^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = 2/4 = 1/2 \\Rightarrow \\alpha = 60^\\circ$."
+    },
+    {
+      "id": "mc-c4-108",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính độ dài thang dựa vào tường",
+      "question": "Một thang dài 5 m dựa vào tường có chân thang cách tường $2,5\\text{ m}$. Góc nghiêng của thang so với mặt đất bằng:",
+      "choices": [
+        "$60^\\circ$",
+        "$45^\\circ$",
+        "$30^\\circ$",
+        "$50^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = 2,5 / 5 = 1/2 \\Rightarrow \\alpha = 60^\\circ$."
+    },
+    {
+      "id": "mc-c4-109",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bài toán hai góc ngắm nâng cao",
+      "question": "Để tính chiều cao cột ăng-ten khi ngắm từ hai điểm trên mặt đất với góc nâng khác nhau, ta áp dụng:",
+      "choices": [
+        "Hệ thức lượng giữa cạnh và góc trong tam giác vuông",
+        "Công thức chu vi hình tròn",
+        "Định lí về góc nội tiếp",
+        "Bất đẳng thức Cauchy"
+      ],
+      "answer": 0,
+      "explanation": "Quy về việc giải hai tam giác vuông có chung đường cao cột ăng-ten."
+    },
+    {
+      "id": "mc-c4-110",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bài toán hai góc ngắm nâng cao",
+      "question": "Một máy bay đang bay ở độ cao h. Người quan sát nhìn thấy máy bay dưới góc nâng $\\alpha$. Khoảng cách từ người đến vị trí chiếu đứng của máy bay là:",
+      "choices": [
+        "$h \\cdot \\cot \\alpha$",
+        "$h \\cdot \\tan \\alpha$",
+        "$h \\cdot \\sin \\alpha$",
+        "$h / \\sin \\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng cách trên mặt đất là cạnh kề: $d = h \\cdot \\cot \\alpha$."
+    },
+    {
+      "id": "mc-c4-111",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bài toán hai góc ngắm nâng cao",
+      "question": "Từ đài quan sát ngắm hai chiếc thuyền trên biển thẳng hàng với chân đài. Ta tính khoảng cách giữa hai thuyền bằng cách:",
+      "choices": [
+        "Lấy hiệu khoảng cách từ chân đài đến từng thuyền",
+        "Cộng khoảng cách hai thuyền",
+        "Nhân hai khoảng cách",
+        "Không tính được"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng cách giữa hai thuyền bằng hiệu hai khoảng cách từ chân đài đến mỗi thuyền."
+    },
+    {
+      "id": "mc-c4-112",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bài toán hai góc ngắm nâng cao",
+      "question": "Một khinh khí cầu đang bay. Góc nâng ngắm khinh khí cầu từ điểm A là $45^\\circ$, khoảng cách từ A đến vị trí mặt đất dưới khinh khí cầu là 100 m. Độ cao của khinh khí cầu là:",
+      "choices": [
+        "$100\\text{ m}$",
+        "$100\\sqrt{3}\\text{ m}$",
+        "$50\\text{ m}$",
+        "$200\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Độ cao $h = 100 \\cdot \\tan 45^\\circ = 100\\text{ m}$."
+    },
+    {
+      "id": "mc-c4-113",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "vd",
+      "dang": "Chứng minh hệ thức lượng giác",
+      "question": "Giá trị của biểu thức $M = (1 - \\sin \\alpha)(1 + \\sin \\alpha) - \\cos^2 \\alpha$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$M = (1 - \\sin^2 \\alpha) - \\cos^2 \\alpha = \\cos^2 \\alpha - \\cos^2 \\alpha = 0$."
+    },
+    {
+      "id": "mc-c4-114",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "vd",
+      "dang": "Chứng minh hệ thức lượng giác",
+      "question": "Rút gọn biểu thức $N = (1 - \\cos x)(1 + \\cos x) - \\sin^2 x$ ta được:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2\\sin^2 x$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$1 - \\cos^2 x - \\sin^2 x = \\sin^2 x - \\sin^2 x = 0$."
+    },
+    {
+      "id": "mc-c4-115",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "vd",
+      "dang": "Chứng minh hệ thức lượng giác",
+      "question": "Biểu thức $K = \\tan^2 \\alpha - \\frac{1}{\\cos^2 \\alpha}$ có giá trị bằng:",
+      "choices": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha} \\Rightarrow \\tan^2 \\alpha - \\frac{1}{\\cos^2 \\alpha} = -1$."
+    },
+    {
+      "id": "mc-c4-116",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "vd",
+      "dang": "Chứng minh hệ thức lượng giác",
+      "question": "Tính giá trị của $H = \\cot^2 \\alpha - \\frac{1}{\\sin^2 \\alpha}$:",
+      "choices": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha} \\Rightarrow H = -1$."
+    },
+    {
+      "id": "mc-c4-117",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bán kính đường tròn ngoại tiếp tam giác vuông",
+      "question": "Tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}$, $AC = 8\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$3\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền $BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Bán kính ngoại tiếp $R = BC / 2 = 5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-118",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bán kính đường tròn ngoại tiếp tam giác vuông",
+      "question": "Cho tam giác vuông có hai cạnh góc vuông là 5 cm và 12 cm. Bán kính đường tròn ngoại tiếp tam giác là:",
+      "choices": [
+        "$6,5\\text{ cm}$",
+        "$13\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$7\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền bằng 13 cm $\\Rightarrow R = 13/2 = 6,5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-119",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bán kính đường tròn ngoại tiếp tam giác vuông",
+      "question": "Tam giác vuông có cạnh huyền bằng 16 cm. Bán kính đường tròn ngoại tiếp tam giác bằng:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$R = a / 2 = 16 / 2 = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-120",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Bán kính đường tròn ngoại tiếp tam giác vuông",
+      "question": "Bán kính đường tròn ngoại tiếp tam giác vuông cân có cạnh góc vuông bằng $4\\sqrt{2}\\text{ cm}$ là:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$4\\sqrt{2}\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền bằng $4\\sqrt{2} \\cdot \\sqrt{2} = 8\\text{ cm} \\Rightarrow R = 4\\text{ cm}$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Tam giác vuông cân tại A có $AB = 5\\text{ cm}$. Độ dài cạnh AC bằng bao nhiêu cm?",
+      "answer": 5,
+      "explanation": "$AC = AB = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Cho tam giác vuông cân tại A có $AB = 7\\text{ cm}$. Cạnh AC dài bao nhiêu cm?",
+      "answer": 7,
+      "explanation": "$AC = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Độ dài cạnh góc vuông thứ hai của tam giác vuông cân có một cạnh góc vuông bằng 9 cm là:",
+      "answer": 9,
+      "explanation": "Bằng 9 cm."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Tam giác ABC vuông cân tại A có $AB = 11\\text{ cm}$. Cạnh AC dài:",
+      "answer": 11,
+      "explanation": "$AC = 11\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Cạnh góc vuông của tam giác vuông cân có cạnh bằng 15 cm là:",
+      "answer": 15,
+      "explanation": "Bằng 15 cm."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tam giác ABC vuông tại A có hai cạnh góc vuông là 3 và 4. Tích của đường cao AH và cạnh huyền BC bằng:",
+      "answer": 12,
+      "explanation": "$AH \\cdot BC = AB \\cdot AC = 3 \\cdot 4 = 12$."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Cho tam giác vuông có hai cạnh góc vuông là 6 và 8. Tích đường cao ứng với cạnh huyền và cạnh huyền là:",
+      "answer": 48,
+      "explanation": "$AB \\cdot AC = 6 \\cdot 8 = 48$."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Hai cạnh góc vuông của một tam giác vuông là 5 và 12. Tích cạnh huyền và đường cao bằng:",
+      "answer": 60,
+      "explanation": "$5 \\cdot 12 = 60$."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tam giác vuông có hai cạnh góc vuông dài 2 cm và 9 cm. Tích đường cao và cạnh huyền là:",
+      "answer": 18,
+      "explanation": "$2 \\cdot 9 = 18$."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tính tích của cạnh huyền và đường cao trong tam giác vuông có hai cạnh góc vuông là 4 và 5:",
+      "answer": 20,
+      "explanation": "$4 \\cdot 5 = 20$."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính giá trị của biểu thức $P = 7 \\cdot \\tan 45^\\circ$:",
+      "answer": 7,
+      "explanation": "Vì $\\tan 45^\\circ = 1$ nên giá trị bằng 7."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Giá trị của $8 \\cdot \\cot 45^\\circ$ bằng bao nhiêu?",
+      "answer": 8,
+      "explanation": "Vì $\\cot 45^\\circ = 1$ nên bằng 8."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính kết quả của $10 \\cdot \\tan 45^\\circ$:",
+      "answer": 10,
+      "explanation": "Bằng 10."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Biểu thức $15 \\cdot \\tan 45^\\circ$ có giá trị là:",
+      "answer": 15,
+      "explanation": "Bằng 15."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính $20 \\cdot \\cot 45^\\circ$ thu được:",
+      "answer": 20,
+      "explanation": "Bằng 20."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Tam giác vuông có cạnh huyền bằng 10 cm và một góc nhọn bằng $30^\\circ$. Cạnh góc vuông đối diện góc đó dài bao nhiêu cm?",
+      "answer": 5,
+      "explanation": "$c = 10 \\cdot \\sin 30^\\circ = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Một tam giác vuông có cạnh huyền bằng 14 cm. Cạnh đối diện góc $30^\\circ$ có độ dài là:",
+      "answer": 7,
+      "explanation": "$14 \\cdot 0,5 = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Tính cạnh đối diện góc $30^\\circ$ trong tam giác vuông có cạnh huyền bằng 18 cm:",
+      "answer": 9,
+      "explanation": "$18 \\cdot 0,5 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Cạnh huyền bằng 24 cm. Cạnh góc vuông đối diện góc $30^\\circ$ dài bao nhiêu cm?",
+      "answer": 12,
+      "explanation": "$24 \\cdot 0,5 = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Tam giác vuông có hình chiếu hai cạnh góc vuông trên cạnh huyền là 4 cm và 9 cm. Bình phương đường cao ứng với cạnh huyền bằng:",
+      "answer": 36,
+      "explanation": "$AH^2 = 4 \\cdot 9 = 36$."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Hình chiếu hai cạnh góc vuông trên cạnh huyền là 2 cm và 8 cm. Bình phương đường cao bằng:",
+      "answer": 16,
+      "explanation": "$2 \\cdot 8 = 16$."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Cho hai hình chiếu trên cạnh huyền là 3 cm và 12 cm. Giá trị $AH^2$ bằng:",
+      "answer": 36,
+      "explanation": "$3 \\cdot 12 = 36$."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Tính bình phương đường cao của tam giác vuông có hai hình chiếu trên cạnh huyền là 5 cm và 20 cm:",
+      "answer": 100,
+      "explanation": "$5 \\cdot 20 = 100$."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Tính giá trị của biểu thức $A = 5 \\cdot (\\sin^2 35^\\circ + \\cos^2 35^\\circ)$:",
+      "answer": 5,
+      "explanation": "Vì $\\sin^2 + \\cos^2 = 1$ nên giá trị bằng 5."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Giá trị của $B = 8 \\cdot (\\sin^2 50^\\circ + \\cos^2 50^\\circ)$ bằng bao nhiêu?",
+      "answer": 8,
+      "explanation": "Bằng 8."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Tính $C = 12 \\cdot (\\sin^2 15^\\circ + \\cos^2 15^\\circ)$:",
+      "answer": 12,
+      "explanation": "Bằng 12."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Biểu thức $D = 25 \\cdot (\\sin^2 72^\\circ + \\cos^2 72^\\circ)$ có giá trị là:",
+      "answer": 25,
+      "explanation": "Bằng 25."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 6 cm và 8 cm. Độ dài cạnh huyền bằng bao nhiêu cm?",
+      "answer": 10,
+      "explanation": "$\\sqrt{6^2 + 8^2} = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Tính độ dài cạnh huyền của tam giác vuông có hai cạnh góc vuông là 9 cm và 12 cm:",
+      "answer": 15,
+      "explanation": "$\\sqrt{9^2 + 12^2} = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Một tam giác vuông có hai cạnh góc vuông dài 12 cm và 16 cm. Cạnh huyền dài bao nhiêu cm?",
+      "answer": 20,
+      "explanation": "$\\sqrt{12^2 + 16^2} = 20\\text{ cm}$."
+    }
+  ]
+}

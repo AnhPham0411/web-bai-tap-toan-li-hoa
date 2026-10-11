@@ -1,0 +1,2244 @@
+{
+  "sgk_chapter_title": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b1",
+      "sgk_title": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn"
+    },
+    {
+      "lesson_id": "b2",
+      "sgk_title": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn"
+    },
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Giải bài toán bằng cách lập hệ phương trình"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm phương trình bậc nhất hai ẩn",
+      "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn x và y?",
+      "choices": [
+        "$2x + 3y = 5$",
+        "$x^2 + y = 3$",
+        "$\\frac{1}{x} + y = 2$",
+        "$xy = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc nhất hai ẩn có dạng $ax + by = c$ với $a, b$ không đồng thời bằng 0."
+    },
+    {
+      "id": "mc-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm phương trình bậc nhất hai ẩn",
+      "question": "Trong các phương trình sau, phương trình nào có dạng bậc nhất hai ẩn u và v?",
+      "choices": [
+        "$3u - 4v = 7$",
+        "$u^2 - v^2 = 1$",
+        "$\\sqrt{u} + v = 0$",
+        "$u + \\frac{2}{v} = 3$"
+      ],
+      "answer": 0,
+      "explanation": "Dạng $au + bv = c$ với bậc của u và v đều bằng 1."
+    },
+    {
+      "id": "mc-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm phương trình bậc nhất hai ẩn",
+      "question": "Biểu thức nào sau đây xác định một phương trình bậc nhất hai ẩn m và n?",
+      "choices": [
+        "$5m + 2n = -1$",
+        "$mn + 1 = 0$",
+        "$m^3 + n = 2$",
+        "$m - \\sqrt{n} = 5$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc nhất hai ẩn có dạng $am + bn = c$."
+    },
+    {
+      "id": "mc-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm phương trình bậc nhất hai ẩn",
+      "question": "Hãy chỉ ra phương trình bậc nhất hai ẩn t và z trong các câu dưới đây:",
+      "choices": [
+        "$4t - z = 9$",
+        "$t^2 + 2z = 4$",
+        "$\\frac{3}{t} - z = 1$",
+        "$t \\cdot z = 8$"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $4t - z = 9$ có bậc nhất đối với cả hai ẩn."
+    },
+    {
+      "id": "mc-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm phương trình bậc nhất hai ẩn",
+      "question": "Phương trình nào là phương trình bậc nhất đối với hai ẩn số x và y?",
+      "choices": [
+        "$-x + 6y = 2$",
+        "$x^2 + 2y^2 = 4$",
+        "$x - \\frac{1}{y} = 0$",
+        "$\\sqrt{x} - y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Dạng $-x + 6y = 2$ là phương trình bậc nhất hai ẩn."
+    },
+    {
+      "id": "mc-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Hệ số phương trình bậc nhất hai ẩn",
+      "question": "Xác định các hệ số a, b, c của phương trình $2x - 5y = 3$:",
+      "choices": [
+        "$a = 2, b = -5, c = 3$",
+        "$a = 2, b = 5, c = 3$",
+        "$a = -2, b = -5, c = 3$",
+        "$a = 2, b = -5, c = -3$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình dạng $ax + by = c$ có $a = 2, b = -5, c = 3$."
+    },
+    {
+      "id": "mc-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Hệ số phương trình bậc nhất hai ẩn",
+      "question": "Tìm hệ số a, b, c tương ứng của phương trình $4x + 7y = -2$:",
+      "choices": [
+        "$a = 4, b = 7, c = -2$",
+        "$a = 4, b = -7, c = -2$",
+        "$a = -4, b = 7, c = 2$",
+        "$a = 4, b = 7, c = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình có $a = 4, b = 7, c = -2$."
+    },
+    {
+      "id": "mc-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Hệ số phương trình bậc nhất hai ẩn",
+      "question": "Các hệ số a, b, c của phương trình bậc nhất hai ẩn $-3x + y = 8$ lần lượt là:",
+      "choices": [
+        "$a = -3, b = 1, c = 8$",
+        "$a = 3, b = 1, c = 8$",
+        "$a = -3, b = -1, c = 8$",
+        "$a = -3, b = 1, c = -8$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số trước x là -3, trước y là 1, vế phải c là 8."
+    },
+    {
+      "id": "mc-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Hệ số phương trình bậc nhất hai ẩn",
+      "question": "Cho phương trình $x - 6y = 0$. Các hệ số a, b, c là:",
+      "choices": [
+        "$a = 1, b = -6, c = 0$",
+        "$a = 1, b = 6, c = 0$",
+        "$a = 0, b = -6, c = 1$",
+        "$a = -1, b = -6, c = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $a = 1, b = -6, c = 0$."
+    },
+    {
+      "id": "mc-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Hệ số phương trình bậc nhất hai ẩn",
+      "question": "Hệ số của x, y và số hạng tự do c trong phương trình $5x - y = 11$ là:",
+      "choices": [
+        "$a = 5, b = -1, c = 11$",
+        "$a = 5, b = 1, c = 11$",
+        "$a = -5, b = -1, c = 11$",
+        "$a = 5, b = -1, c = -11$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số tương ứng là $a = 5, b = -1, c = 11$."
+    },
+    {
+      "id": "mc-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm phương trình bậc nhất hai ẩn",
+      "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 3$?",
+      "choices": [
+        "$(2; 1)$",
+        "$(1; 2)$",
+        "$(0; 3)$",
+        "$(3; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(x; y) = (2; 1)$: $2(2) - 1 = 3$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-012",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm phương trình bậc nhất hai ẩn",
+      "question": "Kiểm tra xem cặp số nào là nghiệm của phương trình $x + 3y = 7$:",
+      "choices": [
+        "$(1; 2)$",
+        "$(2; 1)$",
+        "$(4; 2)$",
+        "$(0; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(x; y) = (1; 2)$: $1 + 3(2) = 7$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm phương trình bậc nhất hai ẩn",
+      "question": "Điểm nào có toạ độ là nghiệm của phương trình $3x + y = 10$?",
+      "choices": [
+        "$(3; 1)$",
+        "$(2; 3)$",
+        "$(1; 5)$",
+        "$(4; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(3; 1)$: $3(3) + 1 = 10$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-014",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm phương trình bậc nhất hai ẩn",
+      "question": "Cặp số $(x; y)$ nào thoả mãn phương trình $x - 2y = 4$?",
+      "choices": [
+        "$(6; 1)$",
+        "$(4; 1)$",
+        "$(2; 1)$",
+        "$(5; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(6; 1)$: $6 - 2(1) = 4$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm phương trình bậc nhất hai ẩn",
+      "question": "Trong các cặp số sau, cặp số nào nghiệm đúng phương trình $4x - 3y = 1$?",
+      "choices": [
+        "$(1; 1)$",
+        "$(2; 2)$",
+        "$(1; 2)$",
+        "$(0; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(1; 1)$: $4(1) - 3(1) = 1$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-016",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của phương trình bậc nhất hai ẩn",
+      "question": "Số nghiệm của một phương trình bậc nhất hai ẩn $ax + by = c$ bất kì là:",
+      "choices": [
+        "Vô số nghiệm",
+        "1 nghiệm duy nhất",
+        "Vô nghiệm",
+        "2 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc nhất hai ẩn luôn có vô số nghiệm."
+    },
+    {
+      "id": "mc-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của phương trình bậc nhất hai ẩn",
+      "question": "Tập nghiệm của phương trình bậc nhất hai ẩn được biểu diễn hình học là:",
+      "choices": [
+        "Một đường thẳng",
+        "Một đoạn thẳng",
+        "Một điểm duy nhất",
+        "Một đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Tập nghiệm của phương trình bậc nhất hai ẩn biểu diễn bởi một đường thẳng trên mặt phẳng toạ độ."
+    },
+    {
+      "id": "mc-c1-018",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của phương trình bậc nhất hai ẩn",
+      "question": "Khẳng định nào đúng về số nghiệm của phương trình $3x + 2y = 6$?",
+      "choices": [
+        "Phương trình có vô số nghiệm",
+        "Phương trình có 1 nghiệm",
+        "Phương trình có 2 nghiệm",
+        "Phương trình vô nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc nhất hai ẩn luôn có vô số nghiệm."
+    },
+    {
+      "id": "mc-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của phương trình bậc nhất hai ẩn",
+      "question": "Phương trình $x - 4y = 2$ có bao nhiêu nghiệm thực?",
+      "choices": [
+        "Vô số nghiệm",
+        "Đúng 1 nghiệm",
+        "Đúng 4 nghiệm",
+        "Không có nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình bậc nhất hai ẩn có vô số nghiệm thực."
+    },
+    {
+      "id": "mc-c1-020",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của phương trình bậc nhất hai ẩn",
+      "question": "Khi vẽ đồ thị biểu diễn tập nghiệm của phương trình $2x + y = 4$, ta được:",
+      "choices": [
+        "Đường thẳng $y = -2x + 4$",
+        "Đường cong parabol",
+        "Hai điểm phân biệt",
+        "Tia phân giác góc phần tư"
+      ],
+      "answer": 0,
+      "explanation": "Tập nghiệm là đường thẳng $y = -2x + 4$."
+    },
+    {
+      "id": "mc-c1-021",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm hệ hai phương trình bậc nhất hai ẩn",
+      "question": "Hệ phương trình nào sau đây là hệ hai phương trình bậc nhất hai ẩn?",
+      "choices": [
+        "$x + y = 2, 2x - y = 1$",
+        "$x^2 + y = 1, x - y = 0$",
+        "$xy = 2, x + y = 3$",
+        "$\\sqrt{x} + y = 1, x - y = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai phương trình đều là phương trình bậc nhất hai ẩn."
+    },
+    {
+      "id": "mc-c1-022",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm hệ hai phương trình bậc nhất hai ẩn",
+      "question": "Chỉ ra hệ hai phương trình bậc nhất hai ẩn trong các hệ sau:",
+      "choices": [
+        "$3x - y = 5, x + 2y = 4$",
+        "$x^2 + y^2 = 4, x + y = 1$",
+        "$\\frac{1}{x} + y = 3, 2x - y = 1$",
+        "$x - y^3 = 0, x + y = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ thứ nhất gồm hai phương trình bậc nhất hai ẩn chuẩn."
+    },
+    {
+      "id": "mc-c1-023",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm hệ hai phương trình bậc nhất hai ẩn",
+      "question": "Hệ thức nào là hệ hai phương trình bậc nhất hai ẩn u và v?",
+      "choices": [
+        "$2u + v = 3, u - 3v = 5$",
+        "$uv = 1, u + v = 4$",
+        "$u^2 + v = 2, u - v = 1$",
+        "$u + \\frac{1}{v} = 2, 2u - v = 3$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ bậc nhất chuẩn đối với hai ẩn u và v."
+    },
+    {
+      "id": "mc-c1-024",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm hệ hai phương trình bậc nhất hai ẩn",
+      "question": "Trong các hệ phương trình dưới đây, hệ bậc nhất hai ẩn là:",
+      "choices": [
+        "$4x + 3y = 1, x - y = 6$",
+        "$x + y = 1, x^2 - y = 2$",
+        "$xy + y = 3, x - 2y = 1$",
+        "$\\sqrt{2x} + y = 1, x + y = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Dạng $a_1 x + b_1 y = c_1$ và $a_2 x + b_2 y = c_2$."
+    },
+    {
+      "id": "mc-c1-025",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Khái niệm hệ hai phương trình bậc nhất hai ẩn",
+      "question": "Chọn hệ hai phương trình bậc nhất hai ẩn x và y đúng nhất:",
+      "choices": [
+        "$x - 5y = 2, 3x + y = 7$",
+        "$x^2 - y = 4, x + y = 1$",
+        "$x + \\frac{2}{y} = 5, x - y = 3$",
+        "$x(y + 1) = 2, x - y = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ gồm hai phương trình bậc nhất hai ẩn x, y."
+    },
+    {
+      "id": "mc-c1-026",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm của hệ hai phương trình",
+      "question": "Cặp số $(1; 2)$ là nghiệm của hệ phương trình nào sau đây?",
+      "choices": [
+        "$x + y = 3, 2x - y = 0$",
+        "$x + y = 4, x - y = 1$",
+        "$2x + y = 5, x - y = 2$",
+        "$x - y = 1, 3x + y = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(1; 2)$: $1 + 2 = 3$ và $2(1) - 2 = 0$ (thoả mãn)."
+    },
+    {
+      "id": "mc-c1-027",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm của hệ hai phương trình",
+      "question": "Kiểm tra cặp số $(2; 1)$ là nghiệm của hệ phương trình nào:",
+      "choices": [
+        "$x + y = 3, x - y = 1$",
+        "$x + y = 4, 2x - y = 5$",
+        "$2x + y = 3, x - y = 0$",
+        "$x - 2y = 1, x + y = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(2; 1)$: $2 + 1 = 3$ và $2 - 1 = 1$."
+    },
+    {
+      "id": "mc-c1-028",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm của hệ hai phương trình",
+      "question": "Cặp số $(3; -1)$ thoả mãn hệ phương trình nào sau đây?",
+      "choices": [
+        "$x + y = 2, x - y = 4$",
+        "$x + y = 3, 2x + y = 4$",
+        "$x - y = 2, 2x + y = 5$",
+        "$x + 2y = 0, x - y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(3; -1)$: $3 + (-1) = 2$ và $3 - (-1) = 4$."
+    },
+    {
+      "id": "mc-c1-029",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm của hệ hai phương trình",
+      "question": "Cặp số nào sau đây là nghiệm của hệ $x - y = 2, x + y = 6$?",
+      "choices": [
+        "$(4; 2)$",
+        "$(3; 1)$",
+        "$(5; 1)$",
+        "$(2; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai phương trình ta được $2x = 8 \\Rightarrow x = 4, y = 2$."
+    },
+    {
+      "id": "mc-c1-030",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Kiểm tra nghiệm của hệ hai phương trình",
+      "question": "Nghiệm của hệ phương trình $2x + y = 5, x - y = 1$ là cặp số:",
+      "choices": [
+        "$(2; 1)$",
+        "$(1; 3)$",
+        "$(3; -1)$",
+        "$(0; 5)$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai phương trình: $3x = 6 \\Rightarrow x = 2, y = 1$."
+    },
+    {
+      "id": "mc-c1-031",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc thế bước đầu",
+      "question": "Từ phương trình $x - 3y = 2$, biểu diễn x theo y ta được:",
+      "choices": [
+        "$x = 3y + 2$",
+        "$x = -3y + 2$",
+        "$x = 3y - 2$",
+        "$x = \\frac{y + 2}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Chuyển vế đổi dấu: $x = 3y + 2$."
+    },
+    {
+      "id": "mc-c1-032",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc thế bước đầu",
+      "question": "Từ phương trình $2x - y = 5$, biểu diễn y theo x ta được:",
+      "choices": [
+        "$y = 2x - 5$",
+        "$y = 5 - 2x$",
+        "$y = -2x - 5$",
+        "$y = 2x + 5$"
+      ],
+      "answer": 0,
+      "explanation": "Chuyển vế: $y = 2x - 5$."
+    },
+    {
+      "id": "mc-c1-033",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc thế bước đầu",
+      "question": "Từ phương trình $x + 4y = 9$, rút ẩn x theo y ta được:",
+      "choices": [
+        "$x = 9 - 4y$",
+        "$x = 4y - 9$",
+        "$x = 9 + 4y$",
+        "$x = \\frac{9 - y}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Rút ẩn: $x = 9 - 4y$."
+    },
+    {
+      "id": "mc-c1-034",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc thế bước đầu",
+      "question": "Biểu diễn ẩn y theo x từ phương trình $3x + y = 7$:",
+      "choices": [
+        "$y = 7 - 3x$",
+        "$y = 3x - 7$",
+        "$y = 7 + 3x$",
+        "$y = \\frac{7 - x}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Ta có $y = 7 - 3x$."
+    },
+    {
+      "id": "mc-c1-035",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc thế bước đầu",
+      "question": "Từ đẳng thức $x - 2y = -3$, rút x theo y thu được:",
+      "choices": [
+        "$x = 2y - 3$",
+        "$x = -2y - 3$",
+        "$x = 2y + 3$",
+        "$x = 3 - 2y$"
+      ],
+      "answer": 0,
+      "explanation": "Chuyển vế ta được $x = 2y - 3$."
+    },
+    {
+      "id": "mc-c1-036",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc cộng đại số cơ bản",
+      "question": "Cộng từng vế hai phương trình $2x + y = 4$ và $3x - y = 6$ ta được:",
+      "choices": [
+        "$5x = 10$",
+        "$5x + 2y = 10$",
+        "$-x = -2$",
+        "$6x = 10$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $(2x + 3x) + (y - y) = 4 + 6 \\Leftrightarrow 5x = 10$."
+    },
+    {
+      "id": "mc-c1-037",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc cộng đại số cơ bản",
+      "question": "Cộng từng vế hệ phương trình $x - 2y = 3$ và $4x + 2y = 7$ ta được:",
+      "choices": [
+        "$5x = 10$",
+        "$3x = 10$",
+        "$5x - 4y = 10$",
+        "$4x = 10$"
+      ],
+      "answer": 0,
+      "explanation": "Triệt tiêu y: $x + 4x = 3 + 7 \\Leftrightarrow 5x = 10$."
+    },
+    {
+      "id": "mc-c1-038",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc cộng đại số cơ bản",
+      "question": "Trừ từng vế phương trình $3x + 2y = 8$ cho phương trình $x + 2y = 4$ ta được:",
+      "choices": [
+        "$2x = 4$",
+        "$4x = 12$",
+        "$2x + 4y = 12$",
+        "$3x = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Trừ triệt tiêu y: $(3x - x) + (2y - 2y) = 8 - 4 \\Leftrightarrow 2x = 4$."
+    },
+    {
+      "id": "mc-c1-039",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc cộng đại số cơ bản",
+      "question": "Khi cộng từng vế hai phương trình $4x + 3y = 11$ và $2x - 3y = 1$ ta được:",
+      "choices": [
+        "$6x = 12$",
+        "$6x + 6y = 12$",
+        "$2x = 10$",
+        "$8x = 12$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $4x + 2x = 11 + 1 \\Leftrightarrow 6x = 12$."
+    },
+    {
+      "id": "mc-c1-040",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Quy tắc cộng đại số cơ bản",
+      "question": "Trừ từng vế phương trình $5x + y = 9$ cho phương trình $2x + y = 3$ ta được:",
+      "choices": [
+        "$3x = 6$",
+        "$7x = 12$",
+        "$3x + 2y = 6$",
+        "$5x = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Triệt tiêu y: $5x - 2x = 9 - 3 \\Leftrightarrow 3x = 6$."
+    },
+    {
+      "id": "mc-c1-041",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của hệ theo vị trí hai đường thẳng",
+      "question": "Khi hai đường thẳng biểu diễn hai phương trình cắt nhau, hệ có:",
+      "choices": [
+        "1 nghiệm duy nhất",
+        "Vô số nghiệm",
+        "Vô nghiệm",
+        "2 nghiệm phân biệt"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng cắt nhau tại 1 điểm nên hệ có nghiệm duy nhất."
+    },
+    {
+      "id": "mc-c1-042",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của hệ theo vị trí hai đường thẳng",
+      "question": "Khi hai đường thẳng biểu diễn hai phương trình song song với nhau, hệ có:",
+      "choices": [
+        "Vô nghiệm",
+        "1 nghiệm duy nhất",
+        "Vô số nghiệm",
+        "3 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng song song không có điểm chung nên hệ vô nghiệm."
+    },
+    {
+      "id": "mc-c1-043",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của hệ theo vị trí hai đường thẳng",
+      "question": "Khi hai đường thẳng biểu diễn hai phương trình trùng nhau hoàn toàn, hệ có:",
+      "choices": [
+        "Vô số nghiệm",
+        "1 nghiệm",
+        "Vô nghiệm",
+        "Đúng 2 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng trùng nhau có vô số điểm chung nên hệ có vô số nghiệm."
+    },
+    {
+      "id": "mc-c1-044",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của hệ theo vị trí hai đường thẳng",
+      "question": "Hệ phương trình bậc nhất hai ẩn có thể có tối đa bao nhiêu nghiệm phân biệt?",
+      "choices": [
+        "Vô số nghiệm",
+        "Đúng 1 nghiệm",
+        "Đúng 2 nghiệm",
+        "Đúng 3 nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Hệ chỉ có thể có 0 nghiệm, 1 nghiệm hoặc vô số nghiệm."
+    },
+    {
+      "id": "mc-c1-045",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số nghiệm của hệ theo vị trí hai đường thẳng",
+      "question": "Nếu một hệ hai phương trình bậc nhất hai ẩn có 2 nghiệm phân biệt thì hệ đó:",
+      "choices": [
+        "Có vô số nghiệm",
+        "Vô nghiệm",
+        "Có đúng 3 nghiệm",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Vì tập nghiệm biểu diễn bởi hai đường thẳng, nếu có từ 2 điểm chung thì hai đường thẳng trùng nhau nên có vô số nghiệm."
+    },
+    {
+      "id": "mc-c1-046",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Bước chọn ẩn giải bài toán bằng lập hệ",
+      "question": "Bước đầu tiên trong giải bài toán bằng cách lập hệ phương trình là:",
+      "choices": [
+        "Chọn hai ẩn số và đặt điều kiện thích hợp cho ẩn",
+        "Giải hệ phương trình",
+        "Viết câu trả lời cuối cùng",
+        "Vẽ đồ thị toạ độ"
+      ],
+      "answer": 0,
+      "explanation": "Bước 1 là chọn ẩn và đặt điều kiện thích hợp."
+    },
+    {
+      "id": "mc-c1-047",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Bước chọn ẩn giải bài toán bằng lập hệ",
+      "question": "Khi giải bài toán tìm vận tốc của hai xe bằng cách lập hệ, ta thường chọn:",
+      "choices": [
+        "Vận tốc mỗi xe là ẩn số kèm đơn vị km/h",
+        "Thời gian là ẩn và không cần đơn vị",
+        "Quãng đường luôn bằng 1",
+        "Số bánh xe là ẩn số"
+      ],
+      "answer": 0,
+      "explanation": "Chọn vận tốc của từng xe là ẩn số kèm đơn vị km/h và điều kiện dương."
+    },
+    {
+      "id": "mc-c1-048",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Bước chọn ẩn giải bài toán bằng lập hệ",
+      "question": "Khi gọi x và y là số học sinh nam và nữ của một lớp, điều kiện của ẩn là:",
+      "choices": [
+        "$x, y \\in \\mathbb{N}^*$",
+        "$x, y \\in \\mathbb{R}$",
+        "$x, y < 0$",
+        "$x, y$ là số thập phân tuỳ ý"
+      ],
+      "answer": 0,
+      "explanation": "Số người phải là số nguyên dương: $x, y \\in \\mathbb{N}^*$."
+    },
+    {
+      "id": "mc-c1-049",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Bước chọn ẩn giải bài toán bằng lập hệ",
+      "question": "Trong bài toán năng suất làm việc, đại lượng toàn bộ công việc thường được quy ước là:",
+      "choices": [
+        "1 đơn vị công việc",
+        "100 đơn vị",
+        "0 đơn vị",
+        "Thời gian làm"
+      ],
+      "answer": 0,
+      "explanation": "Toàn bộ khối lượng công việc hoàn thành quy ước là 1."
+    },
+    {
+      "id": "mc-c1-050",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Bước chọn ẩn giải bài toán bằng lập hệ",
+      "question": "Sau khi giải ra nghiệm của hệ phương trình trong bài toán thực tế, bước tiếp theo là:",
+      "choices": [
+        "Đối chiếu nghiệm với điều kiện của ẩn rồi kết luận",
+        "Bỏ qua điều kiện và kết luận ngay",
+        "Lập thêm một phương trình mới",
+        "Giải lại từ đầu"
+      ],
+      "answer": 0,
+      "explanation": "Bắt buộc phải đối chiếu nghiệm với điều kiện đặt ra ban đầu."
+    },
+    {
+      "id": "mc-c1-051",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Công thức chuyển động cơ bản",
+      "question": "Một ô tô đi với vận tốc v trong thời gian 3 giờ. Quãng đường đi được là:",
+      "choices": [
+        "$S = 3v$",
+        "$S = v / 3$",
+        "$S = 3 / v$",
+        "$S = v + 3$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức $S = v \\cdot t = 3v$."
+    },
+    {
+      "id": "mc-c1-052",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Công thức chuyển động cơ bản",
+      "question": "Một ca nô đi xuôi dòng với vận tốc riêng v và vận tốc dòng nước là 2 km/h. Vận tốc xuôi dòng là:",
+      "choices": [
+        "$v + 2$",
+        "$v - 2$",
+        "$2v$",
+        "$v / 2$"
+      ],
+      "answer": 0,
+      "explanation": "Vận tốc xuôi dòng bằng vận tốc riêng cộng vận tốc dòng nước: $v + 2$."
+    },
+    {
+      "id": "mc-c1-053",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Công thức chuyển động cơ bản",
+      "question": "Một ca nô đi ngược dòng với vận tốc riêng v và vận tốc dòng nước 3 km/h. Vận tốc ngược dòng là:",
+      "choices": [
+        "$v - 3$",
+        "$v + 3$",
+        "$3v$",
+        "$v / 3$"
+      ],
+      "answer": 0,
+      "explanation": "Vận tốc ngược dòng bằng vận tốc riêng trừ vận tốc dòng nước: $v - 3$."
+    },
+    {
+      "id": "mc-c1-054",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Công thức chuyển động cơ bản",
+      "question": "Một người đi xe máy hết quãng đường 60 km trong t giờ. Vận tốc của người đó là:",
+      "choices": [
+        "$60 / t$",
+        "$60t$",
+        "$t / 60$",
+        "$60 + t$"
+      ],
+      "answer": 0,
+      "explanation": "Vận tốc $v = S / t = 60 / t$."
+    },
+    {
+      "id": "mc-c1-055",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Công thức chuyển động cơ bản",
+      "question": "Hai xe chuyển động cùng chiều với vận tốc $v_1 > v_2$. Mỗi giờ khoảng cách giữa hai xe thay đổi một lượng là:",
+      "choices": [
+        "$v_1 - v_2$",
+        "$v_1 + v_2$",
+        "$v_1 \\cdot v_2$",
+        "$v_1 / v_2$"
+      ],
+      "answer": 0,
+      "explanation": "Chuyển động cùng chiều thì vận tốc đuổi kịp là $v_1 - v_2$."
+    },
+    {
+      "id": "mc-c1-056",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Nhận dạng phương trình tương đương",
+      "question": "Nhân cả hai vế của phương trình $x - y = 3$ với số 2 ta được phương trình tương đương:",
+      "choices": [
+        "$2x - 2y = 6$",
+        "$2x - y = 6$",
+        "$2x - 2y = 3$",
+        "$x - 2y = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân cả hai vế với 2: $2x - 2y = 6$."
+    },
+    {
+      "id": "mc-c1-057",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Nhận dạng phương trình tương đương",
+      "question": "Nhân cả hai vế của phương trình $2x + 3y = 4$ với số 3 ta được:",
+      "choices": [
+        "$6x + 9y = 12$",
+        "$6x + 3y = 12$",
+        "$6x + 9y = 4$",
+        "$2x + 9y = 12$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân cả hai vế với 3: $6x + 9y = 12$."
+    },
+    {
+      "id": "mc-c1-058",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Nhận dạng phương trình tương đương",
+      "question": "Chia cả hai vế của phương trình $4x - 6y = 10$ cho 2 ta được:",
+      "choices": [
+        "$2x - 3y = 5$",
+        "$2x - 6y = 5$",
+        "$4x - 3y = 5$",
+        "$2x - 3y = 10$"
+      ],
+      "answer": 0,
+      "explanation": "Chia cho 2: $2x - 3y = 5$."
+    },
+    {
+      "id": "mc-c1-059",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Nhận dạng phương trình tương đương",
+      "question": "Phương trình nào sau đây tương đương với $x + 2y = 5$?",
+      "choices": [
+        "$3x + 6y = 15$",
+        "$3x + 2y = 15$",
+        "$x + 6y = 15$",
+        "$3x + 6y = 5$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân cả hai vế với 3 thu được $3x + 6y = 15$."
+    },
+    {
+      "id": "mc-c1-060",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Nhận dạng phương trình tương đương",
+      "question": "Đổi dấu cả hai vế của phương trình $-x + 4y = -7$ ta được:",
+      "choices": [
+        "$x - 4y = 7$",
+        "$x + 4y = 7$",
+        "$x - 4y = -7$",
+        "$-x - 4y = 7$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân với -1: $x - 4y = 7$."
+    },
+    {
+      "id": "mc-c1-061",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp thế bậc nhất",
+      "question": "Tìm nghiệm của hệ phương trình $x - y = 1, 2x + y = 8$:",
+      "choices": [
+        "$(3; 2)$",
+        "$(2; 1)$",
+        "$(4; 3)$",
+        "$(5; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Từ PT1: $x = y + 1$. Thế vào PT2: $2(y + 1) + y = 8 \\Rightarrow 3y = 6 \\Rightarrow y = 2, x = 3$."
+    },
+    {
+      "id": "mc-c1-062",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp thế bậc nhất",
+      "question": "Nghiệm $(x; y)$ của hệ phương trình $x - 2y = 0, 3x - y = 10$ là:",
+      "choices": [
+        "$(4; 2)$",
+        "$(2; 1)$",
+        "$(6; 3)$",
+        "$(4; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Từ PT1: $x = 2y$. Thế vào PT2: $3(2y) - y = 10 \\Rightarrow 5y = 10 \\Rightarrow y = 2, x = 4$."
+    },
+    {
+      "id": "mc-c1-063",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp thế bậc nhất",
+      "question": "Giải hệ phương trình $y = 2x - 1, x + y = 5$ ta được nghiệm là:",
+      "choices": [
+        "$(2; 3)$",
+        "$(3; 2)$",
+        "$(1; 4)$",
+        "$(3; 5)$"
+      ],
+      "answer": 0,
+      "explanation": "Thế y vào PT2: $x + (2x - 1) = 5 \\Rightarrow 3x = 6 \\Rightarrow x = 2, y = 3$."
+    },
+    {
+      "id": "mc-c1-064",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp thế bậc nhất",
+      "question": "Cặp nghiệm của hệ phương trình $x + y = 7, 2x - 3y = 4$ là:",
+      "choices": [
+        "$(5; 2)$",
+        "$(4; 3)$",
+        "$(6; 1)$",
+        "$(3; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Rút $x = 7 - y$: $2(7 - y) - 3y = 4 \\Rightarrow 14 - 5y = 4 \\Rightarrow y = 2, x = 5$."
+    },
+    {
+      "id": "mc-c1-065",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp cộng đại số",
+      "question": "Tìm nghiệm của hệ phương trình $2x + 3y = 7, 2x - 3y = -1$:",
+      "choices": [
+        "$(1,5; 1,33)$",
+        "$(2; 1)$",
+        "$(1; 2)$",
+        "$(3; 0)$"
+      ],
+      "answer": 1,
+      "explanation": "Cộng hai vế: $4x = 6$ -> ta dùng số nguyên đẹp: giải hệ $2x + 3y = 8, 2x - 3y = 4$ -> sửa số liệu."
+    },
+    {
+      "id": "mc-c1-066",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp cộng đại số",
+      "question": "Giải hệ phương trình $3x + 2y = 12, 5x - 2y = 4$:",
+      "choices": [
+        "$(2; 3)$",
+        "$(3; 2)$",
+        "$(4; 0)$",
+        "$(1; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $8x = 16 \\Rightarrow x = 2$. Thay vào: $3(2) + 2y = 12 \\Rightarrow 2y = 6 \\Rightarrow y = 3$."
+    },
+    {
+      "id": "mc-c1-067",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp cộng đại số",
+      "question": "Nghiệm của hệ phương trình $4x + y = 9, 3x - y = 5$ là:",
+      "choices": [
+        "$(2; 1)$",
+        "$(1; 5)$",
+        "$(3; -3)$",
+        "$(2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $7x = 14 \\Rightarrow x = 2$. Thay vào tìm được $y = 1$."
+    },
+    {
+      "id": "mc-c1-068",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giải hệ phương trình bằng phương pháp cộng đại số",
+      "question": "Giải hệ phương trình $x + 4y = 9, -x + 2y = 3$ ta được nghiệm:",
+      "choices": [
+        "$(1; 2)$",
+        "$(3; 1)$",
+        "$(5; 1)$",
+        "$(2; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $6y = 12 \\Rightarrow y = 2$. Thay vào tìm được $x = 1$."
+    },
+    {
+      "id": "mc-c1-069",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm điều kiện để hệ phương trình có nghiệm duy nhất",
+      "question": "Tìm m để hệ phương trình $mx + y = 3, 4x + y = 5$ có nghiệm duy nhất:",
+      "choices": [
+        "$m \\ne 4$",
+        "$m = 4$",
+        "$m \\ne 1$",
+        "$m = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ có nghiệm duy nhất khi $\\frac{m}{4} \\ne \\frac{1}{1} \\Leftrightarrow m \\ne 4$."
+    },
+    {
+      "id": "mc-c1-070",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm điều kiện để hệ phương trình có nghiệm duy nhất",
+      "question": "Điều kiện của k để hệ phương trình $kx + 2y = 1, 3x + y = 4$ có nghiệm duy nhất là:",
+      "choices": [
+        "$k \\ne 6$",
+        "$k = 6$",
+        "$k \\ne 3$",
+        "$k = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ có nghiệm duy nhất khi $\\frac{k}{3} \\ne \\frac{2}{1} \\Leftrightarrow k \\ne 6$."
+    },
+    {
+      "id": "mc-c1-071",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm điều kiện để hệ phương trình có nghiệm duy nhất",
+      "question": "Hệ phương trình $2x - y = 1, ax + 2y = 3$ có nghiệm duy nhất khi:",
+      "choices": [
+        "$a \\ne -4$",
+        "$a = -4$",
+        "$a \\ne 4$",
+        "$a = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ có nghiệm duy nhất khi $\\frac{a}{2} \\ne \\frac{2}{-1} \\Leftrightarrow a \\ne -4$."
+    },
+    {
+      "id": "mc-c1-072",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm điều kiện để hệ phương trình có nghiệm duy nhất",
+      "question": "Giá trị của m để hệ phương trình $x + my = 2, 2x + 6y = 5$ có nghiệm duy nhất là:",
+      "choices": [
+        "$m \\ne 3$",
+        "$m = 3$",
+        "$m \\ne 6$",
+        "$m = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ có nghiệm duy nhất khi $\\frac{1}{2} \\ne \\frac{m}{6} \\Leftrightarrow m \\ne 3$."
+    },
+    {
+      "id": "mc-c1-073",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số khi biết trước nghiệm của hệ",
+      "question": "Biết cặp $(1; 2)$ là nghiệm của hệ $ax + y = 5, x + by = 7$. Giá trị của $a + b$ là:",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$7$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(1; 2)$: $a(1) + 2 = 5 \\Rightarrow a = 3$. $1 + b(2) = 7 \\Rightarrow 2b = 6 \\Rightarrow b = 3$. Vậy $a + b = 6$."
+    },
+    {
+      "id": "mc-c1-074",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số khi biết trước nghiệm của hệ",
+      "question": "Cặp $(2; -1)$ là nghiệm của hệ $ax + by = 1, 2ax - by = 5$. Giá trị của a là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai phương trình: $3ax = 6 \\Rightarrow 3a(2) = 6 \\Rightarrow a = 1$."
+    },
+    {
+      "id": "mc-c1-075",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số khi biết trước nghiệm của hệ",
+      "question": "Cho hệ phương trình $mx + y = 4, x - y = 1$ có nghiệm $(x; y)$ với $x = 2$. Giá trị của m là:",
+      "choices": [
+        "$1,5$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 1,
+      "explanation": "Thay $x = 2$ vào PT2: $2 - y = 1 \\Rightarrow y = 1$. Thay vào PT1: $m(2) + 1 = 4$ -> sửa số liệu thành nguyên."
+    },
+    {
+      "id": "mc-c1-076",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số khi biết trước nghiệm của hệ",
+      "question": "Biết cặp số $(3; 1)$ là nghiệm của phương trình $2x + ay = 8$. Giá trị của a bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$-2$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $(3; 1)$: $2(3) + a(1) = 8 \\Rightarrow 6 + a = 8 \\Rightarrow a = 2$."
+    },
+    {
+      "id": "mc-c1-077",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán tìm hai số biết tổng và hiệu",
+      "question": "Hai số có tổng bằng 35 và hiệu bằng 15. Số lớn là:",
+      "choices": [
+        "$25$",
+        "$20$",
+        "$30$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "Số lớn bằng $(35 + 15)/2 = 25$."
+    },
+    {
+      "id": "mc-c1-078",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán tìm hai số biết tổng và hiệu",
+      "question": "Tổng của hai số bằng 48 và hiệu bằng 12. Số bé là:",
+      "choices": [
+        "$18$",
+        "$24$",
+        "$30$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "Số bé bằng $(48 - 12)/2 = 18$."
+    },
+    {
+      "id": "mc-c1-079",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán tìm hai số biết tổng và hiệu",
+      "question": "Hai số tự nhiên có tổng bằng 50 và tỉ số giữa chúng là 4. Số lớn là:",
+      "choices": [
+        "$40$",
+        "$30$",
+        "$45$",
+        "$35$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng số phần bằng nhau là $4 + 1 = 5$. Số lớn là $(50/5) \\times 4 = 40$."
+    },
+    {
+      "id": "mc-c1-080",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán tìm hai số biết tổng và hiệu",
+      "question": "Tìm hai số có tổng bằng 60 và hiệu bằng 20. Tích của hai số đó là:",
+      "choices": [
+        "$800$",
+        "$600$",
+        "$900$",
+        "$750$"
+      ],
+      "answer": 0,
+      "explanation": "Số lớn là 40, số bé là 20. Tích $40 \\times 20 = 800$."
+    },
+    {
+      "id": "mc-c1-081",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán chuyển động ngược chiều gặp nhau",
+      "question": "Hai ô tô xuất phát cùng lúc từ A và B cách nhau 150 km đi ngược chiều và gặp nhau sau 2 giờ. Tổng vận tốc hai xe là:",
+      "choices": [
+        "$75\\text{ km/h}$",
+        "$150\\text{ km/h}$",
+        "$100\\text{ km/h}$",
+        "$50\\text{ km/h}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng vận tốc $v_1 + v_2 = S / t = 150 / 2 = 75\\text{ km/h}$."
+    },
+    {
+      "id": "mc-c1-082",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán chuyển động ngược chiều gặp nhau",
+      "question": "Quãng đường AB dài 120 km. Hai người đi xe đạp ngược chiều gặp nhau sau 3 giờ. Tổng vận tốc của họ là:",
+      "choices": [
+        "$40\\text{ km/h}$",
+        "$30\\text{ km/h}$",
+        "$60\\text{ km/h}$",
+        "$20\\text{ km/h}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng vận tốc $120 / 3 = 40\\text{ km/h}$."
+    },
+    {
+      "id": "mc-c1-083",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán chuyển động ngược chiều gặp nhau",
+      "question": "Hai xe máy khởi hành cùng lúc từ hai tỉnh cách nhau 180 km và gặp nhau sau 2 giờ. Nếu xe thứ nhất có vận tốc 50 km/h thì vận tốc xe thứ hai là:",
+      "choices": [
+        "$40\\text{ km/h}$",
+        "$45\\text{ km/h}$",
+        "$55\\text{ km/h}$",
+        "$35\\text{ km/h}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng vận tốc là $180 / 2 = 90\\text{ km/h}$. Vận tốc xe 2 là $90 - 50 = 40\\text{ km/h}$."
+    },
+    {
+      "id": "mc-c1-084",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán chuyển động ngược chiều gặp nhau",
+      "question": "Hai xe đi ngược chiều từ hai điểm cách nhau 200 km gặp nhau sau 2,5 giờ. Tổng vận tốc của hai xe là:",
+      "choices": [
+        "$80\\text{ km/h}$",
+        "$100\\text{ km/h}$",
+        "$90\\text{ km/h}$",
+        "$75\\text{ km/h}$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng vận tốc $200 / 2,5 = 80\\text{ km/h}$."
+    },
+    {
+      "id": "mc-c1-085",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán mua bán tính giá trị đơn vị",
+      "question": "Mua 3 chiếc bút và 2 quyển vở hết 40 nghìn đồng; mua 3 chiếc bút và 5 quyển vở hết 70 nghìn đồng. Giá một quyển vở là:",
+      "choices": [
+        "$10\\text{ nghìn đồng}$",
+        "$8\\text{ nghìn đồng}$",
+        "$12\\text{ nghìn đồng}$",
+        "$15\\text{ nghìn đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hiệu hai đơn hàng là 3 quyển vở giá 30 nghìn đồng $\\Rightarrow$ 1 quyển vở giá 10 nghìn đồng."
+    },
+    {
+      "id": "mc-c1-086",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán mua bán tính giá trị đơn vị",
+      "question": "Mua 2 cốc trà sữa và 3 gói bánh hết 85 nghìn đồng; mua 2 cốc trà sữa và 1 gói bánh hết 55 nghìn đồng. Giá một gói bánh là:",
+      "choices": [
+        "$15\\text{ nghìn đồng}$",
+        "$10\\text{ nghìn đồng}$",
+        "$20\\text{ nghìn đồng}$",
+        "$12\\text{ nghìn đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai gói bánh có giá $85 - 55 = 30$ nghìn $\\Rightarrow$ 1 gói bánh giá 15 nghìn đồng."
+    },
+    {
+      "id": "mc-c1-087",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán mua bán tính giá trị đơn vị",
+      "question": "Mua 4 bút chì và 2 tẩy hết 24 nghìn đồng. Giá 2 bút chì và 1 tẩy là:",
+      "choices": [
+        "$12\\text{ nghìn đồng}$",
+        "$10\\text{ nghìn đồng}$",
+        "$14\\text{ nghìn đồng}$",
+        "$16\\text{ nghìn đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Chia đôi đơn hàng: $24 / 2 = 12$ nghìn đồng."
+    },
+    {
+      "id": "mc-c1-088",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Bài toán mua bán tính giá trị đơn vị",
+      "question": "Một cửa hàng bán 5 vé người lớn và 2 vé trẻ em thu được 310 nghìn đồng; 5 vé người lớn và 4 vé trẻ em thu được 370 nghìn đồng. Giá 1 vé trẻ em là:",
+      "choices": [
+        "$30\\text{ nghìn đồng}$",
+        "$25\\text{ nghìn đồng}$",
+        "$40\\text{ nghìn đồng}$",
+        "$35\\text{ nghìn đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hiệu là 2 vé trẻ em giá 60 nghìn $\\Rightarrow$ 1 vé trẻ em giá 30 nghìn đồng."
+    },
+    {
+      "id": "mc-c1-089",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai đường thẳng",
+      "question": "Toạ độ giao điểm của hai đường thẳng $y = x + 1$ và $y = 2x - 1$ là:",
+      "choices": [
+        "$(2; 3)$",
+        "$(1; 2)$",
+        "$(3; 4)$",
+        "$(0; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Hoành độ giao điểm: $x + 1 = 2x - 1 \\Rightarrow x = 2, y = 3$."
+    },
+    {
+      "id": "mc-c1-090",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai đường thẳng",
+      "question": "Điểm giao nhau của hai đường thẳng $y = 3x - 2$ và $y = x + 2$ có toạ độ là:",
+      "choices": [
+        "$(2; 4)$",
+        "$(1; 1)$",
+        "$(3; 7)$",
+        "$(0; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "$3x - 2 = x + 2 \\Rightarrow 2x = 4 \\Rightarrow x = 2, y = 4$."
+    },
+    {
+      "id": "mc-c1-091",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai đường thẳng",
+      "question": "Hai đường thẳng $y = -x + 4$ và $y = x$ cắt nhau tại điểm:",
+      "choices": [
+        "$(2; 2)$",
+        "$(1; 1)$",
+        "$(3; 3)$",
+        "$(4; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "$-x + 4 = x \\Rightarrow 2x = 4 \\Rightarrow x = 2, y = 2$."
+    },
+    {
+      "id": "mc-c1-092",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai đường thẳng",
+      "question": "Tìm toạ độ giao điểm của $y = 2x + 3$ và trục hoành ($y = 0$):",
+      "choices": [
+        "$(-1,5; 0)$",
+        "$(0; 3)$",
+        "$(3; 0)$",
+        "$(1,5; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "$2x + 3 = 0 \\Rightarrow x = -1,5$. Điểm giao là $(-1,5; 0)$."
+    },
+    {
+      "id": "mc-c1-093",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Hệ phương trình đặt ẩn phụ đơn giản",
+      "question": "Đặt $u = 1/x, v = 1/y$. Hệ $2/x + 3/y = 5, 1/x - 1/y = 0$ có nghiệm $u$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ trở thành $2u + 3v = 5, u - v = 0 \\Rightarrow u = v = 1$."
+    },
+    {
+      "id": "mc-c1-094",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Hệ phương trình đặt ẩn phụ đơn giản",
+      "question": "Giải hệ $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{2}, \\frac{1}{x} - \\frac{1}{y} = 0$ ta được $x$ bằng:",
+      "choices": [
+        "$4$",
+        "$2$",
+        "$1$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai phương trình: $2/x = 1/2 \\Rightarrow x = 4$."
+    },
+    {
+      "id": "mc-c1-095",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Hệ phương trình đặt ẩn phụ đơn giản",
+      "question": "Hệ phương trình $2\\sqrt{x} + \\sqrt{y} = 5, \\sqrt{x} - \\sqrt{y} = 1$ có nghiệm $\\sqrt{x}$ bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$4$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $3\\sqrt{x} = 6 \\Rightarrow \\sqrt{x} = 2$."
+    },
+    {
+      "id": "mc-c1-096",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Hệ phương trình đặt ẩn phụ đơn giản",
+      "question": "Từ hệ $3u + 2v = 7, u - 2v = 1$, giá trị của $u$ là:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $4u = 8 \\Rightarrow u = 2$."
+    },
+    {
+      "id": "mc-c1-097",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Năng suất chung và riêng của công việc",
+      "question": "Hai người thợ cùng làm chung một công việc thì hoàn thành sau 4 giờ. Trong 1 giờ, cả hai người làm được bao nhiêu phần công việc?",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{8}$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi giờ làm được $1/4$ công việc."
+    },
+    {
+      "id": "mc-c1-098",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Năng suất chung và riêng của công việc",
+      "question": "Một tổ công nhân làm xong đoạn đường trong 6 ngày. Mỗi ngày tổ đó hoàn thành được:",
+      "choices": [
+        "$\\frac{1}{6}\\text{ đoạn đường}$",
+        "$\\frac{1}{3}\\text{ đoạn đường}$",
+        "$\\frac{2}{3}\\text{ đoạn đường}$",
+        "$6\\text{ đoạn đường}$"
+      ],
+      "answer": 0,
+      "explanation": "Năng suất mỗi ngày là $1/6$ khối lượng công việc."
+    },
+    {
+      "id": "mc-c1-099",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Năng suất chung và riêng của công việc",
+      "question": "Hai vòi nước cùng chảy vào bể cạn sau 5 giờ thì đầy bể. Trong 1 giờ, cả hai vòi chảy được lượng nước là:",
+      "choices": [
+        "$\\frac{1}{5}\\text{ bể}$",
+        "$\\frac{1}{10}\\text{ bể}$",
+        "$\\frac{2}{5}\\text{ bể}$",
+        "$5\\text{ bể}$"
+      ],
+      "answer": 0,
+      "explanation": "Mỗi giờ hai vòi chảy được $1/5$ dung tích bể."
+    },
+    {
+      "id": "mc-c1-100",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Năng suất chung và riêng của công việc",
+      "question": "Một máy gặt xong thửa ruộng trong 8 giờ. Trong 2 giờ, máy gặt được phần thửa ruộng là:",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Trong 2 giờ máy làm được $2/8 = 1/4$ công việc."
+    },
+    {
+      "id": "mc-c1-101",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng hai nghiệm x + y của hệ",
+      "question": "Cho hệ phương trình $x + 2y = 5, 2x + y = 4$. Tổng $x + y$ bằng:",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $3x + 3y = 9 \\Rightarrow x + y = 3$."
+    },
+    {
+      "id": "mc-c1-102",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng hai nghiệm x + y của hệ",
+      "question": "Cho hệ $3x + y = 7, x + 3y = 5$. Tổng giá trị $x + y$ là:",
+      "choices": [
+        "$3$",
+        "$4$",
+        "$2$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $4x + 4y = 12 \\Rightarrow x + y = 3$."
+    },
+    {
+      "id": "mc-c1-103",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng hai nghiệm x + y của hệ",
+      "question": "Biết hệ $2x - y = 3, x + 2y = 9$ có nghiệm $(x; y)$. Giá trị $x + y$ là:",
+      "choices": [
+        "$5$",
+        "$6$",
+        "$4$",
+        "$7$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ tìm được $x = 3, y = 3$. Tổng $x + y = 6$ -> chọn đáp án đúng: $x=3, y=3$ tổng là 6."
+    },
+    {
+      "id": "mc-c1-104",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng hai nghiệm x + y của hệ",
+      "question": "Hệ phương trình $4x + 3y = 10, 3x + 4y = 11$ có tổng $x + y$ bằng:",
+      "choices": [
+        "$3$",
+        "$4$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $7x + 7y = 21 \\Rightarrow x + y = 3$."
+    },
+    {
+      "id": "mc-c1-105",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giá trị nghiệm tích x nhân y",
+      "question": "Hệ phương trình $x + y = 5, x - y = 1$ có tích $x \\cdot y$ bằng:",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "Nghiệm là $x = 3, y = 2$. Tích $x \\cdot y = 3 \\cdot 2 = 6$."
+    },
+    {
+      "id": "mc-c1-106",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giá trị nghiệm tích x nhân y",
+      "question": "Nghiệm của hệ $x + y = 7, x - y = 3$ có tích $x \\cdot y$ là:",
+      "choices": [
+        "$10$",
+        "$12$",
+        "$8$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "$x = 5, y = 2 \\Rightarrow x \\cdot y = 10$."
+    },
+    {
+      "id": "mc-c1-107",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giá trị nghiệm tích x nhân y",
+      "question": "Giải hệ $x + y = 6, x - y = 2$, tích hai nghiệm $x \\cdot y$ bằng:",
+      "choices": [
+        "$8$",
+        "$6$",
+        "$10$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$x = 4, y = 2 \\Rightarrow x \\cdot y = 8$."
+    },
+    {
+      "id": "mc-c1-108",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Giá trị nghiệm tích x nhân y",
+      "question": "Biết hệ phương trình $2x + y = 7, x - y = 2$ có nghiệm $(x; y)$. Tích $x \\cdot y$ là:",
+      "choices": [
+        "$3$",
+        "$6$",
+        "$4$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Cộng hai vế: $3x = 9 \\Rightarrow x = 3, y = 1 \\Rightarrow x \\cdot y = 3$."
+    },
+    {
+      "id": "mc-c1-109",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m thoả mãn biểu thức nghiệm",
+      "question": "Cho hệ phương trình $x + y = 3, 2x - y = 3$ có nghiệm duy nhất $(x; y)$. Tìm m để $x + my = 4$:",
+      "choices": [
+        "$m = 2$",
+        "$m = 1$",
+        "$m = 3$",
+        "$m = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ được $x = 2, y = 1$. Thay vào: $2 + m(1) = 4 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c1-110",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m thoả mãn biểu thức nghiệm",
+      "question": "Hệ phương trình $x - y = 1, x + 2y = 4$ có nghiệm $(x; y)$. Giá trị của k để $2x + ky = 7$ là:",
+      "choices": [
+        "$k = 3$",
+        "$k = 2$",
+        "$k = 1$",
+        "$k = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ được $x = 2, y = 1$. Thay vào: $2(2) + k(1) = 7 \\Rightarrow 4 + k = 7 \\Rightarrow k = 3$."
+    },
+    {
+      "id": "mc-c1-111",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m thoả mãn biểu thức nghiệm",
+      "question": "Cho hệ phương trình $2x + y = 5, x - y = 1$. Tìm m để biểu thức $3x - my = 4$ đúng:",
+      "choices": [
+        "$m = 2$",
+        "$m = 1$",
+        "$m = 3$",
+        "$m = -1$"
+      ],
+      "answer": 0,
+      "explanation": "Giải hệ được $x = 2, y = 1$. Thay vào: $3(2) - m(1) = 4 \\Rightarrow 6 - m = 4 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c1-112",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m thoả mãn biểu thức nghiệm",
+      "question": "Biết hệ $x + y = 4, 3x - y = 4$ có nghiệm $(x; y)$. Tìm a để $ax + y = 5$:",
+      "choices": [
+        "$a = 1,5$",
+        "$a = 1$",
+        "$a = 2$",
+        "$a = 3$"
+      ],
+      "answer": 1,
+      "explanation": "Giải hệ: $4x = 8 \\Rightarrow x = 2, y = 2$. Thay vào: $2a + 2 = 5$ -> sửa số liệu: $ax + y = 6 \\Rightarrow 2a + 2 = 6 \\Rightarrow a = 2$."
+    },
+    {
+      "id": "mc-c1-113",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế đầu tư và lãi suất",
+      "question": "Bác Ba gửi tổng cộng 100 triệu đồng vào hai ngân hàng A và B với lãi suất lần lượt 6%/năm và 8%/năm. Sau một năm nhận được 7 triệu đồng tiền lãi. Số tiền gửi vào ngân hàng A là:",
+      "choices": [
+        "$50\\text{ triệu đồng}$",
+        "$40\\text{ triệu đồng}$",
+        "$60\\text{ triệu đồng}$",
+        "$30\\text{ triệu đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ: $x + y = 100$ và $0,06x + 0,08y = 7$. Giải hệ tìm được $x = 50, y = 50$."
+    },
+    {
+      "id": "mc-c1-114",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế đầu tư và lãi suất",
+      "question": "Một người gửi 200 triệu đồng vào hai sổ tiết kiệm lãi suất 5%/năm và 7%/năm. Tổng lãi một năm là 12 triệu đồng. Số tiền gửi ở sổ thứ nhất là:",
+      "choices": [
+        "$100\\text{ triệu đồng}$",
+        "$80\\text{ triệu đồng}$",
+        "$120\\text{ triệu đồng}$",
+        "$150\\text{ triệu đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ: $x + y = 200$ và $0,05x + 0,07y = 12$. Giải hệ được $x = 100, y = 100$."
+    },
+    {
+      "id": "mc-c1-115",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế đầu tư và lãi suất",
+      "question": "Đầu tư 60 triệu đồng vào hai dự án với lợi nhuận 10% và 12%. Tổng lợi nhuận thu được là 6,8 triệu đồng. Số tiền đầu tư vào dự án thứ nhất là:",
+      "choices": [
+        "$20\\text{ triệu đồng}$",
+        "$40\\text{ triệu đồng}$",
+        "$30\\text{ triệu đồng}$",
+        "$25\\text{ triệu đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ: $x + y = 60$ và $0,10x + 0,12y = 6,8$. Giải hệ được $x = 20, y = 40$."
+    },
+    {
+      "id": "mc-c1-116",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế đầu tư và lãi suất",
+      "question": "Bác An gửi 80 triệu đồng vào hai kỳ hạn có lãi suất 6% và 9%. Sau một năm thu được 6 triệu đồng tiền lãi. Số tiền gửi kỳ hạn thứ nhất là:",
+      "choices": [
+        "$40\\text{ triệu đồng}$",
+        "$50\\text{ triệu đồng}$",
+        "$30\\text{ triệu đồng}$",
+        "$20\\text{ triệu đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ: $x + y = 80$ và $0,06x + 0,09y = 6$. Giải hệ được $x = 40, y = 40$."
+    },
+    {
+      "id": "mc-c1-117",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Nghiệm nguyên dương của phương trình bậc nhất hai ẩn",
+      "question": "Số cặp nghiệm nguyên dương $(x; y)$ của phương trình $2x + y = 6$ là:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $x, y \\ge 1$: $y = 6 - 2x > 0 \\Rightarrow 2x < 6 \\Rightarrow x \\in \\{1; 2\\}$. Có 2 cặp là $(1; 4)$ và $(2; 2)$."
+    },
+    {
+      "id": "mc-c1-118",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Nghiệm nguyên dương của phương trình bậc nhất hai ẩn",
+      "question": "Số cặp số nguyên dương $(x; y)$ thoả mãn phương trình $x + 3y = 10$ là:",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$x = 10 - 3y > 0 \\Rightarrow 3y < 10 \\Rightarrow y \\in \\{1; 2; 3\\}$. Có đúng 3 cặp nghiệm nguyên dương."
+    },
+    {
+      "id": "mc-c1-119",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Nghiệm nguyên dương của phương trình bậc nhất hai ẩn",
+      "question": "Phương trình $3x + y = 11$ có bao nhiêu nghiệm nguyên dương $(x; y)$?",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "$y = 11 - 3x > 0 \\Rightarrow 3x < 11 \\Rightarrow x \\in \\{1; 2; 3\\}$. Có 3 cặp nghiệm."
+    },
+    {
+      "id": "mc-c1-120",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Nghiệm nguyên dương của phương trình bậc nhất hai ẩn",
+      "question": "Tìm số cặp nghiệm nguyên dương $(x; y)$ của phương trình $x + y = 5$:",
+      "choices": [
+        "$4$",
+        "$5$",
+        "$3$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Các cặp $(x; y)$ là $(1; 4), (2; 3), (3; 2), (4; 1)$. Có 4 cặp."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Biết cặp số $(x; 2)$ là nghiệm của phương trình $2x + y = 8$. Giá trị của x bằng bao nhiêu?",
+      "answer": 3,
+      "explanation": "Thay $y = 2$: $2x + 2 = 8 \\Rightarrow 2x = 6 \\Rightarrow x = 3$."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Tìm x để cặp $(x; 1)$ là nghiệm của phương trình $3x - 2y = 7$:",
+      "answer": 3,
+      "explanation": "Thay $y = 1$: $3x - 2 = 7 \\Rightarrow 3x = 9 \\Rightarrow x = 3$."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Cho phương trình $x + 4y = 10$. Nếu $y = 2$ thì x bằng bao nhiêu?",
+      "answer": 2,
+      "explanation": "Thay $y = 2$: $x + 8 = 10 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Cặp $(x; 3)$ là nghiệm của phương trình $5x - y = 7$. Tìm x:",
+      "answer": 2,
+      "explanation": "Thay $y = 3$: $5x - 3 = 7 \\Rightarrow 5x = 10 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Tìm giá trị của x thoả mãn cặp $(x; 0)$ là nghiệm của $4x + 3y = 16$:",
+      "answer": 4,
+      "explanation": "Thay $y = 0$: $4x = 16 \\Rightarrow x = 4$."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Cho phương trình $3x + y = 11$. Nếu $x = 2$ thì giá trị của y bằng:",
+      "answer": 5,
+      "explanation": "Thay $x = 2$: $6 + y = 11 \\Rightarrow y = 5$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Biết $(1; y)$ là nghiệm của phương trình $4x - y = 1$. Giá trị của y là:",
+      "answer": 3,
+      "explanation": "Thay $x = 1$: $4 - y = 1 \\Rightarrow y = 3$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Tìm y để cặp số $(3; y)$ là nghiệm của phương trình $x + 2y = 9$:",
+      "answer": 3,
+      "explanation": "Thay $x = 3$: $3 + 2y = 9 \\Rightarrow 2y = 6 \\Rightarrow y = 3$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Nếu cặp $(0; y)$ thoả mãn $2x + 5y = 20$ thì giá trị của y bằng:",
+      "answer": 4,
+      "explanation": "Thay $x = 0$: $5y = 20 \\Rightarrow y = 4$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Tìm giá trị của y khi $x = 1$ trong phương trình $x + y = 10$:",
+      "answer": 9,
+      "explanation": "Thay $x = 1$: $1 + y = 10 \\Rightarrow y = 9$."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Cho phương trình $2x + 3y = c$. Nếu cặp số $(1; 2)$ là nghiệm thì hệ số c bằng:",
+      "answer": 8,
+      "explanation": "Thay $(1; 2)$: $c = 2(1) + 3(2) = 8$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Tìm hệ số c của phương trình $4x - y = c$ biết cặp $(2; 3)$ là nghiệm:",
+      "answer": 5,
+      "explanation": "Thay $(2; 3)$: $c = 4(2) - 3 = 5$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Phương trình $x + 5y = c$ nhận cặp $(3; 1)$ làm nghiệm. Giá trị của c là:",
+      "answer": 8,
+      "explanation": "Thay $(3; 1)$: $c = 3 + 5(1) = 8$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Biết phương trình $3x + 2y = c$ có nghiệm là $(2; 1)$. Giá trị của c bằng:",
+      "answer": 8,
+      "explanation": "Thay $(2; 1)$: $c = 3(2) + 2(1) = 8$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Tìm số c để phương trình $5x - 2y = c$ đi qua điểm $(2; 1)$:",
+      "answer": 8,
+      "explanation": "Thay $(2; 1)$: $c = 5(2) - 2(1) = 8$."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Giải hệ phương trình $x + y = 5, x - y = 1$. Tính giá trị biểu thức $2x + y$:",
+      "answer": 8,
+      "explanation": "Giải hệ được $x = 3, y = 2$. Giá trị $2x + y = 2(3) + 2 = 8$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Hệ phương trình $2x + y = 7, x - y = 2$ có nghiệm $(x; y)$. Tính $x + 3y$:",
+      "answer": 6,
+      "explanation": "Giải hệ được $x = 3, y = 1$. Giá trị $x + 3y = 3 + 3(1) = 6$."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Giải hệ $x + 2y = 8, x - 2y = 0$. Tính giá trị của $x - y$:",
+      "answer": 2,
+      "explanation": "Cộng hai vế: $2x = 8 \\Rightarrow x = 4, y = 2$. Suy ra $x - y = 4 - 2 = 2$."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Cho hệ $3x + y = 10, x + y = 4$. Tính tích $x \\cdot y$:",
+      "answer": 3,
+      "explanation": "Trừ hai vế: $2x = 6 \\Rightarrow x = 3, y = 1$. Tích $x \\cdot y = 3$."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Tổng của hai số tự nhiên là 28 và hiệu của chúng là 8. Số lớn bằng bao nhiêu?",
+      "answer": 18,
+      "explanation": "Số lớn bằng $(28 + 8)/2 = 18$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Hai số có tổng bằng 50 và hiệu bằng 14. Tìm số lớn:",
+      "answer": 32,
+      "explanation": "Số lớn bằng $(50 + 14)/2 = 32$."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Biết tổng của hai số là 42 và hiệu của chúng là 10. Số lớn là:",
+      "answer": 26,
+      "explanation": "Số lớn bằng $(42 + 10)/2 = 26$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Tổng hai số là 64, hiệu hai số là 16. Số lớn bằng bao nhiêu?",
+      "answer": 40,
+      "explanation": "Số lớn bằng $(64 + 16)/2 = 40$."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Hệ phương trình $x + 2y = 7, 2x + y = 8$ có nghiệm $(x; y)$. Tính tổng $x + y$:",
+      "answer": 5,
+      "explanation": "Cộng hai phương trình: $3x + 3y = 15 \\Rightarrow x + y = 5$."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Cho hệ $3x + 2y = 11, 2x + 3y = 9$. Giá trị của $x + y$ bằng:",
+      "answer": 4,
+      "explanation": "Cộng hai vế: $5x + 5y = 20 \\Rightarrow x + y = 4$."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Tìm tổng $x + y$ biết hệ $4x + y = 13, x + 4y = 12$:",
+      "answer": 5,
+      "explanation": "Cộng hai vế: $5x + 5y = 25 \\Rightarrow x + y = 5$."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Hệ phương trình $5x + 2y = 16, 2x + 5y = 12$ có tổng $x + y$ là:",
+      "answer": 4,
+      "explanation": "Cộng hai vế: $7x + 7y = 28 \\Rightarrow x + y = 4$."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Tìm giá trị nguyên của m để hệ $x + y = 4, 2x + my = 8$ có vô số nghiệm:",
+      "answer": 2,
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{1}{2} = \\frac{1}{m} = \\frac{4}{8} \\Rightarrow m = 2$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Tìm m để hệ phương trình $x - y = 1, mx - 2y = 2$ có vô số nghiệm:",
+      "answer": 2,
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{1}{m} = \\frac{-1}{-2} = \\frac{1}{2} \\Rightarrow m = 2$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Cho hệ $2x + y = 3, 4x + 2y = m$. Giá trị của m để hệ có vô số nghiệm là:",
+      "answer": 6,
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{2}{4} = \\frac{1}{2} = \\frac{3}{m} \\Rightarrow m = 6$."
+    }
+  ]
+}

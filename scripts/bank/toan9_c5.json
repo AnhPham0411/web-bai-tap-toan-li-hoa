@@ -1,0 +1,2252 @@
+{
+  "sgk_chapter_title": "Đường tròn",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b13",
+      "sgk_title": "Bài 13. Mở đầu về đường tròn"
+    },
+    {
+      "lesson_id": "b14",
+      "sgk_title": "Bài 14. Cung và dây của một đường tròn"
+    },
+    {
+      "lesson_id": "b15",
+      "sgk_title": "Bài 15. Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên"
+    },
+    {
+      "lesson_id": "b16",
+      "sgk_title": "Bài 16. Vị trí tương đối của đường thẳng và đường tròn"
+    },
+    {
+      "lesson_id": "b17",
+      "sgk_title": "Bài 17. Vị trí tương đối của hai đường tròn"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c5-001",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Vị trí của điểm đối với đường tròn",
+      "question": "Cho đường tròn $(O; 5\\text{ cm})$ và điểm $M$ có $OM = 3\\text{ cm}$. Vị trí của điểm $M$ so với đường tròn là:",
+      "choices": [
+        "Điểm $M$ nằm bên trong đường tròn",
+        "Điểm $M$ nằm trên đường tròn",
+        "Điểm $M$ nằm bên ngoài đường tròn",
+        "Điểm $M$ trùng với tâm $O$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $OM = 3\\text{ cm} < R = 5\\text{ cm}$ nên điểm $M$ nằm bên trong đường tròn."
+    },
+    {
+      "id": "mc-c5-002",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Vị trí của điểm đối với đường tròn",
+      "question": "Cho đường tròn $(O; 4\\text{ cm})$ và điểm $A$ thoả mãn $OA = 6\\text{ cm}$. Điểm $A$ có vị trí:",
+      "choices": [
+        "Nằm bên ngoài đường tròn",
+        "Nằm bên trong đường tròn",
+        "Nằm trên đường tròn",
+        "Là tâm đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Vì $OA = 6\\text{ cm} > R = 4\\text{ cm}$ nên điểm $A$ nằm bên ngoài đường tròn."
+    },
+    {
+      "id": "mc-c5-003",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Vị trí của điểm đối với đường tròn",
+      "question": "Điểm $B$ được gọi là nằm trên đường tròn $(O; R)$ khi và chỉ khi khoảng cách $OB$ bằng:",
+      "choices": [
+        "$R$",
+        "Lớn hơn $R$",
+        "Nhỏ hơn $R$",
+        "$2R$"
+      ],
+      "answer": 0,
+      "explanation": "Theo định nghĩa, điểm nằm trên đường tròn khi khoảng cách từ điểm đó đến tâm bằng bán kính."
+    },
+    {
+      "id": "mc-c5-004",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Vị trí của điểm đối với đường tròn",
+      "question": "Cho đường tròn tâm $O$ bán kính $7\\text{ cm}$. Khoảng cách từ tâm đến điểm $K$ là $7\\text{ cm}$. Khi đó:",
+      "choices": [
+        "Điểm $K$ nằm trên đường tròn",
+        "Điểm $K$ nằm trong đường tròn",
+        "Điểm $K$ nằm ngoài đường tròn",
+        "Điểm $K$ trùng với tâm $O$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $OK = R = 7\\text{ cm}$ nên $K$ thuộc đường tròn."
+    },
+    {
+      "id": "mc-c5-005",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Vị trí của điểm đối với đường tròn",
+      "question": "Điểm $P$ nằm bên trong đường tròn $(O; R)$ khi hệ thức nào sau đây được thoả mãn?",
+      "choices": [
+        "$OP < R$",
+        "$OP > R$",
+        "$OP = R$",
+        "$OP \\ge R$"
+      ],
+      "answer": 0,
+      "explanation": "Điểm nằm bên trong đường tròn khi khoảng cách đến tâm nhỏ hơn bán kính: $OP < R$."
+    },
+    {
+      "id": "mc-c5-006",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm đường tròn và hình tròn",
+      "question": "Hình tròn tâm $O$ bán kính $R$ là hình gồm các điểm $M$ trong mặt phẳng thoả mãn:",
+      "choices": [
+        "$OM \\le R$",
+        "$OM = R$",
+        "$OM < R$",
+        "$OM > R$"
+      ],
+      "answer": 0,
+      "explanation": "Hình tròn bao gồm đường tròn và tất cả các điểm nằm bên trong đường tròn: $OM \\le R$."
+    },
+    {
+      "id": "mc-c5-007",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm đường tròn và hình tròn",
+      "question": "Tập hợp tất cả các điểm cách điểm $O$ cố định một khoảng bằng $R$ ($R > 0$) gọi là:",
+      "choices": [
+        "Đường tròn tâm $O$ bán kính $R$",
+        "Hình tròn tâm $O$ bán kính $R$",
+        "Hình quạt tròn",
+        "Hình vành khuyên"
+      ],
+      "answer": 0,
+      "explanation": "Đó là định nghĩa đường tròn tâm $O$ bán kính $R$."
+    },
+    {
+      "id": "mc-c5-008",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm đường tròn và hình tròn",
+      "question": "Đường tròn có bao nhiêu trục đối xứng?",
+      "choices": [
+        "Vô số trục đối xứng",
+        "1 trục đối xứng",
+        "2 trục đối xứng",
+        "Không có trục đối xứng"
+      ],
+      "answer": 0,
+      "explanation": "Bất kì đường thẳng nào đi qua tâm đều là trục đối xứng của đường tròn."
+    },
+    {
+      "id": "mc-c5-009",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm đường tròn và hình tròn",
+      "question": "Tâm đối xứng của một đường tròn là:",
+      "choices": [
+        "Chính tâm của đường tròn đó",
+        "Một điểm bất kì trên đường tròn",
+        "Điểm nằm ngoài đường tròn",
+        "Không có tâm đối xứng"
+      ],
+      "answer": 0,
+      "explanation": "Tâm đối xứng của đường tròn chính là tâm của nó."
+    },
+    {
+      "id": "mc-c5-010",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm đường tròn và hình tròn",
+      "question": "Đoạn thẳng nối hai điểm bất kì trên đường tròn được gọi là:",
+      "choices": [
+        "Dây cung của đường tròn",
+        "Đường kính của đường tròn",
+        "Bán kính của đường tròn",
+        "Tiếp tuyến của đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Đoạn thẳng nối hai điểm phân biệt thuộc đường tròn gọi là dây của đường tròn."
+    },
+    {
+      "id": "mc-c5-011",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính là dây lớn nhất",
+      "question": "Trong các dây của một đường tròn $(O; R)$, dây có độ dài lớn nhất là:",
+      "choices": [
+        "Đường kính",
+        "Bán kính",
+        "Dây vuông góc với bán kính",
+        "Dây bất kì"
+      ],
+      "answer": 0,
+      "explanation": "Định lí: Trong một đường tròn, đường kính là dây lớn nhất (có độ dài bằng $2R$)."
+    },
+    {
+      "id": "mc-c5-012",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính là dây lớn nhất",
+      "question": "Độ dài của dây lớn nhất trong đường tròn bán kính $R$ bằng:",
+      "choices": [
+        "$2R$",
+        "$R$",
+        "$R\\sqrt{2}$",
+        "$\\pi R$"
+      ],
+      "answer": 0,
+      "explanation": "Dây lớn nhất là đường kính có độ dài $2R$."
+    },
+    {
+      "id": "mc-c5-013",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính là dây lớn nhất",
+      "question": "Cho đường tròn $(O; 6\\text{ cm})$. Dây lớn nhất của đường tròn này có độ dài là:",
+      "choices": [
+        "$12\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$18\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Độ dài dây lớn nhất là đường kính $d = 2R = 2 \\times 6 = 12\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-014",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính là dây lớn nhất",
+      "question": "Khẳng định nào đúng về độ dài dây cung $AB$ trong đường tròn $(O; R)$?",
+      "choices": [
+        "$AB \\le 2R$",
+        "$AB > 2R$",
+        "$AB = 2R$",
+        "$AB < R$"
+      ],
+      "answer": 0,
+      "explanation": "Mọi dây của đường tròn đều có độ dài không vượt quá đường kính: $AB \\le 2R$."
+    },
+    {
+      "id": "mc-c5-015",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính là dây lớn nhất",
+      "question": "Khi dây cung $AB$ của đường tròn $(O)$ đi qua tâm $O$ thì $AB$ được gọi là:",
+      "choices": [
+        "Đường kính của đường tròn",
+        "Bán kính của đường tròn",
+        "Tiếp tuyến của đường tròn",
+        "Cát tuyến của đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Dây đi qua tâm chính là đường kính."
+    },
+    {
+      "id": "mc-c5-016",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính vuông góc với dây",
+      "question": "Trong một đường tròn, đường kính vuông góc với một dây thì:",
+      "choices": [
+        "Đi qua trung điểm của dây ấy",
+        "Song song với dây ấy",
+        "Bằng một nửa dây ấy",
+        "Không cắt dây ấy"
+      ],
+      "answer": 0,
+      "explanation": "Định lí: Trong một đường tròn, đường kính vuông góc với một dây thì đi qua trung điểm của dây ấy."
+    },
+    {
+      "id": "mc-c5-017",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính vuông góc với dây",
+      "question": "Cho đường tròn $(O)$, đường kính $AB$ vuông góc với dây $CD$ tại $H$. Khi đó:",
+      "choices": [
+        "$H$ là trung điểm của $CD$",
+        "$H$ là trung điểm của $AB$",
+        "$CD = AB$",
+        "$CD = 2AB$"
+      ],
+      "answer": 0,
+      "explanation": "Đường kính vuông góc với một dây thì đi qua trung điểm của dây đó."
+    },
+    {
+      "id": "mc-c5-018",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính vuông góc với dây",
+      "question": "Trong một đường tròn, đường kính đi qua trung điểm của một dây không đi qua tâm thì:",
+      "choices": [
+        "Vuông góc với dây ấy",
+        "Song song với dây ấy",
+        "Bằng dây ấy",
+        "Cắt dây ấy tạo góc $45^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Định lí đảo: Đường kính đi qua trung điểm của dây không đi qua tâm thì vuông góc với dây đó."
+    },
+    {
+      "id": "mc-c5-019",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính vuông góc với dây",
+      "question": "Cho dây $MN$ không đi qua tâm $O$. Gọi $I$ là trung điểm của $MN$. Khẳng định nào đúng?",
+      "choices": [
+        "$OI \\perp MN$",
+        "$OI \\parallel MN$",
+        "$OI = MN$",
+        "$OI = 2MN$"
+      ],
+      "answer": 0,
+      "explanation": "Đoạn thẳng nối tâm với trung điểm của dây không đi qua tâm thì vuông góc với dây đó."
+    },
+    {
+      "id": "mc-c5-020",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Đường kính vuông góc với dây",
+      "question": "Đường thẳng đi qua tâm của đường tròn và vuông góc với một dây sẽ:",
+      "choices": [
+        "Chia dây đó thành hai đoạn bằng nhau",
+        "Bằng một nửa dây đó",
+        "Trùng với dây đó",
+        "Song song với tiếp tuyến"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng qua tâm vuông góc với dây thì đi qua trung điểm của dây."
+    },
+    {
+      "id": "mc-c5-021",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa cung và dây",
+      "question": "Trong một đường tròn, hai cung bị chắn giữa hai dây song song thì:",
+      "choices": [
+        "Bằng nhau",
+        "Bù nhau",
+        "Phụ nhau",
+        "Không bằng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định lí: Hai cung bị chắn giữa hai dây song song thì bằng nhau."
+    },
+    {
+      "id": "mc-c5-022",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa cung và dây",
+      "question": "Trong một đường tròn, với hai cung nhỏ, cung lớn hơn căng dây:",
+      "choices": [
+        "Lớn hơn",
+        "Nhỏ hơn",
+        "Bằng nhau",
+        "Gấp đôi"
+      ],
+      "answer": 0,
+      "explanation": "Trong một đường tròn, cung lớn hơn căng dây lớn hơn."
+    },
+    {
+      "id": "mc-c5-023",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa cung và dây",
+      "question": "Với hai cung nhỏ trong một đường tròn, hai dây bằng nhau căng hai cung:",
+      "choices": [
+        "Bằng nhau",
+        "Không bằng nhau",
+        "Bù nhau",
+        "Phụ nhau"
+      ],
+      "answer": 0,
+      "explanation": "Hai dây bằng nhau thì căng hai cung bằng nhau."
+    },
+    {
+      "id": "mc-c5-024",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa cung và dây",
+      "question": "Khẳng định nào đúng về mối quan hệ giữa dây và cung trong một đường tròn?",
+      "choices": [
+        "Dây lớn hơn căng cung lớn hơn (với hai cung nhỏ)",
+        "Dây lớn hơn căng cung nhỏ hơn",
+        "Hai dây khác nhau luôn căng hai cung bằng nhau",
+        "Dây luôn dài hơn cung"
+      ],
+      "answer": 0,
+      "explanation": "Với hai cung nhỏ trong một đường tròn, dây lớn hơn căng cung lớn hơn."
+    },
+    {
+      "id": "mc-c5-025",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa cung và dây",
+      "question": "Cho hai cung nhỏ $AB$ và $CD$ của đường tròn $(O)$. Nếu cung $AB$ bằng cung $CD$ thì:",
+      "choices": [
+        "$AB = CD$",
+        "$AB > CD$",
+        "$AB < CD$",
+        "$AB = 2CD$"
+      ],
+      "answer": 0,
+      "explanation": "Hai cung nhỏ bằng nhau thì căng hai dây bằng nhau: $AB = CD$."
+    },
+    {
+      "id": "mc-c5-026",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa dây và khoảng cách từ tâm đến dây",
+      "question": "Trong một đường tròn, hai dây bằng nhau thì:",
+      "choices": [
+        "Cách đều tâm",
+        "Không cách đều tâm",
+        "Luôn vuông góc với nhau",
+        "Luôn song song với nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định lí: Trong một đường tròn, hai dây bằng nhau thì cách đều tâm."
+    },
+    {
+      "id": "mc-c5-027",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa dây và khoảng cách từ tâm đến dây",
+      "question": "Trong một đường tròn, hai dây cách đều tâm thì:",
+      "choices": [
+        "Bằng nhau",
+        "Vuông góc với nhau",
+        "Song song với nhau",
+        "Có độ dài gấp đôi nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định lí đảo: Hai dây cách đều tâm thì bằng nhau."
+    },
+    {
+      "id": "mc-c5-028",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa dây và khoảng cách từ tâm đến dây",
+      "question": "Trong hai dây của một đường tròn, dây nào lớn hơn thì dây đó:",
+      "choices": [
+        "Gần tâm hơn",
+        "Xa tâm hơn",
+        "Cách đều tâm",
+        "Đi qua tâm"
+      ],
+      "answer": 0,
+      "explanation": "Dây lớn hơn thì khoảng cách từ tâm đến dây đó nhỏ hơn (gần tâm hơn)."
+    },
+    {
+      "id": "mc-c5-029",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa dây và khoảng cách từ tâm đến dây",
+      "question": "Cho hai dây $AB$ và $CD$ của đường tròn $(O)$ có khoảng cách đến tâm lần lượt là $d_1, d_2$. Nếu $d_1 < d_2$ thì:",
+      "choices": [
+        "$AB > CD$",
+        "$AB < CD$",
+        "$AB = CD$",
+        "$AB = 2CD$"
+      ],
+      "answer": 0,
+      "explanation": "Dây gần tâm hơn thì có độ dài lớn hơn: $d_1 < d_2 \\Rightarrow AB > CD$."
+    },
+    {
+      "id": "mc-c5-030",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Liên hệ giữa dây và khoảng cách từ tâm đến dây",
+      "question": "Nếu dây $AB$ gần tâm hơn dây $CD$ trong cùng một đường tròn thì:",
+      "choices": [
+        "Độ dài dây $AB$ lớn hơn độ dài dây $CD$",
+        "Độ dài dây $AB$ nhỏ hơn độ dài dây $CD$",
+        "Hai dây bằng nhau",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "explanation": "Dây càng gần tâm thì càng dài, do đó $AB > CD$."
+    },
+    {
+      "id": "mc-c5-031",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức chu vi đường tròn",
+      "question": "Công thức tính chu vi đường tròn bán kính $R$ là:",
+      "choices": [
+        "$C = 2\\pi R$",
+        "$C = \\pi R^2$",
+        "$C = 2\\pi R^2$",
+        "$C = 4\\pi R$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi đường tròn bán kính $R$ là $C = 2\\pi R$."
+    },
+    {
+      "id": "mc-c5-032",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức chu vi đường tròn",
+      "question": "Nếu gọi $d$ là đường kính đường tròn, công thức tính chu vi là:",
+      "choices": [
+        "$C = \\pi d$",
+        "$C = 2\\pi d$",
+        "$C = \\pi d^2$",
+        "$C = \\frac{\\pi d}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = 2R$ nên chu vi là $C = \\pi d$."
+    },
+    {
+      "id": "mc-c5-033",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức chu vi đường tròn",
+      "question": "Khi bán kính của đường tròn tăng lên 2 lần thì chu vi của nó tăng lên:",
+      "choices": [
+        "2 lần",
+        "4 lần",
+        "Không đổi",
+        "8 lần"
+      ],
+      "answer": 0,
+      "explanation": "Vì $C = 2\\pi R$ tỉ lệ thuận bậc nhất với $R$, nên khi $R$ tăng 2 lần thì chu vi tăng 2 lần."
+    },
+    {
+      "id": "mc-c5-034",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức chu vi đường tròn",
+      "question": "Chu vi của đường tròn có bán kính $R = 5\\text{ cm}$ bằng:",
+      "choices": [
+        "$10\\pi\\text{ cm}$",
+        "$25\\pi\\text{ cm}$",
+        "$5\\pi\\text{ cm}$",
+        "$20\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$C = 2\\pi R = 2\\pi \\times 5 = 10\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-035",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức chu vi đường tròn",
+      "question": "Đường tròn có đường kính $8\\text{ cm}$ thì có chu vi là:",
+      "choices": [
+        "$8\\pi\\text{ cm}$",
+        "$16\\pi\\text{ cm}$",
+        "$64\\pi\\text{ cm}$",
+        "$4\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$C = \\pi d = 8\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-036",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức diện tích hình tròn",
+      "question": "Công thức tính diện tích hình tròn bán kính $R$ là:",
+      "choices": [
+        "$S = \\pi R^2$",
+        "$S = 2\\pi R$",
+        "$S = 2\\pi R^2$",
+        "$S = 4\\pi R^2$"
+      ],
+      "answer": 0,
+      "explanation": "Diện tích hình tròn bán kính $R$ là $S = \\pi R^2$."
+    },
+    {
+      "id": "mc-c5-037",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức diện tích hình tròn",
+      "question": "Khi bán kính đường tròn tăng lên gấp 3 lần thì diện tích hình tròn tăng lên:",
+      "choices": [
+        "9 lần",
+        "3 lần",
+        "6 lần",
+        "27 lần"
+      ],
+      "answer": 0,
+      "explanation": "Vì $S = \\pi R^2$, nên bán kính tăng 3 lần thì diện tích tăng $3^2 = 9$ lần."
+    },
+    {
+      "id": "mc-c5-038",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức diện tích hình tròn",
+      "question": "Diện tích hình tròn có bán kính $R = 4\\text{ cm}$ bằng:",
+      "choices": [
+        "$16\\pi\\text{ cm}^2$",
+        "$8\\pi\\text{ cm}^2$",
+        "$4\\pi\\text{ cm}^2$",
+        "$64\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\pi R^2 = \\pi \\times 4^2 = 16\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-039",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức diện tích hình tròn",
+      "question": "Tính diện tích hình tròn có đường kính $d = 6\\text{ cm}$:",
+      "choices": [
+        "$9\\pi\\text{ cm}^2$",
+        "$36\\pi\\text{ cm}^2$",
+        "$6\\pi\\text{ cm}^2$",
+        "$12\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Bán kính $R = d/2 = 3\\text{ cm}$. Diện tích $S = \\pi \\times 3^2 = 9\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-040",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Công thức diện tích hình tròn",
+      "question": "Công thức tính diện tích hình tròn theo đường kính $d$ là:",
+      "choices": [
+        "$S = \\frac{\\pi d^2}{4}$",
+        "$S = \\pi d^2$",
+        "$S = \\frac{\\pi d^2}{2}$",
+        "$S = 2\\pi d$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $R = d/2$ vào công thức ta được $S = \\pi (d/2)^2 = \\frac{\\pi d^2}{4}$."
+    },
+    {
+      "id": "mc-c5-041",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và đường tròn khi d < R",
+      "question": "Nếu khoảng cách $d$ từ tâm $O$ đến đường thẳng $\\Delta$ nhỏ hơn bán kính $R$ ($d < R$) thì:",
+      "choices": [
+        "Đường thẳng cắt đường tròn tại 2 điểm",
+        "Đường thẳng tiếp xúc với đường tròn",
+        "Đường thẳng không cắt đường tròn",
+        "Đường thẳng đi qua tâm"
+      ],
+      "answer": 0,
+      "explanation": "Khi $d < R$, đường thẳng cắt đường tròn tại hai điểm phân biệt."
+    },
+    {
+      "id": "mc-c5-042",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và đường tròn khi d < R",
+      "question": "Đường thẳng cắt đường tròn tại 2 điểm phân biệt được gọi là:",
+      "choices": [
+        "Cát tuyến của đường tròn",
+        "Tiếp tuyến của đường tròn",
+        "Đường kính của đường tròn",
+        "Trục đối xứng"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng cắt đường tròn tại 2 điểm phân biệt gọi là cát tuyến."
+    },
+    {
+      "id": "mc-c5-043",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và đường tròn khi d < R",
+      "question": "Cho đường tròn $(O; 6\\text{ cm})$ và khoảng cách từ tâm đến đường thẳng $a$ là $4\\text{ cm}$. Số điểm chung của $a$ và $(O)$ là:",
+      "choices": [
+        "2",
+        "1",
+        "0",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = 4\\text{ cm} < R = 6\\text{ cm}$ nên đường thẳng cắt đường tròn tại 2 điểm."
+    },
+    {
+      "id": "mc-c5-044",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và đường tròn khi d < R",
+      "question": "Khi đường thẳng và đường tròn có 2 điểm chung thì mối liên hệ giữa $d$ và $R$ là:",
+      "choices": [
+        "$d < R$",
+        "$d = R$",
+        "$d > R$",
+        "$d \\ge R$"
+      ],
+      "answer": 0,
+      "explanation": "Có 2 điểm chung khi và chỉ khi $d < R$."
+    },
+    {
+      "id": "mc-c5-045",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và đường tròn khi d < R",
+      "question": "Đường thẳng đi qua tâm của đường tròn cắt đường tròn tại:",
+      "choices": [
+        "2 điểm phân biệt",
+        "1 điểm duy nhất",
+        "Không cắt điểm nào",
+        "Vô số điểm"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng qua tâm có $d = 0 < R$ nên cắt đường tròn tại 2 điểm phân biệt (đối xứng qua tâm)."
+    },
+    {
+      "id": "mc-c5-046",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Đường thẳng tiếp xúc với đường tròn và tiếp tuyến",
+      "question": "Đường thẳng $\\Delta$ tiếp xúc với đường tròn $(O; R)$ khi khoảng cách $d$ từ $O$ đến $\\Delta$ thoả mãn:",
+      "choices": [
+        "$d = R$",
+        "$d < R$",
+        "$d > R$",
+        "$d = 2R$"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng tiếp xúc với đường tròn khi và chỉ khi khoảng cách từ tâm đến đường thẳng bằng bán kính ($d = R$)."
+    },
+    {
+      "id": "mc-c5-047",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Đường thẳng tiếp xúc với đường tròn và tiếp tuyến",
+      "question": "Đường thẳng chỉ có đúng 1 điểm chung với đường tròn được gọi là:",
+      "choices": [
+        "Tiếp tuyến của đường tròn",
+        "Cát tuyến của đường tròn",
+        "Đường kính của đường tròn",
+        "Dây cung của đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng tiếp xúc với đường tròn tại 1 điểm gọi là tiếp tuyến."
+    },
+    {
+      "id": "mc-c5-048",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Đường thẳng tiếp xúc với đường tròn và tiếp tuyến",
+      "question": "Điểm chung duy nhất giữa tiếp tuyến và đường tròn được gọi là:",
+      "choices": [
+        "Tiếp điểm",
+        "Tâm tiếp xúc",
+        "Giao điểm kép",
+        "Đỉnh tiếp tuyến"
+      ],
+      "answer": 0,
+      "explanation": "Điểm chung đó được gọi là tiếp điểm."
+    },
+    {
+      "id": "mc-c5-049",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Đường thẳng tiếp xúc với đường tròn và tiếp tuyến",
+      "question": "Cho đường tròn $(O; 5\\text{ cm})$ và đường thẳng $d$. Nếu khoảng cách từ $O$ đến $d$ là $5\\text{ cm}$ thì $d$ là:",
+      "choices": [
+        "Tiếp tuyến của đường tròn",
+        "Cát tuyến của đường tròn",
+        "Đường thẳng không cắt đường tròn",
+        "Đường kính"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = R = 5\\text{ cm}$ nên đường thẳng là tiếp tuyến."
+    },
+    {
+      "id": "mc-c5-050",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Đường thẳng tiếp xúc với đường tròn và tiếp tuyến",
+      "question": "Số điểm chung của tiếp tuyến với đường tròn là:",
+      "choices": [
+        "1",
+        "2",
+        "0",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Tiếp tuyến có đúng 1 điểm chung với đường tròn."
+    },
+    {
+      "id": "mc-c5-051",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Tính chất của tiếp tuyến và hai tiếp tuyến cắt nhau",
+      "question": "Nếu một đường thẳng là tiếp tuyến của một đường tròn thì nó:",
+      "choices": [
+        "Vuông góc với bán kính đi qua tiếp điểm",
+        "Song song với bán kính đi qua tiếp điểm",
+        "Đi qua tâm của đường tròn",
+        "Trùng với bán kính"
+      ],
+      "answer": 0,
+      "explanation": "Tính chất tiếp tuyến: Tiếp tuyến vuông góc với bán kính đi qua tiếp điểm."
+    },
+    {
+      "id": "mc-c5-052",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Tính chất của tiếp tuyến và hai tiếp tuyến cắt nhau",
+      "question": "Cho hai tiếp tuyến $MA$ và $MB$ của đường tròn $(O)$ ($A, B$ là các tiếp điểm). Khẳng định nào sau đây đúng?",
+      "choices": [
+        "$MA = MB$",
+        "$MA > MB$",
+        "$MA < MB$",
+        "$MA = 2MB$"
+      ],
+      "answer": 0,
+      "explanation": "Tính chất hai tiếp tuyến cắt nhau: Điểm xuất phát cách đều hai tiếp điểm ($MA = MB$)."
+    },
+    {
+      "id": "mc-c5-053",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Tính chất của tiếp tuyến và hai tiếp tuyến cắt nhau",
+      "question": "Từ điểm $M$ nằm ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA$ và $MB$ ($A, B$ là tiếp điểm). Tia $MO$ là:",
+      "choices": [
+        "Tia phân giác của góc AMB",
+        "Đường trung tuyến của tam giác AMB",
+        "Đường thẳng vuông góc với AB tại M",
+        "Tiếp tuyến thứ ba"
+      ],
+      "answer": 0,
+      "explanation": "Tia $MO$ là tia phân giác của góc tạo bởi hai tiếp tuyến $\\angle AMB$."
+    },
+    {
+      "id": "mc-c5-054",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Tính chất của tiếp tuyến và hai tiếp tuyến cắt nhau",
+      "question": "Từ điểm $M$ nằm ngoài đường tròn kẻ hai tiếp tuyến $MA, MB$. Tia $OM$ là:",
+      "choices": [
+        "Tia phân giác của góc AOB",
+        "Tia phân giác của góc MAB",
+        "Đường cao tam giác OAB",
+        "Tiếp tuyến của đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Tia $OM$ là tia phân giác của góc ở tâm $\\angle AOB$."
+    },
+    {
+      "id": "mc-c5-055",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Tính chất của tiếp tuyến và hai tiếp tuyến cắt nhau",
+      "question": "Đoạn thẳng nối tâm $O$ và điểm $M$ ngoài đường tròn (với hai tiếp tuyến $MA, MB$) có tính chất:",
+      "choices": [
+        "Là đường trung trực của đoạn thẳng AB",
+        "Song song với đoạn thẳng AB",
+        "Bằng đoạn thẳng AB",
+        "Không cắt đoạn thẳng AB"
+      ],
+      "answer": 0,
+      "explanation": "Đoạn thẳng $OM$ là đường trung trực của dây tiếp xúc $AB$."
+    },
+    {
+      "id": "mc-c5-056",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường tròn",
+      "question": "Hai đường tròn phân biệt $(O; R)$ và $(O'; r)$ cắt nhau thì số điểm chung của chúng là:",
+      "choices": [
+        "2",
+        "1",
+        "0",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn cắt nhau có đúng 2 điểm chung phân biệt."
+    },
+    {
+      "id": "mc-c5-057",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường tròn",
+      "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ tiếp xúc ngoài khi khoảng cách đoạn nối tâm $d = OO'$ thoả mãn:",
+      "choices": [
+        "$d = R + r$",
+        "$d = R - r$",
+        "$d > R + r$",
+        "$d < R - r$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn tiếp xúc ngoài khi khoảng cách nối tâm bằng tổng hai bán kính: $d = R + r$."
+    },
+    {
+      "id": "mc-c5-058",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường tròn",
+      "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ ($R > r$) tiếp xúc trong khi khoảng cách nối tâm $d = OO'$ bằng:",
+      "choices": [
+        "$d = R - r$",
+        "$d = R + r$",
+        "$d > R - r$",
+        "$d < R - r$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn tiếp xúc trong khi khoảng cách nối tâm bằng hiệu hai bán kính: $d = R - r$."
+    },
+    {
+      "id": "mc-c5-059",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường tròn",
+      "question": "Hai đường tròn ở ngoài nhau khi khoảng cách nối tâm $d$ thoả mãn:",
+      "choices": [
+        "$d > R + r$",
+        "$d = R + r$",
+        "$d < R + r$",
+        "$d = R - r$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn ở ngoài nhau khi khoảng cách nối tâm lớn hơn tổng hai bán kính: $d > R + r$."
+    },
+    {
+      "id": "mc-c5-060",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường tròn",
+      "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ không giao nhau thì số điểm chung của chúng là:",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Không giao nhau nghĩa là không có điểm chung nào (0 điểm chung)."
+    },
+    {
+      "id": "mc-c5-061",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung",
+      "question": "Cho đường tròn $(O; 10\\text{ cm})$ và dây $AB = 16\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$7\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Kẻ $OH \\perp AB \\Rightarrow H$ là trung điểm $AB \\Rightarrow AH = 8\\text{ cm}$. Trong tam giác vuông $OAH$: $OH = \\sqrt{OA^2 - AH^2} = \\sqrt{10^2 - 8^2} = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-062",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung",
+      "question": "Cho đường tròn $(O; 5\\text{ cm})$ và dây $CD = 8\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $CD$ bằng:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $4\\text{ cm}$. Khoảng cách $d = \\sqrt{5^2 - 4^2} = 3\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-063",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung",
+      "question": "Đường tròn tâm $O$ bán kính $13\\text{ cm}$ có dây cung dài $24\\text{ cm}$. Khoảng cách từ tâm đến dây đó là:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$7\\text{ cm}$",
+        "$8\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa độ dài dây là $12\\text{ cm}$. Khoảng cách từ tâm là $\\sqrt{13^2 - 12^2} = \\sqrt{25} = 5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-064",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung",
+      "question": "Cho đường tròn $(O; 25\\text{ cm})$ có dây cung dài $40\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây cung này là:",
+      "choices": [
+        "$15\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$18\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $20\\text{ cm}$. Khoảng cách là $\\sqrt{25^2 - 20^2} = 15\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-065",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính độ dài dây cung khi biết bán kính và khoảng cách",
+      "question": "Cho đường tròn $(O; 5\\text{ cm})$, khoảng cách từ tâm $O$ đến dây $CD$ bằng $3\\text{ cm}$. Độ dài dây $CD$ là:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Kẻ $OK \\perp CD \\Rightarrow CK = \\sqrt{R^2 - OK^2} = \\sqrt{5^2 - 3^2} = 4\\text{ cm}$. Độ dài dây $CD = 2CK = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-066",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính độ dài dây cung khi biết bán kính và khoảng cách",
+      "question": "Đường tròn $(O; 10\\text{ cm})$ có khoảng cách từ tâm đến một dây bằng $6\\text{ cm}$. Độ dài của dây đó bằng:",
+      "choices": [
+        "$16\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$14\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $\\sqrt{10^2 - 6^2} = 8\\text{ cm}$. Độ dài dây là $2 \\times 8 = 16\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-067",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính độ dài dây cung khi biết bán kính và khoảng cách",
+      "question": "Cho đường tròn $(O; 15\\text{ cm})$. Một dây có khoảng cách đến tâm bằng $9\\text{ cm}$ thì có độ dài là:",
+      "choices": [
+        "$24\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$20\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $\\sqrt{15^2 - 9^2} = 12\\text{ cm}$. Độ dài dây là $24\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-068",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính độ dài dây cung khi biết bán kính và khoảng cách",
+      "question": "Đường tròn $(O; 17\\text{ cm})$ có khoảng cách từ tâm đến dây $MN$ bằng $8\\text{ cm}$. Chiều dài dây $MN$ là:",
+      "choices": [
+        "$30\\text{ cm}$",
+        "$15\\text{ cm}$",
+        "$25\\text{ cm}$",
+        "$28\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $\\sqrt{17^2 - 8^2} = 15\\text{ cm}$. Chiều dài dây $MN = 2 \\times 15 = 30\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-069",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính độ dài cung tròn",
+      "question": "Độ dài cung $60^\\circ$ của đường tròn bán kính $R = 6\\text{ cm}$ là:",
+      "choices": [
+        "$2\\pi\\text{ cm}$",
+        "$3\\pi\\text{ cm}$",
+        "$4\\pi\\text{ cm}$",
+        "$6\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức: $l = \\frac{\\pi R n}{180} = \\frac{\\pi \\times 6 \\times 60}{180} = 2\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-070",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính độ dài cung tròn",
+      "question": "Độ dài cung $90^\\circ$ của đường tròn bán kính $R = 8\\text{ cm}$ bằng:",
+      "choices": [
+        "$4\\pi\\text{ cm}$",
+        "$2\\pi\\text{ cm}$",
+        "$8\\pi\\text{ cm}$",
+        "$6\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = \\frac{\\pi \\times 8 \\times 90}{180} = 4\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-071",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính độ dài cung tròn",
+      "question": "Tính độ dài của cung $120^\\circ$ trên đường tròn bán kính $R = 9\\text{ cm}$:",
+      "choices": [
+        "$6\\pi\\text{ cm}$",
+        "$3\\pi\\text{ cm}$",
+        "$9\\pi\\text{ cm}$",
+        "$12\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = \\frac{\\pi \\times 9 \\times 120}{180} = 6\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-072",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính độ dài cung tròn",
+      "question": "Cung có số đo $30^\\circ$ của đường tròn có bán kính $12\\text{ cm}$ dài bao nhiêu cm?",
+      "choices": [
+        "$2\\pi\\text{ cm}$",
+        "$4\\pi\\text{ cm}$",
+        "$\\pi\\text{ cm}$",
+        "$3\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = \\frac{\\pi \\times 12 \\times 30}{180} = 2\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-073",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình quạt tròn",
+      "question": "Diện tích hình quạt tròn bán kính $R = 6\\text{ cm}$, cung $90^\\circ$ là:",
+      "choices": [
+        "$9\\pi\\text{ cm}^2$",
+        "$18\\pi\\text{ cm}^2$",
+        "$6\\pi\\text{ cm}^2$",
+        "$36\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_q = \\frac{\\pi R^2 n}{360} = \\frac{\\pi \\times 6^2 \\times 90}{360} = 9\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-074",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình quạt tròn",
+      "question": "Một hình quạt tròn có bán kính $R = 6\\text{ cm}$ ứng với cung $60^\\circ$. Diện tích hình quạt tròn đó là:",
+      "choices": [
+        "$6\\pi\\text{ cm}^2$",
+        "$12\\pi\\text{ cm}^2$",
+        "$3\\pi\\text{ cm}^2$",
+        "$18\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_q = \\frac{\\pi \\times 36 \\times 60}{360} = 6\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-075",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình quạt tròn",
+      "question": "Tính diện tích hình quạt tròn bán kính $R = 4\\text{ cm}$ có số đo cung là $45^\\circ$:",
+      "choices": [
+        "$2\\pi\\text{ cm}^2$",
+        "$4\\pi\\text{ cm}^2$",
+        "$8\\pi\\text{ cm}^2$",
+        "$\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_q = \\frac{\\pi \\times 16 \\times 45}{360} = 2\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-076",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình quạt tròn",
+      "question": "Hình quạt tròn có bán kính $R = 10\\text{ cm}$ và cung $36^\\circ$ có diện tích bằng:",
+      "choices": [
+        "$10\\pi\\text{ cm}^2$",
+        "$20\\pi\\text{ cm}^2$",
+        "$5\\pi\\text{ cm}^2$",
+        "$25\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_q = \\frac{\\pi \\times 100 \\times 36}{360} = 10\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-077",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình vành khuyên",
+      "question": "Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm có bán kính $R_1 = 5\\text{ cm}$ và $R_2 = 4\\text{ cm}$ là:",
+      "choices": [
+        "$9\\pi\\text{ cm}^2$",
+        "$1\\pi\\text{ cm}^2$",
+        "$41\\pi\\text{ cm}^2$",
+        "$20\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_{vk} = \\pi (R_1^2 - R_2^2) = \\pi (5^2 - 4^2) = \\pi (25 - 16) = 9\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-078",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình vành khuyên",
+      "question": "Cho hai đường tròn đồng tâm có bán kính $R = 10\\text{ cm}$ và $r = 8\\text{ cm}$. Diện tích hình vành khuyên giữa chúng là:",
+      "choices": [
+        "$36\\pi\\text{ cm}^2$",
+        "$18\\pi\\text{ cm}^2$",
+        "$64\\pi\\text{ cm}^2$",
+        "$100\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S_{vk} = \\pi (10^2 - 8^2) = \\pi (100 - 64) = 36\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-079",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình vành khuyên",
+      "question": "Hình vành khuyên được tạo bởi hai đường tròn bán kính $R_1 = 13\\text{ cm}$ và $R_2 = 12\\text{ cm}$ có diện tích là:",
+      "choices": [
+        "$25\\pi\\text{ cm}^2$",
+        "$5\\pi\\text{ cm}^2$",
+        "$50\\pi\\text{ cm}^2$",
+        "$1\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\pi (13^2 - 12^2) = \\pi (169 - 144) = 25\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-080",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tính diện tích hình vành khuyên",
+      "question": "Hai đường tròn đồng tâm có bán kính lần lượt là $6\\text{ cm}$ và $2\\text{ cm}$. Diện tích phần mặt phẳng nằm giữa hai đường tròn là:",
+      "choices": [
+        "$32\\pi\\text{ cm}^2$",
+        "$16\\pi\\text{ cm}^2$",
+        "$40\\pi\\text{ cm}^2$",
+        "$8\\pi\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\pi (6^2 - 2^2) = \\pi (36 - 4) = 32\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c5-081",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Xác định vị trí tương đối qua số liệu khoảng cách d và R",
+      "question": "Đường tròn $(O; 7\\text{ cm})$ và đường thẳng $\\Delta$ có khoảng cách từ tâm $d = 9\\text{ cm}$. Số điểm chung của $\\Delta$ và $(O)$ là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì khoảng cách $d = 9\\text{ cm} > R = 7\\text{ cm}$ nên đường thẳng và đường tròn không giao nhau (0 điểm chung)."
+    },
+    {
+      "id": "mc-c5-082",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Xác định vị trí tương đối qua số liệu khoảng cách d và R",
+      "question": "Cho đường tròn $(O; 8\\text{ cm})$ và khoảng cách từ tâm đến đường thẳng $m$ là $5\\text{ cm}$. Vị trí tương đối của $m$ và $(O)$ là:",
+      "choices": [
+        "Cắt nhau tại 2 điểm",
+        "Tiếp xúc nhau",
+        "Không giao nhau",
+        "Trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = 5\\text{ cm} < R = 8\\text{ cm}$ nên đường thẳng cắt đường tròn tại 2 điểm."
+    },
+    {
+      "id": "mc-c5-083",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Xác định vị trí tương đối qua số liệu khoảng cách d và R",
+      "question": "Đường tròn bán kính $R = 6\\text{ cm}$ có khoảng cách đến đường thẳng $d$ là $6\\text{ cm}$. Khẳng định nào đúng?",
+      "choices": [
+        "Đường thẳng tiếp xúc với đường tròn",
+        "Đường thẳng cắt đường tròn",
+        "Đường thẳng không cắt đường tròn",
+        "Đường thẳng qua tâm đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Vì khoảng cách $d = R = 6\\text{ cm}$ nên đường thẳng tiếp xúc với đường tròn."
+    },
+    {
+      "id": "mc-c5-084",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Xác định vị trí tương đối qua số liệu khoảng cách d và R",
+      "question": "Khoảng cách từ tâm $O$ của đường tròn $(O; 10\\text{ cm})$ đến đường thẳng $a$ là $12\\text{ cm}$. Khi đó đường thẳng $a$ và đường tròn $(O)$:",
+      "choices": [
+        "Không có điểm chung nào",
+        "Có đúng 1 điểm chung",
+        "Có 2 điểm chung phân biệt",
+        "Có vô số điểm chung"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d > R$ nên không có điểm chung."
+    },
+    {
+      "id": "mc-c5-085",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính độ dài đoạn tiếp tuyến từ một điểm ngoài đường tròn",
+      "question": "Cho đường tròn $(O; 6\\text{ cm})$ và điểm $M$ sao cho $OM = 10\\text{ cm}$. Kẻ tiếp tuyến $MA$ ($A$ là tiếp điểm). Độ dài $MA$ là:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác $OAM$ vuông tại $A$ nên $MA = \\sqrt{OM^2 - OA^2} = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-086",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính độ dài đoạn tiếp tuyến từ một điểm ngoài đường tròn",
+      "question": "Từ điểm $M$ cách tâm đường tròn $(O; 5\\text{ cm})$ một khoảng $13\\text{ cm}$, kẻ tiếp tuyến $MT$ ($T$ là tiếp điểm). Độ dài tiếp tuyến $MT$ là:",
+      "choices": [
+        "$12\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$14\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$MT = \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-087",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính độ dài đoạn tiếp tuyến từ một điểm ngoài đường tròn",
+      "question": "Cho đường tròn $(O; 8\\text{ cm})$ và điểm $A$ ngoài đường tròn có $OA = 17\\text{ cm}$. Kẻ tiếp tuyến $AB$ với đường tròn. Độ dài $AB$ là:",
+      "choices": [
+        "$15\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$9\\text{ cm}$",
+        "$16\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = 15\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-088",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính độ dài đoạn tiếp tuyến từ một điểm ngoài đường tròn",
+      "question": "Điểm $P$ có khoảng cách đến tâm đường tròn $(O; 3\\text{ cm})$ bằng $5\\text{ cm}$. Độ dài đoạn tiếp tuyến kẻ từ $P$ đến đường tròn là:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$8\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Độ dài đoạn tiếp tuyến là $\\sqrt{5^2 - 3^2} = 4\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-089",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính góc ở tâm và số đo cung bị chắn",
+      "question": "Góc ở tâm $\\angle AOB = 50^\\circ$ chắn cung nhỏ $AB$. Số đo của cung nhỏ $AB$ là:",
+      "choices": [
+        "$50^\\circ$",
+        "$100^\\circ$",
+        "$25^\\circ$",
+        "$130^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Số đo của cung nhỏ bằng số đo của góc ở tâm chắn cung đó: sđ $\\text{cung } AB = 50^\\circ$."
+    },
+    {
+      "id": "mc-c5-090",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính góc ở tâm và số đo cung bị chắn",
+      "question": "Góc ở tâm $\\angle AOB = 70^\\circ$ chắn cung nhỏ $AB$. Số đo của cung lớn $AB$ bằng:",
+      "choices": [
+        "$290^\\circ$",
+        "$70^\\circ$",
+        "$110^\\circ$",
+        "$140^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Số đo cung lớn bằng $360^\\circ - 70^\\circ = 290^\\circ$."
+    },
+    {
+      "id": "mc-c5-091",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính góc ở tâm và số đo cung bị chắn",
+      "question": "Cung nhỏ $MN$ của đường tròn $(O)$ có số đo bằng $80^\\circ$. Số đo góc ở tâm $\\angle MON$ tương ứng là:",
+      "choices": [
+        "$80^\\circ$",
+        "$40^\\circ$",
+        "$160^\\circ$",
+        "$100^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Góc ở tâm bằng số đo cung nhỏ bị chắn: $\\angle MON = 80^\\circ$."
+    },
+    {
+      "id": "mc-c5-092",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính góc ở tâm và số đo cung bị chắn",
+      "question": "Cho đường tròn $(O)$ có góc ở tâm $\\angle COD = 110^\\circ$. Số đo cung nhỏ $CD$ bằng:",
+      "choices": [
+        "$110^\\circ$",
+        "$55^\\circ$",
+        "$220^\\circ$",
+        "$70^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Số đo cung nhỏ bằng đúng số đo góc ở tâm chắn cung đó: $110^\\circ$."
+    },
+    {
+      "id": "mc-c5-093",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tam giác nội tiếp đường tròn có cạnh là đường kính",
+      "question": "Tam giác $ABC$ nội tiếp đường tròn $(O)$ có cạnh $BC$ là đường kính của đường tròn. Tam giác $ABC$ là:",
+      "choices": [
+        "Tam giác vuông tại $A$",
+        "Tam giác đều",
+        "Tam giác cân tại $A$",
+        "Tam giác vuông tại $B$"
+      ],
+      "answer": 0,
+      "explanation": "Định lí: Tam giác có một cạnh là đường kính của đường tròn ngoại tiếp thì tam giác đó vuông tại đỉnh đối diện với đường kính."
+    },
+    {
+      "id": "mc-c5-094",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tam giác nội tiếp đường tròn có cạnh là đường kính",
+      "question": "Cho tam giác $MNP$ nội tiếp đường tròn đường kính $NP$. Khẳng định nào sau đây đúng?",
+      "choices": [
+        "$\\angle M = 90^\\circ$",
+        "$\\angle N = 90^\\circ$",
+        "$\\angle P = 90^\\circ$",
+        "Tam giác MNP cân tại M"
+      ],
+      "answer": 0,
+      "explanation": "Góc nhìn đường kính $NP$ là góc vuông: $\\angle NMP = 90^\\circ$."
+    },
+    {
+      "id": "mc-c5-095",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tam giác nội tiếp đường tròn có cạnh là đường kính",
+      "question": "Tam giác $DEF$ nội tiếp đường tròn $(O)$ đường kính $EF = 10\\text{ cm}$. Nếu $DE = 6\\text{ cm}$ thì độ dài cạnh $DF$ là:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Vì tam giác $DEF$ vuông tại $D$, theo Pythagore: $DF = \\sqrt{EF^2 - DE^2} = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-096",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tam giác nội tiếp đường tròn có cạnh là đường kính",
+      "question": "Tam giác $ABC$ có cạnh $BC = 2R$ là đường kính của đường tròn ngoại tiếp. Biết $AB = AC$. Tam giác $ABC$ là:",
+      "choices": [
+        "Tam giác vuông cân tại $A$",
+        "Tam giác đều",
+        "Tam giác vuông tại $B$",
+        "Tam giác tù"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác vừa vuông tại $A$ vừa có $AB = AC$ nên là tam giác vuông cân tại $A$."
+    },
+    {
+      "id": "mc-c5-097",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc",
+      "question": "Hai đường tròn $(O; 7\\text{ cm})$ và $(O'; 3\\text{ cm})$ tiếp xúc ngoài nhau. Đoạn nối tâm $OO'$ bằng:",
+      "choices": [
+        "$10\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$21\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn tiếp xúc ngoài có khoảng cách nối tâm $d = R + r = 7 + 3 = 10\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-098",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc",
+      "question": "Hai đường tròn $(O; 8\\text{ cm})$ và $(O'; 5\\text{ cm})$ tiếp xúc trong nhau. Đoạn nối tâm $OO'$ bằng:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$13\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$1,5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường tròn tiếp xúc trong có khoảng cách nối tâm $d = R - r = 8 - 5 = 3\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-099",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc",
+      "question": "Cho hai đường tròn bán kính $R = 9\\text{ cm}$ và $r = 4\\text{ cm}$ tiếp xúc ngoài. Chiều dài đoạn nối tâm là:",
+      "choices": [
+        "$13\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$36\\text{ cm}$",
+        "$18\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$d = R + r = 9 + 4 = 13\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-100",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc",
+      "question": "Đoạn nối tâm hai đường tròn bán kính $12\\text{ cm}$ và $7\\text{ cm}$ khi chúng tiếp xúc trong nhau là:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$19\\text{ cm}$",
+        "$8,5\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$d = R - r = 12 - 7 = 5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-101",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Xác định số điểm chung của hai đường tròn qua R, r và d",
+      "question": "Hai đường tròn $(O; 5\\text{ cm})$ và $(O'; 3\\text{ cm})$ có khoảng cách nối tâm $OO' = 7\\text{ cm}$. Số điểm chung của hai đường tròn là:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì $R - r = 2 < d = 7 < R + r = 8$ nên hai đường tròn cắt nhau tại 2 điểm."
+    },
+    {
+      "id": "mc-c5-102",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Xác định số điểm chung của hai đường tròn qua R, r và d",
+      "question": "Cho hai đường tròn $(O; 6\\text{ cm})$ và $(O'; 2\\text{ cm})$ có đoạn nối tâm $OO' = 10\\text{ cm}$. Hai đường tròn này có bao nhiêu điểm chung?",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = 10 > R + r = 8$ nên hai đường tròn ở ngoài nhau, có 0 điểm chung."
+    },
+    {
+      "id": "mc-c5-103",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Xác định số điểm chung của hai đường tròn qua R, r và d",
+      "question": "Cho hai đường tròn $(O; 9\\text{ cm})$ và $(O'; 4\\text{ cm})$ có $OO' = 5\\text{ cm}$. Số điểm chung của hai đường tròn là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = R - r = 9 - 4 = 5\\text{ cm}$ nên hai đường tròn tiếp xúc trong, có 1 điểm chung duy nhất."
+    },
+    {
+      "id": "mc-c5-104",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Xác định số điểm chung của hai đường tròn qua R, r và d",
+      "question": "Hai đường tròn có bán kính $4\\text{ cm}$ và $3\\text{ cm}$, khoảng cách giữa hai tâm là $1\\text{ cm}$. Vị trí tương đối của chúng là:",
+      "choices": [
+        "Tiếp xúc trong",
+        "Tiếp xúc ngoài",
+        "Cắt nhau",
+        "Ở ngoài nhau"
+      ],
+      "answer": 0,
+      "explanation": "Vì $d = R - r = 4 - 3 = 1\\text{ cm}$ nên hai đường tròn tiếp xúc trong."
+    },
+    {
+      "id": "mc-c5-105",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính góc tạo bởi hai tiếp tuyến cắt nhau",
+      "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$. Biết góc ở tâm $\\angle AOB = 120^\\circ$. Góc $\\angle AMB$ bằng:",
+      "choices": [
+        "$60^\\circ$",
+        "$120^\\circ$",
+        "$30^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Tứ giác $OAMB$ có $\\angle A = \\angle B = 90^\\circ$ nên $\\angle AMB = 180^\\circ - \\angle AOB = 180^\\circ - 120^\\circ = 60^\\circ$."
+    },
+    {
+      "id": "mc-c5-106",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính góc tạo bởi hai tiếp tuyến cắt nhau",
+      "question": "Từ điểm $M$ kẻ hai tiếp tuyến $MA, MB$ tới đường tròn $(O)$. Biết $\\angle AMB = 50^\\circ$. Số đo góc ở tâm $\\angle AOB$ là:",
+      "choices": [
+        "$130^\\circ$",
+        "$50^\\circ$",
+        "$65^\\circ$",
+        "$100^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Tổng hai góc đối diện bằng $180^\\circ$: $\\angle AOB = 180^\\circ - 50^\\circ = 130^\\circ$."
+    },
+    {
+      "id": "mc-c5-107",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính góc tạo bởi hai tiếp tuyến cắt nhau",
+      "question": "Cho hai tiếp tuyến $MA, MB$ tạo với nhau một góc $\\angle AMB = 80^\\circ$. Góc giữa bán kính $OA$ và tia $OM$ bằng:",
+      "choices": [
+        "$50^\\circ$",
+        "$40^\\circ$",
+        "$100^\\circ$",
+        "$80^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Tia $MO$ là phân giác nên $\\angle AMO = 40^\\circ$. Tam giác $OAM$ vuông tại $A$ có $\\angle AOM = 90^\\circ - 40^\\circ = 50^\\circ$."
+    },
+    {
+      "id": "mc-c5-108",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Tính góc tạo bởi hai tiếp tuyến cắt nhau",
+      "question": "Từ điểm $P$ nằm ngoài đường tròn kẻ hai tiếp tuyến $PA, PB$. Biết góc $\\angle APB = 90^\\circ$. Tứ giác $OAPB$ là hình gì?",
+      "choices": [
+        "Hình vuông",
+        "Hình chữ nhật có hai cạnh không bằng nhau",
+        "Hình thang cân",
+        "Hình thoi không là hình vuông"
+      ],
+      "answer": 0,
+      "explanation": "Tứ giác có 3 góc vuông và hai cạnh kề bằng nhau ($OA = OB = R$) nên là hình vuông."
+    },
+    {
+      "id": "mc-c5-109",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "vd",
+      "dang": "Tính độ dài dây cung đặc biệt liên quan góc và bán kính",
+      "question": "Dây $AB$ của đường tròn $(O; R)$ có khoảng cách đến tâm $O$ bằng $R / 2$. Độ dài dây $AB$ theo $R$ là:",
+      "choices": [
+        "$R\\sqrt{3}$",
+        "$R$",
+        "$R\\sqrt{2}$",
+        "$2R$"
+      ],
+      "answer": 0,
+      "explanation": "Kẻ $OH \\perp AB$ thì $AH = \\sqrt{R^2 - (R/2)^2} = \\sqrt{3R^2/4} = \\frac{R\\sqrt{3}}{2}$. Do đó $AB = 2AH = R\\sqrt{3}$."
+    },
+    {
+      "id": "mc-c5-110",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "vd",
+      "dang": "Tính độ dài dây cung đặc biệt liên quan góc và bán kính",
+      "question": "Trong đường tròn $(O; R)$, góc ở tâm $\\angle AOB = 90^\\circ$. Độ dài dây $AB$ bằng:",
+      "choices": [
+        "$R\\sqrt{2}$",
+        "$R\\sqrt{3}$",
+        "$2R$",
+        "$R$"
+      ],
+      "answer": 0,
+      "explanation": "Tam giác $OAB$ vuông cân tại $O$ nên $AB = \\sqrt{OA^2 + OB^2} = \\sqrt{R^2 + R^2} = R\\sqrt{2}$."
+    },
+    {
+      "id": "mc-c5-111",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "vd",
+      "dang": "Tính độ dài dây cung đặc biệt liên quan góc và bán kính",
+      "question": "Trong đường tròn $(O; R)$, tam giác $OAB$ là tam giác đều. Độ dài dây $AB$ bằng:",
+      "choices": [
+        "$R$",
+        "$R\\sqrt{3}$",
+        "$R\\sqrt{2}$",
+        "$2R$"
+      ],
+      "answer": 0,
+      "explanation": "Vì tam giác $OAB$ đều nên ba cạnh bằng nhau: $AB = OA = OB = R$."
+    },
+    {
+      "id": "mc-c5-112",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "vd",
+      "dang": "Tính độ dài dây cung đặc biệt liên quan góc và bán kính",
+      "question": "Cho đường tròn $(O; 6\\text{ cm})$. Dây $CD$ có khoảng cách từ tâm đến dây bằng $3\\text{ cm}$. Chiều dài dây $CD$ là:",
+      "choices": [
+        "$6\\sqrt{3}\\text{ cm}$",
+        "$3\\sqrt{3}\\text{ cm}$",
+        "$6\\text{ cm}$",
+        "$12\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Nửa dây là $\\sqrt{6^2 - 3^2} = \\sqrt{27} = 3\\sqrt{3}\\text{ cm}$. Vậy $CD = 6\\sqrt{3}\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-113",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 6 và 8 (cạnh huyền là 10). Bán kính đường tròn nội tiếp $r$ bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức bán kính đường tròn nội tiếp tam giác vuông: $r = \\frac{a + b - c}{2} = \\frac{6 + 8 - 10}{2} = 2$."
+    },
+    {
+      "id": "mc-c5-114",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông",
+      "question": "Tam giác vuông có hai cạnh góc vuông lần lượt là $3\\text{ cm}$ và $4\\text{ cm}$. Bán kính đường tròn nội tiếp tam giác là:",
+      "choices": [
+        "$1\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$0,5\\text{ cm}$",
+        "$1,5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền là $5\\text{ cm}$. Bán kính nội tiếp $r = \\frac{3 + 4 - 5}{2} = 1\\text{ cm}$."
+    },
+    {
+      "id": "mc-c5-115",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông",
+      "question": "Tam giác vuông có các cạnh là 5, 12, 13. Bán kính đường tròn nội tiếp tam giác bằng:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Bán kính $r = \\frac{5 + 12 - 13}{2} = \\frac{4}{2} = 2$."
+    },
+    {
+      "id": "mc-c5-116",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông",
+      "question": "Cho tam giác vuông có hai cạnh góc vuông là 8 và 15. Bán kính đường tròn nội tiếp của tam giác là:",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh huyền là $\\sqrt{8^2 + 15^2} = 17$. Bán kính $r = \\frac{8 + 15 - 17}{2} = \\frac{6}{2} = 3$."
+    },
+    {
+      "id": "mc-c5-117",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "vd",
+      "dang": "Ứng dụng thực tế về chu vi bánh xe và quãng đường",
+      "question": "Bánh xe đạp có đường kính $65\\text{ cm}$. Lấy $\\pi \\approx 3,14$. Khi bánh xe quay được 1000 vòng thì xe đi được quãng đường xấp xỉ:",
+      "choices": [
+        "$2041\\text{ m}$",
+        "$1020\\text{ m}$",
+        "$4082\\text{ m}$",
+        "$650\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi bánh xe $C = \\pi d = 3,14 \\times 0,65\\text{ m} = 2,041\\text{ m}$. Quãng đường sau 1000 vòng là $1000 \\times 2,041 = 2041\\text{ m}$."
+    },
+    {
+      "id": "mc-c5-118",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "vd",
+      "dang": "Ứng dụng thực tế về chu vi bánh xe và quãng đường",
+      "question": "Một bánh xe có bán kính $0,25\\text{ m}$. Lấy $\\pi \\approx 3,14$. Sau khi lăn được 200 vòng thì bánh xe đi được quãng đường là:",
+      "choices": [
+        "$314\\text{ m}$",
+        "$157\\text{ m}$",
+        "$628\\text{ m}$",
+        "$200\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi bánh xe $C = 2 \\times 3,14 \\times 0,25 = 1,57\\text{ m}$. Quãng đường $S = 200 \\times 1,57 = 314\\text{ m}$."
+    },
+    {
+      "id": "mc-c5-119",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "vd",
+      "dang": "Ứng dụng thực tế về chu vi bánh xe và quãng đường",
+      "question": "Bánh xe ô tô có đường kính $0,8\\text{ m}$. Lấy $\\pi \\approx 3,14$. Khi ô tô đi được quãng đường $2512\\text{ m}$ thì bánh xe đã quay khoảng:",
+      "choices": [
+        "$1000\\text{ vòng}$",
+        "$500\\text{ vòng}$",
+        "$2000\\text{ vòng}$",
+        "$800\\text{ vòng}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi bánh xe $C = 3,14 \\times 0,8 = 2,512\\text{ m}$. Số vòng quay là $2512 / 2,512 = 1000\\text{ vòng}$."
+    },
+    {
+      "id": "mc-c5-120",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "vd",
+      "dang": "Ứng dụng thực tế về chu vi bánh xe và quãng đường",
+      "question": "Một con lăn hình trụ có bán kính $0,5\\text{ m}$. Lấy $\\pi \\approx 3,14$. Khi con lăn quay trọn 100 vòng trên mặt đất thì nó đã di chuyển được:",
+      "choices": [
+        "$314\\text{ m}$",
+        "$628\\text{ m}$",
+        "$157\\text{ m}$",
+        "$500\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi $C = 2 \\times 3,14 \\times 0,5 = 3,14\\text{ m}$. Quãng đường $100 \\times 3,14 = 314\\text{ m}$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Cho đường tròn có bán kính $R = 5\\text{ cm}$. Độ dài đường kính của đường tròn là bao nhiêu cm?",
+      "answer": 10,
+      "explanation": "Đường kính $d = 2R = 2 \\times 5 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Một hình tròn có bán kính $R = 7\\text{ cm}$. Đường kính của hình tròn này bằng bao nhiêu cm?",
+      "answer": 14,
+      "explanation": "Đường kính $d = 2R = 2 \\times 7 = 14\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Đường tròn $(O)$ có bán kính $R = 12\\text{ cm}$. Dây lớn nhất của đường tròn có độ dài bao nhiêu cm?",
+      "answer": 24,
+      "explanation": "Dây lớn nhất là đường kính: $2 \\times 12 = 24\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Cho đường tròn tâm $O$ có bán kính $R = 15\\text{ cm}$. Đường kính của đường tròn là bao nhiêu cm?",
+      "answer": 30,
+      "explanation": "$d = 2 \\times 15 = 30\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Bán kính đường tròn bằng $20\\text{ cm}$. Độ dài đường kính của đường tròn đó là bao nhiêu cm?",
+      "answer": 40,
+      "explanation": "$d = 2 \\times 20 = 40\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Số điểm chung của một tiếp tuyến với đường tròn là:",
+      "answer": 1,
+      "explanation": "Tiếp tuyến tiếp xúc với đường tròn tại đúng 1 điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Một đường thẳng tiếp xúc với đường tròn tại bao nhiêu điểm?",
+      "answer": 1,
+      "explanation": "Tiếp xúc tại đúng 1 điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Số tiếp điểm của một tiếp tuyến đối với đường tròn là:",
+      "answer": 1,
+      "explanation": "Có đúng 1 tiếp điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Khi khoảng cách từ tâm đến đường thẳng bằng bán kính thì số giao điểm là:",
+      "answer": 1,
+      "explanation": "Đường thẳng tiếp xúc với đường tròn nên có đúng 1 điểm chung."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Đường thẳng $\\Delta$ có $d = R$ so với đường tròn $(O)$. Số điểm chung của $\\Delta$ và $(O)$ là:",
+      "answer": 1,
+      "explanation": "Có 1 điểm chung duy nhất."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Số đo của cung nửa đường tròn bằng bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Số đo của nửa đường tròn bằng $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Một góc ở tâm chắn nửa đường tròn có số đo bằng bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Góc ở tâm là góc bẹt có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Đường kính chia đường tròn thành hai cung, mỗi cung có số đo bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Mỗi cung nửa đường tròn có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Cung bị chắn bởi một đường kính của đường tròn có số đo bằng bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Cung nửa đường tròn có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Hai đầu mút của một đường kính chia đường tròn thành hai cung, số đo mỗi cung là bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Số đo mỗi cung bằng $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 5\\text{ cm})$ có dây $AB = 6\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ bằng bao nhiêu cm?",
+      "answer": 4,
+      "explanation": "Nửa dây là $3\\text{ cm}$. Khoảng cách là $\\sqrt{5^2 - 3^2} = 4\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 10\\text{ cm})$ có dây cung dài $16\\text{ cm}$. Khoảng cách từ tâm đến dây này bằng bao nhiêu cm?",
+      "answer": 6,
+      "explanation": "Nửa dây là $8\\text{ cm}$. Khoảng cách: $\\sqrt{10^2 - 8^2} = 6\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Cho đường tròn $(O; 13\\text{ cm})$ và dây cung dài $10\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây là bao nhiêu cm?",
+      "answer": 12,
+      "explanation": "Nửa dây là $5\\text{ cm}$. Khoảng cách: $\\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 25\\text{ cm})$ có dây cung dài $48\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây đó là bao nhiêu cm?",
+      "answer": 7,
+      "explanation": "Nửa dây là $24\\text{ cm}$. Khoảng cách: $\\sqrt{25^2 - 24^2} = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Cho hai đường tròn tiếp xúc ngoài có bán kính là $4\\text{ cm}$ và $6\\text{ cm}$. Đoạn nối tâm $OO'$ dài bao nhiêu cm?",
+      "answer": 10,
+      "explanation": "Đoạn nối tâm: $d = R + r = 4 + 6 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Hai đường tròn tiếp xúc ngoài có bán kính lần lượt là $7\\text{ cm}$ và $8\\text{ cm}$. Khoảng cách giữa hai tâm bằng bao nhiêu cm?",
+      "answer": 15,
+      "explanation": "Khoảng cách nối tâm: $7 + 8 = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Cho hai đường tròn tiếp xúc ngoài có bán kính $9\\text{ cm}$ và $11\\text{ cm}$. Độ dài đoạn nối tâm là bao nhiêu cm?",
+      "answer": 20,
+      "explanation": "$d = 9 + 11 = 20\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Khoảng cách nối tâm của hai đường tròn tiếp xúc ngoài có bán kính $12\\text{ cm}$ và $13\\text{ cm}$ bằng bao nhiêu cm?",
+      "answer": 25,
+      "explanation": "$d = 12 + 13 = 25\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Cho đường tròn $(O; 3\\text{ cm})$ và điểm $M$ có $OM = 5\\text{ cm}$. Độ dài đoạn tiếp tuyến $MA$ bằng bao nhiêu cm?",
+      "answer": 4,
+      "explanation": "$MA = \\sqrt{5^2 - 3^2} = 4\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Từ điểm $A$ cách tâm đường tròn bán kính $6\\text{ cm}$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $AB$. Độ dài $AB$ bằng bao nhiêu cm?",
+      "answer": 8,
+      "explanation": "$AB = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Điểm $K$ cách tâm đường tròn bán kính $5\\text{ cm}$ một đoạn $13\\text{ cm}$. Chiều dài đoạn tiếp tuyến từ $K$ đến đường tròn là bao nhiêu cm?",
+      "answer": 12,
+      "explanation": "Độ dài đoạn tiếp tuyến: $\\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Cho đường tròn $(O; 8\\text{ cm})$ và điểm $P$ thoả mãn $OP = 17\\text{ cm}$. Kẻ tiếp tuyến $PT$. Độ dài $PT$ bằng bao nhiêu cm?",
+      "answer": 15,
+      "explanation": "$PT = \\sqrt{17^2 - 8^2} = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 6 và 8 (cạnh huyền là 10). Bán kính đường tròn nội tiếp bằng bao nhiêu?",
+      "answer": 2,
+      "explanation": "Bán kính: $r = (6 + 8 - 10) / 2 = 2$."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 5 và 12 (cạnh huyền là 13). Bán kính đường tròn nội tiếp bằng bao nhiêu?",
+      "answer": 2,
+      "explanation": "Bán kính: $r = (5 + 12 - 13) / 2 = 2$."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 8 và 15 (cạnh huyền là 17). Bán kính đường tròn nội tiếp của tam giác bằng bao nhiêu?",
+      "answer": 3,
+      "explanation": "Bán kính: $r = (8 + 15 - 17) / 2 = 3$."
+    }
+  ]
+}
