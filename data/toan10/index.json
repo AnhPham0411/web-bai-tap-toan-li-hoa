@@ -1,11 +1,12 @@
 {
   "id": "toan10",
-  "title": "Toán 10 — Học kì 1",
+  "title": "Toán 10",
   "book": "Kết nối tri thức với cuộc sống",
   "chapters": [
     {
       "id": "c1",
       "roman": "I",
+      "term": 1,
       "title": "Mệnh đề và tập hợp",
       "summary": "Mệnh đề, mệnh đề phủ định, kéo theo, tương đương, kí hiệu ∀ và ∃; tập hợp và các phép toán trên tập hợp.",
       "theory": "theory/c1.json",
@@ -23,6 +24,7 @@
     {
       "id": "c2",
       "roman": "II",
+      "term": 1,
       "title": "Bất phương trình và hệ bất phương trình bậc nhất hai ẩn",
       "summary": "Miền nghiệm của bất phương trình, hệ bất phương trình bậc nhất hai ẩn và bài toán tìm giá trị lớn nhất, nhỏ nhất.",
       "theory": "theory/c2.json",
@@ -40,6 +42,7 @@
     {
       "id": "c3",
       "roman": "III",
+      "term": 1,
       "title": "Hệ thức lượng trong tam giác",
       "summary": "Giá trị lượng giác của góc từ 0° đến 180°, định lí côsin, định lí sin, các công thức diện tích và giải tam giác.",
       "theory": "theory/c3.json",
@@ -57,6 +60,7 @@
     {
       "id": "c4",
       "roman": "IV",
+      "term": 1,
       "title": "Vectơ",
       "summary": "Khái niệm vectơ, tổng và hiệu, tích với một số, vectơ trong mặt phẳng toạ độ và tích vô hướng.",
       "theory": "theory/c4.json",
@@ -86,6 +90,7 @@
     {
       "id": "c5",
       "roman": "V",
+      "term": 1,
       "title": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
       "summary": "Số gần đúng và sai số; số trung bình, trung vị, tứ phân vị, mốt; khoảng biến thiên, phương sai, độ lệch chuẩn và giá trị ngoại lệ.",
       "theory": "theory/c5.json",
@@ -101,6 +106,98 @@
         {
           "id": "b14",
           "title": "Bài 14. Các số đặc trưng đo độ phân tán"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "roman": "VI",
+      "term": 2,
+      "title": "Hàm số, đồ thị và ứng dụng",
+      "summary": "Hàm số và đồ thị; hàm số bậc hai; dấu của tam thức bậc hai; phương trình quy về phương trình bậc hai.",
+      "theory": "theory/c6.json",
+      "lessons": [
+        {
+          "id": "b15",
+          "title": "Bài 15. Hàm số"
+        },
+        {
+          "id": "b16",
+          "title": "Bài 16. Hàm số bậc hai"
+        },
+        {
+          "id": "b17",
+          "title": "Bài 17. Dấu của tam thức bậc hai"
+        },
+        {
+          "id": "b18",
+          "title": "Bài 18. Phương trình quy về phương trình bậc hai"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "roman": "VII",
+      "term": 2,
+      "title": "Phương pháp toạ độ trong mặt phẳng",
+      "summary": "Phương trình đường thẳng; vị trí tương đối giữa hai đường thẳng, góc và khoảng cách; đường tròn trong mặt phẳng toạ độ; ba đường conic.",
+      "theory": "theory/c7.json",
+      "lessons": [
+        {
+          "id": "b19",
+          "title": "Bài 19. Phương trình đường thẳng"
+        },
+        {
+          "id": "b20",
+          "title": "Bài 20. Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách"
+        },
+        {
+          "id": "b21",
+          "title": "Bài 21. Đường tròn trong mặt phẳng toạ độ"
+        },
+        {
+          "id": "b22",
+          "title": "Bài 22. Ba đường conic"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "roman": "VIII",
+      "term": 2,
+      "title": "Đại số tổ hợp",
+      "summary": "Quy tắc cộng và quy tắc nhân, sơ đồ hình cây; hoán vị, chỉnh hợp và tổ hợp; nhị thức Newton.",
+      "theory": "theory/c8.json",
+      "lessons": [
+        {
+          "id": "b23",
+          "title": "Bài 23. Quy tắc đếm"
+        },
+        {
+          "id": "b24",
+          "title": "Bài 24. Hoán vị, chỉnh hợp và tổ hợp"
+        },
+        {
+          "id": "b25",
+          "title": "Bài 25. Nhị thức Newton"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "roman": "IX",
+      "term": 2,
+      "title": "Tính xác suất theo định nghĩa cổ điển",
+      "summary": "Biến cố và định nghĩa cổ điển của xác suất; thực hành tính xác suất theo định nghĩa cổ điển.",
+      "theory": "theory/c9.json",
+      "lessons": [
+        {
+          "id": "b26",
+          "title": "Bài 26. Biến cố và định nghĩa cổ điển của xác suất"
+        },
+        {
+          "id": "b27",
+          "title": "Bài 27. Thực hành tính xác suất theo định nghĩa cổ điển"
         }
       ]
     }

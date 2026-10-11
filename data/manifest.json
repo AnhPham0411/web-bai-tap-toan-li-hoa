@@ -1,25 +1,32 @@
 {
   "app": {
-    "name": "Toán - Lý - Hóa 10",
+    "name": "Toán - Lý - Hóa (GDPT 2018)",
     "tagline": "Luyện bài tập & Lý thuyết theo chương trình GDPT 2018 (Kết nối tri thức)",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "subjects": [
     {
       "id": "toan10",
       "name": "Toán 10",
       "grade": 10,
-      "term": "Học kì 1",
+      "term": "Cả năm (Học kì 1 & 2)",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
       "book": "Kết nối tri thức với cuộc sống",
       "path": "toan10",
       "available": true,
-      "note": "750 câu hỏi (120 Trắc nghiệm + 30 Trả lời ngắn / chương)."
+      "note": "1.350 câu hỏi (9 chương: c1-c5 HK1, c6-c9 HK2)."
     },
     {
       "id": "ly10",
       "name": "Vật lí 10",
       "grade": 10,
       "term": "Học kì 1",
+      "terms": [
+        "Học kì 1"
+      ],
       "book": "Kết nối tri thức với cuộc sống",
       "path": "ly10",
       "available": true,
@@ -30,10 +37,27 @@
       "name": "Hóa học 10",
       "grade": 10,
       "term": "Học kì 1",
+      "terms": [
+        "Học kì 1"
+      ],
       "book": "Kết nối tri thức với cuộc sống",
       "path": "hoa10",
       "available": true,
       "note": "750 câu hỏi (120 Trắc nghiệm + 30 Trả lời ngắn / chương)."
+    },
+    {
+      "id": "toan9",
+      "name": "Toán 9",
+      "grade": 9,
+      "term": "Cả năm (Học kì 1 & 2)",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan9",
+      "available": false,
+      "note": "Đang chuẩn bị dữ liệu (GDPT 2018 mới)."
     }
   ]
 }
