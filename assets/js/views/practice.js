@@ -36,12 +36,15 @@ export function renderSetup(ctx, query) {
       </span>
     </label>`).join('');
 
+  const hasTerms = new Set(index.chapters.map((ch) => ch.term || 1)).size > 1;
+
   const chapterRows = index.chapters.map((ch) => {
     const checked = preChapter ? ch.id === preChapter : (saved.chapterIds ? saved.chapterIds.includes(ch.id) : true);
+    const termTag = hasTerms ? `<span class="term-tag">HK${ch.term || 1}</span>` : '';
     return `
       <label class="check-row">
-        <input type="checkbox" name="chapter" value="${ch.id}" ${checked ? 'checked' : ''}>
-        <span>Chương ${ch.roman}. ${mathHtml(ch.title)}</span>
+        <input type="checkbox" name="chapter" value="${ch.id}" data-term="${ch.term || 1}" ${checked ? 'checked' : ''}>
+        <span>Chương ${ch.roman}. ${mathHtml(ch.title)} ${termTag}</span>
         <span class="count" data-chapter-count="${ch.id}"></span>
       </label>`;
   }).join('');
@@ -78,7 +81,11 @@ export function renderSetup(ctx, query) {
             ${chapterRows}
           </div>
           <div class="btn-row" style="margin-top:10px">
-            <button type="button" class="btn btn-sm" data-select="all">Chọn tất cả</button>
+            <button type="button" class="btn btn-sm" data-select="all">Tất cả</button>
+            ${hasTerms ? `
+              <button type="button" class="btn btn-sm" data-select="term1">Học kì 1</button>
+              <button type="button" class="btn btn-sm" data-select="term2">Học kì 2</button>
+            ` : ''}
             <button type="button" class="btn btn-sm" data-select="none">Bỏ chọn tất cả</button>
           </div>
         </div>
@@ -186,8 +193,13 @@ export function bindSetup(ctx, root) {
 
   form.querySelectorAll('[data-select]').forEach((btn) => {
     btn.addEventListener('click', () => {
-      const check = btn.dataset.select === 'all';
-      form.querySelectorAll('input[name="chapter"]').forEach((i) => { i.checked = check; });
+      const mode = btn.dataset.select;
+      form.querySelectorAll('input[name="chapter"]').forEach((i) => {
+        if (mode === 'all') i.checked = true;
+        else if (mode === 'none') i.checked = false;
+        else if (mode === 'term1') i.checked = (i.dataset.term === '1');
+        else if (mode === 'term2') i.checked = (i.dataset.term === '2');
+      });
       refresh();
     });
   });

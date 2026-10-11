@@ -29,7 +29,14 @@ function initTheme() {
 function initSubjectSelect() {
   const selectEl = document.getElementById('subject-select');
   if (!selectEl) return;
-  selectEl.value = getActiveSubjectId();
+  if (ctx && ctx.manifest && ctx.manifest.subjects) {
+    selectEl.innerHTML = ctx.manifest.subjects.map(s => {
+      const disabled = !s.available ? ' disabled' : '';
+      const note = !s.available ? ' (Sắp ra mắt)' : '';
+      return `<option value="${s.id}"${disabled}>${s.name}${note}</option>`;
+    }).join('');
+  }
+  selectEl.value = ctx ? ctx.subject.id : getActiveSubjectId();
   selectEl.addEventListener('change', async (e) => {
     const newSubId = e.target.value;
     app.innerHTML = '<div class="loading">Đang nạp môn học mới…</div>';

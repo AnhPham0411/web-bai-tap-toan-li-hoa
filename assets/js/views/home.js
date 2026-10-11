@@ -13,15 +13,26 @@ export function renderHome(ctx) {
     .map((s) => `<div class="stat"><span class="n">${sets[s.id].questions.length}</span><span class="l">Câu ${s.title.toLowerCase()}</span></div>`)
     .join('');
 
+  const hasTerms = new Set(index.chapters.map((ch) => ch.term || 1)).size > 1;
+
+  const termFilterHtml = hasTerms ? `
+    <div class="term-filter" data-term-filter>
+      <button type="button" class="active" data-term="all">Tất cả chương (${index.chapters.length})</button>
+      <button type="button" data-term="1">Học kì 1 (${index.chapters.filter((c) => (c.term || 1) === 1).length})</button>
+      <button type="button" data-term="2">Học kì 2 (${index.chapters.filter((c) => (c.term || 1) === 2).length})</button>
+    </div>` : '';
+
   const chapterCards = index.chapters.map((ch) => {
     const counts = index.questionSets.map((s) => {
       const n = sets[s.id].questions.filter((q) => q.chapter === ch.id).length;
       return `${n} ${s.title.toLowerCase()}`;
     }).join(' · ');
 
+    const termTag = hasTerms ? `<span class="term-tag">HK${ch.term || 1}</span>` : '';
+
     return `
-      <article class="card chapter-card">
-        <div class="roman">Chương ${ch.roman}</div>
+      <article class="card chapter-card" data-term="${ch.term || 1}">
+        <div class="roman">Chương ${ch.roman}${termTag}</div>
         <h3>${mathHtml(ch.title)}</h3>
         <p>${mathHtml(ch.summary)}</p>
         <div class="links">
@@ -45,15 +56,17 @@ export function renderHome(ctx) {
           : `<button class="btn btn-sm switch-subj-btn" data-subj="${s.id}">Chọn môn này</button>`}
       </div>`).join('');
 
-  const futureSubjects = [
-    { name: "Toán 10 — Học kì 2", note: "Sẽ bổ sung: Hàm số bậc hai, Phương pháp toạ độ, Đại số tổ hợp, Xác suất." },
-    { name: "Toán 11", note: "Chưa có dữ liệu." },
-    { name: "Toán 12", note: "Chưa có dữ liệu." }
-  ].map((s) => `
+  const futureSubjects = (manifest.subjects.filter((s) => !s.available).length > 0
+    ? manifest.subjects.filter((s) => !s.available)
+    : [
+        { name: "Toán 11", note: "Chưa có dữ liệu." },
+        { name: "Toán 12", note: "Chưa có dữ liệu." }
+      ]
+  ).map((s) => `
     <div class="subject-item disabled">
       <div class="meta">
         <strong>${s.name}</strong>
-        <small>${s.note}</small>
+        <small>${s.note || 'Sắp ra mắt'}</small>
       </div>
       <span class="badge">Sắp có</span>
     </div>`).join('');
@@ -97,13 +110,14 @@ export function renderHome(ctx) {
 
     <section>
       <h2>Nội dung theo chương</h2>
+      ${termFilterHtml}
       <div class="card-grid" style="margin-top:16px">${chapterCards}</div>
     </section>
 
     ${recentHtml}
 
     <section style="margin-top:44px">
-      <h2>Các môn học hiện có (Lớp 10)</h2>
+      <h2>Các môn học hiện có</h2>
       <p style="color:var(--text-muted);margin-top:0">Chương trình GDPT 2018 — Kết nối tri thức với cuộc sống.</p>
       <div class="subject-list">${availableSubjects}</div>
     </section>
@@ -126,4 +140,16 @@ export function bindHome(root) {
       selectEl.dispatchEvent(new Event('change'));
     });
   });
+
+  root.querySelectorAll('[data-term-filter] button').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const term = btn.dataset.term;
+      root.querySelectorAll('[data-term-filter] button').forEach((b) => b.classList.toggle('active', b === btn));
+      root.querySelectorAll('.chapter-card').forEach((card) => {
+        const cardTerm = card.dataset.term;
+        card.style.display = (term === 'all' || cardTerm === term) ? '' : 'none';
+      });
+    });
+  });
 }
+
