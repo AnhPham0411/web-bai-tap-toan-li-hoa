@@ -1,0 +1,137 @@
+{
+  "chapterId": "c6",
+  "title": "Hàm số, đồ thị và ứng dụng",
+  "lessons": [
+    {
+      "id": "b15",
+      "title": "Bài 15. Hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm hàm số"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa hàm số",
+          "content": "Nếu với mỗi giá trị của x thuộc tập hợp số D có một và chỉ một giá trị tương ứng của y thuộc tập số thực \\mathbb{R} thì ta có một hàm số. Kí hiệu: y = f(x), x \\in D. D gọi là tập xác định, tập hợp tất cả các giá trị y nhận được gọi là tập giá trị của hàm số."
+        },
+        {
+          "type": "note",
+          "content": "Tập xác định của hàm số cho bởi công thức y = f(x) là tập hợp tất cả các giá trị của x sao cho biểu thức f(x) có nghĩa."
+        },
+        {
+          "type": "heading",
+          "text": "2. Sự đồng biến, nghịch biến của hàm số"
+        },
+        {
+          "type": "definition",
+          "title": "Tính đơn điệu",
+          "content": "Hàm số y = f(x) gọi là đồng biến (tăng) trên khoảng (a; b) nếu với mọi x_1, x_2 thuộc (a; b): x_1 < x_2 thì f(x_1) < f(x_2). Hàm số gọi là nghịch biến (giảm) trên khoảng (a; b) nếu x_1 < x_2 thì f(x_1) > f(x_2)."
+        },
+        {
+          "type": "example",
+          "question": "Tìm tập xác định của hàm số y = \\frac{1}{\\sqrt{x - 2}}.",
+          "solution": "Biểu thức có nghĩa khi và chỉ khi x - 2 > 0 \\Leftrightarrow x > 2. Vậy tập xác định D = (2; +\\infty)."
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "title": "Bài 16. Hàm số bậc hai",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm hàm số bậc hai"
+        },
+        {
+          "type": "definition",
+          "title": "Hàm số bậc hai",
+          "content": "Hàm số bậc hai là hàm số được cho bởi công thức y = ax^2 + bx + c, trong đó x là biến số, a, b, c là các hằng số và a \\ne 0. Tập xác định của hàm số là \\mathbb{R}."
+        },
+        {
+          "type": "heading",
+          "text": "2. Đồ thị và tính chất"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Tọa độ đỉnh parabol",
+              "math": "I(-\\frac{b}{2a}; -\\frac{\\Delta}{4a}), \\quad \\Delta = b^2 - 4ac"
+            },
+            {
+              "label": "Trục đối xứng",
+              "math": "x = -\\frac{b}{2a}"
+            },
+            {
+              "label": "Bề lõm đồ thị",
+              "math": "a > 0: \\text{quay lên trên; } a < 0: \\text{quay xuống dưới}"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Xác định tọa độ đỉnh và trục đối xứng của parabol y = x^2 - 4x + 3.",
+          "solution": "Hệ số a = 1, b = -4, c = 3. Hoành độ đỉnh: x = -(-4)/(2 \\times 1) = 2. Tung độ: y = 2^2 - 4 \\times 2 + 3 = -1. Đỉnh I(2; -1), trục đối xứng x = 2."
+        }
+      ]
+    },
+    {
+      "id": "b17",
+      "title": "Bài 17. Dấu của tam thức bậc hai",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Tam thức bậc hai và định lí về dấu"
+        },
+        {
+          "type": "definition",
+          "title": "Định lí về dấu tam thức bậc hai",
+          "content": "Cho f(x) = ax^2 + bx + c (a \\ne 0), \\Delta = b^2 - 4ac.\n- Nếu \\Delta < 0: f(x) cùng dấu với hệ số a với mọi x \\in \\mathbb{R}.\n- Nếu \\Delta = 0: f(x) cùng dấu với a với mọi x \\ne -\\frac{b}{2a}.\n- Nếu \\Delta > 0: f(x) có hai nghiệm phân biệt x_1 < x_2. f(x) cùng dấu với a khi x < x_1 hoặc x > x_2; f(x) trái dấu với a khi x_1 < x < x_2 (\"trong trái, ngoài cùng\")."
+        },
+        {
+          "type": "heading",
+          "text": "2. Bất phương trình bậc hai một ẩn"
+        },
+        {
+          "type": "text",
+          "content": "Bất phương trình bậc hai một ẩn có dạng f(x) > 0 (hoặc \\ge 0, < 0, \\le 0). Giải bất phương trình bậc hai là tìm tập hợp tất cả các giá trị của x làm cho f(x) thỏa mãn bất đẳng thức."
+        },
+        {
+          "type": "example",
+          "question": "Giải bất phương trình: x^2 - 5x + 6 > 0.",
+          "solution": "Tam thức có hai nghiệm x = 2 và x = 3, hệ số a = 1 > 0. Áp dụng quy tắc \"trong trái ngoài cùng\", f(x) > 0 khi x < 2 hoặc x > 3. Tập nghiệm S = (-\\infty; 2) \\cup (3; +\\infty)."
+        }
+      ]
+    },
+    {
+      "id": "b18",
+      "title": "Bài 18. Phương trình quy về phương trình bậc hai",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Dạng \\sqrt{f(x)} = \\sqrt{g(x)}"
+        },
+        {
+          "type": "definition",
+          "title": "Cách giải \\sqrt{f(x)} = \\sqrt{g(x)}",
+          "content": "Bình phương hai vế: f(x) = g(x). Giải phương trình tìm được các nghiệm, sau đó thay vào f(x) \\ge 0 (hoặc g(x) \\ge 0) để thử lại và loại nghiệm ngoại lai."
+        },
+        {
+          "type": "heading",
+          "text": "2. Dạng \\sqrt{f(x)} = g(x)"
+        },
+        {
+          "type": "definition",
+          "title": "Cách giải \\sqrt{f(x)} = g(x)",
+          "content": "Bình phương hai vế: f(x) = [g(x)]^2. Giải phương trình tìm nghiệm, sau đó thử lại vào điều kiện g(x) \\ge 0 để chọn nghiệm đúng."
+        },
+        {
+          "type": "example",
+          "question": "Giải phương trình \\sqrt{2x^2 - 3} = x - 1.",
+          "solution": "Bình phương 2 vế: 2x^2 - 3 = (x - 1)^2 = x^2 - 2x + 1 \\Leftrightarrow x^2 + 2x - 4 = 0. Nghiệm x = -1 \\pm \\sqrt{5}. Thử lại với điều kiện x - 1 \\ge 0 (tức x \\ge 1), chỉ có nghiệm x = -1 + \\sqrt{5} thỏa mãn."
+        }
+      ]
+    }
+  ]
+}

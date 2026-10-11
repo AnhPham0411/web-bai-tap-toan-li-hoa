@@ -1,0 +1,54 @@
+{
+  "chapterId": "c9",
+  "title": "Tính xác suất theo định nghĩa cổ điển",
+  "lessons": [
+    {
+      "id": "b26",
+      "title": "Bài 26. Biến cố và định nghĩa cổ điển của xác suất",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Phép thử, không gian mẫu và biến cố"
+        },
+        {
+          "type": "definition",
+          "title": "Không gian mẫu và biến cố",
+          "content": "Tập hợp tất cả các kết quả có thể xảy ra của một phép thử ngẫu nhiên gọi là không gian mẫu, kí hiệu là \\Omega. Biến cố A là một tập con của không gian mẫu (A \\subset \\Omega). Biến cố chắc chắn là \\Omega, biến cố không thể là \\emptyset. Biến cố đối của A là \\overline{A} = \\Omega \\setminus A."
+        },
+        {
+          "type": "heading",
+          "text": "2. Định nghĩa cổ điển của xác suất"
+        },
+        {
+          "type": "definition",
+          "title": "Xác suất của biến cố",
+          "content": "Giả sử các kết quả có thể xảy ra của phép thử là đồng khả năng. Xác suất của biến cố A, kí hiệu P(A), là tỉ số giữa số kết quả thuận lợi cho A và số phần tử của không gian mẫu:\n\\quad P(A) = \\frac{n(A)}{n(\\Omega)}\nTính chất: 0 \\le P(A) \\le 1; \\quad P(\\emptyset) = 0, \\ P(\\Omega) = 1; \\quad P(\\overline{A}) = 1 - P(A)."
+        },
+        {
+          "type": "example",
+          "question": "Gieo một con xúc xắc cân đối và đồng chất một lần. Tính xác suất để xuất hiện mặt có số chấm là số nguyên tố.",
+          "solution": "Không gian mẫu: \\Omega = \\{1; 2; 3; 4; 5; 6\\} \\Rightarrow n(\\Omega) = 6. Các mặt có số chấm là số nguyên tố là A = \\{2; 3; 5\\} \\Rightarrow n(A) = 3. Vậy P(A) = \\frac{3}{6} = 0,5."
+        }
+      ]
+    },
+    {
+      "id": "b27",
+      "title": "Bài 27. Thực hành tính xác suất theo định nghĩa cổ điển",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Phương pháp tính xác suất"
+        },
+        {
+          "type": "text",
+          "content": "Để tính xác suất của biến cố A theo định nghĩa cổ điển:\n- Bước 1: Xác định không gian mẫu \\Omega và đếm số phần tử n(\\Omega) bằng phương pháp liệt kê, sơ đồ cây hoặc các công thức hoán vị, chỉnh hợp, tổ hợp.\n- Bước 2: Xác định tập hợp các kết quả thuận lợi cho A và tính n(A).\n- Bước 3: Tính tỉ số P(A) = \\frac{n(A)}{n(\\Omega)}.\n- Lưu ý: Có thể dùng biến cố đối khi việc đếm trực tiếp phức tạp: P(A) = 1 - P(\\overline{A})."
+        },
+        {
+          "type": "example",
+          "question": "Một hộp chứa 5 viên bi xanh và 4 viên bi đỏ. Lấy ngẫu nhiên đồng thời 3 viên bi. Tính xác suất để lấy được ít nhất 1 viên bi đỏ.",
+          "solution": "Số cách lấy 3 viên bi từ 9 viên là n(\\Omega) = C_9^3 = 84.\nGọi A là biến cố \"lấy được ít nhất 1 viên bi đỏ\". Biến cố đối \\overline{A} là \"cả 3 viên bi lấy ra đều màu xanh\".\nSố cách chọn 3 viên xanh từ 5 viên là n(\\overline{A}) = C_5^3 = 10.\nSuy ra P(\\overline{A}) = \\frac{10}{84} = \\frac{5}{42}.\nVậy P(A) = 1 - P(\\overline{A}) = 1 - \\frac{5}{42} = \\frac{37}{42}."
+        }
+      ]
+    }
+  ]
+}

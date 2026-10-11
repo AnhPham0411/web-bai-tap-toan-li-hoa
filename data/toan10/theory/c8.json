@@ -1,0 +1,97 @@
+{
+  "chapterId": "c8",
+  "title": "Đại số tổ hợp",
+  "lessons": [
+    {
+      "id": "b23",
+      "title": "Bài 23. Quy tắc đếm",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Quy tắc cộng và quy tắc nhân"
+        },
+        {
+          "type": "definition",
+          "title": "Quy tắc cộng",
+          "content": "Một công việc có thể hoàn thành bởi một trong hai hành động độc lập: hành động thứ nhất có m cách thực hiện, hành động thứ hai có n cách thực hiện (không trùng lặp). Khi đó, công việc có m + n cách thực hiện."
+        },
+        {
+          "type": "definition",
+          "title": "Quy tắc nhân",
+          "content": "Một công việc bao gồm hai công đoạn liên tiếp: công đoạn 1 có m cách thực hiện, với mỗi cách của công đoạn 1 có n cách thực hiện công đoạn 2. Khi đó, công việc có m \\times n cách thực hiện."
+        },
+        {
+          "type": "example",
+          "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số đôi một khác nhau?",
+          "solution": "Chọn chữ số hàng trăm có 5 cách. Hàng chục có 4 cách. Hàng đơn vị có 3 cách. Theo quy tắc nhân, có 5 \\times 4 \\times 3 = 60 số."
+        }
+      ]
+    },
+    {
+      "id": "b24",
+      "title": "Bài 24. Hoán vị, chỉnh hợp và tổ hợp",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Hoán vị"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa và công thức hoán vị",
+          "content": "Mỗi cách sắp xếp thứ tự n phần tử của một tập hợp có n phần tử gọi là một hoán vị của n phần tử đó. Số các hoán vị của n phần tử kí hiệu là P_n, công thức: P_n = n! = 1 \\times 2 \\times 3 \\times \\dots \\times n (quy ước 0! = 1)."
+        },
+        {
+          "type": "heading",
+          "text": "2. Chỉnh hợp"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa và công thức chỉnh hợp",
+          "content": "Cho tập hợp có n phần tử (n \\ge 1). Mỗi cách chọn ra k phần tử (1 \\le k \\le n) và sắp xếp có thứ tự k phần tử đó gọi là một chỉnh hợp chập k của n phần tử. Số chỉnh hợp kí hiệu là A_n^k, công thức: A_n^k = \\frac{n!}{(n - k)!} = n(n - 1)\\dots(n - k + 1)."
+        },
+        {
+          "type": "heading",
+          "text": "3. Tổ hợp"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa và công thức tổ hợp",
+          "content": "Cho tập hợp có n phần tử (n \\ge 1). Mỗi cách chọn ra k phần tử (0 \\le k \\le n) không phân biệt thứ tự gọi là một tổ hợp chập k của n phần tử. Số tổ hợp kí hiệu là C_n^k, công thức: C_n^k = \\frac{n!}{k!(n - k)!}. Tính chất: C_n^k = C_n^{n - k}; \\ C_n^k + C_n^{k + 1} = C_{n + 1}^{k + 1}."
+        },
+        {
+          "type": "example",
+          "question": "Một tổ có 10 học sinh. Có bao nhiêu cách chọn 3 học sinh đi trực nhật?",
+          "solution": "Việc chọn 3 học sinh không phân biệt thứ tự nên số cách chọn là tổ hợp chập 3 của 10: C_{10}^3 = \\frac{10!}{3! \\times 7!} = \\frac{10 \\times 9 \\times 8}{6} = 120 cách."
+        }
+      ]
+    },
+    {
+      "id": "b25",
+      "title": "Bài 25. Nhị thức Newton",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khai triển nhị thức Newton"
+        },
+        {
+          "type": "formula",
+          "items": [
+            {
+              "label": "Khai triển bậc 4",
+              "math": "(a + b)^4 = a^4 + 4a^3 b + 6a^2 b^2 + 4ab^3 + b^4"
+            },
+            {
+              "label": "Khai triển bậc 5",
+              "math": "(a + b)^5 = a^5 + 5a^4 b + 10a^3 b^2 + 10a^2 b^3 + 5ab^4 + b^5"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "question": "Khai triển biểu thức (x - 2)^4.",
+          "solution": "Áp dụng khai triển bậc 4 với a = x, b = -2:\n(x - 2)^4 = x^4 + 4x^3(-2) + 6x^2(-2)^2 + 4x(-2)^3 + (-2)^4 = x^4 - 8x^3 + 24x^2 - 32x + 16."
+        }
+      ]
+    }
+  ]
+}
