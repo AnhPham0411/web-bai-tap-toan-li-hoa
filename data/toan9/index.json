@@ -1,0 +1,265 @@
+{
+  "id": "toan9",
+  "title": "Toán 9",
+  "book": "Kết nối tri thức với cuộc sống",
+  "chapters": [
+    {
+      "id": "c1",
+      "roman": "I",
+      "term": 1,
+      "title": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+      "summary": "Khái niệm phương trình bậc nhất hai ẩn, hệ hai phương trình bậc nhất hai ẩn, giải hệ bằng phương pháp thế và cộng đại số, giải bài toán bằng cách lập hệ phương trình.",
+      "theory": "theory/c1.json",
+      "lessons": [
+        {
+          "id": "b1",
+          "title": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn"
+        },
+        {
+          "id": "b2",
+          "title": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn"
+        },
+        {
+          "id": "b3",
+          "title": "Bài 3. Giải bài toán bằng cách lập hệ phương trình"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "roman": "II",
+      "term": 1,
+      "title": "Phương trình và bất phương trình bậc nhất một ẩn",
+      "summary": "Phương trình quy về phương trình bậc nhất một ẩn (phương trình tích, phương trình chứa ẩn ở mẫu), bất đẳng thức và tính chất, bất phương trình bậc nhất một ẩn.",
+      "theory": "theory/c2.json",
+      "lessons": [
+        {
+          "id": "b4",
+          "title": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn"
+        },
+        {
+          "id": "b5",
+          "title": "Bài 5. Bất đẳng thức và tính chất"
+        },
+        {
+          "id": "b6",
+          "title": "Bài 6. Bất phương trình bậc nhất một ẩn"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "roman": "III",
+      "term": 1,
+      "title": "Căn bậc hai và căn bậc ba",
+      "summary": "Căn bậc hai số học, căn thức bậc hai, các phép biến đổi khai phương một tích, một thương, khử mẫu và trục căn thức, căn bậc ba.",
+      "theory": "theory/c3.json",
+      "lessons": [
+        {
+          "id": "b7",
+          "title": "Bài 7. Căn bậc hai và căn thức bậc hai"
+        },
+        {
+          "id": "b8",
+          "title": "Bài 8. Khai căn bậc hai với phép nhân và phép chia"
+        },
+        {
+          "id": "b9",
+          "title": "Bài 9. Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai"
+        },
+        {
+          "id": "b10",
+          "title": "Bài 10. Căn bậc ba và căn thức bậc ba"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "roman": "IV",
+      "term": 1,
+      "title": "Hệ thức lượng trong tam giác vuông",
+      "summary": "Tỉ số lượng giác sin, cos, tan, cot của góc nhọn, bảng tỉ số lượng giác góc đặc biệt, hệ thức giữa cạnh và góc trong tam giác vuông, ứng dụng thực tế.",
+      "theory": "theory/c4.json",
+      "lessons": [
+        {
+          "id": "b11",
+          "title": "Bài 11. Tỉ số lượng giác của góc nhọn"
+        },
+        {
+          "id": "b12",
+          "title": "Bài 12. Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "roman": "V",
+      "term": 1,
+      "title": "Đường tròn",
+      "summary": "Khái niệm đường tròn, tính chất đối xứng, cung và dây, góc ở tâm, độ dài cung tròn, diện tích hình quạt tròn và hình vành khuyên, vị trí tương đối của đường thẳng và đường tròn, hai đường tròn.",
+      "theory": "theory/c5.json",
+      "lessons": [
+        {
+          "id": "b13",
+          "title": "Bài 13. Mở đầu về đường tròn"
+        },
+        {
+          "id": "b14",
+          "title": "Bài 14. Cung và dây của một đường tròn"
+        },
+        {
+          "id": "b15",
+          "title": "Bài 15. Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên"
+        },
+        {
+          "id": "b16",
+          "title": "Bài 16. Vị trí tương đối của đường thẳng và đường tròn"
+        },
+        {
+          "id": "b17",
+          "title": "Bài 17. Vị trí tương đối của hai đường tròn"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "roman": "VI",
+      "term": 2,
+      "title": "Hàm số y = ax² (a ≠ 0). Phương trình bậc hai một ẩn",
+      "summary": "Đồ thị và tính chất hàm số parabol y = ax², phương trình bậc hai một ẩn, định lí Viète và ứng dụng, giải bài toán bằng cách lập phương trình bậc hai.",
+      "theory": "theory/c6.json",
+      "lessons": [
+        {
+          "id": "b18",
+          "title": "Bài 18. Hàm số y = ax² (a ≠ 0)"
+        },
+        {
+          "id": "b19",
+          "title": "Bài 19. Phương trình bậc hai một ẩn"
+        },
+        {
+          "id": "b20",
+          "title": "Bài 20. Định lí Viète và ứng dụng"
+        },
+        {
+          "id": "b21",
+          "title": "Bài 21. Giải bài toán bằng cách lập phương trình"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "roman": "VII",
+      "term": 2,
+      "title": "Tần số và tần số tương đối",
+      "summary": "Bảng tần số và biểu đồ tần số, bảng tần số tương đối và biểu đồ tần số tương đối (biểu đồ hình quạt tròn, biểu đồ cột), bảng tần số và tần số tương đối ghép nhóm.",
+      "theory": "theory/c7.json",
+      "lessons": [
+        {
+          "id": "b22",
+          "title": "Bài 22. Bảng tần số và biểu đồ tần số"
+        },
+        {
+          "id": "b23",
+          "title": "Bài 23. Bảng tần số tương đối và biểu đồ tần số tương đối"
+        },
+        {
+          "id": "b24",
+          "title": "Bài 24. Bảng tần số, tần số tương đối ghép nhóm và biểu đồ"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "roman": "VIII",
+      "term": 2,
+      "title": "Xác suất của biến cố trong một số mô hình xác suất đơn giản",
+      "summary": "Phép thử ngẫu nhiên, không gian mẫu, xác suất cổ điển của biến cố, tính xác suất bằng phương pháp liệt kê và sơ đồ cây.",
+      "theory": "theory/c8.json",
+      "lessons": [
+        {
+          "id": "b25",
+          "title": "Bài 25. Phép thử ngẫu nhiên và không gian mẫu"
+        },
+        {
+          "id": "b26",
+          "title": "Bài 26. Xác suất của biến cố liên quan tới phép thử"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "roman": "IX",
+      "term": 2,
+      "title": "Đường tròn ngoại tiếp và đường tròn nội tiếp",
+      "summary": "Góc nội tiếp chắn nửa đường tròn, đường tròn ngoại tiếp và đường tròn nội tiếp tam giác, tứ giác nội tiếp (định nghĩa, tính chất, dấu hiệu nhận biết), đa giác đều.",
+      "theory": "theory/c9.json",
+      "lessons": [
+        {
+          "id": "b27",
+          "title": "Bài 27. Góc nội tiếp"
+        },
+        {
+          "id": "b28",
+          "title": "Bài 28. Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác"
+        },
+        {
+          "id": "b29",
+          "title": "Bài 29. Tứ giác nội tiếp"
+        },
+        {
+          "id": "b30",
+          "title": "Bài 30. Đa giác đều"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "roman": "X",
+      "term": 2,
+      "title": "Một số hình khối trong thực tiễn",
+      "summary": "Hình trụ, hình nón, hình cầu; công thức tính diện tích xung quanh, diện tích toàn phần và thể tích các hình khối không gian trong thực tiễn.",
+      "theory": "theory/c10.json",
+      "lessons": [
+        {
+          "id": "b31",
+          "title": "Bài 31. Hình trụ và hình nón"
+        },
+        {
+          "id": "b32",
+          "title": "Bài 32. Hình cầu"
+        }
+      ]
+    }
+  ],
+  "questionSets": [
+    {
+      "id": "mc",
+      "type": "multiple-choice",
+      "title": "Trắc nghiệm",
+      "description": "Chọn một đáp án đúng trong bốn phương án A, B, C, D.",
+      "file": "questions/mc.json"
+    },
+    {
+      "id": "short",
+      "type": "short-answer",
+      "title": "Trả lời ngắn",
+      "description": "Tính toán và điền đáp số. Đáp án là một số.",
+      "file": "questions/short.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "nb",
+      "label": "Nhận biết"
+    },
+    {
+      "id": "th",
+      "label": "Thông hiểu"
+    },
+    {
+      "id": "vd",
+      "label": "Vận dụng"
+    }
+  ]
+}
