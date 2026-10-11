@@ -1,0 +1,1504 @@
+{
+  "questions": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Biết cặp số $(x; 2)$ là nghiệm của phương trình $2x + y = 8$. Giá trị của x bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "Thay $y = 2$: $2x + 2 = 8 \\Rightarrow 2x = 6 \\Rightarrow x = 3$."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Tìm x để cặp $(x; 1)$ là nghiệm của phương trình $3x - 2y = 7$:",
+      "answer": "3",
+      "explanation": "Thay $y = 1$: $3x - 2 = 7 \\Rightarrow 3x = 9 \\Rightarrow x = 3$."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Cho phương trình $x + 4y = 10$. Nếu $y = 2$ thì x bằng bao nhiêu?",
+      "answer": "2",
+      "explanation": "Thay $y = 2$: $x + 8 = 10 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Cặp $(x; 3)$ là nghiệm của phương trình $5x - y = 7$. Tìm x:",
+      "answer": "2",
+      "explanation": "Thay $y = 3$: $5x - 3 = 7 \\Rightarrow 5x = 10 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm x của phương trình cơ bản",
+      "question": "Tìm giá trị của x thoả mãn cặp $(x; 0)$ là nghiệm của $4x + 3y = 16$:",
+      "answer": "4",
+      "explanation": "Thay $y = 0$: $4x = 16 \\Rightarrow x = 4$."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Cho phương trình $3x + y = 11$. Nếu $x = 2$ thì giá trị của y bằng:",
+      "answer": "5",
+      "explanation": "Thay $x = 2$: $6 + y = 11 \\Rightarrow y = 5$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Biết $(1; y)$ là nghiệm của phương trình $4x - y = 1$. Giá trị của y là:",
+      "answer": "3",
+      "explanation": "Thay $x = 1$: $4 - y = 1 \\Rightarrow y = 3$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Tìm y để cặp số $(3; y)$ là nghiệm của phương trình $x + 2y = 9$:",
+      "answer": "3",
+      "explanation": "Thay $x = 3$: $3 + 2y = 9 \\Rightarrow 2y = 6 \\Rightarrow y = 3$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Nếu cặp $(0; y)$ thoả mãn $2x + 5y = 20$ thì giá trị của y bằng:",
+      "answer": "4",
+      "explanation": "Thay $x = 0$: $5y = 20 \\Rightarrow y = 4$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Nghiệm y của phương trình bậc nhất hai ẩn",
+      "question": "Tìm giá trị của y khi $x = 1$ trong phương trình $x + y = 10$:",
+      "answer": "9",
+      "explanation": "Thay $x = 1$: $1 + y = 10 \\Rightarrow y = 9$."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Cho phương trình $2x + 3y = c$. Nếu cặp số $(1; 2)$ là nghiệm thì hệ số c bằng:",
+      "answer": "8",
+      "explanation": "Thay $(1; 2)$: $c = 2(1) + 3(2) = 8$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Tìm hệ số c của phương trình $4x - y = c$ biết cặp $(2; 3)$ là nghiệm:",
+      "answer": "5",
+      "explanation": "Thay $(2; 3)$: $c = 4(2) - 3 = 5$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Phương trình $x + 5y = c$ nhận cặp $(3; 1)$ làm nghiệm. Giá trị của c là:",
+      "answer": "8",
+      "explanation": "Thay $(3; 1)$: $c = 3 + 5(1) = 8$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Biết phương trình $3x + 2y = c$ có nghiệm là $(2; 1)$. Giá trị của c bằng:",
+      "answer": "8",
+      "explanation": "Thay $(2; 1)$: $c = 3(2) + 2(1) = 8$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tìm hệ số c của phương trình hai ẩn",
+      "question": "Tìm số c để phương trình $5x - 2y = c$ đi qua điểm $(2; 1)$:",
+      "answer": "8",
+      "explanation": "Thay $(2; 1)$: $c = 5(2) - 2(1) = 8$."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Giải hệ phương trình $x + y = 5, x - y = 1$. Tính giá trị biểu thức $2x + y$:",
+      "answer": "8",
+      "explanation": "Giải hệ được $x = 3, y = 2$. Giá trị $2x + y = 2(3) + 2 = 8$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Hệ phương trình $2x + y = 7, x - y = 2$ có nghiệm $(x; y)$. Tính $x + 3y$:",
+      "answer": "6",
+      "explanation": "Giải hệ được $x = 3, y = 1$. Giá trị $x + 3y = 3 + 3(1) = 6$."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Giải hệ $x + 2y = 8, x - 2y = 0$. Tính giá trị của $x - y$:",
+      "answer": "2",
+      "explanation": "Cộng hai vế: $2x = 8 \\Rightarrow x = 4, y = 2$. Suy ra $x - y = 4 - 2 = 2$."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức nghiệm của hệ",
+      "question": "Cho hệ $3x + y = 10, x + y = 4$. Tính tích $x \\cdot y$:",
+      "answer": "3",
+      "explanation": "Trừ hai vế: $2x = 6 \\Rightarrow x = 3, y = 1$. Tích $x \\cdot y = 3$."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Tổng của hai số tự nhiên là 28 và hiệu của chúng là 8. Số lớn bằng bao nhiêu?",
+      "answer": "18",
+      "explanation": "Số lớn bằng $(28 + 8)/2 = 18$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Hai số có tổng bằng 50 và hiệu bằng 14. Tìm số lớn:",
+      "answer": "32",
+      "explanation": "Số lớn bằng $(50 + 14)/2 = 32$."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Biết tổng của hai số là 42 và hiệu của chúng là 10. Số lớn là:",
+      "answer": "26",
+      "explanation": "Số lớn bằng $(42 + 10)/2 = 26$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Tìm số lớn trong bài toán tổng và hiệu",
+      "question": "Tổng hai số là 64, hiệu hai số là 16. Số lớn bằng bao nhiêu?",
+      "answer": "40",
+      "explanation": "Số lớn bằng $(64 + 16)/2 = 40$."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Hệ phương trình $x + 2y = 7, 2x + y = 8$ có nghiệm $(x; y)$. Tính tổng $x + y$:",
+      "answer": "5",
+      "explanation": "Cộng hai phương trình: $3x + 3y = 15 \\Rightarrow x + y = 5$."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Cho hệ $3x + 2y = 11, 2x + 3y = 9$. Giá trị của $x + y$ bằng:",
+      "answer": "4",
+      "explanation": "Cộng hai vế: $5x + 5y = 20 \\Rightarrow x + y = 4$."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Tìm tổng $x + y$ biết hệ $4x + y = 13, x + 4y = 12$:",
+      "answer": "5",
+      "explanation": "Cộng hai vế: $5x + 5y = 25 \\Rightarrow x + y = 5$."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Tính tổng nghiệm x + y của hệ",
+      "question": "Hệ phương trình $5x + 2y = 16, 2x + 5y = 12$ có tổng $x + y$ là:",
+      "answer": "4",
+      "explanation": "Cộng hai vế: $7x + 7y = 28 \\Rightarrow x + y = 4$."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Tìm giá trị nguyên của m để hệ $x + y = 4, 2x + my = 8$ có vô số nghiệm:",
+      "answer": "2",
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{1}{2} = \\frac{1}{m} = \\frac{4}{8} \\Rightarrow m = 2$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Tìm m để hệ phương trình $x - y = 1, mx - 2y = 2$ có vô số nghiệm:",
+      "answer": "2",
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{1}{m} = \\frac{-1}{-2} = \\frac{1}{2} \\Rightarrow m = 2$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "vd",
+      "dang": "Tìm tham số m nguyên để hệ có nghiệm nguyên",
+      "question": "Cho hệ $2x + y = 3, 4x + 2y = m$. Giá trị của m để hệ có vô số nghiệm là:",
+      "answer": "6",
+      "explanation": "Hệ có vô số nghiệm khi $\\frac{2}{4} = \\frac{1}{2} = \\frac{3}{m} \\Rightarrow m = 6$."
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Nghiệm nguyên lớn nhất thoả mãn BPT",
+      "question": "Tìm số nguyên lớn nhất thoả mãn bất phương trình $x < 5$:",
+      "answer": "4",
+      "explanation": "Số nguyên lớn nhất nhỏ hơn 5 là 4."
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Nghiệm nguyên lớn nhất thoả mãn BPT",
+      "question": "Số nguyên lớn nhất thoả mãn bất phương trình $x < 8$ là:",
+      "answer": "7",
+      "explanation": "Số nguyên lớn nhất nhỏ hơn 8 là 7."
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Nghiệm nguyên lớn nhất thoả mãn BPT",
+      "question": "Tìm số nguyên x lớn nhất sao cho $x < 10$:",
+      "answer": "9",
+      "explanation": "Số nguyên lớn nhất là 9."
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Nghiệm nguyên lớn nhất thoả mãn BPT",
+      "question": "Số nguyên lớn nhất thoả mãn bất phương trình $x < 12$ là:",
+      "answer": "11",
+      "explanation": "Số nguyên lớn nhất là 11."
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Nghiệm nguyên lớn nhất thoả mãn BPT",
+      "question": "Tìm giá trị nguyên lớn nhất của x thoả mãn $x < 3$:",
+      "answer": "2",
+      "explanation": "Số nguyên lớn nhất nhỏ hơn 3 là 2."
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm dương của phương trình tích",
+      "question": "Tìm nghiệm dương của phương trình $(x - 4)(x + 5) = 0$:",
+      "answer": "4",
+      "explanation": "Nghiệm dương là $x = 4$."
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm dương của phương trình tích",
+      "question": "Nghiệm nguyên dương của phương trình $(x - 7)(x + 2) = 0$ là:",
+      "answer": "7",
+      "explanation": "Nghiệm dương là $x = 7$."
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm dương của phương trình tích",
+      "question": "Phương trình $(x - 3)(x + 6) = 0$ có nghiệm dương bằng:",
+      "answer": "3",
+      "explanation": "Nghiệm dương là $x = 3$."
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm dương của phương trình tích",
+      "question": "Tìm nghiệm dương của phương trình $(x - 9)(x + 1) = 0$:",
+      "answer": "9",
+      "explanation": "Nghiệm dương là $x = 9$."
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm dương của phương trình tích",
+      "question": "Giá trị nghiệm dương của phương trình $(x - 5)(x + 8) = 0$ là:",
+      "answer": "5",
+      "explanation": "Nghiệm dương là $x = 5$."
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "ĐKXĐ giá trị làm mẫu bằng 0",
+      "question": "Giá trị nào của x làm cho mẫu thức của phân thức $\\frac{1}{x - 6}$ bằng 0?",
+      "answer": "6",
+      "explanation": "$x - 6 = 0 \\Leftrightarrow x = 6$."
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "ĐKXĐ giá trị làm mẫu bằng 0",
+      "question": "Tìm giá trị của x để mẫu thức của $\\frac{2}{x - 8}$ triệt tiêu (bằng 0):",
+      "answer": "8",
+      "explanation": "$x - 8 = 0 \\Leftrightarrow x = 8$."
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "ĐKXĐ giá trị làm mẫu bằng 0",
+      "question": "Mẫu thức của phân thức $\\frac{5}{x - 3}$ bằng 0 khi x bằng:",
+      "answer": "3",
+      "explanation": "$x - 3 = 0 \\Leftrightarrow x = 3$."
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "ĐKXĐ giá trị làm mẫu bằng 0",
+      "question": "Tìm x để mẫu của $\\frac{1}{2x - 10}$ bằng 0:",
+      "answer": "5",
+      "explanation": "$2x - 10 = 0 \\Leftrightarrow x = 5$."
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "ĐKXĐ giá trị làm mẫu bằng 0",
+      "question": "Giá trị của x làm mẫu thức của $\\frac{4}{x - 7}$ không xác định là:",
+      "answer": "7",
+      "explanation": "Mẫu bằng 0 khi $x = 7$."
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm của phương trình phân thức",
+      "question": "Giải phương trình $\\frac{2x}{x - 1} = 3$. Nghiệm của phương trình bằng:",
+      "answer": "3",
+      "explanation": "$2x = 3(x - 1) \\Rightarrow 2x = 3x - 3 \\Rightarrow x = 3$."
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm của phương trình phân thức",
+      "question": "Nghiệm của phương trình $\\frac{3x}{x + 1} = 2$ là:",
+      "answer": "2",
+      "explanation": "$3x = 2(x + 1) \\Rightarrow 3x = 2x + 2 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm của phương trình phân thức",
+      "question": "Giải phương trình $\\frac{4x - 2}{x} = 3$ ta được nghiệm là:",
+      "answer": "2",
+      "explanation": "$4x - 2 = 3x \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm của phương trình phân thức",
+      "question": "Nghiệm của phương trình $\\frac{x + 6}{x} = 4$ bằng bao nhiêu?",
+      "answer": "2",
+      "explanation": "$x + 6 = 4x \\Rightarrow 3x = 6 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số nghiệm nguyên dương của bất phương trình",
+      "question": "Số các số nguyên dương thoả mãn $2x \\le 8$ là:",
+      "answer": "4",
+      "explanation": "$x \\le 4$. Các số nguyên dương là 1, 2, 3, 4 (4 số)."
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số nghiệm nguyên dương của bất phương trình",
+      "question": "Có bao nhiêu số nguyên dương x thoả mãn bất phương trình $3x \\le 15$:",
+      "answer": "5",
+      "explanation": "$x \\le 5$. Có 5 số nguyên dương là 1, 2, 3, 4, 5."
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số nghiệm nguyên dương của bất phương trình",
+      "question": "Số nghiệm nguyên dương của bất phương trình $x + 2 \\le 8$ là:",
+      "answer": "6",
+      "explanation": "$x \\le 6$. Có 6 số nguyên dương."
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số nghiệm nguyên dương của bất phương trình",
+      "question": "Tìm số các số nguyên dương thoả mãn $4x \\le 12$:",
+      "answer": "3",
+      "explanation": "$x \\le 3$. Có 3 số nguyên dương là 1, 2, 3."
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm nguyên của phương trình tích",
+      "question": "Nghiệm nguyên lớn hơn của phương trình $(x - 5)(x - 2) = 0$ là:",
+      "answer": "5",
+      "explanation": "Hai nghiệm là 2 và 5. Nghiệm lớn hơn là 5."
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm nguyên của phương trình tích",
+      "question": "Tìm nghiệm nguyên lớn hơn của phương trình $(x - 8)(x - 3) = 0$:",
+      "answer": "8",
+      "explanation": "Nghiệm lớn hơn là 8."
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm nguyên của phương trình tích",
+      "question": "Nghiệm nguyên dương của phương trình $(x - 6)(x + 4) = 0$ bằng:",
+      "answer": "6",
+      "explanation": "Nghiệm nguyên dương là 6."
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Nghiệm nguyên của phương trình tích",
+      "question": "Phương trình $(x - 10)(x - 1) = 0$ có nghiệm lớn bằng:",
+      "answer": "10",
+      "explanation": "Nghiệm lớn là 10."
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị nhỏ nhất Cauchy",
+      "question": "Cho $x > 0$. Giá trị nhỏ nhất của biểu thức $A = x + \\frac{4}{x}$ là:",
+      "answer": "4",
+      "explanation": "Theo BĐT Cauchy: GTNN bằng $2\\sqrt{4} = 4$."
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị nhỏ nhất Cauchy",
+      "question": "Với $a > 0$, giá trị nhỏ nhất của $B = a + \\frac{9}{a}$ bằng bao nhiêu?",
+      "answer": "6",
+      "explanation": "Theo BĐT Cauchy: GTNN bằng $2\\sqrt{9} = 6$."
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị nhỏ nhất Cauchy",
+      "question": "Tìm giá trị nhỏ nhất của biểu thức $C = x + \\frac{16}{x}$ với $x > 0$:",
+      "answer": "8",
+      "explanation": "Theo BĐT Cauchy: GTNN bằng $2\\sqrt{16} = 8$."
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính căn bậc hai số học",
+      "question": "Tính căn bậc hai số học của số 16:",
+      "answer": "4",
+      "explanation": "$\\sqrt{16} = 4$."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính căn bậc hai số học",
+      "question": "Căn bậc hai số học của 25 bằng bao nhiêu?",
+      "answer": "5",
+      "explanation": "$\\sqrt{25} = 5$."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính căn bậc hai số học",
+      "question": "Giá trị căn bậc hai số học của số 36 là:",
+      "answer": "6",
+      "explanation": "$\\sqrt{36} = 6$."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính căn bậc hai số học",
+      "question": "Tính căn bậc hai số học của số 49:",
+      "answer": "7",
+      "explanation": "$\\sqrt{49} = 7$."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính căn bậc hai số học",
+      "question": "Căn bậc hai số học của 64 bằng:",
+      "answer": "8",
+      "explanation": "$\\sqrt{64} = 8$."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính giá trị căn thức bình phương",
+      "question": "Tính giá trị của $\\sqrt{7^2}$:",
+      "answer": "7",
+      "explanation": "$\\sqrt{7^2} = 7$."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính giá trị căn thức bình phương",
+      "question": "Giá trị của $\\sqrt{8^2}$ bằng bao nhiêu?",
+      "answer": "8",
+      "explanation": "$\\sqrt{8^2} = 8$."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính giá trị căn thức bình phương",
+      "question": "Tính giá trị của biểu thức $\\sqrt{9^2}$:",
+      "answer": "9",
+      "explanation": "$\\sqrt{9^2} = 9$."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính giá trị căn thức bình phương",
+      "question": "Biểu thức $\\sqrt{10^2}$ có giá trị bằng:",
+      "answer": "10",
+      "explanation": "$\\sqrt{10^2} = 10$."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Tính giá trị căn thức bình phương",
+      "question": "Tính kết quả của $\\sqrt{12^2}$:",
+      "answer": "12",
+      "explanation": "$\\sqrt{12^2} = 12$."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Tính căn bậc ba cơ bản",
+      "question": "Tính giá trị của $\\sqrt[3]{8}$:",
+      "answer": "2",
+      "explanation": "$\\sqrt[3]{8} = 2$."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Tính căn bậc ba cơ bản",
+      "question": "Căn bậc ba của 27 bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "$\\sqrt[3]{27} = 3$."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Tính căn bậc ba cơ bản",
+      "question": "Tính căn bậc ba của số 64:",
+      "answer": "4",
+      "explanation": "$\\sqrt[3]{64} = 4$."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Tính căn bậc ba cơ bản",
+      "question": "Giá trị của $\\sqrt[3]{125}$ là:",
+      "answer": "5",
+      "explanation": "$\\sqrt[3]{125} = 5$."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Tính căn bậc ba cơ bản",
+      "question": "Căn bậc ba của số 216 bằng:",
+      "answer": "6",
+      "explanation": "$\\sqrt[3]{216} = 6$."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Nghiệm x của phương trình căn",
+      "question": "Tìm nghiệm x của phương trình $\\sqrt{x} = 4$:",
+      "answer": "16",
+      "explanation": "$x = 4^2 = 16$."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Nghiệm x của phương trình căn",
+      "question": "Phương trình $\\sqrt{x} = 5$ có nghiệm x bằng:",
+      "answer": "25",
+      "explanation": "$x = 5^2 = 25$."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Nghiệm x của phương trình căn",
+      "question": "Giải phương trình $\\sqrt{x} = 6$. Giá trị của x là:",
+      "answer": "36",
+      "explanation": "$x = 6^2 = 36$."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Nghiệm x của phương trình căn",
+      "question": "Tìm x thoả mãn $\\sqrt{x} = 7$:",
+      "answer": "49",
+      "explanation": "$x = 7^2 = 49$."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính tích hai căn bậc hai",
+      "question": "Tính giá trị của tích $\\sqrt{2} \\cdot \\sqrt{8}$:",
+      "answer": "4",
+      "explanation": "$\\sqrt{16} = 4$."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính tích hai căn bậc hai",
+      "question": "Giá trị của $\\sqrt{3} \\cdot \\sqrt{12}$ bằng:",
+      "answer": "6",
+      "explanation": "$\\sqrt{36} = 6$."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính tích hai căn bậc hai",
+      "question": "Tính kết quả của $\\sqrt{5} \\cdot \\sqrt{20}$:",
+      "answer": "10",
+      "explanation": "$\\sqrt{100} = 10$."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính tích hai căn bậc hai",
+      "question": "Tích $\\sqrt{2} \\cdot \\sqrt{18}$ có giá trị bằng:",
+      "answer": "6",
+      "explanation": "$\\sqrt{36} = 6$."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Giá trị của biểu thức hiệu hai căn",
+      "question": "Tính giá trị của $(\\sqrt{5} + 2)(\\sqrt{5} - 2)$:",
+      "answer": "1",
+      "explanation": "$(\\sqrt{5})^2 - 2^2 = 5 - 4 = 1$."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Giá trị của biểu thức hiệu hai căn",
+      "question": "Kết quả của $(\\sqrt{10} + 3)(\\sqrt{10} - 3)$ bằng:",
+      "answer": "1",
+      "explanation": "$10 - 9 = 1$."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Giá trị của biểu thức hiệu hai căn",
+      "question": "Tính $(\\sqrt{2} + 1)(\\sqrt{2} - 1)$:",
+      "answer": "1",
+      "explanation": "$2 - 1 = 1$."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Giá trị của biểu thức hiệu hai căn",
+      "question": "Giá trị của $(\\sqrt{17} + 4)(\\sqrt{17} - 4)$ là:",
+      "answer": "1",
+      "explanation": "$17 - 16 = 1$."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Giá trị rút gọn biểu thức lồng nhau",
+      "question": "Tính giá trị của biểu thức $\\sqrt{(3 - \\sqrt{2})^2} + \\sqrt{2}$:",
+      "answer": "3",
+      "explanation": "$|3 - \\sqrt{2}| + \\sqrt{2} = 3 - \\sqrt{2} + \\sqrt{2} = 3$."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Giá trị rút gọn biểu thức lồng nhau",
+      "question": "Tính $\\sqrt{(4 - \\sqrt{3})^2} + \\sqrt{3}$:",
+      "answer": "4",
+      "explanation": "$4 - \\sqrt{3} + \\sqrt{3} = 4$."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Giá trị rút gọn biểu thức lồng nhau",
+      "question": "Giá trị của $\\sqrt{(5 - \\sqrt{7})^2} + \\sqrt{7}$ bằng:",
+      "answer": "5",
+      "explanation": "$5 - \\sqrt{7} + \\sqrt{7} = 5$."
+    },
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Tam giác vuông cân tại A có $AB = 5\\text{ cm}$. Độ dài cạnh AC bằng bao nhiêu cm?",
+      "answer": "5",
+      "explanation": "$AC = AB = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Cho tam giác vuông cân tại A có $AB = 7\\text{ cm}$. Cạnh AC dài bao nhiêu cm?",
+      "answer": "7",
+      "explanation": "$AC = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Độ dài cạnh góc vuông thứ hai của tam giác vuông cân có một cạnh góc vuông bằng 9 cm là:",
+      "answer": "9",
+      "explanation": "Bằng 9 cm."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Tam giác ABC vuông cân tại A có $AB = 11\\text{ cm}$. Cạnh AC dài:",
+      "answer": "11",
+      "explanation": "$AC = 11\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính cạnh góc vuông cân",
+      "question": "Cạnh góc vuông của tam giác vuông cân có cạnh bằng 15 cm là:",
+      "answer": "15",
+      "explanation": "Bằng 15 cm."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tam giác ABC vuông tại A có hai cạnh góc vuông là 3 và 4. Tích của đường cao AH và cạnh huyền BC bằng:",
+      "answer": "12",
+      "explanation": "$AH \\cdot BC = AB \\cdot AC = 3 \\cdot 4 = 12$."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Cho tam giác vuông có hai cạnh góc vuông là 6 và 8. Tích đường cao ứng với cạnh huyền và cạnh huyền là:",
+      "answer": "48",
+      "explanation": "$AB \\cdot AC = 6 \\cdot 8 = 48$."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Hai cạnh góc vuông của một tam giác vuông là 5 và 12. Tích cạnh huyền và đường cao bằng:",
+      "answer": "60",
+      "explanation": "$5 \\cdot 12 = 60$."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tam giác vuông có hai cạnh góc vuông dài 2 cm và 9 cm. Tích đường cao và cạnh huyền là:",
+      "answer": "18",
+      "explanation": "$2 \\cdot 9 = 18$."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Tính tích đường cao và cạnh huyền",
+      "question": "Tính tích của cạnh huyền và đường cao trong tam giác vuông có hai cạnh góc vuông là 4 và 5:",
+      "answer": "20",
+      "explanation": "$4 \\cdot 5 = 20$."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính giá trị của biểu thức $P = 7 \\cdot \\tan 45^\\circ$:",
+      "answer": "7",
+      "explanation": "Vì $\\tan 45^\\circ = 1$ nên giá trị bằng 7."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Giá trị của $8 \\cdot \\cot 45^\\circ$ bằng bao nhiêu?",
+      "answer": "8",
+      "explanation": "Vì $\\cot 45^\\circ = 1$ nên bằng 8."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính kết quả của $10 \\cdot \\tan 45^\\circ$:",
+      "answer": "10",
+      "explanation": "Bằng 10."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Biểu thức $15 \\cdot \\tan 45^\\circ$ có giá trị là:",
+      "answer": "15",
+      "explanation": "Bằng 15."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Tính tan 45 độ nguyên",
+      "question": "Tính $20 \\cdot \\cot 45^\\circ$ thu được:",
+      "answer": "20",
+      "explanation": "Bằng 20."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Tam giác vuông có cạnh huyền bằng 10 cm và một góc nhọn bằng $30^\\circ$. Cạnh góc vuông đối diện góc đó dài bao nhiêu cm?",
+      "answer": "5",
+      "explanation": "$c = 10 \\cdot \\sin 30^\\circ = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Một tam giác vuông có cạnh huyền bằng 14 cm. Cạnh đối diện góc $30^\\circ$ có độ dài là:",
+      "answer": "7",
+      "explanation": "$14 \\cdot 0,5 = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Tính cạnh đối diện góc $30^\\circ$ trong tam giác vuông có cạnh huyền bằng 18 cm:",
+      "answer": "9",
+      "explanation": "$18 \\cdot 0,5 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính cạnh góc vuông theo góc 30 độ",
+      "question": "Cạnh huyền bằng 24 cm. Cạnh góc vuông đối diện góc $30^\\circ$ dài bao nhiêu cm?",
+      "answer": "12",
+      "explanation": "$24 \\cdot 0,5 = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Tam giác vuông có hình chiếu hai cạnh góc vuông trên cạnh huyền là 4 cm và 9 cm. Bình phương đường cao ứng với cạnh huyền bằng:",
+      "answer": "36",
+      "explanation": "$AH^2 = 4 \\cdot 9 = 36$."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Hình chiếu hai cạnh góc vuông trên cạnh huyền là 2 cm và 8 cm. Bình phương đường cao bằng:",
+      "answer": "16",
+      "explanation": "$2 \\cdot 8 = 16$."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Cho hai hình chiếu trên cạnh huyền là 3 cm và 12 cm. Giá trị $AH^2$ bằng:",
+      "answer": "36",
+      "explanation": "$3 \\cdot 12 = 36$."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Tính bình phương đường cao",
+      "question": "Tính bình phương đường cao của tam giác vuông có hai hình chiếu trên cạnh huyền là 5 cm và 20 cm:",
+      "answer": "100",
+      "explanation": "$5 \\cdot 20 = 100$."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Tính giá trị của biểu thức $A = 5 \\cdot (\\sin^2 35^\\circ + \\cos^2 35^\\circ)$:",
+      "answer": "5",
+      "explanation": "Vì $\\sin^2 + \\cos^2 = 1$ nên giá trị bằng 5."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Giá trị của $B = 8 \\cdot (\\sin^2 50^\\circ + \\cos^2 50^\\circ)$ bằng bao nhiêu?",
+      "answer": "8",
+      "explanation": "Bằng 8."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Tính $C = 12 \\cdot (\\sin^2 15^\\circ + \\cos^2 15^\\circ)$:",
+      "answer": "12",
+      "explanation": "Bằng 12."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức sin bình cộng cos bình",
+      "question": "Biểu thức $D = 25 \\cdot (\\sin^2 72^\\circ + \\cos^2 72^\\circ)$ có giá trị là:",
+      "answer": "25",
+      "explanation": "Bằng 25."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 6 cm và 8 cm. Độ dài cạnh huyền bằng bao nhiêu cm?",
+      "answer": "10",
+      "explanation": "$\\sqrt{6^2 + 8^2} = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Tính độ dài cạnh huyền của tam giác vuông có hai cạnh góc vuông là 9 cm và 12 cm:",
+      "answer": "15",
+      "explanation": "$\\sqrt{9^2 + 12^2} = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "vd",
+      "dang": "Tính cạnh huyền tam giác vuông nguyên",
+      "question": "Một tam giác vuông có hai cạnh góc vuông dài 12 cm và 16 cm. Cạnh huyền dài bao nhiêu cm?",
+      "answer": "20",
+      "explanation": "$\\sqrt{12^2 + 16^2} = 20\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Cho đường tròn có bán kính $R = 5\\text{ cm}$. Độ dài đường kính của đường tròn là bao nhiêu cm?",
+      "answer": "10",
+      "explanation": "Đường kính $d = 2R = 2 \\times 5 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Một hình tròn có bán kính $R = 7\\text{ cm}$. Đường kính của hình tròn này bằng bao nhiêu cm?",
+      "answer": "14",
+      "explanation": "Đường kính $d = 2R = 2 \\times 7 = 14\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Đường tròn $(O)$ có bán kính $R = 12\\text{ cm}$. Dây lớn nhất của đường tròn có độ dài bao nhiêu cm?",
+      "answer": "24",
+      "explanation": "Dây lớn nhất là đường kính: $2 \\times 12 = 24\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Cho đường tròn tâm $O$ có bán kính $R = 15\\text{ cm}$. Đường kính của đường tròn là bao nhiêu cm?",
+      "answer": "30",
+      "explanation": "$d = 2 \\times 15 = 30\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Tính đường kính từ bán kính",
+      "question": "Bán kính đường tròn bằng $20\\text{ cm}$. Độ dài đường kính của đường tròn đó là bao nhiêu cm?",
+      "answer": "40",
+      "explanation": "$d = 2 \\times 20 = 40\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Số điểm chung của một tiếp tuyến với đường tròn là:",
+      "answer": "1",
+      "explanation": "Tiếp tuyến tiếp xúc với đường tròn tại đúng 1 điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Một đường thẳng tiếp xúc với đường tròn tại bao nhiêu điểm?",
+      "answer": "1",
+      "explanation": "Tiếp xúc tại đúng 1 điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Số tiếp điểm của một tiếp tuyến đối với đường tròn là:",
+      "answer": "1",
+      "explanation": "Có đúng 1 tiếp điểm duy nhất."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Khi khoảng cách từ tâm đến đường thẳng bằng bán kính thì số giao điểm là:",
+      "answer": "1",
+      "explanation": "Đường thẳng tiếp xúc với đường tròn nên có đúng 1 điểm chung."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Số điểm chung của tiếp tuyến với đường tròn",
+      "question": "Đường thẳng $\\Delta$ có $d = R$ so với đường tròn $(O)$. Số điểm chung của $\\Delta$ và $(O)$ là:",
+      "answer": "1",
+      "explanation": "Có 1 điểm chung duy nhất."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Số đo của cung nửa đường tròn bằng bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Số đo của nửa đường tròn bằng $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Một góc ở tâm chắn nửa đường tròn có số đo bằng bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Góc ở tâm là góc bẹt có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Đường kính chia đường tròn thành hai cung, mỗi cung có số đo bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Mỗi cung nửa đường tròn có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Cung bị chắn bởi một đường kính của đường tròn có số đo bằng bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Cung nửa đường tròn có số đo $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Số đo cung nửa đường tròn",
+      "question": "Hai đầu mút của một đường kính chia đường tròn thành hai cung, số đo mỗi cung là bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Số đo mỗi cung bằng $180^\\circ$."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 5\\text{ cm})$ có dây $AB = 6\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ bằng bao nhiêu cm?",
+      "answer": "4",
+      "explanation": "Nửa dây là $3\\text{ cm}$. Khoảng cách là $\\sqrt{5^2 - 3^2} = 4\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 10\\text{ cm})$ có dây cung dài $16\\text{ cm}$. Khoảng cách từ tâm đến dây này bằng bao nhiêu cm?",
+      "answer": "6",
+      "explanation": "Nửa dây là $8\\text{ cm}$. Khoảng cách: $\\sqrt{10^2 - 8^2} = 6\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Cho đường tròn $(O; 13\\text{ cm})$ và dây cung dài $10\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây là bao nhiêu cm?",
+      "answer": "12",
+      "explanation": "Nửa dây là $5\\text{ cm}$. Khoảng cách: $\\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Tính khoảng cách từ tâm đến dây cung nguyên",
+      "question": "Đường tròn $(O; 25\\text{ cm})$ có dây cung dài $48\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây đó là bao nhiêu cm?",
+      "answer": "7",
+      "explanation": "Nửa dây là $24\\text{ cm}$. Khoảng cách: $\\sqrt{25^2 - 24^2} = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Cho hai đường tròn tiếp xúc ngoài có bán kính là $4\\text{ cm}$ và $6\\text{ cm}$. Đoạn nối tâm $OO'$ dài bao nhiêu cm?",
+      "answer": "10",
+      "explanation": "Đoạn nối tâm: $d = R + r = 4 + 6 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Hai đường tròn tiếp xúc ngoài có bán kính lần lượt là $7\\text{ cm}$ và $8\\text{ cm}$. Khoảng cách giữa hai tâm bằng bao nhiêu cm?",
+      "answer": "15",
+      "explanation": "Khoảng cách nối tâm: $7 + 8 = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Cho hai đường tròn tiếp xúc ngoài có bán kính $9\\text{ cm}$ và $11\\text{ cm}$. Độ dài đoạn nối tâm là bao nhiêu cm?",
+      "answer": "20",
+      "explanation": "$d = 9 + 11 = 20\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính khoảng cách nối tâm hai đường tròn tiếp xúc ngoài",
+      "question": "Khoảng cách nối tâm của hai đường tròn tiếp xúc ngoài có bán kính $12\\text{ cm}$ và $13\\text{ cm}$ bằng bao nhiêu cm?",
+      "answer": "25",
+      "explanation": "$d = 12 + 13 = 25\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Cho đường tròn $(O; 3\\text{ cm})$ và điểm $M$ có $OM = 5\\text{ cm}$. Độ dài đoạn tiếp tuyến $MA$ bằng bao nhiêu cm?",
+      "answer": "4",
+      "explanation": "$MA = \\sqrt{5^2 - 3^2} = 4\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Từ điểm $A$ cách tâm đường tròn bán kính $6\\text{ cm}$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $AB$. Độ dài $AB$ bằng bao nhiêu cm?",
+      "answer": "8",
+      "explanation": "$AB = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Điểm $K$ cách tâm đường tròn bán kính $5\\text{ cm}$ một đoạn $13\\text{ cm}$. Chiều dài đoạn tiếp tuyến từ $K$ đến đường tròn là bao nhiêu cm?",
+      "answer": "12",
+      "explanation": "Độ dài đoạn tiếp tuyến: $\\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Độ dài đoạn tiếp tuyến vuông góc",
+      "question": "Cho đường tròn $(O; 8\\text{ cm})$ và điểm $P$ thoả mãn $OP = 17\\text{ cm}$. Kẻ tiếp tuyến $PT$. Độ dài $PT$ bằng bao nhiêu cm?",
+      "answer": "15",
+      "explanation": "$PT = \\sqrt{17^2 - 8^2} = 15\\text{ cm}$."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 6 và 8 (cạnh huyền là 10). Bán kính đường tròn nội tiếp bằng bao nhiêu?",
+      "answer": "2",
+      "explanation": "Bán kính: $r = (6 + 8 - 10) / 2 = 2$."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 5 và 12 (cạnh huyền là 13). Bán kính đường tròn nội tiếp bằng bao nhiêu?",
+      "answer": "2",
+      "explanation": "Bán kính: $r = (5 + 12 - 13) / 2 = 2$."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Tính bán kính đường tròn nội tiếp tam giác vuông nguyên",
+      "question": "Tam giác vuông có hai cạnh góc vuông là 8 và 15 (cạnh huyền là 17). Bán kính đường tròn nội tiếp của tam giác bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "Bán kính: $r = (8 + 15 - 17) / 2 = 3$."
+    }
+  ]
+}

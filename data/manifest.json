@@ -49,15 +49,14 @@
       "id": "toan9",
       "name": "Toán 9",
       "grade": 9,
-      "term": "Cả năm (Học kì 1 & 2)",
+      "term": "Học kì 1",
       "terms": [
-        "Học kì 1",
-        "Học kì 2"
+        "Học kì 1"
       ],
       "book": "Kết nối tri thức với cuộc sống",
       "path": "toan9",
-      "available": false,
-      "note": "Đang chuẩn bị dữ liệu (GDPT 2018 mới)."
+      "available": true,
+      "note": "Học kì 1: 750 câu hỏi (5 chương c1-c5, 120 TN + 30 TLN/chương)."
     }
   ]
 }

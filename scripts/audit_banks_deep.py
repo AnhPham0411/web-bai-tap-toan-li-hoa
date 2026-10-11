@@ -134,7 +134,7 @@ def main():
 
     total_issues = 0
 
-    subjects = ['toan10', 'ly10', 'hoa10']
+    subjects = ['toan10', 'ly10', 'hoa10', 'toan9']
     for subj in subjects:
         mc_file = ROOT / 'data' / subj / 'questions' / 'mc.json'
         short_file = ROOT / 'data' / subj / 'questions' / 'short.json'
