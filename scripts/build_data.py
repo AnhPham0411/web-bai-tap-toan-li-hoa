@@ -27,11 +27,12 @@ BANK_DIR = os.path.join(BASE_DIR, "scripts", "bank")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 SEED = 20261001                     # cố định để build lại cho kết quả giống hệt
-SUBJECTS = ["toan10", "ly10", "hoa10"]
+SUBJECTS = ["toan10", "ly10", "hoa10", "toan9"]
 SUBJECT_CHAPTERS = {
     "toan10": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9"],
     "ly10": ["c1", "c2", "c3", "c4", "c5"],
     "hoa10": ["c1", "c2", "c3", "c4", "c5"],
+    "toan9": ["c1", "c2", "c3", "c4", "c5"],
 }
 
 MC_PER_CHAPTER = 120
@@ -347,7 +348,7 @@ def main():
         for chapter in chapters:
             bank_path = os.path.join(BANK_DIR, "%s_%s.json" % (subject, chapter))
             if not os.path.exists(bank_path):
-                if partial:
+                if partial or (subject == "toan9" and not any(os.path.exists(os.path.join(BANK_DIR, f"toan9_{c}.json")) for c in chapters)):
                     continue
                 p.error("%s/%s" % (subject, chapter), "thieu file ngan hang %s" % bank_path)
                 continue
