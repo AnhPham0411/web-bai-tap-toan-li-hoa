@@ -1,0 +1,55 @@
+{
+  "chapterId": "c3",
+  "title": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+  "lessons": [
+    {
+      "id": "b8",
+      "title": "Bài 8. Mẫu số liệu ghép nhóm",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm mẫu số liệu ghép nhóm"
+        },
+        {
+          "type": "definition",
+          "title": "Bảng tần số ghép nhóm",
+          "content": "Mẫu số liệu ghép nhóm được cho dưới dạng các nhóm nửa khoảng $[a_i; a_{i+1})$ cùng với tần số $m_i$ tương ứng.\n- Giá trị đại diện của nhóm $[a_i; a_{i+1})$ là trung điểm: $c_i = \\frac{a_i + a_{i+1}}{2}$.\n- Độ dài của nhóm là: $a_{i+1} - a_i$.\n- Cỡ mẫu $n = m_1 + m_2 + \\dots + m_k$."
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "title": "Bài 9. Các số đặc trưng đo xu thế trung tâm",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Số trung bình và Trung vị"
+        },
+        {
+          "type": "formula",
+          "title": "Số trung bình của mẫu số liệu ghép nhóm",
+          "content": "$\\bar{x} = \\frac{m_1 c_1 + m_2 c_2 + \\dots + m_k c_k}{n}$, trong đó $c_i$ là giá trị đại diện và $m_i$ là tần số của nhóm thứ $i$."
+        },
+        {
+          "type": "formula",
+          "title": "Trung vị $M_e$",
+          "content": "Giả sử nhóm chứa trung vị là $[u_m; u_{m+1})$ với tần số $n_m$. Khi đó:\n$M_e = u_m + \\frac{\\frac{n}{2} - C}{n_m} \\cdot (u_{m+1} - u_m)$\ntrong đó $C = m_1 + \\dots + m_{m-1}$ là tần số tích luỹ của các nhóm đứng trước nhóm chứa trung vị."
+        },
+        {
+          "type": "heading",
+          "text": "2. Tứ phân vị và Mốt"
+        },
+        {
+          "type": "formula",
+          "title": "Tứ phân vị $Q_1, Q_2, Q_3$",
+          "content": "- $Q_2 = M_e$ (trung vị).\n- Tứ phân vị thứ nhất $Q_1 = u_p + \\frac{\\frac{n}{4} - C}{n_p} \\cdot (u_{p+1} - u_p)$, với nhóm $[u_p; u_{p+1})$ chứa tứ phân vị thứ nhất.\n- Tứ phân vị thứ ba $Q_3 = u_q + \\frac{\\frac{3n}{4} - C}{n_q} \\cdot (u_{q+1} - u_q)$, với nhóm $[u_q; u_{q+1})$ chứa tứ phân vị thứ ba."
+        },
+        {
+          "type": "formula",
+          "title": "Mốt $M_o$",
+          "content": "Nhóm chứa mốt là nhóm có tần số lớn nhất $[u_j; u_{j+1})$ với tần số $m_j$. Khi đó:\n$M_o = u_j + \\frac{m_j - m_{j-1}}{(m_j - m_{j-1}) + (m_j - m_{j+1})} \\cdot (u_{j+1} - u_j)$."
+        }
+      ]
+    }
+  ]
+}

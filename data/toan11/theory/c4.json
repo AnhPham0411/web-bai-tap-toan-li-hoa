@@ -1,0 +1,87 @@
+{
+  "chapterId": "c4",
+  "title": "Quan hệ song song trong không gian",
+  "lessons": [
+    {
+      "id": "b10",
+      "title": "Bài 10. Đường thẳng và mặt phẳng trong không gian",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Các tính chất thừa nhận"
+        },
+        {
+          "type": "definition",
+          "title": "Xác định mặt phẳng",
+          "content": "Một mặt phẳng được xác định duy nhất khi biết:\n- Ba điểm không thẳng hàng.\n- Một đường thẳng và một điểm không thuộc đường thẳng đó.\n- Hai đường thẳng cắt nhau.\n- Hai đường thẳng song song."
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "title": "Bài 11. Hai đường thẳng song song",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Vị trí tương đối của hai đường thẳng"
+        },
+        {
+          "type": "definition",
+          "title": "Đồng phẳng và chéo nhau",
+          "content": "- Hai đường thẳng đồng phẳng có thể: cắt nhau, song song, hoặc trùng nhau.\n- Hai đường thẳng không cùng thuộc một mặt phẳng nào gọi là hai đường thẳng chéo nhau."
+        },
+        {
+          "type": "formula",
+          "title": "Tính chất ba mặt phẳng cắt nhau",
+          "content": "Nếu ba mặt phẳng đôi một cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó hoặc đồng quy, hoặc đôi một song song."
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "title": "Bài 12. Đường thẳng và mặt phẳng song song",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Điều kiện đường thẳng song song mặt phẳng"
+        },
+        {
+          "type": "definition",
+          "title": "Định lí nhận biết",
+          "content": "Nếu đường thẳng $d$ không nằm trong mặt phẳng $(P)$ và $d$ song song với một đường thẳng $a$ nằm trong $(P)$ thì $d$ song song với $(P)$:\n$d \\not\\subset (P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "title": "Bài 13. Hai mặt phẳng song song",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Điều kiện hai mặt phẳng song song"
+        },
+        {
+          "type": "definition",
+          "title": "Định lí nhận biết hai mặt phẳng song song",
+          "content": "Nếu mặt phẳng $(P)$ chứa hai đường thẳng cắt nhau $a, b$ và $a, b$ cùng song song với mặt phẳng $(Q)$ thì $(P) \\parallel (Q)$."
+        },
+        {
+          "type": "formula",
+          "title": "Định lí Ta-lét trong không gian",
+          "content": "Ba mặt phẳng đôi một song song chắn trên hai cát tuyến bất kì những đoạn thẳng tương ứng tỉ lệ."
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "title": "Bài 14. Phép chiếu song song",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm và tính chất",
+          "content": "Phép chiếu song song bảo toàn tính thẳng hàng của ba điểm, bảo toàn thứ tự các điểm trên một đường thẳng, biến hai đường thẳng song song thành hai đường thẳng song song hoặc trùng nhau, bảo toàn tỉ số độ dài hai đoạn thẳng cùng nằm trên một đường thẳng hoặc trên hai đường thẳng song song."
+        }
+      ]
+    }
+  ]
+}

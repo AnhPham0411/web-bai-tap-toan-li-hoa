@@ -1,0 +1,109 @@
+{
+  "chapterId": "c1",
+  "title": "Hàm số lượng giác và phương trình lượng giác",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Giá trị lượng giác của góc lượng giác",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Góc lượng giác và đơn vị đo"
+        },
+        {
+          "type": "definition",
+          "title": "Đơn vị rađian và công thức đổi đơn vị",
+          "content": "Rađian (kí hiệu rad) là số đo của cung có độ dài bằng bán kính đường tròn. Ta có mối liên hệ: $180^\\circ = \\pi \\text{ rad}$, từ đó $1^\\circ = \\frac{\\pi}{180} \\text{ rad}$ và $1 \\text{ rad} = \\left(\\frac{180}{\\pi}\\right)^\\circ$."
+        },
+        {
+          "type": "definition",
+          "title": "Góc lượng giác",
+          "content": "Trên mặt phẳng toạ độ với đường tròn lượng giác gốc $A(1;0)$, góc lượng giác $(OA, OM)$ có tia đầu $OA$, tia cuối $OM$. Góc lượng giác có chiều dương là ngược chiều kim đồng hồ, chiều âm là cùng chiều kim đồng hồ."
+        },
+        {
+          "type": "heading",
+          "text": "2. Giá trị lượng giác của góc lượng giác"
+        },
+        {
+          "type": "formula",
+          "title": "Định nghĩa giá trị lượng giác",
+          "content": "Điểm biểu diễn $M$ của góc $\\alpha$ trên đường tròn lượng giác có toạ độ $(x_M; y_M)$:\n- $\\sin \\alpha = y_M$\n- $\\cos \\alpha = x_M$\n- $\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha} = \\frac{y_M}{x_M}$ (với $\\alpha \\neq \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$)\n- $\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha} = \\frac{x_M}{y_M}$ (với $\\alpha \\neq k\\pi, k \\in \\mathbb{Z}$)"
+        },
+        {
+          "type": "formula",
+          "title": "Hằng đẳng thức lượng giác cơ bản",
+          "content": "- $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$\n- $1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$ ($\\alpha \\neq \\frac{\\pi}{2} + k\\pi$)\n- $1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$ ($\\alpha \\neq k\\pi$)\n- $\\tan \\alpha \\cdot \\cot \\alpha = 1$"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Công thức lượng giác",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Công thức cộng"
+        },
+        {
+          "type": "formula",
+          "title": "Công thức cộng góc",
+          "content": "- $\\cos(a - b) = \\cos a \\cos b + \\sin a \\sin b$\n- $\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b$\n- $\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$\n- $\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b$\n- $\\tan(a + b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$\n- $\\tan(a - b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "type": "heading",
+          "text": "2. Công thức nhân đôi và hạ bậc"
+        },
+        {
+          "type": "formula",
+          "title": "Công thức góc nhân đôi",
+          "content": "- $\\sin 2a = 2\\sin a \\cos a$\n- $\\cos 2a = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a$\n- $\\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a}$"
+        },
+        {
+          "type": "formula",
+          "title": "Công thức hạ bậc",
+          "content": "- $\\sin^2 a = \\frac{1 - \\cos 2a}{2}$\n- $\\cos^2 a = \\frac{1 + \\cos 2a}{2}$"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "title": "Bài 3. Hàm số lượng giác",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Các hàm số lượng giác cơ bản"
+        },
+        {
+          "type": "definition",
+          "title": "Hàm số $y = \\sin x$ và $y = \\cos x$",
+          "content": "- $y = \\sin x$: TXĐ $D = \\mathbb{R}$, tập giá trị $[-1; 1]$, là hàm số lẻ, tuần hoàn với chu kì $T = 2\\pi$.\n- $y = \\cos x$: TXĐ $D = \\mathbb{R}$, tập giá trị $[-1; 1]$, là hàm số chẵn, tuần hoàn với chu kì $T = 2\\pi$."
+        },
+        {
+          "type": "definition",
+          "title": "Hàm số $y = \\tan x$ và $y = \\cot x$",
+          "content": "- $y = \\tan x$: TXĐ $D = \\mathbb{R} \\setminus \\{\\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\}$, tập giá trị $\\mathbb{R}$, hàm số lẻ, đồng biến trên từng khoảng xác định, chu kì $T = \\pi$.\n- $y = \\cot x$: TXĐ $D = \\mathbb{R} \\setminus \\{k\\pi, k \\in \\mathbb{Z}\\}$, tập giá trị $\\mathbb{R}$, hàm số lẻ, nghịch biến trên từng khoảng xác định, chu kì $T = \\pi$."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "title": "Bài 4. Phương trình lượng giác cơ bản",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Công thức nghiệm cơ bản"
+        },
+        {
+          "type": "formula",
+          "title": "Phương trình $\\sin x = m$ và $\\cos x = m$",
+          "content": "- $\\sin x = m$: Có nghiệm khi $|m| \\le 1$. Nếu $m = \\sin \\alpha$ thì nghiệm là:\n$x = \\alpha + k2\\pi$ hoặc $x = \\pi - \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$).\n- $\\cos x = m$: Có nghiệm khi $|m| \\le 1$. Nếu $m = \\cos \\alpha$ thì nghiệm là:\n$x = \\pm \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$)."
+        },
+        {
+          "type": "formula",
+          "title": "Phương trình $\\tan x = m$ và $\\cot x = m$",
+          "content": "- $\\tan x = m = \\tan \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$).\n- $\\cot x = m = \\cot \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$)."
+        }
+      ]
+    }
+  ]
+}

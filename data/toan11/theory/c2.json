@@ -1,0 +1,66 @@
+{
+  "chapterId": "c2",
+  "title": "Dãy số. Cấp số cộng và cấp số nhân",
+  "lessons": [
+    {
+      "id": "b5",
+      "title": "Bài 5. Dãy số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm và tính chất của dãy số"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa dãy số",
+          "content": "Một hàm số $u$ xác định trên tập hợp các số nguyên dương $\\mathbb{N}^*$ được gọi là một dãy số vô hạn. Kí hiệu là $(u_n)$.\nSố $u_1$ gọi là số hạng đầu, $u_n$ gọi là số hạng tổng quát (thứ $n$)."
+        },
+        {
+          "type": "definition",
+          "title": "Dãy số tăng, giảm và bị chặn",
+          "content": "- Dãy số $(u_n)$ là dãy số tăng nếu $u_{n+1} > u_n$ với mọi $n \\in \\mathbb{N}^*$.\n- Dãy số $(u_n)$ là dãy số giảm nếu $u_{n+1} < u_n$ với mọi $n \\in \\mathbb{N}^*$.\n- Dãy số $(u_n)$ bị chặn trên nếu tồn tại số $M$ sao cho $u_n \\le M$ với mọi $n$.\n- Dãy số $(u_n)$ bị chặn dưới nếu tồn tại số $m$ sao cho $u_n \\ge m$ với mọi $n$.\n- Dãy số vừa bị chặn trên vừa bị chặn dưới gọi là bị chặn."
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "title": "Bài 6. Cấp số cộng",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Định nghĩa và công sai"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa cấp số cộng",
+          "content": "Cấp số cộng là một dãy số $(u_n)$ mà trong đó, kể từ số hạng thứ hai, mỗi số hạng đều bằng số hạng đứng ngay trước nó cộng với một số không đổi $d$ (gọi là công sai):\n$u_{n+1} = u_n + d$ với mọi $n \\ge 1$."
+        },
+        {
+          "type": "formula",
+          "title": "Số hạng tổng quát và Tổng n số hạng đầu",
+          "content": "- Số hạng tổng quát: $u_n = u_1 + (n - 1)d$.\n- Tính chất 3 số hạng liên tiếp: $u_k = \\frac{u_{k-1} + u_{k+1}}{2}$ ($k \\ge 2$).\n- Tổng $n$ số hạng đầu: $S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n[2u_1 + (n - 1)d]}{2}$."
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "title": "Bài 7. Cấp số nhân",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Định nghĩa và công bội"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa cấp số nhân",
+          "content": "Cấp số nhân là một dãy số $(u_n)$ mà trong đó, kể từ số hạng thứ hai, mỗi số hạng đều bằng tích của số hạng đứng ngay trước nó với một số không đổi $q$ (gọi là công bội):\n$u_{n+1} = u_n \\cdot q$ với mọi $n \\ge 1$."
+        },
+        {
+          "type": "formula",
+          "title": "Số hạng tổng quát và Tổng n số hạng đầu",
+          "content": "- Số hạng tổng quát: $u_n = u_1 \\cdot q^{n-1}$ ($n \\ge 2$).\n- Tính chất 3 số hạng liên tiếp: $u_k^2 = u_{k-1} \\cdot u_{k+1}$ ($k \\ge 2$).\n- Tổng $n$ số hạng đầu (với $q \\neq 1$): $S_n = \\frac{u_1(1 - q^n)}{1 - q}$.\n- Tổng của cấp số nhân lùi vô hạn ($|q| < 1$): $S = \\frac{u_1}{1 - q}$."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "chapterId": "c5",
+  "title": "Giới hạn. Hàm số liên tục",
+  "lessons": [
+    {
+      "id": "b15",
+      "title": "Bài 15. Giới hạn của dãy số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Giới hạn hữu hạn của dãy số"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa và một số giới hạn cơ bản",
+          "content": "- $\\lim_{n \\to +\\infty} \\frac{1}{n^k} = 0$ ($k \\in \\mathbb{N}^*$).\n- $\\lim_{n \\to +\\infty} q^n = 0$ nếu $|q| < 1$.\n- Giới hạn tổng, hiệu, tích, thương tuân theo các quy tắc đại số tương ứng khi các dãy số có giới hạn hữu hạn."
+        },
+        {
+          "type": "formula",
+          "title": "Tổng cấp số nhân lùi vô hạn",
+          "content": "Cấp số nhân $(u_n)$ có công bội $q$ với $|q| < 1$ có tổng là:\n$S = u_1 + u_2 + \\dots + u_n + \\dots = \\frac{u_1}{1 - q}$."
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "title": "Bài 16. Giới hạn của hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Giới hạn hàm số tại một điểm và vô cực"
+        },
+        {
+          "type": "definition",
+          "title": "Giới hạn tại một điểm",
+          "content": "$\\lim_{x \\to x_0} f(x) = L$ nếu với mọi dãy số $(x_n)$ thuộc TXĐ, $x_n \\neq x_0$ và $x_n \\to x_0$ thì $f(x_n) \\to L$."
+        },
+        {
+          "type": "formula",
+          "title": "Giới hạn một phía",
+          "content": "- Giới hạn bên phải: $\\lim_{x \\to x_0^+} f(x) = L$.\n- Giới hạn bên trái: $\\lim_{x \\to x_0^-} f(x) = L$.\n- Định lí: $\\lim_{x \\to x_0} f(x) = L \\Leftrightarrow \\lim_{x \\to x_0^+} f(x) = \\lim_{x \\to x_0^-} f(x) = L$."
+        },
+        {
+          "type": "note",
+          "content": "Các dạng vô định thường gặp: $\\frac{0}{0}, \\frac{\\infty}{\\infty}, \\infty - \\infty, 0 \\cdot \\infty$. Cách khử thường dùng là nhân liên hợp, rút bậc cao nhất, hoặc phân tích đa thức thành nhân tử."
+        }
+      ]
+    },
+    {
+      "id": "b17",
+      "title": "Bài 17. Hàm số liên tục",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Tính liên tục của hàm số"
+        },
+        {
+          "type": "definition",
+          "title": "Liên tục tại một điểm",
+          "content": "Hàm số $y = f(x)$ xác định trên khoảng $(a; b)$ chứa điểm $x_0$ được gọi là liên tục tại $x_0$ nếu:\n$\\lim_{x \\to x_0} f(x) = f(x_0)$."
+        },
+        {
+          "type": "definition",
+          "title": "Liên tục trên một khoảng / đoạn",
+          "content": "- Hàm số liên tục tại mọi điểm thuộc khoảng $(a; b)$ được gọi là liên tục trên khoảng $(a; b)$.\n- Hàm đa thức, phân thức hữu tỉ, lượng giác liên tục trên từng khoảng xác định của chúng."
+        },
+        {
+          "type": "formula",
+          "title": "Định lí giá trị trung gian",
+          "content": "Nếu hàm số $y = f(x)$ liên tục trên đoạn $[a; b]$ và $f(a) \\cdot f(b) < 0$ thì tồn tại ít nhất một điểm $c \\in (a; b)$ sao cho $f(c) = 0$ (phương trình $f(x) = 0$ có ít nhất một nghiệm trong khoảng $(a; b)$)."
+        }
+      ]
+    }
+  ]
+}
