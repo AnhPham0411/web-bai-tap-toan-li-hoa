@@ -57,6 +57,34 @@
       "path": "toan9",
       "available": true,
       "note": "Học kì 1: 750 câu hỏi (5 chương c1-c5, 120 TN + 30 TLN/chương)."
+    },
+    {
+      "id": "toan11",
+      "name": "Toán 11",
+      "grade": 11,
+      "term": "Học kì 1",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan11",
+      "available": true,
+      "note": "Chương trình GDPT 2018 (SGK Kết nối tri thức) — Đang khởi tạo HK1 (750 câu)."
+    },
+    {
+      "id": "toan12",
+      "name": "Toán 12",
+      "grade": 12,
+      "term": "Học kì 1",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan12",
+      "available": true,
+      "note": "Chương trình GDPT 2018 (SGK Kết nối tri thức) — Đang khởi tạo HK1 (450 câu)."
     }
   ]
 }
