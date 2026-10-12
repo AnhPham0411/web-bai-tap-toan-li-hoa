@@ -25,14 +25,15 @@ export function renderSetup(ctx, query) {
   const saved = getLastSetup(ctx.subject.id) || {};
   const preChapter = query.get('chuong');
 
-  const activeSetId = saved.setId && sets[saved.setId] ? saved.setId : index.questionSets[0].id;
+  const qSets = index.questionSets || [];
+  const activeSetId = saved.setId && sets[saved.setId] ? saved.setId : (qSets[0]?.id || 'mc');
 
-  const setCards = index.questionSets.map((s) => `
+  const setCards = qSets.map((s) => `
     <label class="opt-card${s.id === activeSetId ? ' selected' : ''}" data-set-card="${s.id}">
       <input type="radio" name="setId" value="${s.id}" ${s.id === activeSetId ? 'checked' : ''}>
       <span>
         <strong>${s.title}</strong>
-        <small>${s.description} — ${sets[s.id].questions.length} câu.</small>
+        <small>${s.description} — ${sets[s.id]?.questions?.length || 0} câu.</small>
       </span>
     </label>`).join('');
 
@@ -49,7 +50,7 @@ export function renderSetup(ctx, query) {
       </label>`;
   }).join('');
 
-  const levelRows = index.levels.map((lv) => {
+  const levelRows = (index.levels || []).map((lv) => {
     const checked = saved.levels ? saved.levels.includes(lv.id) : true;
     return `
       <label class="check-row">
@@ -146,7 +147,7 @@ export function bindSetup(ctx, root) {
   const startBtn = form.querySelector('[data-start]');
 
   const readSelection = () => ({
-    setId: form.querySelector('input[name="setId"]:checked')?.value || index.questionSets[0].id,
+    setId: form.querySelector('input[name="setId"]:checked')?.value || (index.questionSets && index.questionSets[0]?.id) || 'mc',
     chapterIds: [...form.querySelectorAll('input[name="chapter"]:checked')].map((i) => i.value),
     levels: [...form.querySelectorAll('input[name="level"]:checked')].map((i) => i.value),
     mode: form.querySelector('input[name="mode"]:checked')?.value || 'instant',
@@ -166,7 +167,7 @@ export function bindSetup(ctx, root) {
       const el = form.querySelector(`[data-chapter-count="${ch.id}"]`);
       if (el) el.textContent = `${questions.filter((q) => q.chapter === ch.id).length} câu`;
     });
-    index.levels.forEach((lv) => {
+    (index.levels || []).forEach((lv) => {
       const el = form.querySelector(`[data-level-count="${lv.id}"]`);
       const n = questions.filter((q) => q.level === lv.id && sel.chapterIds.includes(q.chapter)).length;
       if (el) el.textContent = `${n} câu`;
@@ -213,7 +214,7 @@ export function bindSetup(ctx, root) {
     if (sel.shuffle) questions = shuffle(questions);
     questions = questions.slice(0, Math.min(sel.count, questions.length));
 
-    const setMeta = index.questionSets.find((s) => s.id === sel.setId);
+    const setMeta = (index.questionSets || []).find((s) => s.id === sel.setId) || { type: sel.setId === 'short' ? 'short-answer' : 'multiple-choice' };
 
     // Trộn thứ tự phương án của từng câu trắc nghiệm. Nếu không trộn, đáp án
     // đúng luôn nằm ở vị trí đã lưu trong bộ đề (hầu hết là A), học sinh có thể

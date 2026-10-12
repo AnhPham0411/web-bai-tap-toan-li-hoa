@@ -139,5 +139,35 @@
         }
       ]
     }
+  ],
+  "questionSets": [
+    {
+      "id": "mc",
+      "type": "multiple-choice",
+      "title": "Trắc nghiệm",
+      "description": "Chọn một đáp án đúng trong bốn phương án A, B, C, D.",
+      "file": "questions/mc.json"
+    },
+    {
+      "id": "short",
+      "type": "short-answer",
+      "title": "Trả lời ngắn",
+      "description": "Tính toán và điền đáp số. Đáp án là một số.",
+      "file": "questions/short.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "nb",
+      "label": "Nhận biết"
+    },
+    {
+      "id": "th",
+      "label": "Thông hiểu"
+    },
+    {
+      "id": "vd",
+      "label": "Vận dụng"
+    }
   ]
 }

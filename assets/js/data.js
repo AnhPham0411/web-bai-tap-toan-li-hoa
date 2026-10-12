@@ -57,6 +57,8 @@ export async function bootstrap(subjectId = null) {
   // Chỉ ghi lại lựa chọn sau khi đã xác nhận môn đó có thật, tránh lưu id rác.
   if (subject.id !== getActiveSubjectId()) setActiveSubjectId(subject.id);
   const index = await getSubjectIndex(subject);
+  if (!Array.isArray(index.questionSets)) index.questionSets = [];
+  if (!Array.isArray(index.levels)) index.levels = [];
   const sets = {};
   await Promise.all(
     index.questionSets.map(async (set) => {

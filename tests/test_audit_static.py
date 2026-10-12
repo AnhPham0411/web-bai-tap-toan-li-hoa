@@ -72,5 +72,25 @@ class TestStaticAudit(unittest.TestCase):
         self.assertTrue(has_error)
         self.assertIn("unbalanced", msg.lower())
 
+    def test_all_manifest_subjects_have_valid_index(self):
+        import json
+        from pathlib import Path
+        root = Path(__file__).resolve().parent.parent
+        manifest_path = root / 'data' / 'manifest.json'
+        with open(manifest_path, encoding='utf-8') as f:
+            manifest = json.load(f)
+        for subj in manifest['subjects']:
+            if not subj.get('available'):
+                continue
+            idx_path = root / 'data' / subj['path'] / 'index.json'
+            self.assertTrue(idx_path.exists(), f"Missing index.json for {subj['id']}")
+            with open(idx_path, encoding='utf-8') as f:
+                idx = json.load(f)
+            self.assertIn('chapters', idx, f"{subj['id']} index missing chapters")
+            self.assertIn('questionSets', idx, f"{subj['id']} index missing questionSets")
+            self.assertTrue(len(idx['questionSets']) > 0, f"{subj['id']} questionSets is empty")
+            self.assertIn('levels', idx, f"{subj['id']} index missing levels")
+            self.assertTrue(len(idx['levels']) > 0, f"{subj['id']} levels is empty")
+
 if __name__ == '__main__':
     unittest.main()

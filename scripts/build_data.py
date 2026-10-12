@@ -344,6 +344,12 @@ def main():
         index_path = os.path.join(DATA_DIR, subject, "index.json")
         with open(index_path, encoding="utf-8") as f:
             index = json.load(f)
+
+        if "questionSets" not in index or not index["questionSets"]:
+            p.error("%s/index.json" % subject, "thieu cau truc 'questionSets'")
+        if "levels" not in index or not index["levels"]:
+            p.error("%s/index.json" % subject, "thieu cau truc 'levels'")
+
         lessons_of = dict((ch["id"], set(l["id"] for l in ch["lessons"]))
                           for ch in index["chapters"])
 

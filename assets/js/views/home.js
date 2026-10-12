@@ -9,8 +9,9 @@ export function renderHome(ctx) {
   const totalLessons = index.chapters
     .reduce((sum, ch) => sum + ch.lessons.length, 0);
 
-  const setStats = index.questionSets
-    .map((s) => `<div class="stat"><span class="n">${sets[s.id].questions.length}</span><span class="l">Câu ${s.title.toLowerCase()}</span></div>`)
+  const qSets = index.questionSets || [];
+  const setStats = qSets
+    .map((s) => `<div class="stat"><span class="n">${sets[s.id]?.questions?.length || 0}</span><span class="l">Câu ${s.title.toLowerCase()}</span></div>`)
     .join('');
 
   const hasTerms = new Set(index.chapters.map((ch) => ch.term || 1)).size > 1;
@@ -23,8 +24,8 @@ export function renderHome(ctx) {
     </div>` : '';
 
   const chapterCards = index.chapters.map((ch) => {
-    const counts = index.questionSets.map((s) => {
-      const n = sets[s.id].questions.filter((q) => q.chapter === ch.id).length;
+    const counts = qSets.map((s) => {
+      const n = (sets[s.id]?.questions || []).filter((q) => q.chapter === ch.id).length;
       return `${n} ${s.title.toLowerCase()}`;
     }).join(' · ');
 
