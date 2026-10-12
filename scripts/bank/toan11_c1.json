@@ -1,0 +1,2248 @@
+{
+  "sgk_chapter_title": "Hàm số lượng giác và phương trình lượng giác",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b1",
+      "sgk_title": "Bài 1. Giá trị lượng giác của góc lượng giác"
+    },
+    {
+      "lesson_id": "b2",
+      "sgk_title": "Bài 2. Công thức lượng giác"
+    },
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Hàm số lượng giác"
+    },
+    {
+      "lesson_id": "b4",
+      "sgk_title": "Bài 4. Phương trình lượng giác cơ bản"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi độ sang radian",
+      "question": "Góc $30^\\circ$ đổi sang đơn vị rađian bằng:",
+      "choices": [
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$30^\\circ = 30 \\cdot \\frac{\\pi}{180} = \\frac{\\pi}{6}$."
+    },
+    {
+      "id": "mc-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi độ sang radian",
+      "question": "Góc $45^\\circ$ có số đo rađian là:",
+      "choices": [
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$45^\\circ = 45 \\cdot \\frac{\\pi}{180} = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": "mc-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi độ sang radian",
+      "question": "Đổi góc $60^\\circ$ sang rađian ta được:",
+      "choices": [
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{2\\pi}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$60^\\circ = 60 \\cdot \\frac{\\pi}{180} = \\frac{\\pi}{3}$."
+    },
+    {
+      "id": "mc-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi độ sang radian",
+      "question": "Số đo theo rađian của góc $90^\\circ$ là:",
+      "choices": [
+        "$\\frac{\\pi}{2}$",
+        "$\\pi$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "$90^\\circ = \\frac{\\pi}{2}$ rad."
+    },
+    {
+      "id": "mc-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi độ sang radian",
+      "question": "Góc $120^\\circ$ đổi sang rađian bằng:",
+      "choices": [
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{3\\pi}{4}$",
+        "$\\frac{5\\pi}{6}$",
+        "$\\frac{\\pi}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$120^\\circ = 120 \\cdot \\frac{\\pi}{180} = \\frac{2\\pi}{3}$ rad."
+    },
+    {
+      "id": "mc-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi radian sang độ",
+      "question": "Góc $\\frac{\\pi}{2}$ rad có số đo bằng độ là:",
+      "choices": [
+        "$90^\\circ$",
+        "$180^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{\\pi}{2} \\text{ rad} = 90^\\circ$."
+    },
+    {
+      "id": "mc-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi radian sang độ",
+      "question": "Đổi góc $\\pi$ rad sang độ:",
+      "choices": [
+        "$180^\\circ$",
+        "$360^\\circ$",
+        "$90^\\circ$",
+        "$270^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\pi \\text{ rad} = 180^\\circ$."
+    },
+    {
+      "id": "mc-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi radian sang độ",
+      "question": "Góc $\\frac{\\pi}{3}$ rad tương ứng với số đo độ là:",
+      "choices": [
+        "$60^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{\\pi}{3} \\text{ rad} = 60^\\circ$."
+    },
+    {
+      "id": "mc-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi radian sang độ",
+      "question": "Số đo theo độ của góc $\\frac{\\pi}{6}$ rad là:",
+      "choices": [
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$45^\\circ$",
+        "$15^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{\\pi}{6} \\text{ rad} = 30^\\circ$."
+    },
+    {
+      "id": "mc-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi radian sang độ",
+      "question": "Góc $\\frac{3\\pi}{2}$ rad đổi sang độ bằng:",
+      "choices": [
+        "$270^\\circ$",
+        "$180^\\circ$",
+        "$360^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{3\\pi}{2} \\text{ rad} = 270^\\circ$."
+    },
+    {
+      "id": "mc-c1-011",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Dấu của giá trị lượng giác",
+      "question": "Cho góc $\\alpha$ thuộc góc phần tư thứ I ($0 < \\alpha < \\frac{\\pi}{2}$). Khẳng định nào đúng?",
+      "choices": [
+        "$\\sin \\alpha > 0$",
+        "$\\cos \\alpha < 0$",
+        "$\\tan \\alpha < 0$",
+        "$\\sin \\alpha < 0$"
+      ],
+      "answer": 0,
+      "explanation": "Ở góc phần tư thứ I, tất cả các giá trị lượng giác đều dương."
+    },
+    {
+      "id": "mc-c1-012",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Dấu của giá trị lượng giác",
+      "question": "Nếu $\\frac{\\pi}{2} < \\alpha < \\pi$ (góc phần tư thứ II) thì:",
+      "choices": [
+        "$\\sin \\alpha > 0, \\cos \\alpha < 0$",
+        "$\\sin \\alpha < 0, \\cos \\alpha > 0$",
+        "$\\sin \\alpha < 0, \\cos \\alpha < 0$",
+        "$\\sin \\alpha > 0, \\cos \\alpha > 0$"
+      ],
+      "answer": 0,
+      "explanation": "Ở góc phần tư thứ II, tung độ dương và hoành độ âm nên $\\sin \\alpha > 0, \\cos \\alpha < 0$."
+    },
+    {
+      "id": "mc-c1-013",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Dấu của giá trị lượng giác",
+      "question": "Với $\\pi < \\alpha < \\frac{3\\pi}{2}$ (góc phần tư thứ III), ta có:",
+      "choices": [
+        "$\\tan \\alpha > 0$",
+        "$\\sin \\alpha > 0$",
+        "$\\cos \\alpha > 0$",
+        "$\\cot \\alpha < 0$"
+      ],
+      "answer": 0,
+      "explanation": "Ở góc phần tư thứ III, $\\sin \\alpha < 0, \\cos \\alpha < 0$ nên $\\tan \\alpha > 0$."
+    },
+    {
+      "id": "mc-c1-014",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Dấu của giá trị lượng giác",
+      "question": "Cho góc $\\alpha$ thuộc góc phần tư thứ IV. Dấu của $\\cos \\alpha$ là:",
+      "choices": [
+        "$\\cos \\alpha > 0$",
+        "$\\cos \\alpha < 0$",
+        "$\\cos \\alpha = 0$",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Ở góc phần tư thứ IV, hoành độ dương nên $\\cos \\alpha > 0$."
+    },
+    {
+      "id": "mc-c1-015",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Dấu của giá trị lượng giác",
+      "question": "Khẳng định nào sau đây là SAI với mọi góc $\\alpha$?",
+      "choices": [
+        "$\\sin^2 \\alpha + \\cos^2 \\alpha = 2$",
+        "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
+        "$-1 \\le \\sin \\alpha \\le 1$",
+        "$-1 \\le \\cos \\alpha \\le 1$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức đúng là $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$."
+    },
+    {
+      "id": "mc-c1-016",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Công thức lượng giác cơ bản",
+      "question": "Đẳng thức nào sau đây đúng với mọi góc $\\alpha$?",
+      "choices": [
+        "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
+        "$\\sin^2 \\alpha - \\cos^2 \\alpha = 1$",
+        "$\\cos^2 \\alpha - \\sin^2 \\alpha = 1$",
+        "$\\sin \\alpha + \\cos \\alpha = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Hằng đẳng thức cơ bản: $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$."
+    },
+    {
+      "id": "mc-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Công thức lượng giác cơ bản",
+      "question": "Với $\\alpha \\neq \\frac{\\pi}{2} + k\\pi$, hệ thức nào đúng?",
+      "choices": [
+        "$1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
+        "$1 + \\tan^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$",
+        "$1 + \\cot^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
+        "$\\tan \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$"
+      ],
+      "answer": 0,
+      "explanation": "Công thức $1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$."
+    },
+    {
+      "id": "mc-c1-018",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Công thức lượng giác cơ bản",
+      "question": "Với $\\alpha \\neq k\\frac{\\pi}{2}$, tích $\\tan \\alpha \\cdot \\cot \\alpha$ bằng:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan \\alpha \\cdot \\cot \\alpha = 1$."
+    },
+    {
+      "id": "mc-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Công thức lượng giác cơ bản",
+      "question": "Công thức nào liên hệ giữa $\\cot \\alpha$ và $\\sin \\alpha$ đúng?",
+      "choices": [
+        "$1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$",
+        "$1 + \\cot^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
+        "$\\cot^2 \\alpha - 1 = \\frac{1}{\\sin^2 \\alpha}$",
+        "$\\cot \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$"
+      ],
+      "answer": 0,
+      "explanation": "$1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$."
+    },
+    {
+      "id": "mc-c1-020",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Công thức lượng giác cơ bản",
+      "question": "Giá trị của biểu thức $\\sin^2 30^\\circ + \\cos^2 30^\\circ$ là:",
+      "choices": [
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Theo hằng đẳng thức, giá trị luôn bằng 1."
+    },
+    {
+      "id": "mc-c1-021",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức cộng góc",
+      "question": "Công thức nào sau đây đúng về $\\cos(a - b)$?",
+      "choices": [
+        "$\\cos(a - b) = \\cos a \\cos b + \\sin a \\sin b$",
+        "$\\cos(a - b) = \\cos a \\cos b - \\sin a \\sin b$",
+        "$\\cos(a - b) = \\sin a \\cos b - \\cos a \\sin b$",
+        "$\\cos(a - b) = \\sin a \\cos b + \\cos a \\sin b$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos(a - b) = \\cos a \\cos b + \\sin a \\sin b$."
+    },
+    {
+      "id": "mc-c1-022",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức cộng góc",
+      "question": "Công thức $\\sin(a + b)$ bằng biểu thức nào?",
+      "choices": [
+        "$\\sin a \\cos b + \\cos a \\sin b$",
+        "$\\sin a \\cos b - \\cos a \\sin b$",
+        "$\\cos a \\cos b - \\sin a \\sin b$",
+        "$\\cos a \\cos b + \\sin a \\sin b$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b$."
+    },
+    {
+      "id": "mc-c1-023",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức cộng góc",
+      "question": "Khai triển $\\cos(a + b)$ là:",
+      "choices": [
+        "$\\cos a \\cos b - \\sin a \\sin b$",
+        "$\\cos a \\cos b + \\sin a \\sin b$",
+        "$\\sin a \\cos b + \\cos a \\sin b$",
+        "$\\sin a \\cos b - \\cos a \\sin b$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b$."
+    },
+    {
+      "id": "mc-c1-024",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức cộng góc",
+      "question": "Biểu thức $\\sin(a - b)$ bằng:",
+      "choices": [
+        "$\\sin a \\cos b - \\cos a \\sin b$",
+        "$\\sin a \\cos b + \\cos a \\sin b$",
+        "$\\cos a \\cos b - \\sin a \\sin b$",
+        "$\\cos a \\cos b + \\sin a \\sin b$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$."
+    },
+    {
+      "id": "mc-c1-025",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức cộng góc",
+      "question": "Công thức tính $\\tan(a + b)$ là:",
+      "choices": [
+        "$\\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$",
+        "$\\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$",
+        "$\\frac{\\tan a + \\tan b}{1 + \\tan a \\tan b}$",
+        "$\\tan a + \\tan b$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan(a + b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$."
+    },
+    {
+      "id": "mc-c1-026",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức nhân đôi",
+      "question": "Công thức nhân đôi của $\\sin 2a$ là:",
+      "choices": [
+        "$2\\sin a \\cos a$",
+        "$\\cos^2 a - \\sin^2 a$",
+        "$2\\sin a$",
+        "$\\sin a \\cos a$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 2a = 2\\sin a \\cos a$."
+    },
+    {
+      "id": "mc-c1-027",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức nhân đôi",
+      "question": "Biểu thức nào sau đây bằng $\\cos 2a$?",
+      "choices": [
+        "$\\cos^2 a - \\sin^2 a$",
+        "$\\cos^2 a + \\sin^2 a$",
+        "$2\\cos a - 1$",
+        "$1 - 2\\cos^2 a$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a$."
+    },
+    {
+      "id": "mc-c1-028",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức nhân đôi",
+      "question": "Biểu thức nào là dạng khác của $\\cos 2a$?",
+      "choices": [
+        "$2\\cos^2 a - 1$",
+        "$2\\cos^2 a + 1$",
+        "$1 - \\cos^2 a$",
+        "$\\cos^2 a - 1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = 2\\cos^2 a - 1$."
+    },
+    {
+      "id": "mc-c1-029",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức nhân đôi",
+      "question": "Công thức nhân đôi nào bằng $1 - 2\\sin^2 a$?",
+      "choices": [
+        "$\\cos 2a$",
+        "$\\sin 2a$",
+        "$\\tan 2a$",
+        "$-\\cos 2a$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = 1 - 2\\sin^2 a$."
+    },
+    {
+      "id": "mc-c1-030",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Công thức nhân đôi",
+      "question": "Khai triển công thức $\\tan 2a$ là:",
+      "choices": [
+        "$\\frac{2\\tan a}{1 - \\tan^2 a}$",
+        "$\\frac{2\\tan a}{1 + \\tan^2 a}$",
+        "$\\frac{\\tan a}{1 - \\tan^2 a}$",
+        "$2\\tan a$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a}$."
+    },
+    {
+      "id": "mc-c1-031",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tập xác định hàm số lượng giác",
+      "question": "Tập xác định của hàm số $y = \\sin x$ là:",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$[-1; 1]$",
+        "$(0; +\\infty)$",
+        "$\\mathbb{R} \\setminus \\{0\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số sin xác định trên toàn bộ tập số thực $\\mathbb{R}$."
+    },
+    {
+      "id": "mc-c1-032",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tập xác định hàm số lượng giác",
+      "question": "Tập xác định của hàm số $y = \\cos x$ là:",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$[-1; 1]$",
+        "$[0; +\\infty)$",
+        "$\\mathbb{R} \\setminus \\{k\\pi\\}$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số cos xác định trên $\\mathbb{R}$."
+    },
+    {
+      "id": "mc-c1-033",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tập xác định hàm số lượng giác",
+      "question": "Tập xác định của hàm số $y = \\tan x$ là:",
+      "choices": [
+        "$D = \\mathbb{R} \\setminus \\{\\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$D = \\mathbb{R} \\setminus \\{k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$D = \\mathbb{R}$",
+        "$D = [-1; 1]$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số $\\tan x$ không xác định khi $\\cos x = 0 \\Leftrightarrow x = \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-034",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tập xác định hàm số lượng giác",
+      "question": "Hàm số $y = \\cot x$ có tập xác định là:",
+      "choices": [
+        "$D = \\mathbb{R} \\setminus \\{k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$D = \\mathbb{R} \\setminus \\{\\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$D = \\mathbb{R}$",
+        "$D = (0; +\\infty)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot x$ không xác định khi $\\sin x = 0 \\Leftrightarrow x = k\\pi$."
+    },
+    {
+      "id": "mc-c1-035",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tập xác định hàm số lượng giác",
+      "question": "Tập xác định của hàm số $y = \\frac{1}{\\cos x}$ là:",
+      "choices": [
+        "$\\mathbb{R} \\setminus \\{\\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$\\mathbb{R} \\setminus \\{k\\pi, k \\in \\mathbb{Z}\\}$",
+        "$\\mathbb{R}$",
+        "$[-1; 1]$"
+      ],
+      "answer": 0,
+      "explanation": "Điều kiện $\\cos x \\neq 0 \\Leftrightarrow x \\neq \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-036",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tính chẵn lẻ hàm số lượng giác",
+      "question": "Trong các hàm số sau, hàm số nào là hàm số chẵn?",
+      "choices": [
+        "$y = \\cos x$",
+        "$y = \\sin x$",
+        "$y = \\tan x$",
+        "$y = \\cot x$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos(-x) = \\cos x$ nên $y = \\cos x$ là hàm số chẵn."
+    },
+    {
+      "id": "mc-c1-037",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tính chẵn lẻ hàm số lượng giác",
+      "question": "Hàm số nào sau đây là hàm số lẻ?",
+      "choices": [
+        "$y = \\sin x$",
+        "$y = \\cos x$",
+        "$y = \\cos 2x$",
+        "$y = \\cos^2 x$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin(-x) = -\\sin x$ nên $y = \\sin x$ là hàm số lẻ."
+    },
+    {
+      "id": "mc-c1-038",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tính chẵn lẻ hàm số lượng giác",
+      "question": "Hàm số $y = \\tan x$ có tính chất nào?",
+      "choices": [
+        "Là hàm số lẻ",
+        "Là hàm số chẵn",
+        "Không chẵn không lẻ",
+        "Vừa chẵn vừa lẻ"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan(-x) = -\\tan x$ nên là hàm số lẻ."
+    },
+    {
+      "id": "mc-c1-039",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tính chẵn lẻ hàm số lượng giác",
+      "question": "Đồ thị của hàm số $y = \\cos x$ có trục đối xứng là:",
+      "choices": [
+        "Trục tung $Oy$",
+        "Trục hoành $Ox$",
+        "Gốc toạ độ $O$",
+        "Đường thẳng $y = x$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số chẵn nhận trục tung làm trục đối xứng."
+    },
+    {
+      "id": "mc-c1-040",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Tính chẵn lẻ hàm số lượng giác",
+      "question": "Đồ thị của hàm số lẻ $y = \\sin x$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Gốc toạ độ $O(0; 0)$",
+        "Điểm $(1; 0)$",
+        "Điểm $(0; 1)$",
+        "Điểm $(\\pi; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Đồ thị hàm số lẻ nhận gốc toạ độ làm tâm đối xứng."
+    },
+    {
+      "id": "mc-c1-041",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì hàm số lượng giác",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\sin x$ là:",
+      "choices": [
+        "$2\\pi$",
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$4\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số $y = \\sin x$ tuần hoàn với chu kì $T = 2\\pi$."
+    },
+    {
+      "id": "mc-c1-042",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì hàm số lượng giác",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\cos x$ bằng:",
+      "choices": [
+        "$2\\pi$",
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$3\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số $y = \\cos x$ tuần hoàn với chu kì $T = 2\\pi$."
+    },
+    {
+      "id": "mc-c1-043",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì hàm số lượng giác",
+      "question": "Hàm số $y = \\tan x$ có chu kì tuần hoàn là:",
+      "choices": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$3\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số $\\tan x$ tuần hoàn với chu kì $T = \\pi$."
+    },
+    {
+      "id": "mc-c1-044",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì hàm số lượng giác",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\cot x$ là:",
+      "choices": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$4\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số $\\cot x$ tuần hoàn với chu kì $T = \\pi$."
+    },
+    {
+      "id": "mc-c1-045",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì hàm số lượng giác",
+      "question": "Chu kì của hàm số $y = \\sin(2x)$ là:",
+      "choices": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$4\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{2\\pi}{|2|} = \\pi$."
+    },
+    {
+      "id": "mc-c1-046",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình sin cơ bản",
+      "question": "Nghiệm của phương trình $\\sin x = 0$ là:",
+      "choices": [
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pi + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin x = 0 \\Leftrightarrow x = k\\pi$."
+    },
+    {
+      "id": "mc-c1-047",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình sin cơ bản",
+      "question": "Nghiệm của phương trình $\\sin x = 1$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin x = 1 \\Leftrightarrow x = \\frac{\\pi}{2} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-048",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình sin cơ bản",
+      "question": "Giải phương trình $\\sin x = -1$:",
+      "choices": [
+        "$x = -\\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pi + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin x = -1 \\Leftrightarrow x = -\\frac{\\pi}{2} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-049",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình sin cơ bản",
+      "question": "Số nghiệm của phương trình $\\sin x = 2$ là:",
+      "choices": [
+        "$0$ (vô nghiệm)",
+        "$1$",
+        "$2$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Vì $|2| > 1$ nên phương trình vô nghiệm."
+    },
+    {
+      "id": "mc-c1-050",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình sin cơ bản",
+      "question": "Phương trình $\\sin x = -1,5$ có nghiệm là:",
+      "choices": [
+        "Vô nghiệm",
+        "$x = \\pm \\frac{\\pi}{2} + k2\\pi$",
+        "$x = k\\pi$",
+        "$x = \\pi + k2\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $-1,5 < -1$ nên phương trình vô nghiệm."
+    },
+    {
+      "id": "mc-c1-051",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình cos cơ bản",
+      "question": "Nghiệm của phương trình $\\cos x = 0$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pi + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = 0 \\Leftrightarrow x = \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-052",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình cos cơ bản",
+      "question": "Nghiệm của phương trình $\\cos x = 1$ là:",
+      "choices": [
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pi + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = 1 \\Leftrightarrow x = k2\\pi$."
+    },
+    {
+      "id": "mc-c1-053",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình cos cơ bản",
+      "question": "Phương trình $\\cos x = -1$ có tập nghiệm là:",
+      "choices": [
+        "$x = \\pi + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = -1 \\Leftrightarrow x = \\pi + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-054",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình cos cơ bản",
+      "question": "Phương trình $\\cos x = 3$ có bao nhiêu nghiệm?",
+      "choices": [
+        "$0$ nghiệm",
+        "$1$ nghiệm",
+        "$2$ nghiệm",
+        "Vô số nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Do $|3| > 1$ nên phương trình vô nghiệm."
+    },
+    {
+      "id": "mc-c1-055",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình cos cơ bản",
+      "question": "Điều kiện để phương trình $\\cos x = m$ có nghiệm là:",
+      "choices": [
+        "$-1 \\le m \\le 1$",
+        "$m > 1$",
+        "$m < -1$",
+        "$m \\in \\mathbb{R}$"
+      ],
+      "answer": 0,
+      "explanation": "Tập giá trị của cos là $[-1; 1]$ nên $|m| \\le 1$."
+    },
+    {
+      "id": "mc-c1-056",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình tan và cot",
+      "question": "Nghiệm của phương trình $\\tan x = 0$ là:",
+      "choices": [
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = 0 \\Leftrightarrow x = k\\pi$."
+    },
+    {
+      "id": "mc-c1-057",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình tan và cot",
+      "question": "Phương trình $\\tan x = 1$ có nghiệm là:",
+      "choices": [
+        "$x = \\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{4} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = 1 = \\tan\\frac{\\pi}{4} \\Leftrightarrow x = \\frac{\\pi}{4} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-058",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình tan và cot",
+      "question": "Nghiệm của phương trình $\\cot x = 1$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot x = 1 \\Leftrightarrow x = \\frac{\\pi}{4} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-059",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình tan và cot",
+      "question": "Phương trình $\\tan x = \\sqrt{3}$ có nghiệm là:",
+      "choices": [
+        "$x = \\frac{\\pi}{3} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{6} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{3} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = \\tan\\frac{\\pi}{3} \\Leftrightarrow x = \\frac{\\pi}{3} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-060",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nghiệm phương trình tan và cot",
+      "question": "Phương trình $\\cot x = 0$ có nghiệm là:",
+      "choices": [
+        "$x = \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k\\pi, k \\in \\mathbb{Z}$",
+        "$x = k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pi + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot x = 0 \\Leftrightarrow x = \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-061",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác khi biết một giá trị",
+      "question": "Cho $\\sin \\alpha = \\frac{3}{5}$ với $0 < \\alpha < \\frac{\\pi}{2}$. Giá trị của $\\cos \\alpha$ là:",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$-\\frac{4}{5}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = \\sqrt{1 - \\sin^2 \\alpha} = \\sqrt{1 - 9/25} = 4/5$."
+    },
+    {
+      "id": "mc-c1-062",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác khi biết một giá trị",
+      "question": "Cho $\\cos \\alpha = -\\frac{4}{5}$ với $\\frac{\\pi}{2} < \\alpha < \\pi$. Giá trị của $\\sin \\alpha$ bằng:",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$-\\frac{3}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Do $\\alpha$ ở góc phần tư II nên $\\sin \\alpha > 0 \\Rightarrow \\sin \\alpha = 3/5$."
+    },
+    {
+      "id": "mc-c1-063",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác khi biết một giá trị",
+      "question": "Cho $\\sin \\alpha = \\frac{5}{13}$ và $0 < \\alpha < \\frac{\\pi}{2}$. Tính $\\cos \\alpha$:",
+      "choices": [
+        "$\\frac{12}{13}$",
+        "$-\\frac{12}{13}$",
+        "$\\frac{8}{13}$",
+        "$\\frac{10}{13}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos \\alpha = \\sqrt{1 - (5/13)^2} = 12/13$."
+    },
+    {
+      "id": "mc-c1-064",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác khi biết một giá trị",
+      "question": "Cho $\\cos \\alpha = \\frac{1}{2}$ với $0 < \\alpha < \\frac{\\pi}{2}$. Giá trị của $\\tan \\alpha$ là:",
+      "choices": [
+        "$\\sqrt{3}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin \\alpha = \\sqrt{3}/2 \\Rightarrow \\tan \\alpha = \\sin/\\cos = \\sqrt{3}$."
+    },
+    {
+      "id": "mc-c1-065",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác theo tan",
+      "question": "Cho $\\tan \\alpha = 2$. Giá trị của $\\cot \\alpha$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$-2$",
+        "$-\\frac{1}{2}$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = \\frac{1}{\\tan \\alpha} = \\frac{1}{2}$."
+    },
+    {
+      "id": "mc-c1-066",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác theo tan",
+      "question": "Cho $\\tan \\alpha = 3$. Tính giá trị biểu thức $\\frac{1}{\\cos^2 \\alpha}$:",
+      "choices": [
+        "$10$",
+        "$9$",
+        "$8$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{1}{\\cos^2 \\alpha} = 1 + \\tan^2 \\alpha = 1 + 9 = 10$."
+    },
+    {
+      "id": "mc-c1-067",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác theo tan",
+      "question": "Biết $\\tan \\alpha = -1$. Giá trị của $\\cot \\alpha$ là:",
+      "choices": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$-2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cot \\alpha = 1/(-1) = -1$."
+    },
+    {
+      "id": "mc-c1-068",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị lượng giác theo tan",
+      "question": "Cho $\\cot \\alpha = 4$. Giá trị của biểu thức $\\frac{1}{\\sin^2 \\alpha}$ bằng:",
+      "choices": [
+        "$17$",
+        "$16$",
+        "$15$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explanation": "$1 + \\cot^2 \\alpha = 1 + 16 = 17$."
+    },
+    {
+      "id": "mc-c1-069",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức cộng góc",
+      "question": "Tính giá trị của $\\sin 75^\\circ$ bằng công thức cộng $\\sin(45^\\circ + 30^\\circ)$:",
+      "choices": [
+        "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{3} + 1}{2}$",
+        "$\\frac{\\sqrt{2} + 1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 45^\\circ \\cos 30^\\circ + \\cos 45^\\circ \\sin 30^\\circ = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$."
+    },
+    {
+      "id": "mc-c1-070",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức cộng góc",
+      "question": "Giá trị của $\\cos 75^\\circ$ bằng:",
+      "choices": [
+        "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{3} - 1}{4}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos(45^\\circ + 30^\\circ) = \\frac{\\sqrt{6} - \\sqrt{2}}{4}$."
+    },
+    {
+      "id": "mc-c1-071",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức cộng góc",
+      "question": "Biểu thức $\\cos 40^\\circ \\cos 20^\\circ - \\sin 40^\\circ \\sin 20^\\circ$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$= \\cos(40^\\circ + 20^\\circ) = \\cos 60^\\circ = 1/2$."
+    },
+    {
+      "id": "mc-c1-072",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức cộng góc",
+      "question": "Rút gọn $\\sin 50^\\circ \\cos 10^\\circ - \\cos 50^\\circ \\sin 10^\\circ$ được kết quả:",
+      "choices": [
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$= \\sin(50^\\circ - 10^\\circ) = \\sin 40^\\circ$ -> sửa số: $\\sin 70^\\circ \\cos 10^\\circ - \\cos 70^\\circ \\sin 10^\\circ = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "id": "mc-c1-073",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức nhân đôi",
+      "question": "Cho $\\sin a = \\frac{3}{5}$ và $\\cos a = \\frac{4}{5}$. Giá trị của $\\sin 2a$ bằng:",
+      "choices": [
+        "$\\frac{24}{25}$",
+        "$\\frac{7}{25}$",
+        "$\\frac{12}{25}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin 2a = 2\\sin a \\cos a = 2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$."
+    },
+    {
+      "id": "mc-c1-074",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức nhân đôi",
+      "question": "Cho $\\cos a = \\frac{4}{5}$. Giá trị của $\\cos 2a$ là:",
+      "choices": [
+        "$\\frac{7}{25}$",
+        "$\\frac{24}{25}$",
+        "$\\frac{9}{25}$",
+        "$\\frac{16}{25}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = 2\\cos^2 a - 1 = 2(16/25) - 1 = 7/25$."
+    },
+    {
+      "id": "mc-c1-075",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức nhân đôi",
+      "question": "Nếu $\\cos a = \\frac{1}{3}$ thì $\\cos 2a$ bằng:",
+      "choices": [
+        "$-\\frac{7}{9}$",
+        "$\\frac{7}{9}$",
+        "$-\\frac{5}{9}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = 2(1/9) - 1 = -7/9$."
+    },
+    {
+      "id": "mc-c1-076",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Áp dụng công thức nhân đôi",
+      "question": "Cho $\\sin a = \\frac{1}{2}$. Giá trị của $\\cos 2a$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$-\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos 2a = 1 - 2\\sin^2 a = 1 - 2(1/4) = 1/2$."
+    },
+    {
+      "id": "mc-c1-077",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm lượng giác",
+      "question": "Giá trị lớn nhất của hàm số $y = 3\\sin x + 2$ là:",
+      "choices": [
+        "$5$",
+        "$3$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\sin x \\le 1$ nên $y \\le 3(1) + 2 = 5$."
+    },
+    {
+      "id": "mc-c1-078",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm lượng giác",
+      "question": "Giá trị nhỏ nhất của hàm số $y = 4\\cos x - 1$ là:",
+      "choices": [
+        "$-5$",
+        "$-3$",
+        "$-1$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\cos x \\ge -1$ nên $y \\ge 4(-1) - 1 = -5$."
+    },
+    {
+      "id": "mc-c1-079",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm lượng giác",
+      "question": "Tập giá trị của hàm số $y = 2\\sin(x - \\frac{\\pi}{3}) + 1$ là:",
+      "choices": [
+        "$[-1; 3]$",
+        "$[-2; 2]$",
+        "$[1; 3]$",
+        "$[-3; 3]$"
+      ],
+      "answer": 0,
+      "explanation": "$-2 + 1 \\le y \\le 2 + 1 \\Rightarrow y \\in [-1; 3]$."
+    },
+    {
+      "id": "mc-c1-080",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm lượng giác",
+      "question": "Giá trị lớn nhất của hàm số $y = -5\\cos(2x) + 3$ là:",
+      "choices": [
+        "$8$",
+        "$5$",
+        "$3$",
+        "$-2$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $\\cos(2x) = -1 \\Rightarrow y = -5(-1) + 3 = 8$."
+    },
+    {
+      "id": "mc-c1-081",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Chu kì hàm số hợp",
+      "question": "Chu kì của hàm số $y = \\cos(4x)$ là:",
+      "choices": [
+        "$\\frac{\\pi}{2}$",
+        "$\\pi$",
+        "$2\\pi$",
+        "$4\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$."
+    },
+    {
+      "id": "mc-c1-082",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Chu kì hàm số hợp",
+      "question": "Hàm số $y = \\sin(3x)$ có chu kì bằng:",
+      "choices": [
+        "$\\frac{2\\pi}{3}$",
+        "$3\\pi$",
+        "$\\pi$",
+        "$\\frac{\\pi}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{2\\pi}{3}$."
+    },
+    {
+      "id": "mc-c1-083",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Chu kì hàm số hợp",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\tan(2x)$ là:",
+      "choices": [
+        "$\\frac{\\pi}{2}$",
+        "$\\pi$",
+        "$2\\pi$",
+        "$\\frac{\\pi}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{\\pi}{2}$."
+    },
+    {
+      "id": "mc-c1-084",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Chu kì hàm số hợp",
+      "question": "Hàm số $y = \\cos\\left(\\frac{x}{2}\\right)$ có chu kì là:",
+      "choices": [
+        "$4\\pi$",
+        "$2\\pi$",
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{2\\pi}{1/2} = 4\\pi$."
+    },
+    {
+      "id": "mc-c1-085",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình sin x = a cụ thể",
+      "question": "Nghiệm của phương trình $\\sin x = \\frac{1}{2}$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{6} + k2\\pi$ hoặc $x = \\frac{5\\pi}{6} + k2\\pi$",
+        "$x = \\frac{\\pi}{3} + k2\\pi$ hoặc $x = \\frac{2\\pi}{3} + k2\\pi$",
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi$",
+        "$x = \\frac{\\pi}{6} + k\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin x = \\sin\\frac{\\pi}{6} \\Leftrightarrow x = \\frac{\\pi}{6} + k2\\pi$ hoặc $x = \\frac{5\\pi}{6} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-086",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình sin x = a cụ thể",
+      "question": "Giải phương trình $\\sin x = \\frac{\\sqrt{2}}{2}$:",
+      "choices": [
+        "$x = \\frac{\\pi}{4} + k2\\pi$ hoặc $x = \\frac{3\\pi}{4} + k2\\pi$",
+        "$x = \\pm \\frac{\\pi}{4} + k2\\pi$",
+        "$x = \\frac{\\pi}{4} + k\\pi$",
+        "$x = \\frac{\\pi}{2} + k2\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sin x = \\sin\\frac{\\pi}{4} \\Rightarrow x = \\frac{\\pi}{4} + k2\\pi$ hoặc $x = \\frac{3\\pi}{4} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-087",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình sin x = a cụ thể",
+      "question": "Nghiệm của phương trình $\\sin x = \\frac{\\sqrt{3}}{2}$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{3} + k2\\pi$ hoặc $x = \\frac{2\\pi}{3} + k2\\pi$",
+        "$x = \\frac{\\pi}{6} + k2\\pi$ hoặc $x = \\frac{5\\pi}{6} + k2\\pi$",
+        "$x = \\pm \\frac{\\pi}{3} + k2\\pi$",
+        "$x = \\frac{\\pi}{3} + k\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Nghiệm là $\\pi/3 + k2\\pi$ và $2\\pi/3 + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-088",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình sin x = a cụ thể",
+      "question": "Phương trình $\\sin x = -\\frac{1}{2}$ có họ nghiệm là:",
+      "choices": [
+        "$x = -\\frac{\\pi}{6} + k2\\pi$ hoặc $x = \\frac{7\\pi}{6} + k2\\pi$",
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi$",
+        "$x = -\\frac{\\pi}{3} + k2\\pi$ hoặc $x = \\frac{4\\pi}{3} + k2\\pi$",
+        "$x = -\\frac{\\pi}{6} + k\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Nghiệm là $-\\pi/6 + k2\\pi$ và $7\\pi/6 + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-089",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình cos x = a cụ thể",
+      "question": "Nghiệm của phương trình $\\cos x = \\frac{1}{2}$ là:",
+      "choices": [
+        "$x = \\pm \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{3} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\cos\\frac{\\pi}{3} \\Leftrightarrow x = \\pm \\frac{\\pi}{3} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-090",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình cos x = a cụ thể",
+      "question": "Giải phương trình $\\cos x = \\frac{\\sqrt{3}}{2}$:",
+      "choices": [
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{6} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\cos\\frac{\\pi}{6} \\Leftrightarrow x = \\pm \\frac{\\pi}{6} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-091",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình cos x = a cụ thể",
+      "question": "Nghiệm của phương trình $\\cos x = \\frac{\\sqrt{2}}{2}$ là:",
+      "choices": [
+        "$x = \\pm \\frac{\\pi}{4} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{4} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\cos\\frac{\\pi}{4} \\Leftrightarrow x = \\pm \\frac{\\pi}{4} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-092",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giải phương trình cos x = a cụ thể",
+      "question": "Phương trình $\\cos x = -\\frac{1}{2}$ có họ nghiệm là:",
+      "choices": [
+        "$x = \\pm \\frac{2\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{5\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{2\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\cos\\frac{2\\pi}{3} \\Leftrightarrow x = \\pm \\frac{2\\pi}{3} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-093",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Phương trình lượng giác bậc nhất đối với một hàm số",
+      "question": "Nghiệm của phương trình $2\\sin x - 1 = 0$ là:",
+      "choices": [
+        "$x = \\frac{\\pi}{6} + k2\\pi$ hoặc $x = \\frac{5\\pi}{6} + k2\\pi$",
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi$",
+        "$x = \\frac{\\pi}{3} + k2\\pi$ hoặc $x = \\frac{2\\pi}{3} + k2\\pi$",
+        "$x = \\frac{\\pi}{6} + k\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "$2\\sin x - 1 = 0 \\Leftrightarrow \\sin x = 1/2$."
+    },
+    {
+      "id": "mc-c1-094",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Phương trình lượng giác bậc nhất đối với một hàm số",
+      "question": "Giải phương trình $2\\cos x - \\sqrt{3} = 0$:",
+      "choices": [
+        "$x = \\pm \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{3} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\pm \\frac{\\pi}{6} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\cos x = \\frac{\\sqrt{3}}{2} \\Leftrightarrow x = \\pm \\frac{\\pi}{6} + k2\\pi$."
+    },
+    {
+      "id": "mc-c1-095",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Phương trình lượng giác bậc nhất đối với một hàm số",
+      "question": "Phương trình $\\sqrt{3}\\tan x - 1 = 0$ có nghiệm là:",
+      "choices": [
+        "$x = \\frac{\\pi}{6} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{6} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{6} + k\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = \\frac{1}{\\sqrt{3}} \\Leftrightarrow x = \\frac{\\pi}{6} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-096",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Phương trình lượng giác bậc nhất đối với một hàm số",
+      "question": "Nghiệm của phương trình $\\tan x + 1 = 0$ là:",
+      "choices": [
+        "$x = -\\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{4} + k\\pi, k \\in \\mathbb{Z}$",
+        "$x = -\\frac{\\pi}{4} + k2\\pi, k \\in \\mathbb{Z}$",
+        "$x = \\frac{3\\pi}{4} + k2\\pi, k \\in \\mathbb{Z}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\tan x = -1 \\Leftrightarrow x = -\\frac{\\pi}{4} + k\\pi$."
+    },
+    {
+      "id": "mc-c1-097",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Tìm nghiệm trong khoảng cho trước",
+      "question": "Số nghiệm của phương trình $\\sin x = 0$ trên đoạn $[0; 2\\pi]$ là:",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Các nghiệm là $x = 0, \\pi, 2\\pi$. Có đúng 3 nghiệm."
+    },
+    {
+      "id": "mc-c1-098",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Tìm nghiệm trong khoảng cho trước",
+      "question": "Số nghiệm của phương trình $\\cos x = 0$ trên khoảng $(0; 2\\pi)$ là:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "Nghiệm trong khoảng $(0; 2\\pi)$ là $x = \\pi/2$ và $x = 3\\pi/2$. Có 2 nghiệm."
+    },
+    {
+      "id": "mc-c1-099",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Tìm nghiệm trong khoảng cho trước",
+      "question": "Phương trình $\\sin x = 1$ có bao nhiêu nghiệm trên đoạn $[0; 3\\pi]$?",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Các nghiệm: $x = \\pi/2$ và $x = 5\\pi/2$. Có 2 nghiệm."
+    },
+    {
+      "id": "mc-c1-100",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Tìm nghiệm trong khoảng cho trước",
+      "question": "Số nghiệm của phương trình $\\cos x = 1$ trên $[-\\pi; \\pi]$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có nghiệm duy nhất $x = 0$."
+    },
+    {
+      "id": "mc-c1-101",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Độ dài cung tròn",
+      "question": "Một cung tròn có số đo $2 \\text{ rad}$ trên đường tròn bán kính $R = 5\\text{ cm}$ có độ dài là:",
+      "choices": [
+        "$10\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$2,5\\text{ cm}$",
+        "$15\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = R\\alpha = 5 \\cdot 2 = 10\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-102",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Độ dài cung tròn",
+      "question": "Tính độ dài cung tròn bán kính $R = 6\\text{ cm}$ ứng với góc ở tâm $\\frac{\\pi}{3}\\text{ rad}$:",
+      "choices": [
+        "$2\\pi\\text{ cm}$",
+        "$3\\pi\\text{ cm}$",
+        "$\\pi\\text{ cm}$",
+        "$6\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = R\\alpha = 6 \\cdot \\frac{\\pi}{3} = 2\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-103",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Độ dài cung tròn",
+      "question": "Đường tròn bán kính $R = 10\\text{ cm}$. Độ dài cung có số đo $1,5\\text{ rad}$ là:",
+      "choices": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$7,5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = 10 \\cdot 1,5 = 15\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-104",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Độ dài cung tròn",
+      "question": "Bán kính $R = 4\\text{ cm}$, cung tròn có số đo $\\frac{\\pi}{2}\\text{ rad}$ có độ dài là:",
+      "choices": [
+        "$2\\pi\\text{ cm}$",
+        "$4\\pi\\text{ cm}$",
+        "$\\pi\\text{ cm}$",
+        "$8\\pi\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$l = 4 \\cdot \\frac{\\pi}{2} = 2\\pi\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-105",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác",
+      "question": "Rút gọn biểu thức $P = \\sin^4 x - \\cos^4 x$ ta được:",
+      "choices": [
+        "$-\\cos 2x$",
+        "$\\cos 2x$",
+        "$\\sin 2x$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$P = (\\sin^2 x - \\cos^2 x)(\\sin^2 x + \\cos^2 x) = -(\\cos^2 x - \\sin^2 x) = -\\cos 2x$."
+    },
+    {
+      "id": "mc-c1-106",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác",
+      "question": "Biểu thức $Q = \\frac{\\sin 2x}{2\\cos x}$ với $\\cos x \\neq 0$ rút gọn thành:",
+      "choices": [
+        "$\\sin x$",
+        "$\\cos x$",
+        "$2\\sin x$",
+        "$\\tan x$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{2\\sin x \\cos x}{2\\cos x} = \\sin x$."
+    },
+    {
+      "id": "mc-c1-107",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác",
+      "question": "Rút gọn biểu thức $A = 1 - 2\\sin^2 x$:",
+      "choices": [
+        "$\\cos 2x$",
+        "$\\sin 2x$",
+        "$-\\cos 2x$",
+        "$\\cos^2 x$"
+      ],
+      "answer": 0,
+      "explanation": "Theo công thức nhân đôi: $1 - 2\\sin^2 x = \\cos 2x$."
+    },
+    {
+      "id": "mc-c1-108",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "Rút gọn biểu thức lượng giác",
+      "question": "Rút gọn biểu thức $B = 2\\cos^2 x - 1$:",
+      "choices": [
+        "$\\cos 2x$",
+        "$-\\cos 2x$",
+        "$\\sin 2x$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Theo công thức nhân đôi: $2\\cos^2 x - 1 = \\cos 2x$."
+    },
+    {
+      "id": "mc-c1-109",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất nhỏ nhất phương trình bậc hai theo sin cos",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = \\cos^2 x + 2\\sin x + 2$:",
+      "choices": [
+        "$4$",
+        "$3$",
+        "$5$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$y = 1 - \\sin^2 x + 2\\sin x + 2 = -(\\sin x - 1)^2 + 4 \\le 4$. Đạt được khi $\\sin x = 1$."
+    },
+    {
+      "id": "mc-c1-110",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất nhỏ nhất phương trình bậc hai theo sin cos",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\sin^2 x - 4\\sin x + 5$ là:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "$y = (\\sin x - 2)^2 + 1$. Với $\\sin x \\in [-1; 1]$, nhỏ nhất khi $\\sin x = 1 \\Rightarrow y = (1-2)^2 + 1 = 2$."
+    },
+    {
+      "id": "mc-c1-111",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất nhỏ nhất phương trình bậc hai theo sin cos",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = 2\\cos^2 x + \\cos x - 1$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Đặt $t = \\cos x \\in [-1; 1]$. Parabol $f(t) = 2t^2 + t - 1$. Tại $t = 1 \\Rightarrow f(1) = 2$."
+    },
+    {
+      "id": "mc-c1-112",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất nhỏ nhất phương trình bậc hai theo sin cos",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\cos 2x + 4\\cos x + 5$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$y = 2\\cos^2 x - 1 + 4\\cos x + 5 = 2(\\cos x + 1)^2 + 2 \\ge 2$ khi $\\cos x = -1$."
+    },
+    {
+      "id": "mc-c1-113",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Tổng các nghiệm trong khoảng",
+      "question": "Tổng tất cả các nghiệm của phương trình $\\cos x = \\frac{1}{2}$ trong khoảng $(0; 2\\pi)$ là:",
+      "choices": [
+        "$2\\pi$",
+        "$\\pi$",
+        "$3\\pi$",
+        "$\\frac{3\\pi}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai nghiệm là $x_1 = \\pi/3$ và $x_2 = 5\\pi/3$. Tổng $x_1 + x_2 = 2\\pi$."
+    },
+    {
+      "id": "mc-c1-114",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Tổng các nghiệm trong khoảng",
+      "question": "Tổng các nghiệm của phương trình $\\sin x = \\frac{1}{2}$ trong khoảng $(0; \\pi)$ là:",
+      "choices": [
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$2\\pi$",
+        "$\\frac{3\\pi}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai nghiệm là $\\pi/6$ và $5\\pi/6$. Tổng bằng $\\pi$."
+    },
+    {
+      "id": "mc-c1-115",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Tổng các nghiệm trong khoảng",
+      "question": "Tổng các nghiệm thuộc khoảng $(0; 2\\pi)$ của phương trình $\\sin x = 0$ là:",
+      "choices": [
+        "$\\pi$",
+        "$2\\pi$",
+        "$3\\pi$",
+        "$\\frac{\\pi}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Trong khoảng $(0; 2\\pi)$ chỉ có nghiệm duy nhất $x = \\pi$."
+    },
+    {
+      "id": "mc-c1-116",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Tổng các nghiệm trong khoảng",
+      "question": "Tổng các nghiệm của phương trình $\\cos x = 0$ trên đoạn $[0; 2\\pi]$ là:",
+      "choices": [
+        "$2\\pi$",
+        "$\\pi$",
+        "$3\\pi$",
+        "$4\\pi$"
+      ],
+      "answer": 0,
+      "explanation": "Nghiệm gồm $\\pi/2$ và $3\\pi/2$. Tổng bằng $2\\pi$."
+    },
+    {
+      "id": "mc-c1-117",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế dao động điều hoà",
+      "question": "Một vật dao động điều hoà theo phương trình $x = 5\\cos(2\\pi t)$ (cm). Li độ cực đại của vật là:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$2\\pi\\text{ cm}$",
+        "$2,5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Biên độ dao động là $A = 5\\text{ cm}$, li độ cực đại bằng $5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-118",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế dao động điều hoà",
+      "question": "Chất điểm dao động với phương trình $s = 4\\sin(\\pi t + \\frac{\\pi}{6})$ (cm). Khoảng thời gian để thực hiện 1 dao động toàn phần (chu kì) là:",
+      "choices": [
+        "$2\\text{ s}$",
+        "$1\\text{ s}$",
+        "$4\\text{ s}$",
+        "$\\pi\\text{ s}$"
+      ],
+      "answer": 0,
+      "explanation": "$T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{\\pi} = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-119",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế dao động điều hoà",
+      "question": "Mực nước tại một cảng biển dao động theo thời gian $t$ (giờ) bởi hàm số $h(t) = 3\\cos(\\frac{\\pi t}{6}) + 8$ (m). Mực nước cao nhất đạt được là:",
+      "choices": [
+        "$11\\text{ m}$",
+        "$8\\text{ m}$",
+        "$5\\text{ m}$",
+        "$14\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "$h_{\\max} = 3(1) + 8 = 11\\text{ m}$."
+    },
+    {
+      "id": "mc-c1-120",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "vd",
+      "dang": "Bài toán thực tế dao động điều hoà",
+      "question": "Một con lắc lò xo dao động với phương trình $y = 6\\cos(4t)$ (cm). Vận tốc bằng 0 khi vật ở vị trí có độ lớn li độ là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$0\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$24\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Vận tốc bằng 0 ở hai biên, tức là $|y| = 6\\text{ cm}$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Cho góc hình học có số đo $180^\\circ$. Đổi sang đơn vị rađian thì hệ số của $\\pi$ là bao nhiêu?",
+      "answer": 1,
+      "explanation": "$180^\\circ = 1\\pi\\text{ rad}$ nên hệ số là 1."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc $360^\\circ$ tương ứng với bao nhiêu lần $\\pi$ rađian?",
+      "answer": 2,
+      "explanation": "$360^\\circ = 2\\pi\\text{ rad}$."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Một vòng quay tròn đủ 1 vòng tương ứng với số đo góc bằng bao nhiêu độ?",
+      "answer": 360,
+      "explanation": "Một vòng tròn đầy đủ bằng $360^\\circ$."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc vuông có số đo bằng bao nhiêu độ?",
+      "answer": 90,
+      "explanation": "Góc vuông có số đo là $90^\\circ$."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc bẹt có số đo bằng bao nhiêu độ?",
+      "answer": 180,
+      "explanation": "Góc bẹt có số đo là $180^\\circ$."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\sin 90^\\circ$ bằng bao nhiêu?",
+      "answer": 1,
+      "explanation": "$\\sin 90^\\circ = 1$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\cos 0^\\circ$ bằng:",
+      "answer": 1,
+      "explanation": "$\\cos 0^\\circ = 1$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\cos 180^\\circ$ bằng:",
+      "answer": -1,
+      "explanation": "$\\cos 180^\\circ = -1$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\sin 0^\\circ$ bằng:",
+      "answer": 0,
+      "explanation": "$\\sin 0^\\circ = 0$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Tính giá trị của biểu thức $\\sin^2 45^\\circ + \\cos^2 45^\\circ$:",
+      "answer": 1,
+      "explanation": "Hằng đẳng thức luôn bằng 1."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\tan x$ tuần hoàn với chu kì bằng $k\\pi$. Giá trị của $k$ là:",
+      "answer": 1,
+      "explanation": "Chu kì của $\\tan x$ là $\\pi$, tức $k = 1$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\sin x$ tuần hoàn với chu kì $T = k\\pi$. Hệ số $k$ bằng bao nhiêu?",
+      "answer": 2,
+      "explanation": "Chu kì $T = 2\\pi$, do đó $k = 2$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\cos x$ tuần hoàn với chu kì $T = k\\pi$. Giá trị $k$ là:",
+      "answer": 2,
+      "explanation": "Chu kì $T = 2\\pi$, hệ số $k = 2$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\cot x$ có chu kì $T = k\\pi$. Tìm $k$:",
+      "answer": 1,
+      "explanation": "Chu kì $T = \\pi$, vậy $k = 1$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Giá trị lớn nhất của hàm số $y = \\sin x$ trên $\\mathbb{R}$ bằng:",
+      "answer": 1,
+      "explanation": "GTLN của $\\sin x$ là 1."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\tan \\alpha = 2$. Tính giá trị của biểu thức $P = \\frac{4\\sin \\alpha + 2\\cos \\alpha}{\\sin \\alpha + 3\\cos \\alpha}$:",
+      "answer": 2,
+      "explanation": "Chia cho $\\cos \\alpha$: $P = \\frac{4\\tan\\alpha + 2}{\\tan\\alpha + 3} = \\frac{8 + 2}{2 + 3} = \\frac{10}{5} = 2$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\cot \\alpha = 3$. Tính giá trị của biểu thức $Q = \\frac{\\sin \\alpha + 3\\cos \\alpha}{2\\sin \\alpha + \\cos \\alpha}$:",
+      "answer": 2,
+      "explanation": "Chia cho $\\sin \\alpha$: $Q = \\frac{1 + 3\\cot\\alpha}{2 + \\cot\\alpha} = \\frac{1 + 9}{2 + 3} = \\frac{10}{5} = 2$."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Nếu $\\tan \\alpha = 1$ thì giá trị của biểu thức $A = 5\\tan^2 \\alpha - 2$ bằng:",
+      "answer": 3,
+      "explanation": "$A = 5(1)^2 - 2 = 3$."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\sin \\alpha \\cos \\alpha = 0,4$. Tính giá trị của $\\sin 2\\alpha$:",
+      "answer": 0.8,
+      "explanation": "$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2(0,4) = 0,8$."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = 5\\sin(2x) + 3$:",
+      "answer": 8,
+      "explanation": "GTLN là $5(1) + 3 = 8$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Giá trị nhỏ nhất của hàm số $y = 3\\cos(4x) - 5$ bằng:",
+      "answer": -8,
+      "explanation": "GTNN là $3(-1) - 5 = -8$."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Giá trị lớn nhất của hàm số $y = 7 - 2\\cos x$ là:",
+      "answer": 9,
+      "explanation": "GTLN khi $\\cos x = -1 \\Rightarrow y = 7 - 2(-1) = 9$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = 4\\sin^2 x + 3$:",
+      "answer": 3,
+      "explanation": "Vì $\\sin^2 x \\ge 0$ nên GTNN bằng 3."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\sin(2x) = 0$ trên đoạn $[0; \\pi]$ là:",
+      "answer": 3,
+      "explanation": "$2x = k\\pi \\Rightarrow x = k\\pi/2$. Trong $[0; \\pi]$ có $x \\in \\{0; \\pi/2; \\pi\\}$, tổng cộng 3 nghiệm."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Phương trình $\\cos(2x) = 0$ có bao nhiêu nghiệm trên đoạn $[0; \\pi]$?",
+      "answer": 2,
+      "explanation": "$2x = \\pi/2 + k\\pi \\Rightarrow x = \\pi/4 + k\\pi/2$. Nghiệm là $\\pi/4, 3\\pi/4$. Có 2 nghiệm."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\sin x = 0$ trên đoạn $[-\\pi; \\pi]$ là:",
+      "answer": 3,
+      "explanation": "Nghiệm gồm $-\\pi, 0, \\pi$. Có 3 nghiệm."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\tan x = 1$ trong khoảng $(0; 2\\pi)$ bằng:",
+      "answer": 2,
+      "explanation": "Nghiệm gồm $\\pi/4$ và $5\\pi/4$. Có 2 nghiệm."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Tìm số đo theo độ của nghiệm dương nhỏ nhất của phương trình $2\\sin x - 1 = 0$:",
+      "answer": 30,
+      "explanation": "$\\sin x = 1/2 \\Rightarrow$ nghiệm dương nhỏ nhất là $30^\\circ$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Nghiệm dương nhỏ nhất của phương trình $2\\cos x - \\sqrt{2} = 0$ có số đo bằng bao nhiêu độ?",
+      "answer": 45,
+      "explanation": "$\\cos x = \\sqrt{2}/2 \\Rightarrow$ nghiệm dương nhỏ nhất là $45^\\circ$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Nghiệm dương nhỏ nhất của phương trình $\\tan x - \\sqrt{3} = 0$ theo đơn vị độ bằng:",
+      "answer": 60,
+      "explanation": "$\\tan x = \\sqrt{3} \\Rightarrow x = 60^\\circ$."
+    }
+  ]
+}

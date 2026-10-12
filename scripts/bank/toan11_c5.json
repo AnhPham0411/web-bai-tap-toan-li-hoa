@@ -1,0 +1,2244 @@
+{
+  "sgk_chapter_title": "Giới hạn. Hàm số liên tục",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b15",
+      "sgk_title": "Bài 15. Giới hạn của dãy số"
+    },
+    {
+      "lesson_id": "b16",
+      "sgk_title": "Bài 16. Giới hạn của hàm số"
+    },
+    {
+      "lesson_id": "b17",
+      "sgk_title": "Bài 17. Hàm số liên tục"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c5-001",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản của dãy số",
+      "question": "Giới hạn $\\lim \\frac{1}{n}$ khi $n \\to +\\infty$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "Không tồn tại"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim \\frac{1}{n} = 0$."
+    },
+    {
+      "id": "mc-c5-002",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản của dãy số",
+      "question": "Giá trị của $\\lim \\frac{1}{n^2}$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim \\frac{1}{n^2} = 0$."
+    },
+    {
+      "id": "mc-c5-003",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản của dãy số",
+      "question": "Với $k \\in \\mathbb{N}^*$, giới hạn $\\lim \\frac{1}{n^k}$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$k$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim \\frac{1}{n^k} = 0$."
+    },
+    {
+      "id": "mc-c5-004",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản của dãy số",
+      "question": "Giới hạn của dãy hằng $u_n = 5$ là:",
+      "choices": [
+        "$5$",
+        "$0$",
+        "$1$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn của hằng số c là c: $\\lim 5 = 5$."
+    },
+    {
+      "id": "mc-c5-005",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản của dãy số",
+      "question": "Giới hạn $\\lim \\left(-\\frac{3}{n}\\right)$ bằng:",
+      "choices": [
+        "$0$",
+        "$-3$",
+        "$3$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim \\left(-\\frac{3}{n}\\right) = 0$."
+    },
+    {
+      "id": "mc-c5-006",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn q mũ n với trị tuyệt đối nhỏ hơn 1",
+      "question": "Cho số thực q thoả mãn $|q| < 1$. Giới hạn $\\lim q^n$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$q$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Nếu $|q| < 1$ thì $\\lim q^n = 0$."
+    },
+    {
+      "id": "mc-c5-007",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn q mũ n với trị tuyệt đối nhỏ hơn 1",
+      "question": "Tính $\\lim \\left(\\frac{1}{2}\\right)^n$:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Do $|1/2| < 1$ nên giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-008",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn q mũ n với trị tuyệt đối nhỏ hơn 1",
+      "question": "Giới hạn $\\lim \\left(-\\frac{1}{3}\\right)^n$ bằng:",
+      "choices": [
+        "$0$",
+        "$-\\frac{1}{3}$",
+        "$1$",
+        "Không tồn tại"
+      ],
+      "answer": 0,
+      "explanation": "Vì $|-1/3| < 1$ nên giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-009",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn q mũ n với trị tuyệt đối nhỏ hơn 1",
+      "question": "Giá trị của $\\lim \\left(\\frac{2}{3}\\right)^n$ là:",
+      "choices": [
+        "$0$",
+        "$\\frac{2}{3}$",
+        "$1$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Do $|2/3| < 1$ nên bằng 0."
+    },
+    {
+      "id": "mc-c5-010",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn q mũ n với trị tuyệt đối nhỏ hơn 1",
+      "question": "Giới hạn nào sau đây bằng 0?",
+      "choices": [
+        "$\\lim \\left(\\frac{3}{4}\\right)^n$",
+        "$\\lim \\left(\\frac{4}{3}\\right)^n$",
+        "$\\lim 2^n$",
+        "$\\lim (-2)^n$"
+      ],
+      "answer": 0,
+      "explanation": "Chỉ có $3/4 < 1$ nên có giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-011",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn vô cực của dãy số",
+      "question": "Giới hạn $\\lim n$ khi $n \\to +\\infty$ bằng:",
+      "choices": [
+        "$+\\infty$",
+        "$0$",
+        "$1$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Dãy số tăng vô hạn, $\\lim n = +\\infty$."
+    },
+    {
+      "id": "mc-c5-012",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn vô cực của dãy số",
+      "question": "Giá trị của $\\lim n^2$ là:",
+      "choices": [
+        "$+\\infty$",
+        "$0$",
+        "$1$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim n^2 = +\\infty$."
+    },
+    {
+      "id": "mc-c5-013",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn vô cực của dãy số",
+      "question": "Giới hạn $\\lim (-n)$ bằng:",
+      "choices": [
+        "$-\\infty$",
+        "$+\\infty$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim (-n) = -\\infty$."
+    },
+    {
+      "id": "mc-c5-014",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn vô cực của dãy số",
+      "question": "Cho $q > 1$. Giới hạn $\\lim q^n$ bằng:",
+      "choices": [
+        "$+\\infty$",
+        "$0$",
+        "$1$",
+        "$q$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $q > 1$, $q^n$ tiến đến $+\\infty$."
+    },
+    {
+      "id": "mc-c5-015",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn vô cực của dãy số",
+      "question": "Giới hạn $\\lim 2^n$ bằng:",
+      "choices": [
+        "$+\\infty$",
+        "$0$",
+        "$2$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Do cơ số $2 > 1$ nên $\\lim 2^n = +\\infty$."
+    },
+    {
+      "id": "mc-c5-016",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại một điểm đơn giản",
+      "question": "Giới hạn $\\lim_{x \\to 2} (x + 3)$ bằng:",
+      "choices": [
+        "$5$",
+        "$2$",
+        "$3$",
+        "$6$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 2$: $2 + 3 = 5$."
+    },
+    {
+      "id": "mc-c5-017",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại một điểm đơn giản",
+      "question": "Tính $\\lim_{x \\to 1} (2x^2 - 1)$:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 1$: $2(1) - 1 = 1$."
+    },
+    {
+      "id": "mc-c5-018",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại một điểm đơn giản",
+      "question": "Giá trị của $\\lim_{x \\to 3} (4x - 5)$ là:",
+      "choices": [
+        "$7$",
+        "$12$",
+        "$9$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 3$: $4(3) - 5 = 7$."
+    },
+    {
+      "id": "mc-c5-019",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại một điểm đơn giản",
+      "question": "Giới hạn $\\lim_{x \\to -1} (x^3 + 2)$ bằng:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = -1$: $(-1)^3 + 2 = 1$."
+    },
+    {
+      "id": "mc-c5-020",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại một điểm đơn giản",
+      "question": "Tính $\\lim_{x \\to 0} (5x + 4)$:",
+      "choices": [
+        "$4$",
+        "$5$",
+        "$0$",
+        "$9$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 0$: $5(0) + 4 = 4$."
+    },
+    {
+      "id": "mc-c5-021",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm phân thức tại một điểm xác định",
+      "question": "Tính $\\lim_{x \\to 2} \\frac{x + 1}{x + 2}$:",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$1$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Mẫu số khác 0, thay trực tiếp: $(2 + 1)/(2 + 2) = 3/4$."
+    },
+    {
+      "id": "mc-c5-022",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm phân thức tại một điểm xác định",
+      "question": "Giá trị của $\\lim_{x \\to 1} \\frac{2x + 3}{x + 1}$ là:",
+      "choices": [
+        "$\\frac{5}{2}$",
+        "$3$",
+        "$2$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 1$: $(2 + 3)/(1 + 1) = 5/2$."
+    },
+    {
+      "id": "mc-c5-023",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm phân thức tại một điểm xác định",
+      "question": "Giới hạn $\\lim_{x \\to 0} \\frac{3x + 6}{x + 2}$ bằng:",
+      "choices": [
+        "$3$",
+        "$6$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 0$: $6/2 = 3$."
+    },
+    {
+      "id": "mc-c5-024",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm phân thức tại một điểm xác định",
+      "question": "Tính $\\lim_{x \\to 3} \\frac{x - 1}{x + 1}$:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 3$: $2/4 = 1/2$."
+    },
+    {
+      "id": "mc-c5-025",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm phân thức tại một điểm xác định",
+      "question": "Giá trị của $\\lim_{x \\to -2} \\frac{x^2}{x + 4}$ bằng:",
+      "choices": [
+        "$2$",
+        "$-2$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = -2$: $4/2 = 2$."
+    },
+    {
+      "id": "mc-c5-026",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Khái niệm giới hạn một phía",
+      "question": "Kí hiệu giới hạn của hàm số $f(x)$ khi $x$ dần tới $x_0$ về phía bên phải là:",
+      "choices": [
+        "$\\lim_{x \\to x_0^+} f(x)$",
+        "$\\lim_{x \\to x_0^-} f(x)$",
+        "$\\lim_{x \\to x_0} f(x)$",
+        "$\\lim_{x \\to +\\infty} f(x)$"
+      ],
+      "answer": 0,
+      "explanation": "Bên phải kí hiệu là $x \\to x_0^+$."
+    },
+    {
+      "id": "mc-c5-027",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Khái niệm giới hạn một phía",
+      "question": "Kí hiệu $x \\to x_0^-$ có nghĩa là:",
+      "choices": [
+        "x tiến tới $x_0$ và $x < x_0$",
+        "x tiến tới $x_0$ và $x > x_0$",
+        "x tiến tới $-x_0$",
+        "x tiến tới $-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Tiến tới $x_0$ về bên trái ($x < x_0$)."
+    },
+    {
+      "id": "mc-c5-028",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Khái niệm giới hạn một phía",
+      "question": "Điều kiện để tồn tại giới hạn $\\lim_{x \\to x_0} f(x) = L$ là:",
+      "choices": [
+        "$\\lim_{x \\to x_0^+} f(x) = \\lim_{x \\to x_0^-} f(x) = L$",
+        "Chỉ cần tồn tại giới hạn bên phải",
+        "Chỉ cần tồn tại giới hạn bên trái",
+        "$f(x_0) = L$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn hai phía phải cùng tồn tại và bằng nhau."
+    },
+    {
+      "id": "mc-c5-029",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Khái niệm giới hạn một phía",
+      "question": "Nếu $\\lim_{x \\to 1^+} f(x) = 2$ và $\\lim_{x \\to 1^-} f(x) = 3$ thì $\\lim_{x \\to 1} f(x)$:",
+      "choices": [
+        "Không tồn tại",
+        "Bằng 2",
+        "Bằng 3",
+        "Bằng 2,5"
+      ],
+      "answer": 0,
+      "explanation": "Do hai giới hạn một phía khác nhau nên không tồn tại giới hạn tại điểm đó."
+    },
+    {
+      "id": "mc-c5-030",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Khái niệm giới hạn một phía",
+      "question": "Nếu $\\lim_{x \\to 2^+} f(x) = 4$ và $\\lim_{x \\to 2^-} f(x) = 4$ thì $\\lim_{x \\to 2} f(x)$ bằng:",
+      "choices": [
+        "$4$",
+        "$8$",
+        "$0$",
+        "Không tồn tại"
+      ],
+      "answer": 0,
+      "explanation": "Hai giới hạn một phía bằng nhau và bằng 4."
+    },
+    {
+      "id": "mc-c5-031",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại vô cực cơ bản",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} \\frac{1}{x}$ bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $x \\to +\\infty$ thì $1/x \\to 0$."
+    },
+    {
+      "id": "mc-c5-032",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại vô cực cơ bản",
+      "question": "Tính $\\lim_{x \\to -\\infty} \\frac{1}{x^2}$:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$-\\infty$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to -\\infty} 1/x^2 = 0$."
+    },
+    {
+      "id": "mc-c5-033",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại vô cực cơ bản",
+      "question": "Giá trị của $\\lim_{x \\to +\\infty} \\frac{2}{x}$ là:",
+      "choices": [
+        "$0$",
+        "$2$",
+        "$+\\infty$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Hằng số chia cho vô cực bằng 0."
+    },
+    {
+      "id": "mc-c5-034",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại vô cực cơ bản",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} x^3$ bằng:",
+      "choices": [
+        "$+\\infty$",
+        "$0$",
+        "$1$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Tiến đến $+\\infty$."
+    },
+    {
+      "id": "mc-c5-035",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn hàm số tại vô cực cơ bản",
+      "question": "Giới hạn $\\lim_{x \\to -\\infty} x^3$ bằng:",
+      "choices": [
+        "$-\\infty$",
+        "$+\\infty$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$(-\\infty)^3 = -\\infty$."
+    },
+    {
+      "id": "mc-c5-036",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Khái niệm hàm số liên tục tại một điểm",
+      "question": "Hàm số $y = f(x)$ liên tục tại điểm $x_0$ khi và chỉ khi:",
+      "choices": [
+        "$\\lim_{x \\to x_0} f(x) = f(x_0)$",
+        "Chỉ cần $f(x_0)$ xác định",
+        "Chỉ cần tồn tại $\\lim_{x \\to x_0} f(x)$",
+        "$f(x_0) = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa hàm số liên tục tại một điểm: $\\lim_{x \\to x_0} f(x) = f(x_0)$."
+    },
+    {
+      "id": "mc-c5-037",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Khái niệm hàm số liên tục tại một điểm",
+      "question": "Nếu $\\lim_{x \\to x_0} f(x) \\neq f(x_0)$ thì hàm số $f(x)$:",
+      "choices": [
+        "Gián đoạn tại $x_0$",
+        "Liên tục tại $x_0$",
+        "Không xác định tại $x_0$",
+        "Đồng biến tại $x_0$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số không liên tục thì gọi là gián đoạn tại $x_0$."
+    },
+    {
+      "id": "mc-c5-038",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Khái niệm hàm số liên tục tại một điểm",
+      "question": "Hàm số đa thức $P(x)$ liên tục trên tập hợp nào?",
+      "choices": [
+        "Toàn bộ tập số thực $\\mathbb{R}$",
+        "$[0; +\\infty)$",
+        "$\\mathbb{R} \\setminus \\{0\\}$",
+        "$(-1; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm đa thức liên tục trên toàn bộ $\\mathbb{R}$."
+    },
+    {
+      "id": "mc-c5-039",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Khái niệm hàm số liên tục tại một điểm",
+      "question": "Hàm phân thức $y = \\frac{1}{x - 2}$ gián đoạn tại điểm nào?",
+      "choices": [
+        "$x = 2$",
+        "$x = 0$",
+        "$x = -2$",
+        "$x = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Tại $x = 2$ hàm số không xác định nên gián đoạn tại $x = 2$."
+    },
+    {
+      "id": "mc-c5-040",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Khái niệm hàm số liên tục tại một điểm",
+      "question": "Hàm số $y = \\sin x$ liên tục trên:",
+      "choices": [
+        "$\\mathbb{R}$",
+        "$[-1; 1]$",
+        "$(0; \\pi)$",
+        "$[0; 2\\pi]$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm số lượng giác $\\sin x$ liên tục trên toàn bộ $\\mathbb{R}$."
+    },
+    {
+      "id": "mc-c5-041",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục trên một khoảng",
+      "question": "Hàm số $y = f(x)$ liên tục trên khoảng $(a; b)$ nếu nó:",
+      "choices": [
+        "Liên tục tại mọi điểm thuộc khoảng $(a; b)$",
+        "Liên tục tại ít nhất 1 điểm",
+        "Chỉ cần liên tục tại trung điểm",
+        "Xác định tại a và b"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa liên tục trên khoảng."
+    },
+    {
+      "id": "mc-c5-042",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục trên một khoảng",
+      "question": "Hàm số $y = \\sqrt{x}$ liên tục trên khoảng nào?",
+      "choices": [
+        "$(0; +\\infty)$",
+        "$(-\\infty; 0)$",
+        "$\\mathbb{R}$",
+        "$(-1; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm căn bậc hai liên tục trên tập xác định của nó $[0; +\\infty)$."
+    },
+    {
+      "id": "mc-c5-043",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục trên một khoảng",
+      "question": "Hàm số $y = \\frac{1}{x}$ liên tục trên các khoảng:",
+      "choices": [
+        "$(-\\infty; 0)$ và $(0; +\\infty)$",
+        "$\\mathbb{R}$",
+        "$[-1; 1]$",
+        "$[0; +\\infty)$"
+      ],
+      "answer": 0,
+      "explanation": "Liên tục trên từng khoảng xác định của nó."
+    },
+    {
+      "id": "mc-c5-044",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục trên một khoảng",
+      "question": "Tổng, hiệu, tích của hai hàm số liên tục tại $x_0$ là hàm số:",
+      "choices": [
+        "Liên tục tại $x_0$",
+        "Gián đoạn tại $x_0$",
+        "Không xác định",
+        "Chẵn lẻ"
+      ],
+      "answer": 0,
+      "explanation": "Các phép toán đại số bảo toàn tính liên tục."
+    },
+    {
+      "id": "mc-c5-045",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục trên một khoảng",
+      "question": "Thương $\\frac{f(x)}{g(x)}$ của hai hàm số liên tục tại $x_0$ sẽ liên tục tại $x_0$ nếu:",
+      "choices": [
+        "$g(x_0) \\neq 0$",
+        "$g(x_0) = 0$",
+        "$f(x_0) = 0$",
+        "$f(x_0) \\neq 0$"
+      ],
+      "answer": 0,
+      "explanation": "Cần điều kiện mẫu số tại điểm đó khác 0."
+    },
+    {
+      "id": "mc-c5-046",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Định lí giá trị trung gian",
+      "question": "Cho hàm số $y = f(x)$ liên tục trên đoạn $[a; b]$. Nếu $f(a) \\cdot f(b) < 0$ thì phương trình $f(x) = 0$:",
+      "choices": [
+        "Có ít nhất một nghiệm trong khoảng $(a; b)$",
+        "Vô nghiệm trên $[a; b]$",
+        "Có đúng 2 nghiệm",
+        "Có vô số nghiệm"
+      ],
+      "answer": 0,
+      "explanation": "Định lí giá trị trung gian (Bolzano): luôn tồn tại ít nhất 1 nghiệm."
+    },
+    {
+      "id": "mc-c5-047",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Định lí giá trị trung gian",
+      "question": "Điều kiện để phương trình $f(x) = 0$ có ít nhất 1 nghiệm trên $(a; b)$ theo định lí Bolzano là:",
+      "choices": [
+        "f liên tục trên $[a; b]$ và $f(a) \\cdot f(b) < 0$",
+        "f đồng biến trên $[a; b]$",
+        "$f(a) + f(b) = 0$",
+        "$f(a) = f(b)$"
+      ],
+      "answer": 0,
+      "explanation": "Cần liên tục trên đoạn và trái dấu ở hai đầu mút."
+    },
+    {
+      "id": "mc-c5-048",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Định lí giá trị trung gian",
+      "question": "Nếu $f(1) = -2$ và $f(2) = 3$ với $f(x)$ liên tục trên $[1; 2]$ thì:",
+      "choices": [
+        "Phương trình $f(x) = 0$ có ít nhất 1 nghiệm trong $(1; 2)$",
+        "$f(x) = 0$ vô nghiệm",
+        "f có nghiệm $x = 1,5$",
+        "Không kết luận được"
+      ],
+      "answer": 0,
+      "explanation": "Do $f(1) \\cdot f(2) = -6 < 0$ nên có ít nhất 1 nghiệm trong khoảng $(1; 2)$."
+    },
+    {
+      "id": "mc-c5-049",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Định lí giá trị trung gian",
+      "question": "Để chứng minh phương trình $x^3 - 3x + 1 = 0$ có nghiệm trong $(0; 1)$, ta xét giá trị tại 0 và 1:",
+      "choices": [
+        "$f(0) = 1 > 0$ và $f(1) = -1 < 0$",
+        "$f(0) = 0$ và $f(1) = 1$",
+        "$f(0) = 1$ và $f(1) = 2$",
+        "Cả hai đều âm"
+      ],
+      "answer": 0,
+      "explanation": "$f(0) = 1$ và $f(1) = 1 - 3 + 1 = -1$, trái dấu nhau."
+    },
+    {
+      "id": "mc-c5-050",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Định lí giá trị trung gian",
+      "question": "Định lí giá trị trung gian áp dụng cho hàm số:",
+      "choices": [
+        "Liên tục trên một đoạn",
+        "Gián đoạn",
+        "Bất kì",
+        "Hàm bậc hai"
+      ],
+      "answer": 0,
+      "explanation": "Bắt buộc hàm số phải liên tục trên đoạn $[a; b]$."
+    },
+    {
+      "id": "mc-c5-051",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Quy tắc tính giới hạn của tổng hiệu tích thương",
+      "question": "Nếu $\\lim u_n = a$ và $\\lim v_n = b$ thì $\\lim (u_n + v_n)$ bằng:",
+      "choices": [
+        "$a + b$",
+        "$a - b$",
+        "$ab$",
+        "$a/b$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn của tổng bằng tổng các giới hạn."
+    },
+    {
+      "id": "mc-c5-052",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Quy tắc tính giới hạn của tổng hiệu tích thương",
+      "question": "Nếu $\\lim u_n = a$ và $\\lim v_n = b$ thì $\\lim (u_n \\cdot v_n)$ bằng:",
+      "choices": [
+        "$a \\cdot b$",
+        "$a + b$",
+        "$a/b$",
+        "$a^b$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn của tích bằng tích các giới hạn."
+    },
+    {
+      "id": "mc-c5-053",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Quy tắc tính giới hạn của tổng hiệu tích thương",
+      "question": "Nếu $\\lim u_n = a$ và $\\lim v_n = b \\neq 0$ thì $\\lim \\frac{u_n}{v_n}$ bằng:",
+      "choices": [
+        "$\\frac{a}{b}$",
+        "$ab$",
+        "$a - b$",
+        "$b/a$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn của thương bằng thương hai giới hạn khi mẫu khác 0."
+    },
+    {
+      "id": "mc-c5-054",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Quy tắc tính giới hạn của tổng hiệu tích thương",
+      "question": "Cho $\\lim u_n = 3$. Giá trị của $\\lim (2u_n + 1)$ là:",
+      "choices": [
+        "$7$",
+        "$6$",
+        "$5$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "$2(3) + 1 = 7$."
+    },
+    {
+      "id": "mc-c5-055",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Quy tắc tính giới hạn của tổng hiệu tích thương",
+      "question": "Cho $\\lim u_n = 4$. Tính $\\lim \\sqrt{u_n}$:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$16$",
+        "Không tồn tại"
+      ],
+      "answer": 0,
+      "explanation": "$\\sqrt{4} = 2$."
+    },
+    {
+      "id": "mc-c5-056",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Dạng vô định không trên không",
+      "question": "Khi tính $\\lim_{x \\to x_0} \\frac{f(x)}{g(x)}$ mà $f(x_0) = 0$ và $g(x_0) = 0$, ta gặp dạng vô định:",
+      "choices": [
+        "$\\frac{0}{0}$",
+        "$\\frac{\\infty}{\\infty}$",
+        "$\\infty - \\infty$",
+        "$0 \\cdot \\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Dạng $0/0$ là dạng vô định cơ bản."
+    },
+    {
+      "id": "mc-c5-057",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Dạng vô định không trên không",
+      "question": "Phương pháp thường dùng để khử dạng vô định $\\frac{0}{0}$ đối với hàm đa thức là:",
+      "choices": [
+        "Phân tích tử và mẫu thành nhân tử chứa $(x - x_0)$ rồi rút gọn",
+        "Quy đồng mẫu số",
+        "Chia cho x",
+        "Thay trực tiếp"
+      ],
+      "answer": 0,
+      "explanation": "Triệt tiêu nhân tử chung $(x - x_0)$."
+    },
+    {
+      "id": "mc-c5-058",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Dạng vô định không trên không",
+      "question": "Khi gặp dạng $\\frac{0}{0}$ có chứa căn thức, ta thường dùng phương pháp:",
+      "choices": [
+        "Nhân lượng liên hợp",
+        "Bình phương hai vế",
+        "Chia cho $x^2$",
+        "Đặt ẩn phụ lượng giác"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp để trục căn thức làm xuất hiện nhân tử triệt tiêu."
+    },
+    {
+      "id": "mc-c5-059",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Dạng vô định không trên không",
+      "question": "Biểu thức liên hợp của $\\sqrt{x} - 2$ là:",
+      "choices": [
+        "$\\sqrt{x} + 2$",
+        "$\\sqrt{x} - 2$",
+        "$x - 4$",
+        "$x + 4$"
+      ],
+      "answer": 0,
+      "explanation": "Liên hợp của $a - b$ là $a + b$."
+    },
+    {
+      "id": "mc-c5-060",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Dạng vô định không trên không",
+      "question": "Tích $(\\sqrt{x} - 1)(\\sqrt{x} + 1)$ bằng:",
+      "choices": [
+        "$x - 1$",
+        "$x + 1$",
+        "$x^2 - 1$",
+        "$\\sqrt{x} - 1$"
+      ],
+      "answer": 0,
+      "explanation": "$(\\sqrt{x})^2 - 1^2 = x - 1$."
+    },
+    {
+      "id": "mc-c5-061",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy phân thức cùng bậc",
+      "question": "Tính giới hạn $\\lim \\frac{2n + 1}{n + 3}$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$\\frac{1}{3}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Cùng bậc 1, tỉ số hệ số cao nhất là $2/1 = 2$."
+    },
+    {
+      "id": "mc-c5-062",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy phân thức cùng bậc",
+      "question": "Giới hạn $\\lim \\frac{4n^2 - 1}{2n^2 + 3n}$ bằng:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$\\frac{1}{2}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử bằng bậc mẫu, tỉ số hệ số là $4/2 = 2$."
+    },
+    {
+      "id": "mc-c5-063",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy phân thức cùng bậc",
+      "question": "Giá trị của $\\lim \\frac{3n + 5}{6n - 2}$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$3$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số hệ số $3/6 = 1/2$."
+    },
+    {
+      "id": "mc-c5-064",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy phân thức cùng bậc",
+      "question": "Tính $\\lim \\frac{5n^3 + 2}{n^3 + n}$:",
+      "choices": [
+        "$5$",
+        "$1$",
+        "$0$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số hệ số cao nhất là $5/1 = 5$."
+    },
+    {
+      "id": "mc-c5-065",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy bậc tử nhỏ hơn bậc mẫu",
+      "question": "Tính $\\lim \\frac{2n + 1}{n^2 + 1}$:",
+      "choices": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu nên giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-066",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy bậc tử nhỏ hơn bậc mẫu",
+      "question": "Giới hạn $\\lim \\frac{3n^2 - 1}{n^3 + 4}$ bằng:",
+      "choices": [
+        "$0$",
+        "$3$",
+        "$1$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử là 2, mẫu là 3 nên giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-067",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy bậc tử nhỏ hơn bậc mẫu",
+      "question": "Giá trị của $\\lim \\frac{n + 10}{2n^2 + 5}$ là:",
+      "choices": [
+        "$0$",
+        "$\\frac{1}{2}$",
+        "$2$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-068",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dãy bậc tử nhỏ hơn bậc mẫu",
+      "question": "Tính $\\lim \\frac{5}{n^2 + 3}$:",
+      "choices": [
+        "$0$",
+        "$5$",
+        "$\\frac{5}{3}$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn bằng 0."
+    },
+    {
+      "id": "mc-c5-069",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 phân tích nhân tử",
+      "question": "Tính giới hạn $\\lim_{x \\to 1} \\frac{x^2 - 1}{x - 1}$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "Không tồn tại"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{x^2 - 1}{x - 1} = x + 1$. Khi $x \\to 1$, giới hạn bằng $1 + 1 = 2$."
+    },
+    {
+      "id": "mc-c5-070",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 phân tích nhân tử",
+      "question": "Giá trị của $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ là:",
+      "choices": [
+        "$4$",
+        "$2$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to 2} (x + 2) = 4$."
+    },
+    {
+      "id": "mc-c5-071",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 phân tích nhân tử",
+      "question": "Tính $\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}$:",
+      "choices": [
+        "$6$",
+        "$3$",
+        "$9$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to 3} (x + 3) = 6$."
+    },
+    {
+      "id": "mc-c5-072",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 phân tích nhân tử",
+      "question": "Giới hạn $\\lim_{x \\to -1} \\frac{x^2 - 1}{x + 1}$ bằng:",
+      "choices": [
+        "$-2$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to -1} (x - 1) = -1 - 1 = -2$."
+    },
+    {
+      "id": "mc-c5-073",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 nhân lượng liên hợp",
+      "question": "Tính giới hạn $\\lim_{x \\to 4} \\frac{\\sqrt{x} - 2}{x - 4}$:",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{\\sqrt{x}-2}{x-4} = \\frac{1}{\\sqrt{x}+2}$. Khi $x \\to 4$ bằng $1/(2+2) = 1/4$."
+    },
+    {
+      "id": "mc-c5-074",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 nhân lượng liên hợp",
+      "question": "Giá trị của $\\lim_{x \\to 1} \\frac{\\sqrt{x} - 1}{x - 1}$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{1}{\\sqrt{x}+1} = 1/(1+1) = 1/2$."
+    },
+    {
+      "id": "mc-c5-075",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 nhân lượng liên hợp",
+      "question": "Tính $\\lim_{x \\to 9} \\frac{\\sqrt{x} - 3}{x - 9}$:",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{3}$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$1/(\\sqrt{9}+3) = 1/6$."
+    },
+    {
+      "id": "mc-c5-076",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn dạng 0/0 nhân lượng liên hợp",
+      "question": "Giới hạn $\\lim_{x \\to 0} \\frac{\\sqrt{x + 1} - 1}{x}$ bằng:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp: $\\frac{x}{x(\\sqrt{x+1}+1)} = \\frac{1}{\\sqrt{x+1}+1} \\to 1/2$."
+    },
+    {
+      "id": "mc-c5-077",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn hàm số tại vô cực cùng bậc",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x + 1}{x - 2}$:",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$-3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Chia cả tử và mẫu cho x ta được 3."
+    },
+    {
+      "id": "mc-c5-078",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn hàm số tại vô cực cùng bậc",
+      "question": "Giá trị của $\\lim_{x \\to +\\infty} \\frac{4x^2 - 1}{2x^2 + 5}$ bằng:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$\\frac{1}{2}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số bậc cao nhất là $4/2 = 2$."
+    },
+    {
+      "id": "mc-c5-079",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn hàm số tại vô cực cùng bậc",
+      "question": "Tính $\\lim_{x \\to -\\infty} \\frac{6x - 2}{2x + 1}$:",
+      "choices": [
+        "$3$",
+        "$-3$",
+        "$6$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số hệ số cao nhất là $6/2 = 3$."
+    },
+    {
+      "id": "mc-c5-080",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn hàm số tại vô cực cùng bậc",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} \\frac{2x^2 + 3}{x^2 + 1}$ bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Bằng 2."
+    },
+    {
+      "id": "mc-c5-081",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính liên tục tại điểm chứa tham số m",
+      "question": "Cho hàm số $f(x) = \\frac{x^2 - 1}{x - 1}$ khi $x \\neq 1$ và $f(1) = m$. Để hàm số liên tục tại $x = 1$ thì m bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to 1} f(x) = 2$. Để liên tục cần $f(1) = m = 2$."
+    },
+    {
+      "id": "mc-c5-082",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính liên tục tại điểm chứa tham số m",
+      "question": "Cho hàm số $f(x) = 2x + m$ khi $x \\ge 1$ và $f(x) = 5$ khi $x < 1$. Để hàm số liên tục tại $x = 1$ thì:",
+      "choices": [
+        "$m = 3$",
+        "$m = 2$",
+        "$m = 5$",
+        "$m = 1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to 1^+} f(x) = 2 + m$. Cần $2 + m = 5 \\Rightarrow m = 3$."
+    },
+    {
+      "id": "mc-c5-083",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính liên tục tại điểm chứa tham số m",
+      "question": "Hàm số $f(x) = 3x - 1$ với $x \\le 2$ và $f(x) = ax + 1$ với $x > 2$. Để liên tục tại $x = 2$ thì a bằng:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$f(2) = 5$. Giới hạn phải là $2a + 1 = 5 \\Rightarrow a = 2$."
+    },
+    {
+      "id": "mc-c5-084",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Tính liên tục tại điểm chứa tham số m",
+      "question": "Tìm m để hàm số $f(x) = x + m$ liên tục tại $x = 3$ biết $f(3) = 7$:",
+      "choices": [
+        "$m = 4$",
+        "$m = 3$",
+        "$m = 7$",
+        "$m = 10$"
+      ],
+      "answer": 0,
+      "explanation": "$3 + m = 7 \\Rightarrow m = 4$."
+    },
+    {
+      "id": "mc-c5-085",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn một phía dẫn đến vô cực",
+      "question": "Tính giới hạn $\\lim_{x \\to 1^+} \\frac{1}{x - 1}$:",
+      "choices": [
+        "$+\\infty$",
+        "$-\\infty$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $x \\to 1^+$, mẫu số dương và tiến về 0, nên giới hạn bằng $+\\infty$."
+    },
+    {
+      "id": "mc-c5-086",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn một phía dẫn đến vô cực",
+      "question": "Giới hạn $\\lim_{x \\to 1^-} \\frac{1}{x - 1}$ bằng:",
+      "choices": [
+        "$-\\infty$",
+        "$+\\infty$",
+        "$0$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $x \\to 1^-$, mẫu số âm và tiến về 0 nên bằng $-\\infty$."
+    },
+    {
+      "id": "mc-c5-087",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn một phía dẫn đến vô cực",
+      "question": "Tính $\\lim_{x \\to 2^+} \\frac{x + 1}{x - 2}$:",
+      "choices": [
+        "$+\\infty$",
+        "$-\\infty$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Tử số tiến về 3 > 0, mẫu số tiến về $0^+$ nên bằng $+\\infty$."
+    },
+    {
+      "id": "mc-c5-088",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn một phía dẫn đến vô cực",
+      "question": "Tính $\\lim_{x \\to 2^-} \\frac{x + 1}{x - 2}$:",
+      "choices": [
+        "$-\\infty$",
+        "$+\\infty$",
+        "$-3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Tử số là 3 > 0, mẫu là $0^-$ nên bằng $-\\infty$."
+    },
+    {
+      "id": "mc-c5-089",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn",
+      "question": "Tổng của cấp số nhân lùi vô hạn $u_1 = 1, q = \\frac{1}{2}$ bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$\\frac{3}{2}$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{1 - 1/2} = 2$."
+    },
+    {
+      "id": "mc-c5-090",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn",
+      "question": "Tính tổng $S = 2 + 1 + \\frac{1}{2} + \\frac{1}{4} + \\dots$:",
+      "choices": [
+        "$4$",
+        "$2$",
+        "$3$",
+        "$\\frac{7}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$u_1 = 2, q = 1/2 \\Rightarrow S = \\frac{2}{1 - 1/2} = 4$."
+    },
+    {
+      "id": "mc-c5-091",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn",
+      "question": "Cho cấp số nhân lùi vô hạn $u_1 = 6, q = \\frac{1}{3}$. Tổng S là:",
+      "choices": [
+        "$9$",
+        "$6$",
+        "$18$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{6}{1 - 1/3} = 9$."
+    },
+    {
+      "id": "mc-c5-092",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn",
+      "question": "Tổng $S = 3 + 1 + \\frac{1}{3} + \\dots$ bằng:",
+      "choices": [
+        "$\\frac{9}{2}$",
+        "$4$",
+        "$3$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{3}{1 - 1/3} = 4,5 = \\frac{9}{2}$."
+    },
+    {
+      "id": "mc-c5-093",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Chứng minh phương trình có nghiệm trên khoảng",
+      "question": "Phương trình $x^3 + 2x - 1 = 0$ có ít nhất một nghiệm trong khoảng nào sau đây?",
+      "choices": [
+        "$(0; 1)$",
+        "$(1; 2)$",
+        "$(-2; -1)$",
+        "$(2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "Đặt $f(x) = x^3 + 2x - 1$. Ta có $f(0) = -1 < 0$ và $f(1) = 2 > 0$ nên có nghiệm trong $(0; 1)$."
+    },
+    {
+      "id": "mc-c5-094",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Chứng minh phương trình có nghiệm trên khoảng",
+      "question": "Phương trình $x^3 - 3x + 1 = 0$ có nghiệm trong khoảng:",
+      "choices": [
+        "$(1; 2)$",
+        "$(2; 3)$",
+        "$(3; 4)$",
+        "$(-3; -2)$"
+      ],
+      "answer": 0,
+      "explanation": "$f(1) = -1 < 0$ và $f(2) = 3 > 0$ nên có nghiệm trong $(1; 2)$."
+    },
+    {
+      "id": "mc-c5-095",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Chứng minh phương trình có nghiệm trên khoảng",
+      "question": "Xét $f(x) = x^4 - 2x - 2 = 0$. Phương trình có nghiệm trong khoảng:",
+      "choices": [
+        "$(1; 2)$",
+        "$(0; 1)$",
+        "$(-1; 0)$",
+        "$(2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$f(1) = -3 < 0, f(2) = 16 - 4 - 2 = 10 > 0$ nên có nghiệm trong $(1; 2)$."
+    },
+    {
+      "id": "mc-c5-096",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "th",
+      "dang": "Chứng minh phương trình có nghiệm trên khoảng",
+      "question": "Phương trình $2x^3 - 5x + 1 = 0$ có nghiệm trong khoảng:",
+      "choices": [
+        "$(0; 1)$",
+        "$(2; 3)$",
+        "$(3; 4)$",
+        "$(-3; -2)$"
+      ],
+      "answer": 0,
+      "explanation": "$f(0) = 1 > 0$ và $f(1) = -2 < 0$, tích âm nên có nghiệm trong $(0; 1)$."
+    },
+    {
+      "id": "mc-c5-097",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn chứa căn thức tại vô cực",
+      "question": "Tính giới hạn $\\lim_{x \\to +\\infty} \\frac{\\sqrt{x^2 + 1}}{x}$:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Rút x ra ngoài: $\\frac{x\\sqrt{1 + 1/x^2}}{x} = 1$."
+    },
+    {
+      "id": "mc-c5-098",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn chứa căn thức tại vô cực",
+      "question": "Giá trị của $\\lim_{x \\to -\\infty} \\frac{\\sqrt{x^2 + 1}}{x}$ là:",
+      "choices": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $x < 0$ thì $\\sqrt{x^2} = -x$, do đó giới hạn bằng $-1$."
+    },
+    {
+      "id": "mc-c5-099",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn chứa căn thức tại vô cực",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{\\sqrt{4x^2 + 3}}{x + 1}$:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sqrt{4} = 2$, hệ số bằng 2."
+    },
+    {
+      "id": "mc-c5-100",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Giới hạn chứa căn thức tại vô cực",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} \\frac{\\sqrt{9x^2 + 2}}{2x - 1}$ bằng:",
+      "choices": [
+        "$\\frac{3}{2}$",
+        "$3$",
+        "$9$",
+        "$\\frac{9}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{3}{2}$."
+    },
+    {
+      "id": "mc-c5-101",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dạng vô định vô cùng trừ vô cùng",
+      "question": "Tính giới hạn $\\lim (\\sqrt{n + 1} - \\sqrt{n})$:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp: $\\frac{1}{\\sqrt{n+1} + \\sqrt{n}} \\to 0$."
+    },
+    {
+      "id": "mc-c5-102",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dạng vô định vô cùng trừ vô cùng",
+      "question": "Giá trị của $\\lim (\\sqrt{n^2 + 2n} - n)$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp: $\\frac{2n}{\\sqrt{n^2+2n} + n} = \\frac{2}{1 + 1} = 1$."
+    },
+    {
+      "id": "mc-c5-103",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dạng vô định vô cùng trừ vô cùng",
+      "question": "Tính $\\lim (\\sqrt{n^2 + 4n} - n)$:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{4n}{2n} = 2$."
+    },
+    {
+      "id": "mc-c5-104",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn dạng vô định vô cùng trừ vô cùng",
+      "question": "Giới hạn $\\lim (\\sqrt{n^2 + 6n} - n)$ bằng:",
+      "choices": [
+        "$3$",
+        "$6$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{6}{2} = 3$."
+    },
+    {
+      "id": "mc-c5-105",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Ý nghĩa vận tốc tức thời và giới hạn",
+      "question": "Vận tốc tức thời của vật chuyển động theo quy luật $s(t) = t^2$ tại thời điểm $t = 2$ là:",
+      "choices": [
+        "$4\\text{ m/s}$",
+        "$2\\text{ m/s}$",
+        "$8\\text{ m/s}$",
+        "$1\\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(2) = \\lim_{\\Delta t \\to 0} \\frac{(2 + \\Delta t)^2 - 4}{\\Delta t} = 4\\text{ m/s}$."
+    },
+    {
+      "id": "mc-c5-106",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Ý nghĩa vận tốc tức thời và giới hạn",
+      "question": "Một vật rơi tự do theo công thức $s(t) = 5t^2$ (m). Vận tốc tức thời tại $t = 3\\text{ s}$ là:",
+      "choices": [
+        "$30\\text{ m/s}$",
+        "$15\\text{ m/s}$",
+        "$45\\text{ m/s}$",
+        "$10\\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = 10t \\Rightarrow v(3) = 30\\text{ m/s}$."
+    },
+    {
+      "id": "mc-c5-107",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Ý nghĩa vận tốc tức thời và giới hạn",
+      "question": "Quy luật chuyển động $s(t) = 3t^2 + 2t$. Vận tốc tức thời tại $t = 1$ là:",
+      "choices": [
+        "$8\\text{ m/s}$",
+        "$5\\text{ m/s}$",
+        "$6\\text{ m/s}$",
+        "$7\\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = 6t + 2 \\Rightarrow v(1) = 8\\text{ m/s}$."
+    },
+    {
+      "id": "mc-c5-108",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Ý nghĩa vận tốc tức thời và giới hạn",
+      "question": "Vật chuyển động $s(t) = 4t^2$. Tại thời điểm nào thì vận tốc tức thời bằng 16 m/s?",
+      "choices": [
+        "$t = 2\\text{ s}$",
+        "$t = 4\\text{ s}$",
+        "$t = 1\\text{ s}$",
+        "$t = 3\\text{ s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = 8t = 16 \\Rightarrow t = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c5-109",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn dạng 0/0 chứa hai căn thức",
+      "question": "Tính giới hạn $\\lim_{x \\to 0} \\frac{\\sqrt{1 + x} - \\sqrt{1 - x}}{x}$:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp: $\\frac{2x}{x(\\sqrt{1+x} + \\sqrt{1-x})} = \\frac{2}{2} = 1$."
+    },
+    {
+      "id": "mc-c5-110",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn dạng 0/0 chứa hai căn thức",
+      "question": "Giá trị của $\\lim_{x \\to 0} \\frac{\\sqrt{1 + 2x} - 1}{x}$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$\\frac{1}{2}$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{2x}{x(\\sqrt{1+2x}+1)} = \\frac{2}{2} = 1$."
+    },
+    {
+      "id": "mc-c5-111",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn dạng 0/0 chứa hai căn thức",
+      "question": "Tính $\\lim_{x \\to 0} \\frac{\\sqrt{1 + 4x} - 1}{x}$:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{4x}{x(\\sqrt{1+4x}+1)} = \\frac{4}{2} = 2$."
+    },
+    {
+      "id": "mc-c5-112",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn dạng 0/0 chứa hai căn thức",
+      "question": "Giới hạn $\\lim_{x \\to 0} \\frac{\\sqrt{1 + 6x} - 1}{x}$ bằng:",
+      "choices": [
+        "$3$",
+        "$6$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{6}{2} = 3$."
+    },
+    {
+      "id": "mc-c5-113",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Xác định tham số a để hàm liên tục tại điểm",
+      "question": "Cho hàm số $f(x) = \\frac{x^2 - 4}{x - 2}$ khi $x \\neq 2$ và $f(2) = 2a + 2$. Tìm a để hàm số liên tục tại $x = 2$:",
+      "choices": [
+        "$a = 1$",
+        "$a = 2$",
+        "$a = 0$",
+        "$a = 3$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to 2} f(x) = 4$. Cần $2a + 2 = 4 \\Rightarrow 2a = 2 \\Rightarrow a = 1$."
+    },
+    {
+      "id": "mc-c5-114",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Xác định tham số a để hàm liên tục tại điểm",
+      "question": "Tìm m để hàm số $f(x) = \\frac{x^2 - 9}{x - 3}$ ($x \\neq 3$) và $f(3) = 3m$ liên tục tại $x = 3$:",
+      "choices": [
+        "$m = 2$",
+        "$m = 3$",
+        "$m = 1$",
+        "$m = 6$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn bằng 6. Cần $3m = 6 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c5-115",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Xác định tham số a để hàm liên tục tại điểm",
+      "question": "Cho $f(x) = \\frac{x^2 - 16}{x - 4}$ ($x \\neq 4$) và $f(4) = 4m$. Để liên tục tại $x = 4$ thì m là:",
+      "choices": [
+        "$m = 2$",
+        "$m = 4$",
+        "$m = 1$",
+        "$m = 8$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn bằng 8. Cần $4m = 8 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c5-116",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Xác định tham số a để hàm liên tục tại điểm",
+      "question": "Hàm số $f(x) = \\frac{x^2 - 25}{x - 5}$ ($x \\neq 5$) và $f(5) = 2m$. Tìm m để hàm liên tục tại $x = 5$:",
+      "choices": [
+        "$m = 5$",
+        "$m = 10$",
+        "$m = 2$",
+        "$m = 4$"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn bằng 10. $2m = 10 \\Rightarrow m = 5$."
+    },
+    {
+      "id": "mc-c5-117",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn vô cực trừ vô cực tại vô cực",
+      "question": "Tính giới hạn $\\lim_{x \\to +\\infty} (\\sqrt{x^2 + 2x} - x)$:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Nhân liên hợp: $\\frac{2x}{\\sqrt{x^2+2x} + x} = \\frac{2}{2} = 1$."
+    },
+    {
+      "id": "mc-c5-118",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn vô cực trừ vô cực tại vô cực",
+      "question": "Giá trị của $\\lim_{x \\to +\\infty} (\\sqrt{x^2 + 4x} - x)$ là:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{4x}{2x} = 2$."
+    },
+    {
+      "id": "mc-c5-119",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn vô cực trừ vô cực tại vô cực",
+      "question": "Tính $\\lim_{x \\to +\\infty} (\\sqrt{x^2 + 6x} - x)$:",
+      "choices": [
+        "$3$",
+        "$6$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{6x}{2x} = 3$."
+    },
+    {
+      "id": "mc-c5-120",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "vd",
+      "dang": "Giới hạn vô cực trừ vô cực tại vô cực",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} (\\sqrt{x^2 + 8x} - x)$ bằng:",
+      "choices": [
+        "$4$",
+        "$8$",
+        "$2$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{8x}{2x} = 4$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính giới hạn $\\lim_{x \\to 2} (3x + 4)$:",
+      "answer": 10,
+      "explanation": "Thay $x = 2$: $3(2) + 4 = 10$."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Giá trị của $\\lim_{x \\to 1} (5x - 2)$ bằng:",
+      "answer": 3,
+      "explanation": "$5(1) - 2 = 3$."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính $\\lim_{x \\to 3} (2x^2 + 1)$:",
+      "answer": 19,
+      "explanation": "$2(9) + 1 = 19$."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Giới hạn $\\lim_{x \\to 0} (4x + 7)$ bằng:",
+      "answer": 7,
+      "explanation": "$4(0) + 7 = 7$."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính giá trị của $\\lim_{x \\to 4} (2x - 3)$:",
+      "answer": 5,
+      "explanation": "$2(4) - 3 = 5$."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giá trị của $\\lim \\frac{5}{n}$ bằng bao nhiêu?",
+      "answer": 0,
+      "explanation": "Hằng số chia cho vô cực bằng 0."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Tính giới hạn $\\lim \\frac{1}{n^3}$:",
+      "answer": 0,
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giới hạn $\\lim \\left(\\frac{1}{4}\\right)^n$ bằng:",
+      "answer": 0,
+      "explanation": "Do $|1/4| < 1$ nên giới hạn bằng 0."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Tính $\\lim \\frac{-8}{n^2}$:",
+      "answer": 0,
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giá trị của $\\lim \\left(-\\frac{1}{2}\\right)^n$ là:",
+      "answer": 0,
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Cho hàm số $f(x) = x^2 + 3$. Giá trị của $f(2)$ bằng bao nhiêu?",
+      "answer": 7,
+      "explanation": "$2^2 + 3 = 7$."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Hàm số $f(x) = 2x + 5$ có giá trị tại $x = 3$ bằng:",
+      "answer": 11,
+      "explanation": "$2(3) + 5 = 11$."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Giá trị của $f(1)$ với $f(x) = 4x^3 - 1$ là:",
+      "answer": 3,
+      "explanation": "$4(1) - 1 = 3$."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Tính $f(0)$ biết $f(x) = 3x^2 + 8$:",
+      "answer": 8,
+      "explanation": "$f(0) = 8$."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Cho $f(x) = 5 - 2x$. Tính $f(1)$:",
+      "answer": 3,
+      "explanation": "$5 - 2(1) = 3$."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Tính giới hạn $\\lim \\frac{6n + 1}{2n + 3}$:",
+      "answer": 3,
+      "explanation": "$6/2 = 3$."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Giá trị của $\\lim \\frac{8n^2 + 5}{2n^2 + 1}$ bằng:",
+      "answer": 4,
+      "explanation": "$8/2 = 4$."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Tính $\\lim \\frac{10n - 3}{5n + 2}$:",
+      "answer": 2,
+      "explanation": "$10/5 = 2$."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Giới hạn $\\lim \\frac{12n^3 + 1}{3n^3 + 4}$ bằng:",
+      "answer": 4,
+      "explanation": "$12/3 = 4$."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Tính giới hạn $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$:",
+      "answer": 4,
+      "explanation": "$\\lim_{x \\to 2} (x + 2) = 4$."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Giá trị của $\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}$ là:",
+      "answer": 6,
+      "explanation": "$\\lim_{x \\to 3} (x + 3) = 6$."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Tính $\\lim_{x \\to 4} \\frac{x^2 - 16}{x - 4}$:",
+      "answer": 8,
+      "explanation": "$\\lim_{x \\to 4} (x + 4) = 8$."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Giới hạn $\\lim_{x \\to 5} \\frac{x^2 - 25}{x - 5}$ bằng:",
+      "answer": 10,
+      "explanation": "$\\lim_{x \\to 5} (x + 5) = 10$."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Tính tổng cấp số nhân lùi vô hạn có $u_1 = 3, q = \\frac{1}{2}$:",
+      "answer": 6,
+      "explanation": "$S = 3 / (1 - 1/2) = 6$."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Cấp số nhân lùi vô hạn $u_1 = 4, q = \\frac{1}{2}$ có tổng bằng:",
+      "answer": 8,
+      "explanation": "$S = 4 / (1/2) = 8$."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Tính tổng $S = 5 + \\frac{5}{2} + \\frac{5}{4} + \\dots$:",
+      "answer": 10,
+      "explanation": "$S = 5 / (1/2) = 10$."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Cho $u_1 = 2, q = \\frac{2}{3}$. Tổng của cấp số nhân lùi vô hạn bằng:",
+      "answer": 6,
+      "explanation": "$S = 2 / (1 - 2/3) = 6$."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Cho hàm số $f(x) = \\frac{x^2 - 1}{x - 1}$ khi $x \\neq 1$ và $f(1) = m$. Tìm m để hàm liên tục tại $x = 1$:",
+      "answer": 2,
+      "explanation": "Giới hạn bằng 2, vậy $m = 2$."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Tìm m để hàm số $f(x) = \\frac{x^2 - 4}{x - 2}$ khi $x \\neq 2$ và $f(2) = m$ liên tục tại $x = 2$:",
+      "answer": 4,
+      "explanation": "Giới hạn bằng 4, vậy $m = 4$."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Cho $f(x) = \\frac{x^2 - 9}{x - 3}$ ($x \\neq 3$) và $f(3) = 2m$. Tìm m để hàm liên tục tại $x = 3$:",
+      "answer": 3,
+      "explanation": "$2m = 6 \\Rightarrow m = 3$."
+    }
+  ]
+}

@@ -1,0 +1,2252 @@
+{
+  "sgk_chapter_title": "Quan hệ song song trong không gian",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b10",
+      "sgk_title": "Bài 10. Đường thẳng và mặt phẳng trong không gian"
+    },
+    {
+      "lesson_id": "b11",
+      "sgk_title": "Bài 11. Hai đường thẳng song song"
+    },
+    {
+      "lesson_id": "b12",
+      "sgk_title": "Bài 12. Đường thẳng và mặt phẳng song song"
+    },
+    {
+      "lesson_id": "b13",
+      "sgk_title": "Bài 13. Hai mặt phẳng song song"
+    },
+    {
+      "lesson_id": "b14",
+      "sgk_title": "Bài 14. Phép chiếu song song"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c4-001",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Xác định mặt phẳng trong không gian",
+      "question": "Có bao nhiêu mặt phẳng đi qua ba điểm không thẳng hàng?",
+      "choices": [
+        "$1$ mặt phẳng duy nhất",
+        "$2$ mặt phẳng",
+        "Vô số mặt phẳng",
+        "$0$ mặt phẳng"
+      ],
+      "answer": 0,
+      "explanation": "Qua ba điểm không thẳng hàng xác định duy nhất 1 mặt phẳng."
+    },
+    {
+      "id": "mc-c4-002",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Xác định mặt phẳng trong không gian",
+      "question": "Một mặt phẳng được xác định duy nhất nếu biết:",
+      "choices": [
+        "Một đường thẳng và một điểm không thuộc đường thẳng đó",
+        "Hai điểm phân biệt",
+        "Ba điểm thẳng hàng",
+        "Một đường thẳng duy nhất"
+      ],
+      "answer": 0,
+      "explanation": "Một đường thẳng và một điểm nằm ngoài nó xác định một mặt phẳng duy nhất."
+    },
+    {
+      "id": "mc-c4-003",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Xác định mặt phẳng trong không gian",
+      "question": "Qua hai đường thẳng cắt nhau có thể xác định được bao nhiêu mặt phẳng?",
+      "choices": [
+        "$1$ mặt phẳng",
+        "$2$ mặt phẳng",
+        "Vô số",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng cắt nhau xác định duy nhất 1 mặt phẳng."
+    },
+    {
+      "id": "mc-c4-004",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Xác định mặt phẳng trong không gian",
+      "question": "Hai đường thẳng song song phân biệt xác định được bao nhiêu mặt phẳng?",
+      "choices": [
+        "$1$ mặt phẳng",
+        "$2$ mặt phẳng",
+        "Vô số",
+        "Không có mặt phẳng nào"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng song song xác định duy nhất 1 mặt phẳng."
+    },
+    {
+      "id": "mc-c4-005",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Xác định mặt phẳng trong không gian",
+      "question": "Yếu tố nào sau đây KHÔNG đủ để xác định duy nhất một mặt phẳng?",
+      "choices": [
+        "Ba điểm thẳng hàng",
+        "Ba điểm không thẳng hàng",
+        "Hai đường thẳng cắt nhau",
+        "Hai đường thẳng song song phân biệt"
+      ],
+      "answer": 0,
+      "explanation": "Ba điểm thẳng hàng có vô số mặt phẳng đi qua."
+    },
+    {
+      "id": "mc-c4-006",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Giao tuyến của hai mặt phẳng",
+      "question": "Nếu hai mặt phẳng phân biệt có một điểm chung thì giao tuyến của chúng là:",
+      "choices": [
+        "Đường thẳng đi qua điểm chung đó",
+        "Một đoạn thẳng",
+        "Đúng một điểm",
+        "Một tam giác"
+      ],
+      "answer": 0,
+      "explanation": "Hai mặt phẳng phân biệt có điểm chung thì cắt nhau theo một đường thẳng đi qua điểm chung."
+    },
+    {
+      "id": "mc-c4-007",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Giao tuyến của hai mặt phẳng",
+      "question": "Trong hình chóp S.ABCD đáy là tứ giác lồi, giao tuyến của $(SAC)$ và $(SBD)$ là đường thẳng đi qua S và:",
+      "choices": [
+        "Giao điểm của AC và BD",
+        "Điểm A",
+        "Trung điểm của AB",
+        "Điểm D"
+      ],
+      "answer": 0,
+      "explanation": "Giao tuyến là $SO$ với $O = AC \\cap BD$."
+    },
+    {
+      "id": "mc-c4-008",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Giao tuyến của hai mặt phẳng",
+      "question": "Giao tuyến của mặt phẳng đáy $(ABCD)$ và mặt bên $(SAB)$ của hình chóp $S.ABCD$ là:",
+      "choices": [
+        "Đường thẳng AB",
+        "Đường thẳng CD",
+        "Đoạn thẳng SA",
+        "Đường thẳng BC"
+      ],
+      "answer": 0,
+      "explanation": "Hai mặt phẳng có chung hai điểm A và B nên giao tuyến là đường thẳng AB."
+    },
+    {
+      "id": "mc-c4-009",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Giao tuyến của hai mặt phẳng",
+      "question": "Cho hình tứ diện ABCD. Giao tuyến của hai mặt phẳng $(ABC)$ và $(ACD)$ là:",
+      "choices": [
+        "Đường thẳng AC",
+        "Đường thẳng AB",
+        "Đường thẳng CD",
+        "Đường thẳng BC"
+      ],
+      "answer": 0,
+      "explanation": "Hai mặt phẳng chung nhau cạnh AC."
+    },
+    {
+      "id": "mc-c4-010",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Giao tuyến của hai mặt phẳng",
+      "question": "Hai mặt phẳng phân biệt có thể có bao nhiêu điểm chung không thẳng hàng?",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Nếu có 3 điểm chung không thẳng hàng thì hai mặt phẳng trùng nhau."
+    },
+    {
+      "id": "mc-c4-011",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường thẳng",
+      "question": "Hai đường thẳng không có điểm chung và không cùng thuộc một mặt phẳng gọi là:",
+      "choices": [
+        "Hai đường thẳng chéo nhau",
+        "Hai đường thẳng song song",
+        "Hai đường thẳng cắt nhau",
+        "Hai đường thẳng trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa hai đường thẳng chéo nhau."
+    },
+    {
+      "id": "mc-c4-012",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường thẳng",
+      "question": "Hai đường thẳng phân biệt cùng nằm trong một mặt phẳng có thể:",
+      "choices": [
+        "Cắt nhau hoặc song song",
+        "Chéo nhau",
+        "Trùng nhau",
+        "Vuông góc mà không cắt nhau"
+      ],
+      "answer": 0,
+      "explanation": "Khi đồng phẳng thì chỉ có thể cắt nhau hoặc song song."
+    },
+    {
+      "id": "mc-c4-013",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường thẳng",
+      "question": "Trong tứ diện ABCD, hai đường thẳng AB và CD là:",
+      "choices": [
+        "Chéo nhau",
+        "Cắt nhau",
+        "Song song",
+        "Trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Trong tứ diện, hai cạnh đối diện luôn chéo nhau."
+    },
+    {
+      "id": "mc-c4-014",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường thẳng",
+      "question": "Số vị trí tương đối có thể có của hai đường thẳng phân biệt trong không gian là:",
+      "choices": [
+        "$3$ (cắt nhau, song song, chéo nhau)",
+        "$2$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Có 3 vị trí: cắt nhau, song song, chéo nhau."
+    },
+    {
+      "id": "mc-c4-015",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Vị trí tương đối của hai đường thẳng",
+      "question": "Khẳng định nào đúng về hai đường thẳng chéo nhau?",
+      "choices": [
+        "Chúng không cùng nằm trên bất kì mặt phẳng nào",
+        "Chúng có một điểm chung",
+        "Chúng song song với nhau",
+        "Chúng có thể trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Hai đường thẳng chéo nhau là không đồng phẳng."
+    },
+    {
+      "id": "mc-c4-016",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định lí về ba mặt phẳng cắt nhau",
+      "question": "Nếu ba mặt phẳng đôi một cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó:",
+      "choices": [
+        "Hoặc đồng quy, hoặc đôi một song song",
+        "Luôn luôn đồng quy",
+        "Luôn luôn đôi một song song",
+        "Luôn luôn chéo nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định lí về giao tuyến của ba mặt phẳng."
+    },
+    {
+      "id": "mc-c4-017",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định lí về ba mặt phẳng cắt nhau",
+      "question": "Cho hai đường thẳng phân biệt $a$ và $b$ cùng song song với đường thẳng $c$. Khi đó:",
+      "choices": [
+        "$a \\parallel b$",
+        "a cắt b",
+        "a chéo b",
+        "a trùng b"
+      ],
+      "answer": 0,
+      "explanation": "Tính chất bắc cầu: hai đường thẳng phân biệt cùng song song với đường thứ ba thì song song với nhau."
+    },
+    {
+      "id": "mc-c4-018",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định lí về ba mặt phẳng cắt nhau",
+      "question": "Trong hình chóp $S.ABCD$ có đáy là hình bình hành. Giao tuyến của $(SAB)$ và $(SCD)$ là đường thẳng đi qua S và:",
+      "choices": [
+        "Song song với AB và CD",
+        "Đi qua giao điểm của AC và BD",
+        "Vuông góc với đáy",
+        "Trùng với SA"
+      ],
+      "answer": 0,
+      "explanation": "Do $AB \\parallel CD$ nên giao tuyến qua S và song song với AB, CD."
+    },
+    {
+      "id": "mc-c4-019",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định lí về ba mặt phẳng cắt nhau",
+      "question": "Cho ba mặt phẳng $(P), (Q), (R)$ cắt nhau theo 3 giao tuyến phân biệt. Nếu hai giao tuyến cắt nhau thì:",
+      "choices": [
+        "Giao tuyến thứ ba cũng đi qua điểm cắt đó (đồng quy)",
+        "Giao tuyến thứ ba song song với hai giao tuyến kia",
+        "Ba giao tuyến chéo nhau",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Nếu hai giao tuyến cắt nhau thì cả 3 giao tuyến đồng quy."
+    },
+    {
+      "id": "mc-c4-020",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "nb",
+      "dang": "Định lí về ba mặt phẳng cắt nhau",
+      "question": "Đường thẳng d song song với a, d' song song với a. Khi đó d và d' phân biệt sẽ:",
+      "choices": [
+        "Song song với nhau",
+        "Cắt nhau",
+        "Chéo nhau",
+        "Vuông góc"
+      ],
+      "answer": 0,
+      "explanation": "$d \\parallel d'$."
+    },
+    {
+      "id": "mc-c4-021",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Đường thẳng song song với mặt phẳng",
+      "question": "Đường thẳng d song song với mặt phẳng $(P)$ khi:",
+      "choices": [
+        "d và $(P)$ không có điểm chung",
+        "d có duy nhất 1 điểm chung với $(P)$",
+        "d nằm trong $(P)$",
+        "d vuông góc với $(P)$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa đường thẳng song song với mặt phẳng: không có điểm chung."
+    },
+    {
+      "id": "mc-c4-022",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Đường thẳng song song với mặt phẳng",
+      "question": "Điều kiện để đường thẳng $d$ song song với mặt phẳng $(P)$ là:",
+      "choices": [
+        "$d \\not\\subset (P)$ và $d$ song song với một đường thẳng $a \\subset (P)$",
+        "$d$ có điểm chung với $(P)$",
+        "$d$ cắt một đường thẳng trong $(P)$",
+        "$d \\subset (P)$"
+      ],
+      "answer": 0,
+      "explanation": "Định lí nhận biết: $d \\not\\subset (P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."
+    },
+    {
+      "id": "mc-c4-023",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Đường thẳng song song với mặt phẳng",
+      "question": "Cho đường thẳng $d \\parallel (P)$. Khẳng định nào sau đây là ĐÚNG?",
+      "choices": [
+        "d không có điểm chung với $(P)$",
+        "d có vô số điểm chung với $(P)$",
+        "d vuông góc với mọi đường trong $(P)$",
+        "Mọi đường trong $(P)$ đều song song với d"
+      ],
+      "answer": 0,
+      "explanation": "$d \\parallel (P) \\Rightarrow d \\cap (P) = \\emptyset$."
+    },
+    {
+      "id": "mc-c4-024",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Đường thẳng song song với mặt phẳng",
+      "question": "Nếu đường thẳng d song song với mặt phẳng $(P)$ thì qua d có thể kẻ được bao nhiêu mặt phẳng song song với $(P)$?",
+      "choices": [
+        "$1$ mặt phẳng",
+        "Vô số mặt phẳng",
+        "Không có mặt phẳng nào",
+        "$2$ mặt phẳng"
+      ],
+      "answer": 0,
+      "explanation": "Có duy nhất một mặt phẳng đi qua d và song song với $(P)$."
+    },
+    {
+      "id": "mc-c4-025",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Đường thẳng song song với mặt phẳng",
+      "question": "Cho hình chóp $S.ABCD$ đáy là hình bình hành $ABCD$. Cạnh AB song song với mặt phẳng nào?",
+      "choices": [
+        "$(SCD)$",
+        "$(SAD)$",
+        "$(SBC)$",
+        "$(SAB)$"
+      ],
+      "answer": 0,
+      "explanation": "Do $AB \\parallel CD$ và $CD \\subset (SCD)$ nên $AB \\parallel (SCD)$."
+    },
+    {
+      "id": "mc-c4-026",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Hai mặt phẳng song song",
+      "question": "Hai mặt phẳng gọi là song song với nhau nếu:",
+      "choices": [
+        "Chúng không có điểm chung",
+        "Chúng có vô số điểm chung",
+        "Chúng vuông góc với nhau",
+        "Giao tuyến của chúng là một đường thẳng"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa: Hai mặt phẳng song song nếu chúng không có điểm chung."
+    },
+    {
+      "id": "mc-c4-027",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Hai mặt phẳng song song",
+      "question": "Điều kiện để mặt phẳng $(P)$ song song với mặt phẳng $(Q)$ là:",
+      "choices": [
+        "$(P)$ chứa hai đường thẳng cắt nhau cùng song song với $(Q)$",
+        "$(P)$ chứa một đường thẳng song song với $(Q)$",
+        "$(P)$ và $(Q)$ cùng song song với một đường thẳng",
+        "$(P)$ chứa hai đường thẳng song song với nhau"
+      ],
+      "answer": 0,
+      "explanation": "Định lí nhận biết hai mặt phẳng song song."
+    },
+    {
+      "id": "mc-c4-028",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Hai mặt phẳng song song",
+      "question": "Nếu $(P) \\parallel (Q)$ và mặt phẳng $(R)$ cắt $(P)$ theo giao tuyến $a$ thì $(R)$ sẽ cắt $(Q)$ theo giao tuyến $b$ sao cho:",
+      "choices": [
+        "$a \\parallel b$",
+        "a cắt b",
+        "a chéo b",
+        "$a \\perp b$"
+      ],
+      "answer": 0,
+      "explanation": "Hai mặt phẳng song song bị cắt bởi mặt phẳng thứ ba thì hai giao tuyến song song."
+    },
+    {
+      "id": "mc-c4-029",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Hai mặt phẳng song song",
+      "question": "Cho mặt phẳng $(P)$ và điểm $A \\notin (P)$. Có bao nhiêu mặt phẳng đi qua A và song song với $(P)$?",
+      "choices": [
+        "$1$ mặt phẳng duy nhất",
+        "$2$ mặt phẳng",
+        "Vô số mặt phẳng",
+        "Không có mặt phẳng nào"
+      ],
+      "answer": 0,
+      "explanation": "Qua một điểm ngoài mặt phẳng chỉ có duy nhất một mặt phẳng song song với mặt phẳng đó."
+    },
+    {
+      "id": "mc-c4-030",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Hai mặt phẳng song song",
+      "question": "Nếu $(P) \\parallel (Q)$ và $(Q) \\parallel (R)$ thì:",
+      "choices": [
+        "$(P) \\parallel (R)$ (nếu phân biệt)",
+        "$(P)$ cắt $(R)$",
+        "$(P) \\perp (R)$",
+        "$(P)$ chéo $(R)$"
+      ],
+      "answer": 0,
+      "explanation": "Tính chất bắc cầu của quan hệ song song giữa hai mặt phẳng."
+    },
+    {
+      "id": "mc-c4-031",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Định lí Ta-lét trong không gian",
+      "question": "Định lí Ta-lét trong không gian phát biểu rằng ba mặt phẳng đôi một song song:",
+      "choices": [
+        "Chắn trên hai cát tuyến bất kì các đoạn thẳng tương ứng tỉ lệ",
+        "Chắn trên hai cát tuyến các đoạn thẳng bằng nhau",
+        "Tạo với hai cát tuyến các góc bằng nhau",
+        "Đồng quy tại một điểm"
+      ],
+      "answer": 0,
+      "explanation": "Ba mặt phẳng song song chắn trên hai cát tuyến những đoạn thẳng tương ứng tỉ lệ."
+    },
+    {
+      "id": "mc-c4-032",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Định lí Ta-lét trong không gian",
+      "question": "Ba mặt phẳng song song $(P), (Q), (R)$ cắt hai đường thẳng $d, d'$ lần lượt tại $A, B, C$ và $A', B', C'$. Tỉ số nào đúng?",
+      "choices": [
+        "$\\frac{AB}{BC} = \\frac{A'B'}{B'C'}$",
+        "$\\frac{AB}{A'B'} = \\frac{BC}{AC}$",
+        "$\\frac{AB}{BC} = \\frac{B'C'}{A'B'}$",
+        "$AB \\cdot BC = A'B' \\cdot B'C'$"
+      ],
+      "answer": 0,
+      "explanation": "Theo định lí Ta-lét: $\\frac{AB}{BC} = \\frac{A'B'}{B'C'}$."
+    },
+    {
+      "id": "mc-c4-033",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Định lí Ta-lét trong không gian",
+      "question": "Nếu $AB = BC$ thì trên cát tuyến $d'$ ta có:",
+      "choices": [
+        "$A'B' = B'C'$",
+        "$A'B' = 2B'C'$",
+        "$A'B' < B'C'$",
+        "$A'B' > B'C'$"
+      ],
+      "answer": 0,
+      "explanation": "Do tỉ lệ bằng 1 nên $A'B' = B'C'$."
+    },
+    {
+      "id": "mc-c4-034",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Định lí Ta-lét trong không gian",
+      "question": "Cho $AB = 2, BC = 4$ và $A'B' = 3$. Độ dài $B'C'$ bằng:",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$4$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{AB}{BC} = \\frac{2}{4} = \\frac{1}{2} \\Rightarrow B'C' = 2 A'B' = 6$."
+    },
+    {
+      "id": "mc-c4-035",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Định lí Ta-lét trong không gian",
+      "question": "Cho $AB = 3, BC = 3$ và $A'B' = 5$. Độ dài $B'C'$ là:",
+      "choices": [
+        "$5$",
+        "$3$",
+        "$10$",
+        "$2,5$"
+      ],
+      "answer": 0,
+      "explanation": "Do $AB = BC$ nên $A'B' = B'C' = 5$."
+    },
+    {
+      "id": "mc-c4-036",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm hình lăng trụ và hình hộp",
+      "question": "Các mặt bên của hình lăng trụ là những hình gì?",
+      "choices": [
+        "Hình bình hành",
+        "Hình chữ nhật",
+        "Hình thang",
+        "Hình tam giác"
+      ],
+      "answer": 0,
+      "explanation": "Các mặt bên của hình lăng trụ luôn là hình bình hành."
+    },
+    {
+      "id": "mc-c4-037",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm hình lăng trụ và hình hộp",
+      "question": "Hai đáy của hình lăng trụ có tính chất nào sau đây?",
+      "choices": [
+        "Là hai đa giác bằng nhau và nằm trên hai mặt phẳng song song",
+        "Là hai đa giác đồng dạng nhưng kích thước khác nhau",
+        "Nằm trên hai mặt phẳng cắt nhau",
+        "Luôn là hình tam giác đều"
+      ],
+      "answer": 0,
+      "explanation": "Hai đáy của hình lăng trụ là hai đa giác bằng nhau nằm trên hai mặt phẳng song song."
+    },
+    {
+      "id": "mc-c4-038",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm hình lăng trụ và hình hộp",
+      "question": "Hình hộp là hình lăng trụ có đáy là:",
+      "choices": [
+        "Hình bình hành",
+        "Hình tam giác",
+        "Hình chữ nhật",
+        "Hình thang"
+      ],
+      "answer": 0,
+      "explanation": "Hình hộp là hình lăng trụ tứ giác có đáy là hình bình hành."
+    },
+    {
+      "id": "mc-c4-039",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm hình lăng trụ và hình hộp",
+      "question": "Hình lăng trụ tam giác có bao nhiêu mặt, bao nhiêu cạnh?",
+      "choices": [
+        "$5$ mặt, $9$ cạnh",
+        "$6$ mặt, $8$ cạnh",
+        "$5$ mặt, $6$ cạnh",
+        "$4$ mặt, $6$ cạnh"
+      ],
+      "answer": 0,
+      "explanation": "Lăng trụ tam giác có 2 đáy + 3 mặt bên = 5 mặt; 3 cạnh bên + 6 cạnh đáy = 9 cạnh."
+    },
+    {
+      "id": "mc-c4-040",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Khái niệm hình lăng trụ và hình hộp",
+      "question": "Hình hộp có tất cả bao nhiêu đỉnh và bao nhiêu mặt?",
+      "choices": [
+        "$8$ đỉnh, $6$ mặt",
+        "$6$ đỉnh, $8$ mặt",
+        "$8$ đỉnh, $12$ mặt",
+        "$12$ đỉnh, $6$ mặt"
+      ],
+      "answer": 0,
+      "explanation": "Hình hộp có 8 đỉnh, 6 mặt (đều là hình bình hành)."
+    },
+    {
+      "id": "mc-c4-041",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Khái niệm phép chiếu song song",
+      "question": "Phép chiếu song song biến ba điểm thẳng hàng thành:",
+      "choices": [
+        "Ba điểm thẳng hàng và bảo toàn thứ tự giữa chúng",
+        "Ba điểm không thẳng hàng",
+        "Một tam giác",
+        "Đúng một điểm duy nhất"
+      ],
+      "answer": 0,
+      "explanation": "Phép chiếu song song bảo toàn tính thẳng hàng và thứ tự các điểm."
+    },
+    {
+      "id": "mc-c4-042",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Khái niệm phép chiếu song song",
+      "question": "Hình chiếu song song của hai đường thẳng song song là:",
+      "choices": [
+        "Hai đường thẳng song song hoặc trùng nhau",
+        "Hai đường thẳng cắt nhau",
+        "Hai đường thẳng chéo nhau",
+        "Hai điểm phân biệt"
+      ],
+      "answer": 0,
+      "explanation": "Biến hai đường thẳng song song thành hai đường thẳng song song hoặc trùng nhau."
+    },
+    {
+      "id": "mc-c4-043",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Khái niệm phép chiếu song song",
+      "question": "Phép chiếu song song có bảo toàn tỉ số độ dài của hai đoạn thẳng cùng nằm trên một đường thẳng không?",
+      "choices": [
+        "Có bảo toàn",
+        "Không bảo toàn",
+        "Chỉ bảo toàn khi vuông góc",
+        "Tùy phương chiếu"
+      ],
+      "answer": 0,
+      "explanation": "Phép chiếu song song bảo toàn tỉ số độ dài của hai đoạn thẳng cùng nằm trên một đường thẳng hoặc trên hai đường thẳng song song."
+    },
+    {
+      "id": "mc-c4-044",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Khái niệm phép chiếu song song",
+      "question": "Hình chiếu song song của một hình bình hành lên mặt phẳng có thể là:",
+      "choices": [
+        "Hình bình hành hoặc một đoạn thẳng",
+        "Hình thang vuông",
+        "Một tam giác",
+        "Một ngũ giác"
+      ],
+      "answer": 0,
+      "explanation": "Nếu mặt phẳng hình bình hành không song song phương chiếu thì ra hình bình hành; nếu song song thì suy biến thành đoạn thẳng."
+    },
+    {
+      "id": "mc-c4-045",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Khái niệm phép chiếu song song",
+      "question": "Hình chiếu song song của một đoạn thẳng có thể là:",
+      "choices": [
+        "Một đoạn thẳng hoặc một điểm",
+        "Một tam giác",
+        "Một tia",
+        "Một đường tròn"
+      ],
+      "answer": 0,
+      "explanation": "Biến đoạn thẳng thành đoạn thẳng (hoặc một điểm nếu đoạn thẳng song song phương chiếu)."
+    },
+    {
+      "id": "mc-c4-046",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Hình biểu diễn của các hình phẳng",
+      "question": "Hình biểu diễn của đường tròn trong phép chiếu song song thường là:",
+      "choices": [
+        "Hình elip (hoặc đường tròn)",
+        "Hình vuông",
+        "Hình tam giác",
+        "Hình thoi"
+      ],
+      "answer": 0,
+      "explanation": "Hình biểu diễn của đường tròn thường là đường elip."
+    },
+    {
+      "id": "mc-c4-047",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Hình biểu diễn của các hình phẳng",
+      "question": "Hình biểu diễn của một tam giác đều có thể là:",
+      "choices": [
+        "Một tam giác bất kì",
+        "Bắt buộc là tam giác đều",
+        "Một hình vuông",
+        "Một hình thoi"
+      ],
+      "answer": 0,
+      "explanation": "Phép chiếu song song không bảo toàn góc nên tam giác đều biểu diễn bởi một tam giác bất kì."
+    },
+    {
+      "id": "mc-c4-048",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Hình biểu diễn của các hình phẳng",
+      "question": "Hình biểu diễn của một hình vuông là:",
+      "choices": [
+        "Hình bình hành",
+        "Bắt buộc là hình vuông",
+        "Hình thang",
+        "Hình tròn"
+      ],
+      "answer": 0,
+      "explanation": "Góc vuông không được bảo toàn nên hình vuông được biểu diễn bởi hình bình hành."
+    },
+    {
+      "id": "mc-c4-049",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Hình biểu diễn của các hình phẳng",
+      "question": "Hình biểu diễn của hình thoi là:",
+      "choices": [
+        "Hình bình hành",
+        "Hình thang cân",
+        "Hình chữ nhật",
+        "Hình elip"
+      ],
+      "answer": 0,
+      "explanation": "Hình thoi biểu diễn bởi hình bình hành."
+    },
+    {
+      "id": "mc-c4-050",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "nb",
+      "dang": "Hình biểu diễn của các hình phẳng",
+      "question": "Đoạn thẳng nối trung điểm hai cạnh của tam giác biểu diễn thành:",
+      "choices": [
+        "Đường trung bình của tam giác biểu diễn",
+        "Đường cao",
+        "Đường phân giác",
+        "Trung trực"
+      ],
+      "answer": 0,
+      "explanation": "Do bảo toàn trung điểm nên trung điểm biểu diễn thành trung điểm."
+    },
+    {
+      "id": "mc-c4-051",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Điểm thuộc mặt phẳng",
+      "question": "Nếu điểm A thuộc đường thẳng d và đường thẳng d nằm trong mặt phẳng $(P)$ thì:",
+      "choices": [
+        "Điểm A thuộc mặt phẳng $(P)$",
+        "Điểm A không thuộc $(P)$",
+        "Đường thẳng d cắt $(P)$",
+        "Không kết luận được"
+      ],
+      "answer": 0,
+      "explanation": "$A \\in d \\subset (P) \\Rightarrow A \\in (P)$."
+    },
+    {
+      "id": "mc-c4-052",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Điểm thuộc mặt phẳng",
+      "question": "Kí hiệu điểm M thuộc mặt phẳng $(P)$ là:",
+      "choices": [
+        "$M \\in (P)$",
+        "$M \\subset (P)$",
+        "$M \\parallel (P)$",
+        "$M = (P)$"
+      ],
+      "answer": 0,
+      "explanation": "Điểm thuộc mặt phẳng dùng kí hiệu $\\in$."
+    },
+    {
+      "id": "mc-c4-053",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Điểm thuộc mặt phẳng",
+      "question": "Nếu đường thẳng d có hai điểm phân biệt cùng thuộc $(P)$ thì:",
+      "choices": [
+        "Đường thẳng d nằm hoàn toàn trong $(P)$",
+        "d cắt $(P)$ tại hai điểm",
+        "d song song với $(P)$",
+        "d vuông góc với $(P)$"
+      ],
+      "answer": 0,
+      "explanation": "Một đường thẳng có hai điểm chung với mặt phẳng thì nằm trọn vẹn trong mặt phẳng đó."
+    },
+    {
+      "id": "mc-c4-054",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Điểm thuộc mặt phẳng",
+      "question": "Có tối đa bao nhiêu điểm chung giữa một đường thẳng không nằm trong mặt phẳng và mặt phẳng đó?",
+      "choices": [
+        "$1$ điểm",
+        "$2$ điểm",
+        "$3$ điểm",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Nếu không nằm trong mặt phẳng thì đường thẳng cắt mặt phẳng tại tối đa 1 điểm."
+    },
+    {
+      "id": "mc-c4-055",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Điểm thuộc mặt phẳng",
+      "question": "Khẳng định nào đúng về vị trí của điểm và mặt phẳng?",
+      "choices": [
+        "Điểm có thể thuộc hoặc không thuộc mặt phẳng",
+        "Mọi điểm đều thuộc mặt phẳng",
+        "Mọi điểm đều nằm ngoài mặt phẳng",
+        "Điểm luôn là giao tuyến"
+      ],
+      "answer": 0,
+      "explanation": "Một điểm hoặc thuộc mặt phẳng hoặc không thuộc mặt phẳng."
+    },
+    {
+      "id": "mc-c4-056",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
+      "question": "Có bao nhiêu vị trí tương đối giữa một đường thẳng và một mặt phẳng?",
+      "choices": [
+        "$3$ (nằm trong, cắt nhau, song song)",
+        "$2$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Ba vị trí tương đối: $d \\subset (P)$, $d \\cap (P) = \\{M\\}$, $d \\parallel (P)$."
+    },
+    {
+      "id": "mc-c4-057",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
+      "question": "Nếu đường thẳng d cắt mặt phẳng $(P)$ thì số điểm chung giữa chúng là:",
+      "choices": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Đường thẳng cắt mặt phẳng tại đúng 1 điểm chung."
+    },
+    {
+      "id": "mc-c4-058",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
+      "question": "Nếu đường thẳng d song song với mặt phẳng $(P)$ thì số điểm chung là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Song song nghĩa là không có điểm chung nào ($d \\cap (P) = \\emptyset$)."
+    },
+    {
+      "id": "mc-c4-059",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
+      "question": "Nếu đường thẳng d nằm trong mặt phẳng $(P)$ thì số điểm chung là:",
+      "choices": [
+        "Vô số",
+        "$1$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Mọi điểm của d đều thuộc $(P)$ nên có vô số điểm chung."
+    },
+    {
+      "id": "mc-c4-060",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "nb",
+      "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
+      "question": "Cho $d \\parallel a$ với $a \\subset (P)$ và $d \\not\\subset (P)$. Vị trí của d và $(P)$ là:",
+      "choices": [
+        "$d \\parallel (P)$",
+        "d cắt $(P)$",
+        "$d \\subset (P)$",
+        "d chéo $(P)$"
+      ],
+      "answer": 0,
+      "explanation": "Theo định lí nhận biết thì $d \\parallel (P)$."
+    },
+    {
+      "id": "mc-c4-061",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm thiết diện qua trung điểm hình chóp",
+      "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Mặt phẳng qua trung điểm M của SA và song song với đáy cắt các cạnh SB, SC, SD lần lượt tại N, P, Q. Tứ giác MNPQ là hình gì?",
+      "choices": [
+        "Hình bình hành",
+        "Hình thang vuông",
+        "Hình thoi",
+        "Tam giác"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện song song với mặt đáy là hình bình hành nên MNPQ là hình bình hành."
+    },
+    {
+      "id": "mc-c4-062",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm thiết diện qua trung điểm hình chóp",
+      "question": "Cho tứ diện ABCD. Gọi M, N lần lượt là trung điểm của AB và AC. Thiết diện của tứ diện cắt bởi mặt phẳng $(DMN)$ là:",
+      "choices": [
+        "Tam giác DMN",
+        "Tứ giác",
+        "Hình bình hành",
+        "Đoạn thẳng"
+      ],
+      "answer": 0,
+      "explanation": "Mặt phẳng $(DMN)$ đi qua đỉnh D và hai điểm M, N nên thiết diện là tam giác DMN."
+    },
+    {
+      "id": "mc-c4-063",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm thiết diện qua trung điểm hình chóp",
+      "question": "Hình chóp tứ giác $S.ABCD$. Thiết diện cắt bởi mặt phẳng đi qua đỉnh S và đường chéo BD là:",
+      "choices": [
+        "Tam giác SBD",
+        "Tam giác SAC",
+        "Tứ giác SBDC",
+        "Hình thang"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện là tam giác tạo bởi S và BD, tức là tam giác SBD."
+    },
+    {
+      "id": "mc-c4-064",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm thiết diện qua trung điểm hình chóp",
+      "question": "Cho tứ diện đều ABCD. Mặt phẳng đi qua trung điểm của 4 cạnh AB, BC, CD, DA cắt tứ diện theo thiết diện là:",
+      "choices": [
+        "Hình vuông (hoặc hình thoi)",
+        "Tam giác",
+        "Ngũ giác",
+        "Hình chữ nhật lệch"
+      ],
+      "answer": 0,
+      "explanation": "Bốn trung điểm của 4 cạnh liên tiếp tạo thành hình vuông/hình thoi."
+    },
+    {
+      "id": "mc-c4-065",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Chứng minh đường thẳng song song mặt phẳng",
+      "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi M, N lần lượt là trung điểm của SA và SB. Đường thẳng MN song song với mặt phẳng nào sau đây?",
+      "choices": [
+        "$(ABCD)$",
+        "$(SCD)$",
+        "$(SBC)$",
+        "$(SAB)$"
+      ],
+      "answer": 0,
+      "explanation": "MN là đường trung bình tam giác SAB nên $MN \\parallel AB$. Do $AB \\subset (ABCD)$ nên $MN \\parallel (ABCD)$."
+    },
+    {
+      "id": "mc-c4-066",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Chứng minh đường thẳng song song mặt phẳng",
+      "question": "Trong hình chóp $S.ABCD$ đáy hình bình hành, O là tâm đáy. Gọi M là trung điểm SC. Đường thẳng OM song song với mặt phẳng:",
+      "choices": [
+        "$(SAD)$",
+        "$(SAB)$",
+        "$(SCD)$",
+        "$(ABCD)$"
+      ],
+      "answer": 0,
+      "explanation": "OM là đường trung bình tam giác SAC nên $OM \\parallel SA$. Vì $SA \\subset (SAD)$ nên $OM \\parallel (SAD)$."
+    },
+    {
+      "id": "mc-c4-067",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Chứng minh đường thẳng song song mặt phẳng",
+      "question": "Cho tứ diện ABCD. Gọi G là trọng tâm tam giác BCD, M là trung điểm AB. Đường thẳng nào song song với $(ABC)$?",
+      "choices": [
+        "Không có",
+        "Đường trung tuyến",
+        "Cạnh CD",
+        "Đoạn thẳng qua trung điểm hai cạnh đối song song"
+      ],
+      "answer": 0,
+      "explanation": "Đoạn thẳng nối trung điểm hai cạnh song song với một cạnh đáy sẽ song song với mặt phẳng tương ứng."
+    },
+    {
+      "id": "mc-c4-068",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Chứng minh đường thẳng song song mặt phẳng",
+      "question": "Cho hình chóp $S.ABCD$ đáy $ABCD$ là hình bình hành tâm O. Đường thẳng qua O song song với BC sẽ song song với mặt phẳng:",
+      "choices": [
+        "$(SBC)$ và $(SAD)$",
+        "$(SAB)$",
+        "$(SCD)$",
+        "$(ABCD)$"
+      ],
+      "answer": 0,
+      "explanation": "Song song với BC thì song song với $(SBC)$ và $(SAD)$."
+    },
+    {
+      "id": "mc-c4-069",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chứng minh hai mặt phẳng song song",
+      "question": "Cho hình chóp $S.ABCD$ đáy hình bình hành. Gọi $M, N, P$ lần lượt là trung điểm của $SA, SB, SC$. Mặt phẳng $(MNP)$ song song với mặt phẳng nào?",
+      "choices": [
+        "$(ABCD)$",
+        "$(SCD)$",
+        "$(SAD)$",
+        "$(SAB)$"
+      ],
+      "answer": 0,
+      "explanation": "$MN \\parallel AB$ và $NP \\parallel BC$ nên $(MNP) \\parallel (ABCD)$."
+    },
+    {
+      "id": "mc-c4-070",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chứng minh hai mặt phẳng song song",
+      "question": "Cho lăng trụ $ABC.A'B'C'$. Mặt phẳng đáy $(ABC)$ song song với mặt phẳng nào?",
+      "choices": [
+        "$(A'B'C')$",
+        "$(ABB'A')$",
+        "$(ACC'A')$",
+        "$(BCC'B')$"
+      ],
+      "answer": 0,
+      "explanation": "Hai đáy của hình lăng trụ luôn song song với nhau."
+    },
+    {
+      "id": "mc-c4-071",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chứng minh hai mặt phẳng song song",
+      "question": "Trong hình hộp $ABCD.A'B'C'D'$, mặt phẳng $(ABCD)$ song song với mặt phẳng nào?",
+      "choices": [
+        "$(A'B'C'D')$",
+        "$(ABB'A')$",
+        "$(AA'C'C)$",
+        "$(BDD'B')$"
+      ],
+      "answer": 0,
+      "explanation": "Mặt đáy dưới song song với mặt đáy trên $(A'B'C'D')$."
+    },
+    {
+      "id": "mc-c4-072",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chứng minh hai mặt phẳng song song",
+      "question": "Cho hai hình bình hành ABCD và ABEF không cùng nằm trong một mặt phẳng. Mặt phẳng $(DCE)$ song song với mặt phẳng nào?",
+      "choices": [
+        "Không có mặt phẳng song song",
+        "$(ABF)$",
+        "$(ABCD)$",
+        "$(CDEF)$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $CD \\parallel AB$ và $EF \\parallel AB$ nên $CD \\parallel EF$, từ đó xét thiết diện tương ứng."
+    },
+    {
+      "id": "mc-c4-073",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Giao tuyến của hai mặt phẳng chứa hai đường song song",
+      "question": "Hai mặt phẳng $(P)$ và $(Q)$ lần lượt chứa hai đường thẳng song song $a$ và $b$. Nếu $(P)$ cắt $(Q)$ theo giao tuyến $d$ thì:",
+      "choices": [
+        "$d \\parallel a$ và $d \\parallel b$",
+        "d cắt a",
+        "d chéo b",
+        "d vuông góc với a"
+      ],
+      "answer": 0,
+      "explanation": "Giao tuyến song song với cả a và b."
+    },
+    {
+      "id": "mc-c4-074",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Giao tuyến của hai mặt phẳng chứa hai đường song song",
+      "question": "Trong hình chóp $S.ABCD$ đáy là hình thang với $AB \\parallel CD$. Giao tuyến của $(SAB)$ và $(SCD)$ là:",
+      "choices": [
+        "Đường thẳng qua S và song song với AB, CD",
+        "Đoạn thẳng SO",
+        "Đường thẳng qua S và giao điểm của AD, BC",
+        "Đường thẳng CD"
+      ],
+      "answer": 0,
+      "explanation": "Hai mặt phẳng chứa hai đường thẳng song song nên giao tuyến qua điểm chung S và song song với chúng."
+    },
+    {
+      "id": "mc-c4-075",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Giao tuyến của hai mặt phẳng chứa hai đường song song",
+      "question": "Cho hình chóp $S.ABCD$ đáy hình bình hành. Giao tuyến của $(SAD)$ và $(SBC)$ là:",
+      "choices": [
+        "Đường thẳng qua S song song với AD và BC",
+        "Đường thẳng SO",
+        "Cạnh SA",
+        "Đường thẳng AB"
+      ],
+      "answer": 0,
+      "explanation": "Qua S và song song với $AD, BC$."
+    },
+    {
+      "id": "mc-c4-076",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Giao tuyến của hai mặt phẳng chứa hai đường song song",
+      "question": "Cho tứ diện ABCD có M, N là trung điểm AB, AC. Giao tuyến của $(DMN)$ và $(BCD)$ là:",
+      "choices": [
+        "Đường thẳng qua D song song với BC và MN",
+        "Đoạn thẳng MN",
+        "Đoạn thẳng BC",
+        "Đường thẳng DN"
+      ],
+      "answer": 0,
+      "explanation": "Do $MN \\parallel BC$ nên giao tuyến qua D và song song với MN, BC."
+    },
+    {
+      "id": "mc-c4-077",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính chất trung điểm và song song trong tứ diện",
+      "question": "Cho tứ diện ABCD. Gọi M, N, P, Q lần lượt là trung điểm của AB, BC, CD, DA. Tứ giác MNPQ là:",
+      "choices": [
+        "Hình bình hành",
+        "Hình thang vuông",
+        "Tam giác",
+        "Tứ giác không phẳng"
+      ],
+      "answer": 0,
+      "explanation": "MN và PQ cùng song song và bằng một nửa AC nên MNPQ là hình bình hành."
+    },
+    {
+      "id": "mc-c4-078",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính chất trung điểm và song song trong tứ diện",
+      "question": "Trong tứ diện ABCD, các đoạn thẳng nối trung điểm của các cặp cạnh đối diện:",
+      "choices": [
+        "Đồng quy tại một điểm (trọng tâm tứ diện)",
+        "Đôi một song song",
+        "Đôi một vuông góc",
+        "Chéo nhau"
+      ],
+      "answer": 0,
+      "explanation": "Ba đoạn thẳng nối trung điểm các cạnh đối cắt nhau tại trung điểm của mỗi đoạn."
+    },
+    {
+      "id": "mc-c4-079",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính chất trung điểm và song song trong tứ diện",
+      "question": "Tứ diện ABCD có bao nhiêu cặp cạnh đối diện chéo nhau?",
+      "choices": [
+        "$3$ cặp",
+        "$4$ cặp",
+        "$2$ cặp",
+        "$6$ cặp"
+      ],
+      "answer": 0,
+      "explanation": "Ba cặp cạnh đối: (AB, CD), (AC, BD), (AD, BC)."
+    },
+    {
+      "id": "mc-c4-080",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính chất trung điểm và song song trong tứ diện",
+      "question": "Gọi G là trọng tâm tứ diện ABCD. Tỉ số khoảng cách từ G đến đỉnh và mặt đáy tương ứng là:",
+      "choices": [
+        "$3:1$",
+        "$2:1$",
+        "$1:1$",
+        "$4:1$"
+      ],
+      "answer": 0,
+      "explanation": "Trọng tâm tứ diện chia đoạn nối đỉnh với trọng tâm mặt đối diện theo tỉ số 3:1."
+    },
+    {
+      "id": "mc-c4-081",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số theo định lí Ta-lét không gian",
+      "question": "Ba mặt phẳng song song cắt cát tuyến d tại A, B, C và cát tuyến d' tại A', B', C'. Biết $AB = 3, BC = 6, A'B' = 4$. Độ dài $B'C'$ là:",
+      "choices": [
+        "$8$",
+        "$6$",
+        "$12$",
+        "$9$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{A'B'}{B'C'} = \\frac{AB}{BC} = \\frac{3}{6} = \\frac{1}{2} \\Rightarrow B'C' = 2 A'B' = 8$."
+    },
+    {
+      "id": "mc-c4-082",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số theo định lí Ta-lét không gian",
+      "question": "Cho $AB/BC = 2/3$ và $A'B' = 6$. Tính $B'C'$:",
+      "choices": [
+        "$9$",
+        "$4$",
+        "$10$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "$B'C' = 6 \\times \\frac{3}{2} = 9$."
+    },
+    {
+      "id": "mc-c4-083",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số theo định lí Ta-lét không gian",
+      "question": "Biết $AB = 4, BC = 2, B'C' = 5$. Độ dài $A'B'$ bằng:",
+      "choices": [
+        "$10$",
+        "$8$",
+        "$6$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$A'B' = B'C' \\times \\frac{AB}{BC} = 5 \\times 2 = 10$."
+    },
+    {
+      "id": "mc-c4-084",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số theo định lí Ta-lét không gian",
+      "question": "Cho $AB = 5, BC = 10, A'B' = 7$. Tính độ dài $B'C'$:",
+      "choices": [
+        "$14$",
+        "$12$",
+        "$10$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "$B'C' = 7 \\times 2 = 14$."
+    },
+    {
+      "id": "mc-c4-085",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm giao điểm của đường thẳng và mặt phẳng",
+      "question": "Để tìm giao điểm của đường thẳng d và mặt phẳng $(P)$, ta thường:",
+      "choices": [
+        "Tìm mặt phẳng $(Q)$ chứa d, rồi tìm giao tuyến $a = (P) \\cap (Q)$, sau đó $d \\cap a$",
+        "Kẻ d vuông góc với $(P)$",
+        "Chiếu d lên $(P)$",
+        "Lấy một điểm bất kì trên d"
+      ],
+      "answer": 0,
+      "explanation": "Phương pháp chuẩn: chọn $(Q) \\supset d$, tìm $a = (P) \\cap (Q)$, giao điểm là $M = d \\cap a$."
+    },
+    {
+      "id": "mc-c4-086",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm giao điểm của đường thẳng và mặt phẳng",
+      "question": "Trong hình chóp $S.ABCD$, O là tâm đáy. Giao điểm của SO và mặt phẳng $(ABCD)$ là:",
+      "choices": [
+        "Điểm O",
+        "Điểm S",
+        "Điểm A",
+        "Điểm B"
+      ],
+      "answer": 0,
+      "explanation": "O vừa thuộc SO vừa thuộc $(ABCD)$."
+    },
+    {
+      "id": "mc-c4-087",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm giao điểm của đường thẳng và mặt phẳng",
+      "question": "Cho tứ diện ABCD, M là điểm trên AB. Giao điểm của DM với mặt phẳng $(ABC)$ là:",
+      "choices": [
+        "Điểm M",
+        "Điểm D",
+        "Điểm A",
+        "Điểm B"
+      ],
+      "answer": 0,
+      "explanation": "Điểm M nằm trên AB nên $M \\in (ABC)$."
+    },
+    {
+      "id": "mc-c4-088",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tìm giao điểm của đường thẳng và mặt phẳng",
+      "question": "Cho hình chóp $S.ABCD$. Đường thẳng SA cắt mặt phẳng $(SBC)$ tại điểm nào?",
+      "choices": [
+        "Điểm S",
+        "Điểm A",
+        "Điểm B",
+        "Điểm C"
+      ],
+      "answer": 0,
+      "explanation": "Điểm chung duy nhất là S."
+    },
+    {
+      "id": "mc-c4-089",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Thiết diện song song với một đường thẳng",
+      "question": "Mặt phẳng đi qua điểm M và song song với hai đường thẳng chéo nhau $a$ và $b$ cắt các mặt của tứ diện tạo thành thiết diện là:",
+      "choices": [
+        "Hình bình hành",
+        "Hình thang vuông",
+        "Tam giác",
+        "Ngũ giác"
+      ],
+      "answer": 0,
+      "explanation": "Các cạnh của thiết diện lần lượt song song với a và b nên là hình bình hành."
+    },
+    {
+      "id": "mc-c4-090",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Thiết diện song song với một đường thẳng",
+      "question": "Cắt hình chóp $S.ABCD$ bởi mặt phẳng song song với đáy ta được thiết diện là một đa giác:",
+      "choices": [
+        "Đồng dạng với đa giác đáy",
+        "Bằng đa giác đáy",
+        "Luôn là hình chữ nhật",
+        "Tam giác"
+      ],
+      "answer": 0,
+      "explanation": "Mặt phẳng song song với đáy cắt các mặt bên tạo thành đa giác đồng dạng với đa giác đáy."
+    },
+    {
+      "id": "mc-c4-091",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Thiết diện song song với một đường thẳng",
+      "question": "Cắt hình lăng trụ bởi mặt phẳng song song với hai đáy ta được thiết diện là:",
+      "choices": [
+        "Đa giác bằng hai đa giác đáy",
+        "Đa giác lớn hơn",
+        "Đa giác nhỏ hơn",
+        "Hình bình hành"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện song song với hai đáy bằng chính hai đáy."
+    },
+    {
+      "id": "mc-c4-092",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Thiết diện song song với một đường thẳng",
+      "question": "Cắt hình hộp bởi mặt phẳng song song với một mặt của hình hộp ta được thiết diện là:",
+      "choices": [
+        "Hình bình hành bằng mặt đó",
+        "Hình thang",
+        "Tam giác",
+        "Hình thoi"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện bằng mặt song song tương ứng."
+    },
+    {
+      "id": "mc-c4-093",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Độ dài đoạn thẳng trong phép chiếu song song",
+      "question": "Một đoạn thẳng AB dài 10 cm có hình chiếu song song là A'B'. Nếu AB song song với mặt phẳng chiếu thì độ dài A'B' bằng:",
+      "choices": [
+        "$10\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$0\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Khi đoạn thẳng song song với mặt phẳng chiếu thì hình chiếu bằng chính đoạn thẳng đó: 10 cm."
+    },
+    {
+      "id": "mc-c4-094",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Độ dài đoạn thẳng trong phép chiếu song song",
+      "question": "Đoạn thẳng AB có trung điểm M. Phép chiếu song song biến A, B, M thành A', B', M'. Điểm M' là:",
+      "choices": [
+        "Trung điểm của A'B'",
+        "Điểm nằm ngoài đoạn A'B'",
+        "Trùng với A'",
+        "Trùng với B'"
+      ],
+      "answer": 0,
+      "explanation": "Phép chiếu song song bảo toàn trung điểm."
+    },
+    {
+      "id": "mc-c4-095",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Độ dài đoạn thẳng trong phép chiếu song song",
+      "question": "Đoạn AB được chia thành 3 phần bằng nhau bởi C và D. Hình chiếu A'B' được chia bởi C' và D' thành:",
+      "choices": [
+        "$3$ phần bằng nhau",
+        "Các phần không bằng nhau",
+        "$2$ phần",
+        "$4$ phần"
+      ],
+      "answer": 0,
+      "explanation": "Bảo toàn tỉ số các đoạn thẳng trên cùng một đường thẳng."
+    },
+    {
+      "id": "mc-c4-096",
+      "chapter": "c4",
+      "lesson": "b14",
+      "level": "th",
+      "dang": "Độ dài đoạn thẳng trong phép chiếu song song",
+      "question": "Nếu đoạn thẳng AB vuông góc với phương chiếu (và không song song mặt phẳng chiếu), độ dài A'B' so với AB:",
+      "choices": [
+        "Phụ thuộc vào góc nghiêng của mặt phẳng chiếu",
+        "Luôn bằng 0",
+        "Luôn gấp đôi",
+        "Luôn bằng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Độ dài thay đổi phụ thuộc góc nghiêng."
+    },
+    {
+      "id": "mc-c4-097",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Số mặt phẳng đối xứng hoặc song song trong hình hộp",
+      "question": "Trong hình hộp $ABCD.A'B'C'D'$, có bao nhiêu cặp mặt đối diện song song với nhau?",
+      "choices": [
+        "$3$ cặp",
+        "$4$ cặp",
+        "$6$ cặp",
+        "$2$ cặp"
+      ],
+      "answer": 0,
+      "explanation": "Có 3 cặp mặt đối diện: (ABCD, A'B'C'D'), (ABB'A', CDD'C'), (ADD'A', BCC'B')."
+    },
+    {
+      "id": "mc-c4-098",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Số mặt phẳng đối xứng hoặc song song trong hình hộp",
+      "question": "Số đường chéo của một hình hộp là:",
+      "choices": [
+        "$4$ đường chéo",
+        "$6$ đường chéo",
+        "$8$ đường chéo",
+        "$12$ đường chéo"
+      ],
+      "answer": 0,
+      "explanation": "Hình hộp có 4 đường chéo: AC', BD', CA', DB'."
+    },
+    {
+      "id": "mc-c4-099",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Số mặt phẳng đối xứng hoặc song song trong hình hộp",
+      "question": "Bốn đường chéo của hình hộp có tính chất nào?",
+      "choices": [
+        "Cắt nhau tại trung điểm của mỗi đường",
+        "Đôi một vuông góc",
+        "Song song với nhau",
+        "Chéo nhau"
+      ],
+      "answer": 0,
+      "explanation": "Bốn đường chéo đồng quy tại tâm hình hộp và cắt nhau tại trung điểm mỗi đường."
+    },
+    {
+      "id": "mc-c4-100",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Số mặt phẳng đối xứng hoặc song song trong hình hộp",
+      "question": "Số cạnh của hình hộp là:",
+      "choices": [
+        "$12$ cạnh",
+        "$8$ cạnh",
+        "$6$ cạnh",
+        "$16$ cạnh"
+      ],
+      "answer": 0,
+      "explanation": "Hình hộp có 4 cạnh đáy dưới, 4 cạnh đáy trên, 4 cạnh bên = 12 cạnh."
+    },
+    {
+      "id": "mc-c4-101",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tỉ số thể tích đơn giản theo diện tích mặt cắt",
+      "question": "Mặt phẳng qua trung điểm chiều cao và song song với đáy hình chóp chia hình chóp thành hai phần. Diện tích thiết diện bằng bao nhiêu lần diện tích đáy?",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số đồng dạng bằng $1/2$ nên tỉ số diện tích bằng $(1/2)^2 = 1/4$."
+    },
+    {
+      "id": "mc-c4-102",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tỉ số thể tích đơn giản theo diện tích mặt cắt",
+      "question": "Nếu tỉ số khoảng cách từ đỉnh đến thiết diện là $1/3$ thì tỉ số diện tích thiết diện so với đáy là:",
+      "choices": [
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{27}$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số diện tích bằng bình phương tỉ số đồng dạng: $(1/3)^2 = 1/9$."
+    },
+    {
+      "id": "mc-c4-103",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tỉ số thể tích đơn giản theo diện tích mặt cắt",
+      "question": "Cắt hình chóp bởi mặt phẳng song song với đáy sao cho diện tích thiết diện bằng $1/4$ diện tích đáy. Tỉ số khoảng cách từ đỉnh đến thiết diện là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": 0,
+      "explanation": "Căn bậc hai của $1/4$ là $1/2$."
+    },
+    {
+      "id": "mc-c4-104",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tỉ số thể tích đơn giản theo diện tích mặt cắt",
+      "question": "Nếu tỉ số đồng dạng là $2/3$ thì tỉ số diện tích thiết diện so với đáy là:",
+      "choices": [
+        "$\\frac{4}{9}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{8}{27}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "$(2/3)^2 = 4/9$."
+    },
+    {
+      "id": "mc-c4-105",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Nhận dạng quan hệ song song trong thực tế",
+      "question": "Các thanh xà gồ đỡ mái tôn trong một ngôi nhà thường được đặt:",
+      "choices": [
+        "Song song với nhau",
+        "Cắt nhau",
+        "Chéo nhau",
+        "Vuông góc với nhau"
+      ],
+      "answer": 0,
+      "explanation": "Các thanh xà gồ được đặt song song để chia đều tải trọng."
+    },
+    {
+      "id": "mc-c4-106",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Nhận dạng quan hệ song song trong thực tế",
+      "question": "Hai mép trên và mép dưới của chiếc bảng lớp học biểu diễn hình học là:",
+      "choices": [
+        "Hai đường thẳng song song",
+        "Hai đường thẳng cắt nhau",
+        "Hai đường thẳng chéo nhau",
+        "Hai đường thẳng trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Hai mép đối diện của bảng chữ nhật song song với nhau."
+    },
+    {
+      "id": "mc-c4-107",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Nhận dạng quan hệ song song trong thực tế",
+      "question": "Các cột nhà thẳng đứng trong một toà nhà có vị trí tương đối là:",
+      "choices": [
+        "Song song với nhau",
+        "Cắt nhau tại trần nhà",
+        "Chéo nhau",
+        "Trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Các cột đứng song song với nhau."
+    },
+    {
+      "id": "mc-c4-108",
+      "chapter": "c4",
+      "lesson": "b12",
+      "level": "th",
+      "dang": "Nhận dạng quan hệ song song trong thực tế",
+      "question": "Mặt sàn nhà và mặt trần nhà trong một căn phòng là hình ảnh của:",
+      "choices": [
+        "Hai mặt phẳng song song",
+        "Hai mặt phẳng cắt nhau",
+        "Hai mặt phẳng vuông góc",
+        "Hai mặt phẳng trùng nhau"
+      ],
+      "answer": 0,
+      "explanation": "Sàn nhà và trần nhà là hai mặt phẳng song song."
+    },
+    {
+      "id": "mc-c4-109",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Tính chu vi thiết diện song song đáy",
+      "question": "Cho hình chóp tam giác đều $S.ABC$ có đáy là tam giác đều cạnh 6 cm. Cắt hình chóp bởi mặt phẳng song song với đáy qua trung điểm SA. Chu vi thiết diện bằng:",
+      "choices": [
+        "$9\\text{ cm}$",
+        "$18\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện là tam giác đều có cạnh bằng một nửa cạnh đáy: $6/2 = 3\\text{ cm}$. Chu vi là $3 \\times 3 = 9\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-110",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Tính chu vi thiết diện song song đáy",
+      "question": "Hình chóp tứ giác đều $S.ABCD$ đáy hình vuông cạnh 8 cm. Mặt phẳng song song với đáy đi qua trung điểm của chiều cao cắt hình chóp theo thiết diện có chu vi là:",
+      "choices": [
+        "$16\\text{ cm}$",
+        "$32\\text{ cm}$",
+        "$24\\text{ cm}$",
+        "$8\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Cạnh thiết diện bằng $8/2 = 4\\text{ cm}$. Chu vi hình vuông thiết diện là $4 \\times 4 = 16\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-111",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Tính chu vi thiết diện song song đáy",
+      "question": "Cho tứ diện đều ABCD cạnh 10 cm. Mặt phẳng song song với $(BCD)$ đi qua điểm M trên AB với $AM = 2\\text{ cm}$. Chu vi tam giác thiết diện là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$30\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số đồng dạng $AM/AB = 2/10 = 1/5$. Cạnh thiết diện là $10 \\times 1/5 = 2\\text{ cm}$. Chu vi bằng $3 \\times 2 = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-112",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Tính chu vi thiết diện song song đáy",
+      "question": "Hình chóp tam giác có chu vi đáy là 24 cm. Mặt phẳng qua điểm chia cạnh bên theo tỉ số $1:2$ (kể từ đỉnh) song song với đáy cắt hình chóp tạo thiết diện có chu vi:",
+      "choices": [
+        "$8\\text{ cm}$",
+        "$12\\text{ cm}$",
+        "$16\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số là $1/3$, chu vi thiết diện là $24 \\times 1/3 = 8\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-113",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích thiết diện của hình lập phương",
+      "question": "Hình lập phương $ABCD.A'B'C'D'$ cạnh $a = 4\\text{ cm}$. Cắt hình lập phương bởi mặt phẳng song song với mặt đáy. Diện tích thiết diện là:",
+      "choices": [
+        "$16\\text{ cm}^2$",
+        "$8\\text{ cm}^2$",
+        "$64\\text{ cm}^2$",
+        "$32\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Thiết diện song song với mặt đáy là hình vuông bằng đáy, diện tích bằng $4^2 = 16\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-114",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích thiết diện của hình lập phương",
+      "question": "Hình lập phương cạnh 5 cm. Cắt bởi mặt phẳng song song với đáy thu được thiết diện có diện tích:",
+      "choices": [
+        "$25\\text{ cm}^2$",
+        "$20\\text{ cm}^2$",
+        "$125\\text{ cm}^2$",
+        "$50\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "$S = 5^2 = 25\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-115",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích thiết diện của hình lập phương",
+      "question": "Một khối gỗ hình hộp chữ nhật có kích thước đáy $6\\text{ cm} \\times 8\\text{ cm}$. Cắt bởi mặt phẳng song song với đáy thì diện tích mặt cắt bằng:",
+      "choices": [
+        "$48\\text{ cm}^2$",
+        "$24\\text{ cm}^2$",
+        "$28\\text{ cm}^2$",
+        "$96\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Diện tích mặt cắt bằng diện tích đáy: $6 \\times 8 = 48\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-116",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích thiết diện của hình lập phương",
+      "question": "Hình lập phương cạnh 6 cm. Mặt phẳng song song với một mặt bên cắt khối lập phương tạo thiết diện có diện tích:",
+      "choices": [
+        "$36\\text{ cm}^2$",
+        "$24\\text{ cm}^2$",
+        "$216\\text{ cm}^2$",
+        "$72\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Diện tích bằng diện tích mặt bên: $6^2 = 36\\text{ cm}^2$."
+    },
+    {
+      "id": "mc-c4-117",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Độ dài đoạn thẳng theo tỉ số Ta-lét nâng cao",
+      "question": "Cho hình chóp $S.ABCD$ đáy hình thang có đáy lớn $AB = 12\\text{ cm}$, đáy nhỏ $CD = 6\\text{ cm}$. Gọi M, N lần lượt là trung điểm của SA và SB. Độ dài đoạn MN là:",
+      "choices": [
+        "$6\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$9\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "MN là đường trung bình tam giác SAB nên $MN = AB/2 = 12/2 = 6\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-118",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Độ dài đoạn thẳng theo tỉ số Ta-lét nâng cao",
+      "question": "Hình chóp tứ giác đáy hình bình hành $AB = 10\\text{ cm}$. M trên SA sao cho $SM/SA = 2/5$. Đoạn thẳng qua M song song với AB cắt SB tại N. Độ dài MN là:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$MN = AB \\times 2/5 = 10 \\times 2/5 = 4\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-119",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Độ dài đoạn thẳng theo tỉ số Ta-lét nâng cao",
+      "question": "Cho tam giác SAB có $AB = 15\\text{ cm}$. Đoạn thẳng $MN \\parallel AB$ với $M \\in SA, N \\in SB$ sao cho $SM/SA = 1/3$. Tính MN:",
+      "choices": [
+        "$5\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$7,5\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$MN = 15 \\times 1/3 = 5\\text{ cm}$."
+    },
+    {
+      "id": "mc-c4-120",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Độ dài đoạn thẳng theo tỉ số Ta-lét nâng cao",
+      "question": "Cho hình chóp $S.ABCD$, đáy $AB = 20\\text{ cm}$. Điểm M trên SA thoả mãn $SM/SA = 3/4$. Kẻ $MN \\parallel AB$ ($N \\in SB$). Độ dài MN bằng:",
+      "choices": [
+        "$15\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$5\\text{ cm}$",
+        "$16\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$MN = 20 \\times 3/4 = 15\\text{ cm}$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình tứ diện có tất cả bao nhiêu đỉnh?",
+      "answer": 4,
+      "explanation": "Tứ diện có 4 đỉnh."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình tứ diện có bao nhiêu mặt?",
+      "answer": 4,
+      "explanation": "Tứ diện có 4 mặt (là 4 tam giác)."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình chóp tứ giác có tất cả bao nhiêu mặt?",
+      "answer": 5,
+      "explanation": "1 mặt đáy + 4 mặt bên = 5 mặt."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình hộp có tất cả bao nhiêu đỉnh?",
+      "answer": 8,
+      "explanation": "Hình hộp có 8 đỉnh."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình lăng trụ tam giác có bao nhiêu đỉnh?",
+      "answer": 6,
+      "explanation": "2 đáy mỗi đáy 3 đỉnh, tổng là 6 đỉnh."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình tứ diện có tất cả bao nhiêu cạnh?",
+      "answer": 6,
+      "explanation": "Tứ diện có 6 cạnh."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình chóp tứ giác có tất cả bao nhiêu cạnh?",
+      "answer": 8,
+      "explanation": "4 cạnh đáy + 4 cạnh bên = 8 cạnh."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình hộp có tất cả bao nhiêu cạnh?",
+      "answer": 12,
+      "explanation": "Hình hộp có 12 cạnh."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình lăng trụ tam giác có bao nhiêu cạnh?",
+      "answer": 9,
+      "explanation": "6 cạnh đáy + 3 cạnh bên = 9 cạnh."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình chóp ngũ giác có tất cả bao nhiêu cạnh?",
+      "answer": 10,
+      "explanation": "5 cạnh đáy + 5 cạnh bên = 10 cạnh."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình hộp có bao nhiêu cặp mặt đối diện song song với nhau?",
+      "answer": 3,
+      "explanation": "Có 3 cặp mặt đối diện."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Số đường chéo của một hình hộp bằng bao nhiêu?",
+      "answer": 4,
+      "explanation": "Hình hộp có 4 đường chéo."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình lập phương có bao nhiêu mặt?",
+      "answer": 6,
+      "explanation": "Hình lập phương có 6 mặt."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình chóp tam giác có bao nhiêu mặt bên?",
+      "answer": 3,
+      "explanation": "Có 3 mặt bên."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình lăng trụ tứ giác có bao nhiêu mặt bên?",
+      "answer": 4,
+      "explanation": "Có 4 mặt bên."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho tam giác SAB có $AB = 10\\text{ cm}$. M và N là trung điểm của SA và SB. Độ dài MN bằng bao nhiêu cm?",
+      "answer": 5,
+      "explanation": "$MN = AB/2 = 10/2 = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Trong tứ diện ABCD, $CD = 14\\text{ cm}$. M, N là trung điểm của BC và BD. Độ dài MN bằng:",
+      "answer": 7,
+      "explanation": "$MN = CD/2 = 14/2 = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho hình chóp $S.ABCD$ đáy hình bình hành $AB = 16\\text{ cm}$. Đoạn trung bình MN của tam giác SAB dài bao nhiêu cm?",
+      "answer": 8,
+      "explanation": "$MN = 16/2 = 8\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho $AB = 12\\text{ cm}$. Đường trung bình song song với AB có độ dài là:",
+      "answer": 6,
+      "explanation": "$12/2 = 6\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Ba mặt phẳng song song chắn trên cát tuyến d hai đoạn $AB = 4, BC = 8$ và trên cát tuyến d' đoạn $A'B' = 3$. Độ dài $B'C'$ bằng:",
+      "answer": 6,
+      "explanation": "$B'C' = 3 \\times (8/4) = 6$."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Cho $AB = 2, BC = 6$ và $A'B' = 5$. Tính độ dài $B'C'$:",
+      "answer": 15,
+      "explanation": "$B'C' = 5 \\times (6/2) = 15$."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Cho $AB = 5, BC = 5$ và $A'B' = 7$. Độ dài $B'C'$ bằng:",
+      "answer": 7,
+      "explanation": "$B'C' = 7$."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Biết $AB/BC = 1/3$ và $A'B' = 4$. Độ dài $B'C'$ bằng bao nhiêu?",
+      "answer": 12,
+      "explanation": "$B'C' = 4 \\times 3 = 12$."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Cho tứ diện đều ABCD có tất cả các cạnh bằng 6 cm. Cắt bởi mặt phẳng song song với (BCD) qua trung điểm AB. Chu vi tam giác thiết diện bằng bao nhiêu cm?",
+      "answer": 9,
+      "explanation": "Mỗi cạnh thiết diện bằng $6/2 = 3\\text{ cm}$. Chu vi bằng $3 \\times 3 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Tam giác đáy có chu vi 18 cm. Thiết diện qua trung điểm cạnh bên song song với đáy có chu vi bằng:",
+      "answer": 9,
+      "explanation": "$18/2 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Đáy hình chóp có chu vi 20 cm. Chu vi thiết diện song song với đáy qua trung điểm chiều cao là:",
+      "answer": 10,
+      "explanation": "$20/2 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Tam giác đều cạnh 8 cm có chu vi là 24 cm. Chu vi thiết diện tỉ số $1/2$ bằng:",
+      "answer": 12,
+      "explanation": "$24/2 = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Hình lập phương có cạnh 4 cm. Diện tích thiết diện cắt bởi mặt phẳng song song với đáy bằng bao nhiêu cm vuông?",
+      "answer": 16,
+      "explanation": "$4^2 = 16\\text{ cm}^2$."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Hình lập phương có cạnh 5 cm. Diện tích mặt cắt song song với một mặt bên là:",
+      "answer": 25,
+      "explanation": "$5^2 = 25\\text{ cm}^2$."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Một khối lập phương cạnh 3 cm. Mặt cắt song song đáy có diện tích bằng:",
+      "answer": 9,
+      "explanation": "$3^2 = 9\\text{ cm}^2$."
+    }
+  ]
+}
