@@ -35,14 +35,14 @@
           "text": "1. Công thức phương sai và độ lệch chuẩn"
         },
         {
-          "type": "formula",
+          "type": "definition",
           "title": "Phương sai $s^2$",
-          "content": "Phương sai của mẫu số liệu ghép nhóm được tính theo công thức:\n$s^2 = \\frac{1}{n} \\sum_{i=1}^k m_i (c_i - \\bar{x})^2 = \\frac{1}{n} \\sum_{i=1}^k m_i c_i^2 - (\\bar{x})^2$\ntrong đó $c_i$ là giá trị đại diện của nhóm thứ $i$, $m_i$ là tần số của nhóm thứ $i$, và $n = \\sum m_i$ là cỡ mẫu."
+          "content": "Phương sai của mẫu số liệu ghép nhóm được tính theo công thức:\n$$s^2 = \\frac{1}{n} \\sum_{i=1}^k m_i (c_i - \\bar{x})^2 = \\frac{1}{n} \\sum_{i=1}^k m_i c_i^2 - (\\bar{x})^2$$\ntrong đó $c_i$ là giá trị đại diện của nhóm thứ $i$, $m_i$ là tần số của nhóm thứ $i$, và $n = \\sum m_i$ là cỡ mẫu."
         },
         {
-          "type": "formula",
+          "type": "definition",
           "title": "Độ lệch chuẩn $s$",
-          "content": "Độ lệch chuẩn là căn bậc hai số học của phương sai:\n$s = \\sqrt{s^2}$.\nĐộ lệch chuẩn có cùng đơn vị đo với đại lượng đang khảo sát, thể hiện mức độ phân tán của các số liệu xung quanh số trung bình."
+          "content": "Độ lệch chuẩn là căn bậc hai số học của phương sai:\n$$s = \\sqrt{s^2}$$\nĐộ lệch chuẩn có cùng đơn vị đo với đại lượng đang khảo sát, thể hiện mức độ phân tán của các số liệu xung quanh số trung bình."
         }
       ]
     }

@@ -6,7 +6,8 @@ const BOX_LABELS = {
   definition: 'Định nghĩa',
   theorem: 'Định lí',
   example: 'Ví dụ',
-  note: 'Chú ý'
+  note: 'Chú ý',
+  formula: 'Công thức'
 };
 
 /** Bỏ tiêu đề khi nó chỉ lặp lại nhãn của khối (ví dụ nhãn "Định nghĩa" + tiêu đề "Định nghĩa"). */
@@ -17,19 +18,22 @@ function boxTitle(block) {
   return same ? '' : `<div class="box-title">${mathHtml(block.title)}</div>`;
 }
 
-function renderBlock(block) {
+export function renderBlock(block) {
+  if (!block) return '';
   switch (block.type) {
     case 'heading':
-      return `<h2 class="blk-heading">${mathHtml(block.text)}</h2>`;
+      return `<h2 class="blk-heading">${mathHtml(block.text || '')}</h2>`;
 
     case 'text':
-      return `<div class="blk blk-text">${mathParagraphs(block.content)}</div>`;
+      return `<div class="blk blk-text">${mathParagraphs(block.content || '')}</div>`;
 
-    case 'list':
+    case 'list': {
+      const items = Array.isArray(block.items) ? block.items : [];
       return `<div class="blk blk-list">
         ${block.title ? `<div class="list-title">${mathHtml(block.title)}</div>` : ''}
-        <ul>${block.items.map((i) => `<li>${mathBlock(i)}</li>`).join('')}</ul>
+        <ul>${items.map((i) => `<li>${mathBlock(i)}</li>`).join('')}</ul>
       </div>`;
+    }
 
     case 'definition':
     case 'theorem':
@@ -37,39 +41,56 @@ function renderBlock(block) {
       return `<div class="box box-${block.type}">
         <div class="box-label">${BOX_LABELS[block.type]}</div>
         ${boxTitle(block)}
-        ${mathParagraphs(block.content)}
+        ${mathParagraphs(block.content || '')}
       </div>`;
 
     case 'example':
       return `<div class="box box-example">
         <div class="box-label">${BOX_LABELS.example}</div>
-        ${mathParagraphs(block.question)}
+        ${mathParagraphs(block.question || '')}
         <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
           <div class="box-label">Lời giải</div>
-          ${mathParagraphs(block.solution)}
+          ${mathParagraphs(block.solution || '')}
         </div>
       </div>`;
 
-    case 'formula':
-      return `<div class="blk formula-list">
-        ${block.items.map((it) => `
-          <div class="formula-row${it.label ? '' : ' no-label'}">
-            ${it.label ? `<div class="f-label">${mathHtml(it.label)}</div>` : ''}
-            <div class="f-math">${mathBlock(it.math)}</div>
-          </div>`).join('')}
+    case 'formula': {
+      if (Array.isArray(block.items) && block.items.length > 0) {
+        return `<div class="blk">
+          ${block.title ? `<div class="tbl-title">${mathHtml(block.title)}</div>` : ''}
+          <div class="formula-list">
+            ${block.items.map((it) => `
+              <div class="formula-row${it.label ? '' : ' no-label'}">
+                ${it.label ? `<div class="f-label">${mathHtml(it.label)}</div>` : ''}
+                <div class="f-math">${mathBlock(it.math || it.text || '')}</div>
+              </div>`).join('')}
+          </div>
+        </div>`;
+      }
+      return `<div class="box box-theorem">
+        <div class="box-label">${BOX_LABELS.formula}</div>
+        ${boxTitle(block)}
+        ${mathParagraphs(block.content || block.math || '')}
       </div>`;
+    }
 
-    case 'table':
+    case 'table': {
+      const headers = Array.isArray(block.headers) ? block.headers : [];
+      const rows = Array.isArray(block.rows) ? block.rows : [];
       return `<div class="blk">
         ${block.title ? `<div class="tbl-title">${mathHtml(block.title)}</div>` : ''}
         <div class="tbl-wrap"><table>
-          <thead><tr>${block.headers.map((h) => `<th>${mathHtml(h)}</th>`).join('')}</tr></thead>
-          <tbody>${block.rows.map((row) =>
-            `<tr>${row.map((cell) => `<td>${mathHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody>
+          ${headers.length > 0 ? `<thead><tr>${headers.map((h) => `<th>${mathHtml(h)}</th>`).join('')}</tr></thead>` : ''}
+          <tbody>${rows.map((row) =>
+            `<tr>${(Array.isArray(row) ? row : []).map((cell) => `<td>${mathHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody>
         </table></div>
       </div>`;
+    }
 
     default:
+      if (block.content) {
+        return `<div class="blk blk-text">${mathParagraphs(block.content)}</div>`;
+      }
       return '';
   }
 }
@@ -125,7 +146,7 @@ export async function renderTheory(ctx, params) {
         <h1>${mathHtml(indexLesson ? indexLesson.title : lesson.title)}</h1>
         <p class="lesson-meta">${subject.name} — ${subject.term} · ${subject.book}</p>
 
-        ${lesson.blocks.map(renderBlock).join('')}
+        ${(lesson.blocks || []).map(renderBlock).join('')}
 
         <div class="btn-row" style="margin-top:34px">
           <a class="btn btn-primary" href="#/luyen-tap?chuong=${chapterId}">Luyện tập chương ${chapter.roman}</a>

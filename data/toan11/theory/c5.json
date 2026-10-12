@@ -18,7 +18,16 @@
         {
           "type": "formula",
           "title": "Tổng cấp số nhân lùi vô hạn",
-          "content": "Cấp số nhân $(u_n)$ có công bội $q$ với $|q| < 1$ có tổng là:\n$S = u_1 + u_2 + \\dots + u_n + \\dots = \\frac{u_1}{1 - q}$."
+          "items": [
+            {
+              "label": "Cấp số nhân $(u_n)$ có công bội $q$ với $|q| < 1$ có tổng là",
+              "math": ""
+            },
+            {
+              "label": "",
+              "math": "S = u_1 + u_2 + \\dots + u_n + \\dots = \\frac{u_1}{1 - q}"
+            }
+          ]
         }
       ]
     },
@@ -38,7 +47,20 @@
         {
           "type": "formula",
           "title": "Giới hạn một phía",
-          "content": "- Giới hạn bên phải: $\\lim_{x \\to x_0^+} f(x) = L$.\n- Giới hạn bên trái: $\\lim_{x \\to x_0^-} f(x) = L$.\n- Định lí: $\\lim_{x \\to x_0} f(x) = L \\Leftrightarrow \\lim_{x \\to x_0^+} f(x) = \\lim_{x \\to x_0^-} f(x) = L$."
+          "items": [
+            {
+              "label": "Giới hạn bên phải",
+              "math": "\\lim_{x \\to x_0^+} f(x) = L"
+            },
+            {
+              "label": "Giới hạn bên trái",
+              "math": "\\lim_{x \\to x_0^-} f(x) = L"
+            },
+            {
+              "label": "Định lí",
+              "math": "\\lim_{x \\to x_0} f(x) = L \\Leftrightarrow \\lim_{x \\to x_0^+} f(x) = \\lim_{x \\to x_0^-} f(x) = L"
+            }
+          ]
         },
         {
           "type": "note",
@@ -65,7 +87,7 @@
           "content": "- Hàm số liên tục tại mọi điểm thuộc khoảng $(a; b)$ được gọi là liên tục trên khoảng $(a; b)$.\n- Hàm đa thức, phân thức hữu tỉ, lượng giác liên tục trên từng khoảng xác định của chúng."
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Định lí giá trị trung gian",
           "content": "Nếu hàm số $y = f(x)$ liên tục trên đoạn $[a; b]$ và $f(a) \\cdot f(b) < 0$ thì tồn tại ít nhất một điểm $c \\in (a; b)$ sao cho $f(c) = 0$ (phương trình $f(x) = 0$ có ít nhất một nghiệm trong khoảng $(a; b)$)."
         }

@@ -25,14 +25,31 @@
           "text": "2. Giá trị lượng giác của góc lượng giác"
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Định nghĩa giá trị lượng giác",
           "content": "Điểm biểu diễn $M$ của góc $\\alpha$ trên đường tròn lượng giác có toạ độ $(x_M; y_M)$:\n- $\\sin \\alpha = y_M$\n- $\\cos \\alpha = x_M$\n- $\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha} = \\frac{y_M}{x_M}$ (với $\\alpha \\neq \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z}$)\n- $\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha} = \\frac{x_M}{y_M}$ (với $\\alpha \\neq k\\pi, k \\in \\mathbb{Z}$)"
         },
         {
           "type": "formula",
           "title": "Hằng đẳng thức lượng giác cơ bản",
-          "content": "- $\\sin^2 \\alpha + \\cos^2 \\alpha = 1$\n- $1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$ ($\\alpha \\neq \\frac{\\pi}{2} + k\\pi$)\n- $1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$ ($\\alpha \\neq k\\pi$)\n- $\\tan \\alpha \\cdot \\cot \\alpha = 1$"
+          "items": [
+            {
+              "label": "",
+              "math": "\\sin^2 \\alpha + \\cos^2 \\alpha = 1"
+            },
+            {
+              "label": "",
+              "math": "$1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$ ($\\alpha \\neq \\frac{\\pi}{2} + k\\pi$)"
+            },
+            {
+              "label": "",
+              "math": "$1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$ ($\\alpha \\neq k\\pi$)"
+            },
+            {
+              "label": "",
+              "math": "\\tan \\alpha \\cdot \\cot \\alpha = 1"
+            }
+          ]
         }
       ]
     },
@@ -47,7 +64,32 @@
         {
           "type": "formula",
           "title": "Công thức cộng góc",
-          "content": "- $\\cos(a - b) = \\cos a \\cos b + \\sin a \\sin b$\n- $\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b$\n- $\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b$\n- $\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b$\n- $\\tan(a + b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$\n- $\\tan(a - b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$"
+          "items": [
+            {
+              "label": "",
+              "math": "\\cos(a - b) = \\cos a \\cos b + \\sin a \\sin b"
+            },
+            {
+              "label": "",
+              "math": "\\cos(a + b) = \\cos a \\cos b - \\sin a \\sin b"
+            },
+            {
+              "label": "",
+              "math": "\\sin(a - b) = \\sin a \\cos b - \\cos a \\sin b"
+            },
+            {
+              "label": "",
+              "math": "\\sin(a + b) = \\sin a \\cos b + \\cos a \\sin b"
+            },
+            {
+              "label": "",
+              "math": "\\tan(a + b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}"
+            },
+            {
+              "label": "",
+              "math": "\\tan(a - b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -56,12 +98,34 @@
         {
           "type": "formula",
           "title": "Công thức góc nhân đôi",
-          "content": "- $\\sin 2a = 2\\sin a \\cos a$\n- $\\cos 2a = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a$\n- $\\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a}$"
+          "items": [
+            {
+              "label": "",
+              "math": "\\sin 2a = 2\\sin a \\cos a"
+            },
+            {
+              "label": "",
+              "math": "\\cos 2a = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a"
+            },
+            {
+              "label": "",
+              "math": "\\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a}"
+            }
+          ]
         },
         {
           "type": "formula",
           "title": "Công thức hạ bậc",
-          "content": "- $\\sin^2 a = \\frac{1 - \\cos 2a}{2}$\n- $\\cos^2 a = \\frac{1 + \\cos 2a}{2}$"
+          "items": [
+            {
+              "label": "",
+              "math": "\\sin^2 a = \\frac{1 - \\cos 2a}{2}"
+            },
+            {
+              "label": "",
+              "math": "\\cos^2 a = \\frac{1 + \\cos 2a}{2}"
+            }
+          ]
         }
       ]
     },
@@ -94,14 +158,23 @@
           "text": "1. Công thức nghiệm cơ bản"
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Phương trình $\\sin x = m$ và $\\cos x = m$",
           "content": "- $\\sin x = m$: Có nghiệm khi $|m| \\le 1$. Nếu $m = \\sin \\alpha$ thì nghiệm là:\n$x = \\alpha + k2\\pi$ hoặc $x = \\pi - \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$).\n- $\\cos x = m$: Có nghiệm khi $|m| \\le 1$. Nếu $m = \\cos \\alpha$ thì nghiệm là:\n$x = \\pm \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$)."
         },
         {
           "type": "formula",
           "title": "Phương trình $\\tan x = m$ và $\\cot x = m$",
-          "content": "- $\\tan x = m = \\tan \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$).\n- $\\cot x = m = \\cot \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$)."
+          "items": [
+            {
+              "label": "",
+              "math": "$\\tan x = m = \\tan \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$)"
+            },
+            {
+              "label": "",
+              "math": "$\\cot x = m = \\cot \\alpha \\Leftrightarrow x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$)"
+            }
+          ]
         }
       ]
     }

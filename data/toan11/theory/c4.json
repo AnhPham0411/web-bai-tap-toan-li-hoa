@@ -31,7 +31,7 @@
           "content": "- Hai đường thẳng đồng phẳng có thể: cắt nhau, song song, hoặc trùng nhau.\n- Hai đường thẳng không cùng thuộc một mặt phẳng nào gọi là hai đường thẳng chéo nhau."
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Tính chất ba mặt phẳng cắt nhau",
           "content": "Nếu ba mặt phẳng đôi một cắt nhau theo ba giao tuyến phân biệt thì ba giao tuyến đó hoặc đồng quy, hoặc đôi một song song."
         }
@@ -66,7 +66,7 @@
           "content": "Nếu mặt phẳng $(P)$ chứa hai đường thẳng cắt nhau $a, b$ và $a, b$ cùng song song với mặt phẳng $(Q)$ thì $(P) \\parallel (Q)$."
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Định lí Ta-lét trong không gian",
           "content": "Ba mặt phẳng đôi một song song chắn trên hai cát tuyến bất kì những đoạn thẳng tương ứng tỉ lệ."
         }

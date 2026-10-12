@@ -38,7 +38,20 @@
         {
           "type": "formula",
           "title": "Số hạng tổng quát và Tổng n số hạng đầu",
-          "content": "- Số hạng tổng quát: $u_n = u_1 + (n - 1)d$.\n- Tính chất 3 số hạng liên tiếp: $u_k = \\frac{u_{k-1} + u_{k+1}}{2}$ ($k \\ge 2$).\n- Tổng $n$ số hạng đầu: $S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n[2u_1 + (n - 1)d]}{2}$."
+          "items": [
+            {
+              "label": "Số hạng tổng quát",
+              "math": "u_n = u_1 + (n - 1)d"
+            },
+            {
+              "label": "Tính chất 3 số hạng liên tiếp",
+              "math": "$u_k = \\frac{u_{k-1} + u_{k+1}}{2}$ ($k \\ge 2$)"
+            },
+            {
+              "label": "Tổng $n$ số hạng đầu",
+              "math": "S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n[2u_1 + (n - 1)d]}{2}"
+            }
+          ]
         }
       ]
     },
@@ -58,7 +71,24 @@
         {
           "type": "formula",
           "title": "Số hạng tổng quát và Tổng n số hạng đầu",
-          "content": "- Số hạng tổng quát: $u_n = u_1 \\cdot q^{n-1}$ ($n \\ge 2$).\n- Tính chất 3 số hạng liên tiếp: $u_k^2 = u_{k-1} \\cdot u_{k+1}$ ($k \\ge 2$).\n- Tổng $n$ số hạng đầu (với $q \\neq 1$): $S_n = \\frac{u_1(1 - q^n)}{1 - q}$.\n- Tổng của cấp số nhân lùi vô hạn ($|q| < 1$): $S = \\frac{u_1}{1 - q}$."
+          "items": [
+            {
+              "label": "Số hạng tổng quát",
+              "math": "$u_n = u_1 \\cdot q^{n-1}$ ($n \\ge 2$)"
+            },
+            {
+              "label": "Tính chất 3 số hạng liên tiếp",
+              "math": "$u_k^2 = u_{k-1} \\cdot u_{k+1}$ ($k \\ge 2$)"
+            },
+            {
+              "label": "Tổng $n$ số hạng đầu (với $q \\neq 1$)",
+              "math": "S_n = \\frac{u_1(1 - q^n)}{1 - q}"
+            },
+            {
+              "label": "Tổng của cấp số nhân lùi vô hạn ($|q| < 1$)",
+              "math": "S = \\frac{u_1}{1 - q}"
+            }
+          ]
         }
       ]
     }

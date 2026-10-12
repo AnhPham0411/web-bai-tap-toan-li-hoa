@@ -158,5 +158,23 @@ ok('grade: hiển thị đáp số kiểu Việt kèm đơn vị',
     grade.isCorrect(s, 'multiple-choice', (s.answer + 1) % 4) === false);
 }
 
+// ---------------------------------------------------------------- theory.js
+const { renderBlock } = await import('../assets/js/views/theory.js');
+
+ok('theory: formula có items mảng',
+  renderBlock({ type: 'formula', items: [{ label: 'L', math: 'x=1' }] }).includes('formula-row'));
+
+ok('theory: formula thiếu items không ném lỗi (render fallback box)',
+  renderBlock({ type: 'formula', title: 'Quy tắc', content: '1. Đạo hàm' }).includes('box-theorem'));
+
+ok('theory: list thiếu items không ném lỗi',
+  renderBlock({ type: 'list', title: 'Danh sách' }).includes('blk-list'));
+
+ok('theory: table thiếu headers/rows không ném lỗi',
+  renderBlock({ type: 'table', title: 'Bảng' }).includes('tbl-wrap'));
+
+ok('theory: block null/undefined an toàn',
+  renderBlock(null) === '' && renderBlock(undefined) === '');
+
 console.log(`\n${fail === 0 ? 'TẤT CẢ ĐỀU PASS' : fail + ' TEST HỎNG'}`);
 process.exit(fail === 0 ? 0 : 1);

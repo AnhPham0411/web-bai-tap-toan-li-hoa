@@ -40,7 +40,7 @@
           "content": "- $M = \\max_{D} f(x) \\Leftrightarrow f(x) \\le M$ với mọi $x \\in D$ và tồn tại $x_0 \\in D$ sao cho $f(x_0) = M$.\n- $m = \\min_{D} f(x) \\Leftrightarrow f(x) \\ge m$ với mọi $x \\in D$ và tồn tại $x_0 \\in D$ sao cho $f(x_0) = m$."
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Quy tắc tìm GTLN, GTNN trên đoạn $[a; b]$",
           "content": "1. Tính đạo hàm $f'(x)$ và tìm các nghiệm $x_1, x_2, \\dots, x_k \\in (a; b)$ của $f'(x) = 0$ (hoặc điểm $f'$ không xác định).\n2. Tính các giá trị $f(a), f(b), f(x_1), \\dots, f(x_k)$.\n3. Giá trị lớn nhất trong số đó là $\\max_{[a; b]} f(x)$, giá trị nhỏ nhất là $\\min_{[a; b]} f(x)$."
         }
@@ -69,9 +69,9 @@
           "text": "2. Đường tiệm cận xiên"
         },
         {
-          "type": "formula",
+          "type": "theorem",
           "title": "Đường tiệm cận xiên $y = ax + b$ ($a \\neq 0$)",
-          "content": "Đường thẳng $y = ax + b$ là tiệm cận xiên nếu $\\lim_{x \\to +\\infty} [f(x) - (ax + b)] = 0$ (hoặc khi $x \\to -\\infty$).\nCách tìm hệ số:\n$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$, $b = \\lim_{x \\to \\pm\\infty} [f(x) - ax]$."
+          "content": "Đường thẳng $y = ax + b$ là tiệm cận xiên nếu $\\lim_{x \\to +\\infty} [f(x) - (ax + b)] = 0$ (hoặc khi $x \\to -\\infty$).\n\nCách tìm các hệ số:\n$$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}, \\quad b = \\lim_{x \\to \\pm\\infty} [f(x) - ax]$$"
         }
       ]
     },

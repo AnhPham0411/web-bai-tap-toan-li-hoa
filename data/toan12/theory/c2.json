@@ -48,7 +48,24 @@
         {
           "type": "formula",
           "title": "Cộng, trừ và nhân với số thực",
-          "content": "Cho $\\vec{u} = (x_1; y_1; z_1)$ và $\\vec{v} = (x_2; y_2; z_2)$:\n- $\\vec{u} + \\vec{v} = (x_1 + x_2; y_1 + y_2; z_1 + z_2)$\n- $\\vec{u} - \\vec{v} = (x_1 - x_2; y_1 - y_2; z_1 - z_2)$\n- $k\\vec{u} = (kx_1; ky_1; kz_1)$ ($k \\in \\mathbb{R}$)"
+          "items": [
+            {
+              "label": "Cho $\\vec{u} = (x_1; y_1; z_1)$ và $\\vec{v} = (x_2; y_2; z_2)$",
+              "math": ""
+            },
+            {
+              "label": "",
+              "math": "\\vec{u} + \\vec{v} = (x_1 + x_2; y_1 + y_2; z_1 + z_2)"
+            },
+            {
+              "label": "",
+              "math": "\\vec{u} - \\vec{v} = (x_1 - x_2; y_1 - y_2; z_1 - z_2)"
+            },
+            {
+              "label": "",
+              "math": "$k\\vec{u} = (kx_1; ky_1; kz_1)$ ($k \\in \\mathbb{R}$)"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -57,7 +74,32 @@
         {
           "type": "formula",
           "title": "Biểu thức tích vô hướng",
-          "content": "- Tích vô hướng: $\\vec{u} \\cdot \\vec{v} = x_1 x_2 + y_1 y_2 + z_1 z_2$.\n- Độ dài vectơ: $|\\vec{u}| = \\sqrt{x_1^2 + y_1^2 + z_1^2}$.\n- Khoảng cách giữa hai điểm $A(x_A; y_A; z_A)$ và $B(x_B; y_B; z_B)$:\n$AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2 + (z_B - z_A)^2}$.\n- Côsin góc giữa hai vectơ:\n$\\cos(\\vec{u}, \\vec{v}) = \\frac{\\vec{u} \\cdot \\vec{v}}{|\\vec{u}| \\cdot |\\vec{v}|} = \\frac{x_1 x_2 + y_1 y_2 + z_1 z_2}{\\sqrt{x_1^2 + y_1^2 + z_1^2} \\cdot \\sqrt{x_2^2 + y_2^2 + z_2^2}}$."
+          "items": [
+            {
+              "label": "Tích vô hướng",
+              "math": "\\vec{u} \\cdot \\vec{v} = x_1 x_2 + y_1 y_2 + z_1 z_2"
+            },
+            {
+              "label": "Độ dài vectơ",
+              "math": "|\\vec{u}| = \\sqrt{x_1^2 + y_1^2 + z_1^2}"
+            },
+            {
+              "label": "Khoảng cách giữa hai điểm $A(x_A; y_A; z_A)$ và $B(x_B; y_B; z_B)$",
+              "math": ""
+            },
+            {
+              "label": "",
+              "math": "AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2 + (z_B - z_A)^2}"
+            },
+            {
+              "label": "Côsin góc giữa hai vectơ",
+              "math": ""
+            },
+            {
+              "label": "",
+              "math": "\\cos(\\vec{u}, \\vec{v}) = \\frac{\\vec{u} \\cdot \\vec{v}}{|\\vec{u}| \\cdot |\\vec{v}|} = \\frac{x_1 x_2 + y_1 y_2 + z_1 z_2}{\\sqrt{x_1^2 + y_1^2 + z_1^2} \\cdot \\sqrt{x_2^2 + y_2^2 + z_2^2}}"
+            }
+          ]
         }
       ]
     }
