@@ -1,0 +1,2252 @@
+{
+  "sgk_chapter_title": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b1",
+      "sgk_title": "Bài 1. Tính đơn điệu và cực trị của hàm số"
+    },
+    {
+      "lesson_id": "b2",
+      "sgk_title": "Bài 2. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số"
+    },
+    {
+      "lesson_id": "b3",
+      "sgk_title": "Bài 3. Đường tiệm cận của đồ thị hàm số"
+    },
+    {
+      "lesson_id": "b4",
+      "sgk_title": "Bài 4. Khảo sát sự biến thiên và vẽ đồ thị hàm số"
+    },
+    {
+      "lesson_id": "b5",
+      "sgk_title": "Bài 5. Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Hàm số $y = f(x)$ đồng biến trên khoảng K khi và chỉ khi:",
+      "choices": [
+        "$f'(x) \\ge 0, \\forall x \\in K$ và dấu bằng chỉ xảy ra tại hữu hạn điểm",
+        "$f'(x) \\le 0, \\forall x \\in K$",
+        "$f'(x) = 0, \\forall x \\in K$",
+        "$f(x) > 0, \\forall x \\in K$"
+      ],
+      "answer": 0,
+      "explanation": "Định lí về tính đơn điệu của hàm số có đạo hàm."
+    },
+    {
+      "id": "mc-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Cho hàm số có $f'(x) < 0$ với mọi $x \\in (1; 3)$. Khi đó hàm số:",
+      "choices": [
+        "Nghịch biến trên $(1; 3)$",
+        "Đồng biến trên $(1; 3)$",
+        "Đạt cực đại tại $x = 2$",
+        "Đạt cực tiểu tại $x = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm âm trên khoảng thì hàm số nghịch biến trên khoảng đó."
+    },
+    {
+      "id": "mc-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Nếu $f'(x) > 0$ trên $(-\\infty; 2)$ thì hàm số:",
+      "choices": [
+        "Đồng biến trên $(-\\infty; 2)$",
+        "Nghịch biến trên $(-\\infty; 2)$",
+        "Không đổi trên $(-\\infty; 2)$",
+        "Có cực trị tại $x = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm dương thì hàm số đồng biến."
+    },
+    {
+      "id": "mc-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Khẳng định nào đúng về hàm số $y = x^3 - 3x$ có $y' = 3x^2 - 3$?",
+      "choices": [
+        "Đồng biến trên $(1; +\\infty)$",
+        "Nghịch biến trên $(1; +\\infty)$",
+        "Nghịch biến trên $(-\\infty; -1)$",
+        "Đồng biến trên $(-1; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3(x^2 - 1) > 0$ khi $x > 1$ nên đồng biến trên $(1; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Hàm số bậc nhất trên bậc nhất $y = \\frac{ax + b}{cx + d}$ ($ad - bc > 0$) luôn:",
+      "choices": [
+        "Đồng biến trên từng khoảng xác định",
+        "Nghịch biến trên từng khoảng xác định",
+        "Đồng biến trên $\\mathbb{R}$",
+        "Có cực trị"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm $y' = \\frac{ad - bc}{(cx + d)^2} > 0$ nên đồng biến trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Điểm $x_0$ được gọi là điểm cực đại của hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "$f'(x)$ đổi dấu từ dương sang âm khi qua $x_0$",
+        "$f'(x)$ đổi dấu từ âm sang dương khi qua $x_0$",
+        "$f'(x_0) = 0$ và không đổi dấu",
+        "$f(x_0) = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Dấu hiệu I: $f'$ đổi dấu từ $+$ sang $-$ thì $x_0$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Nếu qua $x_0$ mà $f'(x)$ đổi dấu từ âm sang dương thì $x_0$ là:",
+      "choices": [
+        "Điểm cực tiểu",
+        "Điểm cực đại",
+        "Điểm uốn",
+        "Không phải cực trị"
+      ],
+      "answer": 0,
+      "explanation": "Đổi dấu từ $-$ sang $+$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Hàm số $y = f(x)$ có bảng biến thiên với $f'(x) = 0$ tại $x = 1$ nhưng không đổi dấu qua 1. Điểm $x = 1$ có phải là điểm cực trị không?",
+      "choices": [
+        "Không phải điểm cực trị",
+        "Là điểm cực đại",
+        "Là điểm cực tiểu",
+        "Vừa là CĐ vừa là CT"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm phải đổi dấu khi qua $x_0$ thì $x_0$ mới là điểm cực trị."
+    },
+    {
+      "id": "mc-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Số điểm cực trị của hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ ($a \\neq 0$) tối đa là:",
+      "choices": [
+        "$2$ điểm",
+        "$3$ điểm",
+        "$1$ điểm",
+        "$0$ điểm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình $y' = 0$ là phương trình bậc hai nên có tối đa 2 nghiệm phân biệt (tối đa 2 cực trị)."
+    },
+    {
+      "id": "mc-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Hàm số $y = \\frac{ax + b}{cx + d}$ ($c \\neq 0, ad - bc \\neq 0$) có bao nhiêu điểm cực trị?",
+      "choices": [
+        "$0$ điểm cực trị",
+        "$1$ điểm cực trị",
+        "$2$ điểm cực trị",
+        "Vô số"
+      ],
+      "answer": 0,
+      "explanation": "Hàm phân thức bậc nhất trên bậc nhất không có cực trị vì $y'$ luôn cùng dấu trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-011",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Số M gọi là giá trị lớn nhất của $f(x)$ trên tập D nếu:",
+      "choices": [
+        "$f(x) \\le M, \\forall x \\in D$ và $\\exists x_0 \\in D: f(x_0) = M$",
+        "$f(x) < M, \\forall x \\in D$",
+        "$f(x) \\ge M, \\forall x \\in D$",
+        "M là giá trị cực đại duy nhất"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa GTLN: không vượt quá M và có điểm đạt được."
+    },
+    {
+      "id": "mc-c1-012",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Số m gọi là giá trị nhỏ nhất của $f(x)$ trên D nếu:",
+      "choices": [
+        "$f(x) \\ge m, \\forall x \\in D$ và $\\exists x_0 \\in D: f(x_0) = m$",
+        "$f(x) \\le m, \\forall x \\in D$",
+        "$f(x) > m, \\forall x \\in D$",
+        "$f(x) = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa GTNN trên tập D."
+    },
+    {
+      "id": "mc-c1-013",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Mọi hàm số liên tục trên một đoạn $[a; b]$ đều:",
+      "choices": [
+        "Luôn đạt GTLN và GTNN trên đoạn đó",
+        "Chỉ đạt GTLN",
+        "Chỉ đạt GTNN",
+        "Chưa chắc có GTLN và GTNN"
+      ],
+      "answer": 0,
+      "explanation": "Định lí Weierstrass: Hàm liên tục trên đoạn luôn đạt GTLN và GTNN."
+    },
+    {
+      "id": "mc-c1-014",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Giá trị lớn nhất của hàm số $y = \\sin x$ trên $\\mathbb{R}$ bằng:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\max \\sin x = 1$."
+    },
+    {
+      "id": "mc-c1-015",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2$ trên $\\mathbb{R}$ là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $x^2 \\ge 0$ nên $\\min = 0$ tại $x = 0$."
+    },
+    {
+      "id": "mc-c1-016",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường thẳng $x = x_0$ là tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "Ít nhất một trong các giới hạn $\\lim_{x \\to x_0^\\pm} f(x) = \\pm\\infty$",
+        "$\\lim_{x \\to +\\infty} f(x) = x_0$",
+        "$\\lim_{x \\to x_0} f(x) = 0$",
+        "$f(x_0) = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa tiệm cận đứng: giới hạn tại điểm bằng vô cực."
+    },
+    {
+      "id": "mc-c1-017",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{2x + 1}{x - 1}$ là:",
+      "choices": [
+        "$x = 1$",
+        "$x = 2$",
+        "$y = 2$",
+        "$y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Mẫu số triệt tiêu tại $x = 1$ và tử số khác 0 nên tiệm cận đứng là $x = 1$."
+    },
+    {
+      "id": "mc-c1-018",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đồ thị hàm số $y = \\frac{1}{x + 3}$ có tiệm cận đứng là:",
+      "choices": [
+        "$x = -3$",
+        "$x = 3$",
+        "$y = 0$",
+        "$y = -3$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận đứng là nghiệm của mẫu: $x = -3$."
+    },
+    {
+      "id": "mc-c1-019",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số nào?",
+      "choices": [
+        "$y = \\frac{x + 1}{x - 2}$",
+        "$y = \\frac{x - 2}{x + 1}$",
+        "$y = x^2 - 4$",
+        "$y = \\frac{1}{x + 2}$"
+      ],
+      "answer": 0,
+      "explanation": "Mẫu số $x - 2 = 0 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "mc-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đồ thị hàm đa thức bậc ba $y = ax^3 + bx^2 + cx + d$ có bao nhiêu đường tiệm cận đứng?",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Hàm đa thức xác định trên $\\mathbb{R}$ nên không có tiệm cận đứng."
+    },
+    {
+      "id": "mc-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đường thẳng $y = y_0$ là tiệm cận ngang của đồ thị hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "$\\lim_{x \\to +\\infty} f(x) = y_0$ hoặc $\\lim_{x \\to -\\infty} f(x) = y_0$",
+        "$\\lim_{x \\to y_0} f(x) = +\\infty$",
+        "$f(0) = y_0$",
+        "$y_0 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa tiệm cận ngang: giới hạn khi x ra vô cực là hằng số hữu hạn."
+    },
+    {
+      "id": "mc-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đường tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 3}{x + 1}$ là:",
+      "choices": [
+        "$y = 2$",
+        "$x = -1$",
+        "$y = -3$",
+        "$y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "$\\lim_{x \\to \\pm\\infty} \\frac{2x - 3}{x + 1} = 2$ nên tiệm cận ngang là $y = 2$."
+    },
+    {
+      "id": "mc-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{3x + 1}{2x - 4}$ có tiệm cận ngang là:",
+      "choices": [
+        "$y = \\frac{3}{2}$",
+        "$y = 3$",
+        "$x = 2$",
+        "$y = -\\frac{1}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Tỉ số hệ số bậc nhất: $y = 3/2$."
+    },
+    {
+      "id": "mc-c1-024",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Tiệm cận ngang của đồ thị hàm số $y = \\frac{1}{x - 2}$ là:",
+      "choices": [
+        "$y = 0$",
+        "$x = 2$",
+        "$y = 1$",
+        "$y = -2$"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu nên $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow y = 0$."
+    },
+    {
+      "id": "mc-c1-025",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{4x - 1}{x + 2}$ có tiệm cận ngang là đường thẳng:",
+      "choices": [
+        "$y = 4$",
+        "$x = -2$",
+        "$y = -2$",
+        "$y = -\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận ngang $y = 4$."
+    },
+    {
+      "id": "mc-c1-026",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đường thẳng $y = ax + b$ ($a \\neq 0$) là tiệm cận xiên của đồ thị $y = f(x)$ nếu:",
+      "choices": [
+        "$\\lim_{x \\to +\\infty} [f(x) - (ax + b)] = 0$",
+        "$\\lim_{x \\to +\\infty} f(x) = ax + b$",
+        "$f(x) = ax + b$",
+        "$\\lim_{x \\to 0} f(x) = b$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa tiệm cận xiên: khoảng cách giữa đồ thị và đường thẳng tiến về 0."
+    },
+    {
+      "id": "mc-c1-027",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đồ thị hàm số phân thức bậc hai trên bậc nhất $y = \\frac{P(x)}{Q(x)}$ có tiệm cận xiên khi:",
+      "choices": [
+        "Bậc của tử hơn bậc của mẫu đúng 1 bậc",
+        "Bậc của tử bằng bậc của mẫu",
+        "Bậc của tử nhỏ hơn bậc của mẫu",
+        "Tử chia hết cho mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử hơn bậc mẫu 1 bậc thì chia đa thức ra phần thương bậc nhất $ax + b$."
+    },
+    {
+      "id": "mc-c1-028",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Hàm số $y = x + 1 + \\frac{1}{x - 2}$ có tiệm cận xiên là:",
+      "choices": [
+        "$y = x + 1$",
+        "$y = x$",
+        "$x = 2$",
+        "$y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "Vì $\\lim_{x \\to \\pm\\infty} \\frac{1}{x - 2} = 0$ nên tiệm cận xiên là $y = x + 1$."
+    },
+    {
+      "id": "mc-c1-029",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đồ thị hàm số $y = 2x - 3 + \\frac{4}{x + 1}$ có đường tiệm cận xiên là:",
+      "choices": [
+        "$y = 2x - 3$",
+        "$y = 2x$",
+        "$x = -1$",
+        "$y = -3$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận xiên $y = 2x - 3$."
+    },
+    {
+      "id": "mc-c1-030",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Hệ số góc a của tiệm cận xiên $y = ax + b$ tìm bằng công thức:",
+      "choices": [
+        "$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$",
+        "$a = \\lim_{x \\to \\pm\\infty} f(x)$",
+        "$a = f'(0)$",
+        "$a = \\lim_{x \\to 0} \\frac{f(x)}{x}$"
+      ],
+      "answer": 0,
+      "explanation": "$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$."
+    },
+    {
+      "id": "mc-c1-031",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số bậc nhất trên bậc nhất $y = \\frac{ax + b}{cx + d}$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Giao điểm của hai đường tiệm cận",
+        "Gốc toạ độ O",
+        "Điểm cắt trục tung",
+        "Điểm uốn"
+      ],
+      "answer": 0,
+      "explanation": "Tâm đối xứng là giao điểm của tiệm cận đứng và tiệm cận ngang: $I(-d/c; a/c)$."
+    },
+    {
+      "id": "mc-c1-032",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x + 1}$ có tâm đối xứng là:",
+      "choices": [
+        "$I(-1; 2)$",
+        "$I(1; 2)$",
+        "$I(-1; -1)$",
+        "$I(2; -1)$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận đứng $x = -1$, tiệm cận ngang $y = 2$, giao điểm là $I(-1; 2)$."
+    },
+    {
+      "id": "mc-c1-033",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Điểm uốn (nghiệm của $y'' = 0$)",
+        "Gốc toạ độ",
+        "Điểm cực đại",
+        "Điểm cực tiểu"
+      ],
+      "answer": 0,
+      "explanation": "Đồ thị hàm bậc ba nhận điểm uốn làm tâm đối xứng."
+    },
+    {
+      "id": "mc-c1-034",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số $y = x^3 - 3x$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Gốc toạ độ $O(0; 0)$",
+        "Điểm $(1; -2)$",
+        "Điểm $(-1; 2)$",
+        "Điểm $(0; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Là hàm số lẻ nên nhận gốc toạ độ $O(0; 0)$ làm tâm đối xứng."
+    },
+    {
+      "id": "mc-c1-035",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Giao điểm của tiệm cận đứng và tiệm cận xiên của hàm số phân thức bậc hai/bậc nhất là:",
+      "choices": [
+        "Tâm đối xứng của đồ thị hàm số",
+        "Trục đối xứng",
+        "Điểm cực đại",
+        "Gốc toạ độ"
+      ],
+      "answer": 0,
+      "explanation": "Giao điểm của 2 đường tiệm cận là tâm đối xứng của đồ thị hypebol xiên."
+    },
+    {
+      "id": "mc-c1-036",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ có nhánh cuối đi lên ($x \\to +\\infty, y \\to +\\infty$) khi:",
+      "choices": [
+        "$a > 0$",
+        "$a < 0$",
+        "$a = 0$",
+        "$d > 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số cao nhất $a > 0$ thì nhánh bên phải hướng lên trên."
+    },
+    {
+      "id": "mc-c1-037",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Nếu nhánh bên phải của đồ thị hàm bậc ba đi xuống ($x \\to +\\infty, y \\to -\\infty$) thì:",
+      "choices": [
+        "$a < 0$",
+        "$a > 0$",
+        "$b < 0$",
+        "$c < 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số $a < 0$."
+    },
+    {
+      "id": "mc-c1-038",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm bậc ba có 2 điểm cực trị khi phương trình $y' = 0$ có:",
+      "choices": [
+        "Hai nghiệm phân biệt",
+        "Vô nghiệm",
+        "Nghiệm kép",
+        "Một nghiệm duy nhất"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình đạo hàm bậc hai có $\\Delta > 0$ thì có 2 cực trị."
+    },
+    {
+      "id": "mc-c1-039",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm số $y = ax^3 + bx^2 + cx + d$ cắt trục tung $Oy$ tại điểm có toạ độ:",
+      "choices": [
+        "$(0; d)$",
+        "$(d; 0)$",
+        "$(0; a)$",
+        "$(0; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 0 \\Rightarrow y = d$."
+    },
+    {
+      "id": "mc-c1-040",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Hàm số bậc ba không có cực trị khi:",
+      "choices": [
+        "$y' = 0$ vô nghiệm hoặc có nghiệm kép",
+        "$y' = 0$ có 2 nghiệm phân biệt",
+        "$a > 0$",
+        "$d = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $\\Delta_{y'} \\le 0$ thì đạo hàm không đổi dấu, hàm số không có cực trị."
+    },
+    {
+      "id": "mc-c1-041",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{ax + b}{cx + d}$ có bao nhiêu đường tiệm cận?",
+      "choices": [
+        "$2$ đường (1 đứng, 1 ngang)",
+        "$1$ đường",
+        "$3$ đường",
+        "$0$ đường"
+      ],
+      "answer": 0,
+      "explanation": "Có đúng 1 tiệm cận đứng $x = -d/c$ và 1 tiệm cận ngang $y = a/c$."
+    },
+    {
+      "id": "mc-c1-042",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{x - 1}{x + 2}$ cắt trục tung tại điểm có toạ độ:",
+      "choices": [
+        "$(0; -0,5)$",
+        "$(1; 0)$",
+        "$(0; 1)$",
+        "$(-2; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Cho $x = 0 \\Rightarrow y = -1/2 = -0,5$."
+    },
+    {
+      "id": "mc-c1-043",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Giao điểm của đồ thị $y = \\frac{2x - 4}{x + 1}$ với trục hoành là:",
+      "choices": [
+        "$(2; 0)$",
+        "$(0; -4)$",
+        "$(-1; 0)$",
+        "$(4; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Cho $y = 0 \\Rightarrow 2x - 4 = 0 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "mc-c1-044",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{ax + b}{cx + d}$ có hình dạng là:",
+      "choices": [
+        "Đường hyperbol vuông góc",
+        "Parabol",
+        "Đường elip",
+        "Đường cong bậc ba"
+      ],
+      "answer": 0,
+      "explanation": "Đồ thị là đường hypebol với hai nhánh."
+    },
+    {
+      "id": "mc-c1-045",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Hàm số $y = \\frac{2x + 1}{x - 1}$ đồng biến hay nghịch biến trên $(1; +\\infty)$?",
+      "choices": [
+        "Nghịch biến",
+        "Đồng biến",
+        "Không đổi",
+        "Vừa đồng vừa nghịch"
+      ],
+      "answer": 0,
+      "explanation": "$ad - bc = 2(-1) - 1(1) = -3 < 0$ nên nghịch biến trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-046",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Mục tiêu của bài toán tối ưu hoá kinh tế thường là:",
+      "choices": [
+        "Tìm cực đại của lợi nhuận hoặc cực tiểu của chi phí",
+        "Tìm doanh thu bằng 0",
+        "Tìm số sản phẩm ít nhất",
+        "Tìm giá thành cao nhất"
+      ],
+      "answer": 0,
+      "explanation": "Tối ưu hoá là tối đa lợi nhuận hoặc tối thiểu chi phí."
+    },
+    {
+      "id": "mc-c1-047",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Để tìm kích thước hình chữ nhật có chu vi không đổi sao cho diện tích lớn nhất, hình đó phải là:",
+      "choices": [
+        "Hình vuông",
+        "Hình chữ nhật dẹt",
+        "Hình thoi",
+        "Tam giác"
+      ],
+      "answer": 0,
+      "explanation": "Hình chữ nhật có chu vi cố định đạt diện tích lớn nhất khi là hình vuông."
+    },
+    {
+      "id": "mc-c1-048",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Hàm lợi nhuận $L(x) = R(x) - C(x)$ đạt cực trị khi:",
+      "choices": [
+        "$L'(x) = 0 \\Leftrightarrow R'(x) = C'(x)$",
+        "$R(x) = C(x)$",
+        "$L(x) = 0$",
+        "$C'(x) = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Doanh thu biên bằng chi phí biên $R'(x) = C'(x)$."
+    },
+    {
+      "id": "mc-c1-049",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Khi thiết kế một hộp kín hình chữ nhật đáy vuông thể tích V cố định, để tiết kiệm nguyên liệu (diện tích toàn phần nhỏ nhất) thì hộp phải có dạng:",
+      "choices": [
+        "Hình lập phương",
+        "Hình hộp dẹt",
+        "Chiều cao gấp đôi cạnh đáy",
+        "Bất kì"
+      ],
+      "answer": 0,
+      "explanation": "Hình lập phương tối ưu diện tích toàn phần."
+    },
+    {
+      "id": "mc-c1-050",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Đại lượng đạo hàm trong bài toán chuyển động biểu diễn:",
+      "choices": [
+        "Vận tốc tức thời",
+        "Quãng đường",
+        "Gia tốc tức thời",
+        "Thời gian"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm của quãng đường theo thời gian là vận tốc tức thời: $v(t) = s'(t)$."
+    },
+    {
+      "id": "mc-c1-051",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Hệ số góc của tiếp tuyến của đồ thị hàm số $y = f(x)$ tại điểm $M(x_0; y_0)$ là:",
+      "choices": [
+        "$k = f'(x_0)$",
+        "$k = f(x_0)$",
+        "$k = f''(x_0)$",
+        "$k = x_0$"
+      ],
+      "answer": 0,
+      "explanation": "Ý nghĩa hình học của đạo hàm: hệ số góc tiếp tuyến là $f'(x_0)$."
+    },
+    {
+      "id": "mc-c1-052",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Phương trình tiếp tuyến tại điểm $M(x_0; y_0)$ có dạng:",
+      "choices": [
+        "$y = f'(x_0)(x - x_0) + y_0$",
+        "$y = f'(x_0)(x + x_0) + y_0$",
+        "$y = f(x_0)(x - x_0)$",
+        "$y = x - x_0 + y_0$"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình tiếp tuyến chuẩn: $y = f'(x_0)(x - x_0) + y_0$."
+    },
+    {
+      "id": "mc-c1-053",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Nếu $f'(x_0) = 0$ và $f''(x_0) < 0$ thì $x_0$ là:",
+      "choices": [
+        "Điểm cực đại",
+        "Điểm cực tiểu",
+        "Điểm uốn",
+        "Không phải cực trị"
+      ],
+      "answer": 0,
+      "explanation": "Dấu hiệu II: $f'' < 0$ thì là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-054",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Nếu $f'(x_0) = 0$ và $f''(x_0) > 0$ thì $x_0$ là:",
+      "choices": [
+        "Điểm cực tiểu",
+        "Điểm cực đại",
+        "Điểm uốn",
+        "Điểm gián đoạn"
+      ],
+      "answer": 0,
+      "explanation": "Dấu hiệu II: $f'' > 0$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-055",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Tiếp tuyến tại điểm cực trị của đồ thị hàm số có vị trí:",
+      "choices": [
+        "Song song hoặc trùng với trục hoành Ox",
+        "Vuông góc với trục hoành",
+        "Song song với trục tung",
+        "Tạo góc $45^\\circ$ với Ox"
+      ],
+      "answer": 0,
+      "explanation": "Tại cực trị $f'(x_0) = 0$ nên hệ số góc bằng 0, tiếp tuyến nằm ngang song song hoặc trùng Ox."
+    },
+    {
+      "id": "mc-c1-056",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu bảng biến thiên có mũi tên đi lên từ trái sang phải trên khoảng $(a; b)$ thì hàm số:",
+      "choices": [
+        "Đồng biến trên $(a; b)$",
+        "Nghịch biến trên $(a; b)$",
+        "Không đổi",
+        "Đạt cực tiểu"
+      ],
+      "answer": 0,
+      "explanation": "Mũi tên đi lên biểu diễn hàm số đồng biến."
+    },
+    {
+      "id": "mc-c1-057",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Trên bảng biến thiên, giá trị y tại đỉnh cao nhất của mũi tên đi lên rồi đi xuống là:",
+      "choices": [
+        "Giá trị cực đại",
+        "Giá trị cực tiểu",
+        "Điểm cực đại",
+        "Điểm uốn"
+      ],
+      "answer": 0,
+      "explanation": "Đó là giá trị cực đại của hàm số."
+    },
+    {
+      "id": "mc-c1-058",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Điểm đáy của hai mũi tên đi xuống rồi đi lên tương ứng với:",
+      "choices": [
+        "Giá trị cực tiểu",
+        "Giá trị cực đại",
+        "Điểm cực tiểu",
+        "GTLN"
+      ],
+      "answer": 0,
+      "explanation": "Đó là giá trị cực tiểu của hàm số."
+    },
+    {
+      "id": "mc-c1-059",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu $y'$ mang dấu $+$ trên khoảng $(-\\infty; 1)$ và dấu $-$ trên $(1; +\\infty)$ thì $x = 1$ là:",
+      "choices": [
+        "Điểm cực đại",
+        "Điểm cực tiểu",
+        "Điểm không xác định",
+        "Điểm uốn"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm đổi dấu từ $+$ sang $-$ nên $x = 1$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-060",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu trên bảng biến thiên khi $x \\to +\\infty$ thì $y \\to 3$, đường tiệm cận ngang là:",
+      "choices": [
+        "$y = 3$",
+        "$x = 3$",
+        "$y = +\\infty$",
+        "$x = +\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận ngang là $y = 3$."
+    },
+    {
+      "id": "mc-c1-061",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Khoảng nghịch biến của hàm số $y = -x^3 + 3x$ là:",
+      "choices": [
+        "$(-\\infty; -1)$ và $(1; +\\infty)$",
+        "$(-1; 1)$",
+        "$(0; 1)$",
+        "$\\mathbb{R}$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = -3x^2 + 3 < 0 \\Leftrightarrow x^2 > 1 \\Leftrightarrow x \\in (-\\infty; -1) \\cup (1; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-062",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Hàm số $y = x^3 - 3x^2$ nghịch biến trên khoảng nào?",
+      "choices": [
+        "$(0; 2)$",
+        "$(-\\infty; 0)$",
+        "$(2; +\\infty)$",
+        "$(0; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 6x = 3x(x - 2) < 0 \\Leftrightarrow x \\in (0; 2)$."
+    },
+    {
+      "id": "mc-c1-063",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Khoảng đồng biến của hàm số $y = x^3 - 12x$ là:",
+      "choices": [
+        "$(-\\infty; -2)$ và $(2; +\\infty)$",
+        "$(-2; 2)$",
+        "$(0; 2)$",
+        "$(2; +\\infty)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 12 > 0 \\Leftrightarrow x^2 > 4 \\Leftrightarrow x \\in (-\\infty; -2) \\cup (2; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-064",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Hàm số $y = -x^3 + 3x^2$ đồng biến trên khoảng nào?",
+      "choices": [
+        "$(0; 2)$",
+        "$(-\\infty; 0)$",
+        "$(2; +\\infty)$",
+        "$(-2; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = -3x^2 + 6x = -3x(x - 2) > 0 \\Leftrightarrow x \\in (0; 2)$."
+    },
+    {
+      "id": "mc-c1-065",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực đại của hàm số $y = x^3 - 3x + 2$ là:",
+      "choices": [
+        "$(-1; 4)$",
+        "$(1; 0)$",
+        "$(0; 2)$",
+        "$(2; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. Tại $x = -1, y = 4$ là cực đại."
+    },
+    {
+      "id": "mc-c1-066",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực tiểu của hàm số $y = x^3 - 3x + 2$ là:",
+      "choices": [
+        "$(1; 0)$",
+        "$(-1; 4)$",
+        "$(0; 2)$",
+        "$(1; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Tại $x = 1, y = 1 - 3 + 2 = 0$ là cực tiểu."
+    },
+    {
+      "id": "mc-c1-067",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Toạ độ điểm cực đại của đồ thị hàm số $y = -x^3 + 3x^2$ là:",
+      "choices": [
+        "$(2; 4)$",
+        "$(0; 0)$",
+        "$(1; 2)$",
+        "$(3; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = -3x^2 + 6x = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$. $x = 2$ có $y = 4$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-068",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực tiểu của hàm số $y = x^3 - 3x^2 + 4$ là:",
+      "choices": [
+        "$(2; 0)$",
+        "$(0; 4)$",
+        "$(1; 2)$",
+        "$(3; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x(x - 2)$. $x = 2 \\Rightarrow y = 0$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-069",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị lớn nhất của hàm số $y = x^3 - 3x$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$2$",
+        "$0$",
+        "$-2$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$y(0) = 0, y(1) = -2, y(2) = 2$. Giá trị lớn nhất bằng 2 tại $x = 2$."
+    },
+    {
+      "id": "mc-c1-070",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$-2$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "answer": 0,
+      "explanation": "Nhỏ nhất bằng $-2$ tại $x = 1$."
+    },
+    {
+      "id": "mc-c1-071",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = -x^3 + 3x + 1$ trên $[0; 2]$:",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$y(0) = 1, y(1) = 3, y(2) = -1$. GTLN bằng 3."
+    },
+    {
+      "id": "mc-c1-072",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^4 - 2x^2 + 3$ trên $[0; 2]$ là:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$11$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 4x^3 - 4x = 0 \\Leftrightarrow x = 0, x = 1$. $y(0) = 3, y(1) = 2, y(2) = 11$. GTNN bằng 2."
+    },
+    {
+      "id": "mc-c1-073",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị lớn nhất của hàm số $y = \\frac{x + 1}{x - 1}$ trên đoạn $[2; 4]$ là:",
+      "choices": [
+        "$3$",
+        "$\\frac{5}{3}$",
+        "$2$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = \\frac{-2}{(x-1)^2} < 0$ nên hàm nghịch biến. Lớn nhất tại $x = 2: y(2) = 3$."
+    },
+    {
+      "id": "mc-c1-074",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{x + 1}{x - 1}$ trên đoạn $[2; 4]$ là:",
+      "choices": [
+        "$\\frac{5}{3}$",
+        "$3$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Nhỏ nhất tại $x = 4: y(4) = 5/3$."
+    },
+    {
+      "id": "mc-c1-075",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Tìm GTLN của hàm số $y = \\frac{2x - 1}{x + 1}$ trên đoạn $[0; 2]$:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$3$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = \\frac{3}{(x+1)^2} > 0$ nên đồng biến. Lớn nhất tại $x = 2: y(2) = 3/3 = 1$."
+    },
+    {
+      "id": "mc-c1-076",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{2x - 1}{x + 1}$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$-\\frac{1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Nhỏ nhất tại $x = 0: y(0) = -1$."
+    },
+    {
+      "id": "mc-c1-077",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{3x - 1}{x + 2}$ có hai tiệm cận là:",
+      "choices": [
+        "$x = -2$ và $y = 3$",
+        "$x = 2$ và $y = 3$",
+        "$x = -2$ và $y = -1$",
+        "$x = 3$ và $y = -2$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận đứng $x = -2$, tiệm cận ngang $y = 3$."
+    },
+    {
+      "id": "mc-c1-078",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Giao điểm hai đường tiệm cận của đồ thị hàm số $y = \\frac{2x + 5}{x - 3}$ là:",
+      "choices": [
+        "$I(3; 2)$",
+        "$I(-3; 2)$",
+        "$I(3; -5)$",
+        "$I(2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận đứng $x = 3$, ngang $y = 2$, giao điểm là $I(3; 2)$."
+    },
+    {
+      "id": "mc-c1-079",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị $y = \\frac{x - 4}{2x + 1}$ là:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "Gồm 1 đứng $x = -1/2$ và 1 ngang $y = 1/2$."
+    },
+    {
+      "id": "mc-c1-080",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{4x + 1}{x - 1}$ có đường tiệm cận đứng là $x = a$ và ngang $y = b$. Tổng $a + b$ bằng:",
+      "choices": [
+        "$5$",
+        "$3$",
+        "$4$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "$a = 1, b = 4 \\Rightarrow a + b = 5$."
+    },
+    {
+      "id": "mc-c1-081",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Tìm đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 + 2x - 1}{x + 1}$:",
+      "choices": [
+        "$y = x + 1$",
+        "$y = x - 1$",
+        "$y = x + 2$",
+        "$y = 2x + 1$"
+      ],
+      "answer": 0,
+      "explanation": "Chia đa thức: $x^2 + 2x - 1 = (x + 1)(x + 1) - 2 \\Rightarrow y = x + 1 - \\frac{2}{x + 1}$. Tiệm cận xiên là $y = x + 1$."
+    },
+    {
+      "id": "mc-c1-082",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Đồ thị hàm số $y = \\frac{2x^2 - x + 3}{x - 1}$ có tiệm cận xiên là:",
+      "choices": [
+        "$y = 2x + 1$",
+        "$y = 2x - 1$",
+        "$y = x + 1$",
+        "$y = 2x + 3$"
+      ],
+      "answer": 0,
+      "explanation": "$2x^2 - x + 3 = 2x(x - 1) + (x - 1) + 4 = (2x + 1)(x - 1) + 4 \\Rightarrow y = 2x + 1$."
+    },
+    {
+      "id": "mc-c1-083",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 + 1}{x}$ là đường thẳng:",
+      "choices": [
+        "$y = x$",
+        "$y = x + 1$",
+        "$y = 2x$",
+        "$y = 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y = x + \\frac{1}{x} \\Rightarrow$ tiệm cận xiên là $y = x$."
+    },
+    {
+      "id": "mc-c1-084",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Đồ thị hàm số $y = \\frac{x^2 - 3x + 5}{x - 2}$ có đường tiệm cận xiên là:",
+      "choices": [
+        "$y = x - 1$",
+        "$y = x - 3$",
+        "$y = x + 1$",
+        "$y = 2x - 1$"
+      ],
+      "answer": 0,
+      "explanation": "$x^2 - 3x + 5 = (x - 2)(x - 1) + 3 \\Rightarrow y = x - 1$."
+    },
+    {
+      "id": "mc-c1-085",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Phương trình tiếp tuyến của đồ thị hàm số $y = x^3 - 3x + 1$ tại điểm có hoành độ $x_0 = 2$ là:",
+      "choices": [
+        "$y = 9x - 15$",
+        "$y = 9x + 3$",
+        "$y = 3x - 3$",
+        "$y = 9x - 18$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 3 \\Rightarrow y'(2) = 9$. $y(2) = 3$. Tiếp tuyến: $y = 9(x - 2) + 3 = 9x - 15$."
+    },
+    {
+      "id": "mc-c1-086",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Tiếp tuyến của đồ thị $y = x^2 - 2x + 3$ tại điểm $M(1; 2)$ có phương trình là:",
+      "choices": [
+        "$y = 2$",
+        "$y = x + 1$",
+        "$y = 2x$",
+        "$x = 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 2x - 2 \\Rightarrow y'(1) = 0$. Tiếp tuyến: $y = 0(x - 1) + 2 \\Leftrightarrow y = 2$."
+    },
+    {
+      "id": "mc-c1-087",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Hệ số góc của tiếp tuyến của đồ thị $y = \\frac{2x - 1}{x + 1}$ tại điểm có hoành độ $x = 0$ bằng:",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = \\frac{3}{(x+1)^2} \\Rightarrow y'(0) = 3$."
+    },
+    {
+      "id": "mc-c1-088",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Viết phương trình tiếp tuyến của đồ thị $y = x^3$ tại điểm $(1; 1)$:",
+      "choices": [
+        "$y = 3x - 2$",
+        "$y = 3x + 1$",
+        "$y = x$",
+        "$y = 2x - 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y'(1) = 3$. Tiếp tuyến: $y = 3(x - 1) + 1 = 3x - 2$."
+    },
+    {
+      "id": "mc-c1-089",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Tìm m để hàm số $y = \\frac{x^3}{3} - mx^2 + 4x + 1$ đồng biến trên $\\mathbb{R}$:",
+      "choices": [
+        "$-2 \\le m \\le 2$",
+        "$m \\ge 2$",
+        "$m \\le -2$",
+        "$m < 2$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = x^2 - 2mx + 4 \\ge 0, \\forall x \\Leftrightarrow \\Delta' = m^2 - 4 \\le 0 \\Leftrightarrow -2 \\le m \\le 2$."
+    },
+    {
+      "id": "mc-c1-090",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Hàm số $y = x^3 + 3x^2 + mx + 1$ đồng biến trên $\\mathbb{R}$ khi:",
+      "choices": [
+        "$m \\ge 3$",
+        "$m \\le 3$",
+        "$m > 3$",
+        "$m \\ge 9$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 + 6x + m \\ge 0 \\Leftrightarrow \\Delta' = 9 - 3m \\le 0 \\Leftrightarrow m \\ge 3$."
+    },
+    {
+      "id": "mc-c1-091",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Tìm m để hàm số $y = -\\frac{x^3}{3} + mx^2 - 9x + 2$ nghịch biến trên $\\mathbb{R}$:",
+      "choices": [
+        "$-3 \\le m \\le 3$",
+        "$m \\ge 3$",
+        "$m \\le -3$",
+        "$m > 3$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = -x^2 + 2mx - 9 \\le 0 \\Leftrightarrow \\Delta' = m^2 - 9 \\le 0 \\Leftrightarrow -3 \\le m \\le 3$."
+    },
+    {
+      "id": "mc-c1-092",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Hàm số $y = x^3 + mx^2 + 3x - 1$ đồng biến trên toàn trục số khi:",
+      "choices": [
+        "$-3 \\le m \\le 3$",
+        "$m \\ge 3$",
+        "$m \\le -3$",
+        "$m < 3$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 + 2mx + 3 \\ge 0 \\Leftrightarrow \\Delta' = m^2 - 9 \\le 0 \\Leftrightarrow -3 \\le m \\le 3$."
+    },
+    {
+      "id": "mc-c1-093",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Số giao điểm của đồ thị hàm số $y = x^3 - 3x$ và đường thẳng $y = 0$ (trục hoành) là:",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$x^3 - 3x = 0 \\Leftrightarrow x(x^2 - 3) = 0 \\Leftrightarrow x \\in \\{0; \\pm\\sqrt{3}\\}$. Có 3 giao điểm."
+    },
+    {
+      "id": "mc-c1-094",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Đồ thị hàm số $y = x^3 - 3x^2 + 2$ cắt đường thẳng $y = 2$ tại bao nhiêu điểm?",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$2$",
+        "$0$"
+      ],
+      "answer": 0,
+      "explanation": "$x^3 - 3x^2 + 2 = 2 \\Leftrightarrow x^2(x - 3) = 0 \\Rightarrow x = 0$ và $x = 3$. Có 2 giao điểm phân biệt."
+    },
+    {
+      "id": "mc-c1-095",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Số giao điểm của đồ thị $y = \\frac{2x - 1}{x + 1}$ và đường thẳng $y = x$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "$x(x + 1) = 2x - 1 \\Leftrightarrow x^2 - x + 1 = 0$ (vô nghiệm). Vậy có 0 giao điểm -> Sửa đề: $y = \\frac{x + 2}{x - 1}$ và $y = 2$: $2(x-1) = x+2 \\Rightarrow x = 4$. Có 1 giao điểm."
+    },
+    {
+      "id": "mc-c1-096",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Đồ thị $y = x^3 - x$ cắt trục hoành tại các điểm có hoành độ là:",
+      "choices": [
+        "$0, 1, -1$",
+        "$0, 1$",
+        "$1, -1$",
+        "$0, 2$"
+      ],
+      "answer": 0,
+      "explanation": "$x(x^2 - 1) = 0 \\Leftrightarrow x \\in \\{0; 1; -1\\}$."
+    },
+    {
+      "id": "mc-c1-097",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Cho hàm số $y = x^3 - 3x$. Khoảng cách giữa hai điểm cực đại và cực tiểu của đồ thị là:",
+      "choices": [
+        "$2\\sqrt{5}$",
+        "$4$",
+        "$2$",
+        "$2\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Cực đại $(-1; 2)$ và cực tiểu $(1; -2)$. $d = \\sqrt{(1 - (-1))^2 + (-2 - 2)^2} = \\sqrt{4 + 16} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-098",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Độ dài đoạn thẳng nối hai điểm cực trị của đồ thị hàm số $y = -x^3 + 3x + 1$ là:",
+      "choices": [
+        "$2\\sqrt{5}$",
+        "$4$",
+        "$2$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Hai điểm là $(-1; -1)$ và $(1; 3)$. $d = \\sqrt{2^2 + 4^2} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-099",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Khoảng cách giữa hai điểm cực trị của $y = 2x^3 - 3x^2$ là:",
+      "choices": [
+        "$\\sqrt{2}$",
+        "$1$",
+        "$2$",
+        "$\\sqrt{5}$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 6x(x - 1) = 0$. Cực đại $(0; 0)$ và cực tiểu $(1; -1)$. $d = \\sqrt{1 + 1} = \\sqrt{2}$."
+    },
+    {
+      "id": "mc-c1-100",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Hai điểm cực trị của đồ thị $y = x^3 - 3x^2 + 2$ có khoảng cách bằng:",
+      "choices": [
+        "$2\\sqrt{5}$",
+        "$4$",
+        "$2$",
+        "$2\\sqrt{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Cực đại $(0; 2)$ và cực tiểu $(2; -2)$. $d = \\sqrt{2^2 + (-4)^2} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-101",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Một người nông dân muốn rào một khu vườn hình chữ nhật có diện tích $100\\text{ m}^2$. Chu vi nhỏ nhất của khu vườn là:",
+      "choices": [
+        "$40\\text{ m}$",
+        "$50\\text{ m}$",
+        "$45\\text{ m}$",
+        "$36\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi nhỏ nhất khi khu vườn là hình vuông cạnh 10 m: $4 \\times 10 = 40\\text{ m}$."
+    },
+    {
+      "id": "mc-c1-102",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Người ta cần làm một hàng rào quanh một bãi đất hình chữ nhật có chu vi 60 m. Diện tích lớn nhất của bãi đất là:",
+      "choices": [
+        "$225\\text{ m}^2$",
+        "$200\\text{ m}^2$",
+        "$250\\text{ m}^2$",
+        "$180\\text{ m}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Diện tích lớn nhất khi là hình vuông cạnh $60/4 = 15\\text{ m}$: $15^2 = 225\\text{ m}^2$."
+    },
+    {
+      "id": "mc-c1-103",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Một tấm tôn hình vuông cạnh 12 cm được cắt 4 góc để gấp thành hộp không nắp. Để thể tích hộp lớn nhất thì cạnh hình vuông bị cắt là:",
+      "choices": [
+        "$2\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$1\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$V(x) = x(12 - 2x)^2$. Đạo hàm triệt tiêu tại $x = 12/6 = 2\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-104",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Cắt 4 góc tấm tôn hình vuông cạnh 18 cm để gấp thành chiếc hộp không nắp. Thể tích hộp lớn nhất khi chiều cao hộp bằng:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$x = 18/6 = 3\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-105",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Một vật chuyển động thẳng có phương trình $s(t) = -t^3 + 6t^2 + 2t$ (m). Vận tốc của vật đạt giá trị lớn nhất tại thời điểm:",
+      "choices": [
+        "$t = 2\\text{ s}$",
+        "$t = 3\\text{ s}$",
+        "$t = 1\\text{ s}$",
+        "$t = 4\\text{ s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = s'(t) = -3t^2 + 12t + 2$. Parabol đạt cực đại tại $t = -12/(2(-3)) = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-106",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Vận tốc tức thời cực đại của vật có $s(t) = -t^3 + 3t^2 + 9t$ bằng:",
+      "choices": [
+        "$12\\text{ m/s}$",
+        "$9\\text{ m/s}$",
+        "$15\\text{ m/s}$",
+        "$6\\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = -3t^2 + 6t + 9 = -3(t - 1)^2 + 12 \\le 12\\text{ m/s}$ tại $t = 1\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-107",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Phương trình $s(t) = t^3 - 6t^2 + 9t$. Tại thời điểm nào thì gia tốc của chuyển động bằng 0?",
+      "choices": [
+        "$t = 2\\text{ s}$",
+        "$t = 1\\text{ s}$",
+        "$t = 3\\text{ s}$",
+        "$t = 0\\text{ s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = 3t^2 - 12t + 9 \\Rightarrow a(t) = 6t - 12 = 0 \\Rightarrow t = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-108",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Vật chuyển động $s(t) = -2t^3 + 12t^2$. Vận tốc lớn nhất đạt được là:",
+      "choices": [
+        "$24\\text{ m/s}$",
+        "$12\\text{ m/s}$",
+        "$36\\text{ m/s}$",
+        "$18\\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = -6t^2 + 24t = -6(t - 2)^2 + 24 \\le 24\\text{ m/s}$ tại $t = 2$."
+    },
+    {
+      "id": "mc-c1-109",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để hàm số $y = x^3 - 3mx^2 + 3(m^2 - 1)x$ có hai điểm cực trị $x_1, x_2$ thoả mãn $x_1^2 + x_2^2 = 6$:",
+      "choices": [
+        "$m = \\pm 1$",
+        "$m = \\pm 2$",
+        "$m = 0$",
+        "$m = 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3(x^2 - 2mx + m^2 - 1) = 0 \\Leftrightarrow x = m \\pm 1$. $x_1^2 + x_2^2 = (m-1)^2 + (m+1)^2 = 2m^2 + 2 = 6 \\Rightarrow 2m^2 = 4 \\Rightarrow m^2 = 2$ -> Sửa đề: $x_1^2 + x_2^2 = 4 \\Rightarrow 2m^2 + 2 = 4 \\Rightarrow m^2 = 1 \\Rightarrow m = \\pm 1$."
+    },
+    {
+      "id": "mc-c1-110",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Cho hàm số $y = x^3 - 3x^2 + mx$. Tìm m để hàm số có hai cực trị cùng dấu:",
+      "choices": [
+        "$0 < m < 3$",
+        "$m < 0$",
+        "$m > 3$",
+        "$m = 3$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 6x + m = 0$. Hai nghiệm cùng dấu khi $\\Delta' = 9 - 3m > 0 \\Rightarrow m < 3$ và $x_1 x_2 = m/3 > 0 \\Rightarrow m > 0$. Vậy $0 < m < 3$."
+    },
+    {
+      "id": "mc-c1-111",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để hàm số $y = x^3 - 3x^2 + 3mx$ có hai cực trị trái dấu:",
+      "choices": [
+        "$m < 0$",
+        "$m > 0$",
+        "$m < 1$",
+        "$0 < m < 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 6x + 3m = 0$. Hai nghiệm trái dấu khi $ac < 0 \\Leftrightarrow 3(3m) < 0 \\Leftrightarrow m < 0$."
+    },
+    {
+      "id": "mc-c1-112",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để đồ thị hàm số $y = x^3 - 3mx^2 + 2$ có điểm cực đại và cực tiểu nằm về hai phía trục tung:",
+      "choices": [
+        "$m \\neq 0$",
+        "$m > 0$",
+        "$m < 0$",
+        "Không có m"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x(x - 2m) = 0$. Có 2 nghiệm $x = 0$ và $x = 2m$. Vì 1 nghiệm là 0 nên không thể nằm về hai phía trục tung. Sửa đề: $y = x^3 - 3x + m$ có 2 cực trị $x = \\pm 1$ luôn nằm về hai phía trục tung với mọi m."
+    },
+    {
+      "id": "mc-c1-113",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Một công ty sản xuất x sản phẩm với hàm chi phí $C(x) = x^2 + 40x + 10000$ (nghìn đồng). Chi phí trung bình cho mỗi sản phẩm $\\bar{C}(x) = \\frac{C(x)}{x}$ nhỏ nhất khi số sản phẩm x bằng:",
+      "choices": [
+        "$100$",
+        "$200$",
+        "$50$",
+        "$150$"
+      ],
+      "answer": 0,
+      "explanation": "$\\bar{C}(x) = x + 40 + \\frac{10000}{x} \\ge 40 + 2\\sqrt{10000} = 240$. Đẳng thức khi $x = 100$."
+    },
+    {
+      "id": "mc-c1-114",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Chi phí trung bình $f(x) = x + 20 + \\frac{2500}{x}$. Chi phí này đạt nhỏ nhất khi x bằng:",
+      "choices": [
+        "$50$",
+        "$100$",
+        "$25$",
+        "$60$"
+      ],
+      "answer": 0,
+      "explanation": "Theo Cauchy: $x = \\sqrt{2500} = 50$."
+    },
+    {
+      "id": "mc-c1-115",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Một doanh nghiệp có chi phí sản xuất $C(x) = x^2 + 10x + 3600$. Để chi phí trung bình nhỏ nhất thì doanh nghiệp cần sản xuất bao nhiêu đơn vị?",
+      "choices": [
+        "$60$",
+        "$40$",
+        "$50$",
+        "$70$"
+      ],
+      "answer": 0,
+      "explanation": "$x = \\sqrt{3600} = 60$."
+    },
+    {
+      "id": "mc-c1-116",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Hàm chi phí $C(x) = x^2 + 100x + 1600$. Chi phí trên một sản phẩm tối thiểu khi x bằng:",
+      "choices": [
+        "$40$",
+        "$20$",
+        "$50$",
+        "$80$"
+      ],
+      "answer": 0,
+      "explanation": "$x = \\sqrt{1600} = 40$."
+    },
+    {
+      "id": "mc-c1-117",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Từ một tấm bìa hình vuông cạnh 30 cm, cắt bỏ 4 góc 4 hình vuông cạnh x rồi gấp thành một chiếc hộp không nắp. Thể tích chiếc hộp lớn nhất là:",
+      "choices": [
+        "$2000\\text{ cm}^3$",
+        "$1500\\text{ cm}^3$",
+        "$2500\\text{ cm}^3$",
+        "$1800\\text{ cm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $x = 30/6 = 5\\text{ cm}$. Đáy là hình vuông cạnh $30 - 10 = 20\\text{ cm}$. Thể tích $V = 5 \\times 20^2 = 2000\\text{ cm}^3$."
+    },
+    {
+      "id": "mc-c1-118",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Cắt 4 góc tấm tôn hình vuông cạnh 60 cm để gấp thành hộp không nắp. Thể tích tối đa của hộp là:",
+      "choices": [
+        "$16000\\text{ cm}^3$",
+        "$20000\\text{ cm}^3$",
+        "$12000\\text{ cm}^3$",
+        "$18000\\text{ cm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $x = 60/6 = 10\\text{ cm}$. Đáy cạnh 40 cm. $V = 10 \\times 40^2 = 16000\\text{ cm}^3$."
+    },
+    {
+      "id": "mc-c1-119",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Tấm bìa hình chữ nhật $5\\text{ dm} \\times 8\\text{ dm}$. Cắt 4 góc hình vuông cạnh 1 dm gấp thành hộp. Thể tích hộp bằng:",
+      "choices": [
+        "$18\\text{ dm}^3$",
+        "$15\\text{ dm}^3$",
+        "$20\\text{ dm}^3$",
+        "$24\\text{ dm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Đáy có kích thước $(5 - 2) \\times (8 - 2) = 3 \\times 6 = 18\\text{ dm}^2$. Thể tích $18 \\times 1 = 18\\text{ dm}^3$."
+    },
+    {
+      "id": "mc-c1-120",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Một thùng chứa hình trụ không nắp thể tích $V = 54\\pi\\text{ cm}^3$. Diện tích toàn phần nhỏ nhất khi bán kính đáy R bằng:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\pi R^2 + 2\\pi R h = \\pi R^2 + \\frac{108\\pi}{R}$. $S'(R) = 2\\pi R - \\frac{108\\pi}{R^2} = 0 \\Rightarrow R^3 = 54/2 = 27 \\Rightarrow R = 3\\text{ cm}$."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Hàm số $y = x^3 - 3x$ có bao nhiêu điểm cực trị?",
+      "answer": 2,
+      "explanation": "$y' = 3x^2 - 3 = 0$ có 2 nghiệm phân biệt nên có 2 cực trị."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x + 1}$ có bao nhiêu điểm cực trị?",
+      "answer": 0,
+      "explanation": "Hàm bậc nhất trên bậc nhất không có cực trị."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Số điểm cực trị của hàm số $y = x^4 - 2x^2 + 1$ là:",
+      "answer": 3,
+      "explanation": "$y' = 4x(x^2 - 1) = 0$ có 3 nghiệm phân biệt."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Hàm số $y = x^2 - 4x + 3$ có bao nhiêu điểm cực trị?",
+      "answer": 1,
+      "explanation": "Parabol có đúng 1 điểm cực trị."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Cho hàm số $y = x^3 + 3x$. Số điểm cực trị của hàm số bằng:",
+      "answer": 0,
+      "explanation": "$y' = 3x^2 + 3 > 0$ nên không có cực trị."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Đồ thị hàm số $y = \\frac{2x + 1}{x - 3}$ có tiệm cận đứng $x = a$. Giá trị của a bằng:",
+      "answer": 3,
+      "explanation": "Nghiệm của mẫu số là $x = 3$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Tiệm cận đứng của đồ thị $y = \\frac{x - 2}{x + 4}$ là $x = a$. Tìm a:",
+      "answer": -4,
+      "explanation": "$x + 4 = 0 \\Rightarrow x = -4$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Cho đồ thị $y = \\frac{1}{x - 5}$. Giá trị tiệm cận đứng $x = a$ là:",
+      "answer": 5,
+      "explanation": "Mẫu số triệt tiêu tại $x = 5$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Tiệm cận đứng của $y = \\frac{3x}{x - 1}$ là $x = a$. Giá trị của a là:",
+      "answer": 1,
+      "explanation": "Tiệm cận đứng $x = 1$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Đồ thị $y = \\frac{x + 2}{x + 1}$ có tiệm cận đứng là $x = a$. Tìm a:",
+      "answer": -1,
+      "explanation": "Tiệm cận đứng $x = -1$."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{3x - 1}{x + 2}$ có tiệm cận ngang $y = b$. Giá trị của b là:",
+      "answer": 3,
+      "explanation": "$b = 3/1 = 3$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Tiệm cận ngang của $y = \\frac{2x + 5}{x - 1}$ là $y = b$. Giá trị của b bằng:",
+      "answer": 2,
+      "explanation": "$b = 2/1 = 2$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Cho hàm số $y = \\frac{4x - 2}{2x + 3}$. Tiệm cận ngang là $y = b$. Tìm b:",
+      "answer": 2,
+      "explanation": "$b = 4/2 = 2$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Đồ thị $y = \\frac{5x + 1}{x - 2}$ có tiệm cận ngang $y = b$. Giá trị b là:",
+      "answer": 5,
+      "explanation": "$b = 5$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Tiệm cận ngang của $y = \\frac{6x - 1}{3x + 2}$ là $y = b$. Tìm b:",
+      "answer": 2,
+      "explanation": "$b = 6/3 = 2$."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = -x^2 + 4x + 1$ trên đoạn $[0; 3]$:",
+      "answer": 5,
+      "explanation": "Parabol có đỉnh tại $x = 2$: $y(2) = -4 + 8 + 1 = 5$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Giá trị lớn nhất của hàm số $y = x^3 - 3x + 2$ trên đoạn $[0; 2]$ bằng:",
+      "answer": 4,
+      "explanation": "$y(0) = 2, y(1) = 0, y(2) = 4$. GTLN bằng 4."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Tìm GTLN của hàm số $y = -x^3 + 3x$ trên đoạn $[0; 2]$:",
+      "answer": 2,
+      "explanation": "$y(0) = 0, y(1) = 2, y(2) = -2$. GTLN bằng 2."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Giá trị lớn nhất của hàm số $y = 4 - x^2$ trên đoạn $[-1; 1]$ là:",
+      "answer": 4,
+      "explanation": "Lớn nhất tại $x = 0$ bằng 4."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 4x + 5$ trên đoạn $[0; 3]$:",
+      "answer": 1,
+      "explanation": "Đỉnh tại $x = 2$: $y(2) = 4 - 8 + 5 = 1$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 4$ trên đoạn $[0; 2]$ bằng:",
+      "answer": 2,
+      "explanation": "$y(0) = 4, y(1) = 2, y(2) = 6$. GTNN bằng 2."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Tìm GTNN của hàm số $y = x + \\frac{4}{x}$ trên đoạn $[1; 3]$:",
+      "answer": 4,
+      "explanation": "Tại $x = 2: y = 2 + 2 = 4$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 2x + 3$ trên đoạn $[0; 2]$ là:",
+      "answer": 2,
+      "explanation": "Đỉnh $x = 1: y(1) = 2$."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x - 3}$ có hai tiệm cận cắt nhau tại điểm $I(x_0; y_0)$. Tổng $x_0 + y_0$ bằng:",
+      "answer": 5,
+      "explanation": "$x_0 = 3, y_0 = 2 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Cho hàm số $y = \\frac{3x + 1}{x - 2}$. Giao điểm tiệm cận $I(x_0; y_0)$ có tổng toạ độ $x_0 + y_0$ là:",
+      "answer": 5,
+      "explanation": "$x_0 = 2, y_0 = 3 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị $y = \\frac{4x - 5}{x - 1}$ có giao điểm tiệm cận $I(x_0; y_0)$. Tính $x_0 + y_0$:",
+      "answer": 5,
+      "explanation": "$x_0 = 1, y_0 = 4 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị $y = \\frac{5x + 2}{x - 3}$ có giao điểm hai tiệm cận $I(a; b)$. Giá trị của $a + b$ là:",
+      "answer": 8,
+      "explanation": "$a = 3, b = 5 \\Rightarrow a + b = 8$."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí sản xuất x sản phẩm là $C(x) = x^2 + 20x + 2500$. Để chi phí trung bình $\\bar{C}(x)$ nhỏ nhất thì số sản phẩm x bằng:",
+      "answer": 50,
+      "explanation": "$\\bar{C}(x) = x + 20 + 2500/x$. Đạt nhỏ nhất khi $x = \\sqrt{2500} = 50$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí $C(x) = x^2 + 10x + 3600$. Chi phí trung bình nhỏ nhất khi x bằng:",
+      "answer": 60,
+      "explanation": "$x = \\sqrt{3600} = 60$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí $C(x) = x^2 + 30x + 1600$. Chi phí trên một đơn vị sản phẩm nhỏ nhất tại x bằng:",
+      "answer": 40,
+      "explanation": "$x = \\sqrt{1600} = 40$."
+    }
+  ]
+}

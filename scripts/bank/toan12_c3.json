@@ -1,0 +1,2240 @@
+{
+  "sgk_chapter_title": "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
+  "sgk_lessons": [
+    {
+      "lesson_id": "b9",
+      "sgk_title": "Bài 9. Khoảng biến thiên và khoảng tứ phân vị"
+    },
+    {
+      "lesson_id": "b10",
+      "sgk_title": "Bài 10. Phương sai và độ lệch chuẩn"
+    }
+  ],
+  "sources": [
+    "Biên soạn theo chương trình GDPT 2018 SGK Kết nối tri thức"
+  ],
+  "mc": [
+    {
+      "id": "mc-c3-001",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Khoảng biến thiên R của mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "Hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên",
+        "Hiệu giữa hai tứ phân vị $Q_3 - Q_1$",
+        "Giá trị lớn nhất trừ giá trị nhỏ nhất của tần số",
+        "Tổng các độ dài nhóm"
+      ],
+      "answer": 0,
+      "explanation": "$R = a_{k+1} - a_1$."
+    },
+    {
+      "id": "mc-c3-002",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Mẫu số liệu ghép nhóm từ $[10; 20)$ đến $[50; 60)$. Khoảng biến thiên R bằng:",
+      "choices": [
+        "$50$",
+        "$40$",
+        "$60$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 60 - 10 = 50$."
+    },
+    {
+      "id": "mc-c3-003",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Ý nghĩa của khoảng biến thiên R trong thống kê là:",
+      "choices": [
+        "Đo độ biến thiên giữa giá trị lớn nhất và nhỏ nhất của mẫu",
+        "Đo độ phân tán của 50% số liệu trung tâm",
+        "Đại diện cho xu thế trung tâm",
+        "Xác định mốt của mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng biến thiên phản ánh độ dàn trải toàn bộ của dữ liệu."
+    },
+    {
+      "id": "mc-c3-004",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Khoảng biến thiên của mẫu số liệu có các nhóm $[0; 5), [5; 10), [10; 15)$ là:",
+      "choices": [
+        "$15$",
+        "$5$",
+        "$10$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 15 - 0 = 15$."
+    },
+    {
+      "id": "mc-c3-005",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Cho các nhóm $[20; 30), [30; 40), [40; 50), [50; 60)$. Giá trị của R là:",
+      "choices": [
+        "$40$",
+        "$30$",
+        "$50$",
+        "$60$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 60 - 20 = 40$."
+    },
+    {
+      "id": "mc-c3-006",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ của mẫu số liệu ghép nhóm được tính bởi:",
+      "choices": [
+        "$\\Delta_Q = Q_3 - Q_1$",
+        "$\\Delta_Q = Q_3 - Q_2$",
+        "$\\Delta_Q = Q_2 - Q_1$",
+        "$\\Delta_Q = \\frac{Q_3 - Q_1}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa khoảng tứ phân vị: $\\Delta_Q = Q_3 - Q_1$."
+    },
+    {
+      "id": "mc-c3-007",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Khoảng tứ phân vị phản ánh mức độ phân tán của bao nhiêu phần trăm dữ liệu ở trung tâm?",
+      "choices": [
+        "$50\\%$",
+        "$25\\%$",
+        "$75\\%$",
+        "$100\\%$"
+      ],
+      "answer": 0,
+      "explanation": "Nằm giữa $Q_1$ và $Q_3$ chứa 50% số liệu trung tâm."
+    },
+    {
+      "id": "mc-c3-008",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Ưu điểm chính của khoảng tứ phân vị so với khoảng biến thiên là:",
+      "choices": [
+        "Không bị ảnh hưởng bởi các giá trị bất thường (ngoại lai)",
+        "Dễ tính hơn",
+        "Luôn là số nguyên",
+        "Bằng phương sai"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng tứ phân vị loại trừ 25% đầu và 25% cuối nên không bị méo bởi ngoại lai."
+    },
+    {
+      "id": "mc-c3-009",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Nếu $Q_1 = 12$ và $Q_3 = 28$ thì khoảng tứ phân vị $\\Delta_Q$ bằng:",
+      "choices": [
+        "$16$",
+        "$20$",
+        "$14$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 28 - 12 = 16$."
+    },
+    {
+      "id": "mc-c3-010",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Một mẫu có $Q_1 = 40$ và $Q_3 = 65$. Giá trị của $\\Delta_Q$ là:",
+      "choices": [
+        "$25$",
+        "$30$",
+        "$20$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 65 - 40 = 25$."
+    },
+    {
+      "id": "mc-c3-011",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Giá trị x trong mẫu được coi là giá trị ngoại lai (bất thường) nếu:",
+      "choices": [
+        "$x < Q_1 - 1,5\\Delta_Q$ hoặc $x > Q_3 + 1,5\\Delta_Q$",
+        "$x < Q_1$ hoặc $x > Q_3$",
+        "$x = \\bar{x}$",
+        "$x < 0$"
+      ],
+      "answer": 0,
+      "explanation": "Tiêu chuẩn xác định giá trị ngoại lai bằng tứ phân vị."
+    },
+    {
+      "id": "mc-c3-012",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Khoảng xác định các giá trị không phải là ngoại lai là:",
+      "choices": [
+        "$[Q_1 - 1,5\\Delta_Q; Q_3 + 1,5\\Delta_Q]$",
+        "$[Q_1; Q_3]$",
+        "$[0; +\\infty)$",
+        "$[\\bar{x} - s; \\bar{x} + s]$"
+      ],
+      "answer": 0,
+      "explanation": "Bao gồm đoạn từ $Q_1 - 1,5\\Delta_Q$ đến $Q_3 + 1,5\\Delta_Q$."
+    },
+    {
+      "id": "mc-c3-013",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Nếu $Q_1 = 10, Q_3 = 20 \\Rightarrow \\Delta_Q = 10$. Ranh giới trên của giá trị ngoại lai là:",
+      "choices": [
+        "$35$",
+        "$30$",
+        "$25$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3 + 1,5\\Delta_Q = 20 + 15 = 35$."
+    },
+    {
+      "id": "mc-c3-014",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Ranh giới dưới để xác định ngoại lai với $Q_1 = 10, \\Delta_Q = 10$ là:",
+      "choices": [
+        "$-5$",
+        "$0$",
+        "$5$",
+        "$-10$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 - 1,5\\Delta_Q = 10 - 15 = -5$."
+    },
+    {
+      "id": "mc-c3-015",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Giá trị ngoại lai phản ánh:",
+      "choices": [
+        "Các giá trị quá lớn hoặc quá nhỏ bất thường",
+        "Giá trị trung bình",
+        "Trung vị",
+        "Tần số lớn nhất"
+      ],
+      "answer": 0,
+      "explanation": "Là những quan sát dị thường lệch xa khỏi quần thể dữ liệu."
+    },
+    {
+      "id": "mc-c3-016",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Phương sai của mẫu số liệu ghép nhóm là đại lượng dùng để đo:",
+      "choices": [
+        "Mức độ phân tán của các số liệu xung quanh số trung bình",
+        "Xu thế trung tâm",
+        "Giá trị lớn nhất của mẫu",
+        "Độ dài của nhóm"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai đo độ phân tán bình phương xung quanh $\\bar{x}$."
+    },
+    {
+      "id": "mc-c3-017",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Kí hiệu của phương sai mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "$s^2$",
+        "$s$",
+        "$\\bar{x}$",
+        "$R$"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai kí hiệu là $s^2$."
+    },
+    {
+      "id": "mc-c3-018",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Phương sai $s^2$ có giá trị luôn:",
+      "choices": [
+        "Không âm ($s^2 \\ge 0$)",
+        "Dương ($s^2 > 0$)",
+        "Có thể âm",
+        "Bằng 0 với mọi mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Là trung bình của các bình phương nên $s^2 \\ge 0$."
+    },
+    {
+      "id": "mc-c3-019",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Khi tất cả các số liệu trong mẫu đều bằng nhau thì phương sai bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Không có sự phân tán nên $s^2 = 0$."
+    },
+    {
+      "id": "mc-c3-020",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Công thức tính phương sai $s^2$ theo giá trị đại diện $c_i$ là:",
+      "choices": [
+        "$s^2 = \\frac{1}{n} \\sum m_i c_i^2 - (\\bar{x})^2$",
+        "$s^2 = \\frac{1}{n} \\sum m_i c_i - \\bar{x}$",
+        "$s^2 = \\sqrt{\\frac{1}{n} \\sum m_i c_i^2}$",
+        "$s^2 = (\\bar{x})^2$"
+      ],
+      "answer": 0,
+      "explanation": "$s^2 = \\frac{1}{n} \\sum m_i c_i^2 - (\\bar{x})^2$."
+    },
+    {
+      "id": "mc-c3-021",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Độ lệch chuẩn s của mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "Căn bậc hai số học của phương sai: $s = \\sqrt{s^2}$",
+        "Bình phương của phương sai: $s = (s^2)^2$",
+        "Nghịch đảo của phương sai",
+        "Khoảng biến thiên chia đôi"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{s^2}$."
+    },
+    {
+      "id": "mc-c3-022",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Ưu điểm lớn nhất của độ lệch chuẩn so với phương sai là:",
+      "choices": [
+        "Có cùng đơn vị đo với dấu hiệu đang nghiên cứu",
+        "Luôn là số nguyên",
+        "Dễ tính nhẩm hơn",
+        "Không phụ thuộc vào cỡ mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn có cùng đơn vị với biến số (mét, kg, điểm...) giúp dễ giải thích thực tế."
+    },
+    {
+      "id": "mc-c3-023",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Kí hiệu của độ lệch chuẩn mẫu là:",
+      "choices": [
+        "$s$",
+        "$s^2$",
+        "$\\sigma^2$",
+        "$\\Delta_Q$"
+      ],
+      "answer": 0,
+      "explanation": "Kí hiệu là s."
+    },
+    {
+      "id": "mc-c3-024",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Nếu phương sai $s^2 = 16$ thì độ lệch chuẩn s bằng:",
+      "choices": [
+        "$4$",
+        "$8$",
+        "$256$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{16} = 4$."
+    },
+    {
+      "id": "mc-c3-025",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Cho độ lệch chuẩn $s = 5$. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$25$",
+        "$10$",
+        "$\\sqrt{5}$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explanation": "$s^2 = 5^2 = 25$."
+    },
+    {
+      "id": "mc-c3-026",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Hai lớp có cùng điểm trung bình môn Toán. Lớp nào có độ lệch chuẩn nhỏ hơn thì:",
+      "choices": [
+        "Điểm số của học sinh đồng đều hơn",
+        "Điểm số phân tán nhiều hơn",
+        "Có nhiều học sinh giỏi hơn",
+        "Có điểm trung bình cao hơn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ hơn thể hiện dữ liệu tập trung hơn, đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-027",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Trong đầu tư tài chính, cổ phiếu có độ lệch chuẩn của tỉ suất sinh lời lớn hơn thể hiện:",
+      "choices": [
+        "Mức độ rủi ro cao hơn (biến động lớn hơn)",
+        "Độ an toàn cao hơn",
+        "Lợi nhuận chắc chắn cao hơn",
+        "Không có rủi ro"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn đo lường mức độ biến động (rủi ro)."
+    },
+    {
+      "id": "mc-c3-028",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Hai máy tiện chi tiết: Máy A có $s = 0,1\\text{ mm}$, máy B có $s = 0,3\\text{ mm}$. Máy nào hoạt động ổn định hơn?",
+      "choices": [
+        "Máy A ổn định hơn",
+        "Máy B ổn định hơn",
+        "Hai máy như nhau",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "explanation": "Máy A có sai số nhỏ hơn nên chất lượng đồng đều, ổn định hơn."
+    },
+    {
+      "id": "mc-c3-029",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Một xạ thủ có độ lệch chuẩn điểm bắn qua các lần bắn nhỏ thì:",
+      "choices": [
+        "Bắn ổn định, phong độ vững vàng",
+        "Bắn kém chính xác",
+        "Điểm trung bình thấp",
+        "Dễ bắn trúng hồng tâm hơn người khác"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ chứng tỏ phong độ ổn định."
+    },
+    {
+      "id": "mc-c3-030",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Khi hai mẫu số liệu có số trung bình xấp xỉ nhau, để so sánh độ đồng đều ta dùng:",
+      "choices": [
+        "Độ lệch chuẩn hoặc phương sai",
+        "Trung vị",
+        "Mốt",
+        "Cỡ mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Dùng độ lệch chuẩn s để so sánh mức độ phân tán."
+    },
+    {
+      "id": "mc-c3-031",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu mẫu số liệu khảo sát về chiều cao tính bằng centimét (cm) thì đơn vị của phương sai là:",
+      "choices": [
+        "$\\text{cm}^2$",
+        "$\\text{cm}$",
+        "Không có đơn vị",
+        "$\\text{cm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai tính bằng bình phương của đơn vị gốc: $\\text{cm}^2$."
+    },
+    {
+      "id": "mc-c3-032",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu đơn vị của dữ liệu là kilôgam (kg) thì đơn vị của độ lệch chuẩn là:",
+      "choices": [
+        "$\\text{kg}$",
+        "$\\text{kg}^2$",
+        "$\\text{g}$",
+        "Phần trăm"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn có cùng đơn vị với dữ liệu gốc: kg."
+    },
+    {
+      "id": "mc-c3-033",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Đơn vị của khoảng tứ phân vị và khoảng biến thiên là:",
+      "choices": [
+        "Cùng đơn vị với dữ liệu gốc",
+        "Bình phương đơn vị gốc",
+        "Không có đơn vị",
+        "Phần trăm"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai đều có cùng đơn vị với dữ liệu khảo sát."
+    },
+    {
+      "id": "mc-c3-034",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Đại lượng nào sau đây KHÔNG có cùng đơn vị với dữ liệu gốc?",
+      "choices": [
+        "Phương sai $s^2$",
+        "Độ lệch chuẩn s",
+        "Khoảng biến thiên R",
+        "Khoảng tứ phân vị $\\Delta_Q$"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai có đơn vị bình phương."
+    },
+    {
+      "id": "mc-c3-035",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu đơn vị là 'triệu đồng', đơn vị của phương sai là:",
+      "choices": [
+        "$(\\text{triệu đồng})^2$",
+        "triệu đồng",
+        "nghìn đồng",
+        "tỉ đồng"
+      ],
+      "answer": 0,
+      "explanation": "Đơn vị là $(\\text{triệu đồng})^2$."
+    },
+    {
+      "id": "mc-c3-036",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Trong công thức $s^2 = \\frac{1}{n} \\sum m_i (c_i - \\bar{x})^2$, biểu thức $(c_i - \\bar{x})$ gọi là:",
+      "choices": [
+        "Độ lệch của giá trị đại diện nhóm so với số trung bình",
+        "Khoảng cách nhóm",
+        "Tần số",
+        "Độ lệch chuẩn"
+      ],
+      "answer": 0,
+      "explanation": "Là khoảng cách (độ lệch) từ tâm nhóm đến trung bình."
+    },
+    {
+      "id": "mc-c3-037",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Đại lượng $m_i$ trong công thức phương sai đóng vai trò là:",
+      "choices": [
+        "Trọng số (tần số của nhóm)",
+        "Cỡ mẫu",
+        "Giá trị đại diện",
+        "Số nhóm"
+      ],
+      "answer": 0,
+      "explanation": "$m_i$ là tần số của nhóm tương ứng."
+    },
+    {
+      "id": "mc-c3-038",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu cộng thêm một hằng số c vào tất cả các giá trị của mẫu thì phương sai của mẫu mới:",
+      "choices": [
+        "Không thay đổi",
+        "Tăng thêm c",
+        "Tăng thêm $c^2$",
+        "Gấp c lần"
+      ],
+      "answer": 0,
+      "explanation": "Tịnh tiến dữ liệu không làm thay đổi độ phân tán."
+    },
+    {
+      "id": "mc-c3-039",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu nhân tất cả các giá trị của mẫu với số thực $k > 0$ thì phương sai mới gấp phương sai cũ:",
+      "choices": [
+        "$k^2$ lần",
+        "k lần",
+        "$\\sqrt{k}$ lần",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai gấp $k^2$ lần, độ lệch chuẩn gấp k lần."
+    },
+    {
+      "id": "mc-c3-040",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu nhân tất cả các giá trị với 3 thì độ lệch chuẩn mới gấp độ lệch chuẩn cũ:",
+      "choices": [
+        "$3$ lần",
+        "$9$ lần",
+        "$\\sqrt{3}$ lần",
+        "Không đổi"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn tỉ lệ bậc nhất nên gấp 3 lần."
+    },
+    {
+      "id": "mc-c3-041",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Để tính phương sai nhanh, người ta lập thêm cột trong bảng phân bố là:",
+      "choices": [
+        "$m_i c_i^2$ (tần số nhân bình phương giá trị đại diện)",
+        "$c_i^3$",
+        "$m_i / c_i$",
+        "$c_i - m_i$"
+      ],
+      "answer": 0,
+      "explanation": "Cột $m_i c_i^2$ giúp tính nhanh tổng $\\sum m_i c_i^2$."
+    },
+    {
+      "id": "mc-c3-042",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c_1 = 5, m_1 = 4$. Giá trị tích $m_1 c_1^2$ bằng:",
+      "choices": [
+        "$100$",
+        "$20$",
+        "$50$",
+        "$200$"
+      ],
+      "answer": 0,
+      "explanation": "$4 \\times 5^2 = 4 \\times 25 = 100$."
+    },
+    {
+      "id": "mc-c3-043",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c_2 = 10, m_2 = 3$. Giá trị của $m_2 c_2^2$ là:",
+      "choices": [
+        "$300$",
+        "$30$",
+        "$100$",
+        "$900$"
+      ],
+      "answer": 0,
+      "explanation": "$3 \\times 100 = 300$."
+    },
+    {
+      "id": "mc-c3-044",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Giá trị của $c_3 = 2, m_3 = 5$. Tích $m_3 c_3^2$ bằng:",
+      "choices": [
+        "$20$",
+        "$10$",
+        "$50$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "$5 \\times 4 = 20$."
+    },
+    {
+      "id": "mc-c3-045",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c = 4, m = 2$. Tính $m c^2$:",
+      "choices": [
+        "$32$",
+        "$16$",
+        "$64$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "$2 \\times 16 = 32$."
+    },
+    {
+      "id": "mc-c3-046",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Nhiệt độ trong ngày có nhiệt độ thấp nhất là $20^\\circ\\text{C}$ và cao nhất là $32^\\circ\\text{C}$. Biên độ nhiệt trong ngày (khoảng biến thiên) là:",
+      "choices": [
+        "$12^\\circ\\text{C}$",
+        "$26^\\circ\\text{C}$",
+        "$10^\\circ\\text{C}$",
+        "$15^\\circ\\text{C}$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 32 - 20 = 12^\\circ\\text{C}$."
+    },
+    {
+      "id": "mc-c3-047",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Giá cổ phiếu trong phiên dao động từ 45 nghìn đồng đến 52 nghìn đồng. Khoảng biến thiên là:",
+      "choices": [
+        "$7\\text{ nghìn đồng}$",
+        "$6\\text{ nghìn đồng}$",
+        "$8\\text{ nghìn đồng}$",
+        "$5\\text{ nghìn đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "$52 - 45 = 7$ nghìn đồng."
+    },
+    {
+      "id": "mc-c3-048",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Thời gian giao hàng từ 2 ngày đến 8 ngày. Khoảng biến thiên bằng:",
+      "choices": [
+        "$6\\text{ ngày}$",
+        "$5\\text{ ngày}$",
+        "$8\\text{ ngày}$",
+        "$4\\text{ ngày}$"
+      ],
+      "answer": 0,
+      "explanation": "$8 - 2 = 6$ ngày."
+    },
+    {
+      "id": "mc-c3-049",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Mức lương thấp nhất là 8 triệu, cao nhất là 30 triệu. Khoảng biến thiên mức lương là:",
+      "choices": [
+        "$22\\text{ triệu đồng}$",
+        "$20\\text{ triệu đồng}$",
+        "$15\\text{ triệu đồng}$",
+        "$38\\text{ triệu đồng}$"
+      ],
+      "answer": 0,
+      "explanation": "$30 - 8 = 22$ triệu đồng."
+    },
+    {
+      "id": "mc-c3-050",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Tuổi của các thành viên trong câu lạc bộ từ 15 đến 25 tuổi. Khoảng biến thiên độ tuổi là:",
+      "choices": [
+        "$10\\text{ tuổi}$",
+        "$20\\text{ tuổi}$",
+        "$5\\text{ tuổi}$",
+        "$15\\text{ tuổi}$"
+      ],
+      "answer": 0,
+      "explanation": "$25 - 15 = 10$ tuổi."
+    },
+    {
+      "id": "mc-c3-051",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Tứ phân vị thứ nhất $Q_1$ của mẫu ghép nhóm luôn thoả mãn:",
+      "choices": [
+        "$Q_1 \\le M_e$",
+        "$Q_1 > M_e$",
+        "$Q_1 = Q_3$",
+        "$Q_1 \\ge Q_3$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 \\le Q_2 = M_e \\le Q_3$."
+    },
+    {
+      "id": "mc-c3-052",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Tứ phân vị thứ ba $Q_3$ luôn thoả mãn:",
+      "choices": [
+        "$Q_3 \\ge M_e$",
+        "$Q_3 < M_e$",
+        "$Q_3 \\le Q_1$",
+        "$Q_3 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3$ luôn lớn hơn hoặc bằng trung vị."
+    },
+    {
+      "id": "mc-c3-053",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ luôn là một số:",
+      "choices": [
+        "Không âm ($\\Delta_Q \\ge 0$)",
+        "Âm",
+        "Bằng 0",
+        "Tuỳ ý"
+      ],
+      "answer": 0,
+      "explanation": "Do $Q_3 \\ge Q_1$ nên $\\Delta_Q \\ge 0$."
+    },
+    {
+      "id": "mc-c3-054",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Nếu $Q_1 = M_e = Q_3$ thì khoảng tứ phân vị bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "Không xác định",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = Q_3 - Q_1 = 0$."
+    },
+    {
+      "id": "mc-c3-055",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Trong hộp biểu đồ đoạn thẳng (Boxplot), độ dài của 'hộp' chính là:",
+      "choices": [
+        "Khoảng tứ phân vị $\\Delta_Q$",
+        "Khoảng biến thiên R",
+        "Độ lệch chuẩn",
+        "Phương sai"
+      ],
+      "answer": 0,
+      "explanation": "Chiều dài hộp trong boxplot bằng $Q_3 - Q_1 = \\Delta_Q$."
+    },
+    {
+      "id": "mc-c3-056",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Nếu hai lớp có cùng điểm trung bình nhưng lớp 1 có $s_1 = 1,2$ và lớp 2 có $s_2 = 2,0$ thì:",
+      "choices": [
+        "Lớp 1 học đều hơn lớp 2",
+        "Lớp 2 học đều hơn lớp 1",
+        "Hai lớp đều như nhau",
+        "Lớp 2 có nhiều bạn điểm cao hơn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn của lớp 1 nhỏ hơn nên phân bố điểm đều hơn."
+    },
+    {
+      "id": "mc-c3-057",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Hai quy trình sản xuất có độ lệch chuẩn khối lượng $s_A = 0,5\\text{ g}$ và $s_B = 1,2\\text{ g}$. Quy trình nào có chất lượng đồng đều hơn?",
+      "choices": [
+        "Quy trình A",
+        "Quy trình B",
+        "Cả hai bằng nhau",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Quy trình A có độ lệch chuẩn nhỏ hơn nên đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-058",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Khi đánh giá độ ổn định của máy móc, chỉ số càng nhỏ càng tốt là:",
+      "choices": [
+        "Độ lệch chuẩn",
+        "Số trung bình",
+        "Số nhóm",
+        "Cỡ mẫu"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn càng nhỏ máy hoạt động càng ổn định."
+    },
+    {
+      "id": "mc-c3-059",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Phương sai $s^2 = 0$ khi và chỉ khi:",
+      "choices": [
+        "Tất cả các giá trị quan sát đều bằng nhau",
+        "Cỡ mẫu bằng 0",
+        "Số trung bình bằng 0",
+        "Mốt bằng 0"
+      ],
+      "answer": 0,
+      "explanation": "Tất cả các số liệu đều trùng nhau."
+    },
+    {
+      "id": "mc-c3-060",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Nếu hai nhóm khách hàng có cùng mức chi tiêu trung bình nhưng nhóm 1 có phương sai nhỏ hơn nhóm 2 thì:",
+      "choices": [
+        "Mức chi tiêu của nhóm 1 đồng đều hơn",
+        "Mức chi tiêu của nhóm 2 đồng đều hơn",
+        "Hai nhóm đồng đều như nhau",
+        "Nhóm 2 chi tiêu nhiều hơn"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai nhỏ hơn nghĩa là các số liệu ít phân tán hơn, đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-061",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Bảng số liệu có các nhóm $[0; 10), [10; 20), [20; 30), [30; 40)$. Khoảng biến thiên là:",
+      "choices": [
+        "$40$",
+        "$30$",
+        "$50$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 40 - 0 = 40$."
+    },
+    {
+      "id": "mc-c3-062",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Mẫu số liệu từ $[20; 30)$ đến $[60; 70)$ có khoảng biến thiên R bằng:",
+      "choices": [
+        "$50$",
+        "$40$",
+        "$60$",
+        "$70$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 70 - 20 = 50$."
+    },
+    {
+      "id": "mc-c3-063",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Cho bảng phân bố từ $[15; 25)$ đến $[55; 65)$. Khoảng biến thiên là:",
+      "choices": [
+        "$50$",
+        "$40$",
+        "$45$",
+        "$60$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 65 - 15 = 50$."
+    },
+    {
+      "id": "mc-c3-064",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Các nhóm từ $[50; 60)$ đến $[90; 100)$ có R bằng:",
+      "choices": [
+        "$50$",
+        "$40$",
+        "$60$",
+        "$45$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 100 - 50 = 50$."
+    },
+    {
+      "id": "mc-c3-065",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Cho $Q_1 = 15$ và $Q_3 = 35$. Khoảng tứ phân vị $\\Delta_Q$ bằng:",
+      "choices": [
+        "$20$",
+        "$15$",
+        "$25$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 35 - 15 = 20$."
+    },
+    {
+      "id": "mc-c3-066",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Mẫu số liệu có $Q_1 = 25$ và $Q_3 = 52$. Giá trị $\\Delta_Q$ là:",
+      "choices": [
+        "$27$",
+        "$25$",
+        "$30$",
+        "$22$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 52 - 25 = 27$."
+    },
+    {
+      "id": "mc-c3-067",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Cho $Q_1 = 40$ và $Q_3 = 70$. Tính khoảng tứ phân vị:",
+      "choices": [
+        "$30$",
+        "$40$",
+        "$20$",
+        "$35$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 70 - 40 = 30$."
+    },
+    {
+      "id": "mc-c3-068",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Nếu $Q_1 = 10,5$ và $Q_3 = 30,5$ thì $\\Delta_Q$ bằng:",
+      "choices": [
+        "$20$",
+        "$10$",
+        "$15$",
+        "$25$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 30,5 - 10,5 = 20$."
+    },
+    {
+      "id": "mc-c3-069",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Bảng số liệu có $n = 40$. Nhóm chứa tứ phân vị thứ nhất $Q_1$ tương ứng vị trí tích luỹ:",
+      "choices": [
+        "$10$",
+        "$20$",
+        "$30$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "$n/4 = 40/4 = 10$."
+    },
+    {
+      "id": "mc-c3-070",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cỡ mẫu $n = 60$. Nhóm chứa $Q_1$ ứng với tần số tích luỹ ít nhất:",
+      "choices": [
+        "$15$",
+        "$30$",
+        "$45$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$n/4 = 15$."
+    },
+    {
+      "id": "mc-c3-071",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cho $n = 100$. Tứ phân vị $Q_1$ rơi vào nhóm có tích luỹ ít nhất:",
+      "choices": [
+        "$25$",
+        "$50$",
+        "$75$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$n/4 = 25$."
+    },
+    {
+      "id": "mc-c3-072",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cỡ mẫu $n = 80$. Tần số tích luỹ để xác định $Q_1$ là:",
+      "choices": [
+        "$20$",
+        "$40$",
+        "$60$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$n/4 = 20$."
+    },
+    {
+      "id": "mc-c3-073",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Bảng số liệu có $n = 40$. Nhóm chứa tứ phân vị thứ ba $Q_3$ ứng với tích luỹ:",
+      "choices": [
+        "$30$",
+        "$10$",
+        "$20$",
+        "$35$"
+      ],
+      "answer": 0,
+      "explanation": "$3n/4 = 3(40)/4 = 30$."
+    },
+    {
+      "id": "mc-c3-074",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cỡ mẫu $n = 60$. Nhóm chứa $Q_3$ có tần số tích luỹ tối thiểu:",
+      "choices": [
+        "$45$",
+        "$15$",
+        "$30$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explanation": "$3(60)/4 = 45$."
+    },
+    {
+      "id": "mc-c3-075",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cho $n = 100$. Nhóm chứa $Q_3$ ứng với tích luỹ ít nhất:",
+      "choices": [
+        "$75$",
+        "$25$",
+        "$50$",
+        "$80$"
+      ],
+      "answer": 0,
+      "explanation": "$3n/4 = 75$."
+    },
+    {
+      "id": "mc-c3-076",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cỡ mẫu $n = 80$. Giá trị tích luỹ để tìm $Q_3$ là:",
+      "choices": [
+        "$60$",
+        "$20$",
+        "$40$",
+        "$70$"
+      ],
+      "answer": 0,
+      "explanation": "$3(80)/4 = 60$."
+    },
+    {
+      "id": "mc-c3-077",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_1$ là $[10; 20)$ với $n = 40, C = 6, n_p = 8$. Giá trị $Q_1$ là:",
+      "choices": [
+        "$15$",
+        "$14$",
+        "$16$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 = 10 + \\frac{10-6}{8} \\cdot 10 = 15$."
+    },
+    {
+      "id": "mc-c3-078",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Tính $Q_1$ với nhóm $[20; 30)$, $n = 80, C = 15, n_p = 10$:",
+      "choices": [
+        "$25$",
+        "$24$",
+        "$26$",
+        "$28$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 = 20 + \\frac{20-15}{10} \\cdot 10 = 25$."
+    },
+    {
+      "id": "mc-c3-079",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_1$ là $[0; 10)$ với $n = 40, C = 5, n_p = 10$. Tính $Q_1$:",
+      "choices": [
+        "$5$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 = 0 + \\frac{10-5}{10} \\cdot 10 = 5$."
+    },
+    {
+      "id": "mc-c3-080",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Cho nhóm $[30; 40)$ chứa $Q_1$, $n = 40, C = 8, n_p = 4$. Giá trị $Q_1$ bằng:",
+      "choices": [
+        "$35$",
+        "$32$",
+        "$36$",
+        "$38$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 = 30 + \\frac{10-8}{4} \\cdot 10 = 35$."
+    },
+    {
+      "id": "mc-c3-081",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_3$ là $[30; 40)$ với $n = 40, C = 26, n_q = 8$. Giá trị $Q_3$ là:",
+      "choices": [
+        "$35$",
+        "$34$",
+        "$36$",
+        "$38$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3 = 30 + \\frac{30-26}{8} \\cdot 10 = 35$."
+    },
+    {
+      "id": "mc-c3-082",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Tính $Q_3$ với nhóm $[40; 50)$, $n = 80, C = 55, n_q = 10$:",
+      "choices": [
+        "$45$",
+        "$44$",
+        "$46$",
+        "$48$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3 = 40 + \\frac{60-55}{10} \\cdot 10 = 45$."
+    },
+    {
+      "id": "mc-c3-083",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Cho nhóm $[50; 60)$ chứa $Q_3$, $n = 40, C = 28, n_q = 4$. Tính $Q_3$:",
+      "choices": [
+        "$55$",
+        "$54$",
+        "$56$",
+        "$58$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3 = 50 + \\frac{30-28}{4} \\cdot 10 = 55$."
+    },
+    {
+      "id": "mc-c3-084",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Tính $Q_3$ với nhóm $[20; 30)$, $n = 40, C = 25, n_q = 10$:",
+      "choices": [
+        "$25$",
+        "$24$",
+        "$26$",
+        "$28$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_3 = 20 + \\frac{30-25}{10} \\cdot 10 = 25$."
+    },
+    {
+      "id": "mc-c3-085",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Cho $Q_1 = 20$ và $Q_3 = 40$. Ranh giới trên của giá trị ngoại lai là:",
+      "choices": [
+        "$70$",
+        "$60$",
+        "$80$",
+        "$65$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 20 \\Rightarrow Q_3 + 1,5(20) = 40 + 30 = 70$."
+    },
+    {
+      "id": "mc-c3-086",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Biết $Q_1 = 15, Q_3 = 25$. Ranh giới trên để xác định ngoại lai là:",
+      "choices": [
+        "$40$",
+        "$35$",
+        "$45$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 10 \\Rightarrow 25 + 15 = 40$."
+    },
+    {
+      "id": "mc-c3-087",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Cho $Q_1 = 30, Q_3 = 50$. Ranh giới dưới ngoại lai bằng:",
+      "choices": [
+        "$0$",
+        "$10$",
+        "$-10$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 20 \\Rightarrow 30 - 1,5(20) = 0$."
+    },
+    {
+      "id": "mc-c3-088",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Nếu $Q_1 = 10, Q_3 = 20$. Ranh giới dưới ngoại lai là:",
+      "choices": [
+        "$-5$",
+        "$0$",
+        "$5$",
+        "$-10$"
+      ],
+      "answer": 0,
+      "explanation": "$10 - 1,5(10) = -5$."
+    },
+    {
+      "id": "mc-c3-089",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có cùng tần số. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$25$",
+        "$50$",
+        "$10$",
+        "$100$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 5 và 15, $\\bar{x} = 10 \\Rightarrow s^2 = 25$."
+    },
+    {
+      "id": "mc-c3-090",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Mẫu có hai nhóm $[10; 30)$ và $[30; 50)$ có tần số bằng nhau. Phương sai $s^2$ là:",
+      "choices": [
+        "$100$",
+        "$50$",
+        "$200$",
+        "$25$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 20 và 40, $\\bar{x} = 30 \\Rightarrow s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-091",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có cùng tần số. Phương sai bằng:",
+      "choices": [
+        "$100$",
+        "$50$",
+        "$200$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 30 và 50, $\\bar{x} = 40 \\Rightarrow s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-092",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Cho hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Phương sai $s^2$ là:",
+      "choices": [
+        "$100$",
+        "$50$",
+        "$200$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-093",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$5$",
+        "$25$",
+        "$10$",
+        "$2,5$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mc-c3-094",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Mẫu có hai nhóm $[10; 30)$ và $[30; 50)$ có cùng tần số. Độ lệch chuẩn s là:",
+      "choices": [
+        "$10$",
+        "$100$",
+        "$5$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "mc-c3-095",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Cho phương sai $s^2 = 144$. Độ lệch chuẩn của mẫu bằng:",
+      "choices": [
+        "$12$",
+        "$14$",
+        "$\\sqrt{12}$",
+        "$144$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{144} = 12$."
+    },
+    {
+      "id": "mc-c3-096",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Phương sai của mẫu bằng 81. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$9$",
+        "$81$",
+        "$18$",
+        "$\\sqrt{9}$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{81} = 9$."
+    },
+    {
+      "id": "mc-c3-097",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Lớp A có $s = 1,2$ điểm, lớp B có $s = 1,8$ điểm. Kết luận nào đúng?",
+      "choices": [
+        "Lớp A có điểm số đồng đều hơn lớp B",
+        "Lớp B có điểm số đồng đều hơn lớp A",
+        "Hai lớp đều như nhau",
+        "Lớp B có nhiều bạn giỏi hơn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ hơn nghĩa là độ phân tán nhỏ hơn, điểm đều hơn."
+    },
+    {
+      "id": "mc-c3-098",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Tổ 1 có $s = 0,8$ kg, tổ 2 có $s = 1,5$ kg. Cân nặng của tổ nào đồng đều hơn?",
+      "choices": [
+        "Tổ 1 đồng đều hơn",
+        "Tổ 2 đồng đều hơn",
+        "Hai tổ như nhau",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Tổ 1 có độ lệch chuẩn nhỏ hơn nên đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-099",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Hai vận động viên có cùng điểm bắn trung bình, $s_1 = 0,5$ và $s_2 = 1,0$. Vận động viên nào ổn định hơn?",
+      "choices": [
+        "Vận động viên 1",
+        "Vận động viên 2",
+        "Hai người như nhau",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "explanation": "VĐV 1 có độ lệch chuẩn nhỏ hơn nên bắn ổn định hơn."
+    },
+    {
+      "id": "mc-c3-100",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Quy trình A có $s = 0,2$ mm, quy trình B có $s = 0,6$ mm. Quy trình nào chính xác hơn?",
+      "choices": [
+        "Quy trình A",
+        "Quy trình B",
+        "Cả hai bằng nhau",
+        "Không có cơ sở"
+      ],
+      "answer": 0,
+      "explanation": "Quy trình A có sai số chuẩn nhỏ hơn."
+    },
+    {
+      "id": "mc-c3-101",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Cổ phiếu X có độ lệch chuẩn lợi nhuận $s = 5\\%$, cổ phiếu Y có $s = 12\\%$. Cổ phiếu nào an toàn hơn (ít rủi ro hơn)?",
+      "choices": [
+        "Cổ phiếu X",
+        "Cổ phiếu Y",
+        "Hai cổ phiếu rủi ro như nhau",
+        "Không so sánh được"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ hơn đồng nghĩa với biến động giá thấp hơn, ít rủi ro hơn."
+    },
+    {
+      "id": "mc-c3-102",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Quỹ đầu tư A có $s = 8\\%$, quỹ B có $s = 15\\%$. Quỹ nào biến động mạnh hơn?",
+      "choices": [
+        "Quỹ B",
+        "Quỹ A",
+        "Hai quỹ biến động như nhau",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Quỹ B có độ lệch chuẩn lớn hơn nên biến động mạnh hơn."
+    },
+    {
+      "id": "mc-c3-103",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Để đầu tư an toàn, nhà đầu tư nên chọn danh mục có độ lệch chuẩn:",
+      "choices": [
+        "Nhỏ",
+        "Lớn",
+        "Bằng 0",
+        "Vô hạn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ đại diện cho mức độ biến động thấp."
+    },
+    {
+      "id": "mc-c3-104",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Tỉ suất sinh lời của hai dự án như nhau. Dự án 1 có $s = 3\\%$, dự án 2 có $s = 7\\%$. Dự án nào rủi ro cao hơn?",
+      "choices": [
+        "Dự án 2",
+        "Dự án 1",
+        "Hai dự án rủi ro ngang nhau",
+        "Không có rủi ro"
+      ],
+      "answer": 0,
+      "explanation": "Dự án 2 có độ lệch chuẩn lớn hơn nên rủi ro cao hơn."
+    },
+    {
+      "id": "mc-c3-105",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Trong dây chuyền sản xuất bulông, độ lệch chuẩn kích thước đường kính càng nhỏ thì:",
+      "choices": [
+        "Tỉ lệ phế phẩm càng thấp, chất lượng càng cao",
+        "Tỉ lệ phế phẩm càng cao",
+        "Tốc độ sản xuất càng chậm",
+        "Không ảnh hưởng"
+      ],
+      "answer": 0,
+      "explanation": "Sai số càng nhỏ thì sản phẩm càng chuẩn xác, ít phế phẩm."
+    },
+    {
+      "id": "mc-c3-106",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Máy đóng gói sữa có dung tích trung bình 180 ml, độ lệch chuẩn $s = 1\\text{ ml}$. Khẳng định nào đúng?",
+      "choices": [
+        "Dung tích các hộp sữa rất đồng đều quanh mức 180 ml",
+        "Các hộp sữa lệch nhau rất nhiều",
+        "Có nhiều hộp bị rỗng",
+        "Máy bị lỗi nặng"
+      ],
+      "answer": 0,
+      "explanation": "Sai lệch chỉ 1 ml trên 180 ml là rất nhỏ, chất lượng đồng đều."
+    },
+    {
+      "id": "mc-c3-107",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Để đạt chuẩn ISO trong sản xuất, độ lệch chuẩn của các thông số kỹ thuật phải:",
+      "choices": [
+        "Nằm trong giới hạn kiểm soát cho phép (càng nhỏ càng tốt)",
+        "Càng lớn càng tốt",
+        "Bằng trung bình",
+        "Không cần đo"
+      ],
+      "answer": 0,
+      "explanation": "Cần kiểm soát độ lệch chuẩn ở mức tối thiểu cho phép."
+    },
+    {
+      "id": "mc-c3-108",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Hai lô hàng nước ngọt: Lô 1 có $s = 2\\text{ ml}$, Lô 2 có $s = 5\\text{ ml}$. Lô hàng nào đạt chuẩn chất lượng đồng đều hơn?",
+      "choices": [
+        "Lô 1",
+        "Lô 2",
+        "Cả hai như nhau",
+        "Không đánh giá được"
+      ],
+      "answer": 0,
+      "explanation": "Lô 1 có độ phân tán nhỏ hơn."
+    },
+    {
+      "id": "mc-c3-109",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Cho mẫu số liệu ghép nhóm gồm hai nhóm $[0; 10)$ có tần số 5 và $[10; 20)$ có tần số 5. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$25$",
+        "$50$",
+        "$10$",
+        "$100$"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị đại diện: $c_1 = 5, c_2 = 15$. Số trung bình $\\bar{x} = 10$. $s^2 = \\frac{5(5-10)^2 + 5(15-10)^2}{10} = \\frac{5(25) + 5(25)}{10} = 25$."
+    },
+    {
+      "id": "mc-c3-110",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Mẫu có hai nhóm $[10; 20)$ có 4 và $[20; 30)$ có 4. Phương sai $s^2$ là:",
+      "choices": [
+        "$25$",
+        "$15$",
+        "$20$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explanation": "Trung bình bằng 20. $s^2 = \\frac{4(15-20)^2 + 4(25-20)^2}{8} = 25$."
+    },
+    {
+      "id": "mc-c3-111",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Cho hai nhóm $[0; 20)$ và $[20; 40)$ có tần số bằng nhau. Phương sai của mẫu bằng:",
+      "choices": [
+        "$100$",
+        "$50$",
+        "$200$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị đại diện: 10 và 30, trung bình bằng 20. $s^2 = \\frac{(10-20)^2 + (30-20)^2}{2} = 100$."
+    },
+    {
+      "id": "mc-c3-112",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Mẫu có ba nhóm $[0; 10), [10; 20), [20; 30)$ có tần số tương ứng $2, 6, 2$. Phương sai của mẫu là:",
+      "choices": [
+        "$40$",
+        "$50$",
+        "$25$",
+        "$30$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện: 5, 15, 25. $\\bar{x} = 15$. $s^2 = \\frac{2(5-15)^2 + 6(15-15)^2 + 2(25-15)^2}{10} = \\frac{200 + 0 + 200}{10} = 40$."
+    },
+    {
+      "id": "mc-c3-113",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Cho mẫu số liệu có hai nhóm $[0; 10)$ và $[10; 20)$ cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$5$",
+        "$25$",
+        "$10$",
+        "$2,5$"
+      ],
+      "answer": 0,
+      "explanation": "$s^2 = 25 \\Rightarrow s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mc-c3-114",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Mẫu có hai nhóm $[20; 40)$ và $[40; 60)$ có tần số bằng nhau. Độ lệch chuẩn s là:",
+      "choices": [
+        "$10$",
+        "$100$",
+        "$5$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 30 và 50, trung bình 40. $s^2 = 100 \\Rightarrow s = 10$."
+    },
+    {
+      "id": "mc-c3-115",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Mẫu có phương sai $s^2 = 49$. Độ lệch chuẩn của mẫu bằng:",
+      "choices": [
+        "$7$",
+        "$14$",
+        "$\\sqrt{7}$",
+        "$49$"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{49} = 7$."
+    },
+    {
+      "id": "mc-c3-116",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Hai nhóm $[10; 30)$ và $[30; 50)$ có cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$10$",
+        "$20$",
+        "$100$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 20 và 40, $s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "mc-c3-117",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Một mẫu có $Q_1 = 20, Q_3 = 40$. Giá trị nào sau đây là giá trị ngoại lai?",
+      "choices": [
+        "$75$",
+        "$25$",
+        "$35$",
+        "$65$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 20$. Giới hạn trên là $Q_3 + 1,5\\Delta_Q = 40 + 30 = 70$. Giá trị 75 > 70 nên là giá trị ngoại lai."
+    },
+    {
+      "id": "mc-c3-118",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Cho $Q_1 = 30, Q_3 = 50$. Giá trị nào dưới đây là ngoại lai phía dưới?",
+      "choices": [
+        "$-5$",
+        "$10$",
+        "$5$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 20$. Giới hạn dưới: $Q_1 - 1,5\\Delta_Q = 30 - 30 = 0$. Giá trị $-5 < 0$ là ngoại lai."
+    },
+    {
+      "id": "mc-c3-119",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Cho $Q_1 = 15, Q_3 = 25$. Giá trị nào sau đây là giá trị ngoại lai?",
+      "choices": [
+        "$45$",
+        "$20$",
+        "$30$",
+        "$35$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 10$. Ranh giới trên là $25 + 15 = 40$. Giá trị 45 > 40 là ngoại lai."
+    },
+    {
+      "id": "mc-c3-120",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Mẫu số liệu có $Q_1 = 50, Q_3 = 80$. Điểm ngoại lai là:",
+      "choices": [
+        "$130$",
+        "$70$",
+        "$90$",
+        "$120$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 30$. Ranh giới trên: $80 + 1,5(30) = 125$. Giá trị 130 > 125 là ngoại lai."
+    }
+  ],
+  "short": [
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Mẫu số liệu ghép nhóm từ $[10; 20)$ đến $[40; 50)$. Khoảng biến thiên R bằng bao nhiêu?",
+      "answer": 40,
+      "explanation": "$R = 50 - 10 = 40$."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Cho các nhóm từ $[0; 10)$ đến $[50; 60)$. Giá trị của R là:",
+      "answer": 60,
+      "explanation": "$R = 60 - 0 = 60$."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Khoảng biến thiên của mẫu từ $[20; 30)$ đến $[70; 80)$ bằng:",
+      "answer": 60,
+      "explanation": "$R = 80 - 20 = 60$."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Nhóm đầu là $[5; 15)$ và nhóm cuối là $[35; 45)$. Khoảng biến thiên R bằng:",
+      "answer": 40,
+      "explanation": "$R = 45 - 5 = 40$."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Mẫu từ $[100; 120)$ đến $[180; 200)$ có R bằng:",
+      "answer": 100,
+      "explanation": "$R = 200 - 100 = 100$."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 20$ và $Q_3 = 45$. Khoảng tứ phân vị $\\Delta_Q$ bằng bao nhiêu?",
+      "answer": 25,
+      "explanation": "$\\Delta_Q = 45 - 20 = 25$."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Biết $Q_1 = 15$ và $Q_3 = 35$. Giá trị của $\\Delta_Q$ là:",
+      "answer": 20,
+      "explanation": "$\\Delta_Q = 35 - 15 = 20$."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 30$ và $Q_3 = 60$. Khoảng tứ phân vị bằng:",
+      "answer": 30,
+      "explanation": "$\\Delta_Q = 60 - 30 = 30$."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Tìm $\\Delta_Q$ biết $Q_1 = 18$ và $Q_3 = 34$:",
+      "answer": 16,
+      "explanation": "$\\Delta_Q = 34 - 18 = 16$."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 22$ và $Q_3 = 50$. Tính $\\Delta_Q$:",
+      "answer": 28,
+      "explanation": "$\\Delta_Q = 50 - 22 = 28$."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Cho phương sai $s^2 = 25$. Độ lệch chuẩn s bằng bao nhiêu?",
+      "answer": 5,
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Nếu $s^2 = 36$ thì độ lệch chuẩn s bằng:",
+      "answer": 6,
+      "explanation": "$s = \\sqrt{36} = 6$."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Phương sai của mẫu bằng 64. Độ lệch chuẩn s là:",
+      "answer": 8,
+      "explanation": "$s = \\sqrt{64} = 8$."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Biết $s^2 = 81$. Giá trị của độ lệch chuẩn là:",
+      "answer": 9,
+      "explanation": "$s = \\sqrt{81} = 9$."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Cho $s^2 = 100$. Tính độ lệch chuẩn s:",
+      "answer": 10,
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Cho hai nhóm $[0; 10)$ và $[10; 20)$ cùng tần số bằng nhau. Phương sai $s^2$ bằng bao nhiêu?",
+      "answer": 25,
+      "explanation": "$s^2 = 25$."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[10; 30)$ và $[30; 50)$ có tần số bằng nhau. Phương sai $s^2$ bằng:",
+      "answer": 100,
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có tần số bằng nhau. Giá trị của $s^2$ là:",
+      "answer": 100,
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Tính $s^2$:",
+      "answer": 100,
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có tần số bằng nhau. Độ lệch chuẩn s bằng:",
+      "answer": 5,
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Độ lệch chuẩn s là:",
+      "answer": 10,
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có cùng tần số. Tính s:",
+      "answer": 10,
+      "explanation": "$s = 10$."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Cho mẫu có phương sai $s^2 = 144$. Độ lệch chuẩn bằng:",
+      "answer": 12,
+      "explanation": "$s = \\sqrt{144} = 12$."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 10, Q_3 = 20$. Ranh giới trên $Q_3 + 1,5\\Delta_Q$ bằng bao nhiêu?",
+      "answer": 35,
+      "explanation": "$20 + 1,5(10) = 35$."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 20, Q_3 = 40$. Giá trị $Q_3 + 1,5\\Delta_Q$ bằng:",
+      "answer": 70,
+      "explanation": "$40 + 1,5(20) = 70$."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Biết $Q_1 = 30, Q_3 = 50$. Tính ranh giới trên:",
+      "answer": 80,
+      "explanation": "$50 + 1,5(20) = 80$."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 15, Q_3 = 25$. Ranh giới trên ngoại lai là:",
+      "answer": 40,
+      "explanation": "$25 + 1,5(10) = 40$."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Mẫu có ba nhóm $[0; 10), [10; 20), [20; 30)$ có tần số $2, 6, 2$. Phương sai $s^2$ bằng bao nhiêu?",
+      "answer": 40,
+      "explanation": "$s^2 = 40$."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Ba nhóm $[10; 20), [20; 30), [30; 40)$ có tần số $1, 8, 1$. Phương sai $s^2$ là:",
+      "answer": 20,
+      "explanation": "$\\bar{x} = 25$. $s^2 = \\frac{1(15-25)^2 + 1(35-25)^2}{10} = 200/10 = 20$."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Cho ba nhóm $[0; 20), [20; 40), [40; 60)$ có tần số $1, 8, 1$. Tính phương sai $s^2$:",
+      "answer": 80,
+      "explanation": "$s^2 = \\frac{1(10-30)^2 + 1(50-30)^2}{10} = 800/10 = 80$."
+    }
+  ]
+}
