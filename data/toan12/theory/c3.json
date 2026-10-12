@@ -1,0 +1,50 @@
+{
+  "chapterId": "c3",
+  "title": "Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
+  "lessons": [
+    {
+      "id": "b9",
+      "title": "Bài 9. Khoảng biến thiên và khoảng tứ phân vị",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khoảng biến thiên"
+        },
+        {
+          "type": "definition",
+          "title": "Khoảng biến thiên của mẫu ghép nhóm",
+          "content": "Khoảng biến thiên $R$ của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên:\n$R = a_{k+1} - a_1$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Khoảng tứ phân vị"
+        },
+        {
+          "type": "definition",
+          "title": "Khoảng tứ phân vị $\\Delta_Q$",
+          "content": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm là hiệu giữa tứ phân vị thứ ba $Q_3$ và tứ phân vị thứ nhất $Q_1$:\n$\\Delta_Q = Q_3 - Q_1$.\nKhoảng tứ phân vị đo độ phân tán của 50% số liệu ở trung tâm và không bị ảnh hưởng bởi các giá trị bất thường (ngoại lai)."
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "title": "Bài 10. Phương sai và độ lệch chuẩn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Công thức phương sai và độ lệch chuẩn"
+        },
+        {
+          "type": "formula",
+          "title": "Phương sai $s^2$",
+          "content": "Phương sai của mẫu số liệu ghép nhóm được tính theo công thức:\n$s^2 = \\frac{1}{n} \\sum_{i=1}^k m_i (c_i - \\bar{x})^2 = \\frac{1}{n} \\sum_{i=1}^k m_i c_i^2 - (\\bar{x})^2$\ntrong đó $c_i$ là giá trị đại diện của nhóm thứ $i$, $m_i$ là tần số của nhóm thứ $i$, và $n = \\sum m_i$ là cỡ mẫu."
+        },
+        {
+          "type": "formula",
+          "title": "Độ lệch chuẩn $s$",
+          "content": "Độ lệch chuẩn là căn bậc hai số học của phương sai:\n$s = \\sqrt{s^2}$.\nĐộ lệch chuẩn có cùng đơn vị đo với đại lượng đang khảo sát, thể hiện mức độ phân tán của các số liệu xung quanh số trung bình."
+        }
+      ]
+    }
+  ]
+}

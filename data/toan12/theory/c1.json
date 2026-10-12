@@ -1,0 +1,109 @@
+{
+  "chapterId": "c1",
+  "title": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+  "lessons": [
+    {
+      "id": "b1",
+      "title": "Bài 1. Tính đơn điệu và cực trị của hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Tính đơn điệu của hàm số"
+        },
+        {
+          "type": "definition",
+          "title": "Định lí về tính đơn điệu",
+          "content": "Cho hàm số $y = f(x)$ có đạo hàm trên khoảng $K$:\n- Nếu $f'(x) > 0$ với mọi $x \\in K$ thì hàm số đồng biến trên $K$.\n- Nếu $f'(x) < 0$ với mọi $x \\in K$ thì hàm số nghịch biến trên $K$.\n- Nếu $f'(x) \\ge 0$ (hoặc $\\le 0$) với mọi $x \\in K$ và đẳng thức chỉ xảy ra tại hữu hạn điểm thì hàm số đồng biến (hoặc nghịch biến) trên $K$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Cực trị của hàm số"
+        },
+        {
+          "type": "definition",
+          "title": "Điểm cực trị",
+          "content": "- Điểm $x_0$ gọi là điểm cực đại của hàm số $f$ nếu tồn tại khoảng $(a; b)$ chứa $x_0$ sao cho $f(x) < f(x_0)$ với mọi $x \\in (a; b) \\setminus \\{x_0\\}$. Khi đó $f(x_0)$ là giá trị cực đại.\n- Tương tự với điểm cực tiểu: $f(x) > f(x_0)$.\n- Dấu hiệu nhận biết qua đạo hàm cấp một: Nếu $f'(x)$ đổi dấu từ dương sang âm khi qua $x_0$ (từ trái sang phải) thì $x_0$ là điểm cực đại; nếu đổi dấu từ âm sang dương thì $x_0$ là điểm cực tiểu."
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Bài 2. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm GTLN và GTNN"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa GTLN và GTNN trên tập $D$",
+          "content": "- $M = \\max_{D} f(x) \\Leftrightarrow f(x) \\le M$ với mọi $x \\in D$ và tồn tại $x_0 \\in D$ sao cho $f(x_0) = M$.\n- $m = \\min_{D} f(x) \\Leftrightarrow f(x) \\ge m$ với mọi $x \\in D$ và tồn tại $x_0 \\in D$ sao cho $f(x_0) = m$."
+        },
+        {
+          "type": "formula",
+          "title": "Quy tắc tìm GTLN, GTNN trên đoạn $[a; b]$",
+          "content": "1. Tính đạo hàm $f'(x)$ và tìm các nghiệm $x_1, x_2, \\dots, x_k \\in (a; b)$ của $f'(x) = 0$ (hoặc điểm $f'$ không xác định).\n2. Tính các giá trị $f(a), f(b), f(x_1), \\dots, f(x_k)$.\n3. Giá trị lớn nhất trong số đó là $\\max_{[a; b]} f(x)$, giá trị nhỏ nhất là $\\min_{[a; b]} f(x)$."
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "title": "Bài 3. Đường tiệm cận của đồ thị hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Tiệm cận đứng và tiệm cận ngang"
+        },
+        {
+          "type": "definition",
+          "title": "Đường tiệm cận đứng",
+          "content": "Đường thẳng $x = x_0$ gọi là tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu ít nhất một trong các điều kiện sau thoả mãn: $\\lim_{x \\to x_0^+} f(x) = \\pm\\infty$ hoặc $\\lim_{x \\to x_0^-} f(x) = \\pm\\infty$."
+        },
+        {
+          "type": "definition",
+          "title": "Đường tiệm cận ngang",
+          "content": "Đường thẳng $y = y_0$ gọi là tiệm cận ngang của đồ thị hàm số $y = f(x)$ nếu: $\\lim_{x \\to +\\infty} f(x) = y_0$ hoặc $\\lim_{x \\to -\\infty} f(x) = y_0$."
+        },
+        {
+          "type": "heading",
+          "text": "2. Đường tiệm cận xiên"
+        },
+        {
+          "type": "formula",
+          "title": "Đường tiệm cận xiên $y = ax + b$ ($a \\neq 0$)",
+          "content": "Đường thẳng $y = ax + b$ là tiệm cận xiên nếu $\\lim_{x \\to +\\infty} [f(x) - (ax + b)] = 0$ (hoặc khi $x \\to -\\infty$).\nCách tìm hệ số:\n$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$, $b = \\lim_{x \\to \\pm\\infty} [f(x) - ax]$."
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "title": "Bài 4. Khảo sát sự biến thiên và vẽ đồ thị hàm số",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Sơ đồ khảo sát tổng quát"
+        },
+        {
+          "type": "definition",
+          "title": "Các bước khảo sát",
+          "content": "1. Tìm tập xác định của hàm số.\n2. Xét sự biến thiên: Tính $y'$, giải $y' = 0$, xét dấu $y'$ để tìm khoảng đơn điệu và cực trị; tìm giới hạn tại vô cực và các đường tiệm cận; lập bảng biến thiên.\n3. Vẽ đồ thị: Xác định toạ độ các điểm cực trị, giao điểm với các trục toạ độ và vẽ đồ thị, chỉ rõ tâm đối xứng hoặc trục đối xứng (nếu có)."
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "title": "Bài 5. Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Bài toán tối ưu hoá trong thực tế"
+        },
+        {
+          "type": "definition",
+          "title": "Phương pháp giải bài toán tối ưu",
+          "content": "Xác định đại lượng cần tối ưu hoá (chi phí nhỏ nhất, lợi nhuận lớn nhất, thể tích lớn nhất...); chọn ẩn số phù hợp và thiết lập hàm số biểu diễn đại lượng đó theo ẩn số cùng điều kiện của ẩn; dùng đạo hàm tìm GTLN hoặc GTNN trên miền xác định."
+        }
+      ]
+    }
+  ]
+}

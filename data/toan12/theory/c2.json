@@ -1,0 +1,65 @@
+{
+  "chapterId": "c2",
+  "title": "Toạ độ vectơ trong không gian",
+  "lessons": [
+    {
+      "id": "b6",
+      "title": "Bài 6. Vectơ trong không gian",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Khái niệm vectơ trong không gian"
+        },
+        {
+          "type": "definition",
+          "title": "Định nghĩa và các quy tắc hình học",
+          "content": "Vectơ trong không gian là một đoạn thẳng có hướng. Các quy tắc cộng vectơ (quy tắc 3 điểm, quy tắc hình bình hành) tương tự trong hình học phẳng.\n- Quy tắc hình hộp: Cho hình hộp $ABCD.A'B'C'$, ta có:\n$\\vec{AC'} = \\vec{AB} + \\vec{AD} + \\vec{AA'}$."
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "title": "Bài 7. Hệ trục toạ độ trong không gian",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Hệ toạ độ $Oxyz$"
+        },
+        {
+          "type": "definition",
+          "title": "Hệ trục toạ độ vuông góc",
+          "content": "Hệ gồm ba trục $Ox, Oy, Oz$ đôi một vuông góc tại gốc $O$, với ba vectơ đơn vị lần lượt là $\\vec{i}, \\vec{j}, \\vec{k}$ thoả mãn:\n$|\\vec{i}| = |\\vec{j}| = |\\vec{k}| = 1$ và $\\vec{i} \\cdot \\vec{j} = \\vec{j} \\cdot \\vec{k} = \\vec{k} \\cdot \\vec{i} = 0$."
+        },
+        {
+          "type": "definition",
+          "title": "Toạ độ của điểm và vectơ",
+          "content": "- Vectơ $\\vec{u} = (x; y; z) \\Leftrightarrow \\vec{u} = x\\vec{i} + y\\vec{j} + z\\vec{k}$.\n- Điểm $M(x; y; z) \\Leftrightarrow \\vec{OM} = (x; y; z)$."
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "title": "Bài 8. Biểu thức toạ độ của các phép toán vectơ",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Các phép toán toạ độ cơ bản"
+        },
+        {
+          "type": "formula",
+          "title": "Cộng, trừ và nhân với số thực",
+          "content": "Cho $\\vec{u} = (x_1; y_1; z_1)$ và $\\vec{v} = (x_2; y_2; z_2)$:\n- $\\vec{u} + \\vec{v} = (x_1 + x_2; y_1 + y_2; z_1 + z_2)$\n- $\\vec{u} - \\vec{v} = (x_1 - x_2; y_1 - y_2; z_1 - z_2)$\n- $k\\vec{u} = (kx_1; ky_1; kz_1)$ ($k \\in \\mathbb{R}$)"
+        },
+        {
+          "type": "heading",
+          "text": "2. Tích vô hướng và ứng dụng"
+        },
+        {
+          "type": "formula",
+          "title": "Biểu thức tích vô hướng",
+          "content": "- Tích vô hướng: $\\vec{u} \\cdot \\vec{v} = x_1 x_2 + y_1 y_2 + z_1 z_2$.\n- Độ dài vectơ: $|\\vec{u}| = \\sqrt{x_1^2 + y_1^2 + z_1^2}$.\n- Khoảng cách giữa hai điểm $A(x_A; y_A; z_A)$ và $B(x_B; y_B; z_B)$:\n$AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2 + (z_B - z_A)^2}$.\n- Côsin góc giữa hai vectơ:\n$\\cos(\\vec{u}, \\vec{v}) = \\frac{\\vec{u} \\cdot \\vec{v}}{|\\vec{u}| \\cdot |\\vec{v}|} = \\frac{x_1 x_2 + y_1 y_2 + z_1 z_2}{\\sqrt{x_1^2 + y_1^2 + z_1^2} \\cdot \\sqrt{x_2^2 + y_2^2 + z_2^2}}$."
+        }
+      ]
+    }
+  ]
+}
