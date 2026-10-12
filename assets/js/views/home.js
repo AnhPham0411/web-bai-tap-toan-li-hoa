@@ -57,20 +57,22 @@ export function renderHome(ctx) {
           : `<button class="btn btn-sm switch-subj-btn" data-subj="${s.id}">Chọn môn này</button>`}
       </div>`).join('');
 
-  const futureSubjects = (manifest.subjects.filter((s) => !s.available).length > 0
-    ? manifest.subjects.filter((s) => !s.available)
-    : [
-        { name: "Toán 11", note: "Chưa có dữ liệu." },
-        { name: "Toán 12", note: "Chưa có dữ liệu." }
-      ]
-  ).map((s) => `
-    <div class="subject-item disabled">
-      <div class="meta">
-        <strong>${s.name}</strong>
-        <small>${s.note || 'Sắp ra mắt'}</small>
+  const unavail = (manifest.subjects || []).filter((s) => !s.available);
+  const futureSection = unavail.length ? `
+    <section style="margin-top:44px">
+      <h2>Sẽ mở rộng thêm</h2>
+      <p style="color:var(--text-muted);margin-top:0">Cấu trúc dữ liệu đã sẵn sàng cho các lớp và học kì tiếp theo.</p>
+      <div class="subject-list">
+        ${unavail.map((s) => `
+          <div class="subject-item disabled">
+            <div class="meta">
+              <strong>${s.name}</strong>
+              <small>${s.note || 'Sắp ra mắt'}</small>
+            </div>
+            <span class="badge">Sắp có</span>
+          </div>`).join('')}
       </div>
-      <span class="badge">Sắp có</span>
-    </div>`).join('');
+    </section>` : '';
 
   const recent = getResults(subject.id).slice(0, 3);
   const recentHtml = recent.length ? `
@@ -123,11 +125,7 @@ export function renderHome(ctx) {
       <div class="subject-list">${availableSubjects}</div>
     </section>
 
-    <section style="margin-top:44px">
-      <h2>Sẽ mở rộng thêm</h2>
-      <p style="color:var(--text-muted);margin-top:0">Cấu trúc dữ liệu đã sẵn sàng cho các lớp và học kì khác.</p>
-      <div class="subject-list">${futureSubjects}</div>
-    </section>`;
+    ${futureSection}`;
 }
 
 /** Gắn sự kiện cho trang chủ. Router gọi ngay sau khi đã chèn HTML vào DOM. */

@@ -85,6 +85,60 @@
       "path": "toan12",
       "available": true,
       "note": "Học kì 1: 450 câu hỏi (3 chương c1-c3, 120 TN + 30 TLN/chương)."
+    },
+    {
+      "id": "toan11_hk2",
+      "name": "Toán 11 (Học kì 2)",
+      "grade": 11,
+      "term": "Học kì 2",
+      "terms": [
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan11",
+      "available": false,
+      "note": "Chương VI đến IX: Hàm số mũ & logarit, Đạo hàm, Quan hệ vuông góc, Xác suất."
+    },
+    {
+      "id": "toan12_hk2",
+      "name": "Toán 12 (Học kì 2)",
+      "grade": 12,
+      "term": "Học kì 2",
+      "terms": [
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "toan12",
+      "available": false,
+      "note": "Chương IV đến VI: Nguyên hàm & tích phân, Toạ độ Oxyz, Xác suất có điều kiện."
+    },
+    {
+      "id": "ly11",
+      "name": "Vật lí 11",
+      "grade": 11,
+      "term": "Cả năm",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "ly11",
+      "available": false,
+      "note": "Chương trình GDPT 2018 (Dao động, Sóng, Điện trường, Từ trường)."
+    },
+    {
+      "id": "hoa11",
+      "name": "Hóa học 11",
+      "grade": 11,
+      "term": "Cả năm",
+      "terms": [
+        "Học kì 1",
+        "Học kì 2"
+      ],
+      "book": "Kết nối tri thức với cuộc sống",
+      "path": "hoa11",
+      "available": false,
+      "note": "Chương trình GDPT 2018 (Cân bằng hoá học, Nitrogen - Sulfur, Hợp chất hữu cơ)."
     }
   ]
 }

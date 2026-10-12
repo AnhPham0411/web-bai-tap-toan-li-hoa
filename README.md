@@ -1,23 +1,26 @@
-# Web Bài Tập Toán - Lý - Hóa 10 (GDPT 2018)
+# Web Bài Tập Toán - Lý - Hóa (GDPT 2018)
 
-Ứng dụng web học lý thuyết và luyện bài tập cho 3 môn **Toán 10**, **Vật lí 10**, **Hóa học 10** theo chương trình GDPT 2018 (bộ sách Kết nối tri thức với cuộc sống, Học kì 1).
+Ứng dụng web học lý thuyết và luyện bài tập cho 6 phân hệ môn học: **Toán 9**, **Toán 10** (Cả năm), **Toán 11** (Học kì 1), **Toán 12** (Học kì 1), **Vật lí 10**, **Hóa học 10** theo chương trình GDPT 2018 (bộ sách Kết nối tri thức với cuộc sống).
 
 Repository: [https://github.com/AnhPham0411/web-bai-tap-toan-li-hoa](https://github.com/AnhPham0411/web-bai-tap-toan-li-hoa)
 
-## Quy mô Dữ liệu (2.250 câu hỏi)
+## Quy mô Dữ liệu (4.800 câu hỏi)
 
-- **Mỗi môn 5 chương**, mỗi chương **150 câu hỏi** (120 Trắc nghiệm + 30 Trả lời ngắn).
+- **Mỗi chương:** đúng chuẩn **150 câu hỏi** (120 Trắc nghiệm + 30 Trả lời ngắn).
 - **Phân bổ độ khó:** 50% Nhận biết (`nb`), 40% Thông hiểu (`th`), 10% Vận dụng (`vd`).
-- **Tổng cộng:** **2.250 câu hỏi** (1.800 Trắc nghiệm + 450 Trả lời ngắn).
-- **Mỗi dạng bài tối đa 5 biến thể**, và các biến thể bắt buộc khác nhau về số liệu lẫn đáp số — không có chuyện một câu bị nhân bản hàng chục lần chỉ để đảo thứ tự A/B/C/D.
-- **100% câu hỏi** có đáp án đúng và lời giải chi tiết (`explanation`).
+- **Tổng cộng:** **4.800 câu hỏi** (3.840 Trắc nghiệm + 960 Trả lời ngắn).
+- **Mỗi dạng bài tối đa 5 biến thể**, các biến thể độc lập số liệu và đáp số, không nhân bản nội dung.
+- **100% câu hỏi** có đáp án đúng và lời giải chi tiết (`explanation`), kiểm định toán học tự động 0 lỗi.
 
-| Môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tổng câu hỏi |
-|---|---|---|---|---|
-| **Toán 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
-| **Vật lí 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
-| **Hóa học 10** | 5 chương | 600 câu | 150 câu | **750 câu** |
-| **TỔNG** | **15 chương** | **1.800 câu** | **450 câu** | **2.250 câu** |
+| Môn học | Phạm vi hoàn thiện | Số chương | Trắc nghiệm | Trả lời ngắn | Tổng câu hỏi |
+|---|---|---|---|---|---|
+| **Toán 10** | Cả năm (HK1 & HK2) | 9 chương | 1.080 câu | 270 câu | **1.350 câu** |
+| **Toán 9** | Học kì 1 | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **Toán 11** | Học kì 1 | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **Toán 12** | Học kì 1 | 3 chương | 360 câu | 90 câu | **450 câu** |
+| **Vật lí 10** | Học kì 1 | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **Hóa học 10** | Học kì 1 | 5 chương | 600 câu | 150 câu | **750 câu** |
+| **TỔNG CỘNG** | **Hệ thống** | **32 chương** | **3.840 câu** | **960 câu** | **4.800 câu** |
 
 ---
 
