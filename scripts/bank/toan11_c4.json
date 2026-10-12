@@ -370,13 +370,13 @@
       "dang": "Đường thẳng song song với mặt phẳng",
       "question": "Điều kiện để đường thẳng $d$ song song với mặt phẳng $(P)$ là:",
       "choices": [
-        "$d \\not\\subset (P)$ và $d$ song song với một đường thẳng $a \\subset (P)$",
+        "$d$ không nằm trong $(P)$ và $d$ song song với một đường thẳng $a \\subset (P)$",
         "$d$ có điểm chung với $(P)$",
         "$d$ cắt một đường thẳng trong $(P)$",
         "$d \\subset (P)$"
       ],
       "answer": 0,
-      "explanation": "Định lí nhận biết: $d \\not\\subset (P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."
+      "explanation": "Định lí nhận biết: $d$ không nằm trong $(P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."
     },
     {
       "id": "mc-c4-023",
@@ -976,7 +976,7 @@
       "lesson": "b12",
       "level": "nb",
       "dang": "Vị trí tương đối của đường thẳng và mặt phẳng",
-      "question": "Cho $d \\parallel a$ với $a \\subset (P)$ và $d \\not\\subset (P)$. Vị trí của d và $(P)$ là:",
+      "question": "Cho $d \\parallel a$ với $a \\subset (P)$ và $d$ không nằm trong $(P)$. Vị trí của d và $(P)$ là:",
       "choices": [
         "$d \\parallel (P)$",
         "d cắt $(P)$",

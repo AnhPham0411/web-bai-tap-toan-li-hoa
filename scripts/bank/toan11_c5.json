@@ -344,7 +344,7 @@
       "lesson": "b16",
       "level": "nb",
       "dang": "Giới hạn hàm phân thức tại một điểm xác định",
-      "question": "Tính $\\lim_{x \\to 2} \\frac{x + 1}{x + 2}$:",
+      "question": "Tính giới hạn hàm phân thức $\\lim_{x \\to 2} \\frac{x + 1}{x + 2}$:",
       "choices": [
         "$\\frac{3}{4}$",
         "$1$",
@@ -552,7 +552,7 @@
       "lesson": "b16",
       "level": "nb",
       "dang": "Giới hạn hàm số tại vô cực cơ bản",
-      "question": "Giới hạn $\\lim_{x \\to +\\infty} x^3$ bằng:",
+      "question": "Tính giới hạn dần tới dương vô cực $\\lim_{x \\to +\\infty} x^3$:",
       "choices": [
         "$+\\infty$",
         "$0$",
@@ -568,7 +568,7 @@
       "lesson": "b16",
       "level": "nb",
       "dang": "Giới hạn hàm số tại vô cực cơ bản",
-      "question": "Giới hạn $\\lim_{x \\to -\\infty} x^3$ bằng:",
+      "question": "Tính giới hạn dần tới âm vô cực $\\lim_{x \\to -\\infty} x^3$:",
       "choices": [
         "$-\\infty$",
         "$+\\infty$",
@@ -1400,7 +1400,7 @@
       "lesson": "b16",
       "level": "th",
       "dang": "Giới hạn một phía dẫn đến vô cực",
-      "question": "Tính $\\lim_{x \\to 2^+} \\frac{x + 1}{x - 2}$:",
+      "question": "Tính giới hạn một phía bên phải $\\lim_{x \\to 2^+} \\frac{x + 1}{x - 2}$:",
       "choices": [
         "$+\\infty$",
         "$-\\infty$",
@@ -1416,7 +1416,7 @@
       "lesson": "b16",
       "level": "th",
       "dang": "Giới hạn một phía dẫn đến vô cực",
-      "question": "Tính $\\lim_{x \\to 2^-} \\frac{x + 1}{x - 2}$:",
+      "question": "Tính giới hạn một phía bên trái $\\lim_{x \\to 2^-} \\frac{x + 1}{x - 2}$:",
       "choices": [
         "$-\\infty$",
         "$+\\infty$",

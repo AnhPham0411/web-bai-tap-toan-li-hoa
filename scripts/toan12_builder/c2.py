@@ -9,7 +9,7 @@ def gen_c2():
         ("Khái niệm vectơ trong không gian", "b6", [
             lambda: ("Vectơ trong không gian là:", ["Một đoạn thẳng có hướng", "Một đường thẳng", "Một tia", "Một điểm"], 0, "Định nghĩa vectơ: đoạn thẳng có hướng."),
             lambda: ("Vectơ có điểm đầu và điểm cuối trùng nhau gọi là:", ["Vectơ-không", "Vectơ đơn vị", "Vectơ đối", "Vectơ cùng phương"], 0, "Kí hiệu là $\\vec{0}$."),
-            lambda: ("Độ dài của vectơ $\\vec{AB}$ trong không gian chính là:", ["Khoảng cách giữa hai điểm A và B", "Toạ độ của điểm B", "Toạ độ của điểm A", "Đường thẳng AB"], 0, "Độ dài $|\vec{AB}| = AB$."),
+            lambda: ("Độ dài của vectơ $\\vec{AB}$ trong không gian chính là:", ["Khoảng cách giữa hai điểm A và B", "Toạ độ của điểm B", "Toạ độ của điểm A", "Đường thẳng AB"], 0, "Độ dài $|\\vec{AB}| = AB$."),
             lambda: ("Hai vectơ được gọi là cùng phương nếu:", ["Giá của chúng song song hoặc trùng nhau", "Chúng có cùng độ dài", "Chúng có cùng điểm đầu", "Chúng vuông góc với nhau"], 0, "Định nghĩa hai vectơ cùng phương."),
             lambda: ("Vectơ đối của vectơ $\\vec{a}$ là vectơ:", ["Ngược hướng và có cùng độ dài với $\\vec{a}$", "Cùng hướng với $\\vec{a}$", "Có độ dài bằng 0", "Vuông góc với $\\vec{a}$"], 0, "Vectơ đối ngược hướng và có cùng độ dài.")
         ]),

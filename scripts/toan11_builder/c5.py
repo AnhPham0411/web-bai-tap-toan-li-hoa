@@ -35,7 +35,7 @@ def gen_c5():
             lambda: ("Tính $\\lim_{x \\to 0} (5x + 4)$:", ["$4$", "$5$", "$0$", "$9$"], 0, "Thay $x = 0$: $5(0) + 4 = 4$.")
         ]),
         ("Giới hạn hàm phân thức tại một điểm xác định", "b16", [
-            lambda: ("Tính $\\lim_{x \\to 2} \\frac{x + 1}{x + 2}$:", ["$\\frac{3}{4}$", "$1$", "$\\frac{1}{2}$", "$\\frac{3}{2}$"], 0, "Mẫu số khác 0, thay trực tiếp: $(2 + 1)/(2 + 2) = 3/4$."),
+            lambda: ("Tính giới hạn hàm phân thức $\\lim_{x \\to 2} \\frac{x + 1}{x + 2}$:", ["$\\frac{3}{4}$", "$1$", "$\\frac{1}{2}$", "$\\frac{3}{2}$"], 0, "Mẫu số khác 0, thay trực tiếp: $(2 + 1)/(2 + 2) = 3/4$."),
             lambda: ("Giá trị của $\\lim_{x \\to 1} \\frac{2x + 3}{x + 1}$ là:", ["$\\frac{5}{2}$", "$3$", "$2$", "$5$"], 0, "Thay $x = 1$: $(2 + 3)/(1 + 1) = 5/2$."),
             lambda: ("Giới hạn $\\lim_{x \\to 0} \\frac{3x + 6}{x + 2}$ bằng:", ["$3$", "$6$", "$2$", "$0$"], 0, "Thay $x = 0$: $6/2 = 3$."),
             lambda: ("Tính $\\lim_{x \\to 3} \\frac{x - 1}{x + 1}$:", ["$\\frac{1}{2}$", "$1$", "$\\frac{2}{3}$", "$\\frac{3}{4}$"], 0, "Thay $x = 3$: $2/4 = 1/2$."),
@@ -52,8 +52,8 @@ def gen_c5():
             lambda: ("Giới hạn $\\lim_{x \\to +\\infty} \\frac{1}{x}$ bằng:", ["$0$", "$1$", "$+\\infty$", "$-\\infty$"], 0, "Khi $x \\to +\\infty$ thì $1/x \\to 0$."),
             lambda: ("Tính $\\lim_{x \\to -\\infty} \\frac{1}{x^2}$:", ["$0$", "$1$", "$-\\infty$", "$+\\infty$"], 0, "$\\lim_{x \\to -\\infty} 1/x^2 = 0$."),
             lambda: ("Giá trị của $\\lim_{x \\to +\\infty} \\frac{2}{x}$ là:", ["$0$", "$2$", "$+\\infty$", "$1$"], 0, "Hằng số chia cho vô cực bằng 0."),
-            lambda: ("Giới hạn $\\lim_{x \\to +\\infty} x^3$ bằng:", ["$+\\infty$", "$0$", "$1$", "$-\\infty$"], 0, "Tiến đến $+\\infty$."),
-            lambda: ("Giới hạn $\\lim_{x \\to -\\infty} x^3$ bằng:", ["$-\\infty$", "$+\\infty$", "$0$", "$-1$"], 0, "$(-\\infty)^3 = -\\infty$.")
+            lambda: ("Tính giới hạn dần tới dương vô cực $\\lim_{x \\to +\\infty} x^3$:", ["$+\\infty$", "$0$", "$1$", "$-\\infty$"], 0, "Tiến đến $+\\infty$."),
+            lambda: ("Tính giới hạn dần tới âm vô cực $\\lim_{x \\to -\\infty} x^3$:", ["$-\\infty$", "$+\\infty$", "$0$", "$-1$"], 0, "$(-\\infty)^3 = -\\infty$.")
         ]),
         ("Khái niệm hàm số liên tục tại một điểm", "b17", [
             lambda: ("Hàm số $y = f(x)$ liên tục tại điểm $x_0$ khi và chỉ khi:", ["$\\lim_{x \\to x_0} f(x) = f(x_0)$", "Chỉ cần $f(x_0)$ xác định", "Chỉ cần tồn tại $\\lim_{x \\to x_0} f(x)$", "$f(x_0) = 0$"], 0, "Định nghĩa hàm số liên tục tại một điểm: $\\lim_{x \\to x_0} f(x) = f(x_0)$."),
@@ -141,8 +141,8 @@ def gen_c5():
         ("Giới hạn một phía dẫn đến vô cực", "b16", [
             lambda: ("Tính giới hạn $\\lim_{x \\to 1^+} \\frac{1}{x - 1}$:", ["$+\\infty$", "$-\\infty$", "$0$", "$1$"], 0, "Khi $x \\to 1^+$, mẫu số dương và tiến về 0, nên giới hạn bằng $+\\infty$."),
             lambda: ("Giới hạn $\\lim_{x \\to 1^-} \\frac{1}{x - 1}$ bằng:", ["$-\\infty$", "$+\\infty$", "$0$", "$-1$"], 0, "Khi $x \\to 1^-$, mẫu số âm và tiến về 0 nên bằng $-\\infty$."),
-            lambda: ("Tính $\\lim_{x \\to 2^+} \\frac{x + 1}{x - 2}$:", ["$+\\infty$", "$-\\infty$", "$3$", "$0$"], 0, "Tử số tiến về 3 > 0, mẫu số tiến về $0^+$ nên bằng $+\\infty$."),
-            lambda: ("Tính $\\lim_{x \\to 2^-} \\frac{x + 1}{x - 2}$:", ["$-\\infty$", "$+\\infty$", "$-3$", "$0$"], 0, "Tử số là 3 > 0, mẫu là $0^-$ nên bằng $-\\infty$.")
+            lambda: ("Tính giới hạn một phía bên phải $\\lim_{x \\to 2^+} \\frac{x + 1}{x - 2}$:", ["$+\\infty$", "$-\\infty$", "$3$", "$0$"], 0, "Tử số tiến về 3 > 0, mẫu số tiến về $0^+$ nên bằng $+\\infty$."),
+            lambda: ("Tính giới hạn một phía bên trái $\\lim_{x \\to 2^-} \\frac{x + 1}{x - 2}$:", ["$-\\infty$", "$+\\infty$", "$-3$", "$0$"], 0, "Tử số là 3 > 0, mẫu là $0^-$ nên bằng $-\\infty$.")
         ]),
         ("Tổng cấp số nhân lùi vô hạn", "b15", [
             lambda: ("Tổng của cấp số nhân lùi vô hạn $u_1 = 1, q = \\frac{1}{2}$ bằng:", ["$2$", "$1$", "$\\frac{3}{2}$", "$4$"], 0, "$S = \\frac{1}{1 - 1/2} = 2$."),

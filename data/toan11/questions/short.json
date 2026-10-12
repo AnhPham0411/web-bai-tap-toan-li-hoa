@@ -1,0 +1,1504 @@
+{
+  "questions": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Cho góc hình học có số đo $180^\\circ$. Đổi sang đơn vị rađian thì hệ số của $\\pi$ là bao nhiêu?",
+      "answer": "1",
+      "explanation": "$180^\\circ = 1\\pi\\text{ rad}$ nên hệ số là 1."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc $360^\\circ$ tương ứng với bao nhiêu lần $\\pi$ rađian?",
+      "answer": "2",
+      "explanation": "$360^\\circ = 2\\pi\\text{ rad}$."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Một vòng quay tròn đủ 1 vòng tương ứng với số đo góc bằng bao nhiêu độ?",
+      "answer": "360",
+      "explanation": "Một vòng tròn đầy đủ bằng $360^\\circ$."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc vuông có số đo bằng bao nhiêu độ?",
+      "answer": "90",
+      "explanation": "Góc vuông có số đo là $90^\\circ$."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đổi số đo góc sang radian",
+      "question": "Góc bẹt có số đo bằng bao nhiêu độ?",
+      "answer": "180",
+      "explanation": "Góc bẹt có số đo là $180^\\circ$."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\sin 90^\\circ$ bằng bao nhiêu?",
+      "answer": "1",
+      "explanation": "$\\sin 90^\\circ = 1$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\cos 0^\\circ$ bằng:",
+      "answer": "1",
+      "explanation": "$\\cos 0^\\circ = 1$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\cos 180^\\circ$ bằng:",
+      "answer": "-1",
+      "explanation": "$\\cos 180^\\circ = -1$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Giá trị của $\\sin 0^\\circ$ bằng:",
+      "answer": "0",
+      "explanation": "$\\sin 0^\\circ = 0$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Giá trị lượng giác của góc đặc biệt",
+      "question": "Tính giá trị của biểu thức $\\sin^2 45^\\circ + \\cos^2 45^\\circ$:",
+      "answer": "1",
+      "explanation": "Hằng đẳng thức luôn bằng 1."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\tan x$ tuần hoàn với chu kì bằng $k\\pi$. Giá trị của $k$ là:",
+      "answer": "1",
+      "explanation": "Chu kì của $\\tan x$ là $\\pi$, tức $k = 1$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\sin x$ tuần hoàn với chu kì $T = k\\pi$. Hệ số $k$ bằng bao nhiêu?",
+      "answer": "2",
+      "explanation": "Chu kì $T = 2\\pi$, do đó $k = 2$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\cos x$ tuần hoàn với chu kì $T = k\\pi$. Giá trị $k$ là:",
+      "answer": "2",
+      "explanation": "Chu kì $T = 2\\pi$, hệ số $k = 2$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Hàm số $y = \\cot x$ có chu kì $T = k\\pi$. Tìm $k$:",
+      "answer": "1",
+      "explanation": "Chu kì $T = \\pi$, vậy $k = 1$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Giá trị lớn nhất của hàm số $y = \\sin x$ trên $\\mathbb{R}$ bằng:",
+      "answer": "1",
+      "explanation": "GTLN của $\\sin x$ là 1."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\tan \\alpha = 2$. Tính giá trị của biểu thức $P = \\frac{4\\sin \\alpha + 2\\cos \\alpha}{\\sin \\alpha + 3\\cos \\alpha}$:",
+      "answer": "2",
+      "explanation": "Chia cho $\\cos \\alpha$: $P = \\frac{4\\tan\\alpha + 2}{\\tan\\alpha + 3} = \\frac{8 + 2}{2 + 3} = \\frac{10}{5} = 2$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\cot \\alpha = 3$. Tính giá trị của biểu thức $Q = \\frac{\\sin \\alpha + 3\\cos \\alpha}{2\\sin \\alpha + \\cos \\alpha}$:",
+      "answer": "2",
+      "explanation": "Chia cho $\\sin \\alpha$: $Q = \\frac{1 + 3\\cot\\alpha}{2 + \\cot\\alpha} = \\frac{1 + 9}{2 + 3} = \\frac{10}{5} = 2$."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Nếu $\\tan \\alpha = 1$ thì giá trị của biểu thức $A = 5\\tan^2 \\alpha - 2$ bằng:",
+      "answer": "3",
+      "explanation": "$A = 5(1)^2 - 2 = 3$."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tính giá trị biểu thức lượng giác",
+      "question": "Cho $\\sin \\alpha \\cos \\alpha = \\frac{1}{4}$. Tính giá trị của biểu thức $4\\sin 2\\alpha$:",
+      "answer": "2",
+      "explanation": "Ta có $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2 \\cdot \\frac{1}{4} = \\frac{1}{2}$. Do đó $4\\sin 2\\alpha = 4 \\cdot \\frac{1}{2} = 2$."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = 5\\sin(2x) + 3$:",
+      "answer": "8",
+      "explanation": "GTLN là $5(1) + 3 = 8$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Giá trị nhỏ nhất của hàm số $y = 3\\cos(4x) - 5$ bằng:",
+      "answer": "-8",
+      "explanation": "GTNN là $3(-1) - 5 = -8$."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Giá trị lớn nhất của hàm số $y = 7 - 2\\cos x$ là:",
+      "answer": "9",
+      "explanation": "GTLN khi $\\cos x = -1 \\Rightarrow y = 7 - 2(-1) = 9$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Giá trị lớn nhất và nhỏ nhất của hàm số",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = 4\\sin^2 x + 3$:",
+      "answer": "3",
+      "explanation": "Vì $\\sin^2 x \\ge 0$ nên GTNN bằng 3."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\sin(2x) = 0$ trên đoạn $[0; \\pi]$ là:",
+      "answer": "3",
+      "explanation": "$2x = k\\pi \\Rightarrow x = k\\pi/2$. Trong $[0; \\pi]$ có $x \\in \\{0; \\pi/2; \\pi\\}$, tổng cộng 3 nghiệm."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Phương trình $\\cos(2x) = 0$ có bao nhiêu nghiệm trên đoạn $[0; \\pi]$?",
+      "answer": "2",
+      "explanation": "$2x = \\pi/2 + k\\pi \\Rightarrow x = \\pi/4 + k\\pi/2$. Nghiệm là $\\pi/4, 3\\pi/4$. Có 2 nghiệm."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\sin x = 0$ trên đoạn $[-\\pi; \\pi]$ là:",
+      "answer": "3",
+      "explanation": "Nghiệm gồm $-\\pi, 0, \\pi$. Có 3 nghiệm."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Số nghiệm của phương trình lượng giác trong khoảng",
+      "question": "Số nghiệm của phương trình $\\tan x = 1$ trong khoảng $(0; 2\\pi)$ bằng:",
+      "answer": "2",
+      "explanation": "Nghiệm gồm $\\pi/4$ và $5\\pi/4$. Có 2 nghiệm."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Tìm số đo theo độ của nghiệm dương nhỏ nhất của phương trình $2\\sin x - 1 = 0$:",
+      "answer": "30",
+      "explanation": "$\\sin x = 1/2 \\Rightarrow$ nghiệm dương nhỏ nhất là $30^\\circ$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Nghiệm dương nhỏ nhất của phương trình $2\\cos x - \\sqrt{2} = 0$ có số đo bằng bao nhiêu độ?",
+      "answer": "45",
+      "explanation": "$\\cos x = \\sqrt{2}/2 \\Rightarrow$ nghiệm dương nhỏ nhất là $45^\\circ$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "vd",
+      "dang": "Nghiệm dương nhỏ nhất của phương trình",
+      "question": "Nghiệm dương nhỏ nhất của phương trình $\\tan x - \\sqrt{3} = 0$ theo đơn vị độ bằng:",
+      "answer": "60",
+      "explanation": "$\\tan x = \\sqrt{3} \\Rightarrow x = 60^\\circ$."
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Số hạng đầu u1 của cấp số",
+      "question": "Cho dãy số $u_n = 3n - 1$. Số hạng đầu $u_1$ bằng:",
+      "answer": "2",
+      "explanation": "$u_1 = 3(1) - 1 = 2$."
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Số hạng đầu u1 của cấp số",
+      "question": "Dãy số $u_n = 2n + 5$ có số hạng thứ nhất bằng:",
+      "answer": "7",
+      "explanation": "$u_1 = 2(1) + 5 = 7$."
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Số hạng đầu u1 của cấp số",
+      "question": "Cho dãy số $u_n = 4n - 3$. Tìm giá trị của $u_1$:",
+      "answer": "1",
+      "explanation": "$u_1 = 4(1) - 3 = 1$."
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Số hạng đầu u1 của cấp số",
+      "question": "Số hạng đầu của dãy $u_n = n^2 + 2$ bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "$u_1 = 1 + 2 = 3$."
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Số hạng đầu u1 của cấp số",
+      "question": "Dãy số $u_n = 5n - 1$. Số hạng $u_1$ là:",
+      "answer": "4",
+      "explanation": "$u_1 = 5(1) - 1 = 4$."
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Công sai d của cấp số cộng",
+      "question": "Cho cấp số cộng có $u_1 = 3$ và $u_2 = 7$. Công sai d bằng:",
+      "answer": "4",
+      "explanation": "$d = 7 - 3 = 4$."
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Công sai d của cấp số cộng",
+      "question": "Cấp số cộng $2, 5, 8, 11, \\dots$ có công sai bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "$d = 5 - 2 = 3$."
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Công sai d của cấp số cộng",
+      "question": "Cho cấp số cộng $u_n = 4n + 1$. Công sai d bằng:",
+      "answer": "4",
+      "explanation": "Công sai là hệ số của n, $d = 4$."
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Công sai d của cấp số cộng",
+      "question": "Cấp số cộng có $u_1 = 10, u_2 = 15$. Tìm công sai d:",
+      "answer": "5",
+      "explanation": "$d = 15 - 10 = 5$."
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Công sai d của cấp số cộng",
+      "question": "Tìm công sai d của cấp số cộng $1, 7, 13, 19$:",
+      "answer": "6",
+      "explanation": "$d = 7 - 1 = 6$."
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Công bội q của cấp số nhân",
+      "question": "Cho cấp số nhân có $u_1 = 2$ và $u_2 = 6$. Công bội q bằng:",
+      "answer": "3",
+      "explanation": "$q = 6/2 = 3$."
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Công bội q của cấp số nhân",
+      "question": "Cấp số nhân $1, 4, 16, 64$ có công bội bằng:",
+      "answer": "4",
+      "explanation": "$q = 4/1 = 4$."
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Công bội q của cấp số nhân",
+      "question": "Cấp số nhân có $u_1 = 5, u_2 = 10$. Giá trị của q là:",
+      "answer": "2",
+      "explanation": "$q = 10/5 = 2$."
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Công bội q của cấp số nhân",
+      "question": "Cho cấp số nhân có $u_1 = 3, u_2 = 15$. Công bội q bằng:",
+      "answer": "5",
+      "explanation": "$q = 15/3 = 5$."
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Công bội q của cấp số nhân",
+      "question": "Tìm công bội q của cấp số nhân $4, 8, 16, 32$:",
+      "answer": "2",
+      "explanation": "$q = 8/4 = 2$."
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số hạng cụ thể của cấp số cộng",
+      "question": "Cho cấp số cộng có $u_1 = 2, d = 3$. Số hạng thứ 5 ($u_5$) bằng:",
+      "answer": "14",
+      "explanation": "$u_5 = 2 + 4(3) = 14$."
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số hạng cụ thể của cấp số cộng",
+      "question": "Cấp số cộng $u_1 = 5, d = 4$. Tính $u_4$:",
+      "answer": "17",
+      "explanation": "$u_4 = 5 + 3(4) = 17$."
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số hạng cụ thể của cấp số cộng",
+      "question": "Cho cấp số cộng có $u_1 = 1, d = 5$. Giá trị của $u_6$ bằng:",
+      "answer": "26",
+      "explanation": "$u_6 = 1 + 5(5) = 26$."
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Số hạng cụ thể của cấp số cộng",
+      "question": "Cấp số cộng $u_1 = 3, d = 2$. Số hạng $u_10$ bằng:",
+      "answer": "21",
+      "explanation": "$u_{10} = 3 + 9(2) = 21$."
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Số hạng của cấp số nhân",
+      "question": "Cho cấp số nhân có $u_1 = 3, q = 2$. Số hạng thứ 4 ($u_4$) bằng:",
+      "answer": "24",
+      "explanation": "$u_4 = 3 \\cdot 2^3 = 24$."
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Số hạng của cấp số nhân",
+      "question": "Cấp số nhân $u_1 = 2, q = 3$. Giá trị của $u_3$ là:",
+      "answer": "18",
+      "explanation": "$u_3 = 2 \\cdot 3^2 = 18$."
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Số hạng của cấp số nhân",
+      "question": "Cấp số nhân có $u_1 = 1, q = 4$. Số hạng $u_3$ bằng:",
+      "answer": "16",
+      "explanation": "$u_3 = 1 \\cdot 4^2 = 16$."
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Số hạng của cấp số nhân",
+      "question": "Cho cấp số nhân $u_1 = 5, q = 2$. Tính $u_4$:",
+      "answer": "40",
+      "explanation": "$u_4 = 5 \\cdot 2^3 = 40$."
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Tổng cấp số cộng cơ bản",
+      "question": "Tính tổng 5 số hạng đầu của cấp số cộng $1, 3, 5, 7, 9$:",
+      "answer": "25",
+      "explanation": "Tổng bằng $1 + 3 + 5 + 7 + 9 = 25$."
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Tổng cấp số cộng cơ bản",
+      "question": "Cho cấp số cộng $u_1 = 2, d = 3$. Tổng 4 số hạng đầu bằng:",
+      "answer": "26",
+      "explanation": "Các số hạng: 2, 5, 8, 11. Tổng bằng 26."
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Tổng cấp số cộng cơ bản",
+      "question": "Tổng 3 số hạng đầu của cấp số cộng có $u_1 = 4, d = 2$ là:",
+      "answer": "18",
+      "explanation": "4 + 6 + 8 = 18."
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Tổng cấp số cộng cơ bản",
+      "question": "Cấp số cộng $u_1 = 10, d = -1$. Tổng 3 số hạng đầu là:",
+      "answer": "27",
+      "explanation": "10 + 9 + 8 = 27."
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Số hạng trung gian của cấp số nhân",
+      "question": "Cho ba số dương $2, x, 18$ lập thành cấp số nhân. Giá trị của x là:",
+      "answer": "6",
+      "explanation": "$x^2 = 2 \\cdot 18 = 36 \\Rightarrow x = 6$."
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Số hạng trung gian của cấp số nhân",
+      "question": "Tìm số dương x để ba số $3, x, 12$ là cấp số nhân:",
+      "answer": "6",
+      "explanation": "$x^2 = 36 \\Rightarrow x = 6$."
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "vd",
+      "dang": "Số hạng trung gian của cấp số nhân",
+      "question": "Ba số dương $4, x, 16$ lập thành cấp số nhân. Giá trị của x bằng:",
+      "answer": "8",
+      "explanation": "$x^2 = 64 \\Rightarrow x = 8$."
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Giá trị đại diện của nhóm",
+      "question": "Giá trị đại diện của nhóm $[20; 30)$ bằng bao nhiêu?",
+      "answer": "25",
+      "explanation": "$(20 + 30)/2 = 25$."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Giá trị đại diện của nhóm",
+      "question": "Cho nhóm $[10; 20)$. Tính giá trị đại diện của nhóm:",
+      "answer": "15",
+      "explanation": "$(10 + 20)/2 = 15$."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Giá trị đại diện của nhóm",
+      "question": "Giá trị đại diện của nhóm $[40; 60)$ bằng:",
+      "answer": "50",
+      "explanation": "$(40 + 60)/2 = 50$."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Giá trị đại diện của nhóm",
+      "question": "Tính giá trị đại diện của nhóm $[0; 10)$:",
+      "answer": "5",
+      "explanation": "$(0 + 10)/2 = 5$."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Giá trị đại diện của nhóm",
+      "question": "Giá trị đại diện của nhóm $[50; 70)$ là:",
+      "answer": "60",
+      "explanation": "$(50 + 70)/2 = 60$."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài nhóm ghép nhóm",
+      "question": "Độ dài của nhóm $[15; 25)$ bằng bao nhiêu?",
+      "answer": "10",
+      "explanation": "$25 - 15 = 10$."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài nhóm ghép nhóm",
+      "question": "Cho nhóm $[30; 50)$. Độ dài của nhóm là:",
+      "answer": "20",
+      "explanation": "$50 - 30 = 20$."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài nhóm ghép nhóm",
+      "question": "Độ dài của nhóm $[0; 5)$ bằng:",
+      "answer": "5",
+      "explanation": "$5 - 0 = 5$."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài nhóm ghép nhóm",
+      "question": "Nhóm $[100; 150)$ có độ dài bằng bao nhiêu?",
+      "answer": "50",
+      "explanation": "$150 - 100 = 50$."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài nhóm ghép nhóm",
+      "question": "Độ dài của nhóm $[20; 35)$ là:",
+      "answer": "15",
+      "explanation": "$35 - 20 = 15$."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Cỡ mẫu của bảng tần số",
+      "question": "Bảng tần số ghép nhóm có các tần số là $5, 15, 10, 20$. Cỡ mẫu n bằng:",
+      "answer": "50",
+      "explanation": "$5 + 15 + 10 + 20 = 50$."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Cỡ mẫu của bảng tần số",
+      "question": "Tần số của ba nhóm lần lượt là $12, 18, 10$. Tính cỡ mẫu:",
+      "answer": "40",
+      "explanation": "$12 + 18 + 10 = 40$."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Cỡ mẫu của bảng tần số",
+      "question": "Cho bảng tần số có $n_1 = 8, n_2 = 12, n_3 = 10$. Cỡ mẫu n là:",
+      "answer": "30",
+      "explanation": "$8 + 12 + 10 = 30$."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Cỡ mẫu của bảng tần số",
+      "question": "Bảng có các tần số $25, 35, 40$. Cỡ mẫu bằng:",
+      "answer": "100",
+      "explanation": "$25 + 35 + 40 = 100$."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Cỡ mẫu của bảng tần số",
+      "question": "Các tần số lần lượt là $7, 13, 20$. Cỡ mẫu n bằng bao nhiêu?",
+      "answer": "40",
+      "explanation": "$7 + 13 + 20 = 40$."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính số trung bình mẫu đối xứng",
+      "question": "Cho hai nhóm $[10; 20)$ và $[20; 30)$ đều có cùng tần số bằng 10. Số trung bình bằng:",
+      "answer": "20",
+      "explanation": "Vì hai nhóm có cùng tần số nên $\\bar{x} = (15 + 25)/2 = 20$."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính số trung bình mẫu đối xứng",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có tần số bằng nhau. Tính số trung bình:",
+      "answer": "10",
+      "explanation": "$\\bar{x} = (5 + 15)/2 = 10$."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính số trung bình mẫu đối xứng",
+      "question": "Ba nhóm $[10; 20), [20; 30), [30; 40)$ có tần số lần lượt là $4, 8, 4$. Số trung bình là:",
+      "answer": "25",
+      "explanation": "Bảng đối xứng quanh nhóm 2, $\\bar{x} = 25$."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính số trung bình mẫu đối xứng",
+      "question": "Ba nhóm $[40; 50), [50; 60), [60; 70)$ có tần số $5, 10, 5$. Tính số trung bình:",
+      "answer": "55",
+      "explanation": "$\\bar{x} = 55$."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của mẫu ghép nhóm",
+      "question": "Nhóm đầu là $[0; 10)$ và nhóm cuối là $[40; 50)$. Khoảng biến thiên R bằng:",
+      "answer": "50",
+      "explanation": "$R = 50 - 0 = 50$."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của mẫu ghép nhóm",
+      "question": "Mẫu có nhóm nhỏ nhất $[10; 20)$ và nhóm lớn nhất $[60; 70)$. Tính khoảng biến thiên:",
+      "answer": "60",
+      "explanation": "$R = 70 - 10 = 60$."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của mẫu ghép nhóm",
+      "question": "Bảng ghép nhóm từ $[20; 30)$ đến $[80; 90)$. Giá trị của R bằng:",
+      "answer": "70",
+      "explanation": "$R = 90 - 20 = 70$."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của mẫu ghép nhóm",
+      "question": "Khoảng biến thiên của mẫu từ $[5; 15)$ đến $[45; 55)$ là:",
+      "answer": "50",
+      "explanation": "$R = 55 - 5 = 50$."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị",
+      "question": "Cho $Q_1 = 15$ và $Q_3 = 35$. Khoảng tứ phân vị $\\Delta_Q$ bằng bao nhiêu?",
+      "answer": "20",
+      "explanation": "$\\Delta_Q = 35 - 15 = 20$."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị",
+      "question": "Biết $Q_1 = 20$ và $Q_3 = 45$. Tính khoảng tứ phân vị:",
+      "answer": "25",
+      "explanation": "$\\Delta_Q = 45 - 20 = 25$."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị",
+      "question": "Cho $Q_1 = 12$ và $Q_3 = 28$. Giá trị của $\\Delta_Q$ là:",
+      "answer": "16",
+      "explanation": "$\\Delta_Q = 28 - 12 = 16$."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị",
+      "question": "Mẫu số liệu có $Q_1 = 25$ và $Q_3 = 55$. Khoảng tứ phân vị bằng:",
+      "answer": "30",
+      "explanation": "$\\Delta_Q = 55 - 25 = 30$."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Trung vị của phân bố đối xứng",
+      "question": "Bảng số liệu ba nhóm $[10; 20), [20; 30), [30; 40)$ có tần số lần lượt là $6, 12, 6$. Trung vị $M_e$ bằng:",
+      "answer": "25",
+      "explanation": "Do phân bố đối xứng nên trung vị bằng tâm điểm $25$."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Trung vị của phân bố đối xứng",
+      "question": "Ba nhóm $[0; 20), [20; 40), [40; 60)$ có tần số tương ứng $5, 20, 5$. Giá trị của trung vị là:",
+      "answer": "30",
+      "explanation": "Bảng đối xứng nên trung vị bằng $30$."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Trung vị của phân bố đối xứng",
+      "question": "Cho ba nhóm $[40; 60), [60; 80), [80; 100)$ có tần số $10, 30, 10$. Tính trung vị:",
+      "answer": "70",
+      "explanation": "Trung vị bằng $70$."
+    },
+    {
+      "id": "sa-c4-001",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình tứ diện có tất cả bao nhiêu đỉnh?",
+      "answer": "4",
+      "explanation": "Tứ diện có 4 đỉnh."
+    },
+    {
+      "id": "sa-c4-002",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình tứ diện có bao nhiêu mặt?",
+      "answer": "4",
+      "explanation": "Tứ diện có 4 mặt (là 4 tam giác)."
+    },
+    {
+      "id": "sa-c4-003",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình chóp tứ giác có tất cả bao nhiêu mặt?",
+      "answer": "5",
+      "explanation": "1 mặt đáy + 4 mặt bên = 5 mặt."
+    },
+    {
+      "id": "sa-c4-004",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình hộp có tất cả bao nhiêu đỉnh?",
+      "answer": "8",
+      "explanation": "Hình hộp có 8 đỉnh."
+    },
+    {
+      "id": "sa-c4-005",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số đỉnh và số mặt của hình đa diện",
+      "question": "Hình lăng trụ tam giác có bao nhiêu đỉnh?",
+      "answer": "6",
+      "explanation": "2 đáy mỗi đáy 3 đỉnh, tổng là 6 đỉnh."
+    },
+    {
+      "id": "sa-c4-006",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình tứ diện có tất cả bao nhiêu cạnh?",
+      "answer": "6",
+      "explanation": "Tứ diện có 6 cạnh."
+    },
+    {
+      "id": "sa-c4-007",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình chóp tứ giác có tất cả bao nhiêu cạnh?",
+      "answer": "8",
+      "explanation": "4 cạnh đáy + 4 cạnh bên = 8 cạnh."
+    },
+    {
+      "id": "sa-c4-008",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình hộp có tất cả bao nhiêu cạnh?",
+      "answer": "12",
+      "explanation": "Hình hộp có 12 cạnh."
+    },
+    {
+      "id": "sa-c4-009",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình lăng trụ tam giác có bao nhiêu cạnh?",
+      "answer": "9",
+      "explanation": "6 cạnh đáy + 3 cạnh bên = 9 cạnh."
+    },
+    {
+      "id": "sa-c4-010",
+      "chapter": "c4",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Số cạnh của hình không gian",
+      "question": "Hình chóp ngũ giác có tất cả bao nhiêu cạnh?",
+      "answer": "10",
+      "explanation": "5 cạnh đáy + 5 cạnh bên = 10 cạnh."
+    },
+    {
+      "id": "sa-c4-011",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình hộp có bao nhiêu cặp mặt đối diện song song với nhau?",
+      "answer": "3",
+      "explanation": "Có 3 cặp mặt đối diện."
+    },
+    {
+      "id": "sa-c4-012",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Số đường chéo của một hình hộp bằng bao nhiêu?",
+      "answer": "4",
+      "explanation": "Hình hộp có 4 đường chéo."
+    },
+    {
+      "id": "sa-c4-013",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình lập phương có bao nhiêu mặt?",
+      "answer": "6",
+      "explanation": "Hình lập phương có 6 mặt."
+    },
+    {
+      "id": "sa-c4-014",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình chóp tam giác có bao nhiêu mặt bên?",
+      "answer": "3",
+      "explanation": "Có 3 mặt bên."
+    },
+    {
+      "id": "sa-c4-015",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "nb",
+      "dang": "Số mặt đối diện song song trong hình hộp",
+      "question": "Hình lăng trụ tứ giác có bao nhiêu mặt bên?",
+      "answer": "4",
+      "explanation": "Có 4 mặt bên."
+    },
+    {
+      "id": "sa-c4-016",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho tam giác SAB có $AB = 10\\text{ cm}$. M và N là trung điểm của SA và SB. Độ dài MN bằng bao nhiêu cm?",
+      "answer": "5",
+      "explanation": "$MN = AB/2 = 10/2 = 5\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-017",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Trong tứ diện ABCD, $CD = 14\\text{ cm}$. M, N là trung điểm của BC và BD. Độ dài MN bằng:",
+      "answer": "7",
+      "explanation": "$MN = CD/2 = 14/2 = 7\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-018",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho hình chóp $S.ABCD$ đáy hình bình hành $AB = 16\\text{ cm}$. Đoạn trung bình MN của tam giác SAB dài bao nhiêu cm?",
+      "answer": "8",
+      "explanation": "$MN = 16/2 = 8\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-019",
+      "chapter": "c4",
+      "lesson": "b11",
+      "level": "th",
+      "dang": "Tính độ dài đoạn thẳng trung bình",
+      "question": "Cho $AB = 12\\text{ cm}$. Đường trung bình song song với AB có độ dài là:",
+      "answer": "6",
+      "explanation": "$12/2 = 6\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-020",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Ba mặt phẳng song song chắn trên cát tuyến d hai đoạn $AB = 4, BC = 8$ và trên cát tuyến d' đoạn $A'B' = 3$. Độ dài $B'C'$ bằng:",
+      "answer": "6",
+      "explanation": "$B'C' = 3 \\times (8/4) = 6$."
+    },
+    {
+      "id": "sa-c4-021",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Cho $AB = 2, BC = 6$ và $A'B' = 5$. Tính độ dài $B'C'$:",
+      "answer": "15",
+      "explanation": "$B'C' = 5 \\times (6/2) = 15$."
+    },
+    {
+      "id": "sa-c4-022",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Cho $AB = 5, BC = 5$ và $A'B' = 7$. Độ dài $B'C'$ bằng:",
+      "answer": "7",
+      "explanation": "$B'C' = 7$."
+    },
+    {
+      "id": "sa-c4-023",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Tính tỉ số Ta-lét trong không gian",
+      "question": "Biết $AB/BC = 1/3$ và $A'B' = 4$. Độ dài $B'C'$ bằng bao nhiêu?",
+      "answer": "12",
+      "explanation": "$B'C' = 4 \\times 3 = 12$."
+    },
+    {
+      "id": "sa-c4-024",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Cho tứ diện đều ABCD có tất cả các cạnh bằng 6 cm. Cắt bởi mặt phẳng song song với (BCD) qua trung điểm AB. Chu vi tam giác thiết diện bằng bao nhiêu cm?",
+      "answer": "9",
+      "explanation": "Mỗi cạnh thiết diện bằng $6/2 = 3\\text{ cm}$. Chu vi bằng $3 \\times 3 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-025",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Tam giác đáy có chu vi 18 cm. Thiết diện qua trung điểm cạnh bên song song với đáy có chu vi bằng:",
+      "answer": "9",
+      "explanation": "$18/2 = 9\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-026",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Đáy hình chóp có chu vi 20 cm. Chu vi thiết diện song song với đáy qua trung điểm chiều cao là:",
+      "answer": "10",
+      "explanation": "$20/2 = 10\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-027",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "th",
+      "dang": "Chu vi thiết diện tam giác trung điểm",
+      "question": "Tam giác đều cạnh 8 cm có chu vi là 24 cm. Chu vi thiết diện tỉ số $1/2$ bằng:",
+      "answer": "12",
+      "explanation": "$24/2 = 12\\text{ cm}$."
+    },
+    {
+      "id": "sa-c4-028",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Hình lập phương có cạnh 4 cm. Diện tích thiết diện cắt bởi mặt phẳng song song với đáy bằng bao nhiêu cm vuông?",
+      "answer": "16",
+      "explanation": "$4^2 = 16\\text{ cm}^2$."
+    },
+    {
+      "id": "sa-c4-029",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Hình lập phương có cạnh 5 cm. Diện tích mặt cắt song song với một mặt bên là:",
+      "answer": "25",
+      "explanation": "$5^2 = 25\\text{ cm}^2$."
+    },
+    {
+      "id": "sa-c4-030",
+      "chapter": "c4",
+      "lesson": "b13",
+      "level": "vd",
+      "dang": "Diện tích hình vuông thiết diện",
+      "question": "Một khối lập phương cạnh 3 cm. Mặt cắt song song đáy có diện tích bằng:",
+      "answer": "9",
+      "explanation": "$3^2 = 9\\text{ cm}^2$."
+    },
+    {
+      "id": "sa-c5-001",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính giới hạn $\\lim_{x \\to 2} (3x + 4)$:",
+      "answer": "10",
+      "explanation": "Thay $x = 2$: $3(2) + 4 = 10$."
+    },
+    {
+      "id": "sa-c5-002",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Giá trị của $\\lim_{x \\to 1} (5x - 2)$ bằng:",
+      "answer": "3",
+      "explanation": "$5(1) - 2 = 3$."
+    },
+    {
+      "id": "sa-c5-003",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính $\\lim_{x \\to 3} (2x^2 + 1)$:",
+      "answer": "19",
+      "explanation": "$2(9) + 1 = 19$."
+    },
+    {
+      "id": "sa-c5-004",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Giới hạn $\\lim_{x \\to 0} (4x + 7)$ bằng:",
+      "answer": "7",
+      "explanation": "$4(0) + 7 = 7$."
+    },
+    {
+      "id": "sa-c5-005",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "nb",
+      "dang": "Giới hạn cơ bản tại một điểm",
+      "question": "Tính giá trị của $\\lim_{x \\to 4} (2x - 3)$:",
+      "answer": "5",
+      "explanation": "$2(4) - 3 = 5$."
+    },
+    {
+      "id": "sa-c5-006",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giá trị của $\\lim \\frac{5}{n}$ bằng bao nhiêu?",
+      "answer": "0",
+      "explanation": "Hằng số chia cho vô cực bằng 0."
+    },
+    {
+      "id": "sa-c5-007",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Tính giới hạn $\\lim \\frac{1}{n^3}$:",
+      "answer": "0",
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-008",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giới hạn $\\lim \\left(\\frac{1}{4}\\right)^n$ bằng:",
+      "answer": "0",
+      "explanation": "Do $|1/4| < 1$ nên giới hạn bằng 0."
+    },
+    {
+      "id": "sa-c5-009",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Tính $\\lim \\frac{-8}{n^2}$:",
+      "answer": "0",
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-010",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "nb",
+      "dang": "Giới hạn dãy số bằng 0",
+      "question": "Giá trị của $\\lim \\left(-\\frac{1}{2}\\right)^n$ là:",
+      "answer": "0",
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c5-011",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Cho hàm số $f(x) = x^2 + 3$. Giá trị của $f(2)$ bằng bao nhiêu?",
+      "answer": "7",
+      "explanation": "$2^2 + 3 = 7$."
+    },
+    {
+      "id": "sa-c5-012",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Hàm số $f(x) = 2x + 5$ có giá trị tại $x = 3$ bằng:",
+      "answer": "11",
+      "explanation": "$2(3) + 5 = 11$."
+    },
+    {
+      "id": "sa-c5-013",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Giá trị của $f(1)$ với $f(x) = 4x^3 - 1$ là:",
+      "answer": "3",
+      "explanation": "$4(1) - 1 = 3$."
+    },
+    {
+      "id": "sa-c5-014",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Tính $f(0)$ biết $f(x) = 3x^2 + 8$:",
+      "answer": "8",
+      "explanation": "$f(0) = 8$."
+    },
+    {
+      "id": "sa-c5-015",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "nb",
+      "dang": "Tính liên tục của đa thức tại một điểm",
+      "question": "Cho $f(x) = 5 - 2x$. Tính $f(1)$:",
+      "answer": "3",
+      "explanation": "$5 - 2(1) = 3$."
+    },
+    {
+      "id": "sa-c5-016",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Tính giới hạn $\\lim \\frac{6n + 1}{2n + 3}$:",
+      "answer": "3",
+      "explanation": "$6/2 = 3$."
+    },
+    {
+      "id": "sa-c5-017",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Giá trị của $\\lim \\frac{8n^2 + 5}{2n^2 + 1}$ bằng:",
+      "answer": "4",
+      "explanation": "$8/2 = 4$."
+    },
+    {
+      "id": "sa-c5-018",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Tính $\\lim \\frac{10n - 3}{5n + 2}$:",
+      "answer": "2",
+      "explanation": "$10/5 = 2$."
+    },
+    {
+      "id": "sa-c5-019",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Giới hạn phân thức cùng bậc",
+      "question": "Giới hạn $\\lim \\frac{12n^3 + 1}{3n^3 + 4}$ bằng:",
+      "answer": "4",
+      "explanation": "$12/3 = 4$."
+    },
+    {
+      "id": "sa-c5-020",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Tính giới hạn $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$:",
+      "answer": "4",
+      "explanation": "$\\lim_{x \\to 2} (x + 2) = 4$."
+    },
+    {
+      "id": "sa-c5-021",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Giá trị của $\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}$ là:",
+      "answer": "6",
+      "explanation": "$\\lim_{x \\to 3} (x + 3) = 6$."
+    },
+    {
+      "id": "sa-c5-022",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Tính $\\lim_{x \\to 4} \\frac{x^2 - 16}{x - 4}$:",
+      "answer": "8",
+      "explanation": "$\\lim_{x \\to 4} (x + 4) = 8$."
+    },
+    {
+      "id": "sa-c5-023",
+      "chapter": "c5",
+      "lesson": "b16",
+      "level": "th",
+      "dang": "Khử dạng vô định 0/0",
+      "question": "Giới hạn $\\lim_{x \\to 5} \\frac{x^2 - 25}{x - 5}$ bằng:",
+      "answer": "10",
+      "explanation": "$\\lim_{x \\to 5} (x + 5) = 10$."
+    },
+    {
+      "id": "sa-c5-024",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Tính tổng cấp số nhân lùi vô hạn có $u_1 = 3, q = \\frac{1}{2}$:",
+      "answer": "6",
+      "explanation": "$S = 3 / (1 - 1/2) = 6$."
+    },
+    {
+      "id": "sa-c5-025",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Cấp số nhân lùi vô hạn $u_1 = 4, q = \\frac{1}{2}$ có tổng bằng:",
+      "answer": "8",
+      "explanation": "$S = 4 / (1/2) = 8$."
+    },
+    {
+      "id": "sa-c5-026",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Tính tổng $S = 5 + \\frac{5}{2} + \\frac{5}{4} + \\dots$:",
+      "answer": "10",
+      "explanation": "$S = 5 / (1/2) = 10$."
+    },
+    {
+      "id": "sa-c5-027",
+      "chapter": "c5",
+      "lesson": "b15",
+      "level": "th",
+      "dang": "Tổng cấp số nhân lùi vô hạn nguyên",
+      "question": "Cho $u_1 = 2, q = \\frac{2}{3}$. Tổng của cấp số nhân lùi vô hạn bằng:",
+      "answer": "6",
+      "explanation": "$S = 2 / (1 - 2/3) = 6$."
+    },
+    {
+      "id": "sa-c5-028",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Cho hàm số $f(x) = \\frac{x^2 - 1}{x - 1}$ khi $x \\neq 1$ và $f(1) = m$. Tìm m để hàm liên tục tại $x = 1$:",
+      "answer": "2",
+      "explanation": "Giới hạn bằng 2, vậy $m = 2$."
+    },
+    {
+      "id": "sa-c5-029",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Tìm m để hàm số $f(x) = \\frac{x^2 - 4}{x - 2}$ khi $x \\neq 2$ và $f(2) = m$ liên tục tại $x = 2$:",
+      "answer": "4",
+      "explanation": "Giới hạn bằng 4, vậy $m = 4$."
+    },
+    {
+      "id": "sa-c5-030",
+      "chapter": "c5",
+      "lesson": "b17",
+      "level": "vd",
+      "dang": "Tìm m để hàm liên tục tại điểm",
+      "question": "Cho $f(x) = \\frac{x^2 - 9}{x - 3}$ ($x \\neq 3$) và $f(3) = 2m$. Tìm m để hàm liên tục tại $x = 3$:",
+      "answer": "3",
+      "explanation": "$2m = 6 \\Rightarrow m = 3$."
+    }
+  ]
+}

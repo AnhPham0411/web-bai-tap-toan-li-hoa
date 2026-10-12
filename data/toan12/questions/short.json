@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "sa-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Hàm số $y = x^3 - 3x$ có bao nhiêu điểm cực trị?",
+      "answer": "2",
+      "explanation": "$y' = 3x^2 - 3 = 0$ có 2 nghiệm phân biệt nên có 2 cực trị."
+    },
+    {
+      "id": "sa-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x + 1}$ có bao nhiêu điểm cực trị?",
+      "answer": "0",
+      "explanation": "Hàm bậc nhất trên bậc nhất không có cực trị."
+    },
+    {
+      "id": "sa-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Số điểm cực trị của hàm số $y = x^4 - 2x^2 + 1$ là:",
+      "answer": "3",
+      "explanation": "$y' = 4x(x^2 - 1) = 0$ có 3 nghiệm phân biệt."
+    },
+    {
+      "id": "sa-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Hàm số $y = x^2 - 4x + 3$ có bao nhiêu điểm cực trị?",
+      "answer": "1",
+      "explanation": "Parabol có đúng 1 điểm cực trị."
+    },
+    {
+      "id": "sa-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Số điểm cực trị của hàm số",
+      "question": "Cho hàm số $y = x^3 + 3x$. Số điểm cực trị của hàm số bằng:",
+      "answer": "0",
+      "explanation": "$y' = 3x^2 + 3 > 0$ nên không có cực trị."
+    },
+    {
+      "id": "sa-c1-006",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Đồ thị hàm số $y = \\frac{2x + 1}{x - 3}$ có tiệm cận đứng $x = a$. Giá trị của a bằng:",
+      "answer": "3",
+      "explanation": "Nghiệm của mẫu số là $x = 3$."
+    },
+    {
+      "id": "sa-c1-007",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Tiệm cận đứng của đồ thị $y = \\frac{x - 2}{x + 4}$ là $x = a$. Tìm a:",
+      "answer": "-4",
+      "explanation": "$x + 4 = 0 \\Rightarrow x = -4$."
+    },
+    {
+      "id": "sa-c1-008",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Cho đồ thị $y = \\frac{1}{x - 5}$. Giá trị tiệm cận đứng $x = a$ là:",
+      "answer": "5",
+      "explanation": "Mẫu số triệt tiêu tại $x = 5$."
+    },
+    {
+      "id": "sa-c1-009",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Tiệm cận đứng của $y = \\frac{3x}{x - 1}$ là $x = a$. Giá trị của a là:",
+      "answer": "1",
+      "explanation": "Tiệm cận đứng $x = 1$."
+    },
+    {
+      "id": "sa-c1-010",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận đứng",
+      "question": "Đồ thị $y = \\frac{x + 2}{x + 1}$ có tiệm cận đứng là $x = a$. Tìm a:",
+      "answer": "-1",
+      "explanation": "Tiệm cận đứng $x = -1$."
+    },
+    {
+      "id": "sa-c1-011",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{3x - 1}{x + 2}$ có tiệm cận ngang $y = b$. Giá trị của b là:",
+      "answer": "3",
+      "explanation": "$b = 3/1 = 3$."
+    },
+    {
+      "id": "sa-c1-012",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Tiệm cận ngang của $y = \\frac{2x + 5}{x - 1}$ là $y = b$. Giá trị của b bằng:",
+      "answer": "2",
+      "explanation": "$b = 2/1 = 2$."
+    },
+    {
+      "id": "sa-c1-013",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Cho hàm số $y = \\frac{4x - 2}{2x + 3}$. Tiệm cận ngang là $y = b$. Tìm b:",
+      "answer": "2",
+      "explanation": "$b = 4/2 = 2$."
+    },
+    {
+      "id": "sa-c1-014",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Đồ thị $y = \\frac{5x + 1}{x - 2}$ có tiệm cận ngang $y = b$. Giá trị b là:",
+      "answer": "5",
+      "explanation": "$b = 5$."
+    },
+    {
+      "id": "sa-c1-015",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Giá trị tiệm cận ngang",
+      "question": "Tiệm cận ngang của $y = \\frac{6x - 1}{3x + 2}$ là $y = b$. Tìm b:",
+      "answer": "2",
+      "explanation": "$b = 6/3 = 2$."
+    },
+    {
+      "id": "sa-c1-016",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = -x^2 + 4x + 1$ trên đoạn $[0; 3]$:",
+      "answer": "5",
+      "explanation": "Parabol có đỉnh tại $x = 2$: $y(2) = -4 + 8 + 1 = 5$."
+    },
+    {
+      "id": "sa-c1-017",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Giá trị lớn nhất của hàm số $y = x^3 - 3x + 2$ trên đoạn $[0; 2]$ bằng:",
+      "answer": "4",
+      "explanation": "$y(0) = 2, y(1) = 0, y(2) = 4$. GTLN bằng 4."
+    },
+    {
+      "id": "sa-c1-018",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Tìm GTLN của hàm số $y = -x^3 + 3x$ trên đoạn $[0; 2]$:",
+      "answer": "2",
+      "explanation": "$y(0) = 0, y(1) = 2, y(2) = -2$. GTLN bằng 2."
+    },
+    {
+      "id": "sa-c1-019",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN của hàm số trên đoạn",
+      "question": "Giá trị lớn nhất của hàm số $y = 4 - x^2$ trên đoạn $[-1; 1]$ là:",
+      "answer": "4",
+      "explanation": "Lớn nhất tại $x = 0$ bằng 4."
+    },
+    {
+      "id": "sa-c1-020",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = x^2 - 4x + 5$ trên đoạn $[0; 3]$:",
+      "answer": "1",
+      "explanation": "Đỉnh tại $x = 2$: $y(2) = 4 - 8 + 5 = 1$."
+    },
+    {
+      "id": "sa-c1-021",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 4$ trên đoạn $[0; 2]$ bằng:",
+      "answer": "2",
+      "explanation": "$y(0) = 4, y(1) = 2, y(2) = 6$. GTNN bằng 2."
+    },
+    {
+      "id": "sa-c1-022",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Tìm GTNN của hàm số $y = x + \\frac{4}{x}$ trên đoạn $[1; 3]$:",
+      "answer": "4",
+      "explanation": "Tại $x = 2: y = 2 + 2 = 4$."
+    },
+    {
+      "id": "sa-c1-023",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTNN của hàm số trên đoạn",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 2x + 3$ trên đoạn $[0; 2]$ là:",
+      "answer": "2",
+      "explanation": "Đỉnh $x = 1: y(1) = 2$."
+    },
+    {
+      "id": "sa-c1-024",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x - 3}$ có hai tiệm cận cắt nhau tại điểm $I(x_0; y_0)$. Tổng $x_0 + y_0$ bằng:",
+      "answer": "5",
+      "explanation": "$x_0 = 3, y_0 = 2 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-025",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Cho hàm số $y = \\frac{3x + 1}{x - 2}$. Giao điểm tiệm cận $I(x_0; y_0)$ có tổng toạ độ $x_0 + y_0$ là:",
+      "answer": "5",
+      "explanation": "$x_0 = 2, y_0 = 3 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-026",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị $y = \\frac{4x - 5}{x - 1}$ có giao điểm tiệm cận $I(x_0; y_0)$. Tính $x_0 + y_0$:",
+      "answer": "5",
+      "explanation": "$x_0 = 1, y_0 = 4 \\Rightarrow x_0 + y_0 = 5$."
+    },
+    {
+      "id": "sa-c1-027",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Toạ độ giao điểm của hai tiệm cận",
+      "question": "Đồ thị $y = \\frac{5x + 2}{x - 3}$ có giao điểm hai tiệm cận $I(a; b)$. Giá trị của $a + b$ là:",
+      "answer": "8",
+      "explanation": "$a = 3, b = 5 \\Rightarrow a + b = 8$."
+    },
+    {
+      "id": "sa-c1-028",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí sản xuất x sản phẩm là $C(x) = x^2 + 20x + 2500$. Để chi phí trung bình $\\bar{C}(x)$ nhỏ nhất thì số sản phẩm x bằng:",
+      "answer": "50",
+      "explanation": "$\\bar{C}(x) = x + 20 + 2500/x$. Đạt nhỏ nhất khi $x = \\sqrt{2500} = 50$."
+    },
+    {
+      "id": "sa-c1-029",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí $C(x) = x^2 + 10x + 3600$. Chi phí trung bình nhỏ nhất khi x bằng:",
+      "answer": "60",
+      "explanation": "$x = \\sqrt{3600} = 60$."
+    },
+    {
+      "id": "sa-c1-030",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Số sản phẩm tối ưu chi phí",
+      "question": "Hàm chi phí $C(x) = x^2 + 30x + 1600$. Chi phí trên một đơn vị sản phẩm nhỏ nhất tại x bằng:",
+      "answer": "40",
+      "explanation": "$x = \\sqrt{1600} = 40$."
+    },
+    {
+      "id": "sa-c2-001",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Độ dài vectơ đơn vị",
+      "question": "Độ dài của vectơ đơn vị $\\vec{i}$ trong hệ trục toạ độ $Oxyz$ bằng bao nhiêu?",
+      "answer": "1",
+      "explanation": "Vectơ đơn vị có độ dài bằng 1."
+    },
+    {
+      "id": "sa-c2-002",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Độ dài vectơ đơn vị",
+      "question": "Giá trị của $|\\vec{j}|$ bằng:",
+      "answer": "1",
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "sa-c2-003",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Độ dài vectơ đơn vị",
+      "question": "Độ dài của vectơ đơn vị $\\vec{k}$ là:",
+      "answer": "1",
+      "explanation": "Bằng 1."
+    },
+    {
+      "id": "sa-c2-004",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Độ dài vectơ đơn vị",
+      "question": "Tích vô hướng $\\vec{i} \\cdot \\vec{j}$ bằng bao nhiêu?",
+      "answer": "0",
+      "explanation": "Vuông góc nên tích vô hướng bằng 0."
+    },
+    {
+      "id": "sa-c2-005",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Độ dài vectơ đơn vị",
+      "question": "Tích vô hướng $\\vec{i} \\cdot \\vec{k}$ bằng:",
+      "answer": "0",
+      "explanation": "Bằng 0."
+    },
+    {
+      "id": "sa-c2-006",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm nguyên",
+      "question": "Cho $A(1; 2; 3)$ và $B(3; 4; 5)$. Hoành độ của trung điểm M là:",
+      "answer": "2",
+      "explanation": "$(1 + 3)/2 = 2$."
+    },
+    {
+      "id": "sa-c2-007",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm nguyên",
+      "question": "Trung điểm đoạn nối $A(0; 2; 4)$ và $B(4; 6; 8)$ có tung độ bằng:",
+      "answer": "4",
+      "explanation": "$(2 + 6)/2 = 4$."
+    },
+    {
+      "id": "sa-c2-008",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm nguyên",
+      "question": "Cao độ của trung điểm đoạn nối $A(1; 1; 2)$ và $B(3; 3; 6)$ là:",
+      "answer": "4",
+      "explanation": "$(2 + 6)/2 = 4$."
+    },
+    {
+      "id": "sa-c2-009",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm nguyên",
+      "question": "Cho $A(2; 0; 0)$ và $B(6; 0; 0)$. Toạ độ x của trung điểm là:",
+      "answer": "4",
+      "explanation": "$(2 + 6)/2 = 4$."
+    },
+    {
+      "id": "sa-c2-010",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm nguyên",
+      "question": "Tìm tung độ trung điểm của $A(1; 5; 2)$ và $B(3; 1; 4)$:",
+      "answer": "3",
+      "explanation": "$(5 + 1)/2 = 3$."
+    },
+    {
+      "id": "sa-c2-011",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài vectơ nguyên",
+      "question": "Độ dài của vectơ $\\vec{u} = (1; 2; 2)$ bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "$\\sqrt{1 + 4 + 4} = 3$."
+    },
+    {
+      "id": "sa-c2-012",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài vectơ nguyên",
+      "question": "Tính độ dài của vectơ $\\vec{v} = (0; 3; 4)$:",
+      "answer": "5",
+      "explanation": "$\\sqrt{9 + 16} = 5$."
+    },
+    {
+      "id": "sa-c2-013",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài vectơ nguyên",
+      "question": "Vectơ $\\vec{a} = (2; 3; 6)$ có độ dài bằng:",
+      "answer": "7",
+      "explanation": "$\\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$."
+    },
+    {
+      "id": "sa-c2-014",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài vectơ nguyên",
+      "question": "Độ dài của vectơ $\\vec{b} = (6; 8; 0)$ là:",
+      "answer": "10",
+      "explanation": "$\\sqrt{36 + 64} = 10$."
+    },
+    {
+      "id": "sa-c2-015",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài vectơ nguyên",
+      "question": "Tính độ dài của $\\vec{c} = (2; -2; 1)$:",
+      "answer": "3",
+      "explanation": "$\\sqrt{4 + 4 + 1} = 3$."
+    },
+    {
+      "id": "sa-c2-016",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm nguyên",
+      "question": "Khoảng cách giữa hai điểm $A(1; 2; 3)$ và $B(2; 4; 5)$ bằng bao nhiêu?",
+      "answer": "3",
+      "explanation": "$AB = \\sqrt{1 + 4 + 4} = 3$."
+    },
+    {
+      "id": "sa-c2-017",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm nguyên",
+      "question": "Tính khoảng cách từ gốc toạ độ $O(0; 0; 0)$ đến điểm $M(2; 3; 6)$:",
+      "answer": "7",
+      "explanation": "$OM = \\sqrt{4 + 9 + 36} = 7$."
+    },
+    {
+      "id": "sa-c2-018",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm nguyên",
+      "question": "Khoảng cách giữa $A(0; 0; 0)$ và $B(0; 3; 4)$ là:",
+      "answer": "5",
+      "explanation": "$AB = 5$."
+    },
+    {
+      "id": "sa-c2-019",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm nguyên",
+      "question": "Khoảng cách giữa hai điểm $M(1; 1; 1)$ và $N(7; 4; -1)$ bằng:",
+      "answer": "7",
+      "explanation": "$MN = \\sqrt{36 + 9 + 4} = 7$."
+    },
+    {
+      "id": "sa-c2-020",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tích vô hướng nguyên",
+      "question": "Cho $\\vec{u} = (2; 3; 1)$ và $\\vec{v} = (1; 2; 4)$. Tích vô hướng $\\vec{u} \\cdot \\vec{v}$ bằng:",
+      "answer": "12",
+      "explanation": "$2(1) + 3(2) + 1(4) = 2 + 6 + 4 = 12$."
+    },
+    {
+      "id": "sa-c2-021",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tích vô hướng nguyên",
+      "question": "Tính $\\vec{a} \\cdot \\vec{b}$ với $\\vec{a} = (3; 1; 2)$ và $\\vec{b} = (2; 4; 1)$:",
+      "answer": "12",
+      "explanation": "$3(2) + 1(4) + 2(1) = 12$."
+    },
+    {
+      "id": "sa-c2-022",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tích vô hướng nguyên",
+      "question": "Cho $\\vec{u} = (4; 1; 3)$ và $\\vec{v} = (2; 3; 1)$. Giá trị của $\\vec{u} \\cdot \\vec{v}$ là:",
+      "answer": "14",
+      "explanation": "$4(2) + 1(3) + 3(1) = 8 + 3 + 3 = 14$."
+    },
+    {
+      "id": "sa-c2-023",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tích vô hướng nguyên",
+      "question": "Tính tích vô hướng của $\\vec{a} = (5; 2; 1)$ và $\\vec{b} = (1; 3; 4)$:",
+      "answer": "15",
+      "explanation": "$5 + 6 + 4 = 15$."
+    },
+    {
+      "id": "sa-c2-024",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông",
+      "question": "Cho tứ diện vuông OABC tại O có $OA = 3, OB = 4, OC = 6$. Thể tích tứ diện bằng bao nhiêu?",
+      "answer": "12",
+      "explanation": "$V = \\frac{1}{6} \\cdot 3 \\cdot 4 \\cdot 6 = 12$."
+    },
+    {
+      "id": "sa-c2-025",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông",
+      "question": "Tứ diện vuông OABC có ba cạnh $OA = 2, OB = 3, OC = 4$. Thể tích V bằng:",
+      "answer": "4",
+      "explanation": "$V = \\frac{1}{6} \\cdot 2 \\cdot 3 \\cdot 4 = 4$."
+    },
+    {
+      "id": "sa-c2-026",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông",
+      "question": "Tính thể tích tứ diện vuông OABC biết $OA = 6, OB = 5, OC = 2$:",
+      "answer": "10",
+      "explanation": "$V = \\frac{1}{6} \\cdot 6 \\cdot 5 \\cdot 2 = 10$."
+    },
+    {
+      "id": "sa-c2-027",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông",
+      "question": "Cho $A(3; 0; 0), B(0; 2; 0), C(0; 0; 8)$. Thể tích tứ diện OABC bằng:",
+      "answer": "8",
+      "explanation": "$V = \\frac{1}{6} \\cdot 3 \\cdot 2 \\cdot 8 = 8$."
+    },
+    {
+      "id": "sa-c2-028",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm m để hai vectơ vuông góc",
+      "question": "Tìm m để $\\vec{u} = (m; 2; 3)$ vuông góc với $\\vec{v} = (2; -1; -2)$:",
+      "answer": "4",
+      "explanation": "$2m - 2 - 6 = 0 \\Rightarrow 2m = 8 \\Rightarrow m = 4$."
+    },
+    {
+      "id": "sa-c2-029",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm m để hai vectơ vuông góc",
+      "question": "Cho $\\vec{a} = (3; m; 1)$ và $\\vec{b} = (2; -2; 4)$. Tìm m để $\\vec{a} \\perp \\vec{b}$:",
+      "answer": "5",
+      "explanation": "$6 - 2m + 4 = 0 \\Rightarrow 2m = 10 \\Rightarrow m = 5$."
+    },
+    {
+      "id": "sa-c2-030",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm m để hai vectơ vuông góc",
+      "question": "Tìm m để $\\vec{u} = (1; 3; m)$ vuông góc với $\\vec{v} = (4; 2; -2)$:",
+      "answer": "5",
+      "explanation": "$4 + 6 - 2m = 0 \\Rightarrow 2m = 10 \\Rightarrow m = 5$."
+    },
+    {
+      "id": "sa-c3-001",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Mẫu số liệu ghép nhóm từ $[10; 20)$ đến $[40; 50)$. Khoảng biến thiên R bằng bao nhiêu?",
+      "answer": "40",
+      "explanation": "$R = 50 - 10 = 40$."
+    },
+    {
+      "id": "sa-c3-002",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Cho các nhóm từ $[0; 10)$ đến $[50; 60)$. Giá trị của R là:",
+      "answer": "60",
+      "explanation": "$R = 60 - 0 = 60$."
+    },
+    {
+      "id": "sa-c3-003",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Khoảng biến thiên của mẫu từ $[20; 30)$ đến $[70; 80)$ bằng:",
+      "answer": "60",
+      "explanation": "$R = 80 - 20 = 60$."
+    },
+    {
+      "id": "sa-c3-004",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Nhóm đầu là $[5; 15)$ và nhóm cuối là $[35; 45)$. Khoảng biến thiên R bằng:",
+      "answer": "40",
+      "explanation": "$R = 45 - 5 = 40$."
+    },
+    {
+      "id": "sa-c3-005",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng biến thiên cơ bản",
+      "question": "Mẫu từ $[100; 120)$ đến $[180; 200)$ có R bằng:",
+      "answer": "100",
+      "explanation": "$R = 200 - 100 = 100$."
+    },
+    {
+      "id": "sa-c3-006",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 20$ và $Q_3 = 45$. Khoảng tứ phân vị $\\Delta_Q$ bằng bao nhiêu?",
+      "answer": "25",
+      "explanation": "$\\Delta_Q = 45 - 20 = 25$."
+    },
+    {
+      "id": "sa-c3-007",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Biết $Q_1 = 15$ và $Q_3 = 35$. Giá trị của $\\Delta_Q$ là:",
+      "answer": "20",
+      "explanation": "$\\Delta_Q = 35 - 15 = 20$."
+    },
+    {
+      "id": "sa-c3-008",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 30$ và $Q_3 = 60$. Khoảng tứ phân vị bằng:",
+      "answer": "30",
+      "explanation": "$\\Delta_Q = 60 - 30 = 30$."
+    },
+    {
+      "id": "sa-c3-009",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Tìm $\\Delta_Q$ biết $Q_1 = 18$ và $Q_3 = 34$:",
+      "answer": "16",
+      "explanation": "$\\Delta_Q = 34 - 18 = 16$."
+    },
+    {
+      "id": "sa-c3-010",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khoảng tứ phân vị cơ bản",
+      "question": "Cho $Q_1 = 22$ và $Q_3 = 50$. Tính $\\Delta_Q$:",
+      "answer": "28",
+      "explanation": "$\\Delta_Q = 50 - 22 = 28$."
+    },
+    {
+      "id": "sa-c3-011",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Cho phương sai $s^2 = 25$. Độ lệch chuẩn s bằng bao nhiêu?",
+      "answer": "5",
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "sa-c3-012",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Nếu $s^2 = 36$ thì độ lệch chuẩn s bằng:",
+      "answer": "6",
+      "explanation": "$s = \\sqrt{36} = 6$."
+    },
+    {
+      "id": "sa-c3-013",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Phương sai của mẫu bằng 64. Độ lệch chuẩn s là:",
+      "answer": "8",
+      "explanation": "$s = \\sqrt{64} = 8$."
+    },
+    {
+      "id": "sa-c3-014",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Biết $s^2 = 81$. Giá trị của độ lệch chuẩn là:",
+      "answer": "9",
+      "explanation": "$s = \\sqrt{81} = 9$."
+    },
+    {
+      "id": "sa-c3-015",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Độ lệch chuẩn từ phương sai",
+      "question": "Cho $s^2 = 100$. Tính độ lệch chuẩn s:",
+      "answer": "10",
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "sa-c3-016",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Cho hai nhóm $[0; 10)$ và $[10; 20)$ cùng tần số bằng nhau. Phương sai $s^2$ bằng bao nhiêu?",
+      "answer": "25",
+      "explanation": "$s^2 = 25$."
+    },
+    {
+      "id": "sa-c3-017",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[10; 30)$ và $[30; 50)$ có tần số bằng nhau. Phương sai $s^2$ bằng:",
+      "answer": "100",
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-018",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có tần số bằng nhau. Giá trị của $s^2$ là:",
+      "answer": "100",
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-019",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu đối xứng",
+      "question": "Hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Tính $s^2$:",
+      "answer": "100",
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "sa-c3-020",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có tần số bằng nhau. Độ lệch chuẩn s bằng:",
+      "answer": "5",
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "sa-c3-021",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Độ lệch chuẩn s là:",
+      "answer": "10",
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "sa-c3-022",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có cùng tần số. Tính s:",
+      "answer": "10",
+      "explanation": "$s = 10$."
+    },
+    {
+      "id": "sa-c3-023",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn của hai nhóm",
+      "question": "Cho mẫu có phương sai $s^2 = 144$. Độ lệch chuẩn bằng:",
+      "answer": "12",
+      "explanation": "$s = \\sqrt{144} = 12$."
+    },
+    {
+      "id": "sa-c3-024",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 10, Q_3 = 20$. Ranh giới trên $Q_3 + 1,5\\Delta_Q$ bằng bao nhiêu?",
+      "answer": "35",
+      "explanation": "$20 + 1,5(10) = 35$."
+    },
+    {
+      "id": "sa-c3-025",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 20, Q_3 = 40$. Giá trị $Q_3 + 1,5\\Delta_Q$ bằng:",
+      "answer": "70",
+      "explanation": "$40 + 1,5(20) = 70$."
+    },
+    {
+      "id": "sa-c3-026",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Biết $Q_1 = 30, Q_3 = 50$. Tính ranh giới trên:",
+      "answer": "80",
+      "explanation": "$50 + 1,5(20) = 80$."
+    },
+    {
+      "id": "sa-c3-027",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới trên của giá trị ngoại lai",
+      "question": "Cho $Q_1 = 15, Q_3 = 25$. Ranh giới trên ngoại lai là:",
+      "answer": "40",
+      "explanation": "$25 + 1,5(10) = 40$."
+    },
+    {
+      "id": "sa-c3-028",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Mẫu có ba nhóm $[0; 10), [10; 20), [20; 30)$ có tần số $2, 6, 2$. Phương sai $s^2$ bằng bao nhiêu?",
+      "answer": "40",
+      "explanation": "$s^2 = 40$."
+    },
+    {
+      "id": "sa-c3-029",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Ba nhóm $[10; 20), [20; 30), [30; 40)$ có tần số $1, 8, 1$. Phương sai $s^2$ là:",
+      "answer": "20",
+      "explanation": "$\\bar{x} = 25$. $s^2 = \\frac{1(15-25)^2 + 1(35-25)^2}{10} = 200/10 = 20$."
+    },
+    {
+      "id": "sa-c3-030",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Phương sai mẫu 3 nhóm đối xứng",
+      "question": "Cho ba nhóm $[0; 20), [20; 40), [40; 60)$ có tần số $1, 8, 1$. Tính phương sai $s^2$:",
+      "answer": "80",
+      "explanation": "$s^2 = \\frac{1(10-30)^2 + 1(50-30)^2}{10} = 800/10 = 80$."
+    }
+  ]
+}

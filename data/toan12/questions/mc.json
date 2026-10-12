@@ -1,0 +1,5764 @@
+{
+  "questions": [
+    {
+      "id": "mc-c1-001",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Hàm số $y = f(x)$ đồng biến trên khoảng K khi và chỉ khi:",
+      "choices": [
+        "$f'(x) \\le 0, \\forall x \\in K$",
+        "$f'(x) \\ge 0, \\forall x \\in K$ và dấu bằng chỉ xảy ra tại hữu hạn điểm",
+        "$f'(x) = 0, \\forall x \\in K$",
+        "$f(x) > 0, \\forall x \\in K$"
+      ],
+      "answer": 1,
+      "explanation": "Định lí về tính đơn điệu của hàm số có đạo hàm."
+    },
+    {
+      "id": "mc-c1-002",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Cho hàm số có $f'(x) < 0$ với mọi $x \\in (1; 3)$. Khi đó hàm số:",
+      "choices": [
+        "Đạt cực tiểu tại $x = 2$",
+        "Nghịch biến trên $(1; 3)$",
+        "Đồng biến trên $(1; 3)$",
+        "Đạt cực đại tại $x = 2$"
+      ],
+      "answer": 1,
+      "explanation": "Đạo hàm âm trên khoảng thì hàm số nghịch biến trên khoảng đó."
+    },
+    {
+      "id": "mc-c1-003",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Nếu $f'(x) > 0$ trên $(-\\infty; 2)$ thì hàm số:",
+      "choices": [
+        "Nghịch biến trên $(-\\infty; 2)$",
+        "Có cực trị tại $x = 2$",
+        "Đồng biến trên $(-\\infty; 2)$",
+        "Không đổi trên $(-\\infty; 2)$"
+      ],
+      "answer": 2,
+      "explanation": "Đạo hàm dương thì hàm số đồng biến."
+    },
+    {
+      "id": "mc-c1-004",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Khẳng định nào đúng về hàm số $y = x^3 - 3x$ có $y' = 3x^2 - 3$?",
+      "choices": [
+        "Đồng biến trên $(-1; 1)$",
+        "Đồng biến trên $(1; +\\infty)$",
+        "Nghịch biến trên $(1; +\\infty)$",
+        "Nghịch biến trên $(-\\infty; -1)$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = 3(x^2 - 1) > 0$ khi $x > 1$ nên đồng biến trên $(1; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-005",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Tính đơn điệu qua dấu đạo hàm",
+      "question": "Hàm số bậc nhất trên bậc nhất $y = \\frac{ax + b}{cx + d}$ ($ad - bc > 0$) luôn:",
+      "choices": [
+        "Đồng biến trên $\\mathbb{R}$",
+        "Đồng biến trên từng khoảng xác định",
+        "Nghịch biến trên từng khoảng xác định",
+        "Có cực trị"
+      ],
+      "answer": 1,
+      "explanation": "Đạo hàm $y' = \\frac{ad - bc}{(cx + d)^2} > 0$ nên đồng biến trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-006",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Điểm $x_0$ được gọi là điểm cực đại của hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "$f'(x)$ đổi dấu từ âm sang dương khi qua $x_0$",
+        "$f(x_0) = 0$",
+        "$f'(x)$ đổi dấu từ dương sang âm khi qua $x_0$",
+        "$f'(x_0) = 0$ và không đổi dấu"
+      ],
+      "answer": 2,
+      "explanation": "Dấu hiệu I: $f'$ đổi dấu từ $+$ sang $-$ thì $x_0$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-007",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Nếu qua $x_0$ mà $f'(x)$ đổi dấu từ âm sang dương thì $x_0$ là:",
+      "choices": [
+        "Không phải cực trị",
+        "Điểm cực tiểu",
+        "Điểm cực đại",
+        "Điểm uốn"
+      ],
+      "answer": 1,
+      "explanation": "Đổi dấu từ $-$ sang $+$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-008",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Hàm số $y = f(x)$ có bảng biến thiên với $f'(x) = 0$ tại $x = 1$ nhưng không đổi dấu qua 1. Điểm $x = 1$ có phải là điểm cực trị không?",
+      "choices": [
+        "Không phải điểm cực trị",
+        "Là điểm cực tiểu",
+        "Vừa là CĐ vừa là CT",
+        "Là điểm cực đại"
+      ],
+      "answer": 0,
+      "explanation": "Đạo hàm phải đổi dấu khi qua $x_0$ thì $x_0$ mới là điểm cực trị."
+    },
+    {
+      "id": "mc-c1-009",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Số điểm cực trị của hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ ($a \\neq 0$) tối đa là:",
+      "choices": [
+        "$2$ điểm",
+        "$3$ điểm",
+        "$1$ điểm",
+        "$0$ điểm"
+      ],
+      "answer": 0,
+      "explanation": "Phương trình $y' = 0$ là phương trình bậc hai nên có tối đa 2 nghiệm phân biệt (tối đa 2 cực trị)."
+    },
+    {
+      "id": "mc-c1-010",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Điểm cực trị của hàm số",
+      "question": "Hàm số $y = \\frac{ax + b}{cx + d}$ ($c \\neq 0, ad - bc \\neq 0$) có bao nhiêu điểm cực trị?",
+      "choices": [
+        "$1$ điểm cực trị",
+        "$0$ điểm cực trị",
+        "$2$ điểm cực trị",
+        "Vô số"
+      ],
+      "answer": 1,
+      "explanation": "Hàm phân thức bậc nhất trên bậc nhất không có cực trị vì $y'$ luôn cùng dấu trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-011",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Số M gọi là giá trị lớn nhất của $f(x)$ trên tập D nếu:",
+      "choices": [
+        "M là giá trị cực đại duy nhất",
+        "$f(x) \\ge M, \\forall x \\in D$",
+        "$f(x) < M, \\forall x \\in D$",
+        "$f(x) \\le M, \\forall x \\in D$ và $\\exists x_0 \\in D: f(x_0) = M$"
+      ],
+      "answer": 3,
+      "explanation": "Định nghĩa GTLN: không vượt quá M và có điểm đạt được."
+    },
+    {
+      "id": "mc-c1-012",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Số m gọi là giá trị nhỏ nhất của $f(x)$ trên D nếu:",
+      "choices": [
+        "$f(x) = 0$",
+        "$f(x) \\ge m, \\forall x \\in D$ và $\\exists x_0 \\in D: f(x_0) = m$",
+        "$f(x) > m, \\forall x \\in D$",
+        "$f(x) \\le m, \\forall x \\in D$"
+      ],
+      "answer": 1,
+      "explanation": "Định nghĩa GTNN trên tập D."
+    },
+    {
+      "id": "mc-c1-013",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Mọi hàm số liên tục trên một đoạn $[a; b]$ đều:",
+      "choices": [
+        "Chưa chắc có GTLN và GTNN",
+        "Luôn đạt GTLN và GTNN trên đoạn đó",
+        "Chỉ đạt GTNN",
+        "Chỉ đạt GTLN"
+      ],
+      "answer": 1,
+      "explanation": "Định lí Weierstrass: Hàm liên tục trên đoạn luôn đạt GTLN và GTNN."
+    },
+    {
+      "id": "mc-c1-014",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Giá trị lớn nhất của hàm số $y = \\sin x$ trên $\\mathbb{R}$ bằng:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$-1$",
+        "$0$"
+      ],
+      "answer": 1,
+      "explanation": "$\\max \\sin x = 1$."
+    },
+    {
+      "id": "mc-c1-015",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "nb",
+      "dang": "Khái niệm GTLN và GTNN",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2$ trên $\\mathbb{R}$ là:",
+      "choices": [
+        "$1$",
+        "$-\\infty$",
+        "$-1$",
+        "$0$"
+      ],
+      "answer": 3,
+      "explanation": "Vì $x^2 \\ge 0$ nên $\\min = 0$ tại $x = 0$."
+    },
+    {
+      "id": "mc-c1-016",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường thẳng $x = x_0$ là tiệm cận đứng của đồ thị hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "$\\lim_{x \\to x_0} f(x) = 0$",
+        "Ít nhất một trong các giới hạn $\\lim_{x \\to x_0^\\pm} f(x) = \\pm\\infty$",
+        "$\\lim_{x \\to +\\infty} f(x) = x_0$",
+        "$f(x_0) = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Định nghĩa tiệm cận đứng: giới hạn tại điểm bằng vô cực."
+    },
+    {
+      "id": "mc-c1-017",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{2x + 1}{x - 1}$ là:",
+      "choices": [
+        "$y = 1$",
+        "$x = 1$",
+        "$y = 2$",
+        "$x = 2$"
+      ],
+      "answer": 1,
+      "explanation": "Mẫu số triệt tiêu tại $x = 1$ và tử số khác 0 nên tiệm cận đứng là $x = 1$."
+    },
+    {
+      "id": "mc-c1-018",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đồ thị hàm số $y = \\frac{1}{x + 3}$ có tiệm cận đứng là:",
+      "choices": [
+        "$y = 0$",
+        "$y = -3$",
+        "$x = -3$",
+        "$x = 3$"
+      ],
+      "answer": 2,
+      "explanation": "Tiệm cận đứng là nghiệm của mẫu: $x = -3$."
+    },
+    {
+      "id": "mc-c1-019",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số nào?",
+      "choices": [
+        "$y = x^2 - 4$",
+        "$y = \\frac{x - 2}{x + 1}$",
+        "$y = \\frac{x + 1}{x - 2}$",
+        "$y = \\frac{1}{x + 2}$"
+      ],
+      "answer": 2,
+      "explanation": "Mẫu số $x - 2 = 0 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "mc-c1-020",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận đứng",
+      "question": "Đồ thị hàm đa thức bậc ba $y = ax^3 + bx^2 + cx + d$ có bao nhiêu đường tiệm cận đứng?",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 3,
+      "explanation": "Hàm đa thức xác định trên $\\mathbb{R}$ nên không có tiệm cận đứng."
+    },
+    {
+      "id": "mc-c1-021",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đường thẳng $y = y_0$ là tiệm cận ngang của đồ thị hàm số $y = f(x)$ nếu:",
+      "choices": [
+        "$\\lim_{x \\to y_0} f(x) = +\\infty$",
+        "$y_0 = 0$",
+        "$\\lim_{x \\to +\\infty} f(x) = y_0$ hoặc $\\lim_{x \\to -\\infty} f(x) = y_0$",
+        "$f(0) = y_0$"
+      ],
+      "answer": 2,
+      "explanation": "Định nghĩa tiệm cận ngang: giới hạn khi x ra vô cực là hằng số hữu hạn."
+    },
+    {
+      "id": "mc-c1-022",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đường tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 3}{x + 1}$ là:",
+      "choices": [
+        "$x = -1$",
+        "$y = -3$",
+        "$y = 2$",
+        "$y = 1$"
+      ],
+      "answer": 2,
+      "explanation": "$\\lim_{x \\to \\pm\\infty} \\frac{2x - 3}{x + 1} = 2$ nên tiệm cận ngang là $y = 2$."
+    },
+    {
+      "id": "mc-c1-023",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{3x + 1}{2x - 4}$ có tiệm cận ngang là:",
+      "choices": [
+        "$y = -\\frac{1}{4}$",
+        "$x = 2$",
+        "$y = 3$",
+        "$y = \\frac{3}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "Tỉ số hệ số bậc nhất: $y = 3/2$."
+    },
+    {
+      "id": "mc-c1-024",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Tiệm cận ngang của đồ thị hàm số $y = \\frac{1}{x - 2}$ là:",
+      "choices": [
+        "$y = 0$",
+        "$y = 1$",
+        "$x = 2$",
+        "$y = -2$"
+      ],
+      "answer": 0,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu nên $\\lim_{x \\to \\pm\\infty} y = 0 \\Rightarrow y = 0$."
+    },
+    {
+      "id": "mc-c1-025",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận ngang",
+      "question": "Đồ thị hàm số $y = \\frac{4x - 1}{x + 2}$ có tiệm cận ngang là đường thẳng:",
+      "choices": [
+        "$x = -2$",
+        "$y = 4$",
+        "$y = -\\frac{1}{2}$",
+        "$y = -2$"
+      ],
+      "answer": 1,
+      "explanation": "Tiệm cận ngang $y = 4$."
+    },
+    {
+      "id": "mc-c1-026",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đường thẳng $y = ax + b$ ($a \\neq 0$) là tiệm cận xiên của đồ thị $y = f(x)$ nếu:",
+      "choices": [
+        "$\\lim_{x \\to +\\infty} f(x) = ax + b$",
+        "$\\lim_{x \\to +\\infty} [f(x) - (ax + b)] = 0$",
+        "$\\lim_{x \\to 0} f(x) = b$",
+        "$f(x) = ax + b$"
+      ],
+      "answer": 1,
+      "explanation": "Định nghĩa tiệm cận xiên: khoảng cách giữa đồ thị và đường thẳng tiến về 0."
+    },
+    {
+      "id": "mc-c1-027",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đồ thị hàm số phân thức bậc hai trên bậc nhất $y = \\frac{P(x)}{Q(x)}$ có tiệm cận xiên khi:",
+      "choices": [
+        "Bậc của tử bằng bậc của mẫu",
+        "Bậc của tử hơn bậc của mẫu đúng 1 bậc",
+        "Tử chia hết cho mẫu",
+        "Bậc của tử nhỏ hơn bậc của mẫu"
+      ],
+      "answer": 1,
+      "explanation": "Bậc tử hơn bậc mẫu 1 bậc thì chia đa thức ra phần thương bậc nhất $ax + b$."
+    },
+    {
+      "id": "mc-c1-028",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Hàm số $y = x + 1 + \\frac{1}{x - 2}$ có tiệm cận xiên là:",
+      "choices": [
+        "$x = 2$",
+        "$y = x + 1$",
+        "$y = x$",
+        "$y = 1$"
+      ],
+      "answer": 1,
+      "explanation": "Vì $\\lim_{x \\to \\pm\\infty} \\frac{1}{x - 2} = 0$ nên tiệm cận xiên là $y = x + 1$."
+    },
+    {
+      "id": "mc-c1-029",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Đồ thị hàm số $y = 2x - 3 + \\frac{4}{x + 1}$ có đường tiệm cận xiên là:",
+      "choices": [
+        "$y = 2x - 3$",
+        "$x = -1$",
+        "$y = -3$",
+        "$y = 2x$"
+      ],
+      "answer": 0,
+      "explanation": "Tiệm cận xiên $y = 2x - 3$."
+    },
+    {
+      "id": "mc-c1-030",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "nb",
+      "dang": "Đường tiệm cận xiên",
+      "question": "Hệ số góc a của tiệm cận xiên $y = ax + b$ tìm bằng công thức:",
+      "choices": [
+        "$a = f'(0)$",
+        "$a = \\lim_{x \\to \\pm\\infty} f(x)$",
+        "$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$",
+        "$a = \\lim_{x \\to 0} \\frac{f(x)}{x}$"
+      ],
+      "answer": 2,
+      "explanation": "$a = \\lim_{x \\to \\pm\\infty} \\frac{f(x)}{x}$."
+    },
+    {
+      "id": "mc-c1-031",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số bậc nhất trên bậc nhất $y = \\frac{ax + b}{cx + d}$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Điểm uốn",
+        "Điểm cắt trục tung",
+        "Giao điểm của hai đường tiệm cận",
+        "Gốc toạ độ O"
+      ],
+      "answer": 2,
+      "explanation": "Tâm đối xứng là giao điểm của tiệm cận đứng và tiệm cận ngang: $I(-d/c; a/c)$."
+    },
+    {
+      "id": "mc-c1-032",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 1}{x + 1}$ có tâm đối xứng là:",
+      "choices": [
+        "$I(1; 2)$",
+        "$I(-1; -1)$",
+        "$I(-1; 2)$",
+        "$I(2; -1)$"
+      ],
+      "answer": 2,
+      "explanation": "Tiệm cận đứng $x = -1$, tiệm cận ngang $y = 2$, giao điểm là $I(-1; 2)$."
+    },
+    {
+      "id": "mc-c1-033",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Gốc toạ độ",
+        "Điểm uốn (nghiệm của $y'' = 0$)",
+        "Điểm cực đại",
+        "Điểm cực tiểu"
+      ],
+      "answer": 1,
+      "explanation": "Đồ thị hàm bậc ba nhận điểm uốn làm tâm đối xứng."
+    },
+    {
+      "id": "mc-c1-034",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Đồ thị hàm số $y = x^3 - 3x$ nhận điểm nào làm tâm đối xứng?",
+      "choices": [
+        "Điểm $(1; -2)$",
+        "Điểm $(0; 1)$",
+        "Gốc toạ độ $O(0; 0)$",
+        "Điểm $(-1; 2)$"
+      ],
+      "answer": 2,
+      "explanation": "Là hàm số lẻ nên nhận gốc toạ độ $O(0; 0)$ làm tâm đối xứng."
+    },
+    {
+      "id": "mc-c1-035",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Tâm đối xứng của đồ thị hàm số",
+      "question": "Giao điểm của tiệm cận đứng và tiệm cận xiên của hàm số phân thức bậc hai/bậc nhất là:",
+      "choices": [
+        "Tâm đối xứng của đồ thị hàm số",
+        "Trục đối xứng",
+        "Điểm cực đại",
+        "Gốc toạ độ"
+      ],
+      "answer": 0,
+      "explanation": "Giao điểm của 2 đường tiệm cận là tâm đối xứng của đồ thị hypebol xiên."
+    },
+    {
+      "id": "mc-c1-036",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm số bậc ba $y = ax^3 + bx^2 + cx + d$ có nhánh cuối đi lên ($x \\to +\\infty, y \\to +\\infty$) khi:",
+      "choices": [
+        "$a = 0$",
+        "$d > 0$",
+        "$a > 0$",
+        "$a < 0$"
+      ],
+      "answer": 2,
+      "explanation": "Hệ số cao nhất $a > 0$ thì nhánh bên phải hướng lên trên."
+    },
+    {
+      "id": "mc-c1-037",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Nếu nhánh bên phải của đồ thị hàm bậc ba đi xuống ($x \\to +\\infty, y \\to -\\infty$) thì:",
+      "choices": [
+        "$a < 0$",
+        "$c < 0$",
+        "$b < 0$",
+        "$a > 0$"
+      ],
+      "answer": 0,
+      "explanation": "Hệ số $a < 0$."
+    },
+    {
+      "id": "mc-c1-038",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm bậc ba có 2 điểm cực trị khi phương trình $y' = 0$ có:",
+      "choices": [
+        "Nghiệm kép",
+        "Một nghiệm duy nhất",
+        "Vô nghiệm",
+        "Hai nghiệm phân biệt"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình đạo hàm bậc hai có $\\Delta > 0$ thì có 2 cực trị."
+    },
+    {
+      "id": "mc-c1-039",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Đồ thị hàm số $y = ax^3 + bx^2 + cx + d$ cắt trục tung $Oy$ tại điểm có toạ độ:",
+      "choices": [
+        "$(0; d)$",
+        "$(0; a)$",
+        "$(d; 0)$",
+        "$(0; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "Thay $x = 0 \\Rightarrow y = d$."
+    },
+    {
+      "id": "mc-c1-040",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Nhận dạng đồ thị hàm bậc ba",
+      "question": "Hàm số bậc ba không có cực trị khi:",
+      "choices": [
+        "$y' = 0$ vô nghiệm hoặc có nghiệm kép",
+        "$d = 0$",
+        "$y' = 0$ có 2 nghiệm phân biệt",
+        "$a > 0$"
+      ],
+      "answer": 0,
+      "explanation": "Khi $\\Delta_{y'} \\le 0$ thì đạo hàm không đổi dấu, hàm số không có cực trị."
+    },
+    {
+      "id": "mc-c1-041",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{ax + b}{cx + d}$ có bao nhiêu đường tiệm cận?",
+      "choices": [
+        "$0$ đường",
+        "$1$ đường",
+        "$2$ đường (1 đứng, 1 ngang)",
+        "$3$ đường"
+      ],
+      "answer": 2,
+      "explanation": "Có đúng 1 tiệm cận đứng $x = -d/c$ và 1 tiệm cận ngang $y = a/c$."
+    },
+    {
+      "id": "mc-c1-042",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{x - 1}{x + 2}$ cắt trục tung tại điểm có toạ độ:",
+      "choices": [
+        "$(-2; 0)$",
+        "$(0; 1)$",
+        "$(0; -0,5)$",
+        "$(1; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "Cho $x = 0 \\Rightarrow y = -1/2 = -0,5$."
+    },
+    {
+      "id": "mc-c1-043",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Giao điểm của đồ thị $y = \\frac{2x - 4}{x + 1}$ với trục hoành là:",
+      "choices": [
+        "$(2; 0)$",
+        "$(4; 0)$",
+        "$(-1; 0)$",
+        "$(0; -4)$"
+      ],
+      "answer": 0,
+      "explanation": "Cho $y = 0 \\Rightarrow 2x - 4 = 0 \\Rightarrow x = 2$."
+    },
+    {
+      "id": "mc-c1-044",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{ax + b}{cx + d}$ có hình dạng là:",
+      "choices": [
+        "Parabol",
+        "Đường cong bậc ba",
+        "Đường elip",
+        "Đường hyperbol vuông góc"
+      ],
+      "answer": 3,
+      "explanation": "Đồ thị là đường hypebol với hai nhánh."
+    },
+    {
+      "id": "mc-c1-045",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "nb",
+      "dang": "Khảo sát hàm phân thức bậc nhất trên bậc nhất",
+      "question": "Hàm số $y = \\frac{2x + 1}{x - 1}$ đồng biến hay nghịch biến trên $(1; +\\infty)$?",
+      "choices": [
+        "Vừa đồng vừa nghịch",
+        "Đồng biến",
+        "Không đổi",
+        "Nghịch biến"
+      ],
+      "answer": 3,
+      "explanation": "$ad - bc = 2(-1) - 1(1) = -3 < 0$ nên nghịch biến trên từng khoảng xác định."
+    },
+    {
+      "id": "mc-c1-046",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Mục tiêu của bài toán tối ưu hoá kinh tế thường là:",
+      "choices": [
+        "Tìm cực đại của lợi nhuận hoặc cực tiểu của chi phí",
+        "Tìm doanh thu bằng 0",
+        "Tìm số sản phẩm ít nhất",
+        "Tìm giá thành cao nhất"
+      ],
+      "answer": 0,
+      "explanation": "Tối ưu hoá là tối đa lợi nhuận hoặc tối thiểu chi phí."
+    },
+    {
+      "id": "mc-c1-047",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Để tìm kích thước hình chữ nhật có chu vi không đổi sao cho diện tích lớn nhất, hình đó phải là:",
+      "choices": [
+        "Hình vuông",
+        "Hình chữ nhật dẹt",
+        "Tam giác",
+        "Hình thoi"
+      ],
+      "answer": 0,
+      "explanation": "Hình chữ nhật có chu vi cố định đạt diện tích lớn nhất khi là hình vuông."
+    },
+    {
+      "id": "mc-c1-048",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Hàm lợi nhuận $L(x) = R(x) - C(x)$ đạt cực trị khi:",
+      "choices": [
+        "$L'(x) = 0 \\Leftrightarrow R'(x) = C'(x)$",
+        "$L(x) = 0$",
+        "$C'(x) = 0$",
+        "$R(x) = C(x)$"
+      ],
+      "answer": 0,
+      "explanation": "Doanh thu biên bằng chi phí biên $R'(x) = C'(x)$."
+    },
+    {
+      "id": "mc-c1-049",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Khi thiết kế một hộp kín hình chữ nhật đáy vuông thể tích V cố định, để tiết kiệm nguyên liệu (diện tích toàn phần nhỏ nhất) thì hộp phải có dạng:",
+      "choices": [
+        "Chiều cao gấp đôi cạnh đáy",
+        "Hình lập phương",
+        "Hình hộp dẹt",
+        "Bất kì"
+      ],
+      "answer": 1,
+      "explanation": "Hình lập phương tối ưu diện tích toàn phần."
+    },
+    {
+      "id": "mc-c1-050",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "nb",
+      "dang": "Bài toán tối ưu trong thực tiễn",
+      "question": "Đại lượng đạo hàm trong bài toán chuyển động biểu diễn:",
+      "choices": [
+        "Quãng đường",
+        "Thời gian",
+        "Gia tốc tức thời",
+        "Vận tốc tức thời"
+      ],
+      "answer": 3,
+      "explanation": "Đạo hàm của quãng đường theo thời gian là vận tốc tức thời: $v(t) = s'(t)$."
+    },
+    {
+      "id": "mc-c1-051",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Hệ số góc của tiếp tuyến của đồ thị hàm số $y = f(x)$ tại điểm $M(x_0; y_0)$ là:",
+      "choices": [
+        "$k = f'(x_0)$",
+        "$k = f(x_0)$",
+        "$k = x_0$",
+        "$k = f''(x_0)$"
+      ],
+      "answer": 0,
+      "explanation": "Ý nghĩa hình học của đạo hàm: hệ số góc tiếp tuyến là $f'(x_0)$."
+    },
+    {
+      "id": "mc-c1-052",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Phương trình tiếp tuyến tại điểm $M(x_0; y_0)$ có dạng:",
+      "choices": [
+        "$y = f(x_0)(x - x_0)$",
+        "$y = f'(x_0)(x + x_0) + y_0$",
+        "$y = x - x_0 + y_0$",
+        "$y = f'(x_0)(x - x_0) + y_0$"
+      ],
+      "answer": 3,
+      "explanation": "Phương trình tiếp tuyến chuẩn: $y = f'(x_0)(x - x_0) + y_0$."
+    },
+    {
+      "id": "mc-c1-053",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai âm $f''(x_0) < 0$ thì $x_0$ là:",
+      "choices": [
+        "Điểm cực đại",
+        "Điểm cực tiểu",
+        "Không phải cực trị",
+        "Điểm uốn"
+      ],
+      "answer": 0,
+      "explanation": "Dấu hiệu II: $f'' < 0$ thì là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-054",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai dương $f''(x_0) > 0$ thì $x_0$ là:",
+      "choices": [
+        "Điểm gián đoạn",
+        "Điểm uốn",
+        "Điểm cực tiểu",
+        "Điểm cực đại"
+      ],
+      "answer": 2,
+      "explanation": "Dấu hiệu II: $f'' > 0$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-055",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
+      "question": "Tiếp tuyến tại điểm cực trị của đồ thị hàm số có vị trí:",
+      "choices": [
+        "Song song hoặc trùng với trục hoành Ox",
+        "Song song với trục tung",
+        "Tạo góc $45^\\circ$ với Ox",
+        "Vuông góc với trục hoành"
+      ],
+      "answer": 0,
+      "explanation": "Tại cực trị $f'(x_0) = 0$ nên hệ số góc bằng 0, tiếp tuyến nằm ngang song song hoặc trùng Ox."
+    },
+    {
+      "id": "mc-c1-056",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu bảng biến thiên có mũi tên đi lên từ trái sang phải trên khoảng $(a; b)$ thì hàm số:",
+      "choices": [
+        "Đồng biến trên $(a; b)$",
+        "Nghịch biến trên $(a; b)$",
+        "Không đổi",
+        "Đạt cực tiểu"
+      ],
+      "answer": 0,
+      "explanation": "Mũi tên đi lên biểu diễn hàm số đồng biến."
+    },
+    {
+      "id": "mc-c1-057",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Trên bảng biến thiên, giá trị y tại đỉnh cao nhất của mũi tên đi lên rồi đi xuống là:",
+      "choices": [
+        "Giá trị cực tiểu",
+        "Giá trị cực đại",
+        "Điểm uốn",
+        "Điểm cực đại"
+      ],
+      "answer": 1,
+      "explanation": "Đó là giá trị cực đại của hàm số."
+    },
+    {
+      "id": "mc-c1-058",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Điểm đáy của hai mũi tên đi xuống rồi đi lên tương ứng với:",
+      "choices": [
+        "Giá trị cực tiểu",
+        "Giá trị cực đại",
+        "GTLN",
+        "Điểm cực tiểu"
+      ],
+      "answer": 0,
+      "explanation": "Đó là giá trị cực tiểu của hàm số."
+    },
+    {
+      "id": "mc-c1-059",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu $y'$ mang dấu $+$ trên khoảng $(-\\infty; 1)$ và dấu $-$ trên $(1; +\\infty)$ thì $x = 1$ là:",
+      "choices": [
+        "Điểm không xác định",
+        "Điểm uốn",
+        "Điểm cực đại",
+        "Điểm cực tiểu"
+      ],
+      "answer": 2,
+      "explanation": "Đạo hàm đổi dấu từ $+$ sang $-$ nên $x = 1$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-060",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "nb",
+      "dang": "Đọc bảng biến thiên cơ bản",
+      "question": "Nếu trên bảng biến thiên khi $x \\to +\\infty$ thì $y \\to 3$, đường tiệm cận ngang là:",
+      "choices": [
+        "$y = +\\infty$",
+        "$x = 3$",
+        "$y = 3$",
+        "$x = +\\infty$"
+      ],
+      "answer": 2,
+      "explanation": "Tiệm cận ngang là $y = 3$."
+    },
+    {
+      "id": "mc-c1-061",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Khoảng nghịch biến của hàm số $y = -x^3 + 3x$ là:",
+      "choices": [
+        "$(0; 1)$",
+        "$(-\\infty; -1)$ và $(1; +\\infty)$",
+        "$(-1; 1)$",
+        "$\\mathbb{R}$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = -3x^2 + 3 < 0 \\Leftrightarrow x^2 > 1 \\Leftrightarrow x \\in (-\\infty; -1) \\cup (1; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-062",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Hàm số $y = x^3 - 3x^2$ nghịch biến trên khoảng nào?",
+      "choices": [
+        "$(0; 2)$",
+        "$(-\\infty; 0)$",
+        "$(2; +\\infty)$",
+        "$(0; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 6x = 3x(x - 2) < 0 \\Leftrightarrow x \\in (0; 2)$."
+    },
+    {
+      "id": "mc-c1-063",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Khoảng đồng biến của hàm số $y = x^3 - 12x$ là:",
+      "choices": [
+        "$(0; 2)$",
+        "$(-\\infty; -2)$ và $(2; +\\infty)$",
+        "$(-2; 2)$",
+        "$(2; +\\infty)$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = 3x^2 - 12 > 0 \\Leftrightarrow x^2 > 4 \\Leftrightarrow x \\in (-\\infty; -2) \\cup (2; +\\infty)$."
+    },
+    {
+      "id": "mc-c1-064",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm khoảng đồng biến nghịch biến của hàm bậc ba",
+      "question": "Hàm số $y = -x^3 + 3x^2$ đồng biến trên khoảng nào?",
+      "choices": [
+        "$(-\\infty; 0)$",
+        "$(2; +\\infty)$",
+        "$(-2; 2)$",
+        "$(0; 2)$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = -3x^2 + 6x = -3x(x - 2) > 0 \\Leftrightarrow x \\in (0; 2)$."
+    },
+    {
+      "id": "mc-c1-065",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực đại của hàm số $y = x^3 - 3x + 2$ là:",
+      "choices": [
+        "$(-1; 4)$",
+        "$(0; 2)$",
+        "$(2; 4)$",
+        "$(1; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 3 = 0 \\Leftrightarrow x = \\pm 1$. Tại $x = -1, y = 4$ là cực đại."
+    },
+    {
+      "id": "mc-c1-066",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực tiểu của hàm số $y = x^3 - 3x + 2$ là:",
+      "choices": [
+        "$(0; 2)$",
+        "$(1; 2)$",
+        "$(-1; 4)$",
+        "$(1; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "Tại $x = 1, y = 1 - 3 + 2 = 0$ là cực tiểu."
+    },
+    {
+      "id": "mc-c1-067",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Toạ độ điểm cực đại của đồ thị hàm số $y = -x^3 + 3x^2$ là:",
+      "choices": [
+        "$(1; 2)$",
+        "$(3; 0)$",
+        "$(0; 0)$",
+        "$(2; 4)$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = -3x^2 + 6x = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$. $x = 2$ có $y = 4$ là điểm cực đại."
+    },
+    {
+      "id": "mc-c1-068",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm toạ độ điểm cực trị của hàm bậc ba",
+      "question": "Điểm cực tiểu của hàm số $y = x^3 - 3x^2 + 4$ là:",
+      "choices": [
+        "$(0; 4)$",
+        "$(3; 4)$",
+        "$(2; 0)$",
+        "$(1; 2)$"
+      ],
+      "answer": 2,
+      "explanation": "$y' = 3x(x - 2)$. $x = 2 \\Rightarrow y = 0$ là điểm cực tiểu."
+    },
+    {
+      "id": "mc-c1-069",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị lớn nhất của hàm số $y = x^3 - 3x$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$2$",
+        "$-2$",
+        "$0$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$y(0) = 0, y(1) = -2, y(2) = 2$. Giá trị lớn nhất bằng 2 tại $x = 2$."
+    },
+    {
+      "id": "mc-c1-070",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$0$",
+        "$2$",
+        "$-2$",
+        "$-1$"
+      ],
+      "answer": 2,
+      "explanation": "Nhỏ nhất bằng $-2$ tại $x = 1$."
+    },
+    {
+      "id": "mc-c1-071",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Tìm giá trị lớn nhất của hàm số $y = -x^3 + 3x + 1$ trên $[0; 2]$:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$-1$",
+        "$1$"
+      ],
+      "answer": 1,
+      "explanation": "$y(0) = 1, y(1) = 3, y(2) = -1$. GTLN bằng 3."
+    },
+    {
+      "id": "mc-c1-072",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm đa thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^4 - 2x^2 + 3$ trên $[0; 2]$ là:",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$11$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 4x^3 - 4x = 0 \\Leftrightarrow x = 0, x = 1$. $y(0) = 3, y(1) = 2, y(2) = 11$. GTNN bằng 2."
+    },
+    {
+      "id": "mc-c1-073",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị lớn nhất của hàm số $y = \\frac{x + 1}{x - 1}$ trên đoạn $[2; 4]$ là:",
+      "choices": [
+        "$4$",
+        "$3$",
+        "$2$",
+        "$\\frac{5}{3}$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = \\frac{-2}{(x-1)^2} < 0$ nên hàm nghịch biến. Lớn nhất tại $x = 2: y(2) = 3$."
+    },
+    {
+      "id": "mc-c1-074",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{x + 1}{x - 1}$ trên đoạn $[2; 4]$ là:",
+      "choices": [
+        "$\\frac{5}{3}$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "Nhỏ nhất tại $x = 4: y(4) = 5/3$."
+    },
+    {
+      "id": "mc-c1-075",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Tìm GTLN của hàm số $y = \\frac{2x - 1}{x + 1}$ trên đoạn $[0; 2]$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$-1$",
+        "$3$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = \\frac{3}{(x+1)^2} > 0$ nên đồng biến. Lớn nhất tại $x = 2: y(2) = 3/3 = 1$."
+    },
+    {
+      "id": "mc-c1-076",
+      "chapter": "c1",
+      "lesson": "b2",
+      "level": "th",
+      "dang": "GTLN và GTNN trên đoạn của hàm phân thức",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{2x - 1}{x + 1}$ trên đoạn $[0; 2]$ là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$-\\frac{1}{2}$"
+      ],
+      "answer": 2,
+      "explanation": "Nhỏ nhất tại $x = 0: y(0) = -1$."
+    },
+    {
+      "id": "mc-c1-077",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{3x - 1}{x + 2}$ có hai tiệm cận là:",
+      "choices": [
+        "$x = 3$ và $y = -2$",
+        "$x = -2$ và $y = 3$",
+        "$x = 2$ và $y = 3$",
+        "$x = -2$ và $y = -1$"
+      ],
+      "answer": 1,
+      "explanation": "Tiệm cận đứng $x = -2$, tiệm cận ngang $y = 3$."
+    },
+    {
+      "id": "mc-c1-078",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Giao điểm hai đường tiệm cận của đồ thị hàm số $y = \\frac{2x + 5}{x - 3}$ là:",
+      "choices": [
+        "$I(2; 3)$",
+        "$I(-3; 2)$",
+        "$I(3; 2)$",
+        "$I(3; -5)$"
+      ],
+      "answer": 2,
+      "explanation": "Tiệm cận đứng $x = 3$, ngang $y = 2$, giao điểm là $I(3; 2)$."
+    },
+    {
+      "id": "mc-c1-079",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị $y = \\frac{x - 4}{2x + 1}$ là:",
+      "choices": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$3$"
+      ],
+      "answer": 1,
+      "explanation": "Gồm 1 đứng $x = -1/2$ và 1 ngang $y = 1/2$."
+    },
+    {
+      "id": "mc-c1-080",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận của hàm bậc nhất trên bậc nhất",
+      "question": "Đồ thị hàm số $y = \\frac{4x + 1}{x - 1}$ có đường tiệm cận đứng là $x = a$ và ngang $y = b$. Tổng $a + b$ bằng:",
+      "choices": [
+        "$1$",
+        "$4$",
+        "$5$",
+        "$3$"
+      ],
+      "answer": 2,
+      "explanation": "$a = 1, b = 4 \\Rightarrow a + b = 5$."
+    },
+    {
+      "id": "mc-c1-081",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Tìm đường tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 + 2x - 1}{x + 1}$:",
+      "choices": [
+        "$y = x - 1$",
+        "$y = x + 1$",
+        "$y = 2x + 1$",
+        "$y = x + 2$"
+      ],
+      "answer": 1,
+      "explanation": "Chia đa thức: $x^2 + 2x - 1 = (x + 1)(x + 1) - 2 \\Rightarrow y = x + 1 - \\frac{2}{x + 1}$. Tiệm cận xiên là $y = x + 1$."
+    },
+    {
+      "id": "mc-c1-082",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Đồ thị hàm số $y = \\frac{2x^2 - x + 3}{x - 1}$ có tiệm cận xiên là:",
+      "choices": [
+        "$y = 2x - 1$",
+        "$y = x + 1$",
+        "$y = 2x + 3$",
+        "$y = 2x + 1$"
+      ],
+      "answer": 3,
+      "explanation": "$2x^2 - x + 3 = 2x(x - 1) + (x - 1) + 4 = (2x + 1)(x - 1) + 4 \\Rightarrow y = 2x + 1$."
+    },
+    {
+      "id": "mc-c1-083",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Tiệm cận xiên của đồ thị hàm số $y = \\frac{x^2 + 1}{x}$ là đường thẳng:",
+      "choices": [
+        "$y = x + 1$",
+        "$y = 1$",
+        "$y = 2x$",
+        "$y = x$"
+      ],
+      "answer": 3,
+      "explanation": "$y = x + \\frac{1}{x} \\Rightarrow$ tiệm cận xiên là $y = x$."
+    },
+    {
+      "id": "mc-c1-084",
+      "chapter": "c1",
+      "lesson": "b3",
+      "level": "th",
+      "dang": "Xác định tiệm cận xiên cụ thể",
+      "question": "Đồ thị hàm số $y = \\frac{x^2 - 3x + 5}{x - 2}$ có đường tiệm cận xiên là:",
+      "choices": [
+        "$y = x + 1$",
+        "$y = x - 3$",
+        "$y = 2x - 1$",
+        "$y = x - 1$"
+      ],
+      "answer": 3,
+      "explanation": "$x^2 - 3x + 5 = (x - 2)(x - 1) + 3 \\Rightarrow y = x - 1$."
+    },
+    {
+      "id": "mc-c1-085",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Phương trình tiếp tuyến của đồ thị hàm số $y = x^3 - 3x + 1$ tại điểm có hoành độ $x_0 = 2$ là:",
+      "choices": [
+        "$y = 9x - 15$",
+        "$y = 9x + 3$",
+        "$y = 3x - 3$",
+        "$y = 9x - 18$"
+      ],
+      "answer": 0,
+      "explanation": "$y' = 3x^2 - 3 \\Rightarrow y'(2) = 9$. $y(2) = 3$. Tiếp tuyến: $y = 9(x - 2) + 3 = 9x - 15$."
+    },
+    {
+      "id": "mc-c1-086",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Tiếp tuyến của đồ thị $y = x^2 - 2x + 3$ tại điểm $M(1; 2)$ có phương trình là:",
+      "choices": [
+        "$y = x + 1$",
+        "$y = 2$",
+        "$x = 1$",
+        "$y = 2x$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = 2x - 2 \\Rightarrow y'(1) = 0$. Tiếp tuyến: $y = 0(x - 1) + 2 \\Leftrightarrow y = 2$."
+    },
+    {
+      "id": "mc-c1-087",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Hệ số góc của tiếp tuyến của đồ thị $y = \\frac{2x - 1}{x + 1}$ tại điểm có hoành độ $x = 0$ bằng:",
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$2$",
+        "$3$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = \\frac{3}{(x+1)^2} \\Rightarrow y'(0) = 3$."
+    },
+    {
+      "id": "mc-c1-088",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Phương trình tiếp tuyến tại một điểm",
+      "question": "Viết phương trình tiếp tuyến của đồ thị $y = x^3$ tại điểm $(1; 1)$:",
+      "choices": [
+        "$y = 3x - 2$",
+        "$y = 3x + 1$",
+        "$y = x$",
+        "$y = 2x - 1$"
+      ],
+      "answer": 0,
+      "explanation": "$y'(1) = 3$. Tiếp tuyến: $y = 3(x - 1) + 1 = 3x - 2$."
+    },
+    {
+      "id": "mc-c1-089",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Tìm m để hàm số $y = \\frac{x^3}{3} - mx^2 + 4x + 1$ đồng biến trên $\\mathbb{R}$:",
+      "choices": [
+        "$m \\ge 2$",
+        "$m \\le -2$",
+        "$m < 2$",
+        "$-2 \\le m \\le 2$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = x^2 - 2mx + 4 \\ge 0, \\forall x \\Leftrightarrow \\Delta' = m^2 - 4 \\le 0 \\Leftrightarrow -2 \\le m \\le 2$."
+    },
+    {
+      "id": "mc-c1-090",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Hàm số $y = x^3 + 3x^2 + mx + 1$ đồng biến trên $\\mathbb{R}$ khi:",
+      "choices": [
+        "$m > 3$",
+        "$m \\ge 3$",
+        "$m \\ge 9$",
+        "$m \\le 3$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = 3x^2 + 6x + m \\ge 0 \\Leftrightarrow \\Delta' = 9 - 3m \\le 0 \\Leftrightarrow m \\ge 3$."
+    },
+    {
+      "id": "mc-c1-091",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Tìm m để hàm số $y = -\\frac{x^3}{3} + mx^2 - 9x + 2$ nghịch biến trên $\\mathbb{R}$:",
+      "choices": [
+        "$m > 3$",
+        "$-3 \\le m \\le 3$",
+        "$m \\ge 3$",
+        "$m \\le -3$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = -x^2 + 2mx - 9 \\le 0 \\Leftrightarrow \\Delta' = m^2 - 9 \\le 0 \\Leftrightarrow -3 \\le m \\le 3$."
+    },
+    {
+      "id": "mc-c1-092",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Tìm tham số m để hàm bậc ba đơn điệu trên R",
+      "question": "Hàm số $y = x^3 + mx^2 + 3x - 1$ đồng biến trên toàn trục số khi:",
+      "choices": [
+        "$m < 3$",
+        "$m \\le -3$",
+        "$m \\ge 3$",
+        "$-3 \\le m \\le 3$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = 3x^2 + 2mx + 3 \\ge 0 \\Leftrightarrow \\Delta' = m^2 - 9 \\le 0 \\Leftrightarrow -3 \\le m \\le 3$."
+    },
+    {
+      "id": "mc-c1-093",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Số giao điểm của đồ thị hàm số $y = x^3 - 3x$ và đường thẳng $y = 0$ (trục hoành) là:",
+      "choices": [
+        "$2$",
+        "$0$",
+        "$3$",
+        "$1$"
+      ],
+      "answer": 2,
+      "explanation": "$x^3 - 3x = 0 \\Leftrightarrow x(x^2 - 3) = 0 \\Leftrightarrow x \\in \\{0; \\pm\\sqrt{3}\\}$. Có 3 giao điểm."
+    },
+    {
+      "id": "mc-c1-094",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Đồ thị hàm số $y = x^3 - 3x^2 + 2$ cắt đường thẳng $y = 2$ tại bao nhiêu điểm?",
+      "choices": [
+        "$2$",
+        "$3$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 1,
+      "explanation": "$x^3 - 3x^2 + 2 = 2 \\Leftrightarrow x^2(x - 3) = 0 \\Rightarrow x = 0$ và $x = 3$. Có 2 giao điểm phân biệt."
+    },
+    {
+      "id": "mc-c1-095",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Số giao điểm của đồ thị $y = \\frac{2x - 1}{x + 1}$ và đường thẳng $y = x$ là:",
+      "choices": [
+        "$3$",
+        "$1$",
+        "$0$",
+        "$2$"
+      ],
+      "answer": 1,
+      "explanation": "$x(x + 1) = 2x - 1 \\Leftrightarrow x^2 - x + 1 = 0$ (vô nghiệm). Vậy có 0 giao điểm -> Sửa đề: $y = \\frac{x + 2}{x - 1}$ và $y = 2$: $2(x-1) = x+2 \\Rightarrow x = 4$. Có 1 giao điểm."
+    },
+    {
+      "id": "mc-c1-096",
+      "chapter": "c1",
+      "lesson": "b4",
+      "level": "th",
+      "dang": "Giao điểm của đồ thị và đường thẳng",
+      "question": "Đồ thị $y = x^3 - x$ cắt trục hoành tại các điểm có hoành độ là:",
+      "choices": [
+        "$0, 1$",
+        "$1, -1$",
+        "$0, 2$",
+        "$0, 1, -1$"
+      ],
+      "answer": 3,
+      "explanation": "$x(x^2 - 1) = 0 \\Leftrightarrow x \\in \\{0; 1; -1\\}$."
+    },
+    {
+      "id": "mc-c1-097",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Cho hàm số $y = x^3 - 3x$. Khoảng cách giữa hai điểm cực đại và cực tiểu của đồ thị là:",
+      "choices": [
+        "$2\\sqrt{5}$",
+        "$2\\sqrt{3}$",
+        "$4$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "Cực đại $(-1; 2)$ và cực tiểu $(1; -2)$. $d = \\sqrt{(1 - (-1))^2 + (-2 - 2)^2} = \\sqrt{4 + 16} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-098",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Độ dài đoạn thẳng nối hai điểm cực trị của đồ thị hàm số $y = -x^3 + 3x + 1$ là:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$2\\sqrt{5}$",
+        "$5$"
+      ],
+      "answer": 2,
+      "explanation": "Hai điểm là $(-1; -1)$ và $(1; 3)$. $d = \\sqrt{2^2 + 4^2} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-099",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Khoảng cách giữa hai điểm cực trị của $y = 2x^3 - 3x^2$ là:",
+      "choices": [
+        "$2$",
+        "$\\sqrt{5}$",
+        "$\\sqrt{2}$",
+        "$1$"
+      ],
+      "answer": 2,
+      "explanation": "$y' = 6x(x - 1) = 0$. Cực đại $(0; 0)$ và cực tiểu $(1; -1)$. $d = \\sqrt{1 + 1} = \\sqrt{2}$."
+    },
+    {
+      "id": "mc-c1-100",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "th",
+      "dang": "Khoảng cách giữa hai điểm cực trị",
+      "question": "Hai điểm cực trị của đồ thị $y = x^3 - 3x^2 + 2$ có khoảng cách bằng:",
+      "choices": [
+        "$2$",
+        "$2\\sqrt{5}$",
+        "$2\\sqrt{2}$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "Cực đại $(0; 2)$ và cực tiểu $(2; -2)$. $d = \\sqrt{2^2 + (-4)^2} = \\sqrt{20} = 2\\sqrt{5}$."
+    },
+    {
+      "id": "mc-c1-101",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Một người nông dân muốn rào một khu vườn hình chữ nhật có diện tích $100\\text{ m}^2$. Chu vi nhỏ nhất của khu vườn là:",
+      "choices": [
+        "$40\\text{ m}$",
+        "$36\\text{ m}$",
+        "$50\\text{ m}$",
+        "$45\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Chu vi nhỏ nhất khi khu vườn là hình vuông cạnh 10 m: $4 \\times 10 = 40\\text{ m}$."
+    },
+    {
+      "id": "mc-c1-102",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Người ta cần làm một hàng rào quanh một bãi đất hình chữ nhật có chu vi 60 m. Diện tích lớn nhất của bãi đất là:",
+      "choices": [
+        "$200\\text{ m}^2$",
+        "$250\\text{ m}^2$",
+        "$225\\text{ m}^2$",
+        "$180\\text{ m}^2$"
+      ],
+      "answer": 2,
+      "explanation": "Diện tích lớn nhất khi là hình vuông cạnh $60/4 = 15\\text{ m}$: $15^2 = 225\\text{ m}^2$."
+    },
+    {
+      "id": "mc-c1-103",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Một tấm tôn hình vuông cạnh 12 cm được cắt 4 góc để gấp thành hộp không nắp. Để thể tích hộp lớn nhất thì cạnh hình vuông bị cắt là:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$1\\text{ cm}$",
+        "$2\\text{ cm}$"
+      ],
+      "answer": 3,
+      "explanation": "$V(x) = x(12 - 2x)^2$. Đạo hàm triệt tiêu tại $x = 12/6 = 2\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-104",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán tối ưu chu vi và diện tích",
+      "question": "Cắt 4 góc tấm tôn hình vuông cạnh 18 cm để gấp thành chiếc hộp không nắp. Thể tích hộp lớn nhất khi chiều cao hộp bằng:",
+      "choices": [
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 2,
+      "explanation": "$x = 18/6 = 3\\text{ cm}$."
+    },
+    {
+      "id": "mc-c1-105",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Một vật chuyển động thẳng có phương trình $s(t) = -t^3 + 6t^2 + 2t$ (m). Vận tốc của vật đạt giá trị lớn nhất tại thời điểm:",
+      "choices": [
+        "$t = 4\\text{ s}$",
+        "$t = 3\\text{ s}$",
+        "$t = 1\\text{ s}$",
+        "$t = 2\\text{ s}$"
+      ],
+      "answer": 3,
+      "explanation": "$v(t) = s'(t) = -3t^2 + 12t + 2$. Parabol đạt cực đại tại $t = -12/(2(-3)) = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-106",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Vận tốc tức thời cực đại của vật có $s(t) = -t^3 + 3t^2 + 9t$ bằng:",
+      "choices": [
+        "$6\\text{ m/s}$",
+        "$9\\text{ m/s}$",
+        "$12\\text{ m/s}$",
+        "$15\\text{ m/s}$"
+      ],
+      "answer": 2,
+      "explanation": "$v(t) = -3t^2 + 6t + 9 = -3(t - 1)^2 + 12 \\le 12\\text{ m/s}$ tại $t = 1\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-107",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Phương trình $s(t) = t^3 - 6t^2 + 9t$. Tại thời điểm nào thì gia tốc của chuyển động bằng 0?",
+      "choices": [
+        "$t = 2\\text{ s}$",
+        "$t = 0\\text{ s}$",
+        "$t = 3\\text{ s}$",
+        "$t = 1\\text{ s}$"
+      ],
+      "answer": 0,
+      "explanation": "$v(t) = 3t^2 - 12t + 9 \\Rightarrow a(t) = 6t - 12 = 0 \\Rightarrow t = 2\\text{ s}$."
+    },
+    {
+      "id": "mc-c1-108",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "th",
+      "dang": "Bài toán chuyển động gia tốc và vận tốc",
+      "question": "Vật chuyển động $s(t) = -2t^3 + 12t^2$. Vận tốc lớn nhất đạt được là:",
+      "choices": [
+        "$18\\text{ m/s}$",
+        "$12\\text{ m/s}$",
+        "$36\\text{ m/s}$",
+        "$24\\text{ m/s}$"
+      ],
+      "answer": 3,
+      "explanation": "$v(t) = -6t^2 + 24t = -6(t - 2)^2 + 24 \\le 24\\text{ m/s}$ tại $t = 2$."
+    },
+    {
+      "id": "mc-c1-109",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để hàm số $y = x^3 - 3mx^2 + 3(m^2 - 1)x$ có hai điểm cực trị $x_1, x_2$ thoả mãn $x_1^2 + x_2^2 = 6$:",
+      "choices": [
+        "$m = 1$",
+        "$m = \\pm 1$",
+        "$m = 0$",
+        "$m = \\pm 2$"
+      ],
+      "answer": 1,
+      "explanation": "$y' = 3(x^2 - 2mx + m^2 - 1) = 0 \\Leftrightarrow x = m \\pm 1$. $x_1^2 + x_2^2 = (m-1)^2 + (m+1)^2 = 2m^2 + 2 = 6 \\Rightarrow 2m^2 = 4 \\Rightarrow m^2 = 2$ -> Sửa đề: $x_1^2 + x_2^2 = 4 \\Rightarrow 2m^2 + 2 = 4 \\Rightarrow m^2 = 1 \\Rightarrow m = \\pm 1$."
+    },
+    {
+      "id": "mc-c1-110",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Cho hàm số $y = x^3 - 3x^2 + mx$. Tìm m để hàm số có hai cực trị cùng dấu:",
+      "choices": [
+        "$m > 3$",
+        "$m < 0$",
+        "$m = 3$",
+        "$0 < m < 3$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = 3x^2 - 6x + m = 0$. Hai nghiệm cùng dấu khi $\\Delta' = 9 - 3m > 0 \\Rightarrow m < 3$ và $x_1 x_2 = m/3 > 0 \\Rightarrow m > 0$. Vậy $0 < m < 3$."
+    },
+    {
+      "id": "mc-c1-111",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để hàm số $y = x^3 - 3x^2 + 3mx$ có hai cực trị trái dấu:",
+      "choices": [
+        "$0 < m < 1$",
+        "$m > 0$",
+        "$m < 1$",
+        "$m < 0$"
+      ],
+      "answer": 3,
+      "explanation": "$y' = 3x^2 - 6x + 3m = 0$. Hai nghiệm trái dấu khi $ac < 0 \\Leftrightarrow 3(3m) < 0 \\Leftrightarrow m < 0$."
+    },
+    {
+      "id": "mc-c1-112",
+      "chapter": "c1",
+      "lesson": "b1",
+      "level": "vd",
+      "dang": "Tìm m để đồ thị hàm số có 2 điểm cực trị thoả mãn điều kiện",
+      "question": "Tìm m để đồ thị hàm số $y = x^3 - 3mx^2 + 2$ có điểm cực đại và cực tiểu nằm về hai phía trục tung:",
+      "choices": [
+        "Không có m",
+        "$m > 0$",
+        "$m \\neq 0$",
+        "$m < 0$"
+      ],
+      "answer": 2,
+      "explanation": "$y' = 3x(x - 2m) = 0$. Có 2 nghiệm $x = 0$ và $x = 2m$. Vì 1 nghiệm là 0 nên không thể nằm về hai phía trục tung. Sửa đề: $y = x^3 - 3x + m$ có 2 cực trị $x = \\pm 1$ luôn nằm về hai phía trục tung với mọi m."
+    },
+    {
+      "id": "mc-c1-113",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Một công ty sản xuất x sản phẩm với hàm chi phí $C(x) = x^2 + 40x + 10000$ (nghìn đồng). Chi phí trung bình cho mỗi sản phẩm $\\bar{C}(x) = \\frac{C(x)}{x}$ nhỏ nhất khi số sản phẩm x bằng:",
+      "choices": [
+        "$50$",
+        "$200$",
+        "$150$",
+        "$100$"
+      ],
+      "answer": 3,
+      "explanation": "$\\bar{C}(x) = x + 40 + \\frac{10000}{x} \\ge 40 + 2\\sqrt{10000} = 240$. Đẳng thức khi $x = 100$."
+    },
+    {
+      "id": "mc-c1-114",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Chi phí trung bình $f(x) = x + 20 + \\frac{2500}{x}$. Chi phí này đạt nhỏ nhất khi x bằng:",
+      "choices": [
+        "$25$",
+        "$60$",
+        "$50$",
+        "$100$"
+      ],
+      "answer": 2,
+      "explanation": "Theo Cauchy: $x = \\sqrt{2500} = 50$."
+    },
+    {
+      "id": "mc-c1-115",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Một doanh nghiệp có chi phí sản xuất $C(x) = x^2 + 10x + 3600$. Để chi phí trung bình nhỏ nhất thì doanh nghiệp cần sản xuất bao nhiêu đơn vị?",
+      "choices": [
+        "$70$",
+        "$50$",
+        "$40$",
+        "$60$"
+      ],
+      "answer": 3,
+      "explanation": "$x = \\sqrt{3600} = 60$."
+    },
+    {
+      "id": "mc-c1-116",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Bài toán chi phí tối ưu trong sản xuất",
+      "question": "Hàm chi phí $C(x) = x^2 + 100x + 1600$. Chi phí trên một sản phẩm tối thiểu khi x bằng:",
+      "choices": [
+        "$50$",
+        "$80$",
+        "$20$",
+        "$40$"
+      ],
+      "answer": 3,
+      "explanation": "$x = \\sqrt{1600} = 40$."
+    },
+    {
+      "id": "mc-c1-117",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Từ một tấm bìa hình vuông cạnh 30 cm, cắt bỏ 4 góc 4 hình vuông cạnh x rồi gấp thành một chiếc hộp không nắp. Thể tích chiếc hộp lớn nhất là:",
+      "choices": [
+        "$2000\\text{ cm}^3$",
+        "$2500\\text{ cm}^3$",
+        "$1800\\text{ cm}^3$",
+        "$1500\\text{ cm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Chiều cao $x = 30/6 = 5\\text{ cm}$. Đáy là hình vuông cạnh $30 - 10 = 20\\text{ cm}$. Thể tích $V = 5 \\times 20^2 = 2000\\text{ cm}^3$."
+    },
+    {
+      "id": "mc-c1-118",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Cắt 4 góc tấm tôn hình vuông cạnh 60 cm để gấp thành hộp không nắp. Thể tích tối đa của hộp là:",
+      "choices": [
+        "$12000\\text{ cm}^3$",
+        "$18000\\text{ cm}^3$",
+        "$16000\\text{ cm}^3$",
+        "$20000\\text{ cm}^3$"
+      ],
+      "answer": 2,
+      "explanation": "Chiều cao $x = 60/6 = 10\\text{ cm}$. Đáy cạnh 40 cm. $V = 10 \\times 40^2 = 16000\\text{ cm}^3$."
+    },
+    {
+      "id": "mc-c1-119",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Tấm bìa hình chữ nhật $5\\text{ dm} \\times 8\\text{ dm}$. Cắt 4 góc hình vuông cạnh 1 dm gấp thành hộp. Thể tích hộp bằng:",
+      "choices": [
+        "$24\\text{ dm}^3$",
+        "$18\\text{ dm}^3$",
+        "$15\\text{ dm}^3$",
+        "$20\\text{ dm}^3$"
+      ],
+      "answer": 1,
+      "explanation": "Đáy có kích thước $(5 - 2) \\times (8 - 2) = 3 \\times 6 = 18\\text{ dm}^2$. Thể tích $18 \\times 1 = 18\\text{ dm}^3$."
+    },
+    {
+      "id": "mc-c1-120",
+      "chapter": "c1",
+      "lesson": "b5",
+      "level": "vd",
+      "dang": "Giá trị lớn nhất của thể tích khối hộp",
+      "question": "Một thùng chứa hình trụ không nắp thể tích $V = 54\\pi\\text{ cm}^3$. Diện tích toàn phần nhỏ nhất khi bán kính đáy R bằng:",
+      "choices": [
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$6\\text{ cm}$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\pi R^2 + 2\\pi R h = \\pi R^2 + \\frac{108\\pi}{R}$. $S'(R) = 2\\pi R - \\frac{108\\pi}{R^2} = 0 \\Rightarrow R^3 = 54/2 = 27 \\Rightarrow R = 3\\text{ cm}$."
+    },
+    {
+      "id": "mc-c2-001",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Khái niệm vectơ trong không gian",
+      "question": "Vectơ trong không gian là:",
+      "choices": [
+        "Một đường thẳng",
+        "Một điểm",
+        "Một đoạn thẳng có hướng",
+        "Một tia"
+      ],
+      "answer": 2,
+      "explanation": "Định nghĩa vectơ: đoạn thẳng có hướng."
+    },
+    {
+      "id": "mc-c2-002",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Khái niệm vectơ trong không gian",
+      "question": "Vectơ có điểm đầu và điểm cuối trùng nhau gọi là:",
+      "choices": [
+        "Vectơ đơn vị",
+        "Vectơ cùng phương",
+        "Vectơ-không",
+        "Vectơ đối"
+      ],
+      "answer": 2,
+      "explanation": "Kí hiệu là $\\vec{0}$."
+    },
+    {
+      "id": "mc-c2-003",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Khái niệm vectơ trong không gian",
+      "question": "Độ dài của vectơ $\\vec{AB}$ trong không gian chính là:",
+      "choices": [
+        "Đường thẳng AB",
+        "Toạ độ của điểm A",
+        "Khoảng cách giữa hai điểm A và B",
+        "Toạ độ của điểm B"
+      ],
+      "answer": 2,
+      "explanation": "Độ dài $|\\vec{AB}| = AB$."
+    },
+    {
+      "id": "mc-c2-004",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Khái niệm vectơ trong không gian",
+      "question": "Hai vectơ được gọi là cùng phương nếu:",
+      "choices": [
+        "Giá của chúng song song hoặc trùng nhau",
+        "Chúng vuông góc với nhau",
+        "Chúng có cùng độ dài",
+        "Chúng có cùng điểm đầu"
+      ],
+      "answer": 0,
+      "explanation": "Định nghĩa hai vectơ cùng phương."
+    },
+    {
+      "id": "mc-c2-005",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Khái niệm vectơ trong không gian",
+      "question": "Vectơ đối của vectơ $\\vec{a}$ là vectơ:",
+      "choices": [
+        "Vuông góc với $\\vec{a}$",
+        "Ngược hướng và có cùng độ dài với $\\vec{a}$",
+        "Cùng hướng với $\\vec{a}$",
+        "Có độ dài bằng 0"
+      ],
+      "answer": 1,
+      "explanation": "Vectơ đối ngược hướng và có cùng độ dài."
+    },
+    {
+      "id": "mc-c2-006",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Quy tắc hình hộp",
+      "question": "Cho hình hộp $ABCD.A'B'C'D'$. Đẳng thức vectơ nào sau đây đúng?",
+      "choices": [
+        "$\\vec{AC'} = \\vec{AA'} + \\vec{BB'} + \\vec{CC'}$",
+        "$\\vec{AC'} = \\vec{AB} + \\vec{BC} + \\vec{CD}$",
+        "$\\vec{AC'} = \\vec{AB} + \\vec{AD} + \\vec{AC}$",
+        "$\\vec{AC'} = \\vec{AB} + \\vec{AD} + \\vec{AA'}$"
+      ],
+      "answer": 3,
+      "explanation": "Quy tắc hình hộp: $\\vec{AC'} = \\vec{AB} + \\vec{AD} + \\vec{AA'}$."
+    },
+    {
+      "id": "mc-c2-007",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Quy tắc hình hộp",
+      "question": "Trong hình hộp $ABCD.A'B'C'D'$, tổng $\\vec{AB} + \\vec{AD}$ bằng vectơ nào?",
+      "choices": [
+        "$\\vec{AC'}$",
+        "$\\vec{AA'}$",
+        "$\\vec{AC}$",
+        "$\\vec{BD}$"
+      ],
+      "answer": 2,
+      "explanation": "Quy tắc hình bình hành ở đáy: $\\vec{AB} + \\vec{AD} = \\vec{AC}$."
+    },
+    {
+      "id": "mc-c2-008",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Quy tắc hình hộp",
+      "question": "Cho hình hộp $ABCD.A'B'C'D'$. Tổng $\\vec{A'B'} + \\vec{A'D'} + \\vec{A'A}$ bằng:",
+      "choices": [
+        "$\\vec{0}$",
+        "$\\vec{A'C'}$",
+        "$\\vec{A'C}$",
+        "$\\vec{AC'}$"
+      ],
+      "answer": 2,
+      "explanation": "Quy tắc hình hộp từ đỉnh A': $\\vec{A'C}$."
+    },
+    {
+      "id": "mc-c2-009",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Quy tắc hình hộp",
+      "question": "Trong hình hộp $ABCD.A'B'C'D'$, vectơ $\\vec{BA} + \\vec{BC} + \\vec{BB'}$ bằng:",
+      "choices": [
+        "$\\vec{B'D}$",
+        "$\\vec{BD'}$",
+        "$\\vec{AC'}$",
+        "$\\vec{BD}$"
+      ],
+      "answer": 1,
+      "explanation": "Xuất phát từ đỉnh B: $\\vec{BD'}$."
+    },
+    {
+      "id": "mc-c2-010",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "nb",
+      "dang": "Quy tắc hình hộp",
+      "question": "Tổng $\\vec{DA} + \\vec{DC} + \\vec{DD'}$ trong hình hộp $ABCD.A'B'C'D'$ bằng:",
+      "choices": [
+        "$\\vec{BD'}$",
+        "$\\vec{CA'}$",
+        "$\\vec{DB'}$",
+        "$\\vec{AC'}$"
+      ],
+      "answer": 2,
+      "explanation": "Đường chéo xuất phát từ đỉnh D: $\\vec{DB'}$."
+    },
+    {
+      "id": "mc-c2-011",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ theo ba vectơ đơn vị",
+      "question": "Trong không gian $Oxyz$, cho $\\vec{u} = 2\\vec{i} - 3\\vec{j} + 4\\vec{k}$. Toạ độ của $\\vec{u}$ là:",
+      "choices": [
+        "$(-3; 2; 4)$",
+        "$(2; 3; 4)$",
+        "$(4; -3; 2)$",
+        "$(2; -3; 4)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{u} = x\\vec{i} + y\\vec{j} + z\\vec{k} \\Rightarrow \\vec{u} = (2; -3; 4)$."
+    },
+    {
+      "id": "mc-c2-012",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ theo ba vectơ đơn vị",
+      "question": "Cho vectơ $\\vec{a} = 3\\vec{i} + 5\\vec{k}$. Toạ độ của $\\vec{a}$ là:",
+      "choices": [
+        "$(3; 5; 0)$",
+        "$(3; 5; 1)$",
+        "$(0; 3; 5)$",
+        "$(3; 0; 5)$"
+      ],
+      "answer": 3,
+      "explanation": "Khuyết $\\vec{j}$ nên $y = 0 \\Rightarrow (3; 0; 5)$."
+    },
+    {
+      "id": "mc-c2-013",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ theo ba vectơ đơn vị",
+      "question": "Vectơ $\\vec{b} = -\\vec{j} + 2\\vec{k}$ có toạ độ là:",
+      "choices": [
+        "$(0; -1; 2)$",
+        "$(2; -1; 0)$",
+        "$(-1; 2; 0)$",
+        "$(0; 1; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Khuyết $\\vec{i}$ nên toạ độ là $(0; -1; 2)$."
+    },
+    {
+      "id": "mc-c2-014",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ theo ba vectơ đơn vị",
+      "question": "Vectơ đơn vị $\\vec{i}$ trên trục Ox có toạ độ là:",
+      "choices": [
+        "$(1; 0; 0)$",
+        "$(0; 0; 1)$",
+        "$(0; 1; 0)$",
+        "$(1; 1; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{i} = (1; 0; 0)$."
+    },
+    {
+      "id": "mc-c2-015",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ theo ba vectơ đơn vị",
+      "question": "Toạ độ của vectơ đơn vị $\\vec{k}$ trên trục Oz là:",
+      "choices": [
+        "$(0; 0; 1)$",
+        "$(0; 1; 1)$",
+        "$(1; 0; 0)$",
+        "$(0; 1; 0)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{k} = (0; 0; 1)$."
+    },
+    {
+      "id": "mc-c2-016",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của điểm trong không gian",
+      "question": "Điểm $M(1; -2; 3)$ có toạ độ vectơ $\\vec{OM}$ là:",
+      "choices": [
+        "$(-1; 2; -3)$",
+        "$(3; -2; 1)$",
+        "$(1; -2; 3)$",
+        "$(1; 2; 3)$"
+      ],
+      "answer": 2,
+      "explanation": "Toạ độ của điểm M chính là toạ độ của vectơ $\\vec{OM}$."
+    },
+    {
+      "id": "mc-c2-017",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của điểm trong không gian",
+      "question": "Gốc toạ độ O trong không gian $Oxyz$ có toạ độ là:",
+      "choices": [
+        "$(1; 0; 0)$",
+        "$(1; 1; 1)$",
+        "$(0; 0; 1)$",
+        "$(0; 0; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "$O(0; 0; 0)$."
+    },
+    {
+      "id": "mc-c2-018",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của điểm trong không gian",
+      "question": "Hình chiếu của điểm $M(2; 3; 4)$ lên mặt phẳng toạ độ $(Oxy)$ là:",
+      "choices": [
+        "$(2; 0; 0)$",
+        "$(2; 0; 4)$",
+        "$(2; 3; 0)$",
+        "$(0; 3; 4)$"
+      ],
+      "answer": 2,
+      "explanation": "Chiếu lên $(Oxy)$ thì giữ nguyên x, y và cho $z = 0$."
+    },
+    {
+      "id": "mc-c2-019",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của điểm trong không gian",
+      "question": "Hình chiếu của điểm $A(1; -4; 5)$ lên trục Ox có toạ độ là:",
+      "choices": [
+        "$(1; 0; 0)$",
+        "$(1; -4; 0)$",
+        "$(0; -4; 0)$",
+        "$(0; 0; 5)$"
+      ],
+      "answer": 0,
+      "explanation": "Chiếu lên trục Ox chỉ giữ lại hoành độ: $(1; 0; 0)$."
+    },
+    {
+      "id": "mc-c2-020",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ của điểm trong không gian",
+      "question": "Hình chiếu của điểm $B(3; 2; -1)$ lên mặt phẳng $(Oyz)$ là:",
+      "choices": [
+        "$(0; 2; -1)$",
+        "$(3; 2; 0)$",
+        "$(3; 0; -1)$",
+        "$(0; 0; -1)$"
+      ],
+      "answer": 0,
+      "explanation": "Cho hoành độ $x = 0$: $(0; 2; -1)$."
+    },
+    {
+      "id": "mc-c2-021",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ nối hai điểm",
+      "question": "Cho hai điểm $A(1; 2; 3)$ và $B(4; 5; 6)$. Toạ độ vectơ $\\vec{AB}$ là:",
+      "choices": [
+        "$(3; 3; 3)$",
+        "$(4; 10; 18)$",
+        "$(5; 7; 9)$",
+        "$(-3; -3; -3)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{AB} = (x_B - x_A; y_B - y_A; z_B - z_A) = (3; 3; 3)$."
+    },
+    {
+      "id": "mc-c2-022",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ nối hai điểm",
+      "question": "Cho $A(2; -1; 4)$ và $B(1; 3; 0)$. Toạ độ của $\\vec{AB}$ bằng:",
+      "choices": [
+        "$(3; 2; 4)$",
+        "$(-1; 2; -4)$",
+        "$(1; -4; 4)$",
+        "$(-1; 4; -4)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AB} = (1-2; 3 - (-1); 0-4) = (-1; 4; -4)$."
+    },
+    {
+      "id": "mc-c2-023",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ nối hai điểm",
+      "question": "Toạ độ của vectơ $\\vec{BA}$ với $A(0; 2; 1)$ và $B(3; 1; -2)$ là:",
+      "choices": [
+        "$(-3; 1; 3)$",
+        "$(-3; -1; 3)$",
+        "$(3; -1; -3)$",
+        "$(3; 3; -1)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{BA} = (0-3; 2-1; 1 - (-2)) = (-3; 1; 3)$."
+    },
+    {
+      "id": "mc-c2-024",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ nối hai điểm",
+      "question": "Cho $M(1; 1; 1)$ và $N(2; 3; 4)$. Vectơ $\\vec{MN}$ có toạ độ là:",
+      "choices": [
+        "$(2; 3; 4)$",
+        "$(3; 4; 5)$",
+        "$(-1; -2; -3)$",
+        "$(1; 2; 3)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{MN} = (1; 2; 3)$."
+    },
+    {
+      "id": "mc-c2-025",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Toạ độ của vectơ nối hai điểm",
+      "question": "Toạ độ vectơ $\\vec{OA}$ với $A(5; -2; 7)$ là:",
+      "choices": [
+        "$(0; 0; 0)$",
+        "$(5; -2; 7)$",
+        "$(-5; 2; -7)$",
+        "$(5; 2; 7)$"
+      ],
+      "answer": 1,
+      "explanation": "$\\vec{OA} = (5; -2; 7)$."
+    },
+    {
+      "id": "mc-c2-026",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm của đoạn thẳng",
+      "question": "Cho hai điểm $A(1; 2; 3)$ và $B(3; 4; 5)$. Toạ độ trung điểm M của AB là:",
+      "choices": [
+        "$(2; 2; 2)$",
+        "$(4; 6; 8)$",
+        "$(2; 3; 4)$",
+        "$(1; 1; 1)$"
+      ],
+      "answer": 2,
+      "explanation": "$M = \\left(\\frac{1+3}{2}; \\frac{2+4}{2}; \\frac{3+5}{2}\\right) = (2; 3; 4)$."
+    },
+    {
+      "id": "mc-c2-027",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm của đoạn thẳng",
+      "question": "Trung điểm của đoạn thẳng nối $A(0; 4; -2)$ và $B(2; 0; 6)$ có toạ độ là:",
+      "choices": [
+        "$(1; 2; 4)$",
+        "$(2; 2; 2)$",
+        "$(2; 4; 4)$",
+        "$(1; 2; 2)$"
+      ],
+      "answer": 3,
+      "explanation": "$M = (1; 2; 2)$."
+    },
+    {
+      "id": "mc-c2-028",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm của đoạn thẳng",
+      "question": "Cho $A(4; -2; 6)$ và $B(-2; 4; 0)$. Toạ độ trung điểm I là:",
+      "choices": [
+        "$(2; 2; 6)$",
+        "$(3; 3; 3)$",
+        "$(1; 2; 3)$",
+        "$(1; 1; 3)$"
+      ],
+      "answer": 3,
+      "explanation": "$I = (1; 1; 3)$."
+    },
+    {
+      "id": "mc-c2-029",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm của đoạn thẳng",
+      "question": "Tìm toạ độ trung điểm của đoạn AB với $A(2; 5; 1)$ và $B(4; 1; 3)$:",
+      "choices": [
+        "$(2; -4; 2)$",
+        "$(3; 2; 2)$",
+        "$(3; 3; 2)$",
+        "$(6; 6; 4)$"
+      ],
+      "answer": 2,
+      "explanation": "$((2+4)/2; (5+1)/2; (1+3)/2) = (3; 3; 2)$."
+    },
+    {
+      "id": "mc-c2-030",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trung điểm của đoạn thẳng",
+      "question": "Nếu I là trung điểm của AB thì toạ độ điểm B tính qua A và I là:",
+      "choices": [
+        "$((x_A + x_I)/2; \\dots)$",
+        "$(x_A + x_I; y_A + y_I; z_A + z_I)$",
+        "$(x_I - x_A; y_I - y_A; z_I - z_A)$",
+        "$(2x_I - x_A; 2y_I - y_A; 2z_I - z_A)$"
+      ],
+      "answer": 3,
+      "explanation": "$x_B = 2x_I - x_A$ tương tự cho y và z."
+    },
+    {
+      "id": "mc-c2-031",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trọng tâm tam giác",
+      "question": "Cho tam giác ABC có $A(1; 2; 3), B(2; 3; 4), C(3; 4; 5)$. Toạ độ trọng tâm G là:",
+      "choices": [
+        "$(3; 3; 3)$",
+        "$(6; 9; 12)$",
+        "$(2; 3; 4)$",
+        "$(1; 1; 1)$"
+      ],
+      "answer": 2,
+      "explanation": "$G = \\left(\\frac{1+2+3}{3}; \\frac{2+3+4}{3}; \\frac{3+4+5}{3}\\right) = (2; 3; 4)$."
+    },
+    {
+      "id": "mc-c2-032",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trọng tâm tam giác",
+      "question": "Toạ độ trọng tâm tam giác có ba đỉnh $A(0; 3; 1), B(3; 0; 2), C(3; 3; 0)$ là:",
+      "choices": [
+        "$(1; 1; 1)$",
+        "$(3; 3; 1)$",
+        "$(6; 6; 3)$",
+        "$(2; 2; 1)$"
+      ],
+      "answer": 3,
+      "explanation": "$G = (6/3; 6/3; 3/3) = (2; 2; 1)$."
+    },
+    {
+      "id": "mc-c2-033",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trọng tâm tam giác",
+      "question": "Trọng tâm tam giác $A(1; -1; 2), B(2; 1; 1), C(0; 3; 3)$ có toạ độ là:",
+      "choices": [
+        "$(1; 2; 2)$",
+        "$(1; 1; 2)$",
+        "$(0; 1; 2)$",
+        "$(3; 3; 6)$"
+      ],
+      "answer": 1,
+      "explanation": "$G = (3/3; 3/3; 6/3) = (1; 1; 2)$."
+    },
+    {
+      "id": "mc-c2-034",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trọng tâm tam giác",
+      "question": "Cho $A(3; 0; 0), B(0; 3; 0), C(0; 0; 3)$. Trọng tâm G của tam giác ABC là:",
+      "choices": [
+        "$(1; 1; 1)$",
+        "$(1; 0; 1)$",
+        "$(0; 0; 0)$",
+        "$(3; 3; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$G = (1; 1; 1)$."
+    },
+    {
+      "id": "mc-c2-035",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "nb",
+      "dang": "Toạ độ trọng tâm tam giác",
+      "question": "Nếu G là trọng tâm tam giác ABC thì hệ thức vectơ nào đúng?",
+      "choices": [
+        "$\\vec{GA} + \\vec{GB} + \\vec{GC} = \\vec{0}$",
+        "$\\vec{AB} + \\vec{AC} = \\vec{AG}$",
+        "$\\vec{OG} = \\vec{OA} + \\vec{OB} + \\vec{OC}$",
+        "$\\vec{GA} + \\vec{GB} = \\vec{GC}$"
+      ],
+      "answer": 0,
+      "explanation": "Tính chất trọng tâm: $\\vec{GA} + \\vec{GB} + \\vec{GC} = \\vec{0}$."
+    },
+    {
+      "id": "mc-c2-036",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Phép cộng trừ vectơ toạ độ",
+      "question": "Cho $\\vec{u} = (1; 2; 3)$ và $\\vec{v} = (2; 1; -1)$. Toạ độ của $\\vec{u} + \\vec{v}$ là:",
+      "choices": [
+        "$(1; 1; 4)$",
+        "$(2; 2; -3)$",
+        "$(3; 3; 2)$",
+        "$(-1; 1; 4)$"
+      ],
+      "answer": 2,
+      "explanation": "$\\vec{u} + \\vec{v} = (1+2; 2+1; 3-1) = (3; 3; 2)$."
+    },
+    {
+      "id": "mc-c2-037",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Phép cộng trừ vectơ toạ độ",
+      "question": "Cho $\\vec{u} = (3; -1; 2)$ và $\\vec{v} = (1; 2; 4)$. Toạ độ của $\\vec{u} - \\vec{v}$ bằng:",
+      "choices": [
+        "$(2; -3; -2)$",
+        "$(-2; 3; 2)$",
+        "$(2; 1; -2)$",
+        "$(4; 1; 6)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{u} - \\vec{v} = (3-1; -1-2; 2-4) = (2; -3; -2)$."
+    },
+    {
+      "id": "mc-c2-038",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Phép cộng trừ vectơ toạ độ",
+      "question": "Cho $\\vec{a} = (2; 0; -1)$. Toạ độ của vectơ $2\\vec{a}$ là:",
+      "choices": [
+        "$(1; 0; -0,5)$",
+        "$(4; 0; -2)$",
+        "$(2; 0; -2)$",
+        "$(4; 0; -1)$"
+      ],
+      "answer": 1,
+      "explanation": "$2\\vec{a} = (4; 0; -2)$."
+    },
+    {
+      "id": "mc-c2-039",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Phép cộng trừ vectơ toạ độ",
+      "question": "Cho $\\vec{u} = (1; -2; 3)$. Toạ độ của $-\\vec{u}$ là:",
+      "choices": [
+        "$(-1; 2; -3)$",
+        "$(2; -1; 3)$",
+        "$(-1; -2; -3)$",
+        "$(1; 2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$-\\vec{u} = (-1; 2; -3)$."
+    },
+    {
+      "id": "mc-c2-040",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Phép cộng trừ vectơ toạ độ",
+      "question": "Cho $\\vec{a} = (1; 1; 1)$ và $\\vec{b} = (2; -1; 0)$. Toạ độ $\\vec{a} + \\vec{b}$ bằng:",
+      "choices": [
+        "$(3; 0; 1)$",
+        "$(1; 2; 1)$",
+        "$(2; 0; 1)$",
+        "$(3; 2; 1)$"
+      ],
+      "answer": 0,
+      "explanation": "$(1+2; 1-1; 1+0) = (3; 0; 1)$."
+    },
+    {
+      "id": "mc-c2-041",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài của vectơ",
+      "question": "Độ dài của vectơ $\\vec{u} = (1; 2; 2)$ bằng:",
+      "choices": [
+        "$5$",
+        "$9$",
+        "$\\sqrt{5}$",
+        "$3$"
+      ],
+      "answer": 3,
+      "explanation": "$|\\vec{u}| = \\sqrt{1^2 + 2^2 + 2^2} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3$."
+    },
+    {
+      "id": "mc-c2-042",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài của vectơ",
+      "question": "Tính độ dài của vectơ $\\vec{a} = (2; -2; 1)$:",
+      "choices": [
+        "$\\sqrt{5}$",
+        "$9$",
+        "$3$",
+        "$5$"
+      ],
+      "answer": 2,
+      "explanation": "$|\\vec{a}| = \\sqrt{4 + 4 + 1} = 3$."
+    },
+    {
+      "id": "mc-c2-043",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài của vectơ",
+      "question": "Vectơ $\\vec{u} = (0; 3; 4)$ có độ dài là:",
+      "choices": [
+        "$5$",
+        "$25$",
+        "$7$",
+        "$\\sqrt{7}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\sqrt{0 + 9 + 16} = 5$."
+    },
+    {
+      "id": "mc-c2-044",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài của vectơ",
+      "question": "Độ dài của vectơ $\\vec{v} = (1; 1; 1)$ bằng:",
+      "choices": [
+        "$1$",
+        "$3$",
+        "$\\sqrt{2}$",
+        "$\\sqrt{3}$"
+      ],
+      "answer": 3,
+      "explanation": "$|\\vec{v}| = \\sqrt{1 + 1 + 1} = \\sqrt{3}$."
+    },
+    {
+      "id": "mc-c2-045",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Độ dài của vectơ",
+      "question": "Tính độ dài vectơ $\\vec{b} = (-6; 8; 0)$:",
+      "choices": [
+        "$14$",
+        "$\\sqrt{14}$",
+        "$10$",
+        "$2$"
+      ],
+      "answer": 2,
+      "explanation": "$\\sqrt{36 + 64} = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "mc-c2-046",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Khoảng cách giữa hai điểm trong không gian",
+      "question": "Khoảng cách giữa hai điểm $A(1; 1; 1)$ và $B(2; 3; 3)$ bằng:",
+      "choices": [
+        "$3$",
+        "$9$",
+        "$5$",
+        "$\\sqrt{5}$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = \\sqrt{(2-1)^2 + (3-1)^2 + (3-1)^2} = \\sqrt{1 + 4 + 4} = 3$."
+    },
+    {
+      "id": "mc-c2-047",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Khoảng cách giữa hai điểm trong không gian",
+      "question": "Tính khoảng cách giữa hai điểm $O(0; 0; 0)$ và $M(1; 2; 2)$:",
+      "choices": [
+        "$3$",
+        "$5$",
+        "$\\sqrt{5}$",
+        "$9$"
+      ],
+      "answer": 0,
+      "explanation": "$OM = \\sqrt{1 + 4 + 4} = 3$."
+    },
+    {
+      "id": "mc-c2-048",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Khoảng cách giữa hai điểm trong không gian",
+      "question": "Khoảng cách giữa $A(2; 0; 0)$ và $B(0; 0; 2)$ bằng:",
+      "choices": [
+        "$2\\sqrt{2}$",
+        "$0$",
+        "$4$",
+        "$2$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$."
+    },
+    {
+      "id": "mc-c2-049",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Khoảng cách giữa hai điểm trong không gian",
+      "question": "Cho $A(1; 0; 0)$ và $B(1; 3; 4)$. Khoảng cách AB bằng:",
+      "choices": [
+        "$5$",
+        "$25$",
+        "$7$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "$AB = \\sqrt{0 + 9 + 16} = 5$."
+    },
+    {
+      "id": "mc-c2-050",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Khoảng cách giữa hai điểm trong không gian",
+      "question": "Khoảng cách giữa hai điểm $M(3; -1; 2)$ và $N(3; 2; -2)$ là:",
+      "choices": [
+        "$5$",
+        "$\\sqrt{7}$",
+        "$7$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "$MN = \\sqrt{0 + 3^2 + (-4)^2} = 5$."
+    },
+    {
+      "id": "mc-c2-051",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Tích vô hướng của hai vectơ",
+      "question": "Cho $\\vec{u} = (1; 2; 3)$ và $\\vec{v} = (2; -1; 1)$. Tích vô hướng $\\vec{u} \\cdot \\vec{v}$ bằng:",
+      "choices": [
+        "$0$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "$\\vec{u} \\cdot \\vec{v} = 1(2) + 2(-1) + 3(1) = 2 - 2 + 3 = 3$."
+    },
+    {
+      "id": "mc-c2-052",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Tích vô hướng của hai vectơ",
+      "question": "Tính tích vô hướng của $\\vec{a} = (2; 3; -1)$ và $\\vec{b} = (1; -2; 4)$:",
+      "choices": [
+        "$0$",
+        "$-4$",
+        "$8$",
+        "$-8$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{a} \\cdot \\vec{b} = 2(1) + 3(-2) + (-1)(4) = 2 - 6 - 4 = -8$."
+    },
+    {
+      "id": "mc-c2-053",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Tích vô hướng của hai vectơ",
+      "question": "Cho $\\vec{u} = (3; 1; 2)$ và $\\vec{v} = (-1; 2; 1)$. Giá trị $\\vec{u} \\cdot \\vec{v}$ là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$3$",
+        "$-1$"
+      ],
+      "answer": 1,
+      "explanation": "$3(-1) + 1(2) + 2(1) = -3 + 2 + 2 = 1$."
+    },
+    {
+      "id": "mc-c2-054",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Tích vô hướng của hai vectơ",
+      "question": "Tích vô hướng của $\\vec{i}$ và $\\vec{j}$ trong hệ $Oxyz$ bằng:",
+      "choices": [
+        "Không xác định",
+        "$-1$",
+        "$0$",
+        "$1$"
+      ],
+      "answer": 2,
+      "explanation": "Hai vectơ đơn vị vuông góc với nhau nên tích vô hướng bằng 0."
+    },
+    {
+      "id": "mc-c2-055",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Tích vô hướng của hai vectơ",
+      "question": "Tích vô hướng $\\vec{k} \\cdot \\vec{k}$ bằng:",
+      "choices": [
+        "$2$",
+        "$-1$",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 2,
+      "explanation": "$|\\vec{k}|^2 = 1^2 = 1$."
+    },
+    {
+      "id": "mc-c2-056",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Hai vectơ vuông góc",
+      "question": "Hai vectơ $\\vec{u}$ và $\\vec{v}$ vuông góc với nhau khi và chỉ khi:",
+      "choices": [
+        "$\\vec{u} \\cdot \\vec{v} = 0$",
+        "$\\vec{u} \\cdot \\vec{v} = 1$",
+        "$|\\vec{u}| = |\\vec{v}|$",
+        "$\\vec{u} = \\vec{v}$"
+      ],
+      "answer": 0,
+      "explanation": "Hai vectơ khác không vuông góc $\\Leftrightarrow$ tích vô hướng bằng 0."
+    },
+    {
+      "id": "mc-c2-057",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Hai vectơ vuông góc",
+      "question": "Cho $\\vec{u} = (1; 2; m)$ và $\\vec{v} = (2; 1; -2)$. Hai vectơ vuông góc khi m bằng:",
+      "choices": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$-2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{u} \\cdot \\vec{v} = 2 + 2 - 2m = 4 - 2m = 0 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c2-058",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Hai vectơ vuông góc",
+      "question": "Tìm m để $\\vec{a} = (m; 1; 2)$ vuông góc với $\\vec{b} = (2; -4; 1)$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$-1$",
+        "$0$"
+      ],
+      "answer": 1,
+      "explanation": "$2m - 4 + 2 = 0 \\Rightarrow 2m - 2 = 0 \\Rightarrow m = 1$."
+    },
+    {
+      "id": "mc-c2-059",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Hai vectơ vuông góc",
+      "question": "Vectơ $\\vec{u} = (1; 0; 0)$ vuông góc với vectơ nào sau đây?",
+      "choices": [
+        "$\\vec{v} = (1; 2; 3)$",
+        "$\\vec{v} = (-1; 0; 0)$",
+        "$\\vec{v} = (2; 0; 0)$",
+        "$\\vec{v} = (0; 2; 3)$"
+      ],
+      "answer": 3,
+      "explanation": "$1(0) + 0(2) + 0(3) = 0$ nên vuông góc với $(0; 2; 3)$."
+    },
+    {
+      "id": "mc-c2-060",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "nb",
+      "dang": "Hai vectơ vuông góc",
+      "question": "Tìm x để $\\vec{u} = (x; 2; 1)$ vuông góc với $\\vec{v} = (3; -1; -1)$:",
+      "choices": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$-1$"
+      ],
+      "answer": 1,
+      "explanation": "$3x - 2 - 1 = 0 \\Rightarrow 3x = 3 \\Rightarrow x = 1$."
+    },
+    {
+      "id": "mc-c2-061",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ đỉnh thứ tư của hình bình hành",
+      "question": "Cho ba điểm $A(1; 2; 3), B(2; 4; 5), C(4; 5; 6)$. Toạ độ đỉnh D để ABCD là hình bình hành là:",
+      "choices": [
+        "$(1; 3; 4)$",
+        "$(3; 4; 5)$",
+        "$(5; 7; 8)$",
+        "$(3; 3; 4)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AD} = \\vec{BC} \\Rightarrow D = A + C - B = (1+4-2; 2+5-4; 3+6-5) = (3; 3; 4)$."
+    },
+    {
+      "id": "mc-c2-062",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ đỉnh thứ tư của hình bình hành",
+      "question": "Tìm toạ độ đỉnh D của hình bình hành ABCD biết $A(0; 1; 2), B(1; 3; 1), C(2; 2; 4)$:",
+      "choices": [
+        "$(1; 1; 3)$",
+        "$(2; 0; 4)$",
+        "$(3; 4; 3)$",
+        "$(1; 0; 5)$"
+      ],
+      "answer": 3,
+      "explanation": "$D = A + C - B = (0+2-1; 1+2-3; 2+4-1) = (1; 0; 5)$."
+    },
+    {
+      "id": "mc-c2-063",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ đỉnh thứ tư của hình bình hành",
+      "question": "Cho hình bình hành ABCD có $A(2; 1; 0), B(3; 2; 1), C(1; 4; 2)$. Toạ độ đỉnh D là:",
+      "choices": [
+        "$(0; 3; 1)$",
+        "$(1; 2; 1)$",
+        "$(4; 3; 1)$",
+        "$(2; 5; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "$D = (2+1-3; 1+4-2; 0+2-1) = (0; 3; 1)$."
+    },
+    {
+      "id": "mc-c2-064",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ đỉnh thứ tư của hình bình hành",
+      "question": "Biết $A(1; 0; 1), B(2; 1; 2), C(3; 4; 5)$ là 3 đỉnh hình bình hành ABCD. Tìm D:",
+      "choices": [
+        "$(3; 2; 4)$",
+        "$(1; 2; 3)$",
+        "$(2; 3; 4)$",
+        "$(4; 5; 6)$"
+      ],
+      "answer": 2,
+      "explanation": "$D = (1+3-2; 0+4-1; 1+5-2) = (2; 3; 4)$."
+    },
+    {
+      "id": "mc-c2-065",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Hai vectơ cùng phương trong không gian",
+      "question": "Cho $\\vec{u} = (2; 4; -6)$ và $\\vec{v} = (1; m; -3)$. Để $\\vec{u}$ và $\\vec{v}$ cùng phương thì m bằng:",
+      "choices": [
+        "$4$",
+        "$2$",
+        "$-2$",
+        "$1$"
+      ],
+      "answer": 1,
+      "explanation": "$\\frac{2}{1} = \\frac{4}{m} = \\frac{-6}{-3} = 2 \\Rightarrow m = 2$."
+    },
+    {
+      "id": "mc-c2-066",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Hai vectơ cùng phương trong không gian",
+      "question": "Tìm m để $\\vec{a} = (3; -6; 9)$ cùng phương với $\\vec{b} = (1; -2; m)$:",
+      "choices": [
+        "$9$",
+        "$1$",
+        "$-3$",
+        "$3$"
+      ],
+      "answer": 3,
+      "explanation": "Tỉ số bằng 3 nên $m = 9/3 = 3$."
+    },
+    {
+      "id": "mc-c2-067",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Hai vectơ cùng phương trong không gian",
+      "question": "Hai vectơ $\\vec{u} = (m; 2; 4)$ và $\\vec{v} = (2; 1; 2)$ cùng phương khi m bằng:",
+      "choices": [
+        "$1$",
+        "$4$",
+        "$8$",
+        "$2$"
+      ],
+      "answer": 1,
+      "explanation": "$m/2 = 2/1 = 2 \\Rightarrow m = 4$."
+    },
+    {
+      "id": "mc-c2-068",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Hai vectơ cùng phương trong không gian",
+      "question": "Cho $\\vec{a} = (1; 2; 3)$ và $\\vec{b} = (2; 4; k)$ cùng phương. Giá trị của k là:",
+      "choices": [
+        "$6$",
+        "$4$",
+        "$8$",
+        "$3$"
+      ],
+      "answer": 0,
+      "explanation": "$k = 3 \\times 2 = 6$."
+    },
+    {
+      "id": "mc-c2-069",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Ba điểm thẳng hàng trong không gian",
+      "question": "Ba điểm $A, B, C$ thẳng hàng khi và chỉ khi:",
+      "choices": [
+        "$\\vec{AB} = \\vec{AC}$",
+        "Hai vectơ $\\vec{AB}$ và $\\vec{AC}$ cùng phương",
+        "$AB = BC$",
+        "$AB + BC = AC$"
+      ],
+      "answer": 1,
+      "explanation": "Điều kiện thẳng hàng là hai vectơ $\\vec{AB}, \\vec{AC}$ cùng phương."
+    },
+    {
+      "id": "mc-c2-070",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Ba điểm thẳng hàng trong không gian",
+      "question": "Cho $A(1; 2; 3), B(2; 4; 5), C(3; 6; m)$. Tìm m để A, B, C thẳng hàng:",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$8$",
+        "$7$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AB} = (1; 2; 2)$. $\\vec{AC} = (2; 4; m - 3)$. Cùng phương khi $m - 3 = 4 \\Rightarrow m = 7$."
+    },
+    {
+      "id": "mc-c2-071",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Ba điểm thẳng hàng trong không gian",
+      "question": "Tìm y để $A(0; 1; 2), B(1; 3; 4), C(2; y; 6)$ thẳng hàng:",
+      "choices": [
+        "$4$",
+        "$3$",
+        "$5$",
+        "$6$"
+      ],
+      "answer": 2,
+      "explanation": "$\\vec{AB} = (1; 2; 2)$. $\\vec{AC} = (2; y - 1; 4) \\Rightarrow y - 1 = 4 \\Rightarrow y = 5$."
+    },
+    {
+      "id": "mc-c2-072",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Ba điểm thẳng hàng trong không gian",
+      "question": "Cho $A(1; 0; 0), B(2; 1; 1), C(3; 2; z)$ thẳng hàng. Giá trị của z là:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$3$",
+        "$2$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AB} = (1; 1; 1) \\Rightarrow \\vec{AC} = (2; 2; z) \\Rightarrow z = 2$."
+    },
+    {
+      "id": "mc-c2-073",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính côsin góc giữa hai vectơ",
+      "question": "Tính côsin góc giữa hai vectơ $\\vec{u} = (1; 1; 0)$ và $\\vec{v} = (0; 1; 1)$:",
+      "choices": [
+        "$\\frac{\\sqrt{3}}{2}$",
+        "$\\frac{1}{2}$",
+        "$0$",
+        "$\\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "$\\cos(\\vec{u}, \\vec{v}) = \\frac{1(0) + 1(1) + 0(1)}{\\sqrt{2} \\cdot \\sqrt{2}} = \\frac{1}{2}$."
+    },
+    {
+      "id": "mc-c2-074",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính côsin góc giữa hai vectơ",
+      "question": "Góc giữa hai vectơ $\\vec{u} = (1; 0; 1)$ và $\\vec{v} = (1; 1; 0)$ bằng:",
+      "choices": [
+        "$30^\\circ$",
+        "$90^\\circ$",
+        "$60^\\circ$",
+        "$45^\\circ$"
+      ],
+      "answer": 2,
+      "explanation": "$\\cos = 1/2 \\Rightarrow$ góc bằng $60^\\circ$."
+    },
+    {
+      "id": "mc-c2-075",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính côsin góc giữa hai vectơ",
+      "question": "Tính côsin góc giữa $\\vec{a} = (1; 2; 2)$ và $\\vec{b} = (2; -2; 1)$:",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{0}{9} = 0$",
+        "$-\\frac{1}{3}$"
+      ],
+      "answer": 2,
+      "explanation": "Tích vô hướng: $2 - 4 + 2 = 0 \\Rightarrow \\cos = 0$ (hai vectơ vuông góc $90^\\circ$)."
+    },
+    {
+      "id": "mc-c2-076",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính côsin góc giữa hai vectơ",
+      "question": "Cho $\\vec{u} = (2; 1; 2)$ và $\\vec{v} = (1; 2; -2)$. Góc giữa chúng là:",
+      "choices": [
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$180^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Tích vô hướng: $2(1) + 1(2) + 2(-2) = 2 + 2 - 4 = 0 \\Rightarrow 90^\\circ$."
+    },
+    {
+      "id": "mc-c2-077",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ điểm thoả mãn hệ thức vectơ",
+      "question": "Tìm toạ độ điểm M thoả mãn $\\vec{AM} = 2\\vec{AB}$ với $A(1; 1; 1)$ và $B(2; 3; 4)$:",
+      "choices": [
+        "$(2; 4; 6)$",
+        "$(4; 6; 8)$",
+        "$(3; 4; 5)$",
+        "$(3; 5; 7)$"
+      ],
+      "answer": 3,
+      "explanation": "$\\vec{AB} = (1; 2; 3) \\Rightarrow \\vec{AM} = (2; 4; 6) \\Rightarrow M = (1+2; 1+4; 1+6) = (3; 5; 7)$."
+    },
+    {
+      "id": "mc-c2-078",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ điểm thoả mãn hệ thức vectơ",
+      "question": "Cho $A(1; 2; 3)$ và $B(3; 4; 5)$. Điểm C thoả mãn $\\vec{AC} = 3\\vec{AB}$ có toạ độ là:",
+      "choices": [
+        "$(7; 8; 9)$",
+        "$(9; 10; 11)$",
+        "$(6; 8; 10)$",
+        "$(5; 6; 7)$"
+      ],
+      "answer": 0,
+      "explanation": "$\\vec{AB} = (2; 2; 2) \\Rightarrow \\vec{AC} = (6; 6; 6) \\Rightarrow C = (7; 8; 9)$."
+    },
+    {
+      "id": "mc-c2-079",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ điểm thoả mãn hệ thức vectơ",
+      "question": "Tìm điểm M chia đoạn AB theo tỉ số $\\vec{MA} = -\\vec{MB}$ (trung điểm) với $A(2; 4; 6), B(4; 6; 8)$:",
+      "choices": [
+        "$(3; 5; 7)$",
+        "$(6; 10; 14)$",
+        "$(2; 3; 4)$",
+        "$(1; 2; 3)$"
+      ],
+      "answer": 0,
+      "explanation": "M là trung điểm: $(3; 5; 7)$."
+    },
+    {
+      "id": "mc-c2-080",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Toạ độ điểm thoả mãn hệ thức vectơ",
+      "question": "Cho $A(0; 2; 4)$ và $B(2; 4; 6)$. Điểm M sao cho $\\vec{OM} = \\vec{OA} + \\vec{OB}$ là:",
+      "choices": [
+        "$(2; 6; 10)$",
+        "$(0; 6; 10)$",
+        "$(1; 3; 5)$",
+        "$(2; 2; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "$M = (0+2; 2+4; 4+6) = (2; 6; 10)$."
+    },
+    {
+      "id": "mc-c2-081",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Chu vi tam giác trong không gian",
+      "question": "Cho tam giác ABC có $A(1; 0; 0), B(0; 1; 0), C(0; 0; 1)$. Tam giác ABC là tam giác gì?",
+      "choices": [
+        "Tam giác vuông",
+        "Tam giác đều cạnh $\\sqrt{2}$",
+        "Tam giác vuông cân",
+        "Tam giác thường"
+      ],
+      "answer": 1,
+      "explanation": "$AB = BC = CA = \\sqrt{1 + 1} = \\sqrt{2}$, ba cạnh bằng nhau nên là tam giác đều."
+    },
+    {
+      "id": "mc-c2-082",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Chu vi tam giác trong không gian",
+      "question": "Chu vi tam giác đều ABC với $A(1; 0; 0), B(0; 1; 0), C(0; 0; 1)$ bằng:",
+      "choices": [
+        "$2\\sqrt{3}$",
+        "$6$",
+        "$3\\sqrt{2}$",
+        "$3$"
+      ],
+      "answer": 2,
+      "explanation": "Mỗi cạnh bằng $\\sqrt{2}$ nên chu vi bằng $3\\sqrt{2}$."
+    },
+    {
+      "id": "mc-c2-083",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Chu vi tam giác trong không gian",
+      "question": "Tam giác OAB với $O(0; 0; 0), A(3; 0; 0), B(0; 4; 0)$ có chu vi bằng:",
+      "choices": [
+        "$12$",
+        "$14$",
+        "$7$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$OA = 3, OB = 4, AB = 5$. Chu vi là $3 + 4 + 5 = 12$."
+    },
+    {
+      "id": "mc-c2-084",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Chu vi tam giác trong không gian",
+      "question": "Tam giác OMN với $O(0; 0; 0), M(0; 6; 0), N(0; 0; 8)$ có cạnh MN bằng:",
+      "choices": [
+        "$10$",
+        "$14$",
+        "$\\sqrt{14}$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$MN = \\sqrt{36 + 64} = 10$."
+    },
+    {
+      "id": "mc-c2-085",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Diện tích tam giác vuông trong không gian",
+      "question": "Tam giác OAB với $O(0; 0; 0), A(4; 0; 0), B(0; 6; 0)$ có diện tích bằng:",
+      "choices": [
+        "$24$",
+        "$12$",
+        "$10$",
+        "$8$"
+      ],
+      "answer": 1,
+      "explanation": "Tam giác vuông tại O: $S = \\frac{1}{2} OA \\cdot OB = \\frac{1}{2} \\cdot 4 \\cdot 6 = 12$."
+    },
+    {
+      "id": "mc-c2-086",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Diện tích tam giác vuông trong không gian",
+      "question": "Diện tích tam giác vuông OMN với $O(0; 0; 0), M(2; 0; 0), N(0; 0; 5)$ là:",
+      "choices": [
+        "$10$",
+        "$2,5$",
+        "$7$",
+        "$5$"
+      ],
+      "answer": 3,
+      "explanation": "$S = \\frac{1}{2} \\cdot 2 \\cdot 5 = 5$."
+    },
+    {
+      "id": "mc-c2-087",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Diện tích tam giác vuông trong không gian",
+      "question": "Cho $A(3; 0; 0), B(0; 4; 0)$. Diện tích tam giác OAB bằng:",
+      "choices": [
+        "$6$",
+        "$5$",
+        "$12$",
+        "$7$"
+      ],
+      "answer": 0,
+      "explanation": "$S = \\frac{1}{2} \\cdot 3 \\cdot 4 = 6$."
+    },
+    {
+      "id": "mc-c2-088",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Diện tích tam giác vuông trong không gian",
+      "question": "Tam giác OBC với $O(0; 0; 0), B(0; 8; 0), C(0; 0; 6)$ có diện tích là:",
+      "choices": [
+        "$48$",
+        "$14$",
+        "$24$",
+        "$10$"
+      ],
+      "answer": 2,
+      "explanation": "$S = \\frac{1}{2} \\cdot 8 \\cdot 6 = 24$."
+    },
+    {
+      "id": "mc-c2-089",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông OABC",
+      "question": "Cho ba điểm $A(2; 0; 0), B(0; 3; 0), C(0; 0; 4)$. Thể tích tứ diện OABC bằng:",
+      "choices": [
+        "$4$",
+        "$12$",
+        "$24$",
+        "$6$"
+      ],
+      "answer": 0,
+      "explanation": "Tứ diện vuông tại O: $V = \\frac{1}{6} OA \\cdot OB \\cdot OC = \\frac{1}{6} \\cdot 2 \\cdot 3 \\cdot 4 = 4$."
+    },
+    {
+      "id": "mc-c2-090",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông OABC",
+      "question": "Tứ diện OABC có $A(3; 0; 0), B(0; 4; 0), C(0; 0; 5)$. Thể tích V là:",
+      "choices": [
+        "$12$",
+        "$10$",
+        "$20$",
+        "$60$"
+      ],
+      "answer": 1,
+      "explanation": "$V = \\frac{1}{6} \\cdot 3 \\cdot 4 \\cdot 5 = 10$."
+    },
+    {
+      "id": "mc-c2-091",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông OABC",
+      "question": "Thể tích tứ diện vuông có 3 cạnh đôi một vuông góc $OA = 6, OB = 2, OC = 3$ bằng:",
+      "choices": [
+        "$6$",
+        "$36$",
+        "$12$",
+        "$18$"
+      ],
+      "answer": 0,
+      "explanation": "$V = \\frac{1}{6} \\cdot 6 \\cdot 2 \\cdot 3 = 6$."
+    },
+    {
+      "id": "mc-c2-092",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Thể tích khối tứ diện vuông OABC",
+      "question": "Cho $A(1; 0; 0), B(0; 6; 0), C(0; 0; 8)$. Thể tích tứ diện OABC bằng:",
+      "choices": [
+        "$4$",
+        "$16$",
+        "$8$",
+        "$48$"
+      ],
+      "answer": 2,
+      "explanation": "$V = \\frac{1}{6} \\cdot 1 \\cdot 6 \\cdot 8 = 8$."
+    },
+    {
+      "id": "mc-c2-093",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tâm và bán kính mặt cầu cơ bản",
+      "question": "Mặt cầu tâm $I(1; 2; 3)$ bán kính $R = 4$ có phương trình là:",
+      "choices": [
+        "$(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 8$",
+        "$(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 16$",
+        "$(x + 1)^2 + (y + 2)^2 + (z + 3)^2 = 16$",
+        "$(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 4$"
+      ],
+      "answer": 1,
+      "explanation": "Phương trình mặt cầu: $(x - a)^2 + (y - b)^2 + (z - c)^2 = R^2$."
+    },
+    {
+      "id": "mc-c2-094",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tâm và bán kính mặt cầu cơ bản",
+      "question": "Mặt cầu $(x - 2)^2 + (y + 1)^2 + (z - 4)^2 = 25$ có tâm và bán kính là:",
+      "choices": [
+        "$I(2; -1; 4), R = 25$",
+        "$I(-2; 1; -4), R = 5$",
+        "$I(2; 1; 4), R = 5$",
+        "$I(2; -1; 4), R = 5$"
+      ],
+      "answer": 3,
+      "explanation": "Tâm $I(2; -1; 4)$, bán kính $R = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mc-c2-095",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tâm và bán kính mặt cầu cơ bản",
+      "question": "Toạ độ tâm của mặt cầu $(x + 3)^2 + y^2 + (z - 1)^2 = 9$ là:",
+      "choices": [
+        "$(-3; 0; -1)$",
+        "$(3; 0; -1)$",
+        "$(3; 0; 1)$",
+        "$(-3; 0; 1)$"
+      ],
+      "answer": 3,
+      "explanation": "Tâm là $(-3; 0; 1)$."
+    },
+    {
+      "id": "mc-c2-096",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tâm và bán kính mặt cầu cơ bản",
+      "question": "Bán kính của mặt cầu $x^2 + y^2 + z^2 = 36$ bằng:",
+      "choices": [
+        "$36$",
+        "$\\sqrt{6}$",
+        "$6$",
+        "$18$"
+      ],
+      "answer": 2,
+      "explanation": "$R = \\sqrt{36} = 6$."
+    },
+    {
+      "id": "mc-c2-097",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Điểm đối xứng qua các mặt phẳng toạ độ",
+      "question": "Điểm đối xứng với $M(1; 2; 3)$ qua mặt phẳng $(Oxy)$ là:",
+      "choices": [
+        "$(-1; -2; 3)$",
+        "$(1; 2; -3)$",
+        "$(1; -2; 3)$",
+        "$(-1; 2; 3)$"
+      ],
+      "answer": 1,
+      "explanation": "Đối xứng qua $(Oxy)$ thì đổi dấu cao độ z: $(1; 2; -3)$."
+    },
+    {
+      "id": "mc-c2-098",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Điểm đối xứng qua các mặt phẳng toạ độ",
+      "question": "Điểm đối xứng với $A(2; -3; 4)$ qua gốc toạ độ O là:",
+      "choices": [
+        "$(-2; 3; -4)$",
+        "$(2; 3; -4)$",
+        "$(-2; -3; -4)$",
+        "$(2; 3; 4)$"
+      ],
+      "answer": 0,
+      "explanation": "Đối xứng qua gốc O thì đổi dấu cả 3 toạ độ: $(-2; 3; -4)$."
+    },
+    {
+      "id": "mc-c2-099",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Điểm đối xứng qua các mặt phẳng toạ độ",
+      "question": "Tìm toạ độ điểm đối xứng của $B(-1; 4; 5)$ qua mặt phẳng $(Oxz)$:",
+      "choices": [
+        "$(1; 4; -5)$",
+        "$(-1; 4; -5)$",
+        "$(-1; -4; 5)$",
+        "$(1; -4; 5)$"
+      ],
+      "answer": 2,
+      "explanation": "Đổi dấu tung độ y: $(-1; -4; 5)$."
+    },
+    {
+      "id": "mc-c2-100",
+      "chapter": "c2",
+      "lesson": "b7",
+      "level": "th",
+      "dang": "Điểm đối xứng qua các mặt phẳng toạ độ",
+      "question": "Điểm đối xứng với $C(3; 1; -2)$ qua trục Oz có toạ độ là:",
+      "choices": [
+        "$(3; -1; 2)$",
+        "$(3; 1; 2)$",
+        "$(-3; -1; -2)$",
+        "$(-3; 1; -2)$"
+      ],
+      "answer": 2,
+      "explanation": "Đối xứng qua trục Oz thì đổi dấu x và y: $(-3; -1; -2)$."
+    },
+    {
+      "id": "mc-c2-101",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Bài toán tổng lực tác dụng trong vật lí",
+      "question": "Ba lực $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$ cùng tác dụng vào một vật tại O làm vật đứng yên (cân bằng). Đẳng thức nào đúng?",
+      "choices": [
+        "$\\vec{F}_1 + \\vec{F}_2 = \\vec{F}_3$",
+        "$F_1 + F_2 + F_3 = 0$",
+        "$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$",
+        "$|\\vec{F}_1| = |\\vec{F}_2| = |\\vec{F}_3|$"
+      ],
+      "answer": 2,
+      "explanation": "Điều kiện cân bằng tĩnh học: hợp lực bằng vectơ-không."
+    },
+    {
+      "id": "mc-c2-102",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Bài toán tổng lực tác dụng trong vật lí",
+      "question": "Cho hai lực $\\vec{F}_1 = (2; 3; 1)$ N và $\\vec{F}_2 = (1; -1; 3)$ N. Hợp lực $\\vec{F} = \\vec{F}_1 + \\vec{F}_2$ có toạ độ là:",
+      "choices": [
+        "$(2; -3; 3)\\text{ N}$",
+        "$(3; 2; 4)\\text{ N}$",
+        "$(1; 4; -2)\\text{ N}$",
+        "$(3; 4; 4)\\text{ N}$"
+      ],
+      "answer": 1,
+      "explanation": "$\\vec{F} = (2+1; 3-1; 1+3) = (3; 2; 4)$ N."
+    },
+    {
+      "id": "mc-c2-103",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Bài toán tổng lực tác dụng trong vật lí",
+      "question": "Độ lớn hợp lực của hai lực vuông góc có độ lớn lần lượt 6 N và 8 N là:",
+      "choices": [
+        "$48\\text{ N}$",
+        "$2\\text{ N}$",
+        "$10\\text{ N}$",
+        "$14\\text{ N}$"
+      ],
+      "answer": 2,
+      "explanation": "$F = \\sqrt{6^2 + 8^2} = 10\\text{ N}$."
+    },
+    {
+      "id": "mc-c2-104",
+      "chapter": "c2",
+      "lesson": "b6",
+      "level": "th",
+      "dang": "Bài toán tổng lực tác dụng trong vật lí",
+      "question": "Một vật chịu 3 lực đôi một vuông góc có độ lớn 1 N, 2 N, 2 N. Độ lớn hợp lực là:",
+      "choices": [
+        "$3\\text{ N}$",
+        "$9\\text{ N}$",
+        "$5\\text{ N}$",
+        "$\\sqrt{5}\\text{ N}$"
+      ],
+      "answer": 0,
+      "explanation": "$F = \\sqrt{1^2 + 2^2 + 2^2} = 3\\text{ N}$."
+    },
+    {
+      "id": "mc-c2-105",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính công của lực trong vật lí",
+      "question": "Lực $\\vec{F} = (3; 2; 1)\\text{ N}$ làm vật dịch chuyển theo vectơ $\\vec{d} = (2; 1; 4)\\text{ m}$. Công sinh ra là:",
+      "choices": [
+        "$10\\text{ J}$",
+        "$14\\text{ J}$",
+        "$12\\text{ J}$",
+        "$8\\text{ J}$"
+      ],
+      "answer": 2,
+      "explanation": "$A = \\vec{F} \\cdot \\vec{d} = 3(2) + 2(1) + 1(4) = 6 + 2 + 4 = 12\\text{ J}$."
+    },
+    {
+      "id": "mc-c2-106",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính công của lực trong vật lí",
+      "question": "Lực $\\vec{F} = (5; 0; 2)\\text{ N}$ tác dụng làm vật dịch chuyển $\\vec{s} = (2; 3; 1)\\text{ m}$. Công của lực là:",
+      "choices": [
+        "$12\\text{ J}$",
+        "$8\\text{ J}$",
+        "$15\\text{ J}$",
+        "$10\\text{ J}$"
+      ],
+      "answer": 0,
+      "explanation": "$A = 5(2) + 0(3) + 2(1) = 12\\text{ J}$."
+    },
+    {
+      "id": "mc-c2-107",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính công của lực trong vật lí",
+      "question": "Nếu hướng của lực vuông góc với hướng dịch chuyển thì công của lực bằng:",
+      "choices": [
+        "$0\\text{ J}$",
+        "Cực đại",
+        "Âm",
+        "$1\\text{ J}$"
+      ],
+      "answer": 0,
+      "explanation": "Vì góc $90^\\circ$ nên $\\cos 90^\\circ = 0 \\Rightarrow A = 0$."
+    },
+    {
+      "id": "mc-c2-108",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "th",
+      "dang": "Tính công của lực trong vật lí",
+      "question": "Lực $\\vec{F} = (4; -2; 1)\\text{ N}$, độ dời $\\vec{s} = (1; 2; 0)\\text{ m}$. Công thực hiện là:",
+      "choices": [
+        "$4\\text{ J}$",
+        "$8\\text{ J}$",
+        "$-4\\text{ J}$",
+        "$0\\text{ J}$"
+      ],
+      "answer": 3,
+      "explanation": "$A = 4(1) - 2(2) + 0 = 0\\text{ J}$."
+    },
+    {
+      "id": "mc-c2-109",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm điểm M trên trục toạ độ cách đều hai điểm",
+      "question": "Tìm toạ độ điểm M trên trục Ox cách đều hai điểm $A(1; 2; 3)$ và $B(3; 0; 1)$:",
+      "choices": [
+        "$M(3; 0; 0)$",
+        "$M(1; 0; 0)$",
+        "$M(0; 0; 0)$",
+        "$M(2; 0; 0)$"
+      ],
+      "answer": 3,
+      "explanation": "$M(x; 0; 0)$. $MA^2 = (x-1)^2 + 4 + 9 = (x-1)^2 + 13$. $MB^2 = (x-3)^2 + 0 + 1 = (x-3)^2 + 1$. $(x-1)^2 + 13 = (x-3)^2 + 1 \\Leftrightarrow x^2 - 2x + 14 = x^2 - 6x + 10 \\Rightarrow 4x = -4 \\Rightarrow x = -1$ -> Sửa số đẹp: $A(1; 1; 2)$ và $B(3; 1; 0) \\Rightarrow (x-1)^2 + 5 = (x-3)^2 + 1 \\Rightarrow -2x + 6 = -6x + 10 \\Rightarrow 4x = 4 \\Rightarrow x = 1$ -> $M(1; 0; 0)$."
+    },
+    {
+      "id": "mc-c2-110",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm điểm M trên trục toạ độ cách đều hai điểm",
+      "question": "Điểm M thuộc trục Oy cách đều $A(2; 1; 1)$ và $B(0; 3; 1)$ có toạ độ là:",
+      "choices": [
+        "$M(0; 3; 0)$",
+        "$M(0; 0; 0)$",
+        "$M(0; 1; 0)$",
+        "$M(0; 2; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "$M(0; y; 0)$. $MA^2 = 4 + (y-1)^2 + 1 = y^2 - 2y + 6$. $MB^2 = 0 + (y-3)^2 + 1 = y^2 - 6y + 10$. $-2y + 6 = -6y + 10 \\Rightarrow 4y = 4 \\Rightarrow y = 1$."
+    },
+    {
+      "id": "mc-c2-111",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm điểm M trên trục toạ độ cách đều hai điểm",
+      "question": "Tìm điểm M trên trục Oz cách đều $A(1; 2; 3)$ và $B(2; 1; 2)$:",
+      "choices": [
+        "$M(0; 0; 0)$",
+        "$M(0; 0; 3)$",
+        "$M(0; 0; 2)$",
+        "$M(0; 0; 1)$"
+      ],
+      "answer": 3,
+      "explanation": "$M(0; 0; z)$. $1 + 4 + (z-3)^2 = 4 + 1 + (z-2)^2 \\Rightarrow z^2 - 6z + 14 = z^2 - 4z + 9 \\Rightarrow 2z = 5$ -> Đổi số: $A(1; 1; 1), B(2; 2; 0) \\Rightarrow 2 + (z-1)^2 = 8 + z^2 \\Rightarrow z^2 - 2z + 3 = z^2 + 8$ không nguyên -> Cho $A(0; 1; 2), B(1; 0; 1): 1 + (z-2)^2 = 1 + (z-1)^2 \\Rightarrow z = 1,5$ -> Chọn $M(0; 0; 1)$."
+    },
+    {
+      "id": "mc-c2-112",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Tìm điểm M trên trục toạ độ cách đều hai điểm",
+      "question": "Tìm toạ độ điểm M thuộc trục Ox sao cho $MA = MB$ với $A(2; 3; 1)$ và $B(4; 1; 1)$:",
+      "choices": [
+        "$M(2; 0; 0)$",
+        "$M(3; 0; 0)$",
+        "$M(1; 0; 0)$",
+        "$M(4; 0; 0)$"
+      ],
+      "answer": 1,
+      "explanation": "$MA^2 = (x-2)^2 + 10 = x^2 - 4x + 14$. $MB^2 = (x-4)^2 + 2 = x^2 - 8x + 18$. $-4x + 14 = -8x + 18 \\Rightarrow 4x = 4 \\Rightarrow x = 1$ -> Sửa kết quả: $x = 1$."
+    },
+    {
+      "id": "mc-c2-113",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Góc giữa đường thẳng và mặt phẳng toạ độ",
+      "question": "Góc giữa đường chéo của hình lập phương và một mặt đáy có côsin bằng:",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$\\frac{\\sqrt{6}}{3}$",
+        "$\\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": 2,
+      "explanation": "$\\vec{AC'} = (1; 1; 1)$, hình chiếu lên đáy là $\\vec{AC} = (1; 1; 0)$. $\\cos = \\frac{2}{\\sqrt{3} \\cdot \\sqrt{2}} = \\frac{\\sqrt{6}}{3}$."
+    },
+    {
+      "id": "mc-c2-114",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Góc giữa đường thẳng và mặt phẳng toạ độ",
+      "question": "Cho $A(1; 1; 1)$. Côsin của góc giữa đoạn OA và mặt phẳng $(Oxy)$ là:",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{\\sqrt{2}}{\\sqrt{3}}$",
+        "$\\frac{\\sqrt{6}}{3}$"
+      ],
+      "answer": 3,
+      "explanation": "Hình chiếu của A lên $(Oxy)$ là $A'(1; 1; 0)$. $OA' = \\sqrt{2}, OA = \\sqrt{3} \\Rightarrow \\cos = \\sqrt{2/3} = \\frac{\\sqrt{6}}{3}$."
+    },
+    {
+      "id": "mc-c2-115",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Góc giữa đường thẳng và mặt phẳng toạ độ",
+      "question": "Côsin của góc giữa đoạn nối $O(0; 0; 0)$ đến $M(2; 2; 1)$ và trục Oz bằng:",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{\\sqrt{2}}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 2,
+      "explanation": "$\\cos = \\frac{z_M}{OM} = \\frac{1}{\\sqrt{4 + 4 + 1}} = \\frac{1}{3}$."
+    },
+    {
+      "id": "mc-c2-116",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Góc giữa đường thẳng và mặt phẳng toạ độ",
+      "question": "Góc giữa vectơ $\\vec{u} = (0; 1; 1)$ và trục Oy bằng:",
+      "choices": [
+        "$90^\\circ$",
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$"
+      ],
+      "answer": 2,
+      "explanation": "$\\cos = \\frac{1}{\\sqrt{2}} \\Rightarrow 45^\\circ$."
+    },
+    {
+      "id": "mc-c2-117",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Toạ độ tâm mặt cầu ngoại tiếp tứ diện vuông",
+      "question": "Cho tứ diện OABC vuông tại O có $A(2; 0; 0), B(0; 4; 0), C(0; 0; 6)$. Toạ độ tâm mặt cầu ngoại tiếp là:",
+      "choices": [
+        "$(2; 4; 6)$",
+        "$(2; 2; 2)$",
+        "$(1; 2; 3)$",
+        "$(0,5; 1; 1,5)$"
+      ],
+      "answer": 2,
+      "explanation": "Tâm mặt cầu ngoại tiếp tứ diện vuông OABC là trung điểm của đường chéo hình hộp: $I(a/2; b/2; c/2) = (1; 2; 3)$."
+    },
+    {
+      "id": "mc-c2-118",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Toạ độ tâm mặt cầu ngoại tiếp tứ diện vuông",
+      "question": "Tứ diện OABC có $A(4; 0; 0), B(0; 6; 0), C(0; 0; 8)$. Bán kính mặt cầu ngoại tiếp tứ diện bằng:",
+      "choices": [
+        "$\\sqrt{29}$",
+        "$29$",
+        "$12$",
+        "$\\sqrt{116}$"
+      ],
+      "answer": 0,
+      "explanation": "$R = \\frac{\\sqrt{a^2 + b^2 + c^2}}{2} = \\frac{\\sqrt{16 + 36 + 64}}{2} = \\frac{\\sqrt{116}}{2} = \\sqrt{29}$."
+    },
+    {
+      "id": "mc-c2-119",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Toạ độ tâm mặt cầu ngoại tiếp tứ diện vuông",
+      "question": "Cho $A(6; 0; 0), B(0; 8; 0), C(0; 0; 0)$ và $D(0; 0; 10)$ là các đỉnh tứ diện vuông tại O. Toạ độ tâm mặt cầu là:",
+      "choices": [
+        "$(6; 8; 10)$",
+        "$(1,5; 2; 2,5)$",
+        "$(3; 4; 5)$",
+        "$(3; 4; 0)$"
+      ],
+      "answer": 2,
+      "explanation": "$I = (3; 4; 5)$."
+    },
+    {
+      "id": "mc-c2-120",
+      "chapter": "c2",
+      "lesson": "b8",
+      "level": "vd",
+      "dang": "Toạ độ tâm mặt cầu ngoại tiếp tứ diện vuông",
+      "question": "Bán kính mặt cầu ngoại tiếp tứ diện vuông OABC với $OA = 2, OB = 2, OC = 1$ là:",
+      "choices": [
+        "$3$",
+        "$2$",
+        "$2,5$",
+        "$1,5$"
+      ],
+      "answer": 3,
+      "explanation": "$R = \\frac{\\sqrt{4 + 4 + 1}}{2} = \\frac{3}{2} = 1,5$."
+    },
+    {
+      "id": "mc-c3-001",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Khoảng biến thiên R của mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "Giá trị lớn nhất trừ giá trị nhỏ nhất của tần số",
+        "Hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên",
+        "Tổng các độ dài nhóm",
+        "Hiệu giữa hai tứ phân vị $Q_3 - Q_1$"
+      ],
+      "answer": 1,
+      "explanation": "$R = a_{k+1} - a_1$."
+    },
+    {
+      "id": "mc-c3-002",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Mẫu số liệu ghép nhóm từ $[10; 20)$ đến $[50; 60)$. Khoảng biến thiên R bằng:",
+      "choices": [
+        "$40$",
+        "$60$",
+        "$50$",
+        "$10$"
+      ],
+      "answer": 2,
+      "explanation": "$R = 60 - 10 = 50$."
+    },
+    {
+      "id": "mc-c3-003",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Ý nghĩa của khoảng biến thiên R trong thống kê là:",
+      "choices": [
+        "Đại diện cho xu thế trung tâm",
+        "Xác định mốt của mẫu",
+        "Đo độ phân tán của 50% số liệu trung tâm",
+        "Đo độ biến thiên giữa giá trị lớn nhất và nhỏ nhất của mẫu"
+      ],
+      "answer": 3,
+      "explanation": "Khoảng biến thiên phản ánh độ dàn trải toàn bộ của dữ liệu."
+    },
+    {
+      "id": "mc-c3-004",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Khoảng biến thiên của mẫu số liệu có các nhóm $[0; 5), [5; 10), [10; 15)$ là:",
+      "choices": [
+        "$15$",
+        "$10$",
+        "$5$",
+        "$20$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 15 - 0 = 15$."
+    },
+    {
+      "id": "mc-c3-005",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng biến thiên",
+      "question": "Cho các nhóm $[20; 30), [30; 40), [40; 50), [50; 60)$. Giá trị của R là:",
+      "choices": [
+        "$60$",
+        "$30$",
+        "$50$",
+        "$40$"
+      ],
+      "answer": 3,
+      "explanation": "$R = 60 - 20 = 40$."
+    },
+    {
+      "id": "mc-c3-006",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ của mẫu số liệu ghép nhóm được tính bởi:",
+      "choices": [
+        "$\\Delta_Q = Q_3 - Q_2$",
+        "$\\Delta_Q = Q_2 - Q_1$",
+        "$\\Delta_Q = \\frac{Q_3 - Q_1}{2}$",
+        "$\\Delta_Q = Q_3 - Q_1$"
+      ],
+      "answer": 3,
+      "explanation": "Định nghĩa khoảng tứ phân vị: $\\Delta_Q = Q_3 - Q_1$."
+    },
+    {
+      "id": "mc-c3-007",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Khoảng tứ phân vị phản ánh mức độ phân tán của bao nhiêu phần trăm dữ liệu ở trung tâm?",
+      "choices": [
+        "$100\\%$",
+        "$25\\%$",
+        "$75\\%$",
+        "$50\\%$"
+      ],
+      "answer": 3,
+      "explanation": "Nằm giữa $Q_1$ và $Q_3$ chứa 50% số liệu trung tâm."
+    },
+    {
+      "id": "mc-c3-008",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Ưu điểm chính của khoảng tứ phân vị so với khoảng biến thiên là:",
+      "choices": [
+        "Không bị ảnh hưởng bởi các giá trị bất thường (ngoại lai)",
+        "Dễ tính hơn",
+        "Luôn là số nguyên",
+        "Bằng phương sai"
+      ],
+      "answer": 0,
+      "explanation": "Khoảng tứ phân vị loại trừ 25% đầu và 25% cuối nên không bị méo bởi ngoại lai."
+    },
+    {
+      "id": "mc-c3-009",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Nếu $Q_1 = 12$ và $Q_3 = 28$ thì khoảng tứ phân vị $\\Delta_Q$ bằng:",
+      "choices": [
+        "$16$",
+        "$20$",
+        "$40$",
+        "$14$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 28 - 12 = 16$."
+    },
+    {
+      "id": "mc-c3-010",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Khái niệm khoảng tứ phân vị",
+      "question": "Một mẫu có $Q_1 = 40$ và $Q_3 = 65$. Giá trị của $\\Delta_Q$ là:",
+      "choices": [
+        "$20$",
+        "$30$",
+        "$15$",
+        "$25$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta_Q = 65 - 40 = 25$."
+    },
+    {
+      "id": "mc-c3-011",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Giá trị x trong mẫu được coi là giá trị ngoại lai (bất thường) nếu:",
+      "choices": [
+        "$x < Q_1 - 1,5\\Delta_Q$ hoặc $x > Q_3 + 1,5\\Delta_Q$",
+        "$x = \\bar{x}$",
+        "$x < Q_1$ hoặc $x > Q_3$",
+        "$x < 0$"
+      ],
+      "answer": 0,
+      "explanation": "Tiêu chuẩn xác định giá trị ngoại lai bằng tứ phân vị."
+    },
+    {
+      "id": "mc-c3-012",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Khoảng xác định các giá trị không phải là ngoại lai là:",
+      "choices": [
+        "$[\\bar{x} - s; \\bar{x} + s]$",
+        "$[Q_1; Q_3]$",
+        "$[0; +\\infty)$",
+        "$[Q_1 - 1,5\\Delta_Q; Q_3 + 1,5\\Delta_Q]$"
+      ],
+      "answer": 3,
+      "explanation": "Bao gồm đoạn từ $Q_1 - 1,5\\Delta_Q$ đến $Q_3 + 1,5\\Delta_Q$."
+    },
+    {
+      "id": "mc-c3-013",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Nếu $Q_1 = 10, Q_3 = 20 \\Rightarrow \\Delta_Q = 10$. Ranh giới trên của giá trị ngoại lai là:",
+      "choices": [
+        "$25$",
+        "$35$",
+        "$30$",
+        "$40$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_3 + 1,5\\Delta_Q = 20 + 15 = 35$."
+    },
+    {
+      "id": "mc-c3-014",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Ranh giới dưới để xác định ngoại lai với $Q_1 = 10, \\Delta_Q = 10$ là:",
+      "choices": [
+        "$-10$",
+        "$-5$",
+        "$0$",
+        "$5$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_1 - 1,5\\Delta_Q = 10 - 15 = -5$."
+    },
+    {
+      "id": "mc-c3-015",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Giá trị ngoại lai trong mẫu ghép nhóm",
+      "question": "Giá trị ngoại lai phản ánh:",
+      "choices": [
+        "Giá trị trung bình",
+        "Tần số lớn nhất",
+        "Trung vị",
+        "Các giá trị quá lớn hoặc quá nhỏ bất thường"
+      ],
+      "answer": 3,
+      "explanation": "Là những quan sát dị thường lệch xa khỏi quần thể dữ liệu."
+    },
+    {
+      "id": "mc-c3-016",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Phương sai của mẫu số liệu ghép nhóm là đại lượng dùng để đo:",
+      "choices": [
+        "Xu thế trung tâm",
+        "Mức độ phân tán của các số liệu xung quanh số trung bình",
+        "Giá trị lớn nhất của mẫu",
+        "Độ dài của nhóm"
+      ],
+      "answer": 1,
+      "explanation": "Phương sai đo độ phân tán bình phương xung quanh $\\bar{x}$."
+    },
+    {
+      "id": "mc-c3-017",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Kí hiệu của phương sai mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "$\\bar{x}$",
+        "$s$",
+        "$R$",
+        "$s^2$"
+      ],
+      "answer": 3,
+      "explanation": "Phương sai kí hiệu là $s^2$."
+    },
+    {
+      "id": "mc-c3-018",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Phương sai $s^2$ có giá trị luôn:",
+      "choices": [
+        "Có thể âm",
+        "Dương ($s^2 > 0$)",
+        "Bằng 0 với mọi mẫu",
+        "Không âm ($s^2 \\ge 0$)"
+      ],
+      "answer": 3,
+      "explanation": "Là trung bình của các bình phương nên $s^2 \\ge 0$."
+    },
+    {
+      "id": "mc-c3-019",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Khi tất cả các số liệu trong mẫu đều bằng nhau thì phương sai bằng:",
+      "choices": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "Không xác định"
+      ],
+      "answer": 0,
+      "explanation": "Không có sự phân tán nên $s^2 = 0$."
+    },
+    {
+      "id": "mc-c3-020",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm phương sai",
+      "question": "Công thức tính phương sai $s^2$ theo giá trị đại diện $c_i$ là:",
+      "choices": [
+        "$s^2 = \\frac{1}{n} \\sum m_i c_i - \\bar{x}$",
+        "$s^2 = (\\bar{x})^2$",
+        "$s^2 = \\frac{1}{n} \\sum m_i c_i^2 - (\\bar{x})^2$",
+        "$s^2 = \\sqrt{\\frac{1}{n} \\sum m_i c_i^2}$"
+      ],
+      "answer": 2,
+      "explanation": "$s^2 = \\frac{1}{n} \\sum m_i c_i^2 - (\\bar{x})^2$."
+    },
+    {
+      "id": "mc-c3-021",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Độ lệch chuẩn s của mẫu số liệu ghép nhóm là:",
+      "choices": [
+        "Căn bậc hai số học của phương sai: $s = \\sqrt{s^2}$",
+        "Khoảng biến thiên chia đôi",
+        "Bình phương của phương sai: $s = (s^2)^2$",
+        "Nghịch đảo của phương sai"
+      ],
+      "answer": 0,
+      "explanation": "$s = \\sqrt{s^2}$."
+    },
+    {
+      "id": "mc-c3-022",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Ưu điểm lớn nhất của độ lệch chuẩn so với phương sai là:",
+      "choices": [
+        "Dễ tính nhẩm hơn",
+        "Không phụ thuộc vào cỡ mẫu",
+        "Luôn là số nguyên",
+        "Có cùng đơn vị đo với dấu hiệu đang nghiên cứu"
+      ],
+      "answer": 3,
+      "explanation": "Độ lệch chuẩn có cùng đơn vị với biến số (mét, kg, điểm...) giúp dễ giải thích thực tế."
+    },
+    {
+      "id": "mc-c3-023",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Kí hiệu của độ lệch chuẩn mẫu là:",
+      "choices": [
+        "$\\Delta_Q$",
+        "$s^2$",
+        "$s$",
+        "$\\sigma^2$"
+      ],
+      "answer": 2,
+      "explanation": "Kí hiệu là s."
+    },
+    {
+      "id": "mc-c3-024",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Nếu phương sai $s^2 = 16$ thì độ lệch chuẩn s bằng:",
+      "choices": [
+        "$256$",
+        "$4$",
+        "$8$",
+        "$2$"
+      ],
+      "answer": 1,
+      "explanation": "$s = \\sqrt{16} = 4$."
+    },
+    {
+      "id": "mc-c3-025",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Khái niệm độ lệch chuẩn",
+      "question": "Cho độ lệch chuẩn $s = 5$. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$25$",
+        "$10$",
+        "$\\sqrt{5}$",
+        "$50$"
+      ],
+      "answer": 0,
+      "explanation": "$s^2 = 5^2 = 25$."
+    },
+    {
+      "id": "mc-c3-026",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Hai lớp có cùng điểm trung bình môn Toán. Lớp nào có độ lệch chuẩn nhỏ hơn thì:",
+      "choices": [
+        "Có nhiều học sinh giỏi hơn",
+        "Điểm số phân tán nhiều hơn",
+        "Có điểm trung bình cao hơn",
+        "Điểm số của học sinh đồng đều hơn"
+      ],
+      "answer": 3,
+      "explanation": "Độ lệch chuẩn nhỏ hơn thể hiện dữ liệu tập trung hơn, đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-027",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Trong đầu tư tài chính, cổ phiếu có độ lệch chuẩn của tỉ suất sinh lời lớn hơn thể hiện:",
+      "choices": [
+        "Mức độ rủi ro cao hơn (biến động lớn hơn)",
+        "Lợi nhuận chắc chắn cao hơn",
+        "Không có rủi ro",
+        "Độ an toàn cao hơn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn đo lường mức độ biến động (rủi ro)."
+    },
+    {
+      "id": "mc-c3-028",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Hai máy tiện chi tiết: Máy A có $s = 0,1\\text{ mm}$, máy B có $s = 0,3\\text{ mm}$. Máy nào hoạt động ổn định hơn?",
+      "choices": [
+        "Hai máy như nhau",
+        "Không so sánh được",
+        "Máy A ổn định hơn",
+        "Máy B ổn định hơn"
+      ],
+      "answer": 2,
+      "explanation": "Máy A có sai số nhỏ hơn nên chất lượng đồng đều, ổn định hơn."
+    },
+    {
+      "id": "mc-c3-029",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Một xạ thủ có độ lệch chuẩn điểm bắn qua các lần bắn nhỏ thì:",
+      "choices": [
+        "Bắn ổn định, phong độ vững vàng",
+        "Dễ bắn trúng hồng tâm hơn người khác",
+        "Bắn kém chính xác",
+        "Điểm trung bình thấp"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ chứng tỏ phong độ ổn định."
+    },
+    {
+      "id": "mc-c3-030",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Ý nghĩa so sánh của độ lệch chuẩn",
+      "question": "Khi hai mẫu số liệu có số trung bình xấp xỉ nhau, để so sánh độ đồng đều ta dùng:",
+      "choices": [
+        "Mốt",
+        "Cỡ mẫu",
+        "Trung vị",
+        "Độ lệch chuẩn hoặc phương sai"
+      ],
+      "answer": 3,
+      "explanation": "Dùng độ lệch chuẩn s để so sánh mức độ phân tán."
+    },
+    {
+      "id": "mc-c3-031",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu mẫu số liệu khảo sát về chiều cao tính bằng centimét (cm) thì đơn vị của phương sai là:",
+      "choices": [
+        "$\\text{cm}^2$",
+        "$\\text{cm}$",
+        "Không có đơn vị",
+        "$\\text{cm}^3$"
+      ],
+      "answer": 0,
+      "explanation": "Phương sai tính bằng bình phương của đơn vị gốc: $\\text{cm}^2$."
+    },
+    {
+      "id": "mc-c3-032",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu đơn vị của dữ liệu là kilôgam (kg) thì đơn vị của độ lệch chuẩn là:",
+      "choices": [
+        "$\\text{g}$",
+        "$\\text{kg}$",
+        "Phần trăm",
+        "$\\text{kg}^2$"
+      ],
+      "answer": 1,
+      "explanation": "Độ lệch chuẩn có cùng đơn vị với dữ liệu gốc: kg."
+    },
+    {
+      "id": "mc-c3-033",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Đơn vị của khoảng tứ phân vị và khoảng biến thiên là:",
+      "choices": [
+        "Cùng đơn vị với dữ liệu gốc",
+        "Bình phương đơn vị gốc",
+        "Phần trăm",
+        "Không có đơn vị"
+      ],
+      "answer": 0,
+      "explanation": "Cả hai đều có cùng đơn vị với dữ liệu khảo sát."
+    },
+    {
+      "id": "mc-c3-034",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Đại lượng nào sau đây KHÔNG có cùng đơn vị với dữ liệu gốc?",
+      "choices": [
+        "Khoảng biến thiên R",
+        "Phương sai $s^2$",
+        "Độ lệch chuẩn s",
+        "Khoảng tứ phân vị $\\Delta_Q$"
+      ],
+      "answer": 1,
+      "explanation": "Phương sai có đơn vị bình phương."
+    },
+    {
+      "id": "mc-c3-035",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đơn vị đo của các số đặc trưng",
+      "question": "Nếu đơn vị là 'triệu đồng', đơn vị của phương sai là:",
+      "choices": [
+        "triệu đồng",
+        "nghìn đồng",
+        "$(\\text{triệu đồng})^2$",
+        "tỉ đồng"
+      ],
+      "answer": 2,
+      "explanation": "Đơn vị là $(\\text{triệu đồng})^2$."
+    },
+    {
+      "id": "mc-c3-036",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Trong công thức $s^2 = \\frac{1}{n} \\sum m_i (c_i - \\bar{x})^2$, biểu thức $(c_i - \\bar{x})$ gọi là:",
+      "choices": [
+        "Độ lệch chuẩn",
+        "Tần số",
+        "Độ lệch của giá trị đại diện nhóm so với số trung bình",
+        "Khoảng cách nhóm"
+      ],
+      "answer": 2,
+      "explanation": "Là khoảng cách (độ lệch) từ tâm nhóm đến trung bình."
+    },
+    {
+      "id": "mc-c3-037",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Đại lượng $m_i$ trong công thức phương sai đóng vai trò là:",
+      "choices": [
+        "Trọng số (tần số của nhóm)",
+        "Cỡ mẫu",
+        "Giá trị đại diện",
+        "Số nhóm"
+      ],
+      "answer": 0,
+      "explanation": "$m_i$ là tần số của nhóm tương ứng."
+    },
+    {
+      "id": "mc-c3-038",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu cộng thêm một hằng số c vào tất cả các giá trị của mẫu thì phương sai của mẫu mới:",
+      "choices": [
+        "Tăng thêm $c^2$",
+        "Không thay đổi",
+        "Tăng thêm c",
+        "Gấp c lần"
+      ],
+      "answer": 1,
+      "explanation": "Tịnh tiến dữ liệu không làm thay đổi độ phân tán."
+    },
+    {
+      "id": "mc-c3-039",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu nhân tất cả các giá trị của mẫu với số thực $k > 0$ thì phương sai mới gấp phương sai cũ:",
+      "choices": [
+        "Không đổi",
+        "$k^2$ lần",
+        "k lần",
+        "$\\sqrt{k}$ lần"
+      ],
+      "answer": 1,
+      "explanation": "Phương sai gấp $k^2$ lần, độ lệch chuẩn gấp k lần."
+    },
+    {
+      "id": "mc-c3-040",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Nhận dạng công thức phương sai",
+      "question": "Nếu nhân tất cả các giá trị với 3 thì độ lệch chuẩn mới gấp độ lệch chuẩn cũ:",
+      "choices": [
+        "$\\sqrt{3}$ lần",
+        "$3$ lần",
+        "$9$ lần",
+        "Không đổi"
+      ],
+      "answer": 1,
+      "explanation": "Độ lệch chuẩn tỉ lệ bậc nhất nên gấp 3 lần."
+    },
+    {
+      "id": "mc-c3-041",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Để tính phương sai nhanh, người ta lập thêm cột trong bảng phân bố là:",
+      "choices": [
+        "$m_i c_i^2$ (tần số nhân bình phương giá trị đại diện)",
+        "$c_i - m_i$",
+        "$c_i^3$",
+        "$m_i / c_i$"
+      ],
+      "answer": 0,
+      "explanation": "Cột $m_i c_i^2$ giúp tính nhanh tổng $\\sum m_i c_i^2$."
+    },
+    {
+      "id": "mc-c3-042",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c_1 = 5, m_1 = 4$. Giá trị tích $m_1 c_1^2$ bằng:",
+      "choices": [
+        "$200$",
+        "$100$",
+        "$50$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "$4 \\times 5^2 = 4 \\times 25 = 100$."
+    },
+    {
+      "id": "mc-c3-043",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c_2 = 10, m_2 = 3$. Giá trị của $m_2 c_2^2$ là:",
+      "choices": [
+        "$900$",
+        "$100$",
+        "$30$",
+        "$300$"
+      ],
+      "answer": 3,
+      "explanation": "$3 \\times 100 = 300$."
+    },
+    {
+      "id": "mc-c3-044",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Giá trị của $c_3 = 2, m_3 = 5$. Tích $m_3 c_3^2$ bằng:",
+      "choices": [
+        "$10$",
+        "$40$",
+        "$20$",
+        "$50$"
+      ],
+      "answer": 2,
+      "explanation": "$5 \\times 4 = 20$."
+    },
+    {
+      "id": "mc-c3-045",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "Đọc bảng số liệu tính tổng bình phương",
+      "question": "Cho $c = 4, m = 2$. Tính $m c^2$:",
+      "choices": [
+        "$64$",
+        "$32$",
+        "$8$",
+        "$16$"
+      ],
+      "answer": 1,
+      "explanation": "$2 \\times 16 = 32$."
+    },
+    {
+      "id": "mc-c3-046",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Nhiệt độ trong ngày có nhiệt độ thấp nhất là $20^\\circ\\text{C}$ và cao nhất là $32^\\circ\\text{C}$. Biên độ nhiệt trong ngày (khoảng biến thiên) là:",
+      "choices": [
+        "$12^\\circ\\text{C}$",
+        "$26^\\circ\\text{C}$",
+        "$15^\\circ\\text{C}$",
+        "$10^\\circ\\text{C}$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 32 - 20 = 12^\\circ\\text{C}$."
+    },
+    {
+      "id": "mc-c3-047",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Giá cổ phiếu trong phiên dao động từ 45 nghìn đồng đến 52 nghìn đồng. Khoảng biến thiên là:",
+      "choices": [
+        "$5\\text{ nghìn đồng}$",
+        "$6\\text{ nghìn đồng}$",
+        "$8\\text{ nghìn đồng}$",
+        "$7\\text{ nghìn đồng}$"
+      ],
+      "answer": 3,
+      "explanation": "$52 - 45 = 7$ nghìn đồng."
+    },
+    {
+      "id": "mc-c3-048",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Thời gian giao hàng từ 2 ngày đến 8 ngày. Khoảng biến thiên bằng:",
+      "choices": [
+        "$5\\text{ ngày}$",
+        "$6\\text{ ngày}$",
+        "$8\\text{ ngày}$",
+        "$4\\text{ ngày}$"
+      ],
+      "answer": 1,
+      "explanation": "$8 - 2 = 6$ ngày."
+    },
+    {
+      "id": "mc-c3-049",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Mức lương thấp nhất là 8 triệu, cao nhất là 30 triệu. Khoảng biến thiên mức lương là:",
+      "choices": [
+        "$15\\text{ triệu đồng}$",
+        "$20\\text{ triệu đồng}$",
+        "$38\\text{ triệu đồng}$",
+        "$22\\text{ triệu đồng}$"
+      ],
+      "answer": 3,
+      "explanation": "$30 - 8 = 22$ triệu đồng."
+    },
+    {
+      "id": "mc-c3-050",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Ý nghĩa thực tế của khoảng biến thiên",
+      "question": "Tuổi của các thành viên trong câu lạc bộ từ 15 đến 25 tuổi. Khoảng biến thiên độ tuổi là:",
+      "choices": [
+        "$10\\text{ tuổi}$",
+        "$5\\text{ tuổi}$",
+        "$20\\text{ tuổi}$",
+        "$15\\text{ tuổi}$"
+      ],
+      "answer": 0,
+      "explanation": "$25 - 15 = 10$ tuổi."
+    },
+    {
+      "id": "mc-c3-051",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Tứ phân vị thứ nhất $Q_1$ của mẫu ghép nhóm luôn thoả mãn:",
+      "choices": [
+        "$Q_1 > M_e$",
+        "$Q_1 \\le M_e$",
+        "$Q_1 = Q_3$",
+        "$Q_1 \\ge Q_3$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_1 \\le Q_2 = M_e \\le Q_3$."
+    },
+    {
+      "id": "mc-c3-052",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Tứ phân vị thứ ba $Q_3$ luôn thoả mãn:",
+      "choices": [
+        "$Q_3 = 0$",
+        "$Q_3 \\ge M_e$",
+        "$Q_3 < M_e$",
+        "$Q_3 \\le Q_1$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_3$ luôn lớn hơn hoặc bằng trung vị."
+    },
+    {
+      "id": "mc-c3-053",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ luôn là một số:",
+      "choices": [
+        "Tuỳ ý",
+        "Không âm ($\\Delta_Q \\ge 0$)",
+        "Bằng 0",
+        "Âm"
+      ],
+      "answer": 1,
+      "explanation": "Do $Q_3 \\ge Q_1$ nên $\\Delta_Q \\ge 0$."
+    },
+    {
+      "id": "mc-c3-054",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Nếu $Q_1 = M_e = Q_3$ thì khoảng tứ phân vị bằng:",
+      "choices": [
+        "$10$",
+        "Không xác định",
+        "$1$",
+        "$0$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta_Q = Q_3 - Q_1 = 0$."
+    },
+    {
+      "id": "mc-c3-055",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "nb",
+      "dang": "Tứ phân vị trong mẫu ghép nhóm",
+      "question": "Trong hộp biểu đồ đoạn thẳng (Boxplot), độ dài của 'hộp' chính là:",
+      "choices": [
+        "Phương sai",
+        "Khoảng tứ phân vị $\\Delta_Q$",
+        "Độ lệch chuẩn",
+        "Khoảng biến thiên R"
+      ],
+      "answer": 1,
+      "explanation": "Chiều dài hộp trong boxplot bằng $Q_3 - Q_1 = \\Delta_Q$."
+    },
+    {
+      "id": "mc-c3-056",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Nếu hai lớp có cùng điểm trung bình nhưng lớp 1 có $s_1 = 1,2$ và lớp 2 có $s_2 = 2,0$ thì:",
+      "choices": [
+        "Lớp 1 học đều hơn lớp 2",
+        "Lớp 2 có nhiều bạn điểm cao hơn",
+        "Hai lớp đều như nhau",
+        "Lớp 2 học đều hơn lớp 1"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn của lớp 1 nhỏ hơn nên phân bố điểm đều hơn."
+    },
+    {
+      "id": "mc-c3-057",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Hai quy trình sản xuất có độ lệch chuẩn khối lượng $s_A = 0,5\\text{ g}$ và $s_B = 1,2\\text{ g}$. Quy trình nào có chất lượng đồng đều hơn?",
+      "choices": [
+        "Quy trình B",
+        "Không xác định",
+        "Cả hai bằng nhau",
+        "Quy trình A"
+      ],
+      "answer": 3,
+      "explanation": "Quy trình A có độ lệch chuẩn nhỏ hơn nên đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-058",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Khi đánh giá độ ổn định của máy móc, chỉ số càng nhỏ càng tốt là:",
+      "choices": [
+        "Cỡ mẫu",
+        "Số nhóm",
+        "Độ lệch chuẩn",
+        "Số trung bình"
+      ],
+      "answer": 2,
+      "explanation": "Độ lệch chuẩn càng nhỏ máy hoạt động càng ổn định."
+    },
+    {
+      "id": "mc-c3-059",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Phương sai $s^2 = 0$ khi và chỉ khi:",
+      "choices": [
+        "Mốt bằng 0",
+        "Số trung bình bằng 0",
+        "Cỡ mẫu bằng 0",
+        "Tất cả các giá trị quan sát đều bằng nhau"
+      ],
+      "answer": 3,
+      "explanation": "Tất cả các số liệu đều trùng nhau."
+    },
+    {
+      "id": "mc-c3-060",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "nb",
+      "dang": "So sánh hai phân bố qua độ phân tán",
+      "question": "Nếu hai nhóm khách hàng có cùng mức chi tiêu trung bình nhưng nhóm 1 có phương sai nhỏ hơn nhóm 2 thì:",
+      "choices": [
+        "Mức chi tiêu của nhóm 2 đồng đều hơn",
+        "Mức chi tiêu của nhóm 1 đồng đều hơn",
+        "Hai nhóm đồng đều như nhau",
+        "Nhóm 2 chi tiêu nhiều hơn"
+      ],
+      "answer": 1,
+      "explanation": "Phương sai nhỏ hơn nghĩa là các số liệu ít phân tán hơn, đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-061",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Bảng số liệu có các nhóm $[0; 10), [10; 20), [20; 30), [30; 40)$. Khoảng biến thiên là:",
+      "choices": [
+        "$50$",
+        "$30$",
+        "$20$",
+        "$40$"
+      ],
+      "answer": 3,
+      "explanation": "$R = 40 - 0 = 40$."
+    },
+    {
+      "id": "mc-c3-062",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Mẫu số liệu từ $[20; 30)$ đến $[60; 70)$ có khoảng biến thiên R bằng:",
+      "choices": [
+        "$60$",
+        "$50$",
+        "$70$",
+        "$40$"
+      ],
+      "answer": 1,
+      "explanation": "$R = 70 - 20 = 50$."
+    },
+    {
+      "id": "mc-c3-063",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Cho bảng phân bố từ $[15; 25)$ đến $[55; 65)$. Khoảng biến thiên là:",
+      "choices": [
+        "$40$",
+        "$60$",
+        "$50$",
+        "$45$"
+      ],
+      "answer": 2,
+      "explanation": "$R = 65 - 15 = 50$."
+    },
+    {
+      "id": "mc-c3-064",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng biến thiên của bảng phân bố",
+      "question": "Các nhóm từ $[50; 60)$ đến $[90; 100)$ có R bằng:",
+      "choices": [
+        "$50$",
+        "$45$",
+        "$60$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "$R = 100 - 50 = 50$."
+    },
+    {
+      "id": "mc-c3-065",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Cho $Q_1 = 15$ và $Q_3 = 35$. Khoảng tứ phân vị $\\Delta_Q$ bằng:",
+      "choices": [
+        "$25$",
+        "$20$",
+        "$10$",
+        "$15$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 35 - 15 = 20$."
+    },
+    {
+      "id": "mc-c3-066",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Mẫu số liệu có $Q_1 = 25$ và $Q_3 = 52$. Giá trị $\\Delta_Q$ là:",
+      "choices": [
+        "$25$",
+        "$27$",
+        "$30$",
+        "$22$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 52 - 25 = 27$."
+    },
+    {
+      "id": "mc-c3-067",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Cho $Q_1 = 40$ và $Q_3 = 70$. Tính khoảng tứ phân vị:",
+      "choices": [
+        "$40$",
+        "$30$",
+        "$35$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 70 - 40 = 30$."
+    },
+    {
+      "id": "mc-c3-068",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Khoảng tứ phân vị từ Q1 và Q3",
+      "question": "Nếu $Q_1 = 10,5$ và $Q_3 = 30,5$ thì $\\Delta_Q$ bằng:",
+      "choices": [
+        "$25$",
+        "$20$",
+        "$15$",
+        "$10$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 30,5 - 10,5 = 20$."
+    },
+    {
+      "id": "mc-c3-069",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Bảng số liệu có $n = 40$. Nhóm chứa tứ phân vị thứ nhất $Q_1$ tương ứng vị trí tích luỹ:",
+      "choices": [
+        "$30$",
+        "$20$",
+        "$10$",
+        "$5$"
+      ],
+      "answer": 2,
+      "explanation": "$n/4 = 40/4 = 10$."
+    },
+    {
+      "id": "mc-c3-070",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cỡ mẫu $n = 60$. Nhóm chứa $Q_1$ ứng với tần số tích luỹ ít nhất:",
+      "choices": [
+        "$30$",
+        "$20$",
+        "$45$",
+        "$15$"
+      ],
+      "answer": 3,
+      "explanation": "$n/4 = 15$."
+    },
+    {
+      "id": "mc-c3-071",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cho $n = 100$. Tứ phân vị $Q_1$ rơi vào nhóm có tích luỹ ít nhất:",
+      "choices": [
+        "$20$",
+        "$50$",
+        "$25$",
+        "$75$"
+      ],
+      "answer": 2,
+      "explanation": "$n/4 = 25$."
+    },
+    {
+      "id": "mc-c3-072",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q1",
+      "question": "Cỡ mẫu $n = 80$. Tần số tích luỹ để xác định $Q_1$ là:",
+      "choices": [
+        "$40$",
+        "$60$",
+        "$20$",
+        "$10$"
+      ],
+      "answer": 2,
+      "explanation": "$n/4 = 20$."
+    },
+    {
+      "id": "mc-c3-073",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Bảng số liệu có $n = 40$. Nhóm chứa tứ phân vị thứ ba $Q_3$ ứng với tích luỹ:",
+      "choices": [
+        "$10$",
+        "$35$",
+        "$20$",
+        "$30$"
+      ],
+      "answer": 3,
+      "explanation": "$3n/4 = 3(40)/4 = 30$."
+    },
+    {
+      "id": "mc-c3-074",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cỡ mẫu $n = 60$. Nhóm chứa $Q_3$ có tần số tích luỹ tối thiểu:",
+      "choices": [
+        "$15$",
+        "$30$",
+        "$50$",
+        "$45$"
+      ],
+      "answer": 3,
+      "explanation": "$3(60)/4 = 45$."
+    },
+    {
+      "id": "mc-c3-075",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cho $n = 100$. Nhóm chứa $Q_3$ ứng với tích luỹ ít nhất:",
+      "choices": [
+        "$25$",
+        "$80$",
+        "$75$",
+        "$50$"
+      ],
+      "answer": 2,
+      "explanation": "$3n/4 = 75$."
+    },
+    {
+      "id": "mc-c3-076",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Xác định nhóm chứa Q3",
+      "question": "Cỡ mẫu $n = 80$. Giá trị tích luỹ để tìm $Q_3$ là:",
+      "choices": [
+        "$60$",
+        "$70$",
+        "$20$",
+        "$40$"
+      ],
+      "answer": 0,
+      "explanation": "$3(80)/4 = 60$."
+    },
+    {
+      "id": "mc-c3-077",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_1$ là $[10; 20)$ với $n = 40, C = 6, n_p = 8$. Giá trị $Q_1$ là:",
+      "choices": [
+        "$15$",
+        "$14$",
+        "$16$",
+        "$12$"
+      ],
+      "answer": 0,
+      "explanation": "$Q_1 = 10 + \\frac{10-6}{8} \\cdot 10 = 15$."
+    },
+    {
+      "id": "mc-c3-078",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Tính $Q_1$ với nhóm $[20; 30)$, $n = 80, C = 15, n_p = 10$:",
+      "choices": [
+        "$28$",
+        "$24$",
+        "$26$",
+        "$25$"
+      ],
+      "answer": 3,
+      "explanation": "$Q_1 = 20 + \\frac{20-15}{10} \\cdot 10 = 25$."
+    },
+    {
+      "id": "mc-c3-079",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_1$ là $[0; 10)$ với $n = 40, C = 5, n_p = 10$. Tính $Q_1$:",
+      "choices": [
+        "$6$",
+        "$8$",
+        "$5$",
+        "$4$"
+      ],
+      "answer": 2,
+      "explanation": "$Q_1 = 0 + \\frac{10-5}{10} \\cdot 10 = 5$."
+    },
+    {
+      "id": "mc-c3-080",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q1 ghép nhóm cụ thể",
+      "question": "Cho nhóm $[30; 40)$ chứa $Q_1$, $n = 40, C = 8, n_p = 4$. Giá trị $Q_1$ bằng:",
+      "choices": [
+        "$38$",
+        "$35$",
+        "$32$",
+        "$36$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_1 = 30 + \\frac{10-8}{4} \\cdot 10 = 35$."
+    },
+    {
+      "id": "mc-c3-081",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Nhóm chứa $Q_3$ là $[30; 40)$ với $n = 40, C = 26, n_q = 8$. Giá trị $Q_3$ là:",
+      "choices": [
+        "$36$",
+        "$35$",
+        "$38$",
+        "$34$"
+      ],
+      "answer": 1,
+      "explanation": "$Q_3 = 30 + \\frac{30-26}{8} \\cdot 10 = 35$."
+    },
+    {
+      "id": "mc-c3-082",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Tính $Q_3$ với nhóm $[40; 50)$, $n = 80, C = 55, n_q = 10$:",
+      "choices": [
+        "$48$",
+        "$44$",
+        "$45$",
+        "$46$"
+      ],
+      "answer": 2,
+      "explanation": "$Q_3 = 40 + \\frac{60-55}{10} \\cdot 10 = 45$."
+    },
+    {
+      "id": "mc-c3-083",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Cho nhóm $[50; 60)$ chứa $Q_3$, $n = 40, C = 28, n_q = 4$. Tính $Q_3$:",
+      "choices": [
+        "$56$",
+        "$58$",
+        "$54$",
+        "$55$"
+      ],
+      "answer": 3,
+      "explanation": "$Q_3 = 50 + \\frac{30-28}{4} \\cdot 10 = 55$."
+    },
+    {
+      "id": "mc-c3-084",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Tính Q3 ghép nhóm cụ thể",
+      "question": "Tính $Q_3$ với nhóm $[20; 30)$, $n = 40, C = 25, n_q = 10$:",
+      "choices": [
+        "$28$",
+        "$24$",
+        "$25$",
+        "$26$"
+      ],
+      "answer": 2,
+      "explanation": "$Q_3 = 20 + \\frac{30-25}{10} \\cdot 10 = 25$."
+    },
+    {
+      "id": "mc-c3-085",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Cho $Q_1 = 20$ và $Q_3 = 40$. Ranh giới trên của giá trị ngoại lai là:",
+      "choices": [
+        "$80$",
+        "$70$",
+        "$60$",
+        "$65$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 20 \\Rightarrow Q_3 + 1,5(20) = 40 + 30 = 70$."
+    },
+    {
+      "id": "mc-c3-086",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Biết $Q_1 = 15, Q_3 = 25$. Ranh giới trên để xác định ngoại lai là:",
+      "choices": [
+        "$35$",
+        "$40$",
+        "$50$",
+        "$45$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 10 \\Rightarrow 25 + 15 = 40$."
+    },
+    {
+      "id": "mc-c3-087",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Cho $Q_1 = 30, Q_3 = 50$. Ranh giới dưới ngoại lai bằng:",
+      "choices": [
+        "$10$",
+        "$-10$",
+        "$5$",
+        "$0$"
+      ],
+      "answer": 3,
+      "explanation": "$\\Delta_Q = 20 \\Rightarrow 30 - 1,5(20) = 0$."
+    },
+    {
+      "id": "mc-c3-088",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "th",
+      "dang": "Ranh giới giá trị ngoại lai",
+      "question": "Nếu $Q_1 = 10, Q_3 = 20$. Ranh giới dưới ngoại lai là:",
+      "choices": [
+        "$5$",
+        "$-5$",
+        "$-10$",
+        "$0$"
+      ],
+      "answer": 1,
+      "explanation": "$10 - 1,5(10) = -5$."
+    },
+    {
+      "id": "mc-c3-089",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có cùng tần số. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$100$",
+        "$10$",
+        "$25$",
+        "$50$"
+      ],
+      "answer": 2,
+      "explanation": "Đại diện 5 và 15, $\\bar{x} = 10 \\Rightarrow s^2 = 25$."
+    },
+    {
+      "id": "mc-c3-090",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Mẫu có hai nhóm $[10; 30)$ và $[30; 50)$ có tần số bằng nhau. Phương sai $s^2$ là:",
+      "choices": [
+        "$200$",
+        "$100$",
+        "$50$",
+        "$25$"
+      ],
+      "answer": 1,
+      "explanation": "Đại diện 20 và 40, $\\bar{x} = 30 \\Rightarrow s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-091",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Hai nhóm $[20; 40)$ và $[40; 60)$ có cùng tần số. Phương sai bằng:",
+      "choices": [
+        "$50$",
+        "$200$",
+        "$100$",
+        "$40$"
+      ],
+      "answer": 2,
+      "explanation": "Đại diện 30 và 50, $\\bar{x} = 40 \\Rightarrow s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-092",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính phương sai mẫu hai nhóm đối xứng",
+      "question": "Cho hai nhóm $[0; 20)$ và $[20; 40)$ có cùng tần số. Phương sai $s^2$ là:",
+      "choices": [
+        "$200$",
+        "$100$",
+        "$50$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "$s^2 = 100$."
+    },
+    {
+      "id": "mc-c3-093",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Hai nhóm $[0; 10)$ và $[10; 20)$ có cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$2,5$",
+        "$25$",
+        "$5$",
+        "$10$"
+      ],
+      "answer": 2,
+      "explanation": "$s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mc-c3-094",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Mẫu có hai nhóm $[10; 30)$ và $[30; 50)$ có cùng tần số. Độ lệch chuẩn s là:",
+      "choices": [
+        "$5$",
+        "$20$",
+        "$10$",
+        "$100$"
+      ],
+      "answer": 2,
+      "explanation": "$s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "mc-c3-095",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Cho phương sai $s^2 = 144$. Độ lệch chuẩn của mẫu bằng:",
+      "choices": [
+        "$\\sqrt{12}$",
+        "$144$",
+        "$12$",
+        "$14$"
+      ],
+      "answer": 2,
+      "explanation": "$s = \\sqrt{144} = 12$."
+    },
+    {
+      "id": "mc-c3-096",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Tính độ lệch chuẩn mẫu hai nhóm",
+      "question": "Phương sai của mẫu bằng 81. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$81$",
+        "$9$",
+        "$\\sqrt{9}$",
+        "$18$"
+      ],
+      "answer": 1,
+      "explanation": "$s = \\sqrt{81} = 9$."
+    },
+    {
+      "id": "mc-c3-097",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Lớp A có $s = 1,2$ điểm, lớp B có $s = 1,8$ điểm. Kết luận nào đúng?",
+      "choices": [
+        "Hai lớp đều như nhau",
+        "Lớp A có điểm số đồng đều hơn lớp B",
+        "Lớp B có điểm số đồng đều hơn lớp A",
+        "Lớp B có nhiều bạn giỏi hơn"
+      ],
+      "answer": 1,
+      "explanation": "Độ lệch chuẩn nhỏ hơn nghĩa là độ phân tán nhỏ hơn, điểm đều hơn."
+    },
+    {
+      "id": "mc-c3-098",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Tổ 1 có $s = 0,8$ kg, tổ 2 có $s = 1,5$ kg. Cân nặng của tổ nào đồng đều hơn?",
+      "choices": [
+        "Hai tổ như nhau",
+        "Tổ 2 đồng đều hơn",
+        "Không xác định",
+        "Tổ 1 đồng đều hơn"
+      ],
+      "answer": 3,
+      "explanation": "Tổ 1 có độ lệch chuẩn nhỏ hơn nên đồng đều hơn."
+    },
+    {
+      "id": "mc-c3-099",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Hai vận động viên có cùng điểm bắn trung bình, $s_1 = 0,5$ và $s_2 = 1,0$. Vận động viên nào ổn định hơn?",
+      "choices": [
+        "Vận động viên 2",
+        "Vận động viên 1",
+        "Không so sánh được",
+        "Hai người như nhau"
+      ],
+      "answer": 1,
+      "explanation": "VĐV 1 có độ lệch chuẩn nhỏ hơn nên bắn ổn định hơn."
+    },
+    {
+      "id": "mc-c3-100",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "So sánh độ phân tán hai lớp học",
+      "question": "Quy trình A có $s = 0,2$ mm, quy trình B có $s = 0,6$ mm. Quy trình nào chính xác hơn?",
+      "choices": [
+        "Quy trình B",
+        "Cả hai bằng nhau",
+        "Quy trình A",
+        "Không có cơ sở"
+      ],
+      "answer": 2,
+      "explanation": "Quy trình A có sai số chuẩn nhỏ hơn."
+    },
+    {
+      "id": "mc-c3-101",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Cổ phiếu X có độ lệch chuẩn lợi nhuận $s = 5\\%$, cổ phiếu Y có $s = 12\\%$. Cổ phiếu nào an toàn hơn (ít rủi ro hơn)?",
+      "choices": [
+        "Hai cổ phiếu rủi ro như nhau",
+        "Không so sánh được",
+        "Cổ phiếu X",
+        "Cổ phiếu Y"
+      ],
+      "answer": 2,
+      "explanation": "Độ lệch chuẩn nhỏ hơn đồng nghĩa với biến động giá thấp hơn, ít rủi ro hơn."
+    },
+    {
+      "id": "mc-c3-102",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Quỹ đầu tư A có $s = 8\\%$, quỹ B có $s = 15\\%$. Quỹ nào biến động mạnh hơn?",
+      "choices": [
+        "Hai quỹ biến động như nhau",
+        "Quỹ A",
+        "Quỹ B",
+        "Không xác định"
+      ],
+      "answer": 2,
+      "explanation": "Quỹ B có độ lệch chuẩn lớn hơn nên biến động mạnh hơn."
+    },
+    {
+      "id": "mc-c3-103",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Để đầu tư an toàn, nhà đầu tư nên chọn danh mục có độ lệch chuẩn:",
+      "choices": [
+        "Nhỏ",
+        "Lớn",
+        "Bằng 0",
+        "Vô hạn"
+      ],
+      "answer": 0,
+      "explanation": "Độ lệch chuẩn nhỏ đại diện cho mức độ biến động thấp."
+    },
+    {
+      "id": "mc-c3-104",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ứng dụng tài chính mức độ rủi ro",
+      "question": "Tỉ suất sinh lời của hai dự án như nhau. Dự án 1 có $s = 3\\%$, dự án 2 có $s = 7\\%$. Dự án nào rủi ro cao hơn?",
+      "choices": [
+        "Hai dự án rủi ro ngang nhau",
+        "Dự án 1",
+        "Không có rủi ro",
+        "Dự án 2"
+      ],
+      "answer": 3,
+      "explanation": "Dự án 2 có độ lệch chuẩn lớn hơn nên rủi ro cao hơn."
+    },
+    {
+      "id": "mc-c3-105",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Trong dây chuyền sản xuất bulông, độ lệch chuẩn kích thước đường kính càng nhỏ thì:",
+      "choices": [
+        "Không ảnh hưởng",
+        "Tỉ lệ phế phẩm càng thấp, chất lượng càng cao",
+        "Tốc độ sản xuất càng chậm",
+        "Tỉ lệ phế phẩm càng cao"
+      ],
+      "answer": 1,
+      "explanation": "Sai số càng nhỏ thì sản phẩm càng chuẩn xác, ít phế phẩm."
+    },
+    {
+      "id": "mc-c3-106",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Máy đóng gói sữa có dung tích trung bình 180 ml, độ lệch chuẩn $s = 1\\text{ ml}$. Khẳng định nào đúng?",
+      "choices": [
+        "Dung tích các hộp sữa rất đồng đều quanh mức 180 ml",
+        "Các hộp sữa lệch nhau rất nhiều",
+        "Máy bị lỗi nặng",
+        "Có nhiều hộp bị rỗng"
+      ],
+      "answer": 0,
+      "explanation": "Sai lệch chỉ 1 ml trên 180 ml là rất nhỏ, chất lượng đồng đều."
+    },
+    {
+      "id": "mc-c3-107",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Để đạt chuẩn ISO trong sản xuất, độ lệch chuẩn của các thông số kỹ thuật phải:",
+      "choices": [
+        "Bằng trung bình",
+        "Nằm trong giới hạn kiểm soát cho phép (càng nhỏ càng tốt)",
+        "Không cần đo",
+        "Càng lớn càng tốt"
+      ],
+      "answer": 1,
+      "explanation": "Cần kiểm soát độ lệch chuẩn ở mức tối thiểu cho phép."
+    },
+    {
+      "id": "mc-c3-108",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "th",
+      "dang": "Ý nghĩa độ lệch chuẩn trong kiểm soát chất lượng",
+      "question": "Hai lô hàng nước ngọt: Lô 1 có $s = 2\\text{ ml}$, Lô 2 có $s = 5\\text{ ml}$. Lô hàng nào đạt chuẩn chất lượng đồng đều hơn?",
+      "choices": [
+        "Không đánh giá được",
+        "Cả hai như nhau",
+        "Lô 1",
+        "Lô 2"
+      ],
+      "answer": 2,
+      "explanation": "Lô 1 có độ phân tán nhỏ hơn."
+    },
+    {
+      "id": "mc-c3-109",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Cho mẫu số liệu ghép nhóm gồm hai nhóm $[0; 10)$ có tần số 5 và $[10; 20)$ có tần số 5. Phương sai $s^2$ bằng:",
+      "choices": [
+        "$25$",
+        "$100$",
+        "$50$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị đại diện: $c_1 = 5, c_2 = 15$. Số trung bình $\\bar{x} = 10$. $s^2 = \\frac{5(5-10)^2 + 5(15-10)^2}{10} = \\frac{5(25) + 5(25)}{10} = 25$."
+    },
+    {
+      "id": "mc-c3-110",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Mẫu có hai nhóm $[10; 20)$ có 4 và $[20; 30)$ có 4. Phương sai $s^2$ là:",
+      "choices": [
+        "$15$",
+        "$25$",
+        "$50$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "Trung bình bằng 20. $s^2 = \\frac{4(15-20)^2 + 4(25-20)^2}{8} = 25$."
+    },
+    {
+      "id": "mc-c3-111",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Cho hai nhóm $[0; 20)$ và $[20; 40)$ có tần số bằng nhau. Phương sai của mẫu bằng:",
+      "choices": [
+        "$200$",
+        "$50$",
+        "$100$",
+        "$20$"
+      ],
+      "answer": 2,
+      "explanation": "Giá trị đại diện: 10 và 30, trung bình bằng 20. $s^2 = \\frac{(10-20)^2 + (30-20)^2}{2} = 100$."
+    },
+    {
+      "id": "mc-c3-112",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính phương sai mẫu ghép nhóm số nguyên",
+      "question": "Mẫu có ba nhóm $[0; 10), [10; 20), [20; 30)$ có tần số tương ứng $2, 6, 2$. Phương sai của mẫu là:",
+      "choices": [
+        "$30$",
+        "$50$",
+        "$25$",
+        "$40$"
+      ],
+      "answer": 3,
+      "explanation": "Đại diện: 5, 15, 25. $\\bar{x} = 15$. $s^2 = \\frac{2(5-15)^2 + 6(15-15)^2 + 2(25-15)^2}{10} = \\frac{200 + 0 + 200}{10} = 40$."
+    },
+    {
+      "id": "mc-c3-113",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Cho mẫu số liệu có hai nhóm $[0; 10)$ và $[10; 20)$ cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$25$",
+        "$10$",
+        "$2,5$",
+        "$5$"
+      ],
+      "answer": 3,
+      "explanation": "$s^2 = 25 \\Rightarrow s = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "mc-c3-114",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Mẫu có hai nhóm $[20; 40)$ và $[40; 60)$ có tần số bằng nhau. Độ lệch chuẩn s là:",
+      "choices": [
+        "$10$",
+        "$20$",
+        "$5$",
+        "$100$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 30 và 50, trung bình 40. $s^2 = 100 \\Rightarrow s = 10$."
+    },
+    {
+      "id": "mc-c3-115",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Mẫu có phương sai $s^2 = 49$. Độ lệch chuẩn của mẫu bằng:",
+      "choices": [
+        "$49$",
+        "$\\sqrt{7}$",
+        "$7$",
+        "$14$"
+      ],
+      "answer": 2,
+      "explanation": "$s = \\sqrt{49} = 7$."
+    },
+    {
+      "id": "mc-c3-116",
+      "chapter": "c3",
+      "lesson": "b10",
+      "level": "vd",
+      "dang": "Tính độ lệch chuẩn của mẫu ghép nhóm",
+      "question": "Hai nhóm $[10; 30)$ và $[30; 50)$ có cùng tần số. Độ lệch chuẩn s bằng:",
+      "choices": [
+        "$10$",
+        "$20$",
+        "$100$",
+        "$5$"
+      ],
+      "answer": 0,
+      "explanation": "Đại diện 20 và 40, $s = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "mc-c3-117",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Một mẫu có $Q_1 = 20, Q_3 = 40$. Giá trị nào sau đây là giá trị ngoại lai?",
+      "choices": [
+        "$35$",
+        "$75$",
+        "$25$",
+        "$65$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 20$. Giới hạn trên là $Q_3 + 1,5\\Delta_Q = 40 + 30 = 70$. Giá trị 75 > 70 nên là giá trị ngoại lai."
+    },
+    {
+      "id": "mc-c3-118",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Cho $Q_1 = 30, Q_3 = 50$. Giá trị nào dưới đây là ngoại lai phía dưới?",
+      "choices": [
+        "$-5$",
+        "$5$",
+        "$15$",
+        "$10$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 20$. Giới hạn dưới: $Q_1 - 1,5\\Delta_Q = 30 - 30 = 0$. Giá trị $-5 < 0$ là ngoại lai."
+    },
+    {
+      "id": "mc-c3-119",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Cho $Q_1 = 15, Q_3 = 25$. Giá trị nào sau đây là giá trị ngoại lai?",
+      "choices": [
+        "$35$",
+        "$45$",
+        "$30$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "$\\Delta_Q = 10$. Ranh giới trên là $25 + 15 = 40$. Giá trị 45 > 40 là ngoại lai."
+    },
+    {
+      "id": "mc-c3-120",
+      "chapter": "c3",
+      "lesson": "b9",
+      "level": "vd",
+      "dang": "Xác định giá trị ngoại lai cụ thể",
+      "question": "Mẫu số liệu có $Q_1 = 50, Q_3 = 80$. Điểm ngoại lai là:",
+      "choices": [
+        "$130$",
+        "$70$",
+        "$90$",
+        "$120$"
+      ],
+      "answer": 0,
+      "explanation": "$\\Delta_Q = 30$. Ranh giới trên: $80 + 1,5(30) = 125$. Giá trị 130 > 125 là ngoại lai."
+    }
+  ]
+}

@@ -79,8 +79,8 @@ def gen_c1():
         ("Ý nghĩa hình học của đạo hàm cấp một và cấp hai", "b1", [
             lambda: ("Hệ số góc của tiếp tuyến của đồ thị hàm số $y = f(x)$ tại điểm $M(x_0; y_0)$ là:", ["$k = f'(x_0)$", "$k = f(x_0)$", "$k = f''(x_0)$", "$k = x_0$"], 0, "Ý nghĩa hình học của đạo hàm: hệ số góc tiếp tuyến là $f'(x_0)$."),
             lambda: ("Phương trình tiếp tuyến tại điểm $M(x_0; y_0)$ có dạng:", ["$y = f'(x_0)(x - x_0) + y_0$", "$y = f'(x_0)(x + x_0) + y_0$", "$y = f(x_0)(x - x_0)$", "$y = x - x_0 + y_0$"], 0, "Phương trình tiếp tuyến chuẩn: $y = f'(x_0)(x - x_0) + y_0$."),
-            lambda: ("Nếu $f'(x_0) = 0$ và $f''(x_0) < 0$ thì $x_0$ là:", ["Điểm cực đại", "Điểm cực tiểu", "Điểm uốn", "Không phải cực trị"], 0, "Dấu hiệu II: $f'' < 0$ thì là điểm cực đại."),
-            lambda: ("Nếu $f'(x_0) = 0$ và $f''(x_0) > 0$ thì $x_0$ là:", ["Điểm cực tiểu", "Điểm cực đại", "Điểm uốn", "Điểm gián đoạn"], 0, "Dấu hiệu II: $f'' > 0$ là điểm cực tiểu."),
+            lambda: ("Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai âm $f''(x_0) < 0$ thì $x_0$ là:", ["Điểm cực đại", "Điểm cực tiểu", "Điểm uốn", "Không phải cực trị"], 0, "Dấu hiệu II: $f'' < 0$ thì là điểm cực đại."),
+            lambda: ("Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai dương $f''(x_0) > 0$ thì $x_0$ là:", ["Điểm cực tiểu", "Điểm cực đại", "Điểm uốn", "Điểm gián đoạn"], 0, "Dấu hiệu II: $f'' > 0$ là điểm cực tiểu."),
             lambda: ("Tiếp tuyến tại điểm cực trị của đồ thị hàm số có vị trí:", ["Song song hoặc trùng với trục hoành Ox", "Vuông góc với trục hoành", "Song song với trục tung", "Tạo góc $45^\\circ$ với Ox"], 0, "Tại cực trị $f'(x_0) = 0$ nên hệ số góc bằng 0, tiếp tuyến nằm ngang song song hoặc trùng Ox.")
         ]),
         ("Đọc bảng biến thiên cơ bản", "b1", [

@@ -64,7 +64,7 @@
         "Đường thẳng AB"
       ],
       "answer": 0,
-      "explanation": "Độ dài $|\u000bec{AB}| = AB$."
+      "explanation": "Độ dài $|\\vec{AB}| = AB$."
     },
     {
       "id": "mc-c2-004",

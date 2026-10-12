@@ -27,12 +27,14 @@ BANK_DIR = os.path.join(BASE_DIR, "scripts", "bank")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 SEED = 20261001                     # cố định để build lại cho kết quả giống hệt
-SUBJECTS = ["toan10", "ly10", "hoa10", "toan9"]
+SUBJECTS = ["toan10", "ly10", "hoa10", "toan9", "toan11", "toan12"]
 SUBJECT_CHAPTERS = {
     "toan10": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9"],
     "ly10": ["c1", "c2", "c3", "c4", "c5"],
     "hoa10": ["c1", "c2", "c3", "c4", "c5"],
     "toan9": ["c1", "c2", "c3", "c4", "c5"],
+    "toan11": ["c1", "c2", "c3", "c4", "c5"],
+    "toan12": ["c1", "c2", "c3"],
 }
 
 MC_PER_CHAPTER = 120
@@ -46,11 +48,11 @@ MAX_VARIANTS = 5                    # mỗi dạng bài tối đa 5 biến thể
 # Ngoài tập này sẽ lòi dấu gạch chéo ra màn hình học sinh.
 SUPPORTED_LATEX = set("""
 frac sqrt vec overrightarrow bar overline hat mathbb mathrm mathbf mathit text
-le ge ne pm mp times div cdot deg circ sin cos tan cot log
+le ge ne neq pm mp times div cdot deg circ sin cos tan cot log ln lim max min
 infty in notin subset supset cup cap emptyset setminus forall exists neg
 Rightarrow Leftrightarrow rightarrow to mapsto perp parallel angle triangle
 alpha beta gamma delta Delta theta lambda mu pi rho sigma Sigma tau phi omega Omega
-approx equiv propto sum prod R Q Z N
+approx equiv propto sum prod dots left right R Q Z N
 """.split())
 
 CMD_RE = re.compile(r"\\([A-Za-z]+)")
@@ -324,6 +326,11 @@ def save_json(path, data):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
     check_only = "--check" in sys.argv
     partial = "--partial" in sys.argv
     target_subject = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--subject=")), None)

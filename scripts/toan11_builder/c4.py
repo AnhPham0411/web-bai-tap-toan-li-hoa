@@ -36,7 +36,7 @@ def gen_c4():
         ]),
         ("Đường thẳng song song với mặt phẳng", "b12", [
             lambda: ("Đường thẳng d song song với mặt phẳng $(P)$ khi:", ["d và $(P)$ không có điểm chung", "d có duy nhất 1 điểm chung với $(P)$", "d nằm trong $(P)$", "d vuông góc với $(P)$"], 0, "Định nghĩa đường thẳng song song với mặt phẳng: không có điểm chung."),
-            lambda: ("Điều kiện để đường thẳng $d$ song song với mặt phẳng $(P)$ là:", ["$d \\not\\subset (P)$ và $d$ song song với một đường thẳng $a \\subset (P)$", "$d$ có điểm chung với $(P)$", "$d$ cắt một đường thẳng trong $(P)$", "$d \\subset (P)$"], 0, "Định lí nhận biết: $d \\not\\subset (P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."),
+            lambda: ("Điều kiện để đường thẳng $d$ song song với mặt phẳng $(P)$ là:", ["$d$ không nằm trong $(P)$ và $d$ song song với một đường thẳng $a \\subset (P)$", "$d$ có điểm chung với $(P)$", "$d$ cắt một đường thẳng trong $(P)$", "$d \\subset (P)$"], 0, "Định lí nhận biết: $d$ không nằm trong $(P), a \\subset (P), d \\parallel a \\Rightarrow d \\parallel (P)$."),
             lambda: ("Cho đường thẳng $d \\parallel (P)$. Khẳng định nào sau đây là ĐÚNG?", ["d không có điểm chung với $(P)$", "d có vô số điểm chung với $(P)$", "d vuông góc với mọi đường trong $(P)$", "Mọi đường trong $(P)$ đều song song với d"], 0, "$d \\parallel (P) \\Rightarrow d \\cap (P) = \\emptyset$."),
             lambda: ("Nếu đường thẳng d song song với mặt phẳng $(P)$ thì qua d có thể kẻ được bao nhiêu mặt phẳng song song với $(P)$?", ["$1$ mặt phẳng", "Vô số mặt phẳng", "Không có mặt phẳng nào", "$2$ mặt phẳng"], 0, "Có duy nhất một mặt phẳng đi qua d và song song với $(P)$."),
             lambda: ("Cho hình chóp $S.ABCD$ đáy là hình bình hành $ABCD$. Cạnh AB song song với mặt phẳng nào?", ["$(SCD)$", "$(SAD)$", "$(SBC)$", "$(SAB)$"], 0, "Do $AB \\parallel CD$ và $CD \\subset (SCD)$ nên $AB \\parallel (SCD)$.")
@@ -88,7 +88,7 @@ def gen_c4():
             lambda: ("Nếu đường thẳng d cắt mặt phẳng $(P)$ thì số điểm chung giữa chúng là:", ["$1$", "$0$", "$2$", "Vô số"], 0, "Đường thẳng cắt mặt phẳng tại đúng 1 điểm chung."),
             lambda: ("Nếu đường thẳng d song song với mặt phẳng $(P)$ thì số điểm chung là:", ["$0$", "$1$", "$2$", "Vô số"], 0, "Song song nghĩa là không có điểm chung nào ($d \\cap (P) = \\emptyset$)."),
             lambda: ("Nếu đường thẳng d nằm trong mặt phẳng $(P)$ thì số điểm chung là:", ["Vô số", "$1$", "$2$", "$0$"], 0, "Mọi điểm của d đều thuộc $(P)$ nên có vô số điểm chung."),
-            lambda: ("Cho $d \\parallel a$ với $a \\subset (P)$ và $d \\not\\subset (P)$. Vị trí của d và $(P)$ là:", ["$d \\parallel (P)$", "d cắt $(P)$", "$d \\subset (P)$", "d chéo $(P)$"], 0, "Theo định lí nhận biết thì $d \\parallel (P)$.")
+            lambda: ("Cho $d \\parallel a$ với $a \\subset (P)$ và $d$ không nằm trong $(P)$. Vị trí của d và $(P)$ là:", ["$d \\parallel (P)$", "d cắt $(P)$", "$d \\subset (P)$", "d chéo $(P)$"], 0, "Theo định lí nhận biết thì $d \\parallel (P)$.")
         ])
     ]
 

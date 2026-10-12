@@ -864,7 +864,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
-      "question": "Nếu $f'(x_0) = 0$ và $f''(x_0) < 0$ thì $x_0$ là:",
+      "question": "Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai âm $f''(x_0) < 0$ thì $x_0$ là:",
       "choices": [
         "Điểm cực đại",
         "Điểm cực tiểu",
@@ -880,7 +880,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Ý nghĩa hình học của đạo hàm cấp một và cấp hai",
-      "question": "Nếu $f'(x_0) = 0$ và $f''(x_0) > 0$ thì $x_0$ là:",
+      "question": "Theo dấu hiệu cực trị II, nếu $f'(x_0) = 0$ và đạo hàm cấp hai dương $f''(x_0) > 0$ thì $x_0$ là:",
       "choices": [
         "Điểm cực tiểu",
         "Điểm cực đại",

@@ -272,7 +272,7 @@ def gen_c1():
             ("Cho $\\tan \\alpha = 2$. Tính giá trị của biểu thức $P = \\frac{4\\sin \\alpha + 2\\cos \\alpha}{\\sin \\alpha + 3\\cos \\alpha}$:", 2, "Chia cho $\\cos \\alpha$: $P = \\frac{4\\tan\\alpha + 2}{\\tan\\alpha + 3} = \\frac{8 + 2}{2 + 3} = \\frac{10}{5} = 2$."),
             ("Cho $\\cot \\alpha = 3$. Tính giá trị của biểu thức $Q = \\frac{\\sin \\alpha + 3\\cos \\alpha}{2\\sin \\alpha + \\cos \\alpha}$:", 2, "Chia cho $\\sin \\alpha$: $Q = \\frac{1 + 3\\cot\\alpha}{2 + \\cot\\alpha} = \\frac{1 + 9}{2 + 3} = \\frac{10}{5} = 2$."),
             ("Nếu $\\tan \\alpha = 1$ thì giá trị của biểu thức $A = 5\\tan^2 \\alpha - 2$ bằng:", 3, "$A = 5(1)^2 - 2 = 3$."),
-            ("Cho $\\sin \\alpha \\cos \\alpha = 0,4$. Tính giá trị của $\\sin 2\\alpha$:", 0.8, "$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2(0,4) = 0,8$.")
+            ("Cho $\\sin \\alpha \\cos \\alpha = \\frac{1}{4}$. Tính giá trị của biểu thức $4\\sin 2\\alpha$:", 2, "Ta có $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = 2 \\cdot \\frac{1}{4} = \\frac{1}{2}$. Do đó $4\\sin 2\\alpha = 4 \\cdot \\frac{1}{2} = 2$.")
         ]),
         ("Giá trị lớn nhất và nhỏ nhất của hàm số", "b3", [
             ("Tìm giá trị lớn nhất của hàm số $y = 5\\sin(2x) + 3$:", 8, "GTLN là $5(1) + 3 = 8$."),

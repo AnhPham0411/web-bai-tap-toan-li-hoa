@@ -11,10 +11,22 @@
       "summary": "Góc lượng giác, giá trị lượng giác, các công thức lượng giác, hàm số lượng giác và đồ thị, phương trình lượng giác cơ bản.",
       "theory": "theory/c1.json",
       "lessons": [
-        { "id": "b1", "title": "Bài 1. Giá trị lượng giác của góc lượng giác" },
-        { "id": "b2", "title": "Bài 2. Công thức lượng giác" },
-        { "id": "b3", "title": "Bài 3. Hàm số lượng giác" },
-        { "id": "b4", "title": "Bài 4. Phương trình lượng giác cơ bản" }
+        {
+          "id": "b1",
+          "title": "Bài 1. Giá trị lượng giác của góc lượng giác"
+        },
+        {
+          "id": "b2",
+          "title": "Bài 2. Công thức lượng giác"
+        },
+        {
+          "id": "b3",
+          "title": "Bài 3. Hàm số lượng giác"
+        },
+        {
+          "id": "b4",
+          "title": "Bài 4. Phương trình lượng giác cơ bản"
+        }
       ]
     },
     {
@@ -25,9 +37,18 @@
       "summary": "Khái niệm dãy số, dãy số tăng/giảm/bị chặn; định nghĩa, tính chất, số hạng tổng quát và tổng n số hạng của cấp số cộng và cấp số nhân.",
       "theory": "theory/c2.json",
       "lessons": [
-        { "id": "b5", "title": "Bài 5. Dãy số" },
-        { "id": "b6", "title": "Bài 6. Cấp số cộng" },
-        { "id": "b7", "title": "Bài 7. Cấp số nhân" }
+        {
+          "id": "b5",
+          "title": "Bài 5. Dãy số"
+        },
+        {
+          "id": "b6",
+          "title": "Bài 6. Cấp số cộng"
+        },
+        {
+          "id": "b7",
+          "title": "Bài 7. Cấp số nhân"
+        }
       ]
     },
     {
@@ -38,8 +59,14 @@
       "summary": "Mẫu số liệu ghép nhóm, bảng tần số ghép nhóm; tính số trung bình, trung vị, tứ phân vị và mốt của mẫu số liệu ghép nhóm.",
       "theory": "theory/c3.json",
       "lessons": [
-        { "id": "b8", "title": "Bài 8. Mẫu số liệu ghép nhóm" },
-        { "id": "b9", "title": "Bài 9. Các số đặc trưng đo xu thế trung tâm" }
+        {
+          "id": "b8",
+          "title": "Bài 8. Mẫu số liệu ghép nhóm"
+        },
+        {
+          "id": "b9",
+          "title": "Bài 9. Các số đặc trưng đo xu thế trung tâm"
+        }
       ]
     },
     {
@@ -50,11 +77,26 @@
       "summary": "Đường thẳng và mặt phẳng trong không gian, hai đường thẳng song song, đường thẳng song song với mặt phẳng, hai mặt phẳng song song, phép chiếu song song.",
       "theory": "theory/c4.json",
       "lessons": [
-        { "id": "b10", "title": "Bài 10. Đường thẳng và mặt phẳng trong không gian" },
-        { "id": "b11", "title": "Bài 11. Hai đường thẳng song song" },
-        { "id": "b12", "title": "Bài 12. Đường thẳng và mặt phẳng song song" },
-        { "id": "b13", "title": "Bài 13. Hai mặt phẳng song song" },
-        { "id": "b14", "title": "Bài 14. Phép chiếu song song" }
+        {
+          "id": "b10",
+          "title": "Bài 10. Đường thẳng và mặt phẳng trong không gian"
+        },
+        {
+          "id": "b11",
+          "title": "Bài 11. Hai đường thẳng song song"
+        },
+        {
+          "id": "b12",
+          "title": "Bài 12. Đường thẳng và mặt phẳng song song"
+        },
+        {
+          "id": "b13",
+          "title": "Bài 13. Hai mặt phẳng song song"
+        },
+        {
+          "id": "b14",
+          "title": "Bài 14. Phép chiếu song song"
+        }
       ]
     },
     {
@@ -65,9 +107,18 @@
       "summary": "Giới hạn hữu hạn và vô cực của dãy số, giới hạn hàm số tại một điểm và tại vô cực, giới hạn một phía; hàm số liên tục và định lí giá trị trung gian.",
       "theory": "theory/c5.json",
       "lessons": [
-        { "id": "b15", "title": "Bài 15. Giới hạn của dãy số" },
-        { "id": "b16", "title": "Bài 16. Giới hạn của hàm số" },
-        { "id": "b17", "title": "Bài 17. Hàm số liên tục" }
+        {
+          "id": "b15",
+          "title": "Bài 15. Giới hạn của dãy số"
+        },
+        {
+          "id": "b16",
+          "title": "Bài 16. Giới hạn của hàm số"
+        },
+        {
+          "id": "b17",
+          "title": "Bài 17. Hàm số liên tục"
+        }
       ]
     },
     {
@@ -78,10 +129,22 @@
       "summary": "Lũy thừa với số mũ thực, hàm số mũ, lôgarit và các tính chất, hàm số lôgarit, phương trình và bất phương trình mũ, lôgarit.",
       "theory": "theory/c6.json",
       "lessons": [
-        { "id": "b18", "title": "Bài 18. Lũy thừa với số mũ thực" },
-        { "id": "b19", "title": "Bài 19. Lôgarit" },
-        { "id": "b20", "title": "Bài 20. Hàm số mũ và hàm số lôgarit" },
-        { "id": "b21", "title": "Bài 21. Phương trình, bất phương trình mũ và lôgarit" }
+        {
+          "id": "b18",
+          "title": "Bài 18. Lũy thừa với số mũ thực"
+        },
+        {
+          "id": "b19",
+          "title": "Bài 19. Lôgarit"
+        },
+        {
+          "id": "b20",
+          "title": "Bài 20. Hàm số mũ và hàm số lôgarit"
+        },
+        {
+          "id": "b21",
+          "title": "Bài 21. Phương trình, bất phương trình mũ và lôgarit"
+        }
       ]
     },
     {
@@ -92,9 +155,18 @@
       "summary": "Khái niệm đạo hàm và ý nghĩa hình học, tiếp tuyến của đồ thị; các quy tắc tính đạo hàm tổng, hiệu, tích, thương, hàm hợp; đạo hàm cấp hai.",
       "theory": "theory/c7.json",
       "lessons": [
-        { "id": "b22", "title": "Bài 22. Khái niệm đạo hàm. Ý nghĩa hình học của đạo hàm" },
-        { "id": "b23", "title": "Bài 23. Các quy tắc tính đạo hàm" },
-        { "id": "b24", "title": "Bài 24. Đạo hàm cấp hai" }
+        {
+          "id": "b22",
+          "title": "Bài 22. Khái niệm đạo hàm. Ý nghĩa hình học của đạo hàm"
+        },
+        {
+          "id": "b23",
+          "title": "Bài 23. Các quy tắc tính đạo hàm"
+        },
+        {
+          "id": "b24",
+          "title": "Bài 24. Đạo hàm cấp hai"
+        }
       ]
     },
     {
@@ -105,10 +177,22 @@
       "summary": "Hai đường thẳng vuông góc, đường thẳng vuông góc với mặt phẳng, hai mặt phẳng vuông góc, định lí ba đường vuông góc, khoảng cách và góc trong không gian.",
       "theory": "theory/c8.json",
       "lessons": [
-        { "id": "b25", "title": "Bài 25. Hai đường thẳng vuông góc" },
-        { "id": "b26", "title": "Bài 26. Đường thẳng vuông góc với mặt phẳng" },
-        { "id": "b27", "title": "Bài 27. Hai mặt phẳng vuông góc" },
-        { "id": "b28", "title": "Bài 28. Khoảng cách trong không gian" }
+        {
+          "id": "b25",
+          "title": "Bài 25. Hai đường thẳng vuông góc"
+        },
+        {
+          "id": "b26",
+          "title": "Bài 26. Đường thẳng vuông góc với mặt phẳng"
+        },
+        {
+          "id": "b27",
+          "title": "Bài 27. Hai mặt phẳng vuông góc"
+        },
+        {
+          "id": "b28",
+          "title": "Bài 28. Khoảng cách trong không gian"
+        }
       ]
     },
     {
@@ -119,8 +203,14 @@
       "summary": "Biến cố giao và biến cố độc lập, quy tắc nhân xác suất; biến cố hợp và quy tắc cộng xác suất.",
       "theory": "theory/c9.json",
       "lessons": [
-        { "id": "b29", "title": "Bài 29. Biến cố giao và quy tắc nhân xác suất" },
-        { "id": "b30", "title": "Bài 30. Biến cố hợp và quy tắc cộng xác suất" }
+        {
+          "id": "b29",
+          "title": "Bài 29. Biến cố giao và quy tắc nhân xác suất"
+        },
+        {
+          "id": "b30",
+          "title": "Bài 30. Biến cố hợp và quy tắc cộng xác suất"
+        }
       ]
     }
   ]

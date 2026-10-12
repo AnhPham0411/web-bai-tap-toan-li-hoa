@@ -11,11 +11,26 @@
       "summary": "Tính đơn điệu và cực trị của hàm số, giá trị lớn nhất và giá trị nhỏ nhất, đường tiệm cận đứng/ngang/xiên, khảo sát sự biến thiên và vẽ đồ thị hàm số, ứng dụng giải quyết bài toán thực tế.",
       "theory": "theory/c1.json",
       "lessons": [
-        { "id": "b1", "title": "Bài 1. Tính đơn điệu và cực trị của hàm số" },
-        { "id": "b2", "title": "Bài 2. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số" },
-        { "id": "b3", "title": "Bài 3. Đường tiệm cận của đồ thị hàm số" },
-        { "id": "b4", "title": "Bài 4. Khảo sát sự biến thiên và vẽ đồ thị hàm số" },
-        { "id": "b5", "title": "Bài 5. Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn" }
+        {
+          "id": "b1",
+          "title": "Bài 1. Tính đơn điệu và cực trị của hàm số"
+        },
+        {
+          "id": "b2",
+          "title": "Bài 2. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số"
+        },
+        {
+          "id": "b3",
+          "title": "Bài 3. Đường tiệm cận của đồ thị hàm số"
+        },
+        {
+          "id": "b4",
+          "title": "Bài 4. Khảo sát sự biến thiên và vẽ đồ thị hàm số"
+        },
+        {
+          "id": "b5",
+          "title": "Bài 5. Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn"
+        }
       ]
     },
     {
@@ -26,9 +41,18 @@
       "summary": "Vectơ trong không gian, hệ trục toạ độ Oxyz, biểu thức toạ độ của các phép toán vectơ, tích vô hướng của hai vectơ và ứng dụng tính góc, khoảng cách.",
       "theory": "theory/c2.json",
       "lessons": [
-        { "id": "b6", "title": "Bài 6. Vectơ trong không gian" },
-        { "id": "b7", "title": "Bài 7. Hệ trục toạ độ trong không gian" },
-        { "id": "b8", "title": "Bài 8. Biểu thức toạ độ của các phép toán vectơ" }
+        {
+          "id": "b6",
+          "title": "Bài 6. Vectơ trong không gian"
+        },
+        {
+          "id": "b7",
+          "title": "Bài 7. Hệ trục toạ độ trong không gian"
+        },
+        {
+          "id": "b8",
+          "title": "Bài 8. Biểu thức toạ độ của các phép toán vectơ"
+        }
       ]
     },
     {
@@ -39,8 +63,14 @@
       "summary": "Khoảng biến thiên, khoảng tứ phân vị, phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm; ý nghĩa và ứng dụng so sánh mức độ phân tán dữ liệu.",
       "theory": "theory/c3.json",
       "lessons": [
-        { "id": "b9", "title": "Bài 9. Khoảng biến thiên và khoảng tứ phân vị" },
-        { "id": "b10", "title": "Bài 10. Phương sai và độ lệch chuẩn" }
+        {
+          "id": "b9",
+          "title": "Bài 9. Khoảng biến thiên và khoảng tứ phân vị"
+        },
+        {
+          "id": "b10",
+          "title": "Bài 10. Phương sai và độ lệch chuẩn"
+        }
       ]
     },
     {
@@ -51,9 +81,18 @@
       "summary": "Khái niệm nguyên hàm và bảng nguyên hàm cơ bản, tích phân và các tính chất, các phương pháp tính tích phân (đổi biến, từng phần), ứng dụng hình học tính diện tích hình phẳng và thể tích khối tròn xoay.",
       "theory": "theory/c4.json",
       "lessons": [
-        { "id": "b11", "title": "Bài 11. Nguyên hàm" },
-        { "id": "b12", "title": "Bài 12. Tích phân" },
-        { "id": "b13", "title": "Bài 13. Ứng dụng hình học của tích phân" }
+        {
+          "id": "b11",
+          "title": "Bài 11. Nguyên hàm"
+        },
+        {
+          "id": "b12",
+          "title": "Bài 12. Tích phân"
+        },
+        {
+          "id": "b13",
+          "title": "Bài 13. Ứng dụng hình học của tích phân"
+        }
       ]
     },
     {
@@ -64,10 +103,22 @@
       "summary": "Phương trình mặt phẳng, phương trình đường thẳng trong không gian, vị trí tương đối, công thức tính góc và khoảng cách, phương trình mặt cầu.",
       "theory": "theory/c5.json",
       "lessons": [
-        { "id": "b14", "title": "Bài 14. Phương trình mặt phẳng" },
-        { "id": "b15", "title": "Bài 15. Phương trình đường thẳng trong không gian" },
-        { "id": "b16", "title": "Bài 16. Công thức tính góc và khoảng cách trong không gian" },
-        { "id": "b17", "title": "Bài 17. Phương trình mặt cầu" }
+        {
+          "id": "b14",
+          "title": "Bài 14. Phương trình mặt phẳng"
+        },
+        {
+          "id": "b15",
+          "title": "Bài 15. Phương trình đường thẳng trong không gian"
+        },
+        {
+          "id": "b16",
+          "title": "Bài 16. Công thức tính góc và khoảng cách trong không gian"
+        },
+        {
+          "id": "b17",
+          "title": "Bài 17. Phương trình mặt cầu"
+        }
       ]
     },
     {
@@ -78,8 +129,14 @@
       "summary": "Khái niệm xác suất có điều kiện, quy tắc nhân xác suất cho biến cố phụ thuộc, công thức xác suất toàn phần và công thức Bayes, ứng dụng trong thực tiễn.",
       "theory": "theory/c6.json",
       "lessons": [
-        { "id": "b18", "title": "Bài 18. Xác suất có điều kiện" },
-        { "id": "b19", "title": "Bài 19. Công thức xác suất toàn phần và công thức Bayes" }
+        {
+          "id": "b18",
+          "title": "Bài 18. Xác suất có điều kiện"
+        },
+        {
+          "id": "b19",
+          "title": "Bài 19. Công thức xác suất toàn phần và công thức Bayes"
+        }
       ]
     }
   ]
