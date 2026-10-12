@@ -24,7 +24,6 @@ UNSUPPORTED_LATEX = [
     r'\begin{cases}', r'\end{cases}',
     r'\begin{matrix}', r'\end{matrix}',
     r'\begin{aligned}', r'\end{aligned}',
-    r'\dots',
     r'\over ',
     r'\pmatrix',
 ]
@@ -134,7 +133,7 @@ def main():
 
     total_issues = 0
 
-    subjects = ['toan10', 'ly10', 'hoa10', 'toan9']
+    subjects = ['toan10', 'ly10', 'hoa10', 'toan9', 'toan11', 'toan12']
     for subj in subjects:
         mc_file = ROOT / 'data' / subj / 'questions' / 'mc.json'
         short_file = ROOT / 'data' / subj / 'questions' / 'short.json'
