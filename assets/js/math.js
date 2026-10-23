@@ -21,7 +21,7 @@ const SYMBOLS = {
   infty: '∞', in: '∈', notin: '∉', subset: '⊂', supset: '⊃',
   cup: '∪', cap: '∩', emptyset: '∅', setminus: '∖',
   forall: '∀', exists: '∃', neg: '¬',
-  Rightarrow: '⇒', Leftrightarrow: '⇔', rightarrow: '→', to: '→', mapsto: '↦',
+  Rightarrow: '⇒', Leftrightarrow: '⇔', iff: '⇔', implies: '⇒', rightarrow: '→', to: '→', mapsto: '↦',
   rightleftharpoons: '⇌', downarrow: '↓', uparrow: '↑',
   perp: '⊥', parallel: '∥', angle: '∠', triangle: '△',
   alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ', epsilon: 'ε',
@@ -140,6 +140,8 @@ function transform(src) {
       if (nextChar === '$') { out += '$'; i += 2; continue; }
       if (nextChar === '&') { out += '&amp;'; i += 2; continue; }
       if (nextChar === '\\') { out += '<br>'; i += 2; continue; }
+      if (nextChar === ' ' || nextChar === ',' || nextChar === ';' || nextChar === ':') { out += '&nbsp;'; i += 2; continue; }
+      if (nextChar === '!') { i += 2; continue; }
 
       const m = /^\\([A-Za-z]+)/.exec(src.slice(i));
       if (m) {
