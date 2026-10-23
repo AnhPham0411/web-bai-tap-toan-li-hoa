@@ -7,7 +7,8 @@ FIRST_ID = 101  # id sinh mới bắt đầu từ 101 để không đè câu cũ
 
 def fnum(x, nd=2):
     """Số thập phân kiểu Việt Nam (dấu phẩy), bỏ số 0 thừa."""
-    s = f"{x:.{nd}f}".rstrip('0').rstrip('.')
+    s = f"{x:.{nd}f}"
+    if '.' in s: s = s.rstrip('0').rstrip('.')
     if s in ('-0', ''): s = '0'
     return s.replace('.', ',').replace('-', '−') if False else s.replace('.', ',')
 

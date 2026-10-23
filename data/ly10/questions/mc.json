@@ -408,10 +408,10 @@
       "dang": "Đổi đơn vị thời gian",
       "question": "Đổi 1 h 30 min 0 s sang đơn vị giây (s).",
       "choices": [
-        "363 s",
-        "9 s",
-        "108 s",
-        "54 s"
+        "3630 s",
+        "90 s",
+        "10800 s",
+        "5400 s"
       ],
       "answer": 3,
       "explanation": "$1\\ \\text{h}=3600$ s; $30\\ \\text{min}=1800$ s; cộng với $0$ s được $5400$ s."
@@ -424,9 +424,9 @@
       "dang": "Đổi đơn vị thời gian",
       "question": "Đổi 2 h 15 min 0 s sang đơn vị giây (s).",
       "choices": [
-        "162 s",
+        "16200 s",
         "135 s",
-        "81 s",
+        "8100 s",
         "7215 s"
       ],
       "answer": 2,
@@ -440,10 +440,10 @@
       "dang": "Đổi đơn vị thời gian",
       "question": "Đổi 0 h 45 min 30 s sang đơn vị giây (s).",
       "choices": [
-        "546 s",
+        "5460 s",
         "46 s",
         "75 s",
-        "273 s"
+        "2730 s"
       ],
       "answer": 3,
       "explanation": "$0\\ \\text{h}=0$ s; $45\\ \\text{min}=2700$ s; cộng với $30$ s được $2730$ s."
@@ -458,7 +458,7 @@
       "choices": [
         "61 s",
         "105 s",
-        "729 s",
+        "7290 s",
         "3645 s"
       ],
       "answer": 3,
@@ -5192,13 +5192,13 @@
       "dang": "Đổi đơn vị công",
       "question": "1 kWh bằng bao nhiêu jun (J)?",
       "choices": [
-        "18 J",
-        "1 J",
-        "72 J",
-        "36 J"
+        "360000 J",
+        "1000 J",
+        "3600 J",
+        "3600000 J"
       ],
       "answer": 3,
-      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 1 kWh $=36$ J."
+      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 1 kWh $=3600000$ J."
     },
     {
       "id": "mc-c5-125",
@@ -5208,13 +5208,13 @@
       "dang": "Đổi đơn vị công",
       "question": "2 kWh bằng bao nhiêu jun (J)?",
       "choices": [
-        "36 J",
-        "144 J",
-        "2 J",
-        "72 J"
+        "720000 J",
+        "7200 J",
+        "2000 J",
+        "7200000 J"
       ],
       "answer": 3,
-      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 2 kWh $=72$ J."
+      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 2 kWh $=7200000$ J."
     },
     {
       "id": "mc-c5-126",
@@ -5224,13 +5224,13 @@
       "dang": "Đổi đơn vị công",
       "question": "0,5 kWh bằng bao nhiêu jun (J)?",
       "choices": [
-        "9 J",
-        "5 J",
-        "18 J",
-        "36 J"
+        "180000 J",
+        "500 J",
+        "1800000 J",
+        "1800 J"
       ],
       "answer": 2,
-      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 0,5 kWh $=18$ J."
+      "explanation": "$1\\ \\text{kWh}=1000\\ \\text{W}\\times3600\\ \\text{s}=3{,}6\\times10^6$ J nên 0,5 kWh $=1800000$ J."
     },
     {
       "id": "mc-c5-127",
