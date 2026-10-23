@@ -3,7 +3,7 @@
  * Không phụ thuộc thư viện ngoài nên chạy được cả khi không có mạng.
  *
  * Hỗ trợ:
- *   \frac{a}{b}      phân số
+ *   \frac{a}{b} (cả \dfrac, \tfrac)  phân số
  *   \sqrt{a}         căn bậc hai
  *   \vec{AB}         vectơ (mũi tên phía trên)
  *   \overline{x}     gạch ngang phía trên
@@ -28,7 +28,7 @@ const SYMBOLS = {
   theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', rho: 'ρ', chi: 'χ',
   sigma: 'σ', Sigma: 'Σ', tau: 'τ', phi: 'φ', omega: 'ω', Omega: 'Ω',
   approx: '≈', sim: '~', equiv: '≡', propto: '∝', sum: 'Σ', prod: '∏', int: '∫',
-  ll: '≪', gg: '≫', dots: '…', ldots: '…', cdots: '…',
+  mid: '|', ell: 'ℓ', ll: '≪', gg: '≫', dots: '…', ldots: '…', cdots: '…',
   quad: '&emsp;', qquad: '&emsp;&emsp;',
   left: '', right: '',
   R: 'ℝ', Q: 'ℚ', Z: 'ℤ', N: 'ℕ'
@@ -148,7 +148,7 @@ function transform(src) {
         const name = m[1];
         const afterName = i + m[0].length;
 
-        if (name === 'frac') {
+        if (name === 'frac' || name === 'dfrac' || name === 'tfrac') {
           const g1 = readArg(src, afterName);
           const g2 = g1 && readArg(src, g1.next);
           if (g1 && g2) {

@@ -20,8 +20,8 @@ def build():
             wrong = []
             for w in (A | B, A & B, A - B, B - A, A ^ B, A):
                 if w != r and S(w) not in [S(x) for x in wrong]: wrong.append(w)
-            b.mc(B1, 'nb', f"Phép toán {name}", f"Cho $A={a[1:-1]}$ và $B={bb[1:-1]}$. Tìm $A{sym}B$.", S(r), [S(w) for w in wrong[:3]],
-                 f"{ {'giao':'Giao gồm các phần tử thuộc cả hai tập','hợp':'Hợp gồm các phần tử thuộc ít nhất một trong hai tập','hiệu':'Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$'}[name] }. Ta được $A{sym}B={S(r)[1:-1]}$.")
+            b.mc(B1, 'nb', f"Phép toán {name}", f"Cho $A={a[1:-1]}$ và $B={bb[1:-1]}$. Tìm $A {sym} B$.", S(r), [S(w) for w in wrong[:3]],
+                 f"{ {'giao':'Giao gồm các phần tử thuộc cả hai tập','hợp':'Hợp gồm các phần tử thuộc ít nhất một trong hai tập','hiệu':'Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$'}[name] }. Ta được $A {sym} B={S(r)[1:-1]}$.")
         b.sa(B1, 'th', 'Đếm phần tử của hợp', f"Cho $A={a[1:-1]}$ và $B={bb[1:-1]}$. Tính số phần tử của $A\\cup B$.", len(A | B),
              f"Dùng $n(A\\cup B)=n(A)+n(B)-n(A\\cap B)={len(A)}+{len(B)}-{len(A&B)}={len(A|B)}$.")
     for n in (2, 3, 4, 5):

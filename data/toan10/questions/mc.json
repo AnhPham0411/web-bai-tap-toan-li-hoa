@@ -454,7 +454,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán giao",
-      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A\\capB$.",
+      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A \\cap B$.",
       "choices": [
         "$\\{6, 7\\}$",
         "$\\{1, 2, 3, 4, 5, 6, 7\\}$",
@@ -462,7 +462,7 @@
         "$\\{1, 2\\}$"
       ],
       "answer": 2,
-      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A\\capB=\\{3, 4, 5\\}$."
+      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A \\cap B=\\{3, 4, 5\\}$."
     },
     {
       "id": "mc-c1-102",
@@ -470,7 +470,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hợp",
-      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A\\cupB$.",
+      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A \\cup B$.",
       "choices": [
         "$\\{1, 2, 3, 4, 5, 6, 7\\}$",
         "$\\{3, 4, 5\\}$",
@@ -478,7 +478,7 @@
         "$\\{1, 2\\}$"
       ],
       "answer": 0,
-      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A\\cupB=\\{1, 2, 3, 4, 5, 6, 7\\}$."
+      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A \\cup B=\\{1, 2, 3, 4, 5, 6, 7\\}$."
     },
     {
       "id": "mc-c1-103",
@@ -486,7 +486,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hiệu",
-      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A\\setminusB$.",
+      "question": "Cho $A=\\{1, 2, 3, 4, 5\\}$ và $B=\\{3, 4, 5, 6, 7\\}$. Tìm $A \\setminus B$.",
       "choices": [
         "$\\{1, 2, 3, 4, 5, 6, 7\\}$",
         "$\\{6, 7\\}$",
@@ -494,7 +494,7 @@
         "$\\{1, 2\\}$"
       ],
       "answer": 3,
-      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A\\setminusB=\\{1, 2\\}$."
+      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A \\setminus B=\\{1, 2\\}$."
     },
     {
       "id": "mc-c1-104",
@@ -502,7 +502,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán giao",
-      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A\\capB$.",
+      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A \\cap B$.",
       "choices": [
         "$\\{2, 4\\}$",
         "$\\{1, 3, 5\\}$",
@@ -510,7 +510,7 @@
         "$\\{1, 2, 3, 4, 5, 7, 9\\}$"
       ],
       "answer": 1,
-      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A\\capB=\\{1, 3, 5\\}$."
+      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A \\cap B=\\{1, 3, 5\\}$."
     },
     {
       "id": "mc-c1-105",
@@ -518,7 +518,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hợp",
-      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A\\cupB$.",
+      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A \\cup B$.",
       "choices": [
         "$\\{7, 9\\}$",
         "$\\{1, 3, 5\\}$",
@@ -526,7 +526,7 @@
         "$\\{2, 4\\}$"
       ],
       "answer": 2,
-      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A\\cupB=\\{1, 2, 3, 4, 5, 7, 9\\}$."
+      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A \\cup B=\\{1, 2, 3, 4, 5, 7, 9\\}$."
     },
     {
       "id": "mc-c1-106",
@@ -534,7 +534,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hiệu",
-      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A\\setminusB$.",
+      "question": "Cho $A=\\{1, 3, 5, 7, 9\\}$ và $B=\\{1, 2, 3, 4, 5\\}$. Tìm $A \\setminus B$.",
       "choices": [
         "$\\{1, 3, 5\\}$",
         "$\\{7, 9\\}$",
@@ -542,7 +542,7 @@
         "$\\{1, 2, 3, 4, 5, 7, 9\\}$"
       ],
       "answer": 1,
-      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A\\setminusB=\\{7, 9\\}$."
+      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A \\setminus B=\\{7, 9\\}$."
     },
     {
       "id": "mc-c1-107",
@@ -550,7 +550,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán giao",
-      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A\\capB$.",
+      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A \\cap B$.",
       "choices": [
         "$\\{2, 4\\}$",
         "$\\{6, 8\\}$",
@@ -558,7 +558,7 @@
         "$\\{1, 2, 3, 4, 6, 8\\}$"
       ],
       "answer": 0,
-      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A\\capB=\\{2, 4\\}$."
+      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A \\cap B=\\{2, 4\\}$."
     },
     {
       "id": "mc-c1-108",
@@ -566,7 +566,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hợp",
-      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A\\cupB$.",
+      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A \\cup B$.",
       "choices": [
         "$\\{1, 2, 3, 4, 6, 8\\}$",
         "$\\{6, 8\\}$",
@@ -574,7 +574,7 @@
         "$\\{1, 3\\}$"
       ],
       "answer": 0,
-      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A\\cupB=\\{1, 2, 3, 4, 6, 8\\}$."
+      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A \\cup B=\\{1, 2, 3, 4, 6, 8\\}$."
     },
     {
       "id": "mc-c1-109",
@@ -582,7 +582,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hiệu",
-      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A\\setminusB$.",
+      "question": "Cho $A=\\{2, 4, 6, 8\\}$ và $B=\\{1, 2, 3, 4\\}$. Tìm $A \\setminus B$.",
       "choices": [
         "$\\{2, 4\\}$",
         "$\\{1, 3\\}$",
@@ -590,7 +590,7 @@
         "$\\{6, 8\\}$"
       ],
       "answer": 3,
-      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A\\setminusB=\\{6, 8\\}$."
+      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A \\setminus B=\\{6, 8\\}$."
     },
     {
       "id": "mc-c1-110",
@@ -598,7 +598,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán giao",
-      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A\\capB$.",
+      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A \\cap B$.",
       "choices": [
         "$\\{0, 1\\}$",
         "$\\{0, 1, 2, 3, 4, 5, 6\\}$",
@@ -606,7 +606,7 @@
         "$\\{2, 3\\}$"
       ],
       "answer": 3,
-      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A\\capB=\\{2, 3\\}$."
+      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A \\cap B=\\{2, 3\\}$."
     },
     {
       "id": "mc-c1-111",
@@ -614,7 +614,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hợp",
-      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A\\cupB$.",
+      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A \\cup B$.",
       "choices": [
         "$\\{0, 1\\}$",
         "$\\{2, 3\\}$",
@@ -622,7 +622,7 @@
         "$\\{4, 5, 6\\}$"
       ],
       "answer": 2,
-      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A\\cupB=\\{0, 1, 2, 3, 4, 5, 6\\}$."
+      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A \\cup B=\\{0, 1, 2, 3, 4, 5, 6\\}$."
     },
     {
       "id": "mc-c1-112",
@@ -630,7 +630,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hiệu",
-      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A\\setminusB$.",
+      "question": "Cho $A=\\{0, 1, 2, 3\\}$ và $B=\\{2, 3, 4, 5, 6\\}$. Tìm $A \\setminus B$.",
       "choices": [
         "$\\{0, 1\\}$",
         "$\\{2, 3\\}$",
@@ -638,7 +638,7 @@
         "$\\{0, 1, 2, 3, 4, 5, 6\\}$"
       ],
       "answer": 0,
-      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A\\setminusB=\\{0, 1\\}$."
+      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A \\setminus B=\\{0, 1\\}$."
     },
     {
       "id": "mc-c1-113",
@@ -646,7 +646,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán giao",
-      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A\\capB$.",
+      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A \\cap B$.",
       "choices": [
         "$\\{6, 10\\}$",
         "$\\{2, 4, 8\\}$",
@@ -654,7 +654,7 @@
         "$\\{1, 2, 4, 6, 8, 10\\}$"
       ],
       "answer": 1,
-      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A\\capB=\\{2, 4, 8\\}$."
+      "explanation": "Giao gồm các phần tử thuộc cả hai tập. Ta được $A \\cap B=\\{2, 4, 8\\}$."
     },
     {
       "id": "mc-c1-114",
@@ -662,7 +662,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hợp",
-      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A\\cupB$.",
+      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A \\cup B$.",
       "choices": [
         "$\\{1, 2, 4, 6, 8, 10\\}$",
         "$\\{2, 4, 8\\}$",
@@ -670,7 +670,7 @@
         "$\\{6, 10\\}$"
       ],
       "answer": 0,
-      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A\\cupB=\\{1, 2, 4, 6, 8, 10\\}$."
+      "explanation": "Hợp gồm các phần tử thuộc ít nhất một trong hai tập. Ta được $A \\cup B=\\{1, 2, 4, 6, 8, 10\\}$."
     },
     {
       "id": "mc-c1-115",
@@ -678,7 +678,7 @@
       "lesson": "b1",
       "level": "nb",
       "dang": "Phép toán hiệu",
-      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A\\setminusB$.",
+      "question": "Cho $A=\\{1, 2, 4, 8\\}$ và $B=\\{2, 4, 6, 8, 10\\}$. Tìm $A \\setminus B$.",
       "choices": [
         "$\\{6, 10\\}$",
         "$\\{1, 2, 4, 6, 8, 10\\}$",
@@ -686,7 +686,7 @@
         "$\\{1\\}$"
       ],
       "answer": 3,
-      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A\\setminusB=\\{1\\}$."
+      "explanation": "Hiệu $A\\setminus B$ gồm các phần tử thuộc $A$ nhưng không thuộc $B$. Ta được $A \\setminus B=\\{1\\}$."
     },
     {
       "id": "mc-c1-116",
